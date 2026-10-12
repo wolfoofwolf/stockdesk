@@ -1,27 +1,26 @@
 {
-  "generatedAt": "2026-10-12T15:25:34.000Z",
+  "generatedAt": "2026-10-12T15:27:37.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-12 23:25 HKT",
+  "asOfHKT": "2026-10-12 23:27 HKT",
   "pipeline": {
     "candidates": 484,
     "techPassed": 344,
-    "company": 312,
-    "leaders": 76,
-    "entry": 73,
-    "entryConsider": 67,
+    "company": 344,
+    "leaders": 85,
+    "entry": 85,
+    "entryConsider": 80,
     "anchor": "Grok techPass (pattern+pivot+≤6%)",
-    "downstreamStale": true
+    "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-12 23:25 HKT】\n錨 Grok techPass **344**（候選 484；484 全量定案）\n下游暫舊：公司 312／領導 76／進場 73（可考慮 67）— 等 @Jrok／@Arok 跟 **344**\nCPI 10/14 · [StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=en1)",
+  "summaryTw": "【總司令｜2026-10-12 23:27 HKT】\n錨 techPass **344**（候選 484）→ 公司 344 → 領導 85 → 進場 85（可考慮 80／觀望 5）\nCPI 10/14 · [StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=en1)",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=en1",
-    "tech": "https://wolfoofwolf.github.io/stockdesk/data/tech-scan-latest.json"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=en1"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-12 23:25 HKT",
-      "msg": "Anchor → techPass 344; company/entry still on prior gate"
+      "t": "2026-10-12 23:27 HKT",
+      "msg": "Pushed entry 85 aligned to techPass 344"
     }
   ]
 }
