@@ -5,20 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <title>StockDesk · 六項流水線</title>
-  <link rel="stylesheet" href="css/app.css?v=bw2" />
+  <link rel="stylesheet" href="css/app.css?v=clean1" />
 </head>
 <body class="fx-root">
   <header>
-    <div>
+    <div class="brand">
       <h1>STOCKDESK</h1>
-      <div class="sub">六項流水線 · 即時同步 · 每步可見思考 log</div>
-      <div class="sub" style="margin-top:6px;display:flex;gap:10px;flex-wrap:wrap;align-items:center">
-        <label style="display:flex;gap:6px;align-items:center;cursor:pointer">
-          <input id="live-sync-toggle" type="checkbox" checked /> 即時同步
-        </label>
-        <button id="btn-live-refresh" type="button">立即刷新全部</button>
-        <span class="muted" id="live-sync-status">同步：尚未啟動</span>
-      </div>
+      <div class="sub">六項流水線 · 即時同步</div>
     </div>
     <nav>
       <button data-panel="overview" class="active">總覽</button>
@@ -30,12 +23,17 @@
       <button data-panel="commander">⑥ 總司令</button>
       <button data-panel="logs">思考 Log</button>
     </nav>
+    <div class="sync-bar">
+      <label><input id="live-sync-toggle" type="checkbox" checked /> 即時同步</label>
+      <button id="btn-live-refresh" type="button">立即刷新全部</button>
+      <span id="live-sync-status">同步：尚未啟動</span>
+    </div>
   </header>
   <div class="layout">
     <aside>
       <h3>BOT 陣容</h3>
       <div id="bot-list"></div>
-      <p class="muted">綠＝已接檔 · 黃＝等交檔</p>
+      <p class="muted">已接檔／等交檔</p>
     </aside>
     <main>
       <section class="panel active" data-panel="overview">
@@ -47,15 +45,14 @@
           <div class="card">公司報告<b id="kpi-co">—</b></div>
           <div class="card">進場計劃<b id="kpi-entry">—</b></div>
         </div>
-        <div class="kpi" style="margin-top:8px">
+        <div class="kpi rules">
           <div class="card">預設篩選<b>市值 3B–2T</b></div>
           <div class="card">成交量（1M）<b>1M–500M</b></div>
           <div class="card">均線<b>價格 &gt; SMA30</b></div>
           <div class="card">止損上限<b>6%</b></div>
         </div>
-        <p class="muted" style="margin-top:12px"><strong>點睇得到更新：</strong>必須用 HTTP 開（唔好雙擊 HTML）。解壓後喺 <code>stockdesk/</code> 目錄執行 <code>python3 -m http.server 8765</code>，再用瀏覽器開 <code>http://127.0.0.1:8765/</code>。然後撳上面 ①～⑥ 面板；圖喺<strong>② 技術</strong>（點一列就出 C1–C3 圖），公司報告喺<strong>③</strong>。</p>
-        <p class="muted">「即時同步」只會更新<strong>同一個伺服器目錄</strong>入面嘅 JSON。你本機解壓嘅 tar 係快照——我哋喺 Bot 電腦覆寫檔案唔會自動改到你本機。要最新內容請重新下載完整包，或睇 Bot 電腦上嘅 <code>http://127.0.0.1:8765/</code>。</p>
-        <div id="overview-live" class="muted" style="margin-top:10px;white-space:pre-wrap"></div>
+        <p class="muted help">圖喺 <strong>② 技術</strong>（點一列）；公司報告喺 <strong>③</strong>。公開站係快照，更新後請硬刷新。</p>
+        <div id="overview-live" class="muted help" style="white-space:pre-wrap"></div>
       </section>
 
       <section class="panel" data-panel="screener">
