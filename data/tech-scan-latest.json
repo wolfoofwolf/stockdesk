@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T01:59:20.454606Z",
+  "generatedAt": "2026-10-12T02:43:48.943496Z",
   "bot": "Grok",
   "role": "技術分析＋兄弟姊妹股／板塊",
   "asOfMarket": "2026-10-09",
@@ -121,7 +121,7 @@
           "note": "高點抬高"
         }
       ],
-      "chartPath": "data/charts/HPE_scan_VCP.png",
+      "chartPath": "data/charts/HPE_scan_VCP.svg",
       "barsUsed": 444,
       "dataSource": "yfinance",
       "summaryTw": "HPE（HPE） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 19.1% → C2 18.1% → C3 6.4%\nPivot／突破位：$73.56（2026-10-09）\n收市：$73.46；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈60.76）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：Hardware／XLK",
@@ -259,7 +259,7 @@
           "note": "高點抬高"
         }
       ],
-      "chartPath": "data/charts/PLTR_scan_VCP.png",
+      "chartPath": "data/charts/PLTR_scan_VCP.svg",
       "barsUsed": 444,
       "dataSource": "yfinance",
       "summaryTw": "PLTR（Palantir） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 8.1% → C2 6.3% → C3 5.8%\nPivot／突破位：$209.58（2026-10-09）\n收市：$209.05；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈183.06）\n趨勢線：低點降低；高點抬高\n主題／ETF：Software service／IGV",
@@ -416,7 +416,7 @@
           "note": "高點抬高"
         }
       ],
-      "chartPath": "data/charts/ANET_scan_VCP.png",
+      "chartPath": "data/charts/ANET_scan_VCP.svg",
       "barsUsed": 444,
       "dataSource": "yfinance",
       "summaryTw": "ANET（Arista） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 13.5% → C2 12.1% → C3 6.4%\nPivot／突破位：$217.41（2026-10-09）\n收市：$216.74；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈200.69）\n趨勢線：低點降低；高點抬高\n主題／ETF：光通信／IGV",
@@ -573,7 +573,7 @@
           "note": "高點抬高"
         }
       ],
-      "chartPath": null,
+      "chartPath": "data/charts/ISRG_scan_VCP.svg",
       "barsUsed": 444,
       "dataSource": "yfinance",
       "summaryTw": "ISRG（Intuitive Surgical） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 15.6% → C2 9.4% → C3 7.5%\nPivot／突破位：$427.53（2026-10-09）\n收市：$423.96；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈389.1）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：醫療／XLV",
@@ -1416,7 +1416,7 @@
           "note": "高點抬高"
         }
       ],
-      "chartPath": null,
+      "chartPath": "data/charts/NVDA_scan_VCP.svg",
       "barsUsed": 444,
       "dataSource": "yfinance",
       "summaryTw": "NVDA（NVIDIA） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 11.4% → C2 9.1% → C3 6.7%\nPivot／突破位：$243.37（2026-10-06）\n收市：$229.28；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈225.26）\n趨勢線：低點降低；高點抬高\n主題／ETF：半導體／SOX",
@@ -1711,7 +1711,7 @@
           "note": "高點抬高"
         }
       ],
-      "chartPath": null,
+      "chartPath": "data/charts/AMD_scan_VCP.svg",
       "barsUsed": 444,
       "dataSource": "yfinance",
       "summaryTw": "AMD（AMD） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 10.3% → C2 8.8% → C3 6.7%\nPivot／突破位：$658.52（2026-10-06）\n收市：$608.1；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈559.82）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：半導體／SOX",
@@ -2731,9 +2731,12 @@
     }
   ],
   "charts": [
-    "data/charts/HPE_scan_VCP.png",
-    "data/charts/PLTR_scan_VCP.png",
-    "data/charts/ANET_scan_VCP.png"
+    "data/charts/HPE_scan_VCP.svg",
+    "data/charts/PLTR_scan_VCP.svg",
+    "data/charts/ANET_scan_VCP.svg",
+    "data/charts/NVDA_scan_VCP.svg",
+    "data/charts/AMD_scan_VCP.svg",
+    "data/charts/ISRG_scan_VCP.svg"
   ],
   "topSetups": [
     {
@@ -2751,7 +2754,7 @@
         "SMCI"
       ],
       "summaryTw": "HPE（HPE） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 19.1% → C2 18.1% → C3 6.4%\nPivot／突破位：$73.56（2026-10-09）\n收市：$73.46；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈60.76）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：Hardware／XLK",
-      "chartPath": "data/charts/HPE_scan_VCP.png",
+      "chartPath": "data/charts/HPE_scan_VCP.svg",
       "inScreenerPass": true,
       "contractions": [
         {
@@ -2795,7 +2798,7 @@
         "ORCL"
       ],
       "summaryTw": "PLTR（Palantir） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 8.1% → C2 6.3% → C3 5.8%\nPivot／突破位：$209.58（2026-10-09）\n收市：$209.05；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈183.06）\n趨勢線：低點降低；高點抬高\n主題／ETF：Software service／IGV",
-      "chartPath": "data/charts/PLTR_scan_VCP.png",
+      "chartPath": "data/charts/PLTR_scan_VCP.svg",
       "inScreenerPass": true,
       "contractions": [
         {
@@ -2839,7 +2842,7 @@
         "TSM"
       ],
       "summaryTw": "ANET（Arista） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 13.5% → C2 12.1% → C3 6.4%\nPivot／突破位：$217.41（2026-10-09）\n收市：$216.74；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈200.69）\n趨勢線：低點降低；高點抬高\n主題／ETF：光通信／IGV",
-      "chartPath": "data/charts/ANET_scan_VCP.png",
+      "chartPath": "data/charts/ANET_scan_VCP.svg",
       "inScreenerPass": true,
       "contractions": [
         {
@@ -2883,7 +2886,7 @@
         "PFE"
       ],
       "summaryTw": "ISRG（Intuitive Surgical） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 15.6% → C2 9.4% → C3 7.5%\nPivot／突破位：$427.53（2026-10-09）\n收市：$423.96；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈389.1）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：醫療／XLV",
-      "chartPath": null,
+      "chartPath": "data/charts/ISRG_scan_VCP.svg",
       "inScreenerPass": true,
       "contractions": [
         {
@@ -2976,5 +2979,6 @@
       "MSTR"
     ],
     "scannedOutOfPass": []
-  }
+  },
+  "chartNote": "Candlestick VCP (Frok NOW style): dark bg, teal/red candles, white zigzag, yellow C1–C3, blue pivot; SVG for Pages"
 }
