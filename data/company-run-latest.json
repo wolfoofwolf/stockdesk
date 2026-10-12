@@ -1,0 +1,791 @@
+{
+  "generatedAt": "2026-10-11T14:15:16.629Z",
+  "asOf": "2026-10-11",
+  "bot": "Jrok",
+  "role": "公司分析報告",
+  "note": "對齊 Grok 技術前排＋AXTI 種子；電話會議細節標待補。覆寫本檔可供 15 秒即時同步。",
+  "count": 7,
+  "reports": [
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks, Inc.",
+      "theme": "光通信",
+      "etf": "IGV",
+      "asOf": "2026-10-11",
+      "valueChain": {
+        "position": "下游",
+        "detail": "資料中心交換器／網路設備，屬基礎設施硬體偏下游（對終端雲客戶出貨）。"
+      },
+      "moat": {
+        "level": "高",
+        "detail": "高轉換成本＋雲巨頭深度綁定；乙太網交換市佔領先。"
+      },
+      "leadership": {
+        "ticker": "ANET",
+        "isLeader": true,
+        "score": 10,
+        "why": [
+          "RS≥80",
+          "主題／產業領導",
+          "高護城河",
+          "EPS YoY≥25%",
+          "銷售 YoY≥20%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      },
+      "missingFields": [],
+      "textTw": "公司概覽\nArista Networks, Inc. (ANET) 概覽\nArista Networks, Inc. engages in the development, marketing, and sale of data-driven, client to cloud networking solutions for AI, data center, campus, and routing environments in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. Its cloud networking solutions consist of Extensible Operating System (EOS), a publish-subscribe state-sharing networking operating system offered in combination with a set of network applications. The company offers data center, cloud and AI networking, cognitive adjacencies, and cognitive network software and services. It also provides post contract customer support services, such as technical support, hardware repair and replacement parts beyond standard warranty, bug fixes, patches, and upgrade services. The company serves a range of industries comprising internet companies, cloud service providers, financial services organizations, govern\n\n（本輪由 Yahoo／公開摘要＋技術掃描對齊自動產出；電話會議細節標待補，避免捏造。）\n\n關鍵統計數據\n• 股價（近）：$216.74\n• 市值：273.36B USD\n• P/E (TTM)：68.4\n• Forward P/E：41.5\n• 收入成長（Yahoo revenueGrowth）：37.7%\n• 盈利成長（Yahoo earningsGrowth）：35.7%\n• 毛利率：63.0%\n• 淨利率：38.4%\n• 員工人數：5115\n• 分析師目標均價：$243.69\n\n地理市場及收入分佈\n地區／產品拆分待補（需 10-K／最新財報附註）。國家：United States；官網：https://www.arista.com\n\n最新業績電話會議（含關鍵結果、管理層評論、指引、投資者要點）\n最新電話會議逐字重點待補。下一輪會接入 IR／transcript 後覆寫。\n\n收入來源及業務模式深入分析\n1. 收入來源及產品\n• 主業：Computer Hardware\n• 摘要見公司概覽\n\n業務模式：Technology\n\n2. 成長驅動因素\n• 對齊主題：光通信\n• 技術形態：VCP\n\n3. 客戶集中度\n客戶集中度待補（10-K）。\n\n競爭格局與壟斷性分析\nComputer Hardware\n\n主要競爭者：\n• 同主題篩選通過名單（見 Frok／Grok 掃描）\n\n優勢：\n• 市值規模 273.36B USD\n• 產業：Computer Hardware\n\n壟斷性評估：高轉換成本＋雲巨頭深度綁定；乙太網交換市佔領先。\n\n主要挑戰與應對策略\n• 估值／利率敏感 → 應對：以領導股＋形態確認後再進場（交 Arok，止損≤6%）\n• 競爭與產品週期 → 應對：追蹤財報指引與 backlog／訂閱指標（待補）\n\n風險因素與催化劑\n風險：\n• 宏觀（CPI／FOMC）波動\n• 競爭加劇\n• 估值回撤\n\n催化劑：\n• 主題需求（光通信）\n• 技術突破 pivot（現價 216.74／pivot 217.41）\n• 財報超預期（待補）\n\n戰略舉措\n• 維持產品／平台領先\n• 擴張主題需求份額\n• 資本配置待補\n\n資料來源\n• Yahoo Finance quote/info（2026-10-11）\n• StockDesk tech-scan-latest.json\n• 公司官網 https://www.arista.com\n\n最後回答\n他是屬於上游還是下游的公司？\n下游——資料中心交換器／網路設備，屬基礎設施硬體偏下游（對終端雲客戶出貨）。\n有沒有高護城河？\n高——高轉換成本＋雲巨頭深度綁定；乙太網交換市佔領先。\n\n【領導股判斷｜交 Arok 進場策略】\n是領導股候選（score 10）\n理由：RS≥80；主題／產業領導；高護城河；EPS YoY≥25%；銷售 YoY≥20%；接近／指引轉盈；技術形態=VCP\n屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）",
+      "price": 216.74,
+      "marketCap": 273357848576
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical, Inc.",
+      "theme": "醫療",
+      "etf": "IHI",
+      "asOf": "2026-10-11",
+      "valueChain": {
+        "position": "下游",
+        "detail": "手術機器人整機＋耗材服務，接近醫院終端，屬醫療器械下游。"
+      },
+      "moat": {
+        "level": "高",
+        "detail": "da Vinci 生態與醫生訓練構成高 switching cost。"
+      },
+      "leadership": {
+        "ticker": "ISRG",
+        "isLeader": true,
+        "score": 9,
+        "why": [
+          "RS≥80",
+          "主題／產業領導",
+          "高護城河",
+          "EPS YoY≥25%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      },
+      "missingFields": [],
+      "textTw": "公司概覽\nIntuitive Surgical, Inc. (ISRG) 概覽\nIntuitive Surgical, Inc. develops, manufactures, and markets products that enable physicians and healthcare providers to enhance the quality of and access to minimally invasive care in the United States and internationally. It offers the da Vinci Surgical System that enables surgical procedures using a minimally invasive approach; and Ion endoluminal system, which extends its commercial offerings beyond surgery into diagnostic endoluminal procedures enabling minimally invasive biopsies in the lung. The company also provides a suite of stapling, energy, and core instrumentation for its multi-port da Vinci surgical systems; progressive learning pathways to support the use of its technology; infrastructure of customer service and support specialists, a complement of services to its customers, including installation, repair, maintenance, 24/7 technical support, and proactive system health mo\n\n（本輪由 Yahoo／公開摘要＋技術掃描對齊自動產出；電話會議細節標待補，避免捏造。）\n\n關鍵統計數據\n• 股價（近）：$423.96\n• 市值：149.78B USD\n• P/E (TTM)：47.6\n• Forward P/E：35.0\n• 收入成長（Yahoo revenueGrowth）：18.5%\n• 盈利成長（Yahoo earningsGrowth）：26.5%\n• 毛利率：66.7%\n• 淨利率：28.4%\n• 員工人數：17021\n• 分析師目標均價：$478.1\n\n地理市場及收入分佈\n地區／產品拆分待補（需 10-K／最新財報附註）。國家：United States；官網：https://www.intuitive.com\n\n最新業績電話會議（含關鍵結果、管理層評論、指引、投資者要點）\n最新電話會議逐字重點待補。下一輪會接入 IR／transcript 後覆寫。\n\n收入來源及業務模式深入分析\n1. 收入來源及產品\n• 主業：Medical Instruments & Supplies\n• 摘要見公司概覽\n\n業務模式：Healthcare\n\n2. 成長驅動因素\n• 對齊主題：醫療\n• 技術形態：VCP\n\n3. 客戶集中度\n客戶集中度待補（10-K）。\n\n競爭格局與壟斷性分析\nMedical Instruments & Supplies\n\n主要競爭者：\n• 同主題篩選通過名單（見 Frok／Grok 掃描）\n\n優勢：\n• 市值規模 149.78B USD\n• 產業：Medical Instruments & Supplies\n\n壟斷性評估：da Vinci 生態與醫生訓練構成高 switching cost。\n\n主要挑戰與應對策略\n• 估值／利率敏感 → 應對：以領導股＋形態確認後再進場（交 Arok，止損≤6%）\n• 競爭與產品週期 → 應對：追蹤財報指引與 backlog／訂閱指標（待補）\n\n風險因素與催化劑\n風險：\n• 宏觀（CPI／FOMC）波動\n• 競爭加劇\n• 估值回撤\n\n催化劑：\n• 主題需求（醫療）\n• 技術突破 pivot（現價 423.96／pivot 427.53）\n• 財報超預期（待補）\n\n戰略舉措\n• 維持產品／平台領先\n• 擴張主題需求份額\n• 資本配置待補\n\n資料來源\n• Yahoo Finance quote/info（2026-10-11）\n• StockDesk tech-scan-latest.json\n• 公司官網 https://www.intuitive.com\n\n最後回答\n他是屬於上游還是下游的公司？\n下游——手術機器人整機＋耗材服務，接近醫院終端，屬醫療器械下游。\n有沒有高護城河？\n高——da Vinci 生態與醫生訓練構成高 switching cost。\n\n【領導股判斷｜交 Arok 進場策略】\n是領導股候選（score 9）\n理由：RS≥80；主題／產業領導；高護城河；EPS YoY≥25%；接近／指引轉盈；技術形態=VCP\n屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）",
+      "price": 423.96,
+      "marketCap": 149775761408
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "asOf": "2026-10-11",
+      "valueChain": {
+        "position": "下游",
+        "detail": "企業資安平台／訂閱服務，直接服務企業資安採購，屬軟體下游。"
+      },
+      "moat": {
+        "level": "高",
+        "detail": "平台化平台＋大量安裝基礎。"
+      },
+      "leadership": {
+        "ticker": "PANW",
+        "isLeader": true,
+        "score": 9,
+        "why": [
+          "RS≥80",
+          "主題／產業領導",
+          "高護城河",
+          "銷售 YoY≥20%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      },
+      "missingFields": [],
+      "textTw": "公司概覽\nPalo Alto Networks, Inc. (PANW) 概覽\nPalo Alto Networks, Inc. provides cybersecurity solutions in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan. It offers Prisma Access, a secure access service edge solution; Strata Cloud Manager, a network security management solution; and Prisma AIRS to protect customers' entire AI ecosystem. It provides a comprehensive cloud native application protection platform; and Code to Cloud platform, as well as offers VM-Series and CN-Series virtual firewalls for inline network security on multi- and hybrid-cloud environments. It provides security operation solutions through the Cortex platform that includes Cortex XSIAM, an AI-driven security operations platform; Cortex XDR to prevent, detect, and respond to cybersecurity attacks; and Cortex XSOAR for security orchestration, automation, and response; and Cortex Xpanse for attack surface management, as well as offers \n\n（本輪由 Yahoo／公開摘要＋技術掃描對齊自動產出；電話會議細節標待補，避免捏造。）\n\n關鍵統計數據\n• 股價（近）：$418.78\n• 市值：342.56B USD\n• P/E (TTM)：1047.0\n• Forward P/E：85.8\n• 收入成長（Yahoo revenueGrowth）：34.5%\n• 盈利成長（Yahoo earningsGrowth）：待補\n• 毛利率：70.4%\n• 淨利率：2.7%\n• 員工人數：21921\n• 分析師目標均價：$396.92\n\n地理市場及收入分佈\n地區／產品拆分待補（需 10-K／最新財報附註）。國家：United States；官網：https://www.paloaltonetworks.com\n\n最新業績電話會議（含關鍵結果、管理層評論、指引、投資者要點）\n最新電話會議逐字重點待補。下一輪會接入 IR／transcript 後覆寫。\n\n收入來源及業務模式深入分析\n1. 收入來源及產品\n• 主業：Software - Infrastructure\n• 摘要見公司概覽\n\n業務模式：Technology\n\n2. 成長驅動因素\n• 對齊主題：Cyber security\n• 技術形態：VCP\n\n3. 客戶集中度\n客戶集中度待補（10-K）。\n\n競爭格局與壟斷性分析\nSoftware - Infrastructure\n\n主要競爭者：\n• 同主題篩選通過名單（見 Frok／Grok 掃描）\n\n優勢：\n• 市值規模 342.56B USD\n• 產業：Software - Infrastructure\n\n壟斷性評估：平台化平台＋大量安裝基礎。\n\n主要挑戰與應對策略\n• 估值／利率敏感 → 應對：以領導股＋形態確認後再進場（交 Arok，止損≤6%）\n• 競爭與產品週期 → 應對：追蹤財報指引與 backlog／訂閱指標（待補）\n\n風險因素與催化劑\n風險：\n• 宏觀（CPI／FOMC）波動\n• 競爭加劇\n• 估值回撤\n\n催化劑：\n• 主題需求（Cyber security）\n• 技術突破 pivot（現價 418.78／pivot 432.33）\n• 財報超預期（待補）\n\n戰略舉措\n• 維持產品／平台領先\n• 擴張主題需求份額\n• 資本配置待補\n\n資料來源\n• Yahoo Finance quote/info（2026-10-11）\n• StockDesk tech-scan-latest.json\n• 公司官網 https://www.paloaltonetworks.com\n\n最後回答\n他是屬於上游還是下游的公司？\n下游——企業資安平台／訂閱服務，直接服務企業資安採購，屬軟體下游。\n有沒有高護城河？\n高——平台化平台＋大量安裝基礎。\n\n【領導股判斷｜交 Arok 進場策略】\n是領導股候選（score 9）\n理由：RS≥80；主題／產業領導；高護城河；銷售 YoY≥20%；接近／指引轉盈；技術形態=VCP\n屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）",
+      "price": 418.78,
+      "marketCap": 342562045952
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "theme": "半導體",
+      "etf": "SOX",
+      "asOf": "2026-10-11",
+      "valueChain": {
+        "position": "中游偏上游",
+        "detail": "AI GPU／加速器設計（fabless），代工在 TSMC；對雲／OEM 出貨，產業鏈中上。"
+      },
+      "moat": {
+        "level": "高",
+        "detail": "CUDA 生態壟斷性強。"
+      },
+      "leadership": {
+        "ticker": "NVDA",
+        "isLeader": true,
+        "score": 10,
+        "why": [
+          "RS≥80",
+          "主題／產業領導",
+          "高護城河",
+          "EPS YoY≥25%",
+          "銷售 YoY≥20%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      },
+      "missingFields": [],
+      "textTw": "公司概覽\nNVIDIA Corporation (NVDA) 概覽\nNVIDIA Corporation operates as a data center scale AI infrastructure company in the United States, Taiwan, China, Hong Kong, Europe, and internationally. It operates through Compute & Networking, and Graphics segments. The Compute & Networking segment provides data center accelerated computing and networking platforms and artificial intelligence solutions and software, and automotive platforms and autonomous and electric vehicle solutions, including software. The Graphics segment offers GeForce GPUs for gaming and PCs; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics. The company's products are used in gaming, professional visualization, data center, and automotive markets. It sells its products to original equipment manufacturers, original device manufacturers, system integrators and distributors, independent software vendors, cloud service providers, add-in board manufacturer\n\n（本輪由 Yahoo／公開摘要＋技術掃描對齊自動產出；電話會議細節標待補，避免捏造。）\n\n關鍵統計數據\n• 股價（近）：$229.28\n• 市值：5536.42B USD\n• P/E (TTM)：29.0\n• Forward P/E：14.4\n• 收入成長（Yahoo revenueGrowth）：105.9%\n• 盈利成長（Yahoo earningsGrowth）：127.8%\n• 毛利率：74.7%\n• 淨利率：63.7%\n• 員工人數：42000\n• 分析師目標均價：$328.71695\n\n地理市場及收入分佈\n地區／產品拆分待補（需 10-K／最新財報附註）。國家：United States；官網：https://www.nvidia.com\n\n最新業績電話會議（含關鍵結果、管理層評論、指引、投資者要點）\n最新電話會議逐字重點待補。下一輪會接入 IR／transcript 後覆寫。\n\n收入來源及業務模式深入分析\n1. 收入來源及產品\n• 主業：Semiconductors\n• 摘要見公司概覽\n\n業務模式：Technology\n\n2. 成長驅動因素\n• 對齊主題：半導體\n• 技術形態：VCP\n\n3. 客戶集中度\n客戶集中度待補（10-K）。\n\n競爭格局與壟斷性分析\nSemiconductors\n\n主要競爭者：\n• 同主題篩選通過名單（見 Frok／Grok 掃描）\n\n優勢：\n• 市值規模 5536.42B USD\n• 產業：Semiconductors\n\n壟斷性評估：CUDA 生態壟斷性強。\n\n主要挑戰與應對策略\n• 估值／利率敏感 → 應對：以領導股＋形態確認後再進場（交 Arok，止損≤6%）\n• 競爭與產品週期 → 應對：追蹤財報指引與 backlog／訂閱指標（待補）\n\n風險因素與催化劑\n風險：\n• 宏觀（CPI／FOMC）波動\n• 競爭加劇\n• 估值回撤\n\n催化劑：\n• 主題需求（半導體）\n• 技術突破 pivot（現價 229.28／pivot 243.37）\n• 財報超預期（待補）\n\n戰略舉措\n• 維持產品／平台領先\n• 擴張主題需求份額\n• 資本配置待補\n\n資料來源\n• Yahoo Finance quote/info（2026-10-11）\n• StockDesk tech-scan-latest.json\n• 公司官網 https://www.nvidia.com\n\n最後回答\n他是屬於上游還是下游的公司？\n中游偏上游——AI GPU／加速器設計（fabless），代工在 TSMC；對雲／OEM 出貨，產業鏈中上。\n有沒有高護城河？\n高——CUDA 生態壟斷性強。\n\n【領導股判斷｜交 Arok 進場策略】\n是領導股候選（score 10）\n理由：RS≥80；主題／產業領導；高護城河；EPS YoY≥25%；銷售 YoY≥20%；接近／指引轉盈；技術形態=VCP\n屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）",
+      "price": 229.28,
+      "marketCap": 5536424132608
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "theme": "Software service",
+      "etf": "IGV",
+      "asOf": "2026-10-11",
+      "valueChain": {
+        "position": "下游",
+        "detail": "企業工作流 SaaS，直接服務企業 IT，屬軟體下游。"
+      },
+      "moat": {
+        "level": "高",
+        "detail": "工作流平台黏性高。"
+      },
+      "leadership": {
+        "ticker": "NOW",
+        "isLeader": true,
+        "score": 9,
+        "why": [
+          "RS≥80",
+          "主題／產業領導",
+          "高護城河",
+          "銷售 YoY≥20%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      },
+      "missingFields": [],
+      "textTw": "公司概覽\nServiceNow, Inc. (NOW) 概覽\nServiceNow, Inc. provides cloud-based solution for digital workflows in the North America, Brazil, Europe, the Middle East and Africa, Asia Pacific, and internationally. The company provides asset management, integrated risk management, IT service management, Operational Technology management, Security Operations, strategic portfolio management, IT operations management products; customer service management product; field service management applications; and sales and order management services. It also offers human resources delivery; legal and contract operations; workplace service delivery products; app engine product; automation engine; platform privacy and security product; and source-to-pay operations. In addition, the company provides RaptorDB, a database built to manage workloads at scale; ServiceNow Impact that provides customers with software tools, guided plans, and AI-driven r\n\n（本輪由 Yahoo／公開摘要＋技術掃描對齊自動產出；電話會議細節標待補，避免捏造。）\n\n關鍵統計數據\n• 股價（近）：$140.86\n• 市值：145.63B USD\n• P/E (TTM)：88.0\n• Forward P/E：28.1\n• 收入成長（Yahoo revenueGrowth）：24.0%\n• 盈利成長（Yahoo earningsGrowth）：-21.9%\n• 毛利率：74.8%\n• 淨利率：11.3%\n• 員工人數：29187\n• 分析師目標均價：$146.73174\n\n地理市場及收入分佈\n地區／產品拆分待補（需 10-K／最新財報附註）。國家：United States；官網：https://www.servicenow.com\n\n最新業績電話會議（含關鍵結果、管理層評論、指引、投資者要點）\n最新電話會議逐字重點待補。下一輪會接入 IR／transcript 後覆寫。\n\n收入來源及業務模式深入分析\n1. 收入來源及產品\n• 主業：Software - Application\n• 摘要見公司概覽\n\n業務模式：Technology\n\n2. 成長驅動因素\n• 對齊主題：Software service\n• 技術形態：VCP\n\n3. 客戶集中度\n客戶集中度待補（10-K）。\n\n競爭格局與壟斷性分析\nSoftware - Application\n\n主要競爭者：\n• 同主題篩選通過名單（見 Frok／Grok 掃描）\n\n優勢：\n• 市值規模 145.63B USD\n• 產業：Software - Application\n\n壟斷性評估：工作流平台黏性高。\n\n主要挑戰與應對策略\n• 估值／利率敏感 → 應對：以領導股＋形態確認後再進場（交 Arok，止損≤6%）\n• 競爭與產品週期 → 應對：追蹤財報指引與 backlog／訂閱指標（待補）\n\n風險因素與催化劑\n風險：\n• 宏觀（CPI／FOMC）波動\n• 競爭加劇\n• 估值回撤\n\n催化劑：\n• 主題需求（Software service）\n• 技術突破 pivot（現價 140.86／pivot 149.6）\n• 財報超預期（待補）\n\n戰略舉措\n• 維持產品／平台領先\n• 擴張主題需求份額\n• 資本配置待補\n\n資料來源\n• Yahoo Finance quote/info（2026-10-11）\n• StockDesk tech-scan-latest.json\n• 公司官網 https://www.servicenow.com\n\n最後回答\n他是屬於上游還是下游的公司？\n下游——企業工作流 SaaS，直接服務企業 IT，屬軟體下游。\n有沒有高護城河？\n高——工作流平台黏性高。\n\n【領導股判斷｜交 Arok 進場策略】\n是領導股候選（score 9）\n理由：RS≥80；主題／產業領導；高護城河；銷售 YoY≥20%；接近／指引轉盈；技術形態=VCP\n屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）",
+      "price": 140.86,
+      "marketCap": 145629806592
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "theme": "半導體",
+      "etf": "SOX",
+      "asOf": "2026-10-11",
+      "valueChain": {
+        "position": "中游",
+        "detail": "ASIC／networking／custom AI 晶片設計＋部分基礎設施軟體，中游。"
+      },
+      "moat": {
+        "level": "高",
+        "detail": "客製化 ASIC 與客戶長期合約。"
+      },
+      "leadership": {
+        "ticker": "AVGO",
+        "isLeader": true,
+        "score": 10,
+        "why": [
+          "RS≥80",
+          "主題／產業領導",
+          "高護城河",
+          "EPS YoY≥25%",
+          "銷售 YoY≥20%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      },
+      "missingFields": [],
+      "textTw": "公司概覽\nBroadcom Inc. (AVGO) 概覽\nBroadcom Inc. designs, develops, and supplies various semiconductor devices and infrastructure software solutions internationally. The company operates in two segments: Semiconductor Solutions and Infrastructure Software. The company offers networking connectivity, such as custom silicon solutions, ethernet switching & routing, ethernet NIC controllers, physical layer devices, and fiber optic components; wireless device connectivity, including RF semiconductor devices, connectivity solutions, custom touch controllers, and inductive charging ASICS; servers and storage system solutions, such as PCIE switches, SAS & raid products, fibre channel products, and HDD & SSD solutions; broadband solutions, includes set-top box, and broadband access; and industrial. The company also offers a private cloud software portfolio, including the VMware Cloud Foundation, Edge, vSphere foundation, telco clo\n\n（本輪由 Yahoo／公開摘要＋技術掃描對齊自動產出；電話會議細節標待補，避免捏造。）\n\n關鍵統計數據\n• 股價（近）：$361.54\n• 市值：1725.86B USD\n• P/E (TTM)：46.2\n• Forward P/E：18.6\n• 收入成長（Yahoo revenueGrowth）：85.5%\n• 盈利成長（Yahoo earningsGrowth）：215.3%\n• 毛利率：75.5%\n• 淨利率：42.9%\n• 員工人數：33000\n• 分析師目標均價：$531.3149\n\n地理市場及收入分佈\n地區／產品拆分待補（需 10-K／最新財報附註）。國家：United States；官網：https://www.broadcom.com\n\n最新業績電話會議（含關鍵結果、管理層評論、指引、投資者要點）\n最新電話會議逐字重點待補。下一輪會接入 IR／transcript 後覆寫。\n\n收入來源及業務模式深入分析\n1. 收入來源及產品\n• 主業：Semiconductors\n• 摘要見公司概覽\n\n業務模式：Technology\n\n2. 成長驅動因素\n• 對齊主題：半導體\n• 技術形態：VCP\n\n3. 客戶集中度\n客戶集中度待補（10-K）。\n\n競爭格局與壟斷性分析\nSemiconductors\n\n主要競爭者：\n• 同主題篩選通過名單（見 Frok／Grok 掃描）\n\n優勢：\n• 市值規模 1725.86B USD\n• 產業：Semiconductors\n\n壟斷性評估：客製化 ASIC 與客戶長期合約。\n\n主要挑戰與應對策略\n• 估值／利率敏感 → 應對：以領導股＋形態確認後再進場（交 Arok，止損≤6%）\n• 競爭與產品週期 → 應對：追蹤財報指引與 backlog／訂閱指標（待補）\n\n風險因素與催化劑\n風險：\n• 宏觀（CPI／FOMC）波動\n• 競爭加劇\n• 估值回撤\n\n催化劑：\n• 主題需求（半導體）\n• 技術突破 pivot（現價 361.54／pivot 380.84）\n• 財報超預期（待補）\n\n戰略舉措\n• 維持產品／平台領先\n• 擴張主題需求份額\n• 資本配置待補\n\n資料來源\n• Yahoo Finance quote/info（2026-10-11）\n• StockDesk tech-scan-latest.json\n• 公司官網 https://www.broadcom.com\n\n最後回答\n他是屬於上游還是下游的公司？\n中游——ASIC／networking／custom AI 晶片設計＋部分基礎設施軟體，中游。\n有沒有高護城河？\n高——客製化 ASIC 與客戶長期合約。\n\n【領導股判斷｜交 Arok 進場策略】\n是領導股候選（score 10）\n理由：RS≥80；主題／產業領導；高護城河；EPS YoY≥25%；銷售 YoY≥20%；接近／指引轉盈；技術形態=VCP\n屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）",
+      "price": 361.54,
+      "marketCap": 1725858185216
+    },
+    {
+      "ticker": "AXTI",
+      "name": "AXT, Inc.",
+      "theme": "光通信",
+      "etf": "SMH",
+      "asOf": "2026-05-01",
+      "valueChain": {
+        "position": "上游",
+        "detail": "化合物半導體基板／晶圓材料供應商，位於光模組與光電元件產業鏈上游。"
+      },
+      "moat": {
+        "level": "中",
+        "detail": "InP 利基寡占與 switching cost 構成中高護城河，但面對 Sumitomo 等巨頭並非絕對壟斷；產能與 Tier-1 導入進度決定護城河能否升至「高」。"
+      },
+      "leadership": {
+        "ticker": "AXTI",
+        "isLeader": false,
+        "score": 4,
+        "why": [
+          "中等護城河",
+          "銷售 YoY≥20%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "暫非領導股：進場需降權或等待基本面／技術改善"
+      },
+      "missingFields": [],
+      "textTw": "公司概覽\nAXT, Inc. (AXTI) 概覽\nAXT, Inc. 是一家材料科學公司，專注開發與製造高性能化合物半導體基板晶圓（compound semiconductor substrates），主要產品包括磷化銦（Indium Phosphide, InP）、砷化鎵（Gallium Arsenide, GaAs）及鍺（Germanium, Ge）。這些基板用於矽無法滿足效能需求的半導體與光電元件，核心應用為 AI 資料中心高速光學傳輸（silicon photonics）、5G 基礎建設、被動光纖網路、LED、雷射、感測器、無線功率放大器及衛星太陽能電池等。\n核心價值主張：在 AI 基礎建設爆發下，InP 基板成為高速光模組關鍵材料（超越矽的效能）。公司透過中國合資廠（Tongmei）取得成本優勢，並積極擴產（2026 年底 InP 產能翻倍，2027 年再翻倍）。剛完成 6.325 億美元資本募集，用於擴產與 6 吋 InP R&D。目標成為 Tier-1 客戶主要供應商，抓住 AI 資料中心多億美元級成長週期。\n\n關鍵統計數據\n• 市值：約 62.8 億美元（股價近期因 AI 題材大幅上漲，波動極大）。\n• 市盈率 (P/E, TTM)：無意義（仍處虧損，EPS TTM -0.32 美元）。\n• Forward P/E：高（市場對 Q2 轉盈及未來成長定價）。\n• 收入 (Q1 2026)：2,690 萬美元（YoY +39%，QoQ +17%，beat 預期）。\n• TTM 收入：約 8,830 萬美元。\n• 毛利率 (Q1 GAAP)：29.6%（較 Q4 2025 的 20.9% 大幅改善，Q1 2025 為負）。\n• 淨損失 (Q1 GAAP)：160 萬美元（-0.03 美元/股），較去年同期大幅收窄；Non-GAAP 淨損 58.5 萬美元（-0.01 美元/股）。\n• 員工人數：約 1,072–1,541 人。\n• 現金與投資：1.23 億美元（Q1 減少 510 萬美元）。\n• Backlog：InP 超過 1 億美元（強勁需求）。\n• Q2 2026 指引：Non-GAAP EPS 0.06–0.08 美元（轉盈），GAAP 0.05–0.07 美元，預期 sequential 成長。\n\n地理市場及收入分佈\n地區分佈：\n• 亞太 (Asia Pacific)：78%（中國為主要生產與銷售基地）。\n• 歐洲：21%。\n• 北美：1%。\n\n產品分佈：\n• 磷化銦 (InP)：1,360 萬美元（50%+，主要 AI 資料中心光學應用）。\n• 砷化鎵 (GaAs)：540 萬美元。\n• 鍺基板：20 萬美元。\n• 原材料合資企業：760 萬美元。\n\n客戶：\n• 前五大客戶佔約 32%（無單一客戶超過 10%）。\n\n最新業績電話會議（含關鍵結果、管理層評論、指引、投資者要點）\nAXTI Q1 2026 財報（2026 年 4 月 30 日公布，電話會議重點）\n\n1. 關鍵報告結果\n• 收入 2,690 萬美元（YoY +39%，beat 預期 2,670 萬美元）。\n• 毛利率大幅回升至 29.6%（Non-GAAP 29.9%），較去年同期負毛利大幅改善。\n• 淨損大幅收窄，Non-GAAP 每股虧損僅 0.01 美元。\n• InP 需求強勁（AI 資料中心光學傳輸），backlog 超過 1 億美元。\n• 完成 6.325 億美元資本募集，支持 Tongmei InP 擴產與新產品 R&D。\n\n2. 管理層評論\n強調「AI 基礎建設多億美元級成長週期已啟動」，InP 是關鍵使能材料。公司正從「基礎供應商」轉向 Tier-1 客戶主要合作夥伴，已成功擴大客戶基礎（先前接觸有限的 Tier-1）。對 2026 年「sequential 成長」及 Q2 轉盈充滿信心。特別提到 6 吋 InP 與產能翻倍計畫，將成為產業關鍵討論議題。\n\n3. 指引／預測\n• Q2 2026：Non-GAAP EPS 0.06–0.08 美元（轉盈），GAAP 0.05–0.07 美元；收入 sequential 成長。\n• 長期：2026 年底 InP 產能翻倍，2027 年再翻倍；目標成為 AI 光學供應鏈核心玩家。\n\n4. 投資者相關要點\n• AI 題材催化劑強勁（InP 需求爆發 + 產能擴張 + 資本募集）。\n• 毛利率結構性改善（規模效應 + 產品 mix 優化）。\n• 高風險高報酬：仍處虧損但轉盈在即，估值已反映成長預期（市值 62.8 億美元 vs TTM 收入僅 8,800 萬美元）。\n• 股價近期大漲但波動劇烈（適合成長型投資者）。\n\n收入來源及業務模式深入分析\n1. 收入來源及產品\n• 磷化銦 (InP)：核心成長引擎（AI 資料中心高速光學模組、silicon photonics）。Q1 貢獻逾 50% 收入。\n• 砷化鎵 (GaAs)：成熟產品，用於 5G、無線、LED 等。\n• 鍺 (Ge)：小眾（衛星太陽能）。\n• 合資企業：中國原材料生產，提供成本優勢與垂直整合。\n\n業務模式：高技術壁壘的利基材料供應商，客戶為半導體／光電大廠，長期供應關係 + 高 switching cost。\n\n2. 成長驅動因素\n• AI 資料中心光學升級：InP 是 800G/1.6T 光模組關鍵，需求多億美元級。\n• 產能擴張：2026–2027 年 InP 產能翻倍兩次，解決供給瓶頸。\n• 客戶多元化：從既有客戶擴大至 Tier-1 新客戶。\n• 資本募集：6.325 億美元支持擴產與 6 吋 InP R&D。\n• 毛利率改善：規模 + mix 優化，預期持續上行。\n\n3. 客戶集中度\n前五大客戶約 32%（無超過 10% 單一客戶），相對分散。但亞太（中國）佔比高，地緣風險存在。backlog >1 億美元提供可見度。\n\n競爭格局與壟斷性分析\n化合物半導體基板市場（尤其是 InP）：高度集中，AXT 為全球 Top 3 InP 供應商之一。\n\n主要競爭者：\n• Sumitomo Electric（日本）\n• Japan Energy\n• 其他中國／歐美玩家\n\n優勢：\n• 中國成本優勢 + 積極擴產（領先同業）\n• 已切入 Tier-1 AI 供應鏈\n\n壟斷性評估：利基寡占 + 高成長護城河（非絕對壟斷，但 InP 領域具顯著市佔與技術優勢）。AI 光學需求爆發下，產能領先者將大幅受益。vs 大型半導體材料商（如 Sumitomo），AXT 更具彈性與成長動能，但規模仍小。\n\n主要挑戰與應對策略\n• 地緣政治與出口管制風險（中國生產基地、美國出口許可） → 應對：持續申請許可、多元化客戶與供應鏈\n• 產能執行風險（翻倍擴產延遲／成本超支） → 應對：資本募集到位 + 分階段執行 + 6 吋新技術並行\n• 客戶集中與需求波動 → 應對：擴大 Tier-1 客戶基礎 + InP backlog 提供緩衝\n• 仍處虧損與現金消耗 → 應對：Q2 轉盈指引 + 毛利率上行 + 資本募集強化資產負債表\n• 估值過高風險（市值遠高於當前收入） → 應對：成長故事若不如預期，波動劇烈——需嚴控倉位\n\n風險因素與催化劑\n風險：\n• 中美貿易摩擦\n• 出口許可延遲\n• 擴產執行\n• 競爭者產能增加\n• 客戶延遲訂單\n\n催化劑：\n• InP 需求超預期（AI 資料中心加速）\n• Q2 轉盈超預期\n• 6 吋 InP 進展\n• 更多 Tier-1 設計導入\n• Tongmei STAR Market IPO 進展\n\n戰略舉措\n• 重金擴產 InP：2026–2027 年產能翻倍兩次 + 6 吋新產線，鎖定 AI 光學領導地位。\n• 客戶升級：積極切入 Tier-1 供應鏈，成為「基礎供應商」轉「關鍵合作夥伴」。\n• 資本募集與 R&D：6.325 億美元用於擴產與新產品（6 吋 InP）。\n• 垂直整合：中國合資廠強化成本與供應鏈控制。\n• 長期願景：抓住 AI 基礎建設多億美元成長週期，成為化合物半導體基板全球領導者之一。\n\n資料來源\n• AXT 官方 IR（investors.axt.com）\n• Q1 2026 財報與電話會議（2026 年 4 月 30 日）\n• Yahoo Finance、Seeking Alpha、市場分析等\n• Q2 財報預計 7 月底公布\n\n最後回答\n他是屬於上游還是下游的公司？\n上游——化合物半導體基板／晶圓材料供應商，位於光模組與光電元件產業鏈上游。\n有沒有高護城河？\n中——InP 利基寡占與 switching cost 構成中高護城河，但面對 Sumitomo 等巨頭並非絕對壟斷；產能與 Tier-1 導入進度決定護城河能否升至「高」。\n\n【領導股判斷｜交 Arok 進場策略】\n暫非領導股（score 4）\n理由：中等護城河；銷售 YoY≥20%；接近／指引轉盈；技術形態=VCP\n暫非領導股：進場需降權或等待基本面／技術改善",
+      "price": null,
+      "marketCap": 6280000000
+    }
+  ],
+  "thinkingLog": [
+    {
+      "t": "2026-10-11T14:15:16.625Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:start",
+      "detail": {
+        "ticker": "ANET",
+        "name": "Arista Networks, Inc."
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.625Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:start",
+      "detail": {
+        "ticker": "ANET",
+        "hints": {
+          "pattern": "VCP",
+          "stage2": true,
+          "abovePivot": false
+        }
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.625Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:done",
+      "detail": {
+        "ticker": "ANET",
+        "isLeader": true,
+        "score": 10,
+        "why": [
+          "RS≥80",
+          "主題／產業領導",
+          "高護城河",
+          "EPS YoY≥25%",
+          "銷售 YoY≥20%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.625Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:start",
+      "detail": {
+        "ticker": "ANET"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.625Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:done",
+      "detail": {
+        "chars": 2201
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.625Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:done",
+      "detail": {
+        "ticker": "ANET",
+        "moat": "高",
+        "valueChain": "下游",
+        "isLeader": true,
+        "chars": 2201
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.627Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:start",
+      "detail": {
+        "ticker": "ISRG",
+        "name": "Intuitive Surgical, Inc."
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.627Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:start",
+      "detail": {
+        "ticker": "ISRG",
+        "hints": {
+          "pattern": "VCP",
+          "stage2": true,
+          "abovePivot": false
+        }
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.627Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:done",
+      "detail": {
+        "ticker": "ISRG",
+        "isLeader": true,
+        "score": 9,
+        "why": [
+          "RS≥80",
+          "主題／產業領導",
+          "高護城河",
+          "EPS YoY≥25%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.627Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:start",
+      "detail": {
+        "ticker": "ISRG"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:done",
+      "detail": {
+        "chars": 2251
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:done",
+      "detail": {
+        "ticker": "ISRG",
+        "moat": "高",
+        "valueChain": "下游",
+        "isLeader": true,
+        "chars": 2251
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:start",
+      "detail": {
+        "ticker": "PANW",
+        "name": "Palo Alto Networks, Inc."
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:start",
+      "detail": {
+        "ticker": "PANW",
+        "hints": {
+          "pattern": "VCP",
+          "stage2": true,
+          "abovePivot": false
+        }
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:done",
+      "detail": {
+        "ticker": "PANW",
+        "isLeader": true,
+        "score": 9,
+        "why": [
+          "RS≥80",
+          "主題／產業領導",
+          "高護城河",
+          "銷售 YoY≥20%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:start",
+      "detail": {
+        "ticker": "PANW"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:done",
+      "detail": {
+        "chars": 2229
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:done",
+      "detail": {
+        "ticker": "PANW",
+        "moat": "高",
+        "valueChain": "下游",
+        "isLeader": true,
+        "chars": 2229
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:start",
+      "detail": {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:start",
+      "detail": {
+        "ticker": "NVDA",
+        "hints": {
+          "pattern": "VCP",
+          "stage2": true,
+          "abovePivot": false
+        }
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:done",
+      "detail": {
+        "ticker": "NVDA",
+        "isLeader": true,
+        "score": 10,
+        "why": [
+          "RS≥80",
+          "主題／產業領導",
+          "高護城河",
+          "EPS YoY≥25%",
+          "銷售 YoY≥20%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:start",
+      "detail": {
+        "ticker": "NVDA"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:done",
+      "detail": {
+        "chars": 2189
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:done",
+      "detail": {
+        "ticker": "NVDA",
+        "moat": "高",
+        "valueChain": "中游偏上游",
+        "isLeader": true,
+        "chars": 2189
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:start",
+      "detail": {
+        "ticker": "NOW",
+        "name": "ServiceNow, Inc."
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:start",
+      "detail": {
+        "ticker": "NOW",
+        "hints": {
+          "pattern": "VCP",
+          "stage2": true,
+          "abovePivot": false
+        }
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:done",
+      "detail": {
+        "ticker": "NOW",
+        "isLeader": true,
+        "score": 9,
+        "why": [
+          "RS≥80",
+          "主題／產業領導",
+          "高護城河",
+          "銷售 YoY≥20%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:start",
+      "detail": {
+        "ticker": "NOW"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:done",
+      "detail": {
+        "chars": 2198
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:done",
+      "detail": {
+        "ticker": "NOW",
+        "moat": "高",
+        "valueChain": "下游",
+        "isLeader": true,
+        "chars": 2198
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:start",
+      "detail": {
+        "ticker": "AVGO",
+        "name": "Broadcom Inc."
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:start",
+      "detail": {
+        "ticker": "AVGO",
+        "hints": {
+          "pattern": "VCP",
+          "stage2": true,
+          "abovePivot": false
+        }
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:done",
+      "detail": {
+        "ticker": "AVGO",
+        "isLeader": true,
+        "score": 10,
+        "why": [
+          "RS≥80",
+          "主題／產業領導",
+          "高護城河",
+          "EPS YoY≥25%",
+          "銷售 YoY≥20%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:start",
+      "detail": {
+        "ticker": "AVGO"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:done",
+      "detail": {
+        "chars": 2189
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:done",
+      "detail": {
+        "ticker": "AVGO",
+        "moat": "高",
+        "valueChain": "中游",
+        "isLeader": true,
+        "chars": 2189
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.628Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyzeSeed",
+      "detail": "AXTI demo"
+    },
+    {
+      "t": "2026-10-11T14:15:16.629Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:start",
+      "detail": {
+        "ticker": "AXTI",
+        "name": "AXT, Inc."
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.629Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:start",
+      "detail": {
+        "ticker": "AXTI",
+        "hints": {
+          "pattern": "VCP",
+          "stage2": true,
+          "abovePivot": false
+        }
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.629Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "isLeader:done",
+      "detail": {
+        "ticker": "AXTI",
+        "isLeader": false,
+        "score": 4,
+        "why": [
+          "中等護城河",
+          "銷售 YoY≥20%",
+          "接近／指引轉盈",
+          "技術形態=VCP"
+        ],
+        "flags": [],
+        "note": "暫非領導股：進場需降權或等待基本面／技術改善"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.629Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:start",
+      "detail": {
+        "ticker": "AXTI"
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.629Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "formatReport:done",
+      "detail": {
+        "chars": 3747
+      }
+    },
+    {
+      "t": "2026-10-11T14:15:16.629Z",
+      "bot": "Jrok",
+      "role": "公司分析報告",
+      "step": "analyze:done",
+      "detail": {
+        "ticker": "AXTI",
+        "moat": "中",
+        "valueChain": "上游",
+        "isLeader": false,
+        "chars": 3747
+      }
+    }
+  ]
+}

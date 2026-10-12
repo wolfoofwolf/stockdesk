@@ -1,0 +1,2372 @@
+{
+  "asOf": "2026-10-12T01:59:52.023Z",
+  "bot": "Frok",
+  "filters": {
+    "marketCapMin": 3000000000,
+    "marketCapMax": 2000000000000,
+    "avgVol1mMin": 1000000,
+    "avgVol1mMax": 500000000,
+    "priceAboveSma30": true
+  },
+  "stats": {
+    "universe": 130,
+    "passed": 67,
+    "rejected": 63
+  },
+  "byTheme": {
+    "半導體": [
+      {
+        "ticker": "ADI",
+        "name": "Analog Devices",
+        "etf": "SOX",
+        "theme": "半導體",
+        "marketCap": 110000000000,
+        "avgVol1m": 3097061.9,
+        "price": 406.19,
+        "sma30": 381.685,
+        "reason": "類比混合信號"
+      },
+      {
+        "ticker": "AMAT",
+        "name": "Applied Materials",
+        "etf": "SMH",
+        "theme": "半導體",
+        "marketCap": 160000000000,
+        "avgVol1m": 6145971.4,
+        "price": 507.03,
+        "sma30": 474.1827,
+        "reason": "製程設備"
+      },
+      {
+        "ticker": "AMD",
+        "name": "AMD",
+        "etf": "SOX",
+        "theme": "半導體",
+        "marketCap": 280000000000,
+        "avgVol1m": 21989538.1,
+        "price": 608.1,
+        "sma30": 559.8243,
+        "reason": "CPU／GPU"
+      },
+      {
+        "ticker": "ASML",
+        "name": "ASML",
+        "etf": "SMH",
+        "theme": "半導體",
+        "marketCap": 320000000000,
+        "avgVol1m": 1422690.5,
+        "price": 1780.34,
+        "sma30": 1729.0603,
+        "reason": "EUV 設備"
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom",
+        "etf": "SOX",
+        "theme": "半導體",
+        "marketCap": 850000000000,
+        "avgVol1m": 23897814.3,
+        "price": 361.54,
+        "sma30": 358.0673,
+        "reason": "ASIC／networking"
+      },
+      {
+        "ticker": "CDNS",
+        "name": "Cadence",
+        "etf": "IGV",
+        "theme": "半導體",
+        "marketCap": 85000000000,
+        "avgVol1m": 2451400,
+        "price": 352.84,
+        "sma30": 314.837,
+        "reason": "EDA"
+      },
+      {
+        "ticker": "KLAC",
+        "name": "KLA",
+        "etf": "SMH",
+        "theme": "半導體",
+        "marketCap": 95000000000,
+        "avgVol1m": 8880190.5,
+        "price": 195.57,
+        "sma30": 184.9763,
+        "reason": "量測檢測"
+      },
+      {
+        "ticker": "LRCX",
+        "name": "Lam Research",
+        "etf": "SMH",
+        "theme": "半導體",
+        "marketCap": 110000000000,
+        "avgVol1m": 9122004.8,
+        "price": 318.84,
+        "sma30": 307.5455,
+        "reason": "蝕刻設備"
+      },
+      {
+        "ticker": "MRVL",
+        "name": "Marvell",
+        "etf": "SOX",
+        "theme": "半導體",
+        "marketCap": 70000000000,
+        "avgVol1m": 19397252.4,
+        "price": 275.28,
+        "sma30": 245.6287,
+        "reason": "資料中心晶片"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "etf": "SOX",
+        "theme": "半導體",
+        "marketCap": 1900000000000,
+        "avgVol1m": 107909085.7,
+        "price": 229.28,
+        "sma30": 225.2574,
+        "reason": "GPU／AI 晶片領導"
+      },
+      {
+        "ticker": "SNPS",
+        "name": "Synopsys",
+        "etf": "IGV",
+        "theme": "半導體",
+        "marketCap": 90000000000,
+        "avgVol1m": 2472028.6,
+        "price": 509.99,
+        "sma30": 427.4543,
+        "reason": "EDA"
+      },
+      {
+        "ticker": "TSM",
+        "name": "TSMC",
+        "etf": "SOX",
+        "theme": "半導體",
+        "marketCap": 920000000000,
+        "avgVol1m": 10058347.6,
+        "price": 453.31,
+        "sma30": 441.326,
+        "reason": "晶圓代工"
+      },
+      {
+        "ticker": "TXN",
+        "name": "Texas Instruments",
+        "etf": "SOX",
+        "theme": "半導體",
+        "marketCap": 180000000000,
+        "avgVol1m": 5670676.2,
+        "price": 283.74,
+        "sma30": 271.072,
+        "reason": "類比"
+      }
+    ],
+    "能源": [
+      {
+        "ticker": "BE",
+        "name": "Bloom Energy",
+        "etf": "PBW",
+        "theme": "能源",
+        "marketCap": 8000000000,
+        "avgVol1m": 16340671.4,
+        "price": 280.5,
+        "sma30": 265.1593,
+        "reason": "燃料電池"
+      },
+      {
+        "ticker": "COP",
+        "name": "ConocoPhillips",
+        "etf": "XLE",
+        "theme": "能源",
+        "marketCap": 130000000000,
+        "avgVol1m": 6763757.1,
+        "price": 134.1,
+        "sma30": 131.7157,
+        "reason": "上游油氣"
+      },
+      {
+        "ticker": "CVX",
+        "name": "Chevron",
+        "etf": "XLE",
+        "theme": "能源",
+        "marketCap": 280000000000,
+        "avgVol1m": 9375319,
+        "price": 211.98,
+        "sma30": 208.5637,
+        "reason": "綜合能源"
+      },
+      {
+        "ticker": "GEV",
+        "name": "GE Vernova",
+        "etf": "XLU",
+        "theme": "能源",
+        "marketCap": 90000000000,
+        "avgVol1m": 2217909.5,
+        "price": 1004.73,
+        "sma30": 949.548,
+        "reason": "電網設備"
+      },
+      {
+        "ticker": "VST",
+        "name": "Vistra",
+        "etf": "XLU",
+        "theme": "能源",
+        "marketCap": 45000000000,
+        "avgVol1m": 6831438.1,
+        "price": 161.48,
+        "sma30": 144.4462,
+        "reason": "獨立發電"
+      },
+      {
+        "ticker": "XOM",
+        "name": "Exxon",
+        "etf": "XLE",
+        "theme": "能源",
+        "marketCap": 480000000000,
+        "avgVol1m": 13161438.1,
+        "price": 168.94,
+        "sma30": 163.1357,
+        "reason": "石油"
+      }
+    ],
+    "光通信": [
+      {
+        "ticker": "ANET",
+        "name": "Arista",
+        "etf": "IGV",
+        "theme": "光通信",
+        "marketCap": 110000000000,
+        "avgVol1m": 4998071.4,
+        "price": 216.74,
+        "sma30": 200.6857,
+        "reason": "資料中心交換"
+      },
+      {
+        "ticker": "CIEN",
+        "name": "Ciena",
+        "etf": "IGV",
+        "theme": "光通信",
+        "marketCap": 12000000000,
+        "avgVol1m": 2916571.4,
+        "price": 449.77,
+        "sma30": 364.9257,
+        "reason": "光傳輸"
+      },
+      {
+        "ticker": "COHR",
+        "name": "Coherent",
+        "etf": "SMH",
+        "theme": "光通信",
+        "marketCap": 15000000000,
+        "avgVol1m": 7097757.1,
+        "price": 312.62,
+        "sma30": 298.2663,
+        "reason": "光元件"
+      },
+      {
+        "ticker": "GLW",
+        "name": "Corning",
+        "etf": "SMH",
+        "theme": "光通信",
+        "marketCap": 40000000000,
+        "avgVol1m": 7982509.5,
+        "price": 156.68,
+        "sma30": 155.1477,
+        "reason": "光纖／材料"
+      },
+      {
+        "ticker": "LITE",
+        "name": "Lumentum",
+        "etf": "SMH",
+        "theme": "光通信",
+        "marketCap": 12000000000,
+        "avgVol1m": 4725366.7,
+        "price": 1103.355,
+        "sma30": 957.3095,
+        "reason": "光通訊"
+      }
+    ],
+    "智能駕駛": [
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "etf": "BOTZ",
+        "theme": "智能駕駛",
+        "marketCap": 850000000000,
+        "avgVol1m": 35568390.5,
+        "price": 382.7,
+        "sma30": 366.6137,
+        "reason": "EV＋FSD"
+      },
+      {
+        "ticker": "UBER",
+        "name": "Uber",
+        "etf": "ARKK",
+        "theme": "智能駕駛",
+        "marketCap": 160000000000,
+        "avgVol1m": 17176542.9,
+        "price": 71.51,
+        "sma30": 71.4163,
+        "reason": "出行／AV"
+      }
+    ],
+    "金屬稀土": [
+      {
+        "ticker": "FCX",
+        "name": "Freeport",
+        "etf": "XME",
+        "theme": "金屬稀土",
+        "marketCap": 65000000000,
+        "avgVol1m": 10791914.3,
+        "price": 73.69,
+        "sma30": 72.292,
+        "reason": "銅"
+      },
+      {
+        "ticker": "TECK",
+        "name": "Teck",
+        "etf": "XME",
+        "theme": "金屬稀土",
+        "marketCap": 25000000000,
+        "avgVol1m": 2713981,
+        "price": 68.05,
+        "sma30": 66.8857,
+        "reason": "銅鋅"
+      }
+    ],
+    "算力": [
+      {
+        "ticker": "AI",
+        "name": "C3.ai",
+        "etf": "BOTZ",
+        "theme": "算力",
+        "marketCap": 4000000000,
+        "avgVol1m": 4465900,
+        "price": 11.53,
+        "sma30": 10.7833,
+        "reason": "企業 AI"
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "etf": "WCLD",
+        "theme": "算力",
+        "marketCap": 1900000000000,
+        "avgVol1m": 36567995.2,
+        "price": 262.43,
+        "sma30": 253.7313,
+        "reason": "AWS"
+      },
+      {
+        "ticker": "ETN",
+        "name": "Eaton",
+        "etf": "XLI",
+        "theme": "算力",
+        "marketCap": 140000000000,
+        "avgVol1m": 2094004.8,
+        "price": 429.65,
+        "sma30": 420.3757,
+        "reason": "數據中心電力"
+      },
+      {
+        "ticker": "SMCI",
+        "name": "Super Micro",
+        "etf": "SOXX",
+        "theme": "算力",
+        "marketCap": 35000000000,
+        "avgVol1m": 36807000,
+        "price": 41.86,
+        "sma30": 40.184,
+        "reason": "AI 伺服器"
+      }
+    ],
+    "Software service": [
+      {
+        "ticker": "DDOG",
+        "name": "Datadog",
+        "etf": "IGV",
+        "theme": "Software service",
+        "marketCap": 45000000000,
+        "avgVol1m": 3029152.4,
+        "price": 293.26,
+        "sma30": 246.5717,
+        "reason": "可觀測性"
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "etf": "IGV",
+        "theme": "Software service",
+        "marketCap": 1850000000000,
+        "avgVol1m": 26221361.9,
+        "price": 351.66,
+        "sma30": 343.2159,
+        "reason": "搜尋／雲"
+      },
+      {
+        "ticker": "MDB",
+        "name": "MongoDB",
+        "etf": "IGV",
+        "theme": "Software service",
+        "marketCap": 20000000000,
+        "avgVol1m": 3032871.4,
+        "price": 385.93,
+        "sma30": 383.0713,
+        "reason": "文件庫"
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "etf": "IGV",
+        "theme": "Software service",
+        "marketCap": 1800000000000,
+        "avgVol1m": 21460247.6,
+        "price": 718.67,
+        "sma30": 682.8325,
+        "reason": "社群／AI"
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "etf": "IGV",
+        "theme": "Software service",
+        "marketCap": 1950000000000,
+        "avgVol1m": 22019104.8,
+        "price": 535.07,
+        "sma30": 506.8047,
+        "reason": "Azure／Office"
+      },
+      {
+        "ticker": "NOW",
+        "name": "ServiceNow",
+        "etf": "IGV",
+        "theme": "Software service",
+        "marketCap": 155000000000,
+        "avgVol1m": 10863771.4,
+        "price": 140.86,
+        "sma30": 137.8377,
+        "reason": "企業工作流 → IGV"
+      },
+      {
+        "ticker": "PLTR",
+        "name": "Palantir",
+        "etf": "IGV",
+        "theme": "Software service",
+        "marketCap": 180000000000,
+        "avgVol1m": 23660509.5,
+        "price": 209.05,
+        "sma30": 183.0587,
+        "reason": "數據 AI"
+      },
+      {
+        "ticker": "SNOW",
+        "name": "Snowflake",
+        "etf": "IGV",
+        "theme": "Software service",
+        "marketCap": 50000000000,
+        "avgVol1m": 4202871.4,
+        "price": 368.89,
+        "sma30": 334.7803,
+        "reason": "雲數據倉"
+      },
+      {
+        "ticker": "TEAM",
+        "name": "Atlassian",
+        "etf": "IGV",
+        "theme": "Software service",
+        "marketCap": 50000000000,
+        "avgVol1m": 2890704.8,
+        "price": 206.79,
+        "sma30": 189.3758,
+        "reason": "協作"
+      },
+      {
+        "ticker": "ZETA",
+        "name": "Zeta Global",
+        "etf": "IGV",
+        "theme": "Software service",
+        "marketCap": 4000000000,
+        "avgVol1m": 5884833.3,
+        "price": 33.09,
+        "sma30": 31.1107,
+        "reason": "行銷科技 SaaS"
+      }
+    ],
+    "Cyber security": [
+      {
+        "ticker": "CRWD",
+        "name": "CrowdStrike",
+        "etf": "HACK",
+        "theme": "Cyber security",
+        "marketCap": 75000000000,
+        "avgVol1m": 10477695.2,
+        "price": 275.04,
+        "sma30": 242.785,
+        "reason": "端點"
+      },
+      {
+        "ticker": "FTNT",
+        "name": "Fortinet",
+        "etf": "HACK",
+        "theme": "Cyber security",
+        "marketCap": 55000000000,
+        "avgVol1m": 4023147.6,
+        "price": 194.75,
+        "sma30": 172.3977,
+        "reason": "網路安全"
+      },
+      {
+        "ticker": "NET",
+        "name": "Cloudflare",
+        "etf": "HACK",
+        "theme": "Cyber security",
+        "marketCap": 40000000000,
+        "avgVol1m": 2986904.8,
+        "price": 360.93,
+        "sma30": 328.7107,
+        "reason": "CDN／Zero Trust"
+      },
+      {
+        "ticker": "OKTA",
+        "name": "Okta",
+        "etf": "HACK",
+        "theme": "Cyber security",
+        "marketCap": 14000000000,
+        "avgVol1m": 3744509.5,
+        "price": 232.13,
+        "sma30": 192.2652,
+        "reason": "身分"
+      },
+      {
+        "ticker": "PANW",
+        "name": "Palo Alto",
+        "etf": "HACK",
+        "theme": "Cyber security",
+        "marketCap": 110000000000,
+        "avgVol1m": 6027823.8,
+        "price": 418.78,
+        "sma30": 374.838,
+        "reason": "防火牆雲安全"
+      },
+      {
+        "ticker": "ZS",
+        "name": "Zscaler",
+        "etf": "HACK",
+        "theme": "Cyber security",
+        "marketCap": 30000000000,
+        "avgVol1m": 3324038.1,
+        "price": 233.73,
+        "sma30": 193.6497,
+        "reason": "雲安全"
+      }
+    ],
+    "記憶體": [
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "etf": "SOX",
+        "theme": "記憶體",
+        "marketCap": 140000000000,
+        "avgVol1m": 25532000,
+        "price": 1029,
+        "sma30": 1016.722,
+        "reason": "DRAM／NAND"
+      }
+    ],
+    "化學工業": [
+      {
+        "ticker": "ECL",
+        "name": "Ecolab",
+        "etf": "XLB",
+        "theme": "化學工業",
+        "marketCap": 70000000000,
+        "avgVol1m": 1181261.9,
+        "price": 281.83,
+        "sma30": 276.6199,
+        "reason": "特用化學"
+      },
+      {
+        "ticker": "LIN",
+        "name": "Linde",
+        "etf": "XLB",
+        "theme": "化學工業",
+        "marketCap": 210000000000,
+        "avgVol1m": 2141833.3,
+        "price": 483.73,
+        "sma30": 473.2916,
+        "reason": "工業氣體"
+      }
+    ],
+    "太空通訊": [
+      {
+        "ticker": "RKLB",
+        "name": "Rocket Lab",
+        "etf": "UFO",
+        "theme": "太空通訊",
+        "marketCap": 15000000000,
+        "avgVol1m": 21221471.4,
+        "price": 68.21,
+        "sma30": 67.6787,
+        "reason": "小型火箭"
+      }
+    ],
+    "虛擬貨幣": [
+      {
+        "ticker": "MSTR",
+        "name": "MicroStrategy",
+        "etf": "BITO",
+        "theme": "虛擬貨幣",
+        "marketCap": 70000000000,
+        "avgVol1m": 22546061.9,
+        "price": 154.34,
+        "sma30": 146.5133,
+        "reason": "比特幣資產"
+      }
+    ],
+    "量子電腦": [],
+    "核能": [
+      {
+        "ticker": "CEG",
+        "name": "Constellation Energy",
+        "etf": "URA",
+        "theme": "核能",
+        "marketCap": 75000000000,
+        "avgVol1m": 4047504.8,
+        "price": 298.07,
+        "sma30": 274.3862,
+        "reason": "核能發電"
+      }
+    ],
+    "Hardware": [
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "etf": "XLK",
+        "theme": "Hardware",
+        "marketCap": 1980000000000,
+        "avgVol1m": 38388881,
+        "price": 336.64,
+        "sma30": 331.1,
+        "reason": "消費電子"
+      },
+      {
+        "ticker": "CLS",
+        "name": "Celestica",
+        "etf": "XLK",
+        "theme": "Hardware",
+        "marketCap": 15000000000,
+        "avgVol1m": 2104000,
+        "price": 362.16,
+        "sma30": 341.7547,
+        "reason": "EMS"
+      },
+      {
+        "ticker": "DELL",
+        "name": "Dell",
+        "etf": "XLK",
+        "theme": "Hardware",
+        "marketCap": 85000000000,
+        "avgVol1m": 7814042.9,
+        "price": 586.06,
+        "sma30": 539.154,
+        "reason": "伺服器 PC"
+      },
+      {
+        "ticker": "HPE",
+        "name": "HPE",
+        "etf": "XLK",
+        "theme": "Hardware",
+        "marketCap": 30000000000,
+        "avgVol1m": 21556623.8,
+        "price": 73.46,
+        "sma30": 60.7593,
+        "reason": "企業硬體"
+      },
+      {
+        "ticker": "JBL",
+        "name": "Jabil",
+        "etf": "XLK",
+        "theme": "Hardware",
+        "marketCap": 20000000000,
+        "avgVol1m": 1555342.9,
+        "price": 306.28,
+        "sma30": 304.8843,
+        "reason": "電子代工"
+      }
+    ],
+    "金融": [
+      {
+        "ticker": "MA",
+        "name": "Mastercard",
+        "etf": "XLF",
+        "theme": "金融",
+        "marketCap": 480000000000,
+        "avgVol1m": 2821595.2,
+        "price": 589.14,
+        "sma30": 569.3673,
+        "reason": "支付"
+      },
+      {
+        "ticker": "V",
+        "name": "Visa",
+        "etf": "XLF",
+        "theme": "金融",
+        "marketCap": 550000000000,
+        "avgVol1m": 6170757.1,
+        "price": 385.45,
+        "sma30": 370.4977,
+        "reason": "支付"
+      }
+    ],
+    "醫療": [
+      {
+        "ticker": "ABBV",
+        "name": "AbbVie",
+        "etf": "XLV",
+        "theme": "醫療",
+        "marketCap": 340000000000,
+        "avgVol1m": 4518023.8,
+        "price": 276.47,
+        "sma30": 262.2743,
+        "reason": "製藥"
+      },
+      {
+        "ticker": "DHR",
+        "name": "Danaher",
+        "etf": "XLV",
+        "theme": "醫療",
+        "marketCap": 190000000000,
+        "avgVol1m": 4566595.2,
+        "price": 219.81,
+        "sma30": 213.7683,
+        "reason": "診斷工具"
+      },
+      {
+        "ticker": "ISRG",
+        "name": "Intuitive Surgical",
+        "etf": "XLV",
+        "theme": "醫療",
+        "marketCap": 160000000000,
+        "avgVol1m": 2226852.4,
+        "price": 423.96,
+        "sma30": 389.1017,
+        "reason": "手術機械人"
+      },
+      {
+        "ticker": "LLY",
+        "name": "Eli Lilly",
+        "etf": "XLV",
+        "theme": "醫療",
+        "marketCap": 780000000000,
+        "avgVol1m": 2254600,
+        "price": 1179.27,
+        "sma30": 1155.7847,
+        "reason": "製藥"
+      },
+      {
+        "ticker": "PFE",
+        "name": "Pfizer",
+        "etf": "XLV",
+        "theme": "醫療",
+        "marketCap": 150000000000,
+        "avgVol1m": 32870761.9,
+        "price": 28.28,
+        "sma30": 28.068,
+        "reason": "製藥"
+      },
+      {
+        "ticker": "TMO",
+        "name": "Thermo Fisher",
+        "etf": "XLV",
+        "theme": "醫療",
+        "marketCap": 210000000000,
+        "avgVol1m": 2365490.5,
+        "price": 658.02,
+        "sma30": 643.0749,
+        "reason": "生命科學"
+      }
+    ],
+    "無人機": [],
+    "雜項": []
+  },
+  "results": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "marketCap": 1980000000000,
+      "avgVol1m": 38388881,
+      "price": 336.64,
+      "sma30": 331.1,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "消費電子"
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie",
+      "marketCap": 340000000000,
+      "avgVol1m": 4518023.8,
+      "price": 276.47,
+      "sma30": 262.2743,
+      "sector": "Healthcare",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "製藥"
+    },
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices",
+      "marketCap": 110000000000,
+      "avgVol1m": 3097061.9,
+      "price": 406.19,
+      "sma30": 381.685,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "類比混合信號"
+    },
+    {
+      "ticker": "AI",
+      "name": "C3.ai",
+      "marketCap": 4000000000,
+      "avgVol1m": 4465900,
+      "price": 11.53,
+      "sma30": 10.7833,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "算力",
+      "etf": "BOTZ",
+      "reason": "企業 AI"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "marketCap": 160000000000,
+      "avgVol1m": 6145971.4,
+      "price": 507.03,
+      "sma30": 474.1827,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "SMH",
+      "reason": "製程設備"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "marketCap": 280000000000,
+      "avgVol1m": 21989538.1,
+      "price": 608.1,
+      "sma30": 559.8243,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "CPU／GPU"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "marketCap": 1900000000000,
+      "avgVol1m": 36567995.2,
+      "price": 262.43,
+      "sma30": 253.7313,
+      "sector": "Consumer",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "算力",
+      "etf": "WCLD",
+      "reason": "AWS"
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista",
+      "marketCap": 110000000000,
+      "avgVol1m": 4998071.4,
+      "price": 216.74,
+      "sma30": 200.6857,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "光通信",
+      "etf": "IGV",
+      "reason": "資料中心交換"
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML",
+      "marketCap": 320000000000,
+      "avgVol1m": 1422690.5,
+      "price": 1780.34,
+      "sma30": 1729.0603,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "SMH",
+      "reason": "EUV 設備"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "marketCap": 850000000000,
+      "avgVol1m": 23897814.3,
+      "price": 361.54,
+      "sma30": 358.0673,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "ASIC／networking"
+    },
+    {
+      "ticker": "BE",
+      "name": "Bloom Energy",
+      "marketCap": 8000000000,
+      "avgVol1m": 16340671.4,
+      "price": 280.5,
+      "sma30": 265.1593,
+      "sector": "Industrials",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "能源",
+      "etf": "PBW",
+      "reason": "燃料電池"
+    },
+    {
+      "ticker": "CDNS",
+      "name": "Cadence",
+      "marketCap": 85000000000,
+      "avgVol1m": 2451400,
+      "price": 352.84,
+      "sma30": 314.837,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "IGV",
+      "reason": "EDA"
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "marketCap": 75000000000,
+      "avgVol1m": 4047504.8,
+      "price": 298.07,
+      "sma30": 274.3862,
+      "sector": "Utilities",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "核能",
+      "etf": "URA",
+      "reason": "核能發電"
+    },
+    {
+      "ticker": "CIEN",
+      "name": "Ciena",
+      "marketCap": 12000000000,
+      "avgVol1m": 2916571.4,
+      "price": 449.77,
+      "sma30": 364.9257,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "光通信",
+      "etf": "IGV",
+      "reason": "光傳輸"
+    },
+    {
+      "ticker": "CLS",
+      "name": "Celestica",
+      "marketCap": 15000000000,
+      "avgVol1m": 2104000,
+      "price": 362.16,
+      "sma30": 341.7547,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "EMS"
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent",
+      "marketCap": 15000000000,
+      "avgVol1m": 7097757.1,
+      "price": 312.62,
+      "sma30": 298.2663,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "光通信",
+      "etf": "SMH",
+      "reason": "光元件"
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "marketCap": 130000000000,
+      "avgVol1m": 6763757.1,
+      "price": 134.1,
+      "sma30": 131.7157,
+      "sector": "Energy",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "能源",
+      "etf": "XLE",
+      "reason": "上游油氣"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "marketCap": 75000000000,
+      "avgVol1m": 10477695.2,
+      "price": 275.04,
+      "sma30": 242.785,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "端點"
+    },
+    {
+      "ticker": "CVX",
+      "name": "Chevron",
+      "marketCap": 280000000000,
+      "avgVol1m": 9375319,
+      "price": 211.98,
+      "sma30": 208.5637,
+      "sector": "Energy",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "能源",
+      "etf": "XLE",
+      "reason": "綜合能源"
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "marketCap": 45000000000,
+      "avgVol1m": 3029152.4,
+      "price": 293.26,
+      "sma30": 246.5717,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "可觀測性"
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell",
+      "marketCap": 85000000000,
+      "avgVol1m": 7814042.9,
+      "price": 586.06,
+      "sma30": 539.154,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "伺服器 PC"
+    },
+    {
+      "ticker": "DHR",
+      "name": "Danaher",
+      "marketCap": 190000000000,
+      "avgVol1m": 4566595.2,
+      "price": 219.81,
+      "sma30": 213.7683,
+      "sector": "Healthcare",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "診斷工具"
+    },
+    {
+      "ticker": "ECL",
+      "name": "Ecolab",
+      "marketCap": 70000000000,
+      "avgVol1m": 1181261.9,
+      "price": 281.83,
+      "sma30": 276.6199,
+      "sector": "Materials",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "化學工業",
+      "etf": "XLB",
+      "reason": "特用化學"
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "marketCap": 140000000000,
+      "avgVol1m": 2094004.8,
+      "price": 429.65,
+      "sma30": 420.3757,
+      "sector": "Industrials",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "算力",
+      "etf": "XLI",
+      "reason": "數據中心電力"
+    },
+    {
+      "ticker": "FCX",
+      "name": "Freeport",
+      "marketCap": 65000000000,
+      "avgVol1m": 10791914.3,
+      "price": 73.69,
+      "sma30": 72.292,
+      "sector": "Materials",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "金屬稀土",
+      "etf": "XME",
+      "reason": "銅"
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet",
+      "marketCap": 55000000000,
+      "avgVol1m": 4023147.6,
+      "price": 194.75,
+      "sma30": 172.3977,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "網路安全"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "marketCap": 90000000000,
+      "avgVol1m": 2217909.5,
+      "price": 1004.73,
+      "sma30": 949.548,
+      "sector": "Industrials",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "能源",
+      "etf": "XLU",
+      "reason": "電網設備"
+    },
+    {
+      "ticker": "GLW",
+      "name": "Corning",
+      "marketCap": 40000000000,
+      "avgVol1m": 7982509.5,
+      "price": 156.68,
+      "sma30": 155.1477,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "光通信",
+      "etf": "SMH",
+      "reason": "光纖／材料"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "marketCap": 1850000000000,
+      "avgVol1m": 26221361.9,
+      "price": 351.66,
+      "sma30": 343.2159,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "搜尋／雲"
+    },
+    {
+      "ticker": "HPE",
+      "name": "HPE",
+      "marketCap": 30000000000,
+      "avgVol1m": 21556623.8,
+      "price": 73.46,
+      "sma30": 60.7593,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "企業硬體"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "marketCap": 160000000000,
+      "avgVol1m": 2226852.4,
+      "price": 423.96,
+      "sma30": 389.1017,
+      "sector": "Healthcare",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "手術機械人"
+    },
+    {
+      "ticker": "JBL",
+      "name": "Jabil",
+      "marketCap": 20000000000,
+      "avgVol1m": 1555342.9,
+      "price": 306.28,
+      "sma30": 304.8843,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "電子代工"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA",
+      "marketCap": 95000000000,
+      "avgVol1m": 8880190.5,
+      "price": 195.57,
+      "sma30": 184.9763,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "SMH",
+      "reason": "量測檢測"
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde",
+      "marketCap": 210000000000,
+      "avgVol1m": 2141833.3,
+      "price": 483.73,
+      "sma30": 473.2916,
+      "sector": "Materials",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "化學工業",
+      "etf": "XLB",
+      "reason": "工業氣體"
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum",
+      "marketCap": 12000000000,
+      "avgVol1m": 4725366.7,
+      "price": 1103.355,
+      "sma30": 957.3095,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "光通信",
+      "etf": "SMH",
+      "reason": "光通訊"
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "marketCap": 780000000000,
+      "avgVol1m": 2254600,
+      "price": 1179.27,
+      "sma30": 1155.7847,
+      "sector": "Healthcare",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "製藥"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "marketCap": 110000000000,
+      "avgVol1m": 9122004.8,
+      "price": 318.84,
+      "sma30": 307.5455,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "SMH",
+      "reason": "蝕刻設備"
+    },
+    {
+      "ticker": "MA",
+      "name": "Mastercard",
+      "marketCap": 480000000000,
+      "avgVol1m": 2821595.2,
+      "price": 589.14,
+      "sma30": 569.3673,
+      "sector": "Financial",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "支付"
+    },
+    {
+      "ticker": "MDB",
+      "name": "MongoDB",
+      "marketCap": 20000000000,
+      "avgVol1m": 3032871.4,
+      "price": 385.93,
+      "sma30": 383.0713,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "文件庫"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta",
+      "marketCap": 1800000000000,
+      "avgVol1m": 21460247.6,
+      "price": 718.67,
+      "sma30": 682.8325,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "社群／AI"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell",
+      "marketCap": 70000000000,
+      "avgVol1m": 19397252.4,
+      "price": 275.28,
+      "sma30": 245.6287,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "資料中心晶片"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "marketCap": 1950000000000,
+      "avgVol1m": 22019104.8,
+      "price": 535.07,
+      "sma30": 506.8047,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "Azure／Office"
+    },
+    {
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "marketCap": 70000000000,
+      "avgVol1m": 22546061.9,
+      "price": 154.34,
+      "sma30": 146.5133,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "虛擬貨幣",
+      "etf": "BITO",
+      "reason": "比特幣資產"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "marketCap": 140000000000,
+      "avgVol1m": 25532000,
+      "price": 1029,
+      "sma30": 1016.722,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "記憶體",
+      "etf": "SOX",
+      "reason": "DRAM／NAND"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "marketCap": 40000000000,
+      "avgVol1m": 2986904.8,
+      "price": 360.93,
+      "sma30": 328.7107,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "CDN／Zero Trust"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "marketCap": 155000000000,
+      "avgVol1m": 10863771.4,
+      "price": 140.86,
+      "sma30": 137.8377,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "企業工作流 → IGV"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "marketCap": 1900000000000,
+      "avgVol1m": 107909085.7,
+      "price": 229.28,
+      "sma30": 225.2574,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "GPU／AI 晶片領導"
+    },
+    {
+      "ticker": "OKTA",
+      "name": "Okta",
+      "marketCap": 14000000000,
+      "avgVol1m": 3744509.5,
+      "price": 232.13,
+      "sma30": 192.2652,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "身分"
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto",
+      "marketCap": 110000000000,
+      "avgVol1m": 6027823.8,
+      "price": 418.78,
+      "sma30": 374.838,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "防火牆雲安全"
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "marketCap": 150000000000,
+      "avgVol1m": 32870761.9,
+      "price": 28.28,
+      "sma30": 28.068,
+      "sector": "Healthcare",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "製藥"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "marketCap": 180000000000,
+      "avgVol1m": 23660509.5,
+      "price": 209.05,
+      "sma30": 183.0587,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "數據 AI"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "marketCap": 15000000000,
+      "avgVol1m": 21221471.4,
+      "price": 68.21,
+      "sma30": 67.6787,
+      "sector": "Industrials",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "太空通訊",
+      "etf": "UFO",
+      "reason": "小型火箭"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "marketCap": 35000000000,
+      "avgVol1m": 36807000,
+      "price": 41.86,
+      "sma30": 40.184,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "算力",
+      "etf": "SOXX",
+      "reason": "AI 伺服器"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "marketCap": 50000000000,
+      "avgVol1m": 4202871.4,
+      "price": 368.89,
+      "sma30": 334.7803,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "雲數據倉"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys",
+      "marketCap": 90000000000,
+      "avgVol1m": 2472028.6,
+      "price": 509.99,
+      "sma30": 427.4543,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "IGV",
+      "reason": "EDA"
+    },
+    {
+      "ticker": "TEAM",
+      "name": "Atlassian",
+      "marketCap": 50000000000,
+      "avgVol1m": 2890704.8,
+      "price": 206.79,
+      "sma30": 189.3758,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "協作"
+    },
+    {
+      "ticker": "TECK",
+      "name": "Teck",
+      "marketCap": 25000000000,
+      "avgVol1m": 2713981,
+      "price": 68.05,
+      "sma30": 66.8857,
+      "sector": "Materials",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "金屬稀土",
+      "etf": "XME",
+      "reason": "銅鋅"
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
+      "marketCap": 210000000000,
+      "avgVol1m": 2365490.5,
+      "price": 658.02,
+      "sma30": 643.0749,
+      "sector": "Healthcare",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "生命科學"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "marketCap": 850000000000,
+      "avgVol1m": 35568390.5,
+      "price": 382.7,
+      "sma30": 366.6137,
+      "sector": "Consumer",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "智能駕駛",
+      "etf": "BOTZ",
+      "reason": "EV＋FSD"
+    },
+    {
+      "ticker": "TSM",
+      "name": "TSMC",
+      "marketCap": 920000000000,
+      "avgVol1m": 10058347.6,
+      "price": 453.31,
+      "sma30": 441.326,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "晶圓代工"
+    },
+    {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "marketCap": 180000000000,
+      "avgVol1m": 5670676.2,
+      "price": 283.74,
+      "sma30": 271.072,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "類比"
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber",
+      "marketCap": 160000000000,
+      "avgVol1m": 17176542.9,
+      "price": 71.51,
+      "sma30": 71.4163,
+      "sector": "Consumer",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "智能駕駛",
+      "etf": "ARKK",
+      "reason": "出行／AV"
+    },
+    {
+      "ticker": "V",
+      "name": "Visa",
+      "marketCap": 550000000000,
+      "avgVol1m": 6170757.1,
+      "price": 385.45,
+      "sma30": 370.4977,
+      "sector": "Financial",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "支付"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra",
+      "marketCap": 45000000000,
+      "avgVol1m": 6831438.1,
+      "price": 161.48,
+      "sma30": 144.4462,
+      "sector": "Utilities",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "能源",
+      "etf": "XLU",
+      "reason": "獨立發電"
+    },
+    {
+      "ticker": "XOM",
+      "name": "Exxon",
+      "marketCap": 480000000000,
+      "avgVol1m": 13161438.1,
+      "price": 168.94,
+      "sma30": 163.1357,
+      "sector": "Energy",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "能源",
+      "etf": "XLE",
+      "reason": "石油"
+    },
+    {
+      "ticker": "ZETA",
+      "name": "Zeta Global",
+      "marketCap": 4000000000,
+      "avgVol1m": 5884833.3,
+      "price": 33.09,
+      "sma30": 31.1107,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "行銷科技 SaaS"
+    },
+    {
+      "ticker": "ZS",
+      "name": "Zscaler",
+      "marketCap": 30000000000,
+      "avgVol1m": 3324038.1,
+      "price": 233.73,
+      "sma30": 193.6497,
+      "sector": "Technology",
+      "priceSource": "yahoo-yfinance-2026-10-12",
+      "priceAsOf": "2026-10-09",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "雲安全"
+    }
+  ],
+  "rejectedSample": [
+    {
+      "ticker": "AA",
+      "fail": [
+        "價格 42.2 ≤ SMA30 45.89"
+      ]
+    },
+    {
+      "ticker": "AAOI",
+      "fail": [
+        "市值 1200000000 不在 [3000000000,2000000000000]"
+      ]
+    },
+    {
+      "ticker": "ADBE",
+      "fail": [
+        "價格 242.27 ≤ SMA30 252.334"
+      ]
+    },
+    {
+      "ticker": "ALB",
+      "fail": [
+        "價格 101.27 ≤ SMA30 115.5844"
+      ]
+    },
+    {
+      "ticker": "APD",
+      "fail": [
+        "價格 281.26 ≤ SMA30 287.1031"
+      ]
+    },
+    {
+      "ticker": "APP",
+      "fail": [
+        "價格 277.04 ≤ SMA30 307.4207"
+      ]
+    },
+    {
+      "ticker": "ARM",
+      "fail": [
+        "價格 266.28 ≤ SMA30 275.6197"
+      ]
+    },
+    {
+      "ticker": "ASTS",
+      "fail": [
+        "價格 50.965 ≤ SMA30 60.0218"
+      ]
+    },
+    {
+      "ticker": "AVAV",
+      "fail": [
+        "價格 137.11 ≤ SMA30 148.1687"
+      ]
+    },
+    {
+      "ticker": "BA",
+      "fail": [
+        "價格 190.37 ≤ SMA30 199.7007"
+      ]
+    },
+    {
+      "ticker": "BAC",
+      "fail": [
+        "價格 54.32 ≤ SMA30 58.0289"
+      ]
+    },
+    {
+      "ticker": "BLK",
+      "fail": [
+        "1M成交量 526752.4 不在 [1000000,500000000]"
+      ]
+    },
+    {
+      "ticker": "BRK.A",
+      "fail": [
+        "市值 2500000000000 不在 [3000000000,2000000000000]"
+      ]
+    },
+    {
+      "ticker": "CCJ",
+      "fail": [
+        "價格 88.06 ≤ SMA30 92.6683"
+      ]
+    },
+    {
+      "ticker": "CLSK",
+      "fail": [
+        "價格 10.495 ≤ SMA30 12.8482"
+      ]
+    }
+  ],
+  "log": [
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "HPE",
+        "theme": "Hardware",
+        "etf": "XLK",
+        "reason": "企業硬體"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "ISRG",
+        "theme": "醫療",
+        "etf": "XLV",
+        "reason": "手術機械人"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "JBL",
+        "theme": "Hardware",
+        "etf": "XLK",
+        "reason": "電子代工"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "KLAC",
+        "theme": "半導體",
+        "etf": "SMH",
+        "reason": "量測檢測"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "LIN",
+        "theme": "化學工業",
+        "etf": "XLB",
+        "reason": "工業氣體"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "LITE",
+        "theme": "光通信",
+        "etf": "SMH",
+        "reason": "光通訊"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "LLY",
+        "theme": "醫療",
+        "etf": "XLV",
+        "reason": "製藥"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "LRCX",
+        "theme": "半導體",
+        "etf": "SMH",
+        "reason": "蝕刻設備"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "MA",
+        "theme": "金融",
+        "etf": "XLF",
+        "reason": "支付"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "MDB",
+        "theme": "Software service",
+        "etf": "IGV",
+        "reason": "文件庫"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "META",
+        "theme": "Software service",
+        "etf": "IGV",
+        "reason": "社群／AI"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "MRVL",
+        "theme": "半導體",
+        "etf": "SOX",
+        "reason": "資料中心晶片"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "MSFT",
+        "theme": "Software service",
+        "etf": "IGV",
+        "reason": "Azure／Office"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "MSTR",
+        "theme": "虛擬貨幣",
+        "etf": "BITO",
+        "reason": "比特幣資產"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "MU",
+        "theme": "記憶體",
+        "etf": "SOX",
+        "reason": "DRAM／NAND"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "NET",
+        "theme": "Cyber security",
+        "etf": "HACK",
+        "reason": "CDN／Zero Trust"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "NOW",
+        "theme": "Software service",
+        "etf": "IGV",
+        "reason": "企業工作流 → IGV"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "NVDA",
+        "theme": "半導體",
+        "etf": "SOX",
+        "reason": "GPU／AI 晶片領導"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "OKTA",
+        "theme": "Cyber security",
+        "etf": "HACK",
+        "reason": "身分"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "PANW",
+        "theme": "Cyber security",
+        "etf": "HACK",
+        "reason": "防火牆雲安全"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "PFE",
+        "theme": "醫療",
+        "etf": "XLV",
+        "reason": "製藥"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "PLTR",
+        "theme": "Software service",
+        "etf": "IGV",
+        "reason": "數據 AI"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "RKLB",
+        "theme": "太空通訊",
+        "etf": "UFO",
+        "reason": "小型火箭"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "SMCI",
+        "theme": "算力",
+        "etf": "SOXX",
+        "reason": "AI 伺服器"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "SNOW",
+        "theme": "Software service",
+        "etf": "IGV",
+        "reason": "雲數據倉"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "SNPS",
+        "theme": "半導體",
+        "etf": "IGV",
+        "reason": "EDA"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "TEAM",
+        "theme": "Software service",
+        "etf": "IGV",
+        "reason": "協作"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "TECK",
+        "theme": "金屬稀土",
+        "etf": "XME",
+        "reason": "銅鋅"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "TMO",
+        "theme": "醫療",
+        "etf": "XLV",
+        "reason": "生命科學"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "TSLA",
+        "theme": "智能駕駛",
+        "etf": "BOTZ",
+        "reason": "EV＋FSD"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "TSM",
+        "theme": "半導體",
+        "etf": "SOX",
+        "reason": "晶圓代工"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "TXN",
+        "theme": "半導體",
+        "etf": "SOX",
+        "reason": "類比"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "UBER",
+        "theme": "智能駕駛",
+        "etf": "ARKK",
+        "reason": "出行／AV"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "V",
+        "theme": "金融",
+        "etf": "XLF",
+        "reason": "支付"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "VST",
+        "theme": "能源",
+        "etf": "XLU",
+        "reason": "獨立發電"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "XOM",
+        "theme": "能源",
+        "etf": "XLE",
+        "reason": "石油"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "ZETA",
+        "theme": "Software service",
+        "etf": "IGV",
+        "reason": "行銷科技 SaaS"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "ZS",
+        "theme": "Cyber security",
+        "etf": "HACK",
+        "reason": "雲安全"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.023Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "runAndClassify:done",
+      "detail": {
+        "passed": 67,
+        "sample": [
+          "AAPL→Hardware/XLK",
+          "ABBV→醫療/XLV",
+          "ADI→半導體/SOX",
+          "AI→算力/BOTZ",
+          "AMAT→半導體/SMH",
+          "AMD→半導體/SOX",
+          "AMZN→算力/WCLD",
+          "ANET→光通信/IGV"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:52.024Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "groupByTheme",
+      "detail": {
+        "themes": [
+          "半導體:13",
+          "能源:6",
+          "光通信:5",
+          "智能駕駛:2",
+          "金屬稀土:2",
+          "算力:4",
+          "Software service:10",
+          "Cyber security:6",
+          "記憶體:1",
+          "化學工業:2",
+          "太空通訊:1",
+          "虛擬貨幣:1",
+          "核能:1",
+          "Hardware:5",
+          "金融:2",
+          "醫療:6"
+        ]
+      }
+    }
+  ],
+  "priceSource": "yahoo-yfinance-2026-10-12",
+  "yahoo": {
+    "ok": 129,
+    "fail": 1,
+    "failures": [
+      {
+        "ticker": "BRK.A",
+        "error": "insufficient bars"
+      }
+    ]
+  },
+  "universeMeta": {
+    "bot": "Frok",
+    "role": "篩選器＋主題／ETF",
+    "note": "price/sma30/avgVol1m refreshed via yfinance; marketCap kept from sample",
+    "count": 130,
+    "yahooRefreshed": 128,
+    "yahooFailed": 0,
+    "asOf": "2026-10-11T13:47:59Z",
+    "marketCapRefreshed": 0,
+    "refreshedAt": "2026-10-12T01:59:39.642500Z",
+    "priceSource": "yahoo-yfinance-2026-10-12",
+    "yahooOk": 129,
+    "yahooFail": 1,
+    "yahooFailures": [
+      {
+        "ticker": "BRK.A",
+        "error": "insufficient bars"
+      }
+    ]
+  },
+  "checks": {
+    "NVDA": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "price": 229.28,
+      "sma30": 225.2574,
+      "passed": true
+    },
+    "NOW": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "price": 140.86,
+      "sma30": 137.8377,
+      "passed": true
+    }
+  }
+}

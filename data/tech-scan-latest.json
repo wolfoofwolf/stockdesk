@@ -1,0 +1,2980 @@
+{
+  "generatedAt": "2026-10-12T01:59:20.454606Z",
+  "bot": "Grok",
+  "role": "技術分析＋兄弟姊妹股／板塊",
+  "asOfMarket": "2026-10-09",
+  "filterNote": "跟 Frok screener-run-latest 通過名單；日K 來自 yfinance（2026-10-12 刷新）",
+  "universeSource": "data/screener-run-latest.json",
+  "scanned": [
+    "HPE",
+    "PLTR",
+    "ANET",
+    "ISRG",
+    "PFE",
+    "PANW",
+    "AVGO",
+    "CRWD",
+    "MU",
+    "NVDA",
+    "NOW",
+    "AMD",
+    "SMCI",
+    "MRVL",
+    "MSTR"
+  ],
+  "failedFetches": [
+    "SOX"
+  ],
+  "analyses": [
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "HPE",
+      "name": "HPE",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 73.46,
+      "ma30": 60.76,
+      "ma50": 58.08,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 19.1,
+            "highDate": "2026-08-13",
+            "high": 63.2799,
+            "lowDate": "2026-08-24",
+            "low": 51.1706
+          },
+          {
+            "label": "C2",
+            "pct": 18.1,
+            "highDate": "2026-08-27",
+            "high": 55.6443,
+            "lowDate": "2026-09-03",
+            "low": 45.5847
+          },
+          {
+            "label": "C3",
+            "pct": 6.4,
+            "highDate": "2026-09-09",
+            "high": 58.7713,
+            "lowDate": "2026-09-10",
+            "low": 54.9909
+          }
+        ],
+        "pivot": 73.56,
+        "pivotDate": "2026-10-09",
+        "contracting": true
+      },
+      "alternates": [],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 19.1,
+          "highDate": "2026-08-13",
+          "high": 63.2799,
+          "lowDate": "2026-08-24",
+          "low": 51.1706
+        },
+        {
+          "label": "C2",
+          "pct": 18.1,
+          "highDate": "2026-08-27",
+          "high": 55.6443,
+          "lowDate": "2026-09-03",
+          "low": 45.5847
+        },
+        {
+          "label": "C3",
+          "pct": 6.4,
+          "highDate": "2026-09-09",
+          "high": 58.7713,
+          "lowDate": "2026-09-10",
+          "low": 54.9909
+        }
+      ],
+      "pivot": 73.56,
+      "pivotDate": "2026-10-09",
+      "status": "盤中試破但收市仍低於 pivot",
+      "trendlines": [
+        {
+          "dir": "up",
+          "fromDate": "2026-09-29",
+          "fromPrice": 60.68,
+          "toDate": "2026-10-01",
+          "toPrice": 61.76,
+          "note": "低點抬高（上升趨勢線）"
+        },
+        {
+          "dir": "up",
+          "fromDate": "2026-09-30",
+          "fromPrice": 67.101,
+          "toDate": "2026-10-09",
+          "toPrice": 73.56,
+          "note": "高點抬高"
+        }
+      ],
+      "chartPath": "data/charts/HPE_scan_VCP.png",
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "HPE（HPE） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 19.1% → C2 18.1% → C3 6.4%\nPivot／突破位：$73.56（2026-10-09）\n收市：$73.46；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈60.76）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：Hardware／XLK",
+      "siblings": [
+        {
+          "ticker": "MRVL",
+          "name": "Marvell",
+          "theme": "半導體",
+          "corr60": 0.554,
+          "close": 275.28,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "ANET",
+          "name": "Arista",
+          "theme": "光通信",
+          "corr60": 0.482,
+          "close": 216.74,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "SMCI",
+          "name": "Super Micro",
+          "theme": "算力",
+          "corr60": 0.479,
+          "close": 41.86,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        }
+      ],
+      "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
+      "inScreenerPass": true,
+      "sectorNote": null
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "theme": "Software service",
+      "etf": "IGV",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 209.05,
+      "ma30": 183.06,
+      "ma50": 176.98,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 8.1,
+            "highDate": "2026-08-05",
+            "high": 166.08,
+            "lowDate": "2026-08-06",
+            "low": 152.7
+          },
+          {
+            "label": "C2",
+            "pct": 6.3,
+            "highDate": "2026-08-10",
+            "high": 179.6,
+            "lowDate": "2026-08-12",
+            "low": 168.34
+          },
+          {
+            "label": "C3",
+            "pct": 5.8,
+            "highDate": "2026-08-14",
+            "high": 180.18,
+            "lowDate": "2026-08-19",
+            "low": 169.771
+          }
+        ],
+        "pivot": 209.58,
+        "pivotDate": "2026-10-09",
+        "contracting": true
+      },
+      "alternates": [],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 8.1,
+          "highDate": "2026-08-05",
+          "high": 166.08,
+          "lowDate": "2026-08-06",
+          "low": 152.7
+        },
+        {
+          "label": "C2",
+          "pct": 6.3,
+          "highDate": "2026-08-10",
+          "high": 179.6,
+          "lowDate": "2026-08-12",
+          "low": 168.34
+        },
+        {
+          "label": "C3",
+          "pct": 5.8,
+          "highDate": "2026-08-14",
+          "high": 180.18,
+          "lowDate": "2026-08-19",
+          "low": 169.771
+        }
+      ],
+      "pivot": 209.58,
+      "pivotDate": "2026-10-09",
+      "status": "盤中試破但收市仍低於 pivot",
+      "trendlines": [
+        {
+          "dir": "down",
+          "fromDate": "2026-09-02",
+          "fromPrice": 165.71,
+          "toDate": "2026-09-10",
+          "toPrice": 164.55,
+          "note": "低點降低"
+        },
+        {
+          "dir": "up",
+          "fromDate": "2026-09-03",
+          "fromPrice": 185.83,
+          "toDate": "2026-10-09",
+          "toPrice": 209.58,
+          "note": "高點抬高"
+        }
+      ],
+      "chartPath": "data/charts/PLTR_scan_VCP.png",
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "PLTR（Palantir） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 8.1% → C2 6.3% → C3 5.8%\nPivot／突破位：$209.58（2026-10-09）\n收市：$209.05；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈183.06）\n趨勢線：低點降低；高點抬高\n主題／ETF：Software service／IGV",
+      "siblings": [
+        {
+          "ticker": "CRWD",
+          "name": "CrowdStrike",
+          "theme": "Cyber security",
+          "corr60": 0.494,
+          "close": 275.04,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "NOW",
+          "name": "ServiceNow",
+          "theme": "Software service",
+          "corr60": 0.448,
+          "close": 140.86,
+          "sameTheme": true,
+          "coMoving": false,
+          "institutionalHint": false,
+          "note": "同主題但近月相關偏低，未必同步部署"
+        },
+        {
+          "ticker": "ORCL",
+          "name": "Oracle",
+          "theme": "Software service",
+          "corr60": 0.398,
+          "close": 141.4,
+          "sameTheme": true,
+          "coMoving": false,
+          "institutionalHint": false,
+          "note": "同主題但近月相關偏低，未必同步部署"
+        }
+      ],
+      "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
+      "inScreenerPass": true,
+      "sectorNote": {
+        "etf": "IGV",
+        "etfName": "iShares Expanded Tech-Software",
+        "relatedTicker": "PLTR",
+        "theme": "Software service",
+        "asOf": "2026-10-09",
+        "close": 112.67,
+        "pattern": "VCP",
+        "patternLabelTw": "VCP（波動收縮）",
+        "pivot": 112.67,
+        "status": "仍未破 pivot；收市低於突破位",
+        "summaryTw": "板塊 ETF IGV：VCP（波動收縮）；收市 $112.67；仍未破 pivot；收市低於突破位"
+      }
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "ANET",
+      "name": "Arista",
+      "theme": "光通信",
+      "etf": "IGV",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 216.74,
+      "ma30": 200.69,
+      "ma50": 197.86,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 13.5,
+            "highDate": "2026-08-12",
+            "high": 211.45,
+            "lowDate": "2026-08-20",
+            "low": 182.83
+          },
+          {
+            "label": "C2",
+            "pct": 12.1,
+            "highDate": "2026-08-27",
+            "high": 206.13,
+            "lowDate": "2026-09-03",
+            "low": 181.27
+          },
+          {
+            "label": "C3",
+            "pct": 6.4,
+            "highDate": "2026-09-08",
+            "high": 200.675,
+            "lowDate": "2026-09-10",
+            "low": 187.893
+          }
+        ],
+        "pivot": 217.41,
+        "pivotDate": "2026-10-09",
+        "contracting": true
+      },
+      "alternates": [
+        {
+          "pattern": "cup_with_handle",
+          "cupDepthPct": 15.6,
+          "handleDepthPct": 8.6,
+          "pivot": 217.41
+        }
+      ],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 13.5,
+          "highDate": "2026-08-12",
+          "high": 211.45,
+          "lowDate": "2026-08-20",
+          "low": 182.83
+        },
+        {
+          "label": "C2",
+          "pct": 12.1,
+          "highDate": "2026-08-27",
+          "high": 206.13,
+          "lowDate": "2026-09-03",
+          "low": 181.27
+        },
+        {
+          "label": "C3",
+          "pct": 6.4,
+          "highDate": "2026-09-08",
+          "high": 200.675,
+          "lowDate": "2026-09-10",
+          "low": 187.893
+        }
+      ],
+      "pivot": 217.41,
+      "pivotDate": "2026-10-09",
+      "status": "盤中試破但收市仍低於 pivot",
+      "trendlines": [
+        {
+          "dir": "down",
+          "fromDate": "2026-09-10",
+          "fromPrice": 187.893,
+          "toDate": "2026-09-14",
+          "toPrice": 186.11,
+          "note": "低點降低"
+        },
+        {
+          "dir": "up",
+          "fromDate": "2026-09-11",
+          "fromPrice": 200.25,
+          "toDate": "2026-10-09",
+          "toPrice": 217.41,
+          "note": "高點抬高"
+        }
+      ],
+      "chartPath": "data/charts/ANET_scan_VCP.png",
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "ANET（Arista） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 13.5% → C2 12.1% → C3 6.4%\nPivot／突破位：$217.41（2026-10-09）\n收市：$216.74；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈200.69）\n趨勢線：低點降低；高點抬高\n主題／ETF：光通信／IGV",
+      "siblings": [
+        {
+          "ticker": "VRT",
+          "name": "Vertiv",
+          "theme": "算力",
+          "corr60": 0.64,
+          "close": 242.78,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom",
+          "theme": "半導體",
+          "corr60": 0.602,
+          "close": 361.54,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "TSM",
+          "name": "TSMC",
+          "theme": "半導體",
+          "corr60": 0.572,
+          "close": 453.31,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        }
+      ],
+      "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
+      "inScreenerPass": true,
+      "sectorNote": {
+        "etf": "IGV",
+        "etfName": "iShares Expanded Tech-Software",
+        "relatedTicker": "ANET",
+        "theme": "光通信",
+        "asOf": "2026-10-09",
+        "close": 112.67,
+        "pattern": "VCP",
+        "patternLabelTw": "VCP（波動收縮）",
+        "pivot": 112.67,
+        "status": "仍未破 pivot；收市低於突破位",
+        "summaryTw": "板塊 ETF IGV：VCP（波動收縮）；收市 $112.67；仍未破 pivot；收市低於突破位"
+      }
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "theme": "醫療",
+      "etf": "XLV",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 423.96,
+      "ma30": 389.1,
+      "ma50": 386.1,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 15.6,
+            "highDate": "2026-07-16",
+            "high": 405.5,
+            "lowDate": "2026-07-20",
+            "low": 342.1
+          },
+          {
+            "label": "C2",
+            "pct": 9.4,
+            "highDate": "2026-07-21",
+            "high": 362.85,
+            "lowDate": "2026-07-23",
+            "low": 328.57
+          },
+          {
+            "label": "C3",
+            "pct": 7.5,
+            "highDate": "2026-07-28",
+            "high": 374.7,
+            "lowDate": "2026-07-30",
+            "low": 346.45
+          }
+        ],
+        "pivot": 427.53,
+        "pivotDate": "2026-10-09",
+        "contracting": true
+      },
+      "alternates": [
+        {
+          "pattern": "cup_with_handle",
+          "cupDepthPct": 14.8,
+          "handleDepthPct": 9.0,
+          "pivot": 427.53
+        }
+      ],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 15.6,
+          "highDate": "2026-07-16",
+          "high": 405.5,
+          "lowDate": "2026-07-20",
+          "low": 342.1
+        },
+        {
+          "label": "C2",
+          "pct": 9.4,
+          "highDate": "2026-07-21",
+          "high": 362.85,
+          "lowDate": "2026-07-23",
+          "low": 328.57
+        },
+        {
+          "label": "C3",
+          "pct": 7.5,
+          "highDate": "2026-07-28",
+          "high": 374.7,
+          "lowDate": "2026-07-30",
+          "low": 346.45
+        }
+      ],
+      "pivot": 427.53,
+      "pivotDate": "2026-10-09",
+      "status": "盤中試破但收市仍低於 pivot",
+      "trendlines": [
+        {
+          "dir": "up",
+          "fromDate": "2026-09-10",
+          "fromPrice": 345.25,
+          "toDate": "2026-10-05",
+          "toPrice": 389.11,
+          "note": "低點抬高（上升趨勢線）"
+        },
+        {
+          "dir": "up",
+          "fromDate": "2026-09-28",
+          "fromPrice": 416.51,
+          "toDate": "2026-10-09",
+          "toPrice": 427.53,
+          "note": "高點抬高"
+        }
+      ],
+      "chartPath": null,
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "ISRG（Intuitive Surgical） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 15.6% → C2 9.4% → C3 7.5%\nPivot／突破位：$427.53（2026-10-09）\n收市：$423.96；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈389.1）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：醫療／XLV",
+      "siblings": [
+        {
+          "ticker": "SYK",
+          "name": null,
+          "theme": null,
+          "corr60": 0.559,
+          "close": 277.33,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "BSX",
+          "name": null,
+          "theme": null,
+          "corr60": 0.468,
+          "close": 42.73,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "PFE",
+          "name": "Pfizer",
+          "theme": "醫療",
+          "corr60": 0.2,
+          "close": 28.28,
+          "sameTheme": true,
+          "coMoving": false,
+          "institutionalHint": false,
+          "note": "同主題但近月相關偏低，未必同步部署"
+        }
+      ],
+      "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
+      "inScreenerPass": true,
+      "sectorNote": {
+        "etf": "XLV",
+        "etfName": "Health Care Select",
+        "relatedTicker": "ISRG",
+        "theme": "醫療",
+        "asOf": "2026-10-09",
+        "close": 170.81,
+        "pattern": "VCP",
+        "patternLabelTw": "VCP（波動收縮）",
+        "pivot": 175.93,
+        "status": "仍未破 pivot；收市低於突破位",
+        "summaryTw": "板塊 ETF XLV：VCP（波動收縮）；收市 $170.81；仍未破 pivot；收市低於突破位"
+      }
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "theme": "醫療",
+      "etf": "XLV",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 28.28,
+      "ma30": 28.07,
+      "ma50": 27.62,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 16.5,
+            "highDate": "2026-04-02",
+            "high": 27.7969,
+            "lowDate": "2026-07-06",
+            "low": 23.2139
+          },
+          {
+            "label": "C2",
+            "pct": 6.7,
+            "highDate": "2026-09-03",
+            "high": 29.21,
+            "lowDate": "2026-09-15",
+            "low": 27.25
+          },
+          {
+            "label": "C3",
+            "pct": 6.3,
+            "highDate": "2026-09-30",
+            "high": 28.95,
+            "lowDate": "2026-10-05",
+            "low": 27.12
+          }
+        ],
+        "pivot": 28.95,
+        "pivotDate": "2026-09-30",
+        "contracting": true
+      },
+      "alternates": [
+        {
+          "pattern": "sym_triangle",
+          "pivot": 28.29
+        }
+      ],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 16.5,
+          "highDate": "2026-04-02",
+          "high": 27.7969,
+          "lowDate": "2026-07-06",
+          "low": 23.2139
+        },
+        {
+          "label": "C2",
+          "pct": 6.7,
+          "highDate": "2026-09-03",
+          "high": 29.21,
+          "lowDate": "2026-09-15",
+          "low": 27.25
+        },
+        {
+          "label": "C3",
+          "pct": 6.3,
+          "highDate": "2026-09-30",
+          "high": 28.95,
+          "lowDate": "2026-10-05",
+          "low": 27.12
+        }
+      ],
+      "pivot": 28.95,
+      "pivotDate": "2026-09-30",
+      "status": "仍未破 pivot；收市低於突破位",
+      "trendlines": [
+        {
+          "dir": "down",
+          "fromDate": "2026-09-15",
+          "fromPrice": 27.25,
+          "toDate": "2026-10-05",
+          "toPrice": 27.12,
+          "note": "低點降低"
+        },
+        {
+          "dir": "down",
+          "fromDate": "2026-09-03",
+          "fromPrice": 29.21,
+          "toDate": "2026-09-30",
+          "toPrice": 28.95,
+          "note": "高點降低（下降壓力線）"
+        }
+      ],
+      "chartPath": null,
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "PFE（Pfizer） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 16.5% → C2 6.7% → C3 6.3%\nPivot／突破位：$28.95（2026-09-30）\n收市：$28.28；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈28.07）\n趨勢線：低點降低；高點降低（下降壓力線）\n主題／ETF：醫療／XLV",
+      "siblings": [
+        {
+          "ticker": "ISRG",
+          "name": "Intuitive Surgical",
+          "theme": "醫療",
+          "corr60": 0.2,
+          "close": 423.96,
+          "sameTheme": true,
+          "coMoving": false,
+          "institutionalHint": false,
+          "note": "同主題但近月相關偏低，未必同步部署"
+        }
+      ],
+      "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
+      "inScreenerPass": true,
+      "sectorNote": {
+        "etf": "XLV",
+        "etfName": "Health Care Select",
+        "relatedTicker": "PFE",
+        "theme": "醫療",
+        "asOf": "2026-10-09",
+        "close": 170.81,
+        "pattern": "VCP",
+        "patternLabelTw": "VCP（波動收縮）",
+        "pivot": 175.93,
+        "status": "仍未破 pivot；收市低於突破位",
+        "summaryTw": "板塊 ETF XLV：VCP（波動收縮）；收市 $170.81；仍未破 pivot；收市低於突破位"
+      }
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "PANW",
+      "name": "Palo Alto",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 418.78,
+      "ma30": 374.84,
+      "ma50": 370.85,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 16.2,
+            "highDate": "2026-08-31",
+            "high": 383.73,
+            "lowDate": "2026-09-02",
+            "low": 321.39
+          },
+          {
+            "label": "C2",
+            "pct": 7.1,
+            "highDate": "2026-09-17",
+            "high": 383.12,
+            "lowDate": "2026-09-18",
+            "low": 356.0
+          },
+          {
+            "label": "C3",
+            "pct": 7.3,
+            "highDate": "2026-09-24",
+            "high": 396.3,
+            "lowDate": "2026-09-28",
+            "low": 367.27
+          }
+        ],
+        "pivot": 432.33,
+        "pivotDate": "2026-10-06",
+        "contracting": true
+      },
+      "alternates": [],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 16.2,
+          "highDate": "2026-08-31",
+          "high": 383.73,
+          "lowDate": "2026-09-02",
+          "low": 321.39
+        },
+        {
+          "label": "C2",
+          "pct": 7.1,
+          "highDate": "2026-09-17",
+          "high": 383.12,
+          "lowDate": "2026-09-18",
+          "low": 356.0
+        },
+        {
+          "label": "C3",
+          "pct": 7.3,
+          "highDate": "2026-09-24",
+          "high": 396.3,
+          "lowDate": "2026-09-28",
+          "low": 367.27
+        }
+      ],
+      "pivot": 432.33,
+      "pivotDate": "2026-10-06",
+      "status": "仍未破 pivot；收市低於突破位",
+      "trendlines": [
+        {
+          "dir": "up",
+          "fromDate": "2026-09-28",
+          "fromPrice": 367.27,
+          "toDate": "2026-10-08",
+          "toPrice": 395.8,
+          "note": "低點抬高（上升趨勢線）"
+        },
+        {
+          "dir": "up",
+          "fromDate": "2026-09-24",
+          "fromPrice": 396.3,
+          "toDate": "2026-10-06",
+          "toPrice": 432.33,
+          "note": "高點抬高"
+        }
+      ],
+      "chartPath": null,
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "PANW（Palo Alto） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 16.2% → C2 7.1% → C3 7.3%\nPivot／突破位：$432.33（2026-10-06）\n收市：$418.78；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈374.84）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：Cyber security／HACK",
+      "siblings": [
+        {
+          "ticker": "CRWD",
+          "name": "CrowdStrike",
+          "theme": "Cyber security",
+          "corr60": 0.8,
+          "close": 275.04,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.8）→ 較似板塊／大戶部署"
+        },
+        {
+          "ticker": "NOW",
+          "name": "ServiceNow",
+          "theme": "Software service",
+          "corr60": 0.532,
+          "close": 140.86,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        }
+      ],
+      "siblingHint": "CRWD 與 PANW 近月同步，若同時收緊／突破，較似板塊資金部署。",
+      "inScreenerPass": true,
+      "sectorNote": {
+        "etf": "HACK",
+        "etfName": "Cybersecurity ETF",
+        "relatedTicker": "PANW",
+        "theme": "Cyber security",
+        "asOf": "2026-10-09",
+        "close": 130.76,
+        "pattern": "VCP",
+        "patternLabelTw": "VCP（波動收縮）",
+        "pivot": 130.79,
+        "status": "盤中試破但收市仍低於 pivot",
+        "summaryTw": "板塊 ETF HACK：VCP（波動收縮）；收市 $130.76；盤中試破但收市仍低於 pivot"
+      }
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "theme": "半導體",
+      "etf": "SOX",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 361.54,
+      "ma30": 358.07,
+      "ma50": 371.39,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 9.9,
+            "highDate": "2026-09-08",
+            "high": 372.0226,
+            "lowDate": "2026-09-16",
+            "low": 335.1996
+          },
+          {
+            "label": "C2",
+            "pct": 6.3,
+            "highDate": "2026-09-22",
+            "high": 366.55,
+            "lowDate": "2026-10-01",
+            "low": 343.29
+          },
+          {
+            "label": "C3",
+            "pct": 6.2,
+            "highDate": "2026-10-06",
+            "high": 380.84,
+            "lowDate": "2026-10-08",
+            "low": 357.41
+          }
+        ],
+        "pivot": 380.84,
+        "pivotDate": "2026-10-06",
+        "contracting": true
+      },
+      "alternates": [],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 9.9,
+          "highDate": "2026-09-08",
+          "high": 372.0226,
+          "lowDate": "2026-09-16",
+          "low": 335.1996
+        },
+        {
+          "label": "C2",
+          "pct": 6.3,
+          "highDate": "2026-09-22",
+          "high": 366.55,
+          "lowDate": "2026-10-01",
+          "low": 343.29
+        },
+        {
+          "label": "C3",
+          "pct": 6.2,
+          "highDate": "2026-10-06",
+          "high": 380.84,
+          "lowDate": "2026-10-08",
+          "low": 357.41
+        }
+      ],
+      "pivot": 380.84,
+      "pivotDate": "2026-10-06",
+      "status": "仍未破 pivot；收市低於突破位",
+      "trendlines": [
+        {
+          "dir": "up",
+          "fromDate": "2026-10-01",
+          "fromPrice": 343.29,
+          "toDate": "2026-10-08",
+          "toPrice": 357.41,
+          "note": "低點抬高（上升趨勢線）"
+        },
+        {
+          "dir": "up",
+          "fromDate": "2026-09-22",
+          "fromPrice": 366.55,
+          "toDate": "2026-10-06",
+          "toPrice": 380.84,
+          "note": "高點抬高"
+        }
+      ],
+      "chartPath": null,
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "AVGO（Broadcom） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 9.9% → C2 6.3% → C3 6.2%\nPivot／突破位：$380.84（2026-10-06）\n收市：$361.54；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈358.07）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：半導體／SOX",
+      "siblings": [
+        {
+          "ticker": "TSM",
+          "name": "TSMC",
+          "theme": "半導體",
+          "corr60": 0.688,
+          "close": 453.31,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.688）→ 較似板塊／大戶部署"
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "theme": "半導體",
+          "corr60": 0.661,
+          "close": 229.28,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.661）→ 較似板塊／大戶部署"
+        },
+        {
+          "ticker": "MRVL",
+          "name": "Marvell",
+          "theme": "半導體",
+          "corr60": 0.582,
+          "close": 275.28,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.582）→ 較似板塊／大戶部署"
+        }
+      ],
+      "siblingHint": "TSM／NVDA／MRVL 與 AVGO 近月同步，若同時收緊／突破，較似板塊資金部署。",
+      "inScreenerPass": true,
+      "sectorNote": null
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 275.04,
+      "ma30": 242.78,
+      "ma50": 228.7,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 7.8,
+            "highDate": "2026-09-17",
+            "high": 250.32,
+            "lowDate": "2026-09-21",
+            "low": 230.85
+          },
+          {
+            "label": "C2",
+            "pct": 6.6,
+            "highDate": "2026-09-24",
+            "high": 263.87,
+            "lowDate": "2026-09-28",
+            "low": 246.51
+          }
+        ],
+        "pivot": 286.99,
+        "pivotDate": "2026-10-06",
+        "contracting": true
+      },
+      "alternates": [],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 7.8,
+          "highDate": "2026-09-17",
+          "high": 250.32,
+          "lowDate": "2026-09-21",
+          "low": 230.85
+        },
+        {
+          "label": "C2",
+          "pct": 6.6,
+          "highDate": "2026-09-24",
+          "high": 263.87,
+          "lowDate": "2026-09-28",
+          "low": 246.51
+        }
+      ],
+      "pivot": 286.99,
+      "pivotDate": "2026-10-06",
+      "status": "仍未破 pivot；收市低於突破位",
+      "trendlines": [
+        {
+          "dir": "up",
+          "fromDate": "2026-09-28",
+          "fromPrice": 246.51,
+          "toDate": "2026-10-08",
+          "toPrice": 261.62,
+          "note": "低點抬高（上升趨勢線）"
+        },
+        {
+          "dir": "up",
+          "fromDate": "2026-09-24",
+          "fromPrice": 263.87,
+          "toDate": "2026-10-06",
+          "toPrice": 286.99,
+          "note": "高點抬高"
+        }
+      ],
+      "chartPath": null,
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "CRWD（CrowdStrike） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 7.8% → C2 6.6%\nPivot／突破位：$286.99（2026-10-06）\n收市：$275.04；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈242.78）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：Cyber security／HACK",
+      "siblings": [
+        {
+          "ticker": "PANW",
+          "name": "Palo Alto",
+          "theme": "Cyber security",
+          "corr60": 0.8,
+          "close": 418.78,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.8）→ 較似板塊／大戶部署"
+        },
+        {
+          "ticker": "NOW",
+          "name": "ServiceNow",
+          "theme": "Software service",
+          "corr60": 0.559,
+          "close": 140.86,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "PLTR",
+          "name": "Palantir",
+          "theme": "Software service",
+          "corr60": 0.494,
+          "close": 209.05,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        }
+      ],
+      "siblingHint": "PANW 與 CRWD 近月同步，若同時收緊／突破，較似板塊資金部署。",
+      "inScreenerPass": true,
+      "sectorNote": {
+        "etf": "HACK",
+        "etfName": "Cybersecurity ETF",
+        "relatedTicker": "CRWD",
+        "theme": "Cyber security",
+        "asOf": "2026-10-09",
+        "close": 130.76,
+        "pattern": "VCP",
+        "patternLabelTw": "VCP（波動收縮）",
+        "pivot": 130.79,
+        "status": "盤中試破但收市仍低於 pivot",
+        "summaryTw": "板塊 ETF HACK：VCP（波動收縮）；收市 $130.76；盤中試破但收市仍低於 pivot"
+      }
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "MU",
+      "name": "Micron",
+      "theme": "記憶體",
+      "etf": "SOX",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 1029.0,
+      "ma30": 1016.72,
+      "ma50": 976.19,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 7.7,
+            "highDate": "2026-09-25",
+            "high": 1108.72,
+            "lowDate": "2026-10-01",
+            "low": 1022.9
+          },
+          {
+            "label": "C2",
+            "pct": 8.7,
+            "highDate": "2026-10-02",
+            "high": 1108.0,
+            "lowDate": "2026-10-07",
+            "low": 1011.42
+          },
+          {
+            "label": "C3",
+            "pct": 6.6,
+            "highDate": "2026-10-08",
+            "high": 1088.5,
+            "lowDate": "2026-10-09",
+            "low": 1017.0
+          }
+        ],
+        "pivot": 1088.5,
+        "pivotDate": "2026-10-08",
+        "contracting": true
+      },
+      "alternates": [
+        {
+          "pattern": "cup_with_handle",
+          "cupDepthPct": 14.3,
+          "handleDepthPct": 8.8,
+          "pivot": 1108.72
+        },
+        {
+          "pattern": "descending_triangle",
+          "pivot": 1011.42
+        }
+      ],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 7.7,
+          "highDate": "2026-09-25",
+          "high": 1108.72,
+          "lowDate": "2026-10-01",
+          "low": 1022.9
+        },
+        {
+          "label": "C2",
+          "pct": 8.7,
+          "highDate": "2026-10-02",
+          "high": 1108.0,
+          "lowDate": "2026-10-07",
+          "low": 1011.42
+        },
+        {
+          "label": "C3",
+          "pct": 6.6,
+          "highDate": "2026-10-08",
+          "high": 1088.5,
+          "lowDate": "2026-10-09",
+          "low": 1017.0
+        }
+      ],
+      "pivot": 1088.5,
+      "pivotDate": "2026-10-08",
+      "status": "仍未破 pivot；收市低於突破位",
+      "trendlines": [
+        {
+          "dir": "up",
+          "fromDate": "2026-10-07",
+          "fromPrice": 1011.42,
+          "toDate": "2026-10-09",
+          "toPrice": 1017.0,
+          "note": "低點抬高（上升趨勢線）"
+        },
+        {
+          "dir": "down",
+          "fromDate": "2026-10-02",
+          "fromPrice": 1108.0,
+          "toDate": "2026-10-08",
+          "toPrice": 1088.5,
+          "note": "高點降低（下降壓力線）"
+        }
+      ],
+      "chartPath": null,
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "MU（Micron） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 7.7% → C2 8.7% → C3 6.6%\nPivot／突破位：$1088.5（2026-10-08）\n收市：$1029.0；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈1016.72）\n趨勢線：低點抬高（上升趨勢線）；高點降低（下降壓力線）\n主題／ETF：記憶體／SOX",
+      "siblings": [
+        {
+          "ticker": "AMAT",
+          "name": "Applied Materials",
+          "theme": "半導體",
+          "corr60": 0.724,
+          "close": 507.03,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "TSM",
+          "name": "TSMC",
+          "theme": "半導體",
+          "corr60": 0.649,
+          "close": 453.31,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "AMD",
+          "name": "AMD",
+          "theme": "半導體",
+          "corr60": 0.608,
+          "close": 608.1,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        }
+      ],
+      "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
+      "inScreenerPass": true,
+      "sectorNote": null
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "theme": "半導體",
+      "etf": "SOX",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 229.28,
+      "ma30": 225.26,
+      "ma50": 221.94,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 11.4,
+            "highDate": "2026-07-22",
+            "high": 214.1504,
+            "lowDate": "2026-07-29",
+            "low": 189.7976
+          },
+          {
+            "label": "C2",
+            "pct": 9.1,
+            "highDate": "2026-08-17",
+            "high": 227.6653,
+            "lowDate": "2026-08-24",
+            "low": 207.0184
+          },
+          {
+            "label": "C3",
+            "pct": 6.7,
+            "highDate": "2026-08-27",
+            "high": 230.2124,
+            "lowDate": "2026-09-01",
+            "low": 214.8596
+          }
+        ],
+        "pivot": 243.37,
+        "pivotDate": "2026-10-06",
+        "contracting": true
+      },
+      "alternates": [],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 11.4,
+          "highDate": "2026-07-22",
+          "high": 214.1504,
+          "lowDate": "2026-07-29",
+          "low": 189.7976
+        },
+        {
+          "label": "C2",
+          "pct": 9.1,
+          "highDate": "2026-08-17",
+          "high": 227.6653,
+          "lowDate": "2026-08-24",
+          "low": 207.0184
+        },
+        {
+          "label": "C3",
+          "pct": 6.7,
+          "highDate": "2026-08-27",
+          "high": 230.2124,
+          "lowDate": "2026-09-01",
+          "low": 214.8596
+        }
+      ],
+      "pivot": 243.37,
+      "pivotDate": "2026-10-06",
+      "status": "仍未破 pivot；收市低於突破位",
+      "trendlines": [
+        {
+          "dir": "down",
+          "fromDate": "2026-09-01",
+          "fromPrice": 214.8596,
+          "toDate": "2026-09-14",
+          "toPrice": 208.93,
+          "note": "低點降低"
+        },
+        {
+          "dir": "up",
+          "fromDate": "2026-09-04",
+          "fromPrice": 234.4976,
+          "toDate": "2026-10-06",
+          "toPrice": 243.37,
+          "note": "高點抬高"
+        }
+      ],
+      "chartPath": null,
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "NVDA（NVIDIA） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 11.4% → C2 9.1% → C3 6.7%\nPivot／突破位：$243.37（2026-10-06）\n收市：$229.28；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈225.26）\n趨勢線：低點降低；高點抬高\n主題／ETF：半導體／SOX",
+      "siblings": [
+        {
+          "ticker": "TSM",
+          "name": "TSMC",
+          "theme": "半導體",
+          "corr60": 0.725,
+          "close": 453.31,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.725）→ 較似板塊／大戶部署"
+        },
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom",
+          "theme": "半導體",
+          "corr60": 0.661,
+          "close": 361.54,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.661）→ 較似板塊／大戶部署"
+        },
+        {
+          "ticker": "MRVL",
+          "name": "Marvell",
+          "theme": "半導體",
+          "corr60": 0.541,
+          "close": 275.28,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.541）→ 較似板塊／大戶部署"
+        }
+      ],
+      "siblingHint": "TSM／AVGO／MRVL 與 NVDA 近月同步，若同時收緊／突破，較似板塊資金部署。",
+      "inScreenerPass": true,
+      "sectorNote": null
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "NOW",
+      "name": "ServiceNow",
+      "theme": "Software service",
+      "etf": "IGV",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 140.86,
+      "ma30": 137.84,
+      "ma50": 132.22,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 12.5,
+            "highDate": "2026-07-21",
+            "high": 104.58,
+            "lowDate": "2026-07-23",
+            "low": 91.53
+          },
+          {
+            "label": "C2",
+            "pct": 10.4,
+            "highDate": "2026-07-29",
+            "high": 118.36,
+            "lowDate": "2026-07-31",
+            "low": 106.05
+          },
+          {
+            "label": "C3",
+            "pct": 6.4,
+            "highDate": "2026-08-03",
+            "high": 119.64,
+            "lowDate": "2026-08-04",
+            "low": 112.0
+          }
+        ],
+        "pivot": 149.6,
+        "pivotDate": "2026-08-31",
+        "contracting": true
+      },
+      "alternates": [],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 12.5,
+          "highDate": "2026-07-21",
+          "high": 104.58,
+          "lowDate": "2026-07-23",
+          "low": 91.53
+        },
+        {
+          "label": "C2",
+          "pct": 10.4,
+          "highDate": "2026-07-29",
+          "high": 118.36,
+          "lowDate": "2026-07-31",
+          "low": 106.05
+        },
+        {
+          "label": "C3",
+          "pct": 6.4,
+          "highDate": "2026-08-03",
+          "high": 119.64,
+          "lowDate": "2026-08-04",
+          "low": 112.0
+        }
+      ],
+      "pivot": 149.6,
+      "pivotDate": "2026-08-31",
+      "status": "仍未破 pivot；收市低於突破位",
+      "trendlines": [
+        {
+          "dir": "down",
+          "fromDate": "2026-09-11",
+          "fromPrice": 130.39,
+          "toDate": "2026-09-28",
+          "toPrice": 126.75,
+          "note": "低點降低"
+        },
+        {
+          "dir": "down",
+          "fromDate": "2026-09-15",
+          "fromPrice": 147.57,
+          "toDate": "2026-10-08",
+          "toPrice": 142.51,
+          "note": "高點降低（下降壓力線）"
+        }
+      ],
+      "chartPath": null,
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "NOW（ServiceNow） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 12.5% → C2 10.4% → C3 6.4%\nPivot／突破位：$149.6（2026-08-31）\n收市：$140.86；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈137.84）\n趨勢線：低點降低；高點降低（下降壓力線）\n主題／ETF：Software service／IGV",
+      "siblings": [
+        {
+          "ticker": "CRWD",
+          "name": "CrowdStrike",
+          "theme": "Cyber security",
+          "corr60": 0.559,
+          "close": 275.04,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "PANW",
+          "name": "Palo Alto",
+          "theme": "Cyber security",
+          "corr60": 0.532,
+          "close": 418.78,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "PLTR",
+          "name": "Palantir",
+          "theme": "Software service",
+          "corr60": 0.448,
+          "close": 209.05,
+          "sameTheme": true,
+          "coMoving": false,
+          "institutionalHint": false,
+          "note": "同主題但近月相關偏低，未必同步部署"
+        }
+      ],
+      "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
+      "inScreenerPass": true,
+      "sectorNote": {
+        "etf": "IGV",
+        "etfName": "iShares Expanded Tech-Software",
+        "relatedTicker": "NOW",
+        "theme": "Software service",
+        "asOf": "2026-10-09",
+        "close": 112.67,
+        "pattern": "VCP",
+        "patternLabelTw": "VCP（波動收縮）",
+        "pivot": 112.67,
+        "status": "仍未破 pivot；收市低於突破位",
+        "summaryTw": "板塊 ETF IGV：VCP（波動收縮）；收市 $112.67；仍未破 pivot；收市低於突破位"
+      }
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "AMD",
+      "name": "AMD",
+      "theme": "半導體",
+      "etf": "SOX",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 608.1,
+      "ma30": 559.82,
+      "ma50": 528.92,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 10.3,
+            "highDate": "2026-08-26",
+            "high": 491.12,
+            "lowDate": "2026-09-03",
+            "low": 440.5
+          },
+          {
+            "label": "C2",
+            "pct": 8.8,
+            "highDate": "2026-09-09",
+            "high": 526.79,
+            "lowDate": "2026-09-14",
+            "low": 480.33
+          },
+          {
+            "label": "C3",
+            "pct": 6.7,
+            "highDate": "2026-09-25",
+            "high": 639.0,
+            "lowDate": "2026-09-28",
+            "low": 596.07
+          }
+        ],
+        "pivot": 658.52,
+        "pivotDate": "2026-10-06",
+        "contracting": true
+      },
+      "alternates": [
+        {
+          "pattern": "cup_with_handle",
+          "cupDepthPct": 21.5,
+          "handleDepthPct": 11.6,
+          "pivot": 658.52
+        }
+      ],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 10.3,
+          "highDate": "2026-08-26",
+          "high": 491.12,
+          "lowDate": "2026-09-03",
+          "low": 440.5
+        },
+        {
+          "label": "C2",
+          "pct": 8.8,
+          "highDate": "2026-09-09",
+          "high": 526.79,
+          "lowDate": "2026-09-14",
+          "low": 480.33
+        },
+        {
+          "label": "C3",
+          "pct": 6.7,
+          "highDate": "2026-09-25",
+          "high": 639.0,
+          "lowDate": "2026-09-28",
+          "low": 596.07
+        }
+      ],
+      "pivot": 658.52,
+      "pivotDate": "2026-10-06",
+      "status": "仍未破 pivot；收市低於突破位",
+      "trendlines": [
+        {
+          "dir": "up",
+          "fromDate": "2026-09-28",
+          "fromPrice": 596.07,
+          "toDate": "2026-10-09",
+          "toPrice": 606.0,
+          "note": "低點抬高（上升趨勢線）"
+        },
+        {
+          "dir": "up",
+          "fromDate": "2026-09-25",
+          "fromPrice": 639.0,
+          "toDate": "2026-10-06",
+          "toPrice": 658.52,
+          "note": "高點抬高"
+        }
+      ],
+      "chartPath": null,
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "AMD（AMD） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 10.3% → C2 8.8% → C3 6.7%\nPivot／突破位：$658.52（2026-10-06）\n收市：$608.1；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈559.82）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：半導體／SOX",
+      "siblings": [
+        {
+          "ticker": "TSM",
+          "name": "TSMC",
+          "theme": "半導體",
+          "corr60": 0.642,
+          "close": 453.31,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.642）→ 較似板塊／大戶部署"
+        },
+        {
+          "ticker": "AMAT",
+          "name": "Applied Materials",
+          "theme": "半導體",
+          "corr60": 0.615,
+          "close": 507.03,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.615）→ 較似板塊／大戶部署"
+        },
+        {
+          "ticker": "MRVL",
+          "name": "Marvell",
+          "theme": "半導體",
+          "corr60": 0.567,
+          "close": 275.28,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.567）→ 較似板塊／大戶部署"
+        }
+      ],
+      "siblingHint": "TSM／AMAT／MRVL 與 AMD 近月同步，若同時收緊／突破，較似板塊資金部署。",
+      "inScreenerPass": true,
+      "sectorNote": null
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "SMCI",
+      "name": "Super Micro",
+      "theme": "算力",
+      "etf": "SOXX",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 41.86,
+      "ma30": 40.18,
+      "ma50": 38.0,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 12.6,
+            "highDate": "2026-09-11",
+            "high": 40.45,
+            "lowDate": "2026-09-16",
+            "low": 35.36
+          },
+          {
+            "label": "C2",
+            "pct": 6.6,
+            "highDate": "2026-09-17",
+            "high": 41.01,
+            "lowDate": "2026-09-18",
+            "low": 38.32
+          },
+          {
+            "label": "C3",
+            "pct": 6.7,
+            "highDate": "2026-09-23",
+            "high": 42.7,
+            "lowDate": "2026-09-24",
+            "low": 39.85
+          }
+        ],
+        "pivot": 45.77,
+        "pivotDate": "2026-10-07",
+        "contracting": true
+      },
+      "alternates": [
+        {
+          "pattern": "cup_with_handle",
+          "cupDepthPct": 19.4,
+          "handleDepthPct": 12.9,
+          "pivot": 45.77
+        }
+      ],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 12.6,
+          "highDate": "2026-09-11",
+          "high": 40.45,
+          "lowDate": "2026-09-16",
+          "low": 35.36
+        },
+        {
+          "label": "C2",
+          "pct": 6.6,
+          "highDate": "2026-09-17",
+          "high": 41.01,
+          "lowDate": "2026-09-18",
+          "low": 38.32
+        },
+        {
+          "label": "C3",
+          "pct": 6.7,
+          "highDate": "2026-09-23",
+          "high": 42.7,
+          "lowDate": "2026-09-24",
+          "low": 39.85
+        }
+      ],
+      "pivot": 45.77,
+      "pivotDate": "2026-10-07",
+      "status": "仍未破 pivot；收市低於突破位",
+      "trendlines": [
+        {
+          "dir": "up",
+          "fromDate": "2026-10-01",
+          "fromPrice": 40.13,
+          "toDate": "2026-10-09",
+          "toPrice": 40.63,
+          "note": "低點抬高（上升趨勢線）"
+        },
+        {
+          "dir": "up",
+          "fromDate": "2026-09-25",
+          "fromPrice": 43.76,
+          "toDate": "2026-10-07",
+          "toPrice": 45.77,
+          "note": "高點抬高"
+        }
+      ],
+      "chartPath": null,
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "SMCI（Super Micro） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 12.6% → C2 6.6% → C3 6.7%\nPivot／突破位：$45.77（2026-10-07）\n收市：$41.86；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈40.18）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：算力／SOXX",
+      "siblings": [
+        {
+          "ticker": "VRT",
+          "name": "Vertiv",
+          "theme": "算力",
+          "corr60": 0.481,
+          "close": 242.78,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.481）→ 較似板塊／大戶部署"
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "theme": "半導體",
+          "corr60": 0.552,
+          "close": 229.28,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        },
+        {
+          "ticker": "TSM",
+          "name": "TSMC",
+          "theme": "半導體",
+          "corr60": 0.537,
+          "close": 453.31,
+          "sameTheme": false,
+          "coMoving": true,
+          "institutionalHint": false,
+          "note": "走勢同步但主題未對齊，需人工確認業務"
+        }
+      ],
+      "siblingHint": "VRT 與 SMCI 近月同步，若同時收緊／突破，較似板塊資金部署。",
+      "inScreenerPass": true,
+      "sectorNote": null
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "MRVL",
+      "name": "Marvell",
+      "theme": "半導體",
+      "etf": "SOX",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 275.28,
+      "ma30": 245.63,
+      "ma50": 236.44,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 24.2,
+            "highDate": "2026-07-22",
+            "high": 214.873,
+            "lowDate": "2026-07-29",
+            "low": 162.8644
+          },
+          {
+            "label": "C2",
+            "pct": 11.8,
+            "highDate": "2026-07-31",
+            "high": 201.306,
+            "lowDate": "2026-08-03",
+            "low": 177.5312
+          },
+          {
+            "label": "C3",
+            "pct": 9.4,
+            "highDate": "2026-08-04",
+            "high": 222.6214,
+            "lowDate": "2026-08-06",
+            "low": 201.6959
+          }
+        ],
+        "pivot": 301.2,
+        "pivotDate": "2026-10-06",
+        "contracting": true
+      },
+      "alternates": [
+        {
+          "pattern": "ascending_triangle",
+          "pivot": 286.97
+        }
+      ],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 24.2,
+          "highDate": "2026-07-22",
+          "high": 214.873,
+          "lowDate": "2026-07-29",
+          "low": 162.8644
+        },
+        {
+          "label": "C2",
+          "pct": 11.8,
+          "highDate": "2026-07-31",
+          "high": 201.306,
+          "lowDate": "2026-08-03",
+          "low": 177.5312
+        },
+        {
+          "label": "C3",
+          "pct": 9.4,
+          "highDate": "2026-08-04",
+          "high": 222.6214,
+          "lowDate": "2026-08-06",
+          "low": 201.6959
+        }
+      ],
+      "pivot": 301.2,
+      "pivotDate": "2026-10-06",
+      "status": "仍未破 pivot；收市低於突破位",
+      "trendlines": [
+        {
+          "dir": "up",
+          "fromDate": "2026-09-28",
+          "fromPrice": 248.0858,
+          "toDate": "2026-10-08",
+          "toPrice": 265.7319,
+          "note": "低點抬高（上升趨勢線）"
+        },
+        {
+          "dir": "down",
+          "fromDate": "2026-10-06",
+          "fromPrice": 301.2042,
+          "toDate": "2026-10-09",
+          "toPrice": 283.78,
+          "note": "高點降低（下降壓力線）"
+        }
+      ],
+      "chartPath": null,
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "MRVL（Marvell） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 24.2% → C2 11.8% → C3 9.4%\nPivot／突破位：$301.2（2026-10-06）\n收市：$275.28；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈245.63）\n趨勢線：低點抬高（上升趨勢線）；高點降低（下降壓力線）\n主題／ETF：半導體／SOX",
+      "siblings": [
+        {
+          "ticker": "TSM",
+          "name": "TSMC",
+          "theme": "半導體",
+          "corr60": 0.62,
+          "close": 453.31,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.62）→ 較似板塊／大戶部署"
+        },
+        {
+          "ticker": "AMAT",
+          "name": "Applied Materials",
+          "theme": "半導體",
+          "corr60": 0.606,
+          "close": 507.03,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.606）→ 較似板塊／大戶部署"
+        },
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom",
+          "theme": "半導體",
+          "corr60": 0.582,
+          "close": 361.54,
+          "sameTheme": true,
+          "coMoving": true,
+          "institutionalHint": true,
+          "note": "同類業務且走勢同步（corr≈0.582）→ 較似板塊／大戶部署"
+        }
+      ],
+      "siblingHint": "TSM／AMAT／AVGO 與 MRVL 近月同步，若同時收緊／突破，較似板塊資金部署。",
+      "inScreenerPass": true,
+      "sectorNote": null
+    },
+    {
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "ticker": "MSTR",
+      "name": "MicroStrategy",
+      "theme": "虛擬貨幣",
+      "etf": "BITO",
+      "timeframe": "日K",
+      "asOf": "2026-10-09",
+      "close": 154.34,
+      "ma30": 146.51,
+      "ma50": 129.82,
+      "aboveMa30": true,
+      "primaryPattern": "VCP",
+      "primaryLabelTw": "VCP（波動收縮）",
+      "detail": {
+        "pattern": "VCP",
+        "contractions": [
+          {
+            "label": "C1",
+            "pct": 13.1,
+            "highDate": "2026-08-07",
+            "high": 105.5,
+            "lowDate": "2026-08-14",
+            "low": 91.67
+          },
+          {
+            "label": "C2",
+            "pct": 6.2,
+            "highDate": "2026-08-17",
+            "high": 98.57,
+            "lowDate": "2026-08-18",
+            "low": 92.45
+          },
+          {
+            "label": "C3",
+            "pct": 6.1,
+            "highDate": "2026-08-25",
+            "high": 128.66,
+            "lowDate": "2026-08-26",
+            "low": 120.87
+          }
+        ],
+        "pivot": 171.19,
+        "pivotDate": "2026-09-22",
+        "contracting": true
+      },
+      "alternates": [],
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 13.1,
+          "highDate": "2026-08-07",
+          "high": 105.5,
+          "lowDate": "2026-08-14",
+          "low": 91.67
+        },
+        {
+          "label": "C2",
+          "pct": 6.2,
+          "highDate": "2026-08-17",
+          "high": 98.57,
+          "lowDate": "2026-08-18",
+          "low": 92.45
+        },
+        {
+          "label": "C3",
+          "pct": 6.1,
+          "highDate": "2026-08-25",
+          "high": 128.66,
+          "lowDate": "2026-08-26",
+          "low": 120.87
+        }
+      ],
+      "pivot": 171.19,
+      "pivotDate": "2026-09-22",
+      "status": "仍未破 pivot；收市低於突破位",
+      "trendlines": [
+        {
+          "dir": "down",
+          "fromDate": "2026-09-30",
+          "fromPrice": 152.02,
+          "toDate": "2026-10-08",
+          "toPrice": 147.37,
+          "note": "低點降低"
+        },
+        {
+          "dir": "down",
+          "fromDate": "2026-10-02",
+          "fromPrice": 170.17,
+          "toDate": "2026-10-09",
+          "toPrice": 158.11,
+          "note": "高點降低（下降壓力線）"
+        }
+      ],
+      "chartPath": null,
+      "barsUsed": 444,
+      "dataSource": "yfinance",
+      "summaryTw": "MSTR（MicroStrategy） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 13.1% → C2 6.2% → C3 6.1%\nPivot／突破位：$171.19（2026-09-22）\n收市：$154.34；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈146.51）\n趨勢線：低點降低；高點降低（下降壓力線）\n主題／ETF：虛擬貨幣／BITO",
+      "siblings": [],
+      "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
+      "inScreenerPass": true,
+      "sectorNote": null
+    }
+  ],
+  "thinkingLog": [
+    {
+      "t": "2026-10-12T01:59:15.976870Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "scan:start",
+      "detail": "2026-10-12 刷新：從 Frok 通過 67 隻選 15 隻流動股做日K掃描（yfinance end=2026-10-13）"
+    },
+    {
+      "t": "2026-10-12T01:59:15.976899Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "filter:align",
+      "detail": "優先名單仍在通過：['ANET', 'NVDA', 'AMD', 'AVGO', 'MU', 'NOW', 'PANW', 'ISRG', 'CRWD', 'SMCI']；CORE=['ANET', 'NVDA', 'AMD', 'AVGO', 'MU', 'NOW', 'PANW', 'ISRG', 'CRWD', 'SMCI', 'MRVL', 'PFE', 'PLTR', 'MSTR', 'HPE']"
+    },
+    {
+      "t": "2026-10-12T01:59:15.976903Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "filter:default",
+      "detail": "跟 Frok screener-run-latest（市值 3B–2T、量 1M–500M、價>SMA30）"
+    },
+    {
+      "t": "2026-10-12T01:59:15.976909Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 ANET 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:16.283165Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "ANET 444 根，最新 2026-10-09 收 216.74"
+    },
+    {
+      "t": "2026-10-12T01:59:16.283177Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 NVDA 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:16.377488Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "NVDA 444 根，最新 2026-10-09 收 229.28"
+    },
+    {
+      "t": "2026-10-12T01:59:16.377499Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 AMD 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:16.528207Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "AMD 444 根，最新 2026-10-09 收 608.1"
+    },
+    {
+      "t": "2026-10-12T01:59:16.528218Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 AVGO 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:16.733657Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "AVGO 444 根，最新 2026-10-09 收 361.54"
+    },
+    {
+      "t": "2026-10-12T01:59:16.733669Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 MU 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:16.838654Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "MU 444 根，最新 2026-10-09 收 1029.0"
+    },
+    {
+      "t": "2026-10-12T01:59:16.838670Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 NOW 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:16.930349Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "NOW 444 根，最新 2026-10-09 收 140.86"
+    },
+    {
+      "t": "2026-10-12T01:59:16.930364Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 PANW 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:17.007182Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "PANW 444 根，最新 2026-10-09 收 418.78"
+    },
+    {
+      "t": "2026-10-12T01:59:17.007192Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 ISRG 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:17.128808Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "ISRG 444 根，最新 2026-10-09 收 423.96"
+    },
+    {
+      "t": "2026-10-12T01:59:17.128821Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 CRWD 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:17.246095Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "CRWD 444 根，最新 2026-10-09 收 275.04"
+    },
+    {
+      "t": "2026-10-12T01:59:17.246108Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 SMCI 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:17.336882Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "SMCI 444 根，最新 2026-10-09 收 41.86"
+    },
+    {
+      "t": "2026-10-12T01:59:17.336896Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 MRVL 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:17.608934Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "MRVL 444 根，最新 2026-10-09 收 275.28"
+    },
+    {
+      "t": "2026-10-12T01:59:17.608945Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 PFE 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:17.821406Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "PFE 444 根，最新 2026-10-09 收 28.28"
+    },
+    {
+      "t": "2026-10-12T01:59:17.821416Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 PLTR 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:17.919476Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "PLTR 444 根，最新 2026-10-09 收 209.05"
+    },
+    {
+      "t": "2026-10-12T01:59:17.919487Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 MSTR 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:18.000097Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "MSTR 444 根，最新 2026-10-09 收 154.34"
+    },
+    {
+      "t": "2026-10-12T01:59:18.000112Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 HPE 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:18.104556Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "HPE 444 根，最新 2026-10-09 收 73.46"
+    },
+    {
+      "t": "2026-10-12T01:59:18.104568Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 TSM 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:18.204820Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "TSM 444 根，最新 2026-10-09 收 453.31"
+    },
+    {
+      "t": "2026-10-12T01:59:18.204830Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 AMAT 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:18.314881Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "AMAT 444 根，最新 2026-10-09 收 507.03"
+    },
+    {
+      "t": "2026-10-12T01:59:18.314892Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 ORCL 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:18.468835Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "ORCL 444 根，最新 2026-10-09 收 141.4"
+    },
+    {
+      "t": "2026-10-12T01:59:18.468846Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 META 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:18.609006Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "META 444 根，最新 2026-10-09 收 718.67"
+    },
+    {
+      "t": "2026-10-12T01:59:18.609017Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 CEG 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:18.705675Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "CEG 444 根，最新 2026-10-09 收 298.07"
+    },
+    {
+      "t": "2026-10-12T01:59:18.705686Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 VST 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:18.837070Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "VST 444 根，最新 2026-10-09 收 161.48"
+    },
+    {
+      "t": "2026-10-12T01:59:18.837081Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 VRT 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:18.950932Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "VRT 444 根，最新 2026-10-09 收 242.78"
+    },
+    {
+      "t": "2026-10-12T01:59:18.950942Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 SYK 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:19.052407Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "SYK 444 根，最新 2026-10-09 收 277.33"
+    },
+    {
+      "t": "2026-10-12T01:59:19.052419Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 BSX 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:19.133131Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "BSX 444 根，最新 2026-10-09 收 42.73"
+    },
+    {
+      "t": "2026-10-12T01:59:19.133146Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 SOX 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:19.347003Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:fail",
+      "detail": "SOX 無足夠數據"
+    },
+    {
+      "t": "2026-10-12T01:59:19.347016Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 SMH 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:19.512117Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "SMH 444 根，最新 2026-10-09 收 603.33"
+    },
+    {
+      "t": "2026-10-12T01:59:19.512130Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 HACK 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:19.599935Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "HACK 444 根，最新 2026-10-09 收 130.76"
+    },
+    {
+      "t": "2026-10-12T01:59:19.599952Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 IGV 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:19.738503Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "IGV 444 根，最新 2026-10-09 收 112.67"
+    },
+    {
+      "t": "2026-10-12T01:59:19.738515Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 IHI 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:19.833038Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "IHI 444 根，最新 2026-10-09 收 51.74"
+    },
+    {
+      "t": "2026-10-12T01:59:19.833050Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ohlcv",
+      "detail": "下載 XLV 日K…"
+    },
+    {
+      "t": "2026-10-12T01:59:19.944253Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "fetch:ok",
+      "detail": "XLV 444 根，最新 2026-10-09 收 170.81"
+    },
+    {
+      "t": "2026-10-12T01:59:19.947794Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "ANET → VCP pivot=217.41 close=216.74 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.950350Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "NVDA → VCP pivot=243.37 close=229.28 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.952498Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "AMD → VCP pivot=658.52 close=608.1 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.954602Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "AVGO → VCP pivot=380.84 close=361.54 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.956746Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "MU → VCP pivot=1088.5 close=1029.0 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.959075Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "NOW → VCP pivot=149.6 close=140.86 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.961437Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "PANW → VCP pivot=432.33 close=418.78 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.963524Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "ISRG → VCP pivot=427.53 close=423.96 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.965750Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "CRWD → VCP pivot=286.99 close=275.04 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.967979Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "SMCI → VCP pivot=45.77 close=41.86 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.970204Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "MRVL → VCP pivot=301.2 close=275.28 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.972340Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "PFE → VCP pivot=28.95 close=28.28 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.974632Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "PLTR → VCP pivot=209.58 close=209.05 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.976746Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "MSTR → VCP pivot=171.19 close=154.34 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:19.978751Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "analyze:done",
+      "detail": "HPE → VCP pivot=73.56 close=73.46 pass=True"
+    },
+    {
+      "t": "2026-10-12T01:59:20.190989Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "chart:drawn",
+      "detail": "HPE → data/charts/HPE_scan_VCP.png"
+    },
+    {
+      "t": "2026-10-12T01:59:20.322026Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "chart:drawn",
+      "detail": "PLTR → data/charts/PLTR_scan_VCP.png"
+    },
+    {
+      "t": "2026-10-12T01:59:20.454500Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "chart:drawn",
+      "detail": "ANET → data/charts/ANET_scan_VCP.png"
+    },
+    {
+      "t": "2026-10-12T01:59:20.454562Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "align:screener-run",
+      "detail": "對齊 Frok screener-run-latest（67 通過）；掃描中命中 ['HPE', 'PLTR', 'ANET', 'ISRG', 'PFE', 'PANW', 'AVGO', 'CRWD', 'MU', 'NVDA', 'NOW', 'AMD', 'SMCI', 'MRVL', 'MSTR']；Top 依通過名單＋近 pivot 重排"
+    },
+    {
+      "t": "2026-10-12T01:59:20.454594Z",
+      "bot": "Grok",
+      "role": "技術分析＋兄弟姊妹股／板塊",
+      "step": "scan:done",
+      "detail": "完成 15 隻；圖 3 張；失敗 ['SOX']；asOfMarket=2026-10-09"
+    }
+  ],
+  "charts": [
+    "data/charts/HPE_scan_VCP.png",
+    "data/charts/PLTR_scan_VCP.png",
+    "data/charts/ANET_scan_VCP.png"
+  ],
+  "topSetups": [
+    {
+      "ticker": "HPE",
+      "pattern": "VCP",
+      "labelTw": "VCP（波動收縮）",
+      "pivot": 73.56,
+      "close": 73.46,
+      "status": "盤中試破但收市仍低於 pivot",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "siblings": [
+        "MRVL",
+        "ANET",
+        "SMCI"
+      ],
+      "summaryTw": "HPE（HPE） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 19.1% → C2 18.1% → C3 6.4%\nPivot／突破位：$73.56（2026-10-09）\n收市：$73.46；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈60.76）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：Hardware／XLK",
+      "chartPath": "data/charts/HPE_scan_VCP.png",
+      "inScreenerPass": true,
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 19.1,
+          "highDate": "2026-08-13",
+          "high": 63.2799,
+          "lowDate": "2026-08-24",
+          "low": 51.1706
+        },
+        {
+          "label": "C2",
+          "pct": 18.1,
+          "highDate": "2026-08-27",
+          "high": 55.6443,
+          "lowDate": "2026-09-03",
+          "low": 45.5847
+        },
+        {
+          "label": "C3",
+          "pct": 6.4,
+          "highDate": "2026-09-09",
+          "high": 58.7713,
+          "lowDate": "2026-09-10",
+          "low": 54.9909
+        }
+      ]
+    },
+    {
+      "ticker": "PLTR",
+      "pattern": "VCP",
+      "labelTw": "VCP（波動收縮）",
+      "pivot": 209.58,
+      "close": 209.05,
+      "status": "盤中試破但收市仍低於 pivot",
+      "theme": "Software service",
+      "etf": "IGV",
+      "siblings": [
+        "CRWD",
+        "NOW",
+        "ORCL"
+      ],
+      "summaryTw": "PLTR（Palantir） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 8.1% → C2 6.3% → C3 5.8%\nPivot／突破位：$209.58（2026-10-09）\n收市：$209.05；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈183.06）\n趨勢線：低點降低；高點抬高\n主題／ETF：Software service／IGV",
+      "chartPath": "data/charts/PLTR_scan_VCP.png",
+      "inScreenerPass": true,
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 8.1,
+          "highDate": "2026-08-05",
+          "high": 166.08,
+          "lowDate": "2026-08-06",
+          "low": 152.7
+        },
+        {
+          "label": "C2",
+          "pct": 6.3,
+          "highDate": "2026-08-10",
+          "high": 179.6,
+          "lowDate": "2026-08-12",
+          "low": 168.34
+        },
+        {
+          "label": "C3",
+          "pct": 5.8,
+          "highDate": "2026-08-14",
+          "high": 180.18,
+          "lowDate": "2026-08-19",
+          "low": 169.771
+        }
+      ]
+    },
+    {
+      "ticker": "ANET",
+      "pattern": "VCP",
+      "labelTw": "VCP（波動收縮）",
+      "pivot": 217.41,
+      "close": 216.74,
+      "status": "盤中試破但收市仍低於 pivot",
+      "theme": "光通信",
+      "etf": "IGV",
+      "siblings": [
+        "VRT",
+        "AVGO",
+        "TSM"
+      ],
+      "summaryTw": "ANET（Arista） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 13.5% → C2 12.1% → C3 6.4%\nPivot／突破位：$217.41（2026-10-09）\n收市：$216.74；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈200.69）\n趨勢線：低點降低；高點抬高\n主題／ETF：光通信／IGV",
+      "chartPath": "data/charts/ANET_scan_VCP.png",
+      "inScreenerPass": true,
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 13.5,
+          "highDate": "2026-08-12",
+          "high": 211.45,
+          "lowDate": "2026-08-20",
+          "low": 182.83
+        },
+        {
+          "label": "C2",
+          "pct": 12.1,
+          "highDate": "2026-08-27",
+          "high": 206.13,
+          "lowDate": "2026-09-03",
+          "low": 181.27
+        },
+        {
+          "label": "C3",
+          "pct": 6.4,
+          "highDate": "2026-09-08",
+          "high": 200.675,
+          "lowDate": "2026-09-10",
+          "low": 187.893
+        }
+      ]
+    },
+    {
+      "ticker": "ISRG",
+      "pattern": "VCP",
+      "labelTw": "VCP（波動收縮）",
+      "pivot": 427.53,
+      "close": 423.96,
+      "status": "盤中試破但收市仍低於 pivot",
+      "theme": "醫療",
+      "etf": "XLV",
+      "siblings": [
+        "SYK",
+        "BSX",
+        "PFE"
+      ],
+      "summaryTw": "ISRG（Intuitive Surgical） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 15.6% → C2 9.4% → C3 7.5%\nPivot／突破位：$427.53（2026-10-09）\n收市：$423.96；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈389.1）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：醫療／XLV",
+      "chartPath": null,
+      "inScreenerPass": true,
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 15.6,
+          "highDate": "2026-07-16",
+          "high": 405.5,
+          "lowDate": "2026-07-20",
+          "low": 342.1
+        },
+        {
+          "label": "C2",
+          "pct": 9.4,
+          "highDate": "2026-07-21",
+          "high": 362.85,
+          "lowDate": "2026-07-23",
+          "low": 328.57
+        },
+        {
+          "label": "C3",
+          "pct": 7.5,
+          "highDate": "2026-07-28",
+          "high": 374.7,
+          "lowDate": "2026-07-30",
+          "low": 346.45
+        }
+      ]
+    },
+    {
+      "ticker": "PFE",
+      "pattern": "VCP",
+      "labelTw": "VCP（波動收縮）",
+      "pivot": 28.95,
+      "close": 28.28,
+      "status": "仍未破 pivot；收市低於突破位",
+      "theme": "醫療",
+      "etf": "XLV",
+      "siblings": [
+        "ISRG"
+      ],
+      "summaryTw": "PFE（Pfizer） 日K技術分析 @ 2026-10-09\n主形態：VCP（波動收縮）；C1 16.5% → C2 6.7% → C3 6.3%\nPivot／突破位：$28.95（2026-09-30）\n收市：$28.28；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈28.07）\n趨勢線：低點降低；高點降低（下降壓力線）\n主題／ETF：醫療／XLV",
+      "chartPath": null,
+      "inScreenerPass": true,
+      "contractions": [
+        {
+          "label": "C1",
+          "pct": 16.5,
+          "highDate": "2026-04-02",
+          "high": 27.7969,
+          "lowDate": "2026-07-06",
+          "low": 23.2139
+        },
+        {
+          "label": "C2",
+          "pct": 6.7,
+          "highDate": "2026-09-03",
+          "high": 29.21,
+          "lowDate": "2026-09-15",
+          "low": 27.25
+        },
+        {
+          "label": "C3",
+          "pct": 6.3,
+          "highDate": "2026-09-30",
+          "high": 28.95,
+          "lowDate": "2026-10-05",
+          "low": 27.12
+        }
+      ]
+    }
+  ],
+  "screenerAlign": {
+    "source": "data/screener-run-latest.json",
+    "passedCount": 67,
+    "scannedInPass": [
+      "HPE",
+      "PLTR",
+      "ANET",
+      "ISRG",
+      "PFE",
+      "PANW",
+      "AVGO",
+      "CRWD",
+      "MU",
+      "NVDA",
+      "NOW",
+      "AMD",
+      "SMCI",
+      "MRVL",
+      "MSTR"
+    ],
+    "scannedOutOfPass": []
+  }
+}

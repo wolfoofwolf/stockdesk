@@ -1,0 +1,2129 @@
+{
+  "generatedAt": "2026-10-11T14:17:08.040Z",
+  "asOf": "2026-10-09",
+  "bot": "Arok",
+  "role": "進場策略",
+  "note": "對齊 company-run-latest + tech-scan-latest；止損上限 6%；非領導股降權",
+  "count": 6,
+  "summaryTw": "【進場策略｜Arok｜即時】對齊 Jrok 公司報告 7 隻＋Grok 技術掃描\n可考慮進場：ANET/META、NVDA/META、AVGO/META、ISRG/META、PANW/META、NOW/META\nANET：可考慮進場｜META｜Position trade｜$216.74→止損$203.74 (6%)｜領導股=是(10)\nNVDA：可考慮進場｜META｜Position trade｜$229.28→止損$215.52 (6%)｜領導股=是(10)\nAVGO：可考慮進場｜META｜Position trade｜$361.54→止損$353.84 (2.13%)｜領導股=是(10)\nISRG：可考慮進場｜META｜Position trade｜$423.96→止損$398.52 (6%)｜領導股=是(9)\nPANW：可考慮進場｜META｜Position trade｜$418.78→止損$393.65 (6%)｜領導股=是(9)\nNOW：可考慮進場｜META｜Position trade｜$140.86→止損$132.41 (6%)｜領導股=是(9)",
+  "reports": [
+    {
+      "ticker": "ANET",
+      "theme": "光通信",
+      "etf": "IGV",
+      "asOf": "2026-10-09",
+      "leadership": {
+        "isLeader": true,
+        "source": "Company.leadership",
+        "score": 10,
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      },
+      "action": "可考慮進場",
+      "bestMethod": "META",
+      "tradeStyle": "Position trade",
+      "levels": {
+        "entry": 216.74,
+        "stop": 203.74,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 217.41
+      },
+      "why": [
+        "領導股 + META 達標"
+      ],
+      "methods": {
+        "META": {
+          "ok": true,
+          "score": 3,
+          "note": "多邊緣重疊，META 成立"
+        },
+        "BO": {
+          "ok": false,
+          "note": "未確認突破（或缺量／大盤）"
+        },
+        "Pullback": {
+          "ok": true,
+          "note": "缩量回踩＋支持區，Pullback 成立"
+        }
+      },
+      "pattern": "VCP",
+      "pivot": 217.41,
+      "price": 216.74,
+      "summaryTw": "ANET 進場策略（Arok）\n領導股：是（score 10）\n建議：可考慮進場｜方法 META｜Position trade\n入場約 $216.74／止損 $203.74（風險 6%，上限 6%）\n原因：領導股 + META 達標",
+      "thinkingLog": [
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:done",
+          "detail": {
+            "method": "META",
+            "ok": true,
+            "score": 3,
+            "edges": [
+              {
+                "id": "zone",
+                "detail": "位於橫向 zone $187.89–$216.74"
+              },
+              {
+                "id": "rsi_strong",
+                "detail": "RSI 62.0（強但不極端）"
+              },
+              {
+                "id": "pattern",
+                "detail": "形態 VCP C1 13.5%→C2 12.1%→C3 6.4%"
+              }
+            ],
+            "mas": {
+              "5": null,
+              "10": null,
+              "20": null,
+              "30": null,
+              "50": null,
+              "63": null,
+              "120": null,
+              "200": null
+            },
+            "rsi": 62,
+            "note": "多邊緣重疊，META 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "BO:start",
+          "detail": {
+            "ticker": "ANET"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "BO:done",
+          "detail": {
+            "method": "BO",
+            "ok": false,
+            "reasons": [
+              "大盤上升配合"
+            ],
+            "pivot": 217.41,
+            "note": "未確認突破（或缺量／大盤）"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:start",
+          "detail": {
+            "ticker": "ANET"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:start",
+          "detail": {
+            "ticker": "ANET"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:done",
+          "detail": {
+            "method": "META",
+            "ok": true,
+            "score": 3,
+            "edges": [
+              {
+                "id": "zone",
+                "detail": "位於橫向 zone $187.89–$216.74"
+              },
+              {
+                "id": "rsi_strong",
+                "detail": "RSI 62.0（強但不極端）"
+              },
+              {
+                "id": "pattern",
+                "detail": "形態 VCP C1 13.5%→C2 12.1%→C3 6.4%"
+              }
+            ],
+            "mas": {
+              "5": null,
+              "10": null,
+              "20": null,
+              "30": null,
+              "50": null,
+              "63": null,
+              "120": null,
+              "200": null
+            },
+            "rsi": 62,
+            "note": "多邊緣重疊，META 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 25%",
+              "回踩縮量",
+              "回踩落入 zone $187.89–$216.74",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "ANET",
+            "action": "可考慮進場",
+            "best": "META",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "theme": "半導體",
+      "etf": "SOX",
+      "asOf": "2026-10-09",
+      "leadership": {
+        "isLeader": true,
+        "source": "Company.leadership",
+        "score": 10,
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      },
+      "action": "可考慮進場",
+      "bestMethod": "META",
+      "tradeStyle": "Position trade",
+      "levels": {
+        "entry": 229.28,
+        "stop": 215.52,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 243.37
+      },
+      "why": [
+        "領導股 + META 達標"
+      ],
+      "methods": {
+        "META": {
+          "ok": true,
+          "score": 3,
+          "note": "多邊緣重疊，META 成立"
+        },
+        "BO": {
+          "ok": false,
+          "note": "未確認突破（或缺量／大盤）"
+        },
+        "Pullback": {
+          "ok": true,
+          "note": "缩量回踩＋支持區，Pullback 成立"
+        }
+      },
+      "pattern": "VCP",
+      "pivot": 243.37,
+      "price": 229.28,
+      "summaryTw": "NVDA 進場策略（Arok）\n領導股：是（score 10）\n建議：可考慮進場｜方法 META｜Position trade\n入場約 $229.28／止損 $215.52（風險 6%，上限 6%）\n原因：領導股 + META 達標",
+      "thinkingLog": [
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:done",
+          "detail": {
+            "method": "META",
+            "ok": true,
+            "score": 3,
+            "edges": [
+              {
+                "id": "zone",
+                "detail": "位於橫向 zone $214.86–$229.28"
+              },
+              {
+                "id": "rsi_strong",
+                "detail": "RSI 62.0（強但不極端）"
+              },
+              {
+                "id": "pattern",
+                "detail": "形態 VCP C1 11.4%→C2 9.1%→C3 6.7%"
+              }
+            ],
+            "mas": {
+              "5": null,
+              "10": null,
+              "20": null,
+              "30": null,
+              "50": null,
+              "63": null,
+              "120": null,
+              "200": null
+            },
+            "rsi": 62,
+            "note": "多邊緣重疊，META 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "BO:start",
+          "detail": {
+            "ticker": "NVDA"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "BO:done",
+          "detail": {
+            "method": "BO",
+            "ok": false,
+            "reasons": [
+              "大盤上升配合"
+            ],
+            "pivot": 243.37,
+            "note": "未確認突破（或缺量／大盤）"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:start",
+          "detail": {
+            "ticker": "NVDA"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:start",
+          "detail": {
+            "ticker": "NVDA"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:done",
+          "detail": {
+            "method": "META",
+            "ok": true,
+            "score": 3,
+            "edges": [
+              {
+                "id": "zone",
+                "detail": "位於橫向 zone $214.86–$229.28"
+              },
+              {
+                "id": "rsi_strong",
+                "detail": "RSI 62.0（強但不極端）"
+              },
+              {
+                "id": "pattern",
+                "detail": "形態 VCP C1 11.4%→C2 9.1%→C3 6.7%"
+              }
+            ],
+            "mas": {
+              "5": null,
+              "10": null,
+              "20": null,
+              "30": null,
+              "50": null,
+              "63": null,
+              "120": null,
+              "200": null
+            },
+            "rsi": 62,
+            "note": "多邊緣重疊，META 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 25%",
+              "回踩縮量",
+              "回踩落入 zone $214.86–$229.28",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "NVDA",
+            "action": "可考慮進場",
+            "best": "META",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "AVGO",
+      "theme": "半導體",
+      "etf": "SOX",
+      "asOf": "2026-10-09",
+      "leadership": {
+        "isLeader": true,
+        "source": "Company.leadership",
+        "score": 10,
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      },
+      "action": "可考慮進場",
+      "bestMethod": "META",
+      "tradeStyle": "Position trade",
+      "levels": {
+        "entry": 361.54,
+        "stop": 353.84,
+        "riskPct": 2.13,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": false,
+        "targetHint": 380.84
+      },
+      "why": [
+        "領導股 + META 達標"
+      ],
+      "methods": {
+        "META": {
+          "ok": true,
+          "score": 3,
+          "note": "多邊緣重疊，META 成立"
+        },
+        "BO": {
+          "ok": false,
+          "note": "未確認突破（或缺量／大盤）"
+        },
+        "Pullback": {
+          "ok": true,
+          "note": "缩量回踩＋支持區，Pullback 成立"
+        }
+      },
+      "pattern": "VCP",
+      "pivot": 380.84,
+      "price": 361.54,
+      "summaryTw": "AVGO 進場策略（Arok）\n領導股：是（score 10）\n建議：可考慮進場｜方法 META｜Position trade\n入場約 $361.54／止損 $353.84（風險 2.13%，上限 6%）\n原因：領導股 + META 達標",
+      "thinkingLog": [
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:done",
+          "detail": {
+            "method": "META",
+            "ok": true,
+            "score": 3,
+            "edges": [
+              {
+                "id": "zone",
+                "detail": "位於橫向 zone $357.41–$361.54"
+              },
+              {
+                "id": "rsi_strong",
+                "detail": "RSI 62.0（強但不極端）"
+              },
+              {
+                "id": "pattern",
+                "detail": "形態 VCP C1 9.9%→C2 6.3%→C3 6.2%"
+              }
+            ],
+            "mas": {
+              "5": null,
+              "10": null,
+              "20": null,
+              "30": null,
+              "50": null,
+              "63": null,
+              "120": null,
+              "200": null
+            },
+            "rsi": 62,
+            "note": "多邊緣重疊，META 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "BO:start",
+          "detail": {
+            "ticker": "AVGO"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "BO:done",
+          "detail": {
+            "method": "BO",
+            "ok": false,
+            "reasons": [
+              "大盤上升配合"
+            ],
+            "pivot": 380.84,
+            "note": "未確認突破（或缺量／大盤）"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:start",
+          "detail": {
+            "ticker": "AVGO"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:start",
+          "detail": {
+            "ticker": "AVGO"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:done",
+          "detail": {
+            "method": "META",
+            "ok": true,
+            "score": 3,
+            "edges": [
+              {
+                "id": "zone",
+                "detail": "位於橫向 zone $357.41–$361.54"
+              },
+              {
+                "id": "rsi_strong",
+                "detail": "RSI 62.0（強但不極端）"
+              },
+              {
+                "id": "pattern",
+                "detail": "形態 VCP C1 9.9%→C2 6.3%→C3 6.2%"
+              }
+            ],
+            "mas": {
+              "5": null,
+              "10": null,
+              "20": null,
+              "30": null,
+              "50": null,
+              "63": null,
+              "120": null,
+              "200": null
+            },
+            "rsi": 62,
+            "note": "多邊緣重疊，META 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 25%",
+              "回踩縮量",
+              "回踩落入 zone $357.41–$361.54",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "AVGO",
+            "action": "可考慮進場",
+            "best": "META",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "ISRG",
+      "theme": "醫療",
+      "etf": "IHI",
+      "asOf": "2026-10-09",
+      "leadership": {
+        "isLeader": true,
+        "source": "Company.leadership",
+        "score": 9,
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      },
+      "action": "可考慮進場",
+      "bestMethod": "META",
+      "tradeStyle": "Position trade",
+      "levels": {
+        "entry": 423.96,
+        "stop": 398.52,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 427.53
+      },
+      "why": [
+        "領導股 + META 達標"
+      ],
+      "methods": {
+        "META": {
+          "ok": true,
+          "score": 3,
+          "note": "多邊緣重疊，META 成立"
+        },
+        "BO": {
+          "ok": false,
+          "note": "未確認突破（或缺量／大盤）"
+        },
+        "Pullback": {
+          "ok": true,
+          "note": "缩量回踩＋支持區，Pullback 成立"
+        }
+      },
+      "pattern": "VCP",
+      "pivot": 427.53,
+      "price": 423.96,
+      "summaryTw": "ISRG 進場策略（Arok）\n領導股：是（score 9）\n建議：可考慮進場｜方法 META｜Position trade\n入場約 $423.96／止損 $398.52（風險 6%，上限 6%）\n原因：領導股 + META 達標",
+      "thinkingLog": [
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:done",
+          "detail": {
+            "method": "META",
+            "ok": true,
+            "score": 3,
+            "edges": [
+              {
+                "id": "zone",
+                "detail": "位於橫向 zone $346.45–$423.96"
+              },
+              {
+                "id": "rsi_strong",
+                "detail": "RSI 62.0（強但不極端）"
+              },
+              {
+                "id": "pattern",
+                "detail": "形態 VCP C1 15.6%→C2 9.4%→C3 7.5%"
+              }
+            ],
+            "mas": {
+              "5": null,
+              "10": null,
+              "20": null,
+              "30": null,
+              "50": null,
+              "63": null,
+              "120": null,
+              "200": null
+            },
+            "rsi": 62,
+            "note": "多邊緣重疊，META 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "BO:start",
+          "detail": {
+            "ticker": "ISRG"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "BO:done",
+          "detail": {
+            "method": "BO",
+            "ok": false,
+            "reasons": [
+              "大盤上升配合"
+            ],
+            "pivot": 427.53,
+            "note": "未確認突破（或缺量／大盤）"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:start",
+          "detail": {
+            "ticker": "ISRG"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:start",
+          "detail": {
+            "ticker": "ISRG"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:done",
+          "detail": {
+            "method": "META",
+            "ok": true,
+            "score": 3,
+            "edges": [
+              {
+                "id": "zone",
+                "detail": "位於橫向 zone $346.45–$423.96"
+              },
+              {
+                "id": "rsi_strong",
+                "detail": "RSI 62.0（強但不極端）"
+              },
+              {
+                "id": "pattern",
+                "detail": "形態 VCP C1 15.6%→C2 9.4%→C3 7.5%"
+              }
+            ],
+            "mas": {
+              "5": null,
+              "10": null,
+              "20": null,
+              "30": null,
+              "50": null,
+              "63": null,
+              "120": null,
+              "200": null
+            },
+            "rsi": 62,
+            "note": "多邊緣重疊，META 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 25%",
+              "回踩縮量",
+              "回踩落入 zone $346.45–$423.96",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "ISRG",
+            "action": "可考慮進場",
+            "best": "META",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "asOf": "2026-10-09",
+      "leadership": {
+        "isLeader": true,
+        "source": "Company.leadership",
+        "score": 9,
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      },
+      "action": "可考慮進場",
+      "bestMethod": "META",
+      "tradeStyle": "Position trade",
+      "levels": {
+        "entry": 418.78,
+        "stop": 393.65,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 432.33
+      },
+      "why": [
+        "領導股 + META 達標"
+      ],
+      "methods": {
+        "META": {
+          "ok": true,
+          "score": 3,
+          "note": "多邊緣重疊，META 成立"
+        },
+        "BO": {
+          "ok": false,
+          "note": "未確認突破（或缺量／大盤）"
+        },
+        "Pullback": {
+          "ok": true,
+          "note": "缩量回踩＋支持區，Pullback 成立"
+        }
+      },
+      "pattern": "VCP",
+      "pivot": 432.33,
+      "price": 418.78,
+      "summaryTw": "PANW 進場策略（Arok）\n領導股：是（score 9）\n建議：可考慮進場｜方法 META｜Position trade\n入場約 $418.78／止損 $393.65（風險 6%，上限 6%）\n原因：領導股 + META 達標",
+      "thinkingLog": [
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:done",
+          "detail": {
+            "method": "META",
+            "ok": true,
+            "score": 3,
+            "edges": [
+              {
+                "id": "zone",
+                "detail": "位於橫向 zone $367.27–$418.78"
+              },
+              {
+                "id": "rsi_strong",
+                "detail": "RSI 62.0（強但不極端）"
+              },
+              {
+                "id": "pattern",
+                "detail": "形態 VCP C1 16.2%→C2 7.1%→C3 7.3%"
+              }
+            ],
+            "mas": {
+              "5": null,
+              "10": null,
+              "20": null,
+              "30": null,
+              "50": null,
+              "63": null,
+              "120": null,
+              "200": null
+            },
+            "rsi": 62,
+            "note": "多邊緣重疊，META 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "BO:start",
+          "detail": {
+            "ticker": "PANW"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "BO:done",
+          "detail": {
+            "method": "BO",
+            "ok": false,
+            "reasons": [
+              "大盤上升配合"
+            ],
+            "pivot": 432.33,
+            "note": "未確認突破（或缺量／大盤）"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:start",
+          "detail": {
+            "ticker": "PANW"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:start",
+          "detail": {
+            "ticker": "PANW"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:done",
+          "detail": {
+            "method": "META",
+            "ok": true,
+            "score": 3,
+            "edges": [
+              {
+                "id": "zone",
+                "detail": "位於橫向 zone $367.27–$418.78"
+              },
+              {
+                "id": "rsi_strong",
+                "detail": "RSI 62.0（強但不極端）"
+              },
+              {
+                "id": "pattern",
+                "detail": "形態 VCP C1 16.2%→C2 7.1%→C3 7.3%"
+              }
+            ],
+            "mas": {
+              "5": null,
+              "10": null,
+              "20": null,
+              "30": null,
+              "50": null,
+              "63": null,
+              "120": null,
+              "200": null
+            },
+            "rsi": 62,
+            "note": "多邊緣重疊，META 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.039Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 25%",
+              "回踩縮量",
+              "回踩落入 zone $367.27–$418.78",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "PANW",
+            "action": "可考慮進場",
+            "best": "META",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "NOW",
+      "theme": "Software service",
+      "etf": "IGV",
+      "asOf": "2026-10-09",
+      "leadership": {
+        "isLeader": true,
+        "source": "Company.leadership",
+        "score": 9,
+        "note": "屬領導股候選：可交進場策略考慮 META／BO／Pullback（止損 6%）"
+      },
+      "action": "可考慮進場",
+      "bestMethod": "META",
+      "tradeStyle": "Position trade",
+      "levels": {
+        "entry": 140.86,
+        "stop": 132.41,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 149.6
+      },
+      "why": [
+        "領導股 + META 達標"
+      ],
+      "methods": {
+        "META": {
+          "ok": true,
+          "score": 3,
+          "note": "多邊緣重疊，META 成立"
+        },
+        "BO": {
+          "ok": false,
+          "note": "未確認突破（或缺量／大盤）"
+        },
+        "Pullback": {
+          "ok": true,
+          "note": "缩量回踩＋支持區，Pullback 成立"
+        }
+      },
+      "pattern": "VCP",
+      "pivot": 149.6,
+      "price": 140.86,
+      "summaryTw": "NOW 進場策略（Arok）\n領導股：是（score 9）\n建議：可考慮進場｜方法 META｜Position trade\n入場約 $140.86／止損 $132.41（風險 6%，上限 6%）\n原因：領導股 + META 達標",
+      "thinkingLog": [
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:done",
+          "detail": {
+            "method": "META",
+            "ok": true,
+            "score": 3,
+            "edges": [
+              {
+                "id": "zone",
+                "detail": "位於橫向 zone $112–$140.86"
+              },
+              {
+                "id": "rsi_strong",
+                "detail": "RSI 62.0（強但不極端）"
+              },
+              {
+                "id": "pattern",
+                "detail": "形態 VCP C1 12.5%→C2 10.4%→C3 6.4%"
+              }
+            ],
+            "mas": {
+              "5": null,
+              "10": null,
+              "20": null,
+              "30": null,
+              "50": null,
+              "63": null,
+              "120": null,
+              "200": null
+            },
+            "rsi": 62,
+            "note": "多邊緣重疊，META 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "BO:start",
+          "detail": {
+            "ticker": "NOW"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "BO:done",
+          "detail": {
+            "method": "BO",
+            "ok": false,
+            "reasons": [
+              "大盤上升配合"
+            ],
+            "pivot": 149.6,
+            "note": "未確認突破（或缺量／大盤）"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:start",
+          "detail": {
+            "ticker": "NOW"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:start",
+          "detail": {
+            "ticker": "NOW"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "META:done",
+          "detail": {
+            "method": "META",
+            "ok": true,
+            "score": 3,
+            "edges": [
+              {
+                "id": "zone",
+                "detail": "位於橫向 zone $112–$140.86"
+              },
+              {
+                "id": "rsi_strong",
+                "detail": "RSI 62.0（強但不極端）"
+              },
+              {
+                "id": "pattern",
+                "detail": "形態 VCP C1 12.5%→C2 10.4%→C3 6.4%"
+              }
+            ],
+            "mas": {
+              "5": null,
+              "10": null,
+              "20": null,
+              "30": null,
+              "50": null,
+              "63": null,
+              "120": null,
+              "200": null
+            },
+            "rsi": 62,
+            "note": "多邊緣重疊，META 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 25%",
+              "回踩縮量",
+              "回踩落入 zone $112–$140.86",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-10-11T14:17:08.040Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "NOW",
+            "action": "可考慮進場",
+            "best": "META",
+            "leader": true
+          }
+        }
+      ]
+    }
+  ],
+  "thinkingLog": [
+    {
+      "t": "2026-10-11T14:17:08.038Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "propose:ticker",
+      "detail": {
+        "ticker": "ANET",
+        "leader": true,
+        "pattern": "VCP",
+        "pivot": 217.41
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "propose:ticker",
+      "detail": {
+        "ticker": "ISRG",
+        "leader": true,
+        "pattern": "VCP",
+        "pivot": 427.53
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "propose:ticker",
+      "detail": {
+        "ticker": "PANW",
+        "leader": true,
+        "pattern": "VCP",
+        "pivot": 432.33
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "propose:ticker",
+      "detail": {
+        "ticker": "NVDA",
+        "leader": true,
+        "pattern": "VCP",
+        "pivot": 243.37
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "propose:ticker",
+      "detail": {
+        "ticker": "NOW",
+        "leader": true,
+        "pattern": "VCP",
+        "pivot": 149.6
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "propose:ticker",
+      "detail": {
+        "ticker": "AVGO",
+        "leader": true,
+        "pattern": "VCP",
+        "pivot": 380.84
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "skip",
+      "detail": {
+        "ticker": "AXTI",
+        "reason": "no price"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:done",
+      "detail": {
+        "method": "META",
+        "ok": true,
+        "score": 3,
+        "edges": [
+          {
+            "id": "zone",
+            "detail": "位於橫向 zone $187.89–$216.74"
+          },
+          {
+            "id": "rsi_strong",
+            "detail": "RSI 62.0（強但不極端）"
+          },
+          {
+            "id": "pattern",
+            "detail": "形態 VCP C1 13.5%→C2 12.1%→C3 6.4%"
+          }
+        ],
+        "mas": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "30": null,
+          "50": null,
+          "63": null,
+          "120": null,
+          "200": null
+        },
+        "rsi": 62,
+        "note": "多邊緣重疊，META 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "BO:start",
+      "detail": {
+        "ticker": "ANET"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "BO:done",
+      "detail": {
+        "method": "BO",
+        "ok": false,
+        "reasons": [
+          "大盤上升配合"
+        ],
+        "pivot": 217.41,
+        "note": "未確認突破（或缺量／大盤）"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "Pullback:start",
+      "detail": {
+        "ticker": "ANET"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:start",
+      "detail": {
+        "ticker": "ANET"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:done",
+      "detail": {
+        "method": "META",
+        "ok": true,
+        "score": 3,
+        "edges": [
+          {
+            "id": "zone",
+            "detail": "位於橫向 zone $187.89–$216.74"
+          },
+          {
+            "id": "rsi_strong",
+            "detail": "RSI 62.0（強但不極端）"
+          },
+          {
+            "id": "pattern",
+            "detail": "形態 VCP C1 13.5%→C2 12.1%→C3 6.4%"
+          }
+        ],
+        "mas": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "30": null,
+          "50": null,
+          "63": null,
+          "120": null,
+          "200": null
+        },
+        "rsi": 62,
+        "note": "多邊緣重疊，META 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "Pullback:done",
+      "detail": {
+        "method": "Pullback",
+        "ok": true,
+        "reasons": [
+          "先前大升約 25%",
+          "回踩縮量",
+          "回踩落入 zone $187.89–$216.74",
+          "回踩處 META 同時成立"
+        ],
+        "metaScore": 3,
+        "note": "缩量回踩＋支持區，Pullback 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "propose:done",
+      "detail": {
+        "ticker": "ANET",
+        "action": "可考慮進場",
+        "best": "META",
+        "leader": true
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:done",
+      "detail": {
+        "method": "META",
+        "ok": true,
+        "score": 3,
+        "edges": [
+          {
+            "id": "zone",
+            "detail": "位於橫向 zone $214.86–$229.28"
+          },
+          {
+            "id": "rsi_strong",
+            "detail": "RSI 62.0（強但不極端）"
+          },
+          {
+            "id": "pattern",
+            "detail": "形態 VCP C1 11.4%→C2 9.1%→C3 6.7%"
+          }
+        ],
+        "mas": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "30": null,
+          "50": null,
+          "63": null,
+          "120": null,
+          "200": null
+        },
+        "rsi": 62,
+        "note": "多邊緣重疊，META 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "BO:start",
+      "detail": {
+        "ticker": "NVDA"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "BO:done",
+      "detail": {
+        "method": "BO",
+        "ok": false,
+        "reasons": [
+          "大盤上升配合"
+        ],
+        "pivot": 243.37,
+        "note": "未確認突破（或缺量／大盤）"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "Pullback:start",
+      "detail": {
+        "ticker": "NVDA"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:start",
+      "detail": {
+        "ticker": "NVDA"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:done",
+      "detail": {
+        "method": "META",
+        "ok": true,
+        "score": 3,
+        "edges": [
+          {
+            "id": "zone",
+            "detail": "位於橫向 zone $214.86–$229.28"
+          },
+          {
+            "id": "rsi_strong",
+            "detail": "RSI 62.0（強但不極端）"
+          },
+          {
+            "id": "pattern",
+            "detail": "形態 VCP C1 11.4%→C2 9.1%→C3 6.7%"
+          }
+        ],
+        "mas": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "30": null,
+          "50": null,
+          "63": null,
+          "120": null,
+          "200": null
+        },
+        "rsi": 62,
+        "note": "多邊緣重疊，META 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "Pullback:done",
+      "detail": {
+        "method": "Pullback",
+        "ok": true,
+        "reasons": [
+          "先前大升約 25%",
+          "回踩縮量",
+          "回踩落入 zone $214.86–$229.28",
+          "回踩處 META 同時成立"
+        ],
+        "metaScore": 3,
+        "note": "缩量回踩＋支持區，Pullback 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "propose:done",
+      "detail": {
+        "ticker": "NVDA",
+        "action": "可考慮進場",
+        "best": "META",
+        "leader": true
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:done",
+      "detail": {
+        "method": "META",
+        "ok": true,
+        "score": 3,
+        "edges": [
+          {
+            "id": "zone",
+            "detail": "位於橫向 zone $357.41–$361.54"
+          },
+          {
+            "id": "rsi_strong",
+            "detail": "RSI 62.0（強但不極端）"
+          },
+          {
+            "id": "pattern",
+            "detail": "形態 VCP C1 9.9%→C2 6.3%→C3 6.2%"
+          }
+        ],
+        "mas": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "30": null,
+          "50": null,
+          "63": null,
+          "120": null,
+          "200": null
+        },
+        "rsi": 62,
+        "note": "多邊緣重疊，META 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "BO:start",
+      "detail": {
+        "ticker": "AVGO"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "BO:done",
+      "detail": {
+        "method": "BO",
+        "ok": false,
+        "reasons": [
+          "大盤上升配合"
+        ],
+        "pivot": 380.84,
+        "note": "未確認突破（或缺量／大盤）"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "Pullback:start",
+      "detail": {
+        "ticker": "AVGO"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:start",
+      "detail": {
+        "ticker": "AVGO"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:done",
+      "detail": {
+        "method": "META",
+        "ok": true,
+        "score": 3,
+        "edges": [
+          {
+            "id": "zone",
+            "detail": "位於橫向 zone $357.41–$361.54"
+          },
+          {
+            "id": "rsi_strong",
+            "detail": "RSI 62.0（強但不極端）"
+          },
+          {
+            "id": "pattern",
+            "detail": "形態 VCP C1 9.9%→C2 6.3%→C3 6.2%"
+          }
+        ],
+        "mas": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "30": null,
+          "50": null,
+          "63": null,
+          "120": null,
+          "200": null
+        },
+        "rsi": 62,
+        "note": "多邊緣重疊，META 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "Pullback:done",
+      "detail": {
+        "method": "Pullback",
+        "ok": true,
+        "reasons": [
+          "先前大升約 25%",
+          "回踩縮量",
+          "回踩落入 zone $357.41–$361.54",
+          "回踩處 META 同時成立"
+        ],
+        "metaScore": 3,
+        "note": "缩量回踩＋支持區，Pullback 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "propose:done",
+      "detail": {
+        "ticker": "AVGO",
+        "action": "可考慮進場",
+        "best": "META",
+        "leader": true
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:done",
+      "detail": {
+        "method": "META",
+        "ok": true,
+        "score": 3,
+        "edges": [
+          {
+            "id": "zone",
+            "detail": "位於橫向 zone $346.45–$423.96"
+          },
+          {
+            "id": "rsi_strong",
+            "detail": "RSI 62.0（強但不極端）"
+          },
+          {
+            "id": "pattern",
+            "detail": "形態 VCP C1 15.6%→C2 9.4%→C3 7.5%"
+          }
+        ],
+        "mas": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "30": null,
+          "50": null,
+          "63": null,
+          "120": null,
+          "200": null
+        },
+        "rsi": 62,
+        "note": "多邊緣重疊，META 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "BO:start",
+      "detail": {
+        "ticker": "ISRG"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "BO:done",
+      "detail": {
+        "method": "BO",
+        "ok": false,
+        "reasons": [
+          "大盤上升配合"
+        ],
+        "pivot": 427.53,
+        "note": "未確認突破（或缺量／大盤）"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "Pullback:start",
+      "detail": {
+        "ticker": "ISRG"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:start",
+      "detail": {
+        "ticker": "ISRG"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:done",
+      "detail": {
+        "method": "META",
+        "ok": true,
+        "score": 3,
+        "edges": [
+          {
+            "id": "zone",
+            "detail": "位於橫向 zone $346.45–$423.96"
+          },
+          {
+            "id": "rsi_strong",
+            "detail": "RSI 62.0（強但不極端）"
+          },
+          {
+            "id": "pattern",
+            "detail": "形態 VCP C1 15.6%→C2 9.4%→C3 7.5%"
+          }
+        ],
+        "mas": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "30": null,
+          "50": null,
+          "63": null,
+          "120": null,
+          "200": null
+        },
+        "rsi": 62,
+        "note": "多邊緣重疊，META 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "Pullback:done",
+      "detail": {
+        "method": "Pullback",
+        "ok": true,
+        "reasons": [
+          "先前大升約 25%",
+          "回踩縮量",
+          "回踩落入 zone $346.45–$423.96",
+          "回踩處 META 同時成立"
+        ],
+        "metaScore": 3,
+        "note": "缩量回踩＋支持區，Pullback 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "propose:done",
+      "detail": {
+        "ticker": "ISRG",
+        "action": "可考慮進場",
+        "best": "META",
+        "leader": true
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:done",
+      "detail": {
+        "method": "META",
+        "ok": true,
+        "score": 3,
+        "edges": [
+          {
+            "id": "zone",
+            "detail": "位於橫向 zone $367.27–$418.78"
+          },
+          {
+            "id": "rsi_strong",
+            "detail": "RSI 62.0（強但不極端）"
+          },
+          {
+            "id": "pattern",
+            "detail": "形態 VCP C1 16.2%→C2 7.1%→C3 7.3%"
+          }
+        ],
+        "mas": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "30": null,
+          "50": null,
+          "63": null,
+          "120": null,
+          "200": null
+        },
+        "rsi": 62,
+        "note": "多邊緣重疊，META 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "BO:start",
+      "detail": {
+        "ticker": "PANW"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "BO:done",
+      "detail": {
+        "method": "BO",
+        "ok": false,
+        "reasons": [
+          "大盤上升配合"
+        ],
+        "pivot": 432.33,
+        "note": "未確認突破（或缺量／大盤）"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "Pullback:start",
+      "detail": {
+        "ticker": "PANW"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:start",
+      "detail": {
+        "ticker": "PANW"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:done",
+      "detail": {
+        "method": "META",
+        "ok": true,
+        "score": 3,
+        "edges": [
+          {
+            "id": "zone",
+            "detail": "位於橫向 zone $367.27–$418.78"
+          },
+          {
+            "id": "rsi_strong",
+            "detail": "RSI 62.0（強但不極端）"
+          },
+          {
+            "id": "pattern",
+            "detail": "形態 VCP C1 16.2%→C2 7.1%→C3 7.3%"
+          }
+        ],
+        "mas": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "30": null,
+          "50": null,
+          "63": null,
+          "120": null,
+          "200": null
+        },
+        "rsi": 62,
+        "note": "多邊緣重疊，META 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.039Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "Pullback:done",
+      "detail": {
+        "method": "Pullback",
+        "ok": true,
+        "reasons": [
+          "先前大升約 25%",
+          "回踩縮量",
+          "回踩落入 zone $367.27–$418.78",
+          "回踩處 META 同時成立"
+        ],
+        "metaScore": 3,
+        "note": "缩量回踩＋支持區，Pullback 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "propose:done",
+      "detail": {
+        "ticker": "PANW",
+        "action": "可考慮進場",
+        "best": "META",
+        "leader": true
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:done",
+      "detail": {
+        "method": "META",
+        "ok": true,
+        "score": 3,
+        "edges": [
+          {
+            "id": "zone",
+            "detail": "位於橫向 zone $112–$140.86"
+          },
+          {
+            "id": "rsi_strong",
+            "detail": "RSI 62.0（強但不極端）"
+          },
+          {
+            "id": "pattern",
+            "detail": "形態 VCP C1 12.5%→C2 10.4%→C3 6.4%"
+          }
+        ],
+        "mas": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "30": null,
+          "50": null,
+          "63": null,
+          "120": null,
+          "200": null
+        },
+        "rsi": 62,
+        "note": "多邊緣重疊，META 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "BO:start",
+      "detail": {
+        "ticker": "NOW"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "BO:done",
+      "detail": {
+        "method": "BO",
+        "ok": false,
+        "reasons": [
+          "大盤上升配合"
+        ],
+        "pivot": 149.6,
+        "note": "未確認突破（或缺量／大盤）"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "Pullback:start",
+      "detail": {
+        "ticker": "NOW"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:start",
+      "detail": {
+        "ticker": "NOW"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "META:done",
+      "detail": {
+        "method": "META",
+        "ok": true,
+        "score": 3,
+        "edges": [
+          {
+            "id": "zone",
+            "detail": "位於橫向 zone $112–$140.86"
+          },
+          {
+            "id": "rsi_strong",
+            "detail": "RSI 62.0（強但不極端）"
+          },
+          {
+            "id": "pattern",
+            "detail": "形態 VCP C1 12.5%→C2 10.4%→C3 6.4%"
+          }
+        ],
+        "mas": {
+          "5": null,
+          "10": null,
+          "20": null,
+          "30": null,
+          "50": null,
+          "63": null,
+          "120": null,
+          "200": null
+        },
+        "rsi": 62,
+        "note": "多邊緣重疊，META 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "Pullback:done",
+      "detail": {
+        "method": "Pullback",
+        "ok": true,
+        "reasons": [
+          "先前大升約 25%",
+          "回踩縮量",
+          "回踩落入 zone $112–$140.86",
+          "回踩處 META 同時成立"
+        ],
+        "metaScore": 3,
+        "note": "缩量回踩＋支持區，Pullback 成立"
+      }
+    },
+    {
+      "t": "2026-10-11T14:17:08.040Z",
+      "bot": "Arok",
+      "role": "進場策略",
+      "step": "propose:done",
+      "detail": {
+        "ticker": "NOW",
+        "action": "可考慮進場",
+        "best": "META",
+        "leader": true
+      }
+    }
+  ]
+}
