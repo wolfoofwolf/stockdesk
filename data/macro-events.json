@@ -2,7 +2,7 @@
   {
     "id": "nfp-2026-09",
     "type": "NFP",
-    "date": "2026-10-03",
+    "date": "2026-10-02",
     "label": "非農就業（2026年9月）",
     "actual": 29000,
     "consensus": 90000,
@@ -11,12 +11,13 @@
       "ahe_mom": 0.1,
       "revisions": -60000
     },
-    "spyDayReturn": 0.76,
+    "spyDayReturn": 0.74,
     "note": "弱料＝利好暫停加息；10月加息機率約64%→~18–20%。長端息其後仍硬。",
     "status": "done",
     "sources": [
       "CME FedWatch／公開報道 2026-10",
-      "BLS Employment Situation 2026-10-03"
+      "BLS Employment Situation 2026-10-03",
+      "BLS Oct 2026 release schedule"
     ]
   },
   {
