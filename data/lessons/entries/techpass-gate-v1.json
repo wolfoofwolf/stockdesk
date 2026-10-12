@@ -1,0 +1,40 @@
+{
+  "id": "techpass-gate-v1",
+  "title": "techPass 閘門：形態＋pivot＋距 pivot ≤6%",
+  "tier": "core",
+  "worth": "high",
+  "tags": [
+    "gate",
+    "pivot",
+    "pattern"
+  ],
+  "keepForever": true,
+  "summary": "技術通過唔等於「有形態就過」。必須同時有清晰形態、明確 pivot，而且現價距離 pivot ≤6%。只過形態會變成 466 假陽性；正確閘大約 314（跟當日宇宙）。",
+  "rule": "techPass = has_pattern AND has_pivot AND abs(close-pivot)/pivot <= 0.06",
+  "do": [
+    "掃描後核對 techPassedCount；若接近 analyses 總數，即閘鬆咗",
+    "圖上標清 Pivot 同 VCP C1–C3（或對應形態收縮）",
+    "下游公司／進場只跟 techPass 名單"
+  ],
+  "dont": [
+    "用 primaryPattern 非空當 techPass",
+    "用「有形態就過」暫時放寬例行掃描",
+    "把每日全量 scan chart 當長期教材"
+  ],
+  "chartRefs": [
+    {
+      "ticker": "HLN",
+      "chartPath": "data/charts/HLN_scan_low_cheat.svg",
+      "why": "緊貼 pivot（約 0.0%），合格 exemplar"
+    },
+    {
+      "ticker": "YMM",
+      "chartPath": "data/charts/YMM_scan_low_cheat.svg",
+      "why": "緊貼 pivot（約 0.0%），合格 exemplar"
+    }
+  ],
+  "relatedGate": "techPass = pattern + pivot + ≤6%",
+  "createdAt": "2026-10-12T17:00:00+08:00",
+  "updatedAt": "2026-10-12T17:00:00+08:00",
+  "source": "regression"
+}

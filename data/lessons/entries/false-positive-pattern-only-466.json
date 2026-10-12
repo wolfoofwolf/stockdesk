@@ -1,0 +1,39 @@
+{
+  "id": "false-positive-pattern-only-466",
+  "title": "假陽性案例：形態-only 放寬到 466",
+  "tier": "process",
+  "worth": "high",
+  "tags": [
+    "regression",
+    "gate",
+    "false_positive"
+  ],
+  "keepForever": true,
+  "summary": "例行掃描曾把 techPass 放寬成「有形態就過」，公開站顯示 466。已改回形態＋pivot＋≤6%，本機恢復 314。此類閘鬆係高價值 process lesson，永久保留。",
+  "rule": "任何掃描腳本改動後必須 assert：techPass 條件包含 pivot 距離；禁止 pattern-only 短路。",
+  "do": [
+    "改腳本後對照 local tech-scan-latest.json 的 techPassedCount",
+    "推 Pages 前確認 raw main 同本地一致",
+    "閘鬆即寫 process lesson，唔好只口頭講"
+  ],
+  "dont": [
+    "為咗「畫面多啲通過」而暫時鬆閘",
+    "只修 JSON 唔修掃描腳本（下次例行會再鬆）"
+  ],
+  "chartRefs": [
+    {
+      "ticker": "ECHO",
+      "chartPath": "data/charts/ECHO_scan_low_cheat.svg",
+      "why": "有形態但距 pivot 約 6.01% >6%，應 techPass=false"
+    },
+    {
+      "ticker": "IOT",
+      "chartPath": "data/charts/IOT_scan_bull_flag.svg",
+      "why": "有形態但距 pivot 約 6.02% >6%，應 techPass=false"
+    }
+  ],
+  "relatedGate": "techPass = pattern + pivot + ≤6%",
+  "createdAt": "2026-10-12T17:00:00+08:00",
+  "updatedAt": "2026-10-12T17:00:00+08:00",
+  "source": "regression"
+}

@@ -1,0 +1,119 @@
+{
+  "schema": {
+    "version": 1,
+    "owner": "Grok",
+    "purpose": "High-value technical analysis lessons + exemplar charts for long-term memory and self-improvement. Not a dump of every daily scan.",
+    "retention": {
+      "keep_forever": [
+        "gate_rules",
+        "annotated_exemplars",
+        "false_positive_cases",
+        "process_regressions",
+        "annotation_standards"
+      ],
+      "rotate_or_drop": [
+        "routine_scan_snapshots",
+        "raw_ohlcv",
+        "every_chart_without_lesson"
+      ],
+      "worth_threshold": "Only write a lesson if it changes future gate/annotation/scan behavior or teaches a repeatable pattern read."
+    },
+    "fields": {
+      "id": "kebab-case unique id",
+      "title": "short title",
+      "tier": "core | case | process",
+      "worth": "high | medium (never store low)",
+      "tags": [
+        "pattern",
+        "pivot",
+        "gate",
+        "vcp",
+        "annotation",
+        "regression"
+      ],
+      "keepForever": "bool",
+      "summary": "1-3 sentence lesson",
+      "rule": "durable rule if any",
+      "do": [
+        "actionable do"
+      ],
+      "dont": [
+        "actionable dont"
+      ],
+      "chartRefs": [
+        {
+          "ticker": "",
+          "chartPath": "",
+          "why": ""
+        }
+      ],
+      "relatedGate": "e.g. techPass = pattern + pivot + close within 6% of pivot",
+      "createdAt": "ISO",
+      "updatedAt": "ISO",
+      "source": "human | scan | regression"
+    }
+  },
+  "updatedAt": "2026-10-12T17:00:00+08:00",
+  "count": 4,
+  "lessons": [
+    {
+      "id": "techpass-gate-v1",
+      "title": "techPass 閘門：形態＋pivot＋距 pivot ≤6%",
+      "tier": "core",
+      "worth": "high",
+      "tags": [
+        "gate",
+        "pivot",
+        "pattern"
+      ],
+      "keepForever": true,
+      "summary": "技術通過唔等於「有形態就過」。必須同時有清晰形態、明確 pivot，而且現價距離 pivot ≤6%。只過形態會變成 466 假陽性；正確閘大約 314（跟當日宇宙）。",
+      "entryPath": "data/lessons/entries/techpass-gate-v1.json",
+      "chartCount": 2
+    },
+    {
+      "id": "false-positive-pattern-only-466",
+      "title": "假陽性案例：形態-only 放寬到 466",
+      "tier": "process",
+      "worth": "high",
+      "tags": [
+        "regression",
+        "gate",
+        "false_positive"
+      ],
+      "keepForever": true,
+      "summary": "例行掃描曾把 techPass 放寬成「有形態就過」，公開站顯示 466。已改回形態＋pivot＋≤6%，本機恢復 314。此類閘鬆係高價值 process lesson，永久保留。",
+      "entryPath": "data/lessons/entries/false-positive-pattern-only-466.json",
+      "chartCount": 2
+    },
+    {
+      "id": "annotation-pivot-vcp-c123",
+      "title": "畫圖標準：Pivot ＋ macro VCP C1–C3",
+      "tier": "core",
+      "worth": "high",
+      "tags": [
+        "annotation",
+        "vcp",
+        "pivot"
+      ],
+      "keepForever": true,
+      "summary": "每張對外圖必須標清 Pivot；若係 VCP／收縮類，標 C1–C3（或實際收縮段）。唔標 pivot 的圖唔入教材庫。",
+      "entryPath": "data/lessons/entries/annotation-pivot-vcp-c123.json",
+      "chartCount": 1
+    },
+    {
+      "id": "what-belongs-in-lessons-db",
+      "title": "教材庫收錄標準：高價值先寫",
+      "tier": "core",
+      "worth": "high",
+      "tags": [
+        "process",
+        "retention"
+      ],
+      "keepForever": true,
+      "summary": "教材庫唔係相簿。只收會改變未來閘門、標註或掃描行為的內容；每日全量圖留喺 charts/，唔進 lessons。",
+      "entryPath": "data/lessons/entries/what-belongs-in-lessons-db.json",
+      "chartCount": 0
+    }
+  ]
+}
