@@ -334,8 +334,36 @@
   }
 
 
+  function showCompanyDetail(r, scrollToDetail) {
+    if (!r) return;
+    var L = r.leadership || {};
+    var why = (L.why && L.why.join) ? L.why.join('；') : (L.note || '');
+    if ($('company-leader')) {
+      $('company-leader').textContent = (r.ticker || '') + ' · 領導股：' + (L.isLeader ? '是' : '否') +
+        '（score ' + (L.score != null ? L.score : '?') + '）' + (why ? ' · ' + why : '') +
+        ' · 電話會議：待補';
+    }
+    if ($('company-out')) {
+      var body = r.textTw || r.summaryTw || '';
+      if (r.summaryTw && r.textTw && r.textTw.indexOf(r.summaryTw) !== 0) {
+        body = r.summaryTw + '\n\n' + r.textTw;
+      }
+      $('company-out').textContent = body || '無報告正文';
+    }
+    if (scrollToDetail) {
+      var anchor = $('company-detail-anchor');
+      if (anchor && anchor.scrollIntoView) {
+        setTimeout(function () {
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 50);
+      }
+    }
+  }
+
   function renderCompanyTableRows(fullList) {
     var onlyLeaders = $('company-leaders-only') && $('company-leaders-only').checked;
+    var themeSel = $('company-theme-filter');
+    var theme = themeSel ? themeSel.value : '';
     var list = fullList || [];
     var rows = [];
     var mapIdx = [];
@@ -343,14 +371,16 @@
       var r = list[i];
       var L = r.leadership || {};
       if (onlyLeaders && !L.isLeader) continue;
+      if (theme && (r.theme || '') !== theme) continue;
       mapIdx.push(i);
       rows.push(r);
     }
+    window.__companyViewList = rows;
     if ($('company-scan-status')) {
       var j = window.__latestCompany || {};
-      $('company-scan-status').textContent = '公司 ' + list.length + ' · 領導股 ' +
-        (j.leaderCount != null ? j.leaderCount : rows.filter(function (x) { return x.leadership && x.leadership.isLeader; }).length) +
-        (onlyLeaders ? '（只顯示領導股 ' + rows.length + '）' : '') +
+      $('company-scan-status').textContent = '顯示 ' + rows.length + '／公司 ' + list.length + ' · 領導股 ' +
+        (j.leaderCount != null ? j.leaderCount : '') +
+        (theme ? ' · 主題 ' + theme : '') +
         ' · asOf ' + (j.asOf || j.generatedAt || '');
     }
     if (!$('company-scan-list')) return;
@@ -374,22 +404,7 @@
         var i = Number(tr.getAttribute('data-src-idx'));
         var r = list[i];
         if (!r) return;
-        var L = r.leadership || {};
-        var why = (L.why && L.why.join) ? L.why.join('；') : (L.note || '');
-        if ($('company-leader')) {
-          $('company-leader').textContent = (r.ticker || '') + ' · 領導股：' + (L.isLeader ? '是' : '否') +
-            '（score ' + (L.score != null ? L.score : '?') + '）' + (why ? ' · ' + why : '') +
-            ' · 電話會議：待補';
-        }
-        if ($('company-out')) {
-          $('company-out').style.display = 'block';
-          // Prefer summaryTw card first line + full textTw (no JSON dump)
-          var body = r.textTw || r.summaryTw || '';
-          if (r.summaryTw && r.textTw && r.textTw.indexOf(r.summaryTw) !== 0) {
-            body = r.summaryTw + '\n\n' + r.textTw;
-          }
-          $('company-out').textContent = body || '無報告正文';
-        }
+        showCompanyDetail(r, true);
         alog('company:scan-pick', r.ticker);
         refreshLogs();
       });
@@ -401,19 +416,33 @@
     window.__latestCompany = j;
     var list = j.reports || [];
     if ($('company-out')) {
-      $('company-out').style.display = 'none';
       $('company-out').textContent = '點表格一列睇全文';
     }
     if ($('company-leader')) {
       $('company-leader').textContent = '領導股閘：' + (j.leaderCount != null ? j.leaderCount : '—') +
-        '／' + list.length + '（點列先出全文；唔自動 dump）';
+        '／' + list.length + '（點列滑到詳情）';
+    }
+    if ($('company-theme-filter')) {
+      var themes = {};
+      list.forEach(function (r) { if (r.theme) themes[r.theme] = 1; });
+      var cur = $('company-theme-filter').value;
+      $('company-theme-filter').innerHTML = '<option value="">全部主題</option>' +
+        Object.keys(themes).sort().map(function (t) {
+          return '<option value="' + t + '">' + t + '</option>';
+        }).join('');
+      if (cur && themes[cur]) $('company-theme-filter').value = cur;
     }
     renderCompanyTableRows(list);
+    function refilter() {
+      renderCompanyTableRows((window.__latestCompany && window.__latestCompany.reports) || []);
+    }
     if ($('company-leaders-only') && !$('company-leaders-only')._bound) {
       $('company-leaders-only')._bound = true;
-      $('company-leaders-only').addEventListener('change', function () {
-        renderCompanyTableRows((window.__latestCompany && window.__latestCompany.reports) || []);
-      });
+      $('company-leaders-only').addEventListener('change', refilter);
+    }
+    if ($('company-theme-filter') && !$('company-theme-filter')._bound) {
+      $('company-theme-filter')._bound = true;
+      $('company-theme-filter').addEventListener('change', refilter);
     }
     if (j.thinkingLog && j.thinkingLog.length && $('log-company')) {
       $('log-company').innerHTML = fmtLog(j.thinkingLog);
@@ -663,13 +692,8 @@
     alog('company:seed-start', 'AXTI');
     if (!window.Company) { $('company-out').textContent = 'Company 未載入'; return; }
     var report = Company.analyzeSeed();
-    $('company-out').textContent = (report && (report.textTw || Company.formatReport(report))) || JSON.stringify(report, null, 2);
-    if (report && report.leadership) {
-      var L = report.leadership;
-      var why = L.reason || (Array.isArray(L.reasons) ? L.reasons.join('；') : '') || '';
-      $('company-leader').textContent = '領導股：' + (L.isLeader ? '是' : '否') +
-        '（score ' + (L.score != null ? L.score : '?') + '）' + (why ? ' · ' + why : '');
-    }
+    if (report) showCompanyDetail(report, true);
+    else if ($('company-out')) $('company-out').textContent = 'Company 種子無結果';
     refreshLogs();
     alog('company:seed-done', report && report.ticker);
   }

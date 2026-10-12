@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <title>StockDesk · 六項流水線</title>
-  <link rel="stylesheet" href="css/app.css?v=techui2" />
+  <link rel="stylesheet" href="css/app.css?v=co1" />
 </head>
 <body class="fx-root">
   <header>
@@ -103,17 +103,24 @@
 
       <section class="panel" data-panel="company">
         <h2>③ 公司分析報告 · Jrok</h2>
-        <p class="muted">最新掃描：<code>data/company-run-latest.json</code>（即時同步）。亦可跑 AXTI 種子示範。</p>
-        <p class="muted">表格：主題／上下游／護城河／領導股。點一列先出全文；電話會議一律標待補。</p>
-        <div id="company-scan-status" class="muted">載入中…</div>
-        <label class="muted" style="display:inline-flex;gap:6px;align-items:center;margin-top:6px">
-          <input type="checkbox" id="company-leaders-only" /> 只睇領導股
-        </label>
-        <div id="company-scan-list" style="margin-top:8px;overflow:auto"></div>
-        <button class="primary" id="btn-company" type="button" style="margin-top:10px">分析 AXTI 種子</button>
-        <div id="company-leader" class="muted" style="margin-top:10px"></div>
-        <pre class="report" id="company-out" style="margin-top:10px;max-height:50vh;overflow:auto;display:none">點表格一列睇全文</pre>
-        <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">Jrok 思考 log</h3>
+        <p class="muted">跟②同一套：主題篩選、只睇領導股、點一列滑到下面詳情。電話會議一律標待補。</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <button class="primary" id="btn-company" type="button">分析 AXTI 種子</button>
+          <label class="muted" style="display:inline-flex;gap:6px;align-items:center">主題
+            <select id="company-theme-filter"><option value="">全部主題</option></select>
+          </label>
+          <label class="muted" style="display:inline-flex;gap:6px;align-items:center">
+            <input type="checkbox" id="company-leaders-only" /> 只睇領導股
+          </label>
+          <span class="muted" id="company-scan-status">載入中…</span>
+        </div>
+        <div id="company-scan-list" style="margin-top:12px;overflow:auto;max-height:280px"></div>
+        <div id="company-detail-anchor" style="margin-top:16px">
+          <h3 style="margin:0 0 8px">公司詳情（點上面股票會跳嚟呢度）</h3>
+          <div id="company-leader" class="muted"></div>
+          <pre class="report" id="company-out" style="margin-top:10px;max-height:50vh;overflow:auto">點表格一列睇全文</pre>
+        </div>
+        <h3 style="margin-top:14px">Jrok 思考 log</h3>
         <div class="log-box" id="log-company"></div>
       </section>
 
@@ -169,6 +176,6 @@
   <script src="js/charts/ISRG_vcp_C1C2C3.js"></script>
   <script src="js/charts/NVDA_scan_VCP.js"></script>
   <script src="js/charts/AMD_scan_VCP.js"></script>
-  <script src="js/app.js?v=techui2"></script>
+  <script src="js/app.js?v=co1"></script>
 </body>
 </html>
