@@ -34,17 +34,18 @@
     "id": "cpi-2026-09",
     "type": "CPI",
     "date": "2026-10-14",
-    "label": "CPI（2026年9月）—明天公布",
+    "label": "CPI（2026年9月）—後天公布",
     "status": "upcoming",
     "consensusHeadlineYoY": 3.7,
     "consensusCoreYoY": 2.4,
     "priorHeadlineYoY": 3.4,
     "priorCoreYoY": 2.4,
-    "note": "08:30 ET。Street headline ~3.7%（部分來源仍寫~3.6%）；Cleveland nowcast（10/9）headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。美股 10/12 Columbus Day 休市。",
+    "note": "08:30 ET。Street headline ~3.7%（部分來源仍寫~3.6%）；Cleveland nowcast（10/9，Columbus Day 無新業務日更新）headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。美股 10/12 Columbus Day 休市；下一個交易日 10/13。",
     "sources": [
       "BLS CPI schedule",
       "Cleveland Fed Inflation Nowcasting 2026-10-09",
-      "Street／Admirals／RBC previews 2026-10"
+      "Street／Admirals／RBC previews 2026-10",
+      "CME FedWatch 公開報道 2026-10-11/12"
     ]
   },
   {
@@ -67,6 +68,6 @@
     "date": "2026-10-28",
     "label": "FOMC 決定（10/27–28）",
     "status": "upcoming",
-    "note": "聲明約 14:00 ET。CME FedWatch 約 hold ~81–82%／+25bp ~18%。CPI／PPI 後最終定價窗口；同日 Mag7 有 MSFT／GOOGL／META 業績。"
+    "note": "聲明約 14:00 ET。CME FedWatch（~10/11–12）hold ~81.7%／+25bp ~18.3%。CPI／PPI 後最終定價窗口；同日 Mag7 有 MSFT／GOOGL／META 業績（估計）。"
   }
 ]
