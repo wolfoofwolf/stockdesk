@@ -1,0 +1,34 @@
+{
+  "id": "annotation-pivot-vcp-c123",
+  "title": "畫圖標準：Pivot ＋ macro VCP C1–C3",
+  "tier": "core",
+  "worth": "high",
+  "tags": [
+    "annotation",
+    "vcp",
+    "pivot"
+  ],
+  "keepForever": true,
+  "summary": "每張對外圖必須標清 Pivot；若係 VCP／收縮類，標 C1–C3（或實際收縮段）。唔標 pivot 的圖唔入教材庫。",
+  "rule": "Chart export incomplete without visible Pivot; VCP-family charts need C1–C3 (or labeled contractions).",
+  "do": [
+    "SVG 上畫 pivot 水平線／標籤",
+    "收縮段用 C1/C2/C3 標註",
+    "摘要寫清 primaryPattern、pivot、距 pivot %"
+  ],
+  "dont": [
+    "只出裸 K 線無標註",
+    "用模糊「支撐位」代替明確 pivot"
+  ],
+  "chartRefs": [
+    {
+      "ticker": "HLN",
+      "chartPath": "data/charts/HLN_scan_low_cheat.svg",
+      "why": "合格標註 exemplar"
+    }
+  ],
+  "relatedGate": "annotation standard for tech charts",
+  "createdAt": "2026-10-12T17:00:00+08:00",
+  "updatedAt": "2026-10-12T17:00:00+08:00",
+  "source": "human"
+}

@@ -21,6 +21,7 @@
       <button data-panel="macro">④ 大市</button>
       <button data-panel="entry">⑤ 進場</button>
       <button data-panel="commander">⑥ 總司令</button>
+      <button data-panel="lessons">教材庫</button>
       <button data-panel="logs">思考 Log</button>
     </nav>
     <div class="sync-bar">
@@ -166,6 +167,25 @@
         <div class="log-box" id="log-commander"></div>
       </section>
 
+
+      <section class="panel" data-panel="lessons">
+        <h2>技術教材庫 · Grok</h2>
+        <p class="muted">高價值長期記憶：閘門規則、標註標準、假陽性／回歸案例、代表圖。唔係每日掃描相簿。<code>data/lessons/</code></p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <button class="primary" id="btn-lessons" type="button">載入教材庫</button>
+          <label class="muted" style="display:inline-flex;gap:6px;align-items:center">層級
+            <select id="lessons-tier-filter"><option value="">全部</option><option value="core">core</option><option value="case">case</option><option value="process">process</option></select>
+          </label>
+          <span class="muted" id="lessons-status">尚未載入</span>
+        </div>
+        <div id="lessons-list" style="margin-top:12px;overflow:auto;max-height:240px"></div>
+        <div id="lessons-detail-anchor" style="margin-top:16px">
+          <h3 style="color:#9aa6d0;font-size:13px;margin:0 0 8px">課文詳情（點上面一列）</h3>
+          <div id="lessons-detail" class="report">載入後點一列</div>
+          <div id="lessons-charts" style="margin-top:12px;display:flex;flex-direction:column;gap:10px"></div>
+        </div>
+      </section>
+
       <section class="panel" data-panel="logs">
         <h2>全部思考 Log</h2>
         <button class="ghost" id="btn-refresh-log" type="button">刷新</button>
@@ -187,6 +207,6 @@
   <script src="js/charts/ISRG_vcp_C1C2C3.js"></script>
   <script src="js/charts/NVDA_scan_VCP.js"></script>
   <script src="js/charts/AMD_scan_VCP.js"></script>
-  <script src="js/app.js?v=en1"></script>
+  <script src="js/app.js?v=lessons1"></script>
 </body>
 </html>

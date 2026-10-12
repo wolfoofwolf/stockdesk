@@ -64,7 +64,7 @@
 
   var BOTS = [
     { id: 'Frok', role: '① 篩選器＋主題／ETF', status: 'ok', file: 'js/screener.js' },
-    { id: 'Grok', role: '② 技術分析＋兄弟姊妹股／板塊', status: 'ok', file: 'js/tech.js' },
+    { id: 'Grok', role: '② 技術分析＋教材庫＋兄弟姊妹股', status: 'ok', file: 'js/tech.js' },
     { id: 'Jrok', role: '③ 公司分析報告', status: 'ok', file: 'js/company.js' },
     { id: 'Drok', role: '④ 大市分析', status: 'ok', file: 'js/macro.js' },
     { id: 'Arok', role: '⑤ 進場策略', status: 'ok', file: 'js/entry.js' },
@@ -764,6 +764,82 @@
     alog('entry:seed-done', report && report.ticker);
   }
 
+
+  var __lessonsIndex = null;
+  var __lessonsCache = {};
+
+  function loadLessonsCatalog() {
+    fetch(bust('data/lessons/index.json')).then(function (r) { return r.json(); }).then(function (j) {
+      __lessonsIndex = j;
+      renderLessonsList();
+      if ($('lessons-status')) {
+        $('lessons-status').textContent = '教材 ' + ((j.lessons && j.lessons.length) || 0) + ' 篇 · 更新 ' + (j.updatedAt || '');
+      }
+      alog('lessons:loaded', { count: (j.lessons || []).length });
+    }).catch(function (e) {
+      if ($('lessons-status')) $('lessons-status').textContent = '未有教材庫：' + e.message;
+      alog('lessons:error', e.message);
+    });
+  }
+
+  function renderLessonsList() {
+    if (!__lessonsIndex || !$('lessons-list')) return;
+    var tier = ($('lessons-tier-filter') && $('lessons-tier-filter').value) || '';
+    var rows = (__lessonsIndex.lessons || []).filter(function (L) {
+      return !tier || L.tier === tier;
+    });
+    if (!rows.length) {
+      $('lessons-list').innerHTML = '<div class="muted">無符合篩選的課文</div>';
+      return;
+    }
+    $('lessons-list').innerHTML = '<table><thead><tr><th>標題</th><th>層級</th><th>價值</th><th>永久</th><th>圖</th></tr></thead><tbody>' +
+      rows.map(function (L) {
+        return '<tr class="lesson-row" data-id="' + L.id + '" style="cursor:pointer">' +
+          '<td>' + L.title + '</td><td>' + L.tier + '</td><td>' + L.worth + '</td>' +
+          '<td>' + (L.keepForever ? '是' : '否') + '</td><td>' + (L.chartCount || 0) + '</td></tr>';
+      }).join('') + '</tbody></table>';
+    Array.prototype.forEach.call(document.querySelectorAll('#lessons-list tr.lesson-row'), function (tr) {
+      tr.addEventListener('click', function () { openLesson(tr.getAttribute('data-id')); });
+    });
+  }
+
+  function openLesson(id) {
+    function show(L) {
+      var html = '<div><b>' + L.title + '</b> · ' + L.tier + ' · ' + L.worth +
+        (L.keepForever ? ' · 永久保留' : '') + '</div>' +
+        '<p style="margin:10px 0">' + (L.summary || '') + '</p>';
+      if (L.rule) html += '<p><b>規則</b>：<code>' + L.rule + '</code></p>';
+      if (L.do && L.do.length) html += '<p><b>要做</b></p><ul>' + L.do.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul>';
+      if (L.dont && L.dont.length) html += '<p><b>唔做</b></p><ul>' + L.dont.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul>';
+      if (L.tags && L.tags.length) html += '<p class="muted">tags: ' + L.tags.join(', ') + '</p>';
+      $('lessons-detail').innerHTML = html;
+      var box = $('lessons-charts');
+      box.innerHTML = '';
+      (L.chartRefs || []).forEach(function (c) {
+        if (!c.chartPath) return;
+        var wrap = document.createElement('div');
+        wrap.innerHTML = '<div class="muted">' + (c.ticker || '') + ' — ' + (c.why || '') + '</div>';
+        var img = document.createElement('img');
+        img.alt = c.ticker || 'lesson chart';
+        img.style.cssText = 'max-width:100%;border:1px solid #2a3560;border-radius:10px';
+        img.src = bust(c.chartPath);
+        wrap.appendChild(img);
+        box.appendChild(wrap);
+      });
+      var anchor = $('lessons-detail-anchor');
+      if (anchor && anchor.scrollIntoView) anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      alog('lessons:open', id);
+    }
+    if (__lessonsCache[id]) { show(__lessonsCache[id]); return; }
+    fetch(bust('data/lessons/entries/' + id + '.json')).then(function (r) { return r.json(); }).then(function (L) {
+      __lessonsCache[id] = L;
+      show(L);
+    }).catch(function (e) {
+      $('lessons-detail').textContent = '載入失敗：' + e.message;
+    });
+  }
+
+
   function bind() {
     document.querySelectorAll('nav button').forEach(function (b) {
       b.addEventListener('click', function () { showPanel(b.dataset.panel); });
@@ -773,6 +849,8 @@
     if ($('btn-screen')) $('btn-screen').addEventListener('click', runScreenerUi);
     if ($('btn-tech')) $('btn-tech').addEventListener('click', runTechSeed);
     if ($('btn-tech-scan')) $('btn-tech-scan').addEventListener('click', loadTechScanLatest);
+    if ($('btn-lessons')) $('btn-lessons').addEventListener('click', loadLessonsCatalog);
+    if ($('lessons-tier-filter')) $('lessons-tier-filter').addEventListener('change', renderLessonsList);
   if ($('tech-theme-filter')) $('tech-theme-filter').addEventListener('change', function () {
     renderTechScanTable();
   });
@@ -832,6 +910,7 @@
     loadMacroReport();
     loadScreenerLatest();
     loadTechScanLatest();
+    loadLessonsCatalog();
     loadCompanyLatest();
     loadEntryLatest();
     setTimeout(runCommander, 400);

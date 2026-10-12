@@ -1,0 +1,28 @@
+{
+  "id": "what-belongs-in-lessons-db",
+  "title": "教材庫收錄標準：高價值先寫",
+  "tier": "core",
+  "worth": "high",
+  "tags": [
+    "process",
+    "retention"
+  ],
+  "keepForever": true,
+  "summary": "教材庫唔係相簿。只收會改變未來閘門、標註或掃描行為的內容；每日全量圖留喺 charts/，唔進 lessons。",
+  "rule": "worth=high 且 (改行為 OR 可複用 exemplar OR process regression) 先寫入；keepForever 僅限 core/process。",
+  "do": [
+    "每堂課要有 rule 或 do/dont",
+    "exemplar 最多掛 2–3 張代表圖，附 why",
+    "寫完後更新 data/lessons/index.json 同 agent memory（若係閘／流程）"
+  ],
+  "dont": [
+    "把 tech-scan-latest 全量 analyses 複製進 lessons",
+    "存 medium 以下或無 actionable rule 的筆記",
+    "用教材庫當臨時 dump"
+  ],
+  "chartRefs": [],
+  "relatedGate": "retention policy",
+  "createdAt": "2026-10-12T17:00:00+08:00",
+  "updatedAt": "2026-10-12T17:00:00+08:00",
+  "source": "human"
+}
