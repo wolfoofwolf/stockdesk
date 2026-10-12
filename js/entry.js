@@ -217,9 +217,23 @@
 
   function round2(x) { return Math.round(x * 100) / 100; }
 
+  function patternMethodHint(pattern) {
+    // Grok 形態 → 進場方法偏好
+    var p = (pattern || '').toLowerCase();
+    if (p === 'bear_flag' || p === 'bearflag') return { prefer: null, blockLong: true, note: 'bear flag：唔開多單' };
+    if (p === 'bull_flag' || p === 'bullflag') return { prefer: 'BO', blockLong: false, note: 'bull flag：破旗面偏 BO，否則 META／Pullback' };
+    if (p === 'low_cheat' || p === 'lowcheat') return { prefer: 'Pullback', blockLong: false, note: 'low cheat：縮量回踩偏 Pullback' };
+    if (p === 'triple_bottom' || p === 'triplebottom') return { prefer: 'BO', blockLong: false, note: '三底：破頸線偏 BO' };
+    if (p === 'flat_base' || p === 'flatbase') return { prefer: 'BO', blockLong: false, note: 'flat base：放量突破偏 BO' };
+    if (p === 'cup_with_handle' || p === 'cuphandle') return { prefer: 'BO', blockLong: false, note: '杯柄：破柄頂偏 BO' };
+    if (p === 'vcp') return { prefer: 'Pullback', blockLong: false, note: 'VCP：樞紐附近 META／Pullback' };
+    return { prefer: null, blockLong: false, note: null };
+  }
+
   function chooseStyle(snap, method) {
-    // Position：領導股＋VCP/大升趨勢；Swing：BO／短線 META
-    if (snap.isLeader && (method === 'Pullback' || snap.pattern === 'VCP')) return 'Position trade';
+    // Position：領導股＋VCP／low cheat／大升趨勢；Swing：BO／短線 META
+    var p = (snap.pattern || '').toLowerCase();
+    if (snap.isLeader && (method === 'Pullback' || p === 'vcp' || p === 'low_cheat')) return 'Position trade';
     if (method === 'BO') return 'Swing trade';
     return 'Swing trade';
   }
@@ -243,6 +257,17 @@
     if (meta.ok) candidates.push({ method: 'META', weight: meta.score, detail: meta });
     if (bo.ok) candidates.push({ method: 'BO', weight: 3 + (snap.marketTrend === 'up' ? 1 : 0), detail: bo });
     if (pb.ok) candidates.push({ method: 'Pullback', weight: 2 + (meta.ok ? 1 : 0), detail: pb });
+    var hint = patternMethodHint(snap.pattern);
+    if (hint.blockLong) {
+      candidates = [];
+      log('pattern:blockLong', hint);
+    } else if (hint.prefer) {
+      candidates.forEach(function (c) {
+        if (c.method === hint.prefer) c.weight += 2;
+      });
+      // bull flag／三底／flat base 未破 pivot 時，BO 未成立就唔強行抬 BO
+      log('pattern:prefer', hint);
+    }
     candidates.sort(function (a, b) { return b.weight - a.weight; });
 
     var best = candidates[0] || null;
@@ -263,6 +288,7 @@
     } else {
       action = '可考慮進場';
       why.push('領導股 + ' + best.method + ' 達標');
+      if (hint && hint.note) why.push(hint.note);
     }
 
     var style = best ? chooseStyle(Object.assign({}, snap, { isLeader: leadership.isLeader }), best.method) : null;
@@ -392,6 +418,7 @@
     scoreMeta: scoreMeta,
     scoreBO: scoreBO,
     scorePullback: scorePullback,
+    patternMethodHint: patternMethodHint,
     getSeed: getSeed,
     analyzeSeed: analyzeSeed,
     MAX_STOP_PCT: 6,
