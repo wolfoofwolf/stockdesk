@@ -1,89 +1,128 @@
 {
-  "generatedAt": "2026-10-12T02:00:44.290958Z",
-  "asOf": "2026-10-12 10:00 HKT",
+  "generatedAt": "2026-10-12T05:56:23.992Z",
+  "asOf": "2026-10-12 13:56 HKT",
   "bot": "Trok",
   "role": "資料蒐集＋總司令",
-  "summaryTw": "# 【總司令匯報·刷新】2026-10-12（Trok）\n\n> asOf 網頁側：2026-10-12 10:00 HKT｜美股今日 Columbus Day 休市（asOfMarket 多為 10/9）\n\n## 篩選（Frok）最新\n- 宇宙 130 → 通過 **67**／拒 63\n- asOf: 2026-10-12T01:59:52.023Z\n- 主題前排：半導體 13、Software service 10、能源 6、Cyber security 6、醫療 6\n\n## 技術（Grok）最新掃描\n- 掃描 15 隻（對齊 Frok 通過名單）；前排：\n1. **HPE** VCP 19.1%→18.1%→6.4%，收 $73.46／pivot $73.56，Hardware/XLK，兄弟 MRVL/ANET/SMCI\n2. **PLTR** VCP 8.1%→6.3%→5.8%，收 $209.05／pivot $209.58，Software service/IGV，兄弟 CRWD/NOW/ORCL\n3. **ANET** VCP 13.5%→12.1%→6.4%，收 $216.74／pivot $217.41，光通信/IGV，兄弟 VRT/AVGO/TSM\n- 圖：data/charts/HPE_scan_VCP.png, data/charts/PLTR_scan_VCP.png, data/charts/ANET_scan_VCP.png\n\n## 公司（Jrok）／進場（Arok）\n- 公司報告 7 隻：ANET✓(10)、ISRG✓(9)、PANW✓(9)、NVDA✓(10)、NOW✓(9)、AVGO✓(10)\n- 進場：【進場策略｜Arok｜即時】對齊 Jrok 公司報告 7 隻＋Grok 技術掃描\n\n## 大市（Drok）\n【狀態 10/12】距離 CPI 約 2 日。\n【非農 10/3】+2.9萬 vs ~9萬預期（弱），失業率 4.2%；當日 SPX +0.76%（數據弱但大市升＝暫停加息交易）。10月加息機率大幅回落。\n【跟進】其後數日路徑示意：+0.2%／-0.35%／+0.45%／+0.1%（波動中未一鼓作氣斷開）。\n【前睇】10/14 CPI 係關鍵：core 涼→鞏固暫停；core 熱→加息機率同長息或再抽。然後 10/15 PPI、10/28 FOMC。\n【9月 FOMC】已 +25bp 至 3.75–4.00%。\n\n## 催化劑（Trok）\n1. **10/14 CPI**（後天）— 共識 headline ~3.6%／core ~2.5%；core MoM ≤0.2% 利好暫停，熱則加息機率回魂 → 影響力 8/10\n2. **10/15 PPI** → 7/10\n3. **10/28 FOMC**（主流定價暫停）→ 8/10\n4. 近 pivot 觀察：**HPE／PLTR／ANET**（休市後首個交易日睇能否收穩突破）\n\n網頁開住即時同步會自動拉 latest JSON；解壓完整包後用 `python3 -m http.server 8765` 開。\n",
+  "pipeline": {
+    "candidates": 467,
+    "techPassed": 314,
+    "company": 314,
+    "leaders": 81,
+    "entry": 81,
+    "entryConsider": 75,
+    "entryWatch": 6
+  },
+  "summaryTw": "# 【總司令匯報·刷新】2026-10-12（Trok）\n\n> asOf 網頁側：2026-10-12 13:56 HKT｜美股今日 Columbus Day 休市（asOfMarket 多為 10/9）｜錨點＝Grok techPass（pivot≤6%），唔跟 Frok 候選數當通過\n\n## 篩選（Frok）候選池\n- 宇宙 1186 → 候選 **467**／拒 719（只係池，唔係通過）\n- asOf: 2026-10-12T05:52:45.507Z\n- 主題前排：雜項 125、Hardware 100、能源 70、醫療 67、金融 29、Software service 27\n\n## 技術（Grok）通過名單（最終閘）\n- techPass **314**／候選 467｜規則：有形態＋可畫 pivot＋收市距 pivot≤6%\n- asOfMarket: 2026-10-09｜generatedAt: 2026-10-12T05:10:21.039603Z\n- 通過主題：雜項 102、Hardware 56、能源 50、醫療 45、金融 20、Software service 18\n- 形態：low_cheat 154、bull_flag 83、triple_bottom 56、VCP 14、ascending_base 5、flat_base 2\n- 近 pivot 前排：\n1. **HLN** Low Cheat（Minervini 提前進場），收 $9.32／pivot $9.32，醫療/XLV\n2. **YMM** Low Cheat（Minervini 提前進場），收 $8.56／pivot $8.56，Hardware/XLK\n3. **CHKP** Low Cheat（Minervini 提前進場），收 $137.18／pivot $137.2，Hardware/XLK\n4. **PYPL** 三底（Triple Bottom），收 $55.53／pivot $55.55，金融/XLF\n5. **ZTS** Low Cheat（Minervini 提前進場），收 $74.81／pivot $74.85，醫療/XLV\n- VCP 近 pivot 觀察：**NDAQ** VCP 24.3%→10.1%→7.7%，收 $93.65／pivot $93.29，金融（距 pivot 0.4%）；**NU** VCP 25.5%→15.8%→6.8%，收 $16.12／pivot $16.22，金融（距 pivot 0.6%）；**TXNM** VCP 14.1%→8.0%→6.5%，收 $58.61／pivot $59.1，能源（距 pivot 0.8%）\n- 舊前排 HPE／PLTR／ANET：已破舊 pivot／距新規則 >6%，**今輪 techPass=false**（唔再當通過）\n\n## 公司（Jrok）／進場（Arok）\n- 公司報告 **314** 隻（只跟 techPass）→ 領導股閘 **81**\n- 領導股前排：ISRG✓(8)、MA✓(8)、V✓(8)、WMT✓(7)、SHEL✓(7)、PG✓(7)、ABBV✓(7)、DELL✓(7)\n- 進場：techPass 314 → 領導 81 → 計劃 81｜可考慮 **75**／觀望 6\n- 方法：Pullback 40、BO 15、META 20\n- 前排：MA Pullback $589.14→$553.79 · V Pullback $385.45→$362.32 · WMT Pullback $111.35→$104.67 · SHEL BO $100.18→$94.17 · PG BO $151.23→$142.16 · ABBV BO $276.47→$259.88\n\n## 大市（Drok）\n【狀態 10/12 午後｜美股 Columbus Day 休市】距離 CPI 約 1 日（10/14 08:30 ET）。\n【非農 10/2】+2.9萬 vs ~9萬預期（弱），失業率 4.2%；當日 SPY/SPX 約 +0.74%（數據弱但大市升＝暫停加息交易）。FedWatch 10月加息機率約 18%（hold ~82%）。\n【跟進】其後數日路徑示意：+0.2%／-0.35%／+0.45%／+0.1%（波動中未一鼓作氣斷開）。\n【前睇】10/14 CPI 係關鍵：Street headline ~3.7%、Cleveland ~3.60%／core MoM ~0.20%；core 涼→鞏固暫停；core 熱→加息機率同長息或再抽。然後 10/15 PPI、10/28 FOMC。\n【Mag7】未出新業績；TSLA 10/21 起一批，MSFT／GOOGL／META 對齊 10/28 FOMC。\n【9月 FOMC】已 +25bp 至 3.75–4.00%。\n【本輪】無新公布／無背離轉向；僅刷新日曆窗口同共識微調，唔洗版。\n\n## 催化劑（Trok）\n1. **10/14 CPI**（明天 08:30 ET）— Street headline ~3.7%／Cleveland nowcast ~3.60%；core MoM ≤0.2% 利好暫停，熱則加息機率回魂 → 影響力 8/10\n2. **10/15 PPI**（+ Retail Sales）→ 7/10\n3. **10/28 FOMC**（FedWatch hold ~82%）＋同日 Mag7 一批業績 → 8/10\n4. 近 pivot／領導股觀察：**NDAQ／NU／ISRG／MA／V**（休市後首個交易日）\n5. Mag7：TSLA 10/21；MSFT／GOOGL／META 10/28；AMZN 10/29；AAPL 11/2\n\n網頁：[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=techui2)\n",
   "catalysts": [
     {
       "id": "cpi-2026-10-14",
       "date": "2026-10-14",
-      "title": "美國 CPI（9月）公布 — 後天",
+      "title": "美國 CPI（9月）公布 — 明天",
       "tickers": [],
       "themes": [
         "大市",
         "利率"
       ],
       "score": 8,
-      "note": "共識 ~3.6%／core ~2.5%；core MoM≤0.2% 利好暫停；熱則加息機率同長息或再抽"
+      "note": "Street ~3.7%／Cleveland ~3.60%；core MoM≤0.2% 利好暫停；熱則加息機率同長息或再抽"
     },
     {
       "id": "ppi-2026-10-15",
       "date": "2026-10-15",
-      "title": "美國 PPI",
+      "title": "美國 PPI（+ Retail Sales）",
       "tickers": [],
       "themes": [
         "大市",
         "利率"
       ],
       "score": 7,
-      "note": "CPI 後翌日；確認通脹路徑"
+      "note": "CPI 後翌日；上游仍高，留意滯後傳導"
     },
     {
       "id": "fomc-2026-10-28",
       "date": "2026-10-28",
-      "title": "FOMC（10月）",
-      "tickers": [],
+      "title": "FOMC（10月）＋Mag7 業績窗",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "META"
+      ],
       "themes": [
         "大市",
         "利率"
       ],
       "score": 8,
-      "note": "9月已+25bp至3.75–4.00%；主流定價暫停"
+      "note": "FedWatch hold ~82%；同日 MSFT／GOOGL／META 業績"
     },
     {
-      "id": "pivot-watch-hpe-pltr-anet",
-      "date": "2026-10-12",
-      "title": "近 pivot 觀察：HPE／PLTR／ANET",
+      "id": "pivot-watch-leaders-vcp",
+      "date": "2026-10-13",
+      "title": "近 pivot／領導股：NDAQ／NU／ISRG／MA／V",
       "tickers": [
-        "HPE",
-        "PLTR",
-        "ANET"
+        "NDAQ",
+        "NU",
+        "ISRG",
+        "MA",
+        "V"
       ],
       "themes": [
-        "Hardware",
-        "Software service",
-        "光通信"
+        "金融",
+        "醫療"
       ],
       "score": 6,
-      "note": "今日休市；下一交易日睇能否收穩突破 pivot"
+      "note": "休市後首個交易日；錨 techPass+領導股閘，唔跟已破 pivot 舊前排"
+    },
+    {
+      "id": "mag7-earnings-window",
+      "date": "2026-10-21",
+      "title": "Mag7 業績窗起：TSLA→MSFT/GOOGL/META→AMZN→AAPL",
+      "tickers": [
+        "TSLA",
+        "MSFT",
+        "GOOGL",
+        "META",
+        "AMZN",
+        "AAPL"
+      ],
+      "themes": [
+        "大市",
+        "AI"
+      ],
+      "score": 7,
+      "note": "TSLA 10/21；MSFT/GOOGL/META 10/28；AMZN 10/29；AAPL 11/2"
     }
   ],
   "inputs": {
-    "screenerAsOf": "2026-10-12T01:59:52.023Z",
-    "techAsOf": "2026-10-12T01:59:20.454606Z",
-    "macroAsOf": "2026-10-12T01:59:09.820Z",
-    "companyAsOf": "2026-10-11",
+    "screenerAsOf": "2026-10-12T05:52:45.507Z",
+    "techAsOf": "2026-10-12T05:10:21.039603Z",
+    "macroAsOf": "2026-10-12T05:55:07.819Z",
+    "companyAsOf": "2026-10-12",
     "entryAsOf": "2026-10-09"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-12T02:00:44.290998Z",
+      "t": "2026-10-12T05:56:23.992Z",
       "bot": "Trok",
       "step": "gather",
-      "detail": "匯總 Frok/Grok/Drok 今日刷新 + Jrok/Arok 既有 latest"
+      "detail": "錨 Grok techPass 314；Frok 候選 467；公司/領導/進場對齊"
     },
     {
-      "t": "2026-10-12T02:00:44.291007Z",
+      "t": "2026-10-12T05:56:23.992Z",
       "bot": "Trok",
       "step": "catalysts",
-      "detail": "CPI/PPI/FOMC + HPE/PLTR/ANET pivot watch"
+      "detail": "CPI明天/PPI/FOMC+Mag7 + NDAQ/NU/ISRG/MA/V watch；舊 HPE/PLTR/ANET 跌出 techPass"
     },
     {
-      "t": "2026-10-12T02:00:44.291013Z",
+      "t": "2026-10-12T05:56:23.992Z",
       "bot": "Trok",
       "step": "briefing",
-      "detail": "覆寫 commander-briefing-latest.md + commander-run-latest.json"
+      "detail": "覆寫 commander-briefing-latest.md + commander-run-latest.json + commander-latest.json"
+    },
+    {
+      "t": "2026-10-12T05:56:23.992Z",
+      "bot": "Trok",
+      "step": "materialChange",
+      "detail": "相對 10:00 舊 run：通過名單 15→314、候選 67→467、公司 7→314、領導/進場 81、CPI 窗口縮至明天"
     }
   ]
 }
