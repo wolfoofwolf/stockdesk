@@ -1,30 +1,27 @@
 {
-  "generatedAt": "2026-10-12T15:20:17.222Z",
+  "generatedAt": "2026-10-12T15:25:34.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-12 23:20 HKT",
+  "asOfHKT": "2026-10-12 23:25 HKT",
   "pipeline": {
     "candidates": 484,
-    "techPassed": 312,
-    "company": 314,
-    "leadersRaw": 82,
-    "leaders": 73,
-    "leadersStale": 9,
-    "entryRaw": 81,
+    "techPassed": 344,
+    "company": 312,
+    "leaders": 76,
     "entry": 73,
     "entryConsider": 67,
-    "entryWatch": 6
+    "anchor": "Grok techPass (pattern+pivot+≤6%)",
+    "downstreamStale": true
   },
-  "summaryTw": "【總司令｜2026-10-12 23:20 HKT】\n候選 484→技術通過 **312**（pivot≤6%，換馬 +28/−30）→領導（過濾）73→進場（過濾）73\n進場可考慮 67／觀望 6｜CPI 後天 10/14｜跌出：V／AVGO／CRWD／PANW／XOM\n催化劑：CPI／開市日／PPI／FOMC+Mag7；近 pivot：ATO／CNP／KDP／OCTV／PNW",
+  "summaryTw": "【總司令｜2026-10-12 23:25 HKT】\n錨 Grok techPass **344**（候選 484；484 全量定案）\n下游暫舊：公司 312／領導 76／進場 73（可考慮 67）— 等 @Jrok／@Arok 跟 **344**\nCPI 10/14 · [StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=en1)",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=techui2",
-    "tech": "https://wolfoofwolf.github.io/stockdesk/data/tech-scan-latest.json",
-    "entry": "https://wolfoofwolf.github.io/stockdesk/data/entry-run-latest.json"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=en1",
+    "tech": "https://wolfoofwolf.github.io/stockdesk/data/tech-scan-latest.json"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-12 23:20 HKT",
-      "msg": "例行總司令晚間：techPass 換馬有實質變化，準備推 Pages＋通知 Stock"
+      "t": "2026-10-12 23:25 HKT",
+      "msg": "Anchor → techPass 344; company/entry still on prior gate"
     }
   ]
 }

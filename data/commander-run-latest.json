@@ -1,21 +1,19 @@
 {
-  "generatedAt": "2026-10-12T15:20:17.222Z",
+  "generatedAt": "2026-10-12T15:25:34.000Z",
   "asOf": "2026-10-12 23:20 HKT",
   "bot": "Trok",
   "role": "資料蒐集＋總司令",
   "pipeline": {
     "candidates": 484,
-    "techPassed": 312,
-    "company": 314,
-    "leadersRaw": 82,
-    "leaders": 73,
-    "leadersStale": 9,
-    "entryRaw": 81,
+    "techPassed": 344,
+    "company": 312,
+    "leaders": 76,
     "entry": 73,
     "entryConsider": 67,
-    "entryWatch": 6
+    "anchor": "Grok techPass (pattern+pivot+≤6%)",
+    "downstreamStale": true
   },
-  "summaryTw": "# 【總司令匯報·晚間】2026-10-12（Trok）\n\n> asOf 網頁側：2026-10-12 23:20 HKT｜美股 Columbus Day 休市（asOfMarket 多為 10/9）｜錨點＝Grok techPass（pivot≤6%），唔跟 Frok 候選數當通過\n\n## 篩選（Frok）候選池\n- 宇宙 1184 → 候選 **484**／拒 700（只係池，唔係通過）\n- asOf: 2026-10-12T15:17:10.352Z\n- 主題前排：雜項 140、Hardware 93、能源 81、醫療 71、金融 33、Software service 25\n\n## 技術（Grok）通過名單（最終閘）\n- techPass **312**／候選池對齊掃描時 467（而家篩選已擴至 484，未重跑 tech）｜規則：有形態＋可畫 pivot＋收市距 pivot≤6%\n- asOfMarket: 2026-10-12｜generatedAt: 2026-10-12T15:18:36.482849Z\n- 相對午間 briefing（314）：**312** 隻，換馬約 +28／−30\n- 通過主題：雜項 101、Hardware 56、能源 50、醫療 43、金融 21、Software service 21\n- 形態：low_cheat 143、bull_flag 103、triple_bottom 47、VCP 12、ascending_base 5、flat_base 2\n- 近 pivot 前排：\n1. **ATO** Low Cheat（Minervini 提前進場），收 $162.68／pivot $162.68，能源/XLU\n2. **CNP** Low Cheat（Minervini 提前進場），收 $38.98／pivot $38.98，能源/XLU\n3. **KDP** Low Cheat（Minervini 提前進場），收 $32.35／pivot $32.35，雜項/XLP\n4. **OCTV** Low Cheat（Minervini 提前進場），收 $20.8／pivot $20.8，Hardware/XLK\n5. **PNW** Low Cheat（Minervini 提前進場），收 $99.52／pivot $99.52，能源/XLU\n- VCP 近 pivot 觀察：**NDAQ** VCP 24.3%→10.1%→7.7%，收 $94.16／pivot $93.29，金融（距 pivot 0.9%）；**TXNM** VCP 14.1%→8.0%→6.5%，收 $58.48／pivot $59.1，能源（距 pivot 1.0%）；**CBOE** VCP 20.2%→6.7%→6.1%，收 $307.49／pivot $310.99，金融（距 pivot 1.1%）\n- 跌出 techPass（勿再當通過）：V／AVGO／CRWD／PANW／XOM／MU／LITE／HCA；重返／新入觀察：HPE／ANET／META／SNPS／RBLX／FCX（完整 +28／−30）\n\n## 公司（Jrok）／進場（Arok）\n- 公司報告檔仍標 82／領導檔 82，但 **跟最新 techPass 過濾後領導股 73**（9 隻領導檔已跌出 techPass，例如 EBAY／LITE／XOM／PANW／HCA／CRWD）\n- 領導股前排（僅 techPass）：ISRG✓(8)、MA✓(8)、ABBV✓(7)、ASML✓(7)、BP✓(7)、BRK-B✓(7)、CEG✓(7)、COST✓(7)\n- 進場檔仍係舊閘（上游領導 81）；**跟最新 techPass 後**計劃 73｜可考慮 **67**／觀望 6\n- 方法（過濾後）：Pullback 43、META 17、BO 13\n- 前排：MA Pullback $589.14→$553.79 · WMT Pullback $111.35→$104.67 · SHEL BO $100.18→$94.17 · PG BO $151.23→$142.16 · ABBV BO $276.47→$259.88 · DELL META $586.06→$550.9\n- 注意：Jrok／Arok 未跟今輪 tech 換馬重跑；網頁領導／進場或仍顯示已跌出名單，以本 briefing 嘅 techPass 為準\n\n## 大市（Drok）\n【狀態 10/12 晚間｜美股 Columbus Day 休市】距離 CPI 約 2 日（10/14 08:30 ET）。\n【非農 10/2】+2.9萬 vs ~9萬預期（弱），失業率 4.2%；當日 SPY/SPX 約 +0.74%（數據弱但大市升＝暫停加息交易）。FedWatch 10月 hold ~81.7%／加息 ~18.3%。\n【跟進】其後數日路徑示意：+0.2%／-0.35%／+0.45%／+0.1%（波動中未一鼓作氣斷開）。\n【前睇】10/14 CPI 係關鍵：Street headline ~3.7%、Cleveland（10/9）~3.60%／core MoM ~0.20%；core 涼→鞏固暫停；core 熱→加息機率同長息或再抽。然後 10/15 PPI、10/28 FOMC。\n【Mag7】未出新業績；TSLA 10/21（已確認）起一批，MSFT／GOOGL／META 對齊 10/28 FOMC。\n【9月 FOMC】已 +25bp 至 3.75–4.00%。\n【本輪】無新公布／無背離轉向／FedWatch 同 nowcast 未變；僅晚間刷新窗口標籤（CPI 後天），唔洗版。\n\n## 催化劑（Trok）\n1. **10/14 CPI**（後天 08:30 ET）— Street headline ~3.7%／Cleveland nowcast ~3.60%；core MoM ≤0.2% 利好暫停，熱則加息機率回魂 → 影響力 8/10\n2. **10/13** 休市後首個交易日 — 近 pivot（ATO／CNP／KDP 等）或受隔夜情緒洗盤 → 6/10\n3. **10/15 PPI**（+ Retail Sales）→ 7/10\n4. **10/28 FOMC**（FedWatch hold ~82%）＋同日 Mag7 一批業績 → 8/10\n5. Mag7：TSLA 10/21；MSFT／GOOGL／META 10/28；AMZN 10/29；AAPL 11/2\n\n網頁：[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=techui2)\n",
+  "summaryTw": "【總司令｜2026-10-12 23:25 HKT】\n錨 Grok techPass **344**（候選 484；484 全量定案）\n下游暫舊：公司 312／領導 76／進場 73（可考慮 67）— 等 @Jrok／@Arok 跟 **344**\nCPI 10/14 · [StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=en1)",
   "catalysts": [
     {
       "id": "cpi-2026-10-14",
@@ -193,5 +191,8 @@
       "step": "materialChange",
       "detail": "相對 13:56 run：techPass 314→312 換馬 +28/−30；候選 467→484；領導原料 81→82；CPI 窗口改後天；公司/進場未重跑需標註"
     }
-  ]
+  ],
+  "asOfHKT": "2026-10-12 23:25 HKT",
+  "materialChange": true,
+  "note": "Anchor techPass 344; await Jrok/Arok"
 }
