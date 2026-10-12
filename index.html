@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <title>StockDesk · 六項流水線</title>
-  <link rel="stylesheet" href="css/app.css?v=clean1" />
+  <link rel="stylesheet" href="css/app.css?v=entry1" />
 </head>
 <body class="fx-root">
   <header>
@@ -119,10 +119,12 @@
 
       <section class="panel" data-panel="entry">
         <h2>⑤ 進場策略 · Arok</h2>
-        <p class="muted">META／BO／Pullback，止損上限 6%；會對 <code>Company.isLeader</code>。示範：ISRG 種子。</p>
-        <button class="primary" id="btn-entry" type="button">分析 ISRG 進場種子</button>
-        <pre class="report" id="entry-out" style="margin-top:10px">尚未執行</pre>
-        <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">Arok 思考 log</h3>
+        <p class="muted">META／BO／Pullback，止損上限 6%；對齊領導股。點一列睇詳情。</p>
+        <div id="entry-scan-status" class="muted">尚未載入</div>
+        <div id="entry-table" style="margin-top:10px;overflow:auto"></div>
+        <button class="primary" id="btn-entry" type="button" style="margin-top:10px">分析 ISRG 進場種子</button>
+        <pre class="report" id="entry-out" style="margin-top:10px;display:none">尚未執行</pre>
+        <h3 style="margin-top:14px">Arok 思考 log</h3>
         <div class="log-box" id="log-entry"></div>
       </section>
 
@@ -157,6 +159,6 @@
   <script src="js/charts/ISRG_vcp_C1C2C3.js"></script>
   <script src="js/charts/NVDA_scan_VCP.js"></script>
   <script src="js/charts/AMD_scan_VCP.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/app.js?v=entry1"></script>
 </body>
 </html>

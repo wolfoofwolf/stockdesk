@@ -352,6 +352,66 @@
     });
   }
 
+  function money(n) {
+    if (n == null || n === '') return '—';
+    var x = Number(n);
+    if (isNaN(x)) return String(n);
+    return '$' + x.toFixed(2);
+  }
+
+  function renderEntryTable(j) {
+    var list = (j && j.reports) || [];
+    if ($('entry-scan-status')) {
+      $('entry-scan-status').textContent = '進場 ' + list.length + ' 隻 · asOf ' + ((j && (j.asOf || j.generatedAt)) || '') +
+        (j && j.patternMix ? ' · 跟技術通過名單' : '');
+    }
+    if (!$('entry-table')) return;
+    if (!list.length) {
+      $('entry-table').innerHTML = '<p class="muted">尚未有進場計劃</p>';
+      return;
+    }
+    $('entry-table').innerHTML = '<table><thead><tr>' +
+      '<th>Ticker</th><th>建議</th><th>策略</th><th>形態</th><th>入場</th><th>止損</th><th>風險</th><th>領導股</th><th>風格</th>' +
+      '</tr></thead><tbody>' +
+      list.map(function (r, idx) {
+        var L = r.levels || {};
+        var entry = L.entry != null ? L.entry : r.entry;
+        var stop = L.stop != null ? L.stop : r.stop;
+        var risk = L.riskPct != null ? L.riskPct : r.riskPct;
+        var lead = r.leadership || {};
+        var leadTw = lead.isLeader === true ? ('是' + (lead.score != null ? ' (' + lead.score + ')' : '')) :
+          (lead.isLeader === false ? '否／降權' : '—');
+        return '<tr class="entry-row" data-idx="' + idx + '" style="cursor:pointer"><td><b>' + (r.ticker || '') +
+          '</b></td><td>' + (r.action || '') +
+          '</td><td><span class="tag">' + (r.bestMethod || r.method || '') + '</span></td><td class="muted">' +
+          (r.pattern || '') + '</td><td>' + money(entry) + '</td><td>' + money(stop) +
+          '</td><td>' + (risk != null ? Number(risk).toFixed(1) + '%' : '—') +
+          '</td><td>' + leadTw + '</td><td class="muted">' + (r.tradeStyle || r.style || '') + '</td></tr>';
+      }).join('') + '</tbody></table>';
+    Array.prototype.forEach.call(document.querySelectorAll('#entry-table tr.entry-row'), function (tr) {
+      tr.addEventListener('click', function () {
+        var i = Number(tr.getAttribute('data-idx'));
+        var r = list[i];
+        if (!r || !$('entry-out')) return;
+        var L = r.levels || {};
+        var lines = [
+          (r.ticker || '') + ' · ' + (r.action || ''),
+          '策略：' + (r.bestMethod || r.method || '') + '／' + (r.tradeStyle || r.style || ''),
+          '形態：' + (r.pattern || '—') + (r.pivot != null ? ' · pivot $' + r.pivot : ''),
+          '入場：' + money(L.entry != null ? L.entry : r.entry) +
+            '　止損：' + money(L.stop != null ? L.stop : r.stop) +
+            (L.riskPct != null || r.riskPct != null ? '（' + Number(L.riskPct != null ? L.riskPct : r.riskPct).toFixed(1) + '%）' : ''),
+          '領導股：' + ((r.leadership && r.leadership.isLeader) ? '是' : '否') +
+            (r.leadership && r.leadership.score != null ? ' · score ' + r.leadership.score : '')
+        ];
+        if (r.why) lines.push('原因：' + (Array.isArray(r.why) ? r.why.join('；') : String(r.why)));
+        $('entry-out').style.display = 'block';
+        $('entry-out').textContent = lines.join('\n');
+        alog('entry:row-pick', r.ticker);
+      });
+    });
+  }
+
   function loadEntryLatest() {
     fetch(bust('data/entry-run-latest.json')).then(function (r) { return r.json(); }).then(function (j) {
       var sg = sigOf(j);
@@ -359,23 +419,13 @@
       LIVE_SYNC_SIG.entry = sg;
       window.__latestEntry = j;
       alog('entry-latest:loaded', j && (j.ticker || j.count || j.generatedAt));
-      if ($('entry-out') && j) {
-        if (j.summaryTw) $('entry-out').textContent = j.summaryTw;
-        else if (j.textTw) $('entry-out').textContent = j.textTw;
-        else if (j.reports && j.reports[0]) {
-          var er = j.reports[0];
-          $('entry-out').textContent = er.summaryTw || er.textTw || [
-            '【' + (er.ticker || '') + '】' + (er.bestMethod || er.method || '') + '／' + (er.style || er.tradeStyle || ''),
-            er.action ? ('建議：' + er.action) : '',
-            er.entry != null ? ('入場：$' + er.entry) : '',
-            er.stop != null ? ('止損：$' + er.stop + (er.riskPct != null ? '（' + Number(er.riskPct).toFixed(1) + '%）' : '')) : '',
-            er.pattern ? ('形態：' + er.pattern) : '',
-            er.rationale || er.notes || ''
-          ].filter(Boolean).join('\n');
-        }
+      renderEntryTable(j);
+      if (j && j.thinkingLog && j.thinkingLog.length && $('log-entry')) {
+        $('log-entry').innerHTML = fmtLog(j.thinkingLog);
       }
       refreshLogs();
     }).catch(function (e) {
+      if ($('entry-scan-status')) $('entry-scan-status').textContent = '未有進場檔：' + e.message;
       alog('entry-latest:miss', e.message);
     });
   }
@@ -544,22 +594,28 @@
 
   function runEntrySeed() {
     alog('entry:seed-start', 'ISRG');
-    if (!window.Entry) { $('entry-out').textContent = 'Entry 未載入'; return; }
+    if (!window.Entry) {
+      if ($('entry-out')) { $('entry-out').style.display = 'block'; $('entry-out').textContent = 'Entry 未載入'; }
+      return;
+    }
     var report = Entry.analyzeSeed();
+    var L = (report && report.levels) || {};
+    var lead = (report && report.leadership) || {};
     var lines = [];
     if (report) {
-      lines.push('Ticker: ' + (report.ticker || 'ISRG'));
-      lines.push('建議：' + (report.action || '') + ' · 方法：' + (report.bestMethod || report.method || ''));
-      lines.push('風格：' + (report.style || report.tradeStyle || ''));
-      if (report.entry != null) lines.push('入場：$' + report.entry);
-      if (report.stop != null) lines.push('止損：$' + report.stop + (report.riskPct != null ? '（風險 ' + Number(report.riskPct).toFixed(1) + '%）' : ''));
-      if (report.target != null) lines.push('目標：$' + report.target);
-      if (report.leadership) lines.push('領導股：' + JSON.stringify(report.leadership));
-      if (report.summaryTw) { lines.push(''); lines.push(report.summaryTw); }
-      if (report.rationale) { lines.push(''); lines.push(String(report.rationale)); }
-      if (report.notes) { lines.push(''); lines.push(Array.isArray(report.notes) ? report.notes.join('\n') : String(report.notes)); }
+      lines.push((report.ticker || 'ISRG') + ' · ' + (report.action || ''));
+      lines.push('策略：' + (report.bestMethod || report.method || '') + '／' + (report.style || report.tradeStyle || ''));
+      lines.push('入場：' + money(L.entry != null ? L.entry : report.entry) +
+        '　止損：' + money(L.stop != null ? L.stop : report.stop) +
+        ((L.riskPct != null || report.riskPct != null) ? '（' + Number(L.riskPct != null ? L.riskPct : report.riskPct).toFixed(1) + '%）' : ''));
+      if (report.target != null || L.targetHint != null) lines.push('目標／樞紐：' + money(report.target != null ? report.target : L.targetHint));
+      lines.push('領導股：' + (lead.isLeader ? '是' : '否') + (lead.score != null ? ' · score ' + lead.score : ''));
+      if (report.why) lines.push('原因：' + (Array.isArray(report.why) ? report.why.join('；') : String(report.why)));
     }
-    $('entry-out').textContent = lines.length ? lines.join('\n') : JSON.stringify(report, null, 2);
+    if ($('entry-out')) {
+      $('entry-out').style.display = 'block';
+      $('entry-out').textContent = lines.length ? lines.join('\n') : JSON.stringify(report, null, 2);
+    }
     refreshLogs();
     alog('entry:seed-done', report && report.ticker);
   }
