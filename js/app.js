@@ -143,7 +143,18 @@
       return fetch('data/macro-report-nfp-latest.json').then(function (r) { return r.json(); });
     }).then(function (j) {
       alog('macro-report:loaded', j && (j.title || j.updatedAt));
-      var body = (j && j.summaryTw) ? (j.summaryTw + '\n\n—— 詳細 ——\n' + JSON.stringify(j, null, 2)) : JSON.stringify(j, null, 2);
+      var body;
+      if (j && j.summaryTw) {
+        body = j.summaryTw;
+        if (j.watch && j.watch.length) {
+          body += '\n\n【前瞻】\n' + j.watch.map(function (w) {
+            return '· ' + (w.date || '') + ' ' + (w.label || w.type || '') + (w.note ? ' — ' + w.note : '');
+          }).join('\n');
+        }
+        if (j.mag7Note) body += '\n\n【七巨頭】\n' + j.mag7Note;
+      } else {
+        body = '未有繁中摘要（summaryTw），請等 Drok 刷新大市報告。';
+      }
       $('macro-report').textContent = body;
       var logs = (j && j.thinkingLog && j.thinkingLog.length) ? j.thinkingLog : ((window.Macro && Macro.getLog && Macro.getLog()) || []);
       if ($('log-macro')) $('log-macro').innerHTML = fmtLog(logs);
@@ -353,7 +364,14 @@
         else if (j.textTw) $('entry-out').textContent = j.textTw;
         else if (j.reports && j.reports[0]) {
           var er = j.reports[0];
-          $('entry-out').textContent = er.summaryTw || JSON.stringify(er, null, 2);
+          $('entry-out').textContent = er.summaryTw || er.textTw || [
+            '【' + (er.ticker || '') + '】' + (er.bestMethod || er.method || '') + '／' + (er.style || er.tradeStyle || ''),
+            er.action ? ('建議：' + er.action) : '',
+            er.entry != null ? ('入場：$' + er.entry) : '',
+            er.stop != null ? ('止損：$' + er.stop + (er.riskPct != null ? '（' + Number(er.riskPct).toFixed(1) + '%）' : '')) : '',
+            er.pattern ? ('形態：' + er.pattern) : '',
+            er.rationale || er.notes || ''
+          ].filter(Boolean).join('\n');
         }
       }
       refreshLogs();
