@@ -240,7 +240,12 @@
     }
     if (scrollToChart) {
       var anchor = $('tech-chart-anchor');
-      if (anchor && anchor.scrollIntoView) anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (anchor && anchor.scrollIntoView) {
+        setTimeout(function () {
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          try { window.scrollBy(0, -8); } catch (e) {}
+        }, 50);
+      }
     }
   }
 
