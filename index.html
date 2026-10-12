@@ -79,17 +79,23 @@
         <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
           <button class="primary" id="btn-tech-scan" type="button">載入最新技術掃描</button>
           <button id="btn-tech" type="button">分析 ISRG 種子</button>
+          <label class="muted" style="display:inline-flex;gap:6px;align-items:center">主題
+            <select id="tech-theme-filter"><option value="">全部主題</option></select>
+          </label>
+          <label class="muted" style="display:inline-flex;gap:6px;align-items:center">
+            <input type="checkbox" id="tech-pass-only" checked /> 只睇技術通過
+          </label>
           <span class="muted" id="tech-scan-status">尚未載入掃描</span>
         </div>
-        <div id="tech-scan-list" style="margin-top:12px;overflow:auto"></div>
-        <div class="grid2" style="margin-top:12px">
-          <div>
-            <div id="tech-summary" class="report">尚未執行</div>
-            <div id="tech-siblings" style="margin-top:10px"></div>
-          </div>
-          <div>
-            <img id="tech-chart" alt="tech chart" style="max-width:100%;border:1px solid #2a3560;border-radius:10px;display:none" />
-          </div>
+        <div id="tech-scan-list" style="margin-top:12px;overflow:auto;max-height:420px"></div>
+        <div style="margin-top:12px">
+          <div id="tech-summary" class="report">尚未執行</div>
+          <div id="tech-siblings" style="margin-top:10px"></div>
+        </div>
+        <div id="tech-chart-anchor" style="margin-top:16px">
+          <h3 style="color:#9aa6d0;font-size:13px;margin:0 0 8px">形態圖（點上面股票會跳嚟呢度）</h3>
+          <img id="tech-chart" alt="tech chart" style="max-width:100%;border:1px solid #2a3560;border-radius:10px;display:none" />
+          <p class="muted" id="tech-chart-miss" style="display:none">呢隻圖未上 Pages（仍在推送），稍後刷新。</p>
         </div>
         <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">Grok 思考 log</h3>
         <div class="log-box" id="log-tech"></div>
@@ -163,6 +169,6 @@
   <script src="js/charts/ISRG_vcp_C1C2C3.js"></script>
   <script src="js/charts/NVDA_scan_VCP.js"></script>
   <script src="js/charts/AMD_scan_VCP.js"></script>
-  <script src="js/app.js?v=entry2"></script>
+  <script src="js/app.js?v=techui1"></script>
 </body>
 </html>

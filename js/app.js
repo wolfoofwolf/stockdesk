@@ -200,7 +200,7 @@
     }).join(' → ');
   }
 
-  function showTechAnalysis(a) {
+  function showTechAnalysis(a, scrollToChart) {
     if (!a) return;
     var lines = [];
     if (a.summaryTw) lines.push(a.summaryTw);
@@ -211,13 +211,20 @@
     }
     if (a.contractions) lines.push('C1–C3: ' + contractionsTw(a.contractions));
     if (a.theme || a.etf) lines.push('主題／ETF: ' + (a.theme || '') + '／' + (a.etf || ''));
+    if (a.techPass != null) lines.push('技術通過：' + (a.techPass ? '是' : '否'));
     $('tech-summary').textContent = lines.join('\n');
+    var img = $('tech-chart');
+    var miss = $('tech-chart-miss');
     if (a.chartPath) {
       var src = (window.CHART_ASSETS && window.CHART_ASSETS[a.chartPath]) || a.chartPath;
-      $('tech-chart').src = src;
-      $('tech-chart').style.display = 'block';
+      img.onload = function () { if (miss) miss.style.display = 'none'; };
+      img.onerror = function () { img.style.display = 'none'; if (miss) miss.style.display = 'block'; };
+      img.src = src + (src.indexOf('data:') === 0 ? '' : ((src.indexOf('?') >= 0 ? '&' : '?') + 'v=' + encodeURIComponent((window.__latestTech && window.__latestTech.generatedAt) || Date.now())));
+      img.style.display = 'block';
+      if (miss) miss.style.display = 'none';
     } else {
-      $('tech-chart').style.display = 'none';
+      img.style.display = 'none';
+      if (miss) miss.style.display = 'block';
     }
     var sibs = a.siblings || [];
     if (sibs.length) {
@@ -231,6 +238,50 @@
     } else {
       $('tech-siblings').innerHTML = a.siblingHint ? '<p class="muted">' + a.siblingHint + '</p>' : '';
     }
+    if (scrollToChart) {
+      var anchor = $('tech-chart-anchor');
+      if (anchor && anchor.scrollIntoView) anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  function renderTechScanTable() {
+    var j = window.__latestTech;
+    if (!j || !$('tech-scan-list')) return;
+    var all = (j.analyses && j.analyses.length) ? j.analyses : (j.topSetups || []);
+    var themeSel = $('tech-theme-filter');
+    var theme = themeSel ? themeSel.value : '';
+    var passOnly = $('tech-pass-only') && $('tech-pass-only').checked;
+    var list = [];
+    for (var i = 0; i < all.length; i++) {
+      var a = all[i];
+      if (passOnly && a.techPass === false) continue;
+      if (passOnly && a.techPass == null && j.techPassed && j.techPassed.indexOf(a.ticker) < 0) continue;
+      if (theme && (a.theme || '') !== theme) continue;
+      list.push(a);
+    }
+    window.__techViewList = list;
+    var tops = j.topSetups || [];
+    $('tech-scan-list').innerHTML = '<table><thead><tr><th>Ticker</th><th>形態</th><th>C1–C3</th><th>收市</th><th>Pivot</th><th>主題/ETF</th><th>通過</th></tr></thead><tbody>' +
+      list.map(function (a, idx) {
+        var pass = a.techPass === true || (j.techPassed && j.techPassed.indexOf(a.ticker) >= 0);
+        return '<tr data-idx="' + idx + '" class="tech-row" style="cursor:pointer"><td><b>' + (a.ticker || '') +
+          '</b></td><td>' + (a.primaryLabelTw || a.labelTw || a.primaryPattern || a.pattern || '') +
+          '</td><td class="muted">' + contractionsTw(a.contractions) +
+          '</td><td>$' + (a.close != null ? a.close : '') +
+          '</td><td>' + (a.pivot != null ? '$' + a.pivot : '') +
+          '</td><td><span class="tag">' + (a.theme || '') + '</span> ' + (a.etf || '') +
+          '</td><td>' + (pass ? '<span class="tag">✓</span>' : '') + '</td></tr>';
+      }).join('') + '</tbody></table>' +
+      '<p class="muted" style="margin-top:8px">顯示 ' + list.length + '／掃描 ' + all.length +
+      (j.techPassedCount != null ? ' · 技術通過 ' + j.techPassedCount : '') +
+      (tops.length ? ' · Top：' + tops.slice(0, 6).map(function (t) { return t.ticker; }).join(',') : '') + '</p>';
+    Array.prototype.forEach.call(document.querySelectorAll('#tech-scan-list tr.tech-row'), function (tr) {
+      tr.addEventListener('click', function () {
+        var i = Number(tr.getAttribute('data-idx'));
+        showTechAnalysis(list[i], true);
+        alog('tech:scan-pick', list[i] && list[i].ticker);
+      });
+    });
   }
 
   function loadTechScanLatest() {
@@ -245,42 +296,31 @@
       var tops = j.topSetups || [];
       var inPass = (j.screenerAlign && j.screenerAlign.scannedInPass) || [];
       if ($('tech-scan-status')) {
-        $('tech-scan-status').textContent = '掃描 ' + list.length + ' 隻 · asOf ' + (j.asOfMarket || j.generatedAt || '') +
-          ' · 對齊 Frok ' + ((j.screenerAlign && j.screenerAlign.passedCount) || '?') + ' 通過';
+        $('tech-scan-status').textContent = '掃描 ' + list.length + ' 隻 · 技術通過 ' + (j.techPassedCount != null ? j.techPassedCount : '?') +
+          ' · asOf ' + (j.asOfMarket || j.generatedAt || '') +
+          ' · 候選池 ' + (j.candidateCount || ((j.screenerAlign && j.screenerAlign.passedCount) || '?'));
       }
-      if ($('tech-scan-list')) {
-        $('tech-scan-list').innerHTML = '<table><thead><tr><th>Ticker</th><th>形態</th><th>C1–C3</th><th>收市</th><th>Pivot</th><th>主題/ETF</th><th>兄弟股</th></tr></thead><tbody>' +
-          list.map(function (a, idx) {
-            var tag = inPass.indexOf(a.ticker) >= 0 ? ' <span class="tag">篩選✓</span>' : '';
-            return '<tr data-idx="' + idx + '" class="tech-row" style="cursor:pointer"><td><b>' + (a.ticker || '') +
-              '</b>' + tag + '</td><td>' + (a.primaryLabelTw || a.labelTw || a.primaryPattern || a.pattern || '') +
-              '</td><td class="muted">' + contractionsTw(a.contractions) +
-              '</td><td>$' + (a.close != null ? a.close : '') +
-              '</td><td>' + (a.pivot != null ? '$' + a.pivot : '') +
-              '</td><td><span class="tag">' + (a.theme || '') + '</span> ' + (a.etf || '') +
-              '</td><td class="muted">' + (a.siblings || []).map(function (s) {
-                return typeof s === 'string' ? s : s.ticker;
-              }).slice(0, 3).join(',') + '</td></tr>';
-          }).join('') + '</tbody></table>' +
-          (tops.length ? '<p class="muted" style="margin-top:8px">Top setups：' + tops.map(function (t) {
-            return (t.ticker || '') + '（' + (t.labelTw || t.pattern || '') + '）';
-          }).join(' · ') + '</p>' : '');
-        Array.prototype.forEach.call(document.querySelectorAll('#tech-scan-list tr.tech-row'), function (tr) {
-          tr.addEventListener('click', function () {
-            var i = Number(tr.getAttribute('data-idx'));
-            showTechAnalysis(list[i]);
-            alog('tech:scan-pick', list[i] && list[i].ticker);
-          });
-        });
+      // fill theme filter options
+      if ($('tech-theme-filter')) {
+        var themes = {};
+        list.forEach(function (a) { if (a.theme) themes[a.theme] = 1; });
+        var cur = $('tech-theme-filter').value;
+        var opts = '<option value="">全部主題</option>' + Object.keys(themes).sort().map(function (t) {
+          return '<option value="' + t + '">' + t + '</option>';
+        }).join('');
+        $('tech-theme-filter').innerHTML = opts;
+        if (cur && themes[cur]) $('tech-theme-filter').value = cur;
       }
+      renderTechScanTable();
+      var view = window.__techViewList || [];
       var show = null;
       if (tops.length) {
-        for (var ti = 0; ti < list.length; ti++) {
-          if (list[ti].ticker === tops[0].ticker) { show = list[ti]; break; }
+        for (var ti = 0; ti < view.length; ti++) {
+          if (view[ti].ticker === tops[0].ticker) { show = view[ti]; break; }
         }
       }
-      if (!show && list.length) show = list[0];
-      if (show) showTechAnalysis(show);
+      if (!show && view.length) show = view[0];
+      if (show) showTechAnalysis(show, false);
       refreshLogs();
     }).catch(function (e) {
       if ($('tech-scan-status')) $('tech-scan-status').textContent = '未有掃描檔：' + e.message;
@@ -666,6 +706,12 @@
     if ($('btn-screen')) $('btn-screen').addEventListener('click', runScreenerUi);
     if ($('btn-tech')) $('btn-tech').addEventListener('click', runTechSeed);
     if ($('btn-tech-scan')) $('btn-tech-scan').addEventListener('click', loadTechScanLatest);
+  if ($('tech-theme-filter')) $('tech-theme-filter').addEventListener('change', function () {
+    renderTechScanTable();
+  });
+  if ($('tech-pass-only')) $('tech-pass-only').addEventListener('change', function () {
+    renderTechScanTable();
+  });
     if ($('btn-company')) $('btn-company').addEventListener('click', runCompanySeed);
     if ($('btn-entry')) $('btn-entry').addEventListener('click', runEntrySeed);
     if ($('btn-live-refresh')) $('btn-live-refresh').addEventListener('click', function () { liveRefreshAll('manual'); });
