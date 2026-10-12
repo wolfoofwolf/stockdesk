@@ -1,5 +1,5 @@
 /* tech.js - Grok 第2項：技術分析＋兄弟姊妹股／板塊
-   日K形態：VCP（C1/C2/C3）、bull/bear flag、三角、通道、杯柄
+   日K形態：VCP、bull/bear flag、三底、Low Cheat、杯柄、三角、平底／上升底、通道
    趨勢線、兄弟股相關、板塊 ETF 形態備註
    輸出：報告物件 + thinking log（給 Trok 網頁顯示）
    用法：
@@ -380,14 +380,160 @@
       VCP: 'VCP（波動收縮）',
       bull_flag: '上升旗形（Bull Flag）',
       bear_flag: '下降旗形（Bear Flag）',
-      ascending_triangle: '上升三角',
-      descending_triangle: '下降三角',
-      sym_triangle: '對稱三角',
-      rising_channel: '上升通道',
-      falling_channel: '下降通道',
-      cup_with_handle: '杯柄（Cup with Handle）'
+      triple_bottom: '三底（Triple Bottom）',
+      triple_top: '三頂（Triple Top）',
+      low_cheat: 'Low Cheat（Minervini 提前進場）',
+      ascending_triangle: '上升三角（Ascending Triangle）',
+      descending_triangle: '下降三角（Descending Triangle）',
+      sym_triangle: '對稱三角（Symmetrical Triangle）',
+      rising_channel: '上升通道（Up Channel）',
+      falling_channel: '下降通道（Down Channel）',
+      cup_with_handle: '杯柄（Cup with Handle）',
+      flat_base: '平底（Flat Base）',
+      ascending_base: '上升底（Ascending Base）'
     };
     return map[code] || code;
+  }
+
+  /** Triple bottom: three ~equal lows (±3.5%) + neckline */
+  function detectTripleBottom(bars) {
+    if (!bars || bars.length < 60) return null;
+    var window = bars.length > 120 ? bars.slice(-120) : bars;
+    var offset = bars.length - window.length;
+    var zz = zigzag(window, 0.04);
+    var lows = zz.filter(function (p) { return p.type === 'L'; });
+    if (lows.length < 3) return null;
+    var best = null;
+    for (var i = 0; i < lows.length - 2; i++) {
+      var a = lows[i], b = lows[i + 1], c = lows[i + 2];
+      if (b.i - a.i < 5 || c.i - b.i < 5) continue;
+      var la = a.bar.l, lb = b.bar.l, lc = c.bar.l;
+      var mid = (la + lb + lc) / 3;
+      if (mid <= 0) continue;
+      if (Math.max(Math.abs(la - mid), Math.abs(lb - mid), Math.abs(lc - mid)) / mid > 0.035) continue;
+      var hiAb = 0, hiBc = 0, j;
+      for (j = a.i; j <= b.i; j++) if (window[j].h > hiAb) hiAb = window[j].h;
+      for (j = b.i; j <= c.i; j++) if (window[j].h > hiBc) hiBc = window[j].h;
+      var neck = Math.max(hiAb, hiBc);
+      var score = 72;
+      best = {
+        pattern: 'triple_bottom',
+        lows: [
+          { date: a.bar.date, price: Math.round(la * 100) / 100 },
+          { date: b.bar.date, price: Math.round(lb * 100) / 100 },
+          { date: c.bar.date, price: Math.round(lc * 100) / 100 }
+        ],
+        neckline: Math.round(neck * 100) / 100,
+        pivot: Math.round(neck * 100) / 100,
+        support: Math.round(mid * 100) / 100,
+        _score: score
+      };
+    }
+    if (best) log('pattern:triple_bottom', '頸線 $' + best.neckline);
+    return best;
+  }
+
+  /** Minervini low cheat: tight plateau in lower half of base */
+  function detectLowCheat(bars) {
+    if (!bars || bars.length < 50) return null;
+    var n = bars.length;
+    var best = null;
+    [50, 70, 90].forEach(function (w) {
+      if (n < w) return;
+      var win = bars.slice(-w);
+      var leftN = Math.max(10, Math.floor(w / 3));
+      var baseHigh = Math.max.apply(null, win.slice(0, leftN).map(function (b) { return b.h; }));
+      var baseLow = Math.min.apply(null, win.map(function (b) { return b.l; }));
+      var depth = (baseHigh - baseLow) / baseHigh;
+      if (!(depth > 0.12 && depth < 0.5)) return;
+      [8, 12, 16, 20].forEach(function (plen) {
+        if (plen >= w - 5) return;
+        var plat = win.slice(-plen);
+        var ph = Math.max.apply(null, plat.map(function (b) { return b.h; }));
+        var pl = Math.min.apply(null, plat.map(function (b) { return b.l; }));
+        var pdepth = (ph - pl) / ph;
+        if (!(pdepth >= 0.025 && pdepth <= 0.15)) return;
+        var midP = (ph + pl) / 2;
+        var pos = (midP - baseLow) / (baseHigh - baseLow || 1);
+        if (!(pos >= 0.02 && pos <= 0.6)) return;
+        var score = 62 + (pos <= 0.4 ? 18 : 8);
+        var cand = {
+          pattern: 'low_cheat',
+          cheatDepthPct: Math.round(pdepth * 1000) / 10,
+          baseDepthPct: Math.round(depth * 1000) / 10,
+          basePosition: Math.round(pos * 100) / 100,
+          pivot: Math.round(ph * 100) / 100,
+          cheatHigh: Math.round(ph * 100) / 100,
+          cheatLow: Math.round(pl * 100) / 100,
+          _score: score
+        };
+        if (!best || score > best._score) best = cand;
+      });
+    });
+    if (best) log('pattern:low_cheat', 'pivot $' + best.pivot + ' pos=' + best.basePosition);
+    return best;
+  }
+
+  /** Flat / ascending base after advance */
+  function detectFlatBase(bars) {
+    if (!bars || bars.length < 50) return null;
+    var n = bars.length;
+    var best = null;
+    [25, 30, 40].forEach(function (baseLen) {
+      if (n < baseLen + 15) return;
+      var prior = bars.slice(n - baseLen - 20, n - baseLen);
+      var base = bars.slice(n - baseLen);
+      if (!prior.length) return;
+      var priorMove = (prior[prior.length - 1].c - prior[0].c) / prior[0].c;
+      if (priorMove < 0.12) return;
+      var bh = Math.max.apply(null, base.map(function (b) { return b.h; }));
+      var bl = Math.min.apply(null, base.map(function (b) { return b.l; }));
+      var depth = (bh - bl) / bh;
+      if (depth > 0.16 || depth < 0.03) return;
+      var third = Math.floor(baseLen / 3);
+      var l1 = Math.min.apply(null, base.slice(0, third).map(function (b) { return b.l; }));
+      var l3 = Math.min.apply(null, base.slice(-third).map(function (b) { return b.l; }));
+      var ascending = l3 > l1 * 1.02;
+      var score = 65 + (depth <= 0.12 ? 14 : 0) + (ascending ? 12 : 0);
+      var cand = {
+        pattern: ascending ? 'ascending_base' : 'flat_base',
+        baseDepthPct: Math.round(depth * 1000) / 10,
+        priorAdvancePct: Math.round(priorMove * 1000) / 10,
+        pivot: Math.round(bh * 100) / 100,
+        _score: score
+      };
+      if (!best || score > best._score) best = cand;
+    });
+    if (best) log('pattern:' + best.pattern, 'depth ' + best.baseDepthPct + '%');
+    return best;
+  }
+
+  function pickPrimary(cands) {
+    cands = cands.filter(Boolean);
+    if (!cands.length) return { primary: null, alts: [] };
+    cands.sort(function (a, b) { return (b._score || 0) - (a._score || 0); });
+    var top = cands[0];
+    if (top.pattern === 'VCP') {
+      var margins = {
+        bull_flag: 55, bear_flag: 55, triple_bottom: 55, low_cheat: 55,
+        flat_base: 55, ascending_base: 55, cup_with_handle: 28,
+        ascending_triangle: 40, descending_triangle: 40, sym_triangle: 40,
+        rising_channel: 45, falling_channel: 45
+      };
+      var bestAlt = null;
+      for (var i = 1; i < cands.length; i++) {
+        var alt = cands[i];
+        var m = margins[alt.pattern];
+        if (m == null) continue;
+        if ((alt._score || 0) >= (top._score || 0) - m) {
+          if (!bestAlt || (alt._score || 0) > (bestAlt._score || 0)) bestAlt = alt;
+        }
+      }
+      if (bestAlt) {
+        return { primary: bestAlt, alts: [top].concat(cands.slice(1).filter(function (c) { return c !== bestAlt; })) };
+      }
+    }
+    return { primary: top, alts: cands.slice(1) };
   }
 
   /**
@@ -415,10 +561,18 @@
     var ma50 = sma(closes, 50);
 
     var vcp = detectVCP(ohlcv);
+    if (vcp) vcp._score = 100;
     var flag = detectFlag(ohlcv);
+    if (flag) flag._score = flag._score || 95;
     var tri = detectTriangle(ohlcv);
+    if (tri) tri._score = tri._score || 50;
     var chan = detectChannel(ohlcv);
+    if (chan) chan._score = chan._score || 42;
     var cup = detectCupHandle(ohlcv);
+    if (cup) cup._score = cup._score || 70;
+    var triple = detectTripleBottom(ohlcv);
+    var lowCheat = detectLowCheat(ohlcv);
+    var flat = detectFlatBase(ohlcv);
 
     // 手動標註（種子／畫圖證明）可覆寫自動 VCP
     if (meta.manualPattern && meta.manualPattern.pattern === 'VCP' && meta.manualPattern.contractions) {
@@ -435,11 +589,10 @@
       };
     }
 
-    // 主形態優先：VCP > cup > flag > triangle > channel
-    var primary = vcp || cup || flag || tri || chan;
-    var alternates = [vcp, cup, flag, tri, chan].filter(function (p, i, a) {
-      return p && p !== primary && a.indexOf(p) === i;
-    });
+    // 主形態：依分數＋多樣性（唔再強制全部 VCP）
+    var picked = pickPrimary([vcp, flag, triple, lowCheat, cup, flat, tri, chan]);
+    var primary = picked.primary;
+    var alternates = picked.alts;
 
     var trendlines = buildTrendlines(ohlcv);
     var pivot = primary && primary.pivot != null ? primary.pivot : null;
