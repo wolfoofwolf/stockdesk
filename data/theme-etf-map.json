@@ -1,0 +1,710 @@
+{
+  "_meta": {
+    "bot": "Frok",
+    "role": "篩選器＋主題／ETF",
+    "themes": [
+      "半導體",
+      "能源",
+      "光通信",
+      "智能駕駛",
+      "金屬稀土",
+      "算力",
+      "Software service",
+      "Cyber security",
+      "記憶體",
+      "化學工業",
+      "太空通訊",
+      "虛擬貨幣",
+      "量子電腦",
+      "核能",
+      "Hardware",
+      "金融",
+      "醫療",
+      "無人機",
+      "雜項"
+    ],
+    "note": "未知 ticker → 雜項 + SPY／QQQ；Screener.loadMap() 可覆蓋內建表"
+  },
+  "map": {
+    "NVDA": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "GPU／AI 晶片領導"
+    },
+    "AMD": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "CPU／GPU"
+    },
+    "AVGO": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "ASIC／networking"
+    },
+    "TSM": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "晶圓代工"
+    },
+    "ASML": {
+      "theme": "半導體",
+      "etf": "SMH",
+      "reason": "EUV 設備"
+    },
+    "AMAT": {
+      "theme": "半導體",
+      "etf": "SMH",
+      "reason": "製程設備"
+    },
+    "LRCX": {
+      "theme": "半導體",
+      "etf": "SMH",
+      "reason": "蝕刻設備"
+    },
+    "KLAC": {
+      "theme": "半導體",
+      "etf": "SMH",
+      "reason": "量測檢測"
+    },
+    "INTC": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "CPU／代工"
+    },
+    "QCOM": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "手機／車用 SoC"
+    },
+    "ARM": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "IP 架構"
+    },
+    "MRVL": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "資料中心晶片"
+    },
+    "TXN": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "類比"
+    },
+    "ADI": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "類比混合信號"
+    },
+    "NXPI": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "車用 MCU"
+    },
+    "SNPS": {
+      "theme": "半導體",
+      "etf": "IGV",
+      "reason": "EDA"
+    },
+    "CDNS": {
+      "theme": "半導體",
+      "etf": "IGV",
+      "reason": "EDA"
+    },
+    "MPWR": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "reason": "電源管理 IC"
+    },
+    "ON": {
+      "theme": "智能駕駛",
+      "etf": "SOX",
+      "reason": "車用功率半導體"
+    },
+    "MU": {
+      "theme": "記憶體",
+      "etf": "SOX",
+      "reason": "DRAM／NAND"
+    },
+    "SNDK": {
+      "theme": "記憶體",
+      "etf": "SOX",
+      "reason": "NAND"
+    },
+    "WDC": {
+      "theme": "記憶體",
+      "etf": "SOX",
+      "reason": "儲存"
+    },
+    "STX": {
+      "theme": "記憶體",
+      "etf": "SOX",
+      "reason": "硬碟"
+    },
+    "ANET": {
+      "theme": "光通信",
+      "etf": "IGV",
+      "reason": "資料中心交換"
+    },
+    "CIEN": {
+      "theme": "光通信",
+      "etf": "IGV",
+      "reason": "光傳輸"
+    },
+    "COHR": {
+      "theme": "光通信",
+      "etf": "SMH",
+      "reason": "光元件"
+    },
+    "AAOI": {
+      "theme": "光通信",
+      "etf": "SMH",
+      "reason": "光模組"
+    },
+    "LITE": {
+      "theme": "光通信",
+      "etf": "SMH",
+      "reason": "光通訊"
+    },
+    "FN": {
+      "theme": "光通信",
+      "etf": "SMH",
+      "reason": "光模組代工"
+    },
+    "GLW": {
+      "theme": "光通信",
+      "etf": "SMH",
+      "reason": "光纖／材料"
+    },
+    "TSLA": {
+      "theme": "智能駕駛",
+      "etf": "BOTZ",
+      "reason": "EV＋FSD"
+    },
+    "UBER": {
+      "theme": "智能駕駛",
+      "etf": "ARKK",
+      "reason": "出行／AV"
+    },
+    "MBLY": {
+      "theme": "智能駕駛",
+      "etf": "BOTZ",
+      "reason": "ADAS"
+    },
+    "ALB": {
+      "theme": "金屬稀土",
+      "etf": "LIT",
+      "reason": "鋰"
+    },
+    "MP": {
+      "theme": "金屬稀土",
+      "etf": "REMX",
+      "reason": "稀土"
+    },
+    "FCX": {
+      "theme": "金屬稀土",
+      "etf": "XME",
+      "reason": "銅"
+    },
+    "SQM": {
+      "theme": "金屬稀土",
+      "etf": "LIT",
+      "reason": "鋰化學"
+    },
+    "TECK": {
+      "theme": "金屬稀土",
+      "etf": "XME",
+      "reason": "銅鋅"
+    },
+    "AA": {
+      "theme": "金屬稀土",
+      "etf": "XME",
+      "reason": "鋁"
+    },
+    "SCCO": {
+      "theme": "金屬稀土",
+      "etf": "XME",
+      "reason": "銅"
+    },
+    "SMCI": {
+      "theme": "算力",
+      "etf": "SOXX",
+      "reason": "AI 伺服器"
+    },
+    "AMZN": {
+      "theme": "算力",
+      "etf": "WCLD",
+      "reason": "AWS"
+    },
+    "VRT": {
+      "theme": "算力",
+      "etf": "BOTZ",
+      "reason": "數據中心液冷"
+    },
+    "ETN": {
+      "theme": "算力",
+      "etf": "XLI",
+      "reason": "數據中心電力"
+    },
+    "AI": {
+      "theme": "算力",
+      "etf": "BOTZ",
+      "reason": "企業 AI"
+    },
+    "META": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "社群／AI"
+    },
+    "MSFT": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "Azure／Office"
+    },
+    "GOOGL": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "搜尋／雲"
+    },
+    "ORCL": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "資料庫雲"
+    },
+    "CRM": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "CRM SaaS"
+    },
+    "ADBE": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "創意 SaaS"
+    },
+    "NOW": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "企業工作流 → IGV"
+    },
+    "SNOW": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "雲數據倉"
+    },
+    "PLTR": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "數據 AI"
+    },
+    "DDOG": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "可觀測性"
+    },
+    "MDB": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "文件庫"
+    },
+    "TEAM": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "協作"
+    },
+    "INTU": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "財務軟體"
+    },
+    "APP": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "移動廣告"
+    },
+    "IBM": {
+      "theme": "Software service",
+      "etf": "XLK",
+      "reason": "混合雲"
+    },
+    "PATH": {
+      "theme": "Software service",
+      "etf": "BOTZ",
+      "reason": "RPA"
+    },
+    "SPOT": {
+      "theme": "Software service",
+      "etf": "ARKK",
+      "reason": "串流"
+    },
+    "PANW": {
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "防火牆雲安全"
+    },
+    "CRWD": {
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "端點"
+    },
+    "ZS": {
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "雲安全"
+    },
+    "FTNT": {
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "網路安全"
+    },
+    "NET": {
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "CDN／Zero Trust"
+    },
+    "S": {
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "端點"
+    },
+    "OKTA": {
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "身分"
+    },
+    "RPD": {
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "漏洞管理"
+    },
+    "DOW": {
+      "theme": "化學工業",
+      "etf": "XLB",
+      "reason": "基礎化學"
+    },
+    "LIN": {
+      "theme": "化學工業",
+      "etf": "XLB",
+      "reason": "工業氣體"
+    },
+    "APD": {
+      "theme": "化學工業",
+      "etf": "XLB",
+      "reason": "工業氣體"
+    },
+    "SHW": {
+      "theme": "化學工業",
+      "etf": "XLB",
+      "reason": "塗料"
+    },
+    "ECL": {
+      "theme": "化學工業",
+      "etf": "XLB",
+      "reason": "特用化學"
+    },
+    "DD": {
+      "theme": "化學工業",
+      "etf": "XLB",
+      "reason": "特用化學"
+    },
+    "BA": {
+      "theme": "太空通訊",
+      "etf": "ITA",
+      "reason": "航太"
+    },
+    "RKLB": {
+      "theme": "太空通訊",
+      "etf": "UFO",
+      "reason": "小型火箭"
+    },
+    "ASTS": {
+      "theme": "太空通訊",
+      "etf": "UFO",
+      "reason": "太空通訊"
+    },
+    "LUNR": {
+      "theme": "太空通訊",
+      "etf": "UFO",
+      "reason": "月球服務"
+    },
+    "NOC": {
+      "theme": "太空通訊",
+      "etf": "ITA",
+      "reason": "國防航太"
+    },
+    "LMT": {
+      "theme": "太空通訊",
+      "etf": "ITA",
+      "reason": "國防"
+    },
+    "RTX": {
+      "theme": "太空通訊",
+      "etf": "ITA",
+      "reason": "航太防務"
+    },
+    "LHX": {
+      "theme": "太空通訊",
+      "etf": "ITA",
+      "reason": "國防通訊"
+    },
+    "COIN": {
+      "theme": "虛擬貨幣",
+      "etf": "BITO",
+      "reason": "加密交易所"
+    },
+    "MSTR": {
+      "theme": "虛擬貨幣",
+      "etf": "BITO",
+      "reason": "比特幣資產"
+    },
+    "MARA": {
+      "theme": "虛擬貨幣",
+      "etf": "BITO",
+      "reason": "挖礦"
+    },
+    "RIOT": {
+      "theme": "虛擬貨幣",
+      "etf": "BITO",
+      "reason": "挖礦"
+    },
+    "CLSK": {
+      "theme": "虛擬貨幣",
+      "etf": "BITO",
+      "reason": "挖礦"
+    },
+    "IONQ": {
+      "theme": "量子電腦",
+      "etf": "QTUM",
+      "reason": "量子硬體"
+    },
+    "RGTI": {
+      "theme": "量子電腦",
+      "etf": "QTUM",
+      "reason": "量子運算"
+    },
+    "QUBT": {
+      "theme": "量子電腦",
+      "etf": "QTUM",
+      "reason": "量子"
+    },
+    "QBTS": {
+      "theme": "量子電腦",
+      "etf": "QTUM",
+      "reason": "量子退火"
+    },
+    "CEG": {
+      "theme": "核能",
+      "etf": "URA",
+      "reason": "核能發電"
+    },
+    "SMR": {
+      "theme": "核能",
+      "etf": "NLR",
+      "reason": "SMR"
+    },
+    "OKLO": {
+      "theme": "核能",
+      "etf": "NLR",
+      "reason": "先進核能"
+    },
+    "CCJ": {
+      "theme": "核能",
+      "etf": "URA",
+      "reason": "鈾礦"
+    },
+    "LEU": {
+      "theme": "核能",
+      "etf": "URA",
+      "reason": "鈾濃縮"
+    },
+    "XOM": {
+      "theme": "能源",
+      "etf": "XLE",
+      "reason": "石油"
+    },
+    "CVX": {
+      "theme": "能源",
+      "etf": "XLE",
+      "reason": "綜合能源"
+    },
+    "COP": {
+      "theme": "能源",
+      "etf": "XLE",
+      "reason": "上游油氣"
+    },
+    "SLB": {
+      "theme": "能源",
+      "etf": "OIH",
+      "reason": "油田服務"
+    },
+    "VST": {
+      "theme": "能源",
+      "etf": "XLU",
+      "reason": "獨立發電"
+    },
+    "ENPH": {
+      "theme": "能源",
+      "etf": "TAN",
+      "reason": "太陽能"
+    },
+    "FSLR": {
+      "theme": "能源",
+      "etf": "TAN",
+      "reason": "太陽能模組"
+    },
+    "BE": {
+      "theme": "能源",
+      "etf": "PBW",
+      "reason": "燃料電池"
+    },
+    "GEV": {
+      "theme": "能源",
+      "etf": "XLU",
+      "reason": "電網設備"
+    },
+    "AAPL": {
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "消費電子"
+    },
+    "DELL": {
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "伺服器 PC"
+    },
+    "HPE": {
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "企業硬體"
+    },
+    "CLS": {
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "EMS"
+    },
+    "JBL": {
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "電子代工"
+    },
+    "HPQ": {
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "PC 打印"
+    },
+    "JPM": {
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "大型銀行"
+    },
+    "GS": {
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "投行"
+    },
+    "V": {
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "支付"
+    },
+    "MA": {
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "支付"
+    },
+    "SCHW": {
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "券商"
+    },
+    "BLK": {
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "資管"
+    },
+    "HOOD": {
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "零售券商"
+    },
+    "BAC": {
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "銀行"
+    },
+    "UNH": {
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "醫療保險"
+    },
+    "LLY": {
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "製藥"
+    },
+    "ISRG": {
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "手術機械人"
+    },
+    "PFE": {
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "製藥"
+    },
+    "ABBV": {
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "製藥"
+    },
+    "TMO": {
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "生命科學"
+    },
+    "DHR": {
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "診斷工具"
+    },
+    "MRK": {
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "製藥"
+    },
+    "AVAV": {
+      "theme": "無人機",
+      "etf": "ITA",
+      "reason": "無人機系統"
+    },
+    "KTOS": {
+      "theme": "無人機",
+      "etf": "ITA",
+      "reason": "無人／國防"
+    },
+    "RCAT": {
+      "theme": "無人機",
+      "etf": "ITA",
+      "reason": "無人機"
+    },
+    "ZETA": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "reason": "行銷科技 SaaS"
+    },
+    "BRK.A": {
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "綜合控股／保險投資"
+    },
+    "TINY": {
+      "theme": "雜項",
+      "etf": "SPY",
+      "reason": "示範失敗票"
+    },
+    "GE": {
+      "theme": "能源",
+      "etf": "XLI",
+      "reason": "航太／能源設備關聯"
+    }
+  }
+}

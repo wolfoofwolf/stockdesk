@@ -1,0 +1,287 @@
+{
+  "title": "大市刷新｜2026-10-12（Drok）",
+  "asOf": "2026-10-12T01:59:09.820Z",
+  "updatedAt": "2026-10-12T01:59:09.820Z",
+  "bot": "Drok",
+  "role": "④ 大市分析",
+  "calendar": [
+    {
+      "id": "nfp-2026-09",
+      "type": "NFP",
+      "date": "2026-10-03",
+      "label": "非農就業（2026年9月）",
+      "actual": 29000,
+      "consensus": 90000,
+      "extras": {
+        "unemployment": 4.2,
+        "ahe_mom": 0.1,
+        "revisions": -60000
+      },
+      "spyDayReturn": 0.76,
+      "note": "弱料＝利好暫停加息；10月加息機率約64%→~20%。長端息其後仍硬。",
+      "status": "done",
+      "sources": [
+        "CME FedWatch／公開報道 2026-10"
+      ]
+    },
+    {
+      "id": "fomc-2026-09",
+      "type": "FOMC",
+      "date": "2026-09-16",
+      "label": "FOMC（9月）",
+      "hawkish": true,
+      "decision": "+25bp → 3.75%–4.00%",
+      "note": "全票加息；10月主流定價暫停。",
+      "status": "done"
+    },
+    {
+      "id": "cpi-2026-09",
+      "type": "CPI",
+      "date": "2026-10-14",
+      "label": "CPI（2026年9月）—後天公布",
+      "status": "upcoming",
+      "consensusHeadlineYoY": 3.6,
+      "consensusCoreYoY": 2.5,
+      "priorHeadlineYoY": 3.4,
+      "note": "08:30 ET。Cleveland nowcast ~3.60%／core MoM ~0.20%。Core ≤0.2% MoM 利好暫停；≥0.3% 可能令加息機率回升。",
+      "sources": [
+        "Cleveland Fed nowcast／Street consensus"
+      ]
+    },
+    {
+      "id": "ppi-2026-09",
+      "type": "PPI",
+      "date": "2026-10-15",
+      "label": "PPI（2026年9月）",
+      "status": "upcoming",
+      "consensusHeadlineYoY": 5.3,
+      "priorHeadlineYoY": 5.4,
+      "note": "同日 Retail Sales。上游仍高，留意滯後傳導。",
+      "status2": "upcoming"
+    },
+    {
+      "id": "fomc-2026-10",
+      "type": "FOMC",
+      "date": "2026-10-28",
+      "label": "FOMC 決定（10/27–28）",
+      "status": "upcoming",
+      "note": "聲明約 14:00 ET。CPI／PPI 後最終定價窗口。"
+    }
+  ],
+  "nfpReport": {
+    "bot": "Drok",
+    "role": "大市分析",
+    "type": "NFP",
+    "date": "2026-10-03",
+    "headline": "非農就業（2026年9月） @ 2026-10-03",
+    "surprise": {
+      "dir": -1,
+      "text": "弱過預期（actual < consensus）"
+    },
+    "divergence": "留意：數據偏弱但大市上升（利好降息／軟著陸交易）",
+    "spyDayReturn": 0.76,
+    "candle": {
+      "code": "mixed",
+      "text": "膠住／十字味：實體細，方向未決",
+      "levels": [
+        "收市創近期新高／破阻力",
+        "企穩 SMA20 上方",
+        "企穩 SMA50 上方"
+      ]
+    },
+    "followThrough": [
+      {
+        "day": 1,
+        "returnPct": 0.2,
+        "note": "修復／延續上升"
+      },
+      {
+        "day": 2,
+        "returnPct": -0.35,
+        "note": "失地／延續下跌"
+      },
+      {
+        "day": 3,
+        "returnPct": 0.45,
+        "note": "修復／延續上升"
+      },
+      {
+        "day": 4,
+        "returnPct": 0.1,
+        "note": "修復／延續上升"
+      }
+    ],
+    "levelsNote": [
+      "收市創近期新高／破阻力",
+      "企穩 SMA20 上方",
+      "企穩 SMA50 上方"
+    ],
+    "mag7Link": null,
+    "sources": [
+      "CME FedWatch／公開報道 2026-10"
+    ],
+    "summaryTw": "非農就業（2026年9月） @ 2026-10-03\n數據：弱過預期（actual < consensus）\n當日大盤：+0.76%\n留意：數據偏弱但大市上升（利好降息／軟著陸交易）\n收市K線：膠住／十字味：實體細，方向未決；收市創近期新高／破阻力；企穩 SMA20 上方；企穩 SMA50 上方\n其後4日：D+1 0.2%(修復／延續上升)，D+2 -0.35%(失地／延續下跌)，D+3 0.45%(修復／延續上升)，D+4 0.1%(修復／延續上升)"
+  },
+  "watch": [
+    "【D-2】10/14 CPI 08:30 ET（共識 headline ~3.6%／core ~2.5%；core MoM ≤0.2% 利好暫停）",
+    "10/15 PPI（~5.3% YoY）＋ Retail Sales",
+    "10/27–28 FOMC（決定 10/28 14:00 ET；主流暫停）",
+    "銀行季報週／半導體供應鏈業績對算力板塊敏感"
+  ],
+  "mag7Note": "未有新完整七巨頭業績包；有出數會即時拆最賺業務→主題。",
+  "summaryTw": "【狀態 10/12】距離 CPI 約 2 日。\n【非農 10/3】+2.9萬 vs ~9萬預期（弱），失業率 4.2%；當日 SPX +0.76%（數據弱但大市升＝暫停加息交易）。10月加息機率大幅回落。\n【跟進】其後數日路徑示意：+0.2%／-0.35%／+0.45%／+0.1%（波動中未一鼓作氣斷開）。\n【前睇】10/14 CPI 係關鍵：core 涼→鞏固暫停；core 熱→加息機率同長息或再抽。然後 10/15 PPI、10/28 FOMC。\n【9月 FOMC】已 +25bp 至 3.75–4.00%。",
+  "thinkingLog": [
+    {
+      "t": "2026-10-12T01:59:09.819Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "init",
+      "detail": "macro.js loaded"
+    },
+    {
+      "t": "2026-10-12T01:59:09.819Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "ingest",
+      "detail": {
+        "id": "nfp-2026-09",
+        "type": "NFP",
+        "date": "2026-10-03",
+        "label": "非農就業（2026年9月）",
+        "actual": 29000,
+        "consensus": 90000,
+        "extras": {
+          "unemployment": 4.2,
+          "ahe_mom": 0.1,
+          "revisions": -60000
+        },
+        "spyDayReturn": 0.76,
+        "note": "弱料＝利好暫停加息；10月加息機率約64%→~20%。長端息其後仍硬。",
+        "status": "done",
+        "sources": [
+          "CME FedWatch／公開報道 2026-10"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:09.819Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "ingest",
+      "detail": {
+        "id": "fomc-2026-09",
+        "type": "FOMC",
+        "date": "2026-09-16",
+        "label": "FOMC（9月）",
+        "hawkish": true,
+        "decision": "+25bp → 3.75%–4.00%",
+        "note": "全票加息；10月主流定價暫停。",
+        "status": "done"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:09.819Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "ingest",
+      "detail": {
+        "id": "cpi-2026-09",
+        "type": "CPI",
+        "date": "2026-10-14",
+        "label": "CPI（2026年9月）—後天公布",
+        "status": "upcoming",
+        "consensusHeadlineYoY": 3.6,
+        "consensusCoreYoY": 2.5,
+        "priorHeadlineYoY": 3.4,
+        "note": "08:30 ET。Cleveland nowcast ~3.60%／core MoM ~0.20%。Core ≤0.2% MoM 利好暫停；≥0.3% 可能令加息機率回升。",
+        "sources": [
+          "Cleveland Fed nowcast／Street consensus"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:09.819Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "ingest",
+      "detail": {
+        "id": "ppi-2026-09",
+        "type": "PPI",
+        "date": "2026-10-15",
+        "label": "PPI（2026年9月）",
+        "status": "upcoming",
+        "consensusHeadlineYoY": 5.3,
+        "priorHeadlineYoY": 5.4,
+        "note": "同日 Retail Sales。上游仍高，留意滯後傳導。",
+        "status2": "upcoming"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:09.819Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "ingest",
+      "detail": {
+        "id": "fomc-2026-10",
+        "type": "FOMC",
+        "date": "2026-10-28",
+        "label": "FOMC 決定（10/27–28）",
+        "status": "upcoming",
+        "note": "聲明約 14:00 ET。CPI／PPI 後最終定價窗口。"
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:09.820Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "analyzeEvent:start",
+      "detail": {
+        "type": "NFP",
+        "date": "2026-10-03",
+        "label": "非農就業（2026年9月）",
+        "actual": 29000,
+        "consensus": 90000,
+        "spyDayReturn": 0.76,
+        "spyCandle": {
+          "o": 7750,
+          "h": 7825,
+          "l": 7720,
+          "c": 7811,
+          "prevHigh": 7780,
+          "ma20": 7700,
+          "ma50": 7600
+        },
+        "spyNextDays": [
+          {
+            "returnPct": 0.2
+          },
+          {
+            "returnPct": -0.35
+          },
+          {
+            "returnPct": 0.45
+          },
+          {
+            "returnPct": 0.1
+          }
+        ],
+        "sources": [
+          "CME FedWatch／公開報道 2026-10"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-12T01:59:09.820Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "analyzeEvent:done",
+      "detail": {
+        "type": "NFP",
+        "date": "2026-10-03",
+        "candle": "mixed",
+        "divergence": "留意：數據偏弱但大市上升（利好降息／軟著陸交易）"
+      }
+    }
+  ],
+  "liveSync": "poll data/macro-run-latest.json every 15s"
+}
