@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <title>StockDesk · 六項流水線</title>
-  <link rel="stylesheet" href="css/app.css?v=co1" />
+  <link rel="stylesheet" href="css/app.css?v=en1" />
 </head>
 <body class="fx-root">
   <header>
@@ -136,11 +136,22 @@
 
       <section class="panel" data-panel="entry">
         <h2>⑤ 進場策略 · Arok</h2>
-        <p class="muted">META／BO／Pullback，止損上限 6%；對齊領導股。點一列睇詳情。</p>
-        <div id="entry-scan-status" class="muted">尚未載入</div>
-        <div id="entry-table" style="margin-top:10px;overflow:auto"></div>
-        <button class="primary" id="btn-entry" type="button" style="margin-top:10px">分析 ISRG 進場種子</button>
-        <pre class="report" id="entry-out" style="margin-top:10px;display:none">尚未執行</pre>
+        <p class="muted">跟②③同一套：主題篩選、只睇可考慮、點一列滑到詳情。止損≤6%。</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <button class="primary" id="btn-entry" type="button">分析 ISRG 進場種子</button>
+          <label class="muted" style="display:inline-flex;gap:6px;align-items:center">主題
+            <select id="entry-theme-filter"><option value="">全部主題</option></select>
+          </label>
+          <label class="muted" style="display:inline-flex;gap:6px;align-items:center">
+            <input type="checkbox" id="entry-consider-only" checked /> 只睇可考慮
+          </label>
+          <span class="muted" id="entry-scan-status">尚未載入</span>
+        </div>
+        <div id="entry-table" style="margin-top:12px;overflow:auto;max-height:280px"></div>
+        <div id="entry-detail-anchor" style="margin-top:16px">
+          <h3 style="margin:0 0 8px">進場詳情（點上面股票會跳嚟呢度）</h3>
+          <pre class="report" id="entry-out">點表格一列睇詳情</pre>
+        </div>
         <h3 style="margin-top:14px">Arok 思考 log</h3>
         <div class="log-box" id="log-entry"></div>
       </section>
@@ -176,6 +187,6 @@
   <script src="js/charts/ISRG_vcp_C1C2C3.js"></script>
   <script src="js/charts/NVDA_scan_VCP.js"></script>
   <script src="js/charts/AMD_scan_VCP.js"></script>
-  <script src="js/app.js?v=co1"></script>
+  <script src="js/app.js?v=en1"></script>
 </body>
 </html>

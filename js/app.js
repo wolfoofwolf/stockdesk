@@ -470,19 +470,61 @@
     return '$' + x.toFixed(2);
   }
 
+  function showEntryDetail(r, scrollToDetail) {
+    if (!r || !$('entry-out')) return;
+    var L = r.levels || {};
+    var lines = [];
+    if (r.detailTw) {
+      lines.push(r.detailTw);
+    } else {
+      lines.push((r.ticker || '') + ' · ' + (r.action || '') + (r.theme ? ' · ' + r.theme : ''));
+      if (r.summaryTw) lines.push(r.summaryTw);
+      lines.push('策略：' + (r.bestMethod || r.method || '') + '／' + (r.tradeStyle || r.style || ''));
+      lines.push('形態：' + (r.pattern || '—') + (r.pivot != null ? ' · pivot $' + r.pivot : ''));
+      lines.push('入場：' + money(L.entry != null ? L.entry : r.entry) +
+        '　止損：' + money(L.stop != null ? L.stop : r.stop) +
+        (L.riskPct != null || r.riskPct != null ? '（' + Number(L.riskPct != null ? L.riskPct : r.riskPct).toFixed(1) + '%）' : ''));
+      lines.push('領導股：' + ((r.leadership && r.leadership.isLeader) ? '是' : '否') +
+        (r.leadership && r.leadership.score != null ? ' · score ' + r.leadership.score : ''));
+      if (r.why) lines.push('原因：' + (Array.isArray(r.why) ? r.why.join('；') : String(r.why)));
+    }
+    $('entry-out').textContent = lines.join('\n');
+    if (scrollToDetail) {
+      var anchor = $('entry-detail-anchor');
+      if (anchor && anchor.scrollIntoView) {
+        setTimeout(function () {
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, 50);
+      }
+    }
+  }
+
   function renderEntryTable(j) {
-    var list = (j && j.reports) || [];
+    var full = (j && j.reports) || [];
+    window.__latestEntry = j;
+    var themeSel = $('entry-theme-filter');
+    var theme = themeSel ? themeSel.value : '';
+    var considerOnly = $('entry-consider-only') && $('entry-consider-only').checked;
+    var list = [];
+    for (var i = 0; i < full.length; i++) {
+      var r = full[i];
+      if (considerOnly && r.action && r.action.indexOf('可考慮') < 0) continue;
+      if (theme && (r.theme || '') !== theme) continue;
+      list.push(r);
+    }
+    window.__entryViewList = list;
     if ($('entry-scan-status')) {
-      $('entry-scan-status').textContent = '進場 ' + list.length + ' 隻 · asOf ' + ((j && (j.asOf || j.generatedAt)) || '') +
-        (j && j.patternMix ? ' · 跟技術通過名單' : '');
+      $('entry-scan-status').textContent = '顯示 ' + list.length + '／進場 ' + full.length +
+        ' · asOf ' + ((j && (j.asOf || j.generatedAt)) || '') +
+        (theme ? ' · 主題 ' + theme : '');
     }
     if (!$('entry-table')) return;
     if (!list.length) {
-      $('entry-table').innerHTML = '<p class="muted">尚未有進場計劃</p>';
+      $('entry-table').innerHTML = '<p class="muted">無符合列</p>';
       return;
     }
     $('entry-table').innerHTML = '<table><thead><tr>' +
-      '<th>Ticker</th><th>建議</th><th>策略</th><th>形態</th><th>入場</th><th>止損</th><th>風險</th><th>領導股</th><th>風格</th>' +
+      '<th>Ticker</th><th>主題</th><th>建議</th><th>策略</th><th>形態</th><th>入場</th><th>止損</th><th>風險</th><th>領導股</th>' +
       '</tr></thead><tbody>' +
       list.map(function (r, idx) {
         var L = r.levels || {};
@@ -493,32 +535,17 @@
         var leadTw = lead.isLeader === true ? ('是' + (lead.score != null ? ' (' + lead.score + ')' : '')) :
           (lead.isLeader === false ? '否／降權' : '—');
         return '<tr class="entry-row" data-idx="' + idx + '" style="cursor:pointer"><td><b>' + (r.ticker || '') +
-          '</b></td><td>' + (r.action || '') +
+          '</b></td><td><span class="tag">' + (r.theme || '') + '</span></td><td>' + (r.action || '') +
           '</td><td><span class="tag">' + (r.bestMethod || r.method || '') + '</span></td><td class="muted">' +
           (r.pattern || '') + '</td><td>' + money(entry) + '</td><td>' + money(stop) +
           '</td><td>' + (risk != null ? Number(risk).toFixed(1) + '%' : '—') +
-          '</td><td>' + leadTw + '</td><td class="muted">' + (r.tradeStyle || r.style || '') + '</td></tr>';
+          '</td><td>' + leadTw + '</td></tr>';
       }).join('') + '</tbody></table>';
     Array.prototype.forEach.call(document.querySelectorAll('#entry-table tr.entry-row'), function (tr) {
       tr.addEventListener('click', function () {
         var i = Number(tr.getAttribute('data-idx'));
-        var r = list[i];
-        if (!r || !$('entry-out')) return;
-        var L = r.levels || {};
-        var lines = [
-          (r.ticker || '') + ' · ' + (r.action || ''),
-          '策略：' + (r.bestMethod || r.method || '') + '／' + (r.tradeStyle || r.style || ''),
-          '形態：' + (r.pattern || '—') + (r.pivot != null ? ' · pivot $' + r.pivot : ''),
-          '入場：' + money(L.entry != null ? L.entry : r.entry) +
-            '　止損：' + money(L.stop != null ? L.stop : r.stop) +
-            (L.riskPct != null || r.riskPct != null ? '（' + Number(L.riskPct != null ? L.riskPct : r.riskPct).toFixed(1) + '%）' : ''),
-          '領導股：' + ((r.leadership && r.leadership.isLeader) ? '是' : '否') +
-            (r.leadership && r.leadership.score != null ? ' · score ' + r.leadership.score : '')
-        ];
-        if (r.why) lines.push('原因：' + (Array.isArray(r.why) ? r.why.join('；') : String(r.why)));
-        $('entry-out').style.display = 'block';
-        $('entry-out').textContent = lines.join('\n');
-        alog('entry:row-pick', r.ticker);
+        showEntryDetail(list[i], true);
+        alog('entry:row-pick', list[i] && list[i].ticker);
       });
     });
   }
@@ -530,6 +557,26 @@
       LIVE_SYNC_SIG.entry = sg;
       window.__latestEntry = j;
       alog('entry-latest:loaded', j && (j.ticker || j.count || j.generatedAt));
+      if ($('entry-theme-filter')) {
+        var themes = {};
+        (j.reports || []).forEach(function (r) { if (r.theme) themes[r.theme] = 1; });
+        var cur = $('entry-theme-filter').value;
+        $('entry-theme-filter').innerHTML = '<option value="">全部主題</option>' +
+          Object.keys(themes).sort().map(function (t) {
+            return '<option value="' + t + '">' + t + '</option>';
+          }).join('');
+        if (cur && themes[cur]) $('entry-theme-filter').value = cur;
+      }
+      function refilter() { renderEntryTable(window.__latestEntry); }
+      if ($('entry-theme-filter') && !$('entry-theme-filter')._bound) {
+        $('entry-theme-filter')._bound = true;
+        $('entry-theme-filter').addEventListener('change', refilter);
+      }
+      if ($('entry-consider-only') && !$('entry-consider-only')._bound) {
+        $('entry-consider-only')._bound = true;
+        $('entry-consider-only').addEventListener('change', refilter);
+      }
+      if ($('entry-out')) $('entry-out').textContent = '點表格一列睇詳情';
       renderEntryTable(j);
       if (j && j.thinkingLog && j.thinkingLog.length && $('log-entry')) {
         $('log-entry').innerHTML = fmtLog(j.thinkingLog);
@@ -701,26 +748,17 @@
   function runEntrySeed() {
     alog('entry:seed-start', 'ISRG');
     if (!window.Entry) {
-      if ($('entry-out')) { $('entry-out').style.display = 'block'; $('entry-out').textContent = 'Entry 未載入'; }
+      if ($('entry-out')) $('entry-out').textContent = 'Entry 未載入';
       return;
     }
     var report = Entry.analyzeSeed();
-    var L = (report && report.levels) || {};
-    var lead = (report && report.leadership) || {};
-    var lines = [];
     if (report) {
-      lines.push((report.ticker || 'ISRG') + ' · ' + (report.action || ''));
-      lines.push('策略：' + (report.bestMethod || report.method || '') + '／' + (report.style || report.tradeStyle || ''));
-      lines.push('入場：' + money(L.entry != null ? L.entry : report.entry) +
-        '　止損：' + money(L.stop != null ? L.stop : report.stop) +
-        ((L.riskPct != null || report.riskPct != null) ? '（' + Number(L.riskPct != null ? L.riskPct : report.riskPct).toFixed(1) + '%）' : ''));
-      if (report.target != null || L.targetHint != null) lines.push('目標／樞紐：' + money(report.target != null ? report.target : L.targetHint));
-      lines.push('領導股：' + (lead.isLeader ? '是' : '否') + (lead.score != null ? ' · score ' + lead.score : ''));
-      if (report.why) lines.push('原因：' + (Array.isArray(report.why) ? report.why.join('；') : String(report.why)));
-    }
-    if ($('entry-out')) {
-      $('entry-out').style.display = 'block';
-      $('entry-out').textContent = lines.length ? lines.join('\n') : JSON.stringify(report, null, 2);
+      if (!report.levels && (report.entry != null || report.stop != null)) {
+        report.levels = { entry: report.entry, stop: report.stop, riskPct: report.riskPct };
+      }
+      showEntryDetail(report, true);
+    } else if ($('entry-out')) {
+      $('entry-out').textContent = 'Entry 種子無結果';
     }
     refreshLogs();
     alog('entry:seed-done', report && report.ticker);
