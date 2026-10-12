@@ -1,0 +1,89 @@
+{
+  "asOf": "2026-10-11T13:48:21.838Z",
+  "bot": "Frok",
+  "stats": {
+    "universe": 130,
+    "passed": 67,
+    "rejected": 63
+  },
+  "topThemes": [
+    [
+      "半導體",
+      13
+    ],
+    [
+      "Software service",
+      10
+    ],
+    [
+      "能源",
+      6
+    ],
+    [
+      "Cyber security",
+      6
+    ],
+    [
+      "醫療",
+      6
+    ],
+    [
+      "光通信",
+      5
+    ],
+    [
+      "Hardware",
+      5
+    ],
+    [
+      "算力",
+      4
+    ]
+  ],
+  "checks": {
+    "NVDA": {
+      "theme": "半導體",
+      "etf": "SOX"
+    },
+    "NOW": {
+      "theme": "Software service",
+      "etf": "IGV"
+    }
+  },
+  "rejectedSampleTickers": [
+    "AA:價格 42.2 ≤ SMA30 45.89",
+    "AAOI:市值 1200000000 不在 [3000000000,2000000000000]",
+    "ADBE:價格 242.27 ≤ SMA30 252.33",
+    "ALB:價格 101.27 ≤ SMA30 115.72",
+    "APD:價格 281.26 ≤ SMA30 288.56",
+    "APP:價格 277.04 ≤ SMA30 307.42",
+    "ARM:價格 266.28 ≤ SMA30 275.62",
+    "ASTS:價格 50.97 ≤ SMA30 60.02",
+    "AVAV:價格 137.11 ≤ SMA30 148.17",
+    "BA:價格 190.37 ≤ SMA30 199.7",
+    "BAC:價格 54.32 ≤ SMA30 58.08",
+    "BLK:1M成交量 519545 不在 [1000000,500000000]",
+    "BRK.A:市值 2500000000000 不在 [3000000000,2000000000000]",
+    "CCJ:價格 88.06 ≤ SMA30 92.67",
+    "CLSK:價格 10.49 ≤ SMA30 12.85"
+  ],
+  "files": [
+    "data/screener-run-latest.json",
+    "data/screener-universe-sample.json",
+    "data/theme-etf-map.json",
+    "js/screener.js",
+    "js/SCREENER_README.md",
+    "data/logs/frok-screener-2026-10-11.json"
+  ],
+  "note": "Fresh default-filter run for Trok sync; page should fetch data/screener-run-latest.json",
+  "universeMeta": {
+    "bot": "Frok",
+    "role": "篩選器＋主題／ETF",
+    "note": "離線示範 universe（擴充至 ~90+）；price/sma30 盡量用 Yahoo chart 刷新，失敗則保留示意數。預設：市值3B–2T、1M成交量1M–500M、價格>SMA30。",
+    "count": 130,
+    "yahooRefreshed": 128,
+    "yahooFailed": 0,
+    "asOf": "2026-10-11T13:47:59Z",
+    "marketCapRefreshed": 0
+  }
+}

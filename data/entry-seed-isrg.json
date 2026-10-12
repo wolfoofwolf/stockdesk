@@ -1,0 +1,35 @@
+{
+  "ticker": "ISRG",
+  "asOf": "2026-10-09",
+  "bot": "Arok",
+  "role": "進場策略",
+  "snapshot": {
+    "price": 423.96,
+    "entry": 424,
+    "pivot": 443.84,
+    "pattern": "VCP",
+    "contractions": "C1 26%→C2 14.8%→C3 6.6%",
+    "stage2": true,
+    "zone": {
+      "low": 410,
+      "high": 430
+    },
+    "volume": 1100000,
+    "avgVolume": 1600000,
+    "volumeDryUp": true,
+    "priorRunPct": 0.35,
+    "brokeTrendline": false,
+    "marketTrend": "up",
+    "rsi": 58,
+    "stop": 410,
+    "target": 443.84,
+    "isLeader": true,
+    "leaderScore": 6,
+    "leaderNote": "示範：ISRG 手術機器人領導（seed）"
+  },
+  "expected": {
+    "bestMethod": "Pullback or META",
+    "action": "可考慮進場",
+    "maxStopPct": 6
+  }
+}

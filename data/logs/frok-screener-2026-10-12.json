@@ -1,0 +1,126 @@
+{
+  "asOf": "2026-10-12T01:59:52.023Z",
+  "bot": "Frok",
+  "stats": {
+    "universe": 130,
+    "passed": 67,
+    "rejected": 63
+  },
+  "topThemes": [
+    [
+      "半導體",
+      13
+    ],
+    [
+      "Software service",
+      10
+    ],
+    [
+      "能源",
+      6
+    ],
+    [
+      "Cyber security",
+      6
+    ],
+    [
+      "醫療",
+      6
+    ],
+    [
+      "光通信",
+      5
+    ],
+    [
+      "Hardware",
+      5
+    ],
+    [
+      "算力",
+      4
+    ],
+    [
+      "智能駕駛",
+      2
+    ],
+    [
+      "金屬稀土",
+      2
+    ],
+    [
+      "化學工業",
+      2
+    ],
+    [
+      "金融",
+      2
+    ],
+    [
+      "記憶體",
+      1
+    ],
+    [
+      "太空通訊",
+      1
+    ],
+    [
+      "虛擬貨幣",
+      1
+    ],
+    [
+      "核能",
+      1
+    ]
+  ],
+  "checks": {
+    "NVDA": {
+      "theme": "半導體",
+      "etf": "SOX",
+      "price": 229.28,
+      "sma30": 225.2574,
+      "passed": true
+    },
+    "NOW": {
+      "theme": "Software service",
+      "etf": "IGV",
+      "price": 140.86,
+      "sma30": 137.8377,
+      "passed": true
+    }
+  },
+  "rejectedSampleTickers": [
+    "AA:價格 42.2 ≤ SMA30 45.89",
+    "AAOI:市值 1200000000 不在 [3000000000,2000000000000]",
+    "ADBE:價格 242.27 ≤ SMA30 252.334",
+    "ALB:價格 101.27 ≤ SMA30 115.5844",
+    "APD:價格 281.26 ≤ SMA30 287.1031",
+    "APP:價格 277.04 ≤ SMA30 307.4207",
+    "ARM:價格 266.28 ≤ SMA30 275.6197",
+    "ASTS:價格 50.965 ≤ SMA30 60.0218",
+    "AVAV:價格 137.11 ≤ SMA30 148.1687",
+    "BA:價格 190.37 ≤ SMA30 199.7007",
+    "BAC:價格 54.32 ≤ SMA30 58.0289",
+    "BLK:1M成交量 526752.4 不在 [1000000,500000000]",
+    "BRK.A:市值 2500000000000 不在 [3000000000,2000000000000]",
+    "CCJ:價格 88.06 ≤ SMA30 92.6683",
+    "CLSK:價格 10.495 ≤ SMA30 12.8482"
+  ],
+  "yahoo": {
+    "ok": 129,
+    "fail": 1,
+    "failures": [
+      {
+        "ticker": "BRK.A",
+        "error": "insufficient bars"
+      }
+    ]
+  },
+  "filters": {
+    "marketCapMin": 3000000000,
+    "marketCapMax": 2000000000000,
+    "avgVol1mMin": 1000000,
+    "avgVol1mMax": 500000000,
+    "priceAboveSma30": true
+  },
+  "note": "Item1 refresh: Yahoo yfinance price/sma30/avgVol1m + Screener defaults via Node vm"
+}
