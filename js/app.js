@@ -289,49 +289,86 @@
   }
 
 
+  function renderCompanyTableRows(fullList) {
+    var onlyLeaders = $('company-leaders-only') && $('company-leaders-only').checked;
+    var list = fullList || [];
+    var rows = [];
+    var mapIdx = [];
+    for (var i = 0; i < list.length; i++) {
+      var r = list[i];
+      var L = r.leadership || {};
+      if (onlyLeaders && !L.isLeader) continue;
+      mapIdx.push(i);
+      rows.push(r);
+    }
+    if ($('company-scan-status')) {
+      var j = window.__latestCompany || {};
+      $('company-scan-status').textContent = '公司 ' + list.length + ' · 領導股 ' +
+        (j.leaderCount != null ? j.leaderCount : rows.filter(function (x) { return x.leadership && x.leadership.isLeader; }).length) +
+        (onlyLeaders ? '（只顯示領導股 ' + rows.length + '）' : '') +
+        ' · asOf ' + (j.asOf || j.generatedAt || '');
+    }
+    if (!$('company-scan-list')) return;
+    if (!rows.length) {
+      $('company-scan-list').innerHTML = '<p class="muted">無符合列</p>';
+      return;
+    }
+    $('company-scan-list').innerHTML = '<table><thead><tr><th>Ticker</th><th>主題</th><th>上下游</th><th>護城河</th><th>領導股</th><th>score</th><th>形態</th></tr></thead><tbody>' +
+      rows.map(function (r, ri) {
+        var L = r.leadership || {};
+        var vc = (r.valueChain && r.valueChain.position) || '—';
+        var moat = (r.moat && r.moat.level) || '—';
+        return '<tr class="company-row" data-src-idx="' + mapIdx[ri] + '" style="cursor:pointer"><td><b>' + (r.ticker || '') +
+          '</b></td><td><span class="tag">' + (r.theme || '') + '</span></td><td>' + vc +
+          '</td><td>' + moat + '</td><td>' + (L.isLeader ? '是' : '否') +
+          '</td><td>' + (L.score != null ? L.score : '—') +
+          '</td><td class="muted">' + (r.pattern || '') + '</td></tr>';
+      }).join('') + '</tbody></table>';
+    Array.prototype.forEach.call(document.querySelectorAll('#company-scan-list tr.company-row'), function (tr) {
+      tr.addEventListener('click', function () {
+        var i = Number(tr.getAttribute('data-src-idx'));
+        var r = list[i];
+        if (!r) return;
+        var L = r.leadership || {};
+        var why = (L.why && L.why.join) ? L.why.join('；') : (L.note || '');
+        if ($('company-leader')) {
+          $('company-leader').textContent = (r.ticker || '') + ' · 領導股：' + (L.isLeader ? '是' : '否') +
+            '（score ' + (L.score != null ? L.score : '?') + '）' + (why ? ' · ' + why : '') +
+            ' · 電話會議：待補';
+        }
+        if ($('company-out')) {
+          $('company-out').style.display = 'block';
+          // Prefer summaryTw card first line + full textTw (no JSON dump)
+          var body = r.textTw || r.summaryTw || '';
+          if (r.summaryTw && r.textTw && r.textTw.indexOf(r.summaryTw) !== 0) {
+            body = r.summaryTw + '\n\n' + r.textTw;
+          }
+          $('company-out').textContent = body || '無報告正文';
+        }
+        alog('company:scan-pick', r.ticker);
+        refreshLogs();
+      });
+    });
+  }
+
   function renderCompanyLatest(j) {
     if (!j) return;
     window.__latestCompany = j;
     var list = j.reports || [];
-    if ($('company-scan-status')) {
-      $('company-scan-status').textContent = '公司掃描 ' + list.length + ' 隻 · asOf ' + (j.asOf || j.generatedAt || '');
+    if ($('company-out')) {
+      $('company-out').style.display = 'none';
+      $('company-out').textContent = '點表格一列睇全文';
     }
-    if ($('company-scan-list')) {
-      $('company-scan-list').innerHTML = '<table><thead><tr><th>Ticker</th><th>主題/ETF</th><th>上游/下游</th><th>護城河</th><th>領導股</th><th>score</th></tr></thead><tbody>' +
-        list.map(function (r, idx) {
-          var L = r.leadership || {};
-          return '<tr data-idx="' + idx + '" class="company-row" style="cursor:pointer"><td><b>' + (r.ticker || '') +
-            '</b></td><td><span class="tag">' + (r.theme || '') + '</span> ' + (r.etf || '') +
-            '</td><td>' + ((r.valueChain && r.valueChain.position) || '') +
-            '</td><td>' + ((r.moat && r.moat.level) || '') +
-            '</td><td>' + (L.isLeader ? '是' : '否') +
-            '</td><td>' + (L.score != null ? L.score : '') + '</td></tr>';
-        }).join('') + '</tbody></table>';
-      Array.prototype.forEach.call(document.querySelectorAll('#company-scan-list tr.company-row'), function (tr) {
-        tr.addEventListener('click', function () {
-          var i = Number(tr.getAttribute('data-idx'));
-          var r = list[i];
-          if (!r) return;
-          $('company-out').textContent = r.textTw || JSON.stringify(r, null, 2);
-          var L = r.leadership || {};
-          var why = (L.why && L.why.join) ? L.why.join('；') : (L.note || '');
-          if ($('company-leader')) $('company-leader').textContent = '領導股：' + (L.isLeader ? '是' : '否') +
-            '（score ' + (L.score != null ? L.score : '?') + '）' + (why ? ' · ' + why : '');
-          alog('company:scan-pick', r.ticker);
-          refreshLogs();
-        });
+    if ($('company-leader')) {
+      $('company-leader').textContent = '領導股閘：' + (j.leaderCount != null ? j.leaderCount : '—') +
+        '／' + list.length + '（點列先出全文；唔自動 dump）';
+    }
+    renderCompanyTableRows(list);
+    if ($('company-leaders-only') && !$('company-leaders-only')._bound) {
+      $('company-leaders-only')._bound = true;
+      $('company-leaders-only').addEventListener('change', function () {
+        renderCompanyTableRows((window.__latestCompany && window.__latestCompany.reports) || []);
       });
-    }
-    var show = null;
-    for (var i = 0; i < list.length; i++) {
-      if (list[i].leadership && list[i].leadership.isLeader) { show = list[i]; break; }
-    }
-    if (!show && list.length) show = list[0];
-    if (show && $('company-out')) {
-      $('company-out').textContent = show.textTw || '';
-      var L2 = show.leadership || {};
-      if ($('company-leader')) $('company-leader').textContent = '領導股：' + (L2.isLeader ? '是' : '否') +
-        '（score ' + (L2.score != null ? L2.score : '?') + '）· 預設顯示 ' + show.ticker;
     }
     if (j.thinkingLog && j.thinkingLog.length && $('log-company')) {
       $('log-company').innerHTML = fmtLog(j.thinkingLog);
