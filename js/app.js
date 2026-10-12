@@ -202,7 +202,8 @@
     if (a.theme || a.etf) lines.push('主題／ETF: ' + (a.theme || '') + '／' + (a.etf || ''));
     $('tech-summary').textContent = lines.join('\n');
     if (a.chartPath) {
-      $('tech-chart').src = a.chartPath;
+      var src = (window.CHART_ASSETS && window.CHART_ASSETS[a.chartPath]) || a.chartPath;
+      $('tech-chart').src = src;
       $('tech-chart').style.display = 'block';
     } else {
       $('tech-chart').style.display = 'none';
@@ -484,7 +485,7 @@
       if (report && report.pivot != null) lines.push('Pivot: $' + report.pivot);
       $('tech-summary').textContent = lines.join('\n');
       var chart = (report && report.chartPath) || (seed.meta && seed.meta.chartPath) || 'data/charts/ISRG_vcp_C1C2C3.png';
-      $('tech-chart').src = chart;
+      $('tech-chart').src = (window.CHART_ASSETS && window.CHART_ASSETS[chart]) || chart;
       $('tech-chart').style.display = 'block';
       if (sib && sib.siblings) {
         $('tech-siblings').innerHTML = '<h3 style="color:#9aa6d0;font-size:13px">兄弟姊妹股</h3><table><thead><tr><th>Ticker</th><th>相關</th><th>提示</th></tr></thead><tbody>' +
