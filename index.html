@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>StockDesk · 六項流水線</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>STOCKDESK</h1>
+      <div class="sub">篩選 → 主題／ETF → 技術／板塊 → 公司 → 大市 → 進場 → 總司令｜每步可見思考 log</div>
+      <div class="sub" style="margin-top:6px;display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+        <label style="display:flex;gap:6px;align-items:center;cursor:pointer">
+          <input id="live-sync-toggle" type="checkbox" checked /> 即時同步
+        </label>
+        <button id="btn-live-refresh" type="button">立即刷新全部</button>
+        <span class="muted" id="live-sync-status">同步：尚未啟動</span>
+      </div>
+    </div>
+    <nav>
+      <button data-panel="overview" class="active">總覽</button>
+      <button data-panel="screener">① 篩選</button>
+      <button data-panel="tech">② 技術</button>
+      <button data-panel="company">③ 公司</button>
+      <button data-panel="macro">④ 大市</button>
+      <button data-panel="entry">⑤ 進場</button>
+      <button data-panel="commander">⑥ 總司令</button>
+      <button data-panel="logs">思考 Log</button>
+    </nav>
+  </header>
+  <div class="layout">
+    <aside>
+      <h3>BOT 陣容</h3>
+      <div id="bot-list"></div>
+      <p class="muted">綠＝已接檔 · 黃＝等交檔</p>
+    </aside>
+    <main>
+      <section class="panel active" data-panel="overview">
+        <h2>總覽</h2>
+        <div id="boot-warn" style="display:none;margin:10px 0;padding:12px 14px;border-radius:10px;border:1px solid #c45c26;background:#3a1f12;color:#ffd0b0;line-height:1.5"></div>
+        <div class="kpi">
+          <div class="card">篩選通過<b id="kpi-pass">—</b></div>
+          <div class="card">技術掃描<b id="kpi-tech">—</b></div>
+          <div class="card">公司報告<b id="kpi-co">—</b></div>
+          <div class="card">進場計劃<b id="kpi-entry">—</b></div>
+        </div>
+        <div class="kpi" style="margin-top:8px">
+          <div class="card">預設篩選<b>市值 3B–2T</b></div>
+          <div class="card">成交量（1M）<b>1M–500M</b></div>
+          <div class="card">均線<b>價格 &gt; SMA30</b></div>
+          <div class="card">止損上限<b>6%</b></div>
+        </div>
+        <p class="muted" style="margin-top:12px"><strong>點睇得到更新：</strong>必須用 HTTP 開（唔好雙擊 HTML）。解壓後喺 <code>stockdesk/</code> 目錄執行 <code>python3 -m http.server 8765</code>，再用瀏覽器開 <code>http://127.0.0.1:8765/</code>。然後撳上面 ①～⑥ 面板；圖喺<strong>② 技術</strong>（點一列就出 C1–C3 圖），公司報告喺<strong>③</strong>。</p>
+        <p class="muted">「即時同步」只會更新<strong>同一個伺服器目錄</strong>入面嘅 JSON。你本機解壓嘅 tar 係快照——我哋喺 Bot 電腦覆寫檔案唔會自動改到你本機。要最新內容請重新下載完整包，或睇 Bot 電腦上嘅 <code>http://127.0.0.1:8765/</code>。</p>
+        <div id="overview-live" class="muted" style="margin-top:10px;white-space:pre-wrap"></div>
+      </section>
+
+      <section class="panel" data-panel="screener">
+        <h2>① 篩選器（可 set）· Frok</h2>
+        <div class="row">
+          <div><label>市值下限（十億 USD）</label><input id="f-mcap-min" type="number" value="3" /></div>
+          <div><label>市值上限（十億 USD）</label><input id="f-mcap-max" type="number" value="2000" /></div>
+          <div><label>1 月成交量下限（百萬）</label><input id="f-vol-min" type="number" value="1" /></div>
+          <div><label>1 月成交量上限（百萬）</label><input id="f-vol-max" type="number" value="500" /></div>
+        </div>
+        <label><input id="f-sma30" type="checkbox" checked /> 價格 &gt; SMA30</label>
+        <div style="margin-top:10px" class="row">
+          <button class="primary" id="btn-screen" type="button">按條件篩選（樣本宇宙）</button>
+        </div>
+        <p class="muted" id="screen-summary" style="margin-top:10px">尚未執行</p>
+        <div id="screen-table" style="margin-top:8px;overflow:auto"></div>
+        <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">Frok 思考 log</h3>
+        <div class="log-box" id="log-screener"></div>
+      </section>
+
+      <section class="panel" data-panel="tech">
+        <h2>② 技術分析＋兄弟姊妹股／板塊 · Grok</h2>
+        <p class="muted">最新掃描：<code>data/tech-scan-latest.json</code>（對齊 Frok 篩選通過名單）。亦可跑 ISRG 種子示範。</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <button class="primary" id="btn-tech-scan" type="button">載入最新技術掃描</button>
+          <button id="btn-tech" type="button">分析 ISRG 種子</button>
+          <span class="muted" id="tech-scan-status">尚未載入掃描</span>
+        </div>
+        <div id="tech-scan-list" style="margin-top:12px;overflow:auto"></div>
+        <div class="grid2" style="margin-top:12px">
+          <div>
+            <div id="tech-summary" class="report">尚未執行</div>
+            <div id="tech-siblings" style="margin-top:10px"></div>
+          </div>
+          <div>
+            <img id="tech-chart" alt="tech chart" style="max-width:100%;border:1px solid #2a3560;border-radius:10px;display:none" />
+          </div>
+        </div>
+        <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">Grok 思考 log</h3>
+        <div class="log-box" id="log-tech"></div>
+      </section>
+
+      <section class="panel" data-panel="company">
+        <h2>③ 公司分析報告 · Jrok</h2>
+        <p class="muted">最新掃描：<code>data/company-run-latest.json</code>（即時同步）。亦可跑 AXTI 種子示範。</p>
+        <div id="company-scan-status" class="muted">載入中…</div>
+        <div id="company-scan-list" style="margin-top:8px;overflow:auto"></div>
+        <button class="primary" id="btn-company" type="button" style="margin-top:10px">分析 AXTI 種子</button>
+        <div id="company-leader" class="muted" style="margin-top:10px"></div>
+        <pre class="report" id="company-out" style="margin-top:10px;max-height:50vh;overflow:auto">尚未執行</pre>
+        <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">Jrok 思考 log</h3>
+        <div class="log-box" id="log-company"></div>
+      </section>
+
+      <section class="panel" data-panel="macro">
+        <h2>④ 大市分析（Drok）</h2>
+        <h3 style="color:#9aa6d0;font-size:13px">事件日曆</h3>
+        <div id="macro-events"></div>
+        <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">最新示範報告</h3>
+        <pre class="report" id="macro-report">載入中…</pre>
+        <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">Drok 思考 log</h3>
+        <div class="log-box" id="log-macro"></div>
+      </section>
+
+      <section class="panel" data-panel="entry">
+        <h2>⑤ 進場策略 · Arok</h2>
+        <p class="muted">META／BO／Pullback，止損上限 6%；會對 <code>Company.isLeader</code>。示範：ISRG 種子。</p>
+        <button class="primary" id="btn-entry" type="button">分析 ISRG 進場種子</button>
+        <pre class="report" id="entry-out" style="margin-top:10px">尚未執行</pre>
+        <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">Arok 思考 log</h3>
+        <div class="log-box" id="log-entry"></div>
+      </section>
+
+      <section class="panel" data-panel="commander">
+        <h2>⑥ 資料蒐集＋總司令（Trok）</h2>
+        <button class="primary" id="btn-commander" type="button">重新匯總</button>
+        <pre class="report" id="commander-summary" style="margin-top:12px"></pre>
+        <h3 style="color:#9aa6d0;font-size:13px">催化劑監控</h3>
+        <div id="catalyst-list"></div>
+        <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">Trok 思考 log</h3>
+        <div class="log-box" id="log-commander"></div>
+      </section>
+
+      <section class="panel" data-panel="logs">
+        <h2>全部思考 Log</h2>
+        <button class="ghost" id="btn-refresh-log" type="button">刷新</button>
+        <div class="log-box" id="log-all" style="margin-top:10px;max-height:60vh"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/macro.js"></script>
+  <script src="js/screener.js"></script>
+  <script src="js/tech.js"></script>
+  <script src="js/company.js"></script>
+  <script src="js/entry.js"></script>
+  <script src="js/commander.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
