@@ -1,7 +1,7 @@
 {
-  "title": "大市警報｜盤前閘門持續 QQQ −0.74%（Drok）",
-  "asOf": "2026-10-13T12:55:00.000Z",
-  "updatedAt": "2026-10-13T12:55:00.000Z",
+  "title": "大市警報｜開市閘門持續 QQQ −0.90%（Drok）",
+  "asOf": "2026-10-13T13:32:00.000Z",
+  "updatedAt": "2026-10-13T13:32:00.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -46,7 +46,7 @@
       "consensusCoreYoY": 2.4,
       "priorHeadlineYoY": 3.4,
       "priorCoreYoY": 2.4,
-      "note": "08:30 ET（D-1；約 20:30 HKT 10/14）。Street headline ~3.6–3.7%／core ~2.4–2.5%。Cleveland nowcast 仍停 10/9：headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。【盤前閘門 10/13 ~08:55 ET】QQQ −0.74%／SPY −0.06%（Yahoo Finance 盤前）：半導體／AI 殺估值延續（韓股隔夜 KOSPI 約 −5.5%～−6%；美盤前 MU 約 −4.9%、AMD／AVGO 仍弱）；銀行開季齊 beat 仍托不住 QQQ。距開市約半小時，CPI 前夕波動放大。",
+      "note": "08:30 ET（D-1；約 20:30 HKT 10/14）。Street headline ~3.6–3.7%／core ~2.4–2.5%。Cleveland nowcast 仍停 10/9：headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。【開市閘門 10/13 ~09:32 ET】QQQ −0.90%／SPY −0.04%（Yahoo Finance 開市）：半導體／AI 殺估值延續並加深（韓股隔夜 KOSPI 約 −5.5%～−6%；MU 約 −5.4%、AMD −3.2%、SMH −2.4%、NVDA −1.2%）；銀行開季齊 beat、DIA 約 +0.85% 仍托不住 QQQ。CPI 前夕波動放大。",
       "sources": [
         "BLS CPI schedule",
         "Cleveland Fed Inflation Nowcasting 2026-10-09 (fetched 2026-10-13)",
@@ -65,7 +65,11 @@
         "WSJ／Bloomberg CXMT DRAM／Asia AI selloff 2026-10-13",
         "Yahoo Finance QQQ/SPY premarket 2026-10-13 ~08:55 ET",
         "Yahoo Finance MU premarket ~941 (−4.86%）2026-10-13",
-        "WSJ／Investing／Reuters CXMT／Asia AI selloff 2026-10-13"
+        "WSJ／Investing／Reuters CXMT／Asia AI selloff 2026-10-13",
+        "Yahoo Finance QQQ/SPY open 2026-10-13 ~09:32 ET",
+        "Yahoo Finance MU −5.39%／AMD −3.22%／NVDA −1.15%／SMH −2.43% 2026-10-13 open",
+        "Yahoo Finance DIA +0.85% bank rotation 2026-10-13 open",
+        "WSJ／Investing／Reuters／Invezz CXMT DRAM／Asia AI selloff 2026-10-13"
       ]
     },
     {
@@ -155,8 +159,8 @@
     "10/27–28 FOMC（FedWatch hold ~79.5–82%；決定 10/28 14:00 ET）",
     "Mag7：TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL 11/2（估計）"
   ],
-  "mag7Note": "盤前（~08:55 ET Yahoo／公開盤前）：QQQ 拖累主因仍是半導體／AI 鏈。MU 盤前約 $941（−4.86%）；較早盤前脈衝 NVDA／AMD／AVGO 偏弱。日程：META／TSLA 10/21 AMC；MSFT／GOOGL 10/28；AMZN 估計 10/29；AAPL 估計 11/2。",
-  "summaryTw": "【閘門持續 10/13 盤前 ~08:55 ET｜CPI D-1｜距開市約 35 分鐘】QQQ −0.74%（$740.51；Yahoo Finance），SPY −0.06%（$777.57）。閾值 −0.65%：QQQ 觸發／SPY 未觸發（較早 ~07:56 −0.72%、~08:23 −0.71%）。\n【主因】全球 AI／半導體殺估值延續：中國 CXMT 稱 DRAM 架構有進展→韓股記憶體重挫（公開報道 Samsung 約 −7%、SK Hynix 約 −10%；KOSPI 約 −5.5%～−6%）；Broadcom CEO 等對 AI 投資回報／融資瓶頸表態加劇情緒。美盤前 MU 約 −4.9%；AMD／AVGO 等半導體鏈仍弱。銀行／道指相對撐住 SPY，未能托住 QQQ。\n【銀行業績】開季窗已齊：JPM EPS $5.57；GS EPS $17.01；WFC EPS $1.87；Citi EPS $2.85 vs $2.65、營收 $23.8B（beat）。BAC／MS 明日。\n【日曆放大風險】係。明天 10/14 CPI（D-1）係關鍵：core 涼→或緩解科技估值壓力；core 熱→加息機率＋長息＋半導體情緒可能雙殺。跟住 10/15 PPI、10/28 FOMC（FedWatch hold 約 79–82%）。\n【本輪】閘門第三度確認（較 08:23 警報後約 32 分鐘仍深於閾值且略加深）；刷新 Pages 並匯報 Stock 群。",
+  "mag7Note": "開市 ~09:32 ET：AAPL +1.8%／MSFT +1.3%／GOOGL +0.9%／AMZN +0.1%／META −0.3%／NVDA −1.2%／TSLA −1.4%。分化明顯——非半導 Mag7 偏穩／升，半導與記憶體拖累 QQQ。",
+  "summaryTw": "【閘門持續 10/13 開市 ~09:32 ET｜CPI D-1】QQQ −0.90%（$739.34；Yahoo Finance），SPY −0.04%（$777.73）。閾值 −0.65%：QQQ 觸發／SPY 未觸發（盤前 ~07:56 −0.72%、~08:23 −0.71%、~08:55 −0.74%；開市加深至 −0.90%）。\n【主因】全球 AI／半導體殺估值延續並加深：中國 CXMT 稱 DRAM 架構有進展→韓股記憶體重挫（公開報道 Samsung 約 −7%、SK Hynix 約 −10%；KOSPI 約 −5.5%～−6%）；Broadcom CEO 等對 AI 投資回報／融資瓶頸表態加劇情緒。開市 MU −5.4%、AMD −3.2%、WDC −5.3%、SNDK −3.6%、INTC −2.5%、SMH −2.4%、AVGO −1.5%、NVDA −1.2%。DIA 約 +0.85%＝科技弱／道指強輪動。\n【Mag7】TSLA −1.4%、NVDA −1.2%、META −0.3%；AAPL +1.8%、MSFT +1.3%、GOOGL +0.9%、AMZN 平。\n【銀行業績】開季窗已齊：JPM／GS／WFC／Citi 齊 beat；BAC／MS 明日。銀行／道指撐住 SPY，未能托住 QQQ。\n【日曆放大風險】係。明天 10/14 CPI（D-1）係關鍵：core 涼→或緩解科技估值壓力；core 熱→加息機率＋長息＋半導體情緒可能雙殺。跟住 10/15 PPI、10/28 FOMC（FedWatch hold 約 79–82%）。\n【本輪】閘門第四度確認（開市後加深至 −0.90%）；刷新 Pages 並匯報 Stock 群。",
   "thinkingLog": [
     {
       "t": "2026-10-12T01:59:09.819Z",
@@ -1242,6 +1246,58 @@
           "pct": -4.86,
           "source": "Yahoo Finance"
         }
+      }
+    },
+    {
+      "t": "2026-10-13T13:32:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "premarket_gate",
+      "detail": {
+        "gate": "FIRED",
+        "qqqPct": -0.9,
+        "spyPct": -0.04,
+        "qqqPx": 739.34,
+        "spyPx": 777.73,
+        "source": "Yahoo Finance open ~09:32 ET",
+        "drivers": [
+          "CXMT DRAM / Asia chip selloff deepens into cash open",
+          "AI CapEx / ROI skepticism (Broadcom CEO etc.)",
+          "tech vs banks rotation; SMH −2.4% / MU −5.4% drag QQQ"
+        ],
+        "calendarAmplifies": true,
+        "next": "CPI 2026-10-14 08:30 ET",
+        "note": "Fourth confirmation; first cash-open print after premarket alerts; QQQ deepened to −0.90%.",
+        "semisOpen": {
+          "MU": -5.39,
+          "AMD": -3.22,
+          "WDC": -5.27,
+          "SNDK": -3.64,
+          "INTC": -2.45,
+          "SMH": -2.43,
+          "AVGO": -1.49,
+          "NVDA": -1.15
+        },
+        "mag7Open": {
+          "AAPL": 1.8,
+          "MSFT": 1.32,
+          "GOOGL": 0.9,
+          "AMZN": 0.1,
+          "META": -0.31,
+          "NVDA": -1.15,
+          "TSLA": -1.37
+        },
+        "diaPct": 0.85
+      }
+    },
+    {
+      "t": "2026-10-13T13:32:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "speakDecision",
+      "detail": {
+        "speakToStockGroup": true,
+        "reason": "Open gate: QQQ −0.90% > 0.65%; deepened vs premarket −0.74%; material into CPI D-1"
       }
     }
   ],
