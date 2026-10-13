@@ -1,7 +1,7 @@
 {
-  "title": "大市警報｜盤前閘門觸發 QQQ −0.72%（Drok）",
-  "asOf": "2026-10-13T11:56:00.000Z",
-  "updatedAt": "2026-10-13T11:56:00.000Z",
+  "title": "大市警報｜盤前閘門持續 QQQ −0.71%（Drok）",
+  "asOf": "2026-10-13T12:23:00.000Z",
+  "updatedAt": "2026-10-13T12:23:00.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -46,7 +46,7 @@
       "consensusCoreYoY": 2.4,
       "priorHeadlineYoY": 3.4,
       "priorCoreYoY": 2.4,
-      "note": "08:30 ET（D-1；約 20:30 HKT 10/14）。Street headline ~3.6–3.7%／core ~2.4–2.5%。Cleveland nowcast 仍停 10/9：headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。【盤前閘門 10/13 ~07:56 ET】QQQ −0.72%／SPY −0.07%：半導體／AI 全球殺估值（韓股 KOSPI 約 −5.5%～−6%，SK Hynix／Samsung 重挫；美盤前 MU／AMD／INTC／AVGO 偏軟），NQ 期約 −0.69%、YM 期約 +0.72%＝科技弱／道指強輪動。銀行開季業績已出（JPM／GS／WFC），CPI 前夕波動放大。",
+      "note": "08:30 ET（D-1；約 20:30 HKT 10/14）。Street headline ~3.6–3.7%／core ~2.4–2.5%。Cleveland nowcast 仍停 10/9：headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。【盤前閘門 10/13 ~08:23 ET】QQQ −0.71%／SPY −0.08%（Investing.com 盤前）：半導體／AI 全球殺估值延續（韓股 KOSPI 約 −5.5%～−6%，SK Hynix／Samsung 重挫；美盤前 MU −4.0%、AMD −1.9%、INTC −1.5%、AVGO −1.5%、NVDA −0.8%）；DIA 盤前約 +0.7%＝科技弱／道指強輪動。銀行開季已齊（JPM／GS／WFC／C 均 beat），仍托不住 QQQ。CPI 前夕波動放大。",
       "sources": [
         "BLS CPI schedule",
         "Cleveland Fed Inflation Nowcasting 2026-10-09 (fetched 2026-10-13)",
@@ -59,7 +59,10 @@
         "Nasdaq realtime premarket 2026-10-13 ~07:56 ET",
         "Morningstar／Yahoo／Investing AI-chip selloff notes 2026-10-13",
         "JPM／GS／WFC 8-K／earnings releases 2026-10-13",
-        "GMT EIGHT FedWatch flash hold ~82.3%（10/13；盤中波動）"
+        "GMT EIGHT FedWatch flash hold ~82.3%（10/13；盤中波動）",
+        "Investing.com US premarket 2026-10-13 ~08:23 ET",
+        "Citi Q3 EPS $2.85 vs $2.65／rev $23.8B（Newsquawk／Investing 2026-10-13）",
+        "WSJ／Bloomberg CXMT DRAM／Asia AI selloff 2026-10-13"
       ]
     },
     {
@@ -141,16 +144,16 @@
     "summaryTw": "非農就業（2026年9月） @ 2026-10-02\n數據：弱過預期（actual < consensus）\n當日大盤：+0.74%\n留意：數據偏弱但大市上升（利好降息／軟著陸交易）\n收市K線：膠住／十字味：實體細，方向未決；收市創近期新高／破阻力；企穩 SMA20 上方；企穩 SMA50 上方\n其後4日：D+1 0.67%(修復／延續上升)，D+2 0.55%(修復／延續上升)，D+3 -0.24%(失地／回吐)，D+4 -0.42%(失地／回吐)；其後 10/9 +0.60%、10/12 -0.06%"
   },
   "watch": [
-    "【閘門觸發】QQQ 盤前 −0.72%（>$0.65% 閾值）；SPY −0.07% 未觸發——科技單邊殺",
+    "【閘門持續】QQQ 盤前 −0.71%（>$0.65%）；SPY −0.08% 未觸發——科技單邊殺仍在",
     "【D-1】10/14 CPI 08:30 ET（Street ~3.6–3.7%／core ~2.4–2.5%；Cleveland core MoM ~0.20%）—熱則疊加半導體殺估值＝雙殺風險",
     "10/15 PPI（~5.4% YoY）＋ Advance Retail Sales",
-    "銀行開季：JPM EPS $5.57／GS $17.01／WFC $1.87 已公布；C 約 08:00 ET；BAC／MS 10/14",
+    "銀行開季齊：JPM EPS $5.57／GS $17.01／WFC $1.87／C $2.85（均 beat）；BAC／MS 10/14",
     "亞洲隔夜：KOSPI 約 −5.5%～−6%（Samsung／SK Hynix 重挫）；CXMT DRAM 進展＋AI CapEx／回報質疑",
     "10/27–28 FOMC（FedWatch hold ~79.5–82%；決定 10/28 14:00 ET）",
     "Mag7：TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL 11/2（估計）"
   ],
-  "mag7Note": "盤前（~07:56 ET Nasdaq）：NVDA −0.79%、META −1.24%、TSLA −0.80%、AMZN −0.39%；MSFT +0.41%、AAPL +0.76%、GOOGL +0.26%。半導體拖累明顯：MU −4.04%、AMD −1.84%、INTC −1.34%、AVGO −1.38%。未有新完整七巨頭業績包。日程：META／TSLA 10/21 AMC；MSFT／GOOGL 10/28；AMZN 估計 10/29；AAPL 估計 11/2。",
-  "summaryTw": "【閘門觸發 10/13 盤前 ~07:56 ET｜CPI D-1】QQQ −0.72%（$740.67；Nasdaq realtime），SPY −0.07%（$777.57）。閾值 −0.65%：QQQ 觸發／SPY 未觸發。\n【主因】全球 AI／半導體殺估值延續：中國 CXMT 稱 DRAM 架構有進展→韓股記憶體重挫（公開報道 Samsung 約 −7%、SK Hynix 約 −10%；KOSPI 約 −5.5%～−6%）；Broadcom CEO 等對 AI 投資回報／融資瓶頸表態加劇情緒。美盤前 MU −4.0%、AMD −1.8%、INTC −1.3%、AVGO −1.4%、NVDA −0.8%。NQ 期約 −0.69%、ES 期約 −0.07%、YM 期約 +0.72%＝科技弱／道指強輪動。\n【Mag7】META −1.2%、TSLA −0.8%、AMZN −0.4%；MSFT／AAPL／GOOGL 微升。\n【銀行業績】開季窗已開：JPM Q3 淨利 $153億、EPS $5.57；GS EPS $17.01（YoY +39%，盤前約 +3%）；WFC EPS $1.87（YoY +13%）。Citi 約 08:00 ET。銀行／道指撐住 SPY，未能托住 QQQ。\n【息／油】10年期約 5.24%（略軟）；油約 −1.6%。美元指數略軟。\n【日曆放大風險】係。明天 10/14 CPI（D-1）係關鍵：core 涼→或緩解科技估值壓力；core 熱→加息機率＋長息＋半導體情緒可能雙殺。跟住 10/15 PPI、10/28 FOMC（FedWatch hold 約 79–82%）。\n【本輪】盤前閘門首次觸發本週；寫入 Pages 並匯報 Stock 群。",
+  "mag7Note": "盤前（~08:23 ET Investing.com）：NVDA −0.82%、META −1.18%、TSLA −0.93%；AAPL +0.76%（活躍榜）。半導體拖累：MU −4.00%、AMD −1.86%、INTC −1.49%、AVGO −1.47%。日程：META／TSLA 10/21 AMC；MSFT／GOOGL 10/28；AMZN 估計 10/29；AAPL 估計 11/2。",
+  "summaryTw": "【閘門持續 10/13 盤前 ~08:23 ET｜CPI D-1】QQQ −0.71%（$740.72；Investing.com），SPY −0.08%（$777.44）。閾值 −0.65%：QQQ 觸發／SPY 未觸發（較早 ~07:56 為 QQQ −0.72%）。\n【主因】全球 AI／半導體殺估值延續：中國 CXMT 稱 DRAM 架構有進展→韓股記憶體重挫（公開報道 Samsung 約 −7%、SK Hynix 約 −10%；KOSPI 約 −5.5%～−6%）；Broadcom CEO 等對 AI 投資回報／融資瓶頸表態加劇情緒。美盤前 MU −4.0%、AMD −1.9%、INTC −1.5%、AVGO −1.5%、NVDA −0.8%。DIA 盤前約 +0.70%＝科技弱／道指強輪動。\n【Mag7】META −1.2%、TSLA −0.9%、NVDA −0.8%；AAPL 盤前偏強。\n【銀行業績】開季窗已齊：JPM EPS $5.57；GS EPS $17.01（盤前約 +3%）；WFC EPS $1.87；Citi EPS $2.85 vs $2.65、營收 $23.8B（beat）。銀行／道指撐住 SPY，未能托住 QQQ。\n【日曆放大風險】係。明天 10/14 CPI（D-1）係關鍵：core 涼→或緩解科技估值壓力；core 熱→加息機率＋長息＋半導體情緒可能雙殺。跟住 10/15 PPI、10/28 FOMC（FedWatch hold 約 79–82%）。今日另有 Fed Barkin／Collins 發言、Federal Budget Balance。\n【本輪】閘門持續觸發（較早警報後約 27 分鐘仍深於閾值）；刷新 Pages 並匯報 Stock 群。",
   "thinkingLog": [
     {
       "t": "2026-10-12T01:59:09.819Z",
@@ -1187,6 +1190,28 @@
           "data/macro-events.json"
         ],
         "ok": true
+      }
+    },
+    {
+      "t": "2026-10-13T12:23:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "premarket_gate",
+      "detail": {
+        "gate": "FIRED",
+        "qqqPct": -0.71,
+        "spyPct": -0.08,
+        "qqqPx": 740.72,
+        "spyPx": 777.44,
+        "source": "Investing.com US premarket ~08:23 ET",
+        "drivers": [
+          "CXMT DRAM / Asia chip selloff",
+          "AI CapEx skepticism",
+          "tech vs banks rotation"
+        ],
+        "calendarAmplifies": true,
+        "next": "CPI 2026-10-14 08:30 ET",
+        "note": "Follow-up to 07:56 ET alert; gate still open; Citi beat now in."
       }
     }
   ],
