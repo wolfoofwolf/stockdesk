@@ -1,0 +1,84 @@
+{
+  "updatedAt": "2026-10-13T22:08:50+08:00",
+  "bucket": "never_learn",
+  "passThreshold": 90,
+  "items": [
+    {
+      "ticker": "NOW",
+      "score": 94,
+      "gradedAt": "2026-10-13T22:08:32+08:00",
+      "runPath": "data/lessons/training/runs/20261013T220832_NOW.json",
+      "galleryPath": "data/lessons/gallery/never-learn/NOW_20261013T220832.svg",
+      "failureSignatures": [
+        "missing_style_lock"
+      ],
+      "pass": false,
+      "verdict": "never_learn"
+    },
+    {
+      "ticker": "AES",
+      "score": 36,
+      "gradedAt": "2026-10-13T22:08:32+08:00",
+      "runPath": "data/lessons/training/runs/20261013T220832_AES.json",
+      "galleryPath": "data/lessons/gallery/never-learn/AES_20261013T220832.svg",
+      "failureSignatures": [
+        "missing_style_lock",
+        "early_left_dump_c123"
+      ],
+      "pass": false,
+      "verdict": "never_learn"
+    },
+    {
+      "ticker": "NOW",
+      "score": 90,
+      "gradedAt": "2026-10-13T22:08:18+08:00",
+      "runPath": "data/lessons/training/runs/20261013T220818_NOW.json",
+      "galleryPath": "data/lessons/gallery/never-learn/NOW_20261013T220818.svg",
+      "failureSignatures": [
+        "early_left_dump_c123"
+      ],
+      "pass": false,
+      "verdict": "never_learn"
+    },
+    {
+      "ticker": "AES",
+      "score": 36,
+      "gradedAt": "2026-10-13T22:08:18+08:00",
+      "runPath": "data/lessons/training/runs/20261013T220818_AES.json",
+      "galleryPath": "data/lessons/gallery/never-learn/AES_20261013T220818.svg",
+      "failureSignatures": [
+        "missing_style_lock",
+        "early_left_dump_c123"
+      ],
+      "pass": false,
+      "verdict": "never_learn"
+    },
+    {
+      "ticker": "FIXBAD",
+      "score": 34,
+      "gradedAt": "2026-10-13T22:08:49+08:00",
+      "runPath": "data/lessons/training/runs/20261013T220849_FIXBAD.json",
+      "galleryPath": "data/lessons/gallery/never-learn/FIXBAD_20261013T220849.svg",
+      "failureSignatures": [
+        "early_left_dump_c123",
+        "missing_style_lock"
+      ],
+      "pass": false,
+      "verdict": "never_learn"
+    },
+    {
+      "ticker": "AES",
+      "score": 36,
+      "gradedAt": "2026-10-13T22:08:50+08:00",
+      "runPath": "data/lessons/training/runs/20261013T220850_AES.json",
+      "galleryPath": "data/lessons/gallery/never-learn/AES_20261013T220850.svg",
+      "failureSignatures": [
+        "early_left_dump_c123",
+        "missing_style_lock"
+      ],
+      "pass": false,
+      "verdict": "never_learn"
+    }
+  ],
+  "orphanSvgs": []
+}

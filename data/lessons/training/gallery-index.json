@@ -1,0 +1,17 @@
+{
+  "updatedAt": "2026-10-13T22:09:00+08:00",
+  "passThreshold": 90,
+  "rubricPath": "data/lessons/training/rubric-vcp-c123-dtl.json",
+  "neverLearnIndex": "data/lessons/training/never-learn-index.json",
+  "exemplarSvg": "data/lessons/exemplars/NOW_vcp_c123_dtl_style.svg",
+  "buckets": {
+    "keep": "data/lessons/gallery/keep/index.json",
+    "counterexamples": "data/lessons/gallery/counterexamples/index.json",
+    "neverLearn": "data/lessons/gallery/never-learn/index.json"
+  },
+  "counts": {
+    "keep": 4,
+    "counterexample": 1,
+    "never_learn": 6
+  }
+}
