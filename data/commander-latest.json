@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-13T12:58:19.000Z",
+  "generatedAt": "2026-10-13T13:33:15.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-13 20:58 HKT",
+  "asOfHKT": "2026-10-13 21:33 HKT",
   "pipeline": {
     "candidates": 480,
     "techPassed": 340,
@@ -13,22 +13,23 @@
     "anchor": "Grok techPass (pattern+pivot+≤6%)",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-13 20:58 HKT】\n⚠️ 盤前閘仍開：QQQ **−0.74%**／SPY −0.06%（@Drok）— 距開市約 35 分；CPI 明天\n錨 techPass **340** 鎖至開市後 → 公司 340／領導 87／進場 87\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=en1)",
+  "summaryTw": "【總司令｜2026-10-13 21:33 HKT】\n⚠️ 開市閘：QQQ **−0.90%**／SPY −0.04%（@Drok）— AI／半導；CPI 明天\n錨 techPass 重刷中（先鎖 340）＋新畫法全量重畫 → 齊咗分批推圖\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=en1)",
   "links": {
     "site": "https://wolfoofwolf.github.io/stockdesk/?v=en1"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-13 20:58 HKT",
-      "msg": "Premarket still open QQQ -0.74%; await Grok post-open"
+      "t": "2026-10-13 21:33 HKT",
+      "msg": "Cash open QQQ -0.90%; await Grok redraw batches"
     }
   ],
   "premarketGate": {
     "triggered": true,
     "stillOpen": true,
-    "asOf": "2026-10-13 ~20:55 HKT",
-    "QQQ": -0.74,
-    "SPY": -0.06,
-    "note": "Drok：QQQ 觸發加深；Grok 開市後重刷 techPass；現鎖 340。"
+    "session": "cash_open",
+    "asOf": "2026-10-13 ~21:33 HKT",
+    "QQQ": -0.9,
+    "SPY": -0.04,
+    "note": "Drok 開市閘：QQQ −0.90%；Grok 全量重畫＋techPass 重刷中。"
   }
 }
