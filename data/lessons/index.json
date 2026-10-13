@@ -53,8 +53,8 @@
       "source": "human | scan | regression"
     }
   },
-  "updatedAt": "2026-10-12T17:00:00+08:00",
-  "count": 4,
+  "updatedAt": "2026-10-13T21:25:00+08:00",
+  "count": 5,
   "lessons": [
     {
       "id": "techpass-gate-v1",
@@ -97,7 +97,7 @@
         "pivot"
       ],
       "keepForever": true,
-      "summary": "每張對外圖必須標清 Pivot；若係 VCP／收縮類，標 C1–C3（或實際收縮段）。唔標 pivot 的圖唔入教材庫。",
+      "summary": "VCP 圖必須跟 NOW exemplar：C1–C3＋DTL＋Bo DTL＋pivot point＋C3 綠框量縮。詳見 draw-style-vcp-c123-dtl-now。",
       "entryPath": "data/lessons/entries/annotation-pivot-vcp-c123.json",
       "chartCount": 1
     },
@@ -114,6 +114,24 @@
       "summary": "教材庫唔係相簿。只收會改變未來閘門、標註或掃描行為的內容；每日全量圖留喺 charts/，唔進 lessons。",
       "entryPath": "data/lessons/entries/what-belongs-in-lessons-db.json",
       "chartCount": 0
+    },
+    {
+      "id": "draw-style-vcp-c123-dtl-now",
+      "title": "畫法鎖定：VCP C1–C3＋DTL＋Bo DTL＋pivot＋綠框量縮（NOW exemplar）",
+      "tier": "core",
+      "worth": "high",
+      "tags": [
+        "annotation",
+        "vcp",
+        "dtl",
+        "pivot",
+        "volume",
+        "style"
+      ],
+      "keepForever": true,
+      "summary": "人類 exemplar（NOW 日線）：白折線標結構；C1/C2/C3 黑底白框標在收縮低點；C3 用綠色半透明框標 pivot 區並註「綠色範圍內(pivot point)成交量萎縮」；C3 高點連 down trend line(DTL)；突破標 Bo DTL；pivot point 白箭頭標註。之後 VCP 圖必須跟呢套畫法。",
+      "entryPath": "data/lessons/entries/draw-style-vcp-c123-dtl-now.json",
+      "chartCount": 2
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "id": "draw-style-vcp-c123-dtl-now",
+  "title": "畫法鎖定：VCP C1–C3＋DTL＋Bo DTL＋pivot＋綠框量縮（NOW exemplar）",
+  "tier": "core",
+  "worth": "high",
+  "tags": [
+    "annotation",
+    "vcp",
+    "dtl",
+    "pivot",
+    "volume",
+    "style"
+  ],
+  "keepForever": true,
+  "summary": "人類 exemplar（NOW 日線）：白折線標結構；C1/C2/C3 黑底白框標在收縮低點；C3 用綠色半透明框標 pivot 區並註「綠色範圍內(pivot point)成交量萎縮」；C3 高點連 down trend line(DTL)；突破標 Bo DTL；pivot point 白箭頭標註。之後 VCP 圖必須跟呢套畫法。",
+  "rule": "VCP charts: C1–C3 on lows + C3 green vol-dry box + DTL on C3 highs + Bo DTL on break + labeled pivot point. Never export bare candles.",
+  "do": [
+    "白折線連高低波動結構",
+    "C1/C2/C3 用黑底白邊方框標在收縮低點",
+    "C3 綠框 + 成交量萎縮箭頭／中文註解",
+    "畫 down trend line(DTL)，突破標 Bo DTL",
+    "明確標 pivot point（唔好用模糊支撐位）",
+    "exemplar 圖：data/lessons/exemplars/NOW_vcp_c123_dtl_style.jpg"
+  ],
+  "dont": [
+    "只標 C 喺高點而無 DTL／量縮",
+    "用黃色淡影代替 C3 綠框量縮語意",
+    "省略 Bo DTL／pivot point 標籤"
+  ],
+  "chartRefs": [
+    {
+      "ticker": "NOW",
+      "chartPath": "data/lessons/exemplars/NOW_vcp_c123_dtl_style.jpg",
+      "why": "人類上傳嘅標準畫法 exemplar"
+    },
+    {
+      "ticker": "NOW",
+      "chartPath": "data/charts/NOW_scan_VCP.svg",
+      "why": "系統輸出應對齊此風格（改碼後重畫）"
+    }
+  ],
+  "relatedGate": "annotation standard — VCP family style lock",
+  "createdAt": "2026-10-13T21:25:00+08:00",
+  "updatedAt": "2026-10-13T21:25:00+08:00",
+  "source": "human"
+}

@@ -9,12 +9,12 @@
     "pivot"
   ],
   "keepForever": true,
-  "summary": "每張對外圖必須標清 Pivot；若係 VCP／收縮類，標 C1–C3（或實際收縮段）。唔標 pivot 的圖唔入教材庫。",
+  "summary": "VCP 圖必須跟 NOW exemplar：C1–C3＋DTL＋Bo DTL＋pivot point＋C3 綠框量縮。詳見 draw-style-vcp-c123-dtl-now。",
   "rule": "Chart export incomplete without visible Pivot; VCP-family charts need C1–C3 (or labeled contractions).",
   "do": [
-    "SVG 上畫 pivot 水平線／標籤",
-    "收縮段用 C1/C2/C3 標註",
-    "摘要寫清 primaryPattern、pivot、距 pivot %"
+    "跟 data/lessons/exemplars/NOW_vcp_c123_dtl_style.jpg 畫法",
+    "C1/C2/C3 標在低點；C3 綠框＋量縮註解",
+    "畫 DTL，突破標 Bo DTL；標清 pivot point"
   ],
   "dont": [
     "只出裸 K 線無標註",
@@ -22,13 +22,13 @@
   ],
   "chartRefs": [
     {
-      "ticker": "HLN",
-      "chartPath": "data/charts/HLN_scan_low_cheat.svg",
-      "why": "合格標註 exemplar"
+      "ticker": "NOW",
+      "chartPath": "data/lessons/exemplars/NOW_vcp_c123_dtl_style.jpg",
+      "why": "風格鎖定 exemplar"
     }
   ],
   "relatedGate": "annotation standard for tech charts",
   "createdAt": "2026-10-12T17:00:00+08:00",
-  "updatedAt": "2026-10-12T17:00:00+08:00",
+  "updatedAt": "2026-10-13T21:25:00+08:00",
   "source": "human"
 }
