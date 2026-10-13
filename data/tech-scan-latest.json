@@ -677,8 +677,9 @@
       ],
       "siblingHint": "BURL 與 TJX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TJX_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TJX_scan_low_cheat.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -859,8 +860,9 @@
       ],
       "siblingHint": "TAP／BF-B／DEO 與 STZ 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/STZ_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/STZ_scan_low_cheat.png",
+      "patternScore": 94.0
     },
     {
       "bot": "Grok",
@@ -1041,8 +1043,9 @@
       ],
       "siblingHint": "SO／ED／CMS 與 DUK 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DUK_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/DUK_scan_low_cheat.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -1223,8 +1226,9 @@
       ],
       "siblingHint": "YUMC 與 HTHT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/HTHT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/HTHT_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -1405,8 +1409,9 @@
       ],
       "siblingHint": "DUK／CMS／WEC 與 SO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SO_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/SO_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -1587,8 +1592,9 @@
       ],
       "siblingHint": "KO／MNST／PG 與 CCEP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CCEP_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CCEP_scan_low_cheat.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -1769,8 +1775,9 @@
       ],
       "siblingHint": "GGG／ODFL／IR 與 UNP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/UNP_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/UNP_scan_low_cheat.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -1951,8 +1958,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ZTS_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ZTS_scan_low_cheat.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -2133,8 +2141,9 @@
       ],
       "siblingHint": "COST 與 WMT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/WMT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/WMT_scan_low_cheat.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -2315,8 +2324,9 @@
       ],
       "siblingHint": "KMI／TRGP／TRP 與 WMB 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/WMB_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/WMB_scan_low_cheat.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -2497,8 +2507,9 @@
       ],
       "siblingHint": "SO／WEC／DUK 與 AEP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AEP_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/AEP_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -2663,8 +2674,9 @@
       ],
       "siblingHint": "AEE／LNT／CMS 與 WEC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/WEC_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/WEC_scan_low_cheat.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -2845,8 +2857,9 @@
       ],
       "siblingHint": "PEG／OGE／NI 與 SRE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SRE_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/SRE_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -3027,8 +3040,9 @@
       ],
       "siblingHint": "CL／KO／PG 與 MDLZ 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/MDLZ_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/MDLZ_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -3209,8 +3223,9 @@
       ],
       "siblingHint": "DUK／PPL／SO 與 EXC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/EXC_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/EXC_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -3391,8 +3406,9 @@
       ],
       "siblingHint": "OGE／LNT／PNW 與 EVRG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/EVRG_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/EVRG_scan_low_cheat.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -3573,8 +3589,9 @@
       ],
       "siblingHint": "AEE／WEC／CMS 與 LNT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/LNT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/LNT_scan_low_cheat.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -3755,8 +3772,9 @@
       ],
       "siblingHint": "LNT／AEE／OGE 與 XEL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/XEL_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/XEL_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -3937,8 +3955,9 @@
       ],
       "siblingHint": "EXC／AEE／CMS 與 PPL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PPL_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/PPL_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -4119,8 +4138,9 @@
       ],
       "siblingHint": "KO／MDLZ 與 KDP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/KDP_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/KDP_scan_low_cheat.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -4305,8 +4325,9 @@
       ],
       "siblingHint": "ONON／VFC／BIRK 與 DECK 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DECK_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/DECK_scan_low_cheat.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -4487,8 +4508,9 @@
       ],
       "siblingHint": "APLE／HST／PK 與 OUT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/OUT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/OUT_scan_low_cheat.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -4669,8 +4691,9 @@
       ],
       "siblingHint": "TAK 與 HLN 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/HLN_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/HLN_scan_low_cheat.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -4851,8 +4874,9 @@
       ],
       "siblingHint": "NI／AEE／OGE 與 ETR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ETR_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ETR_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -5017,8 +5041,9 @@
       ],
       "siblingHint": "PPL／EXC／CMS 與 FE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/FE_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/FE_scan_low_cheat.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -5199,8 +5224,9 @@
       ],
       "siblingHint": "AEE／WEC／LNT 與 CNP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CNP_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CNP_scan_low_cheat.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -5381,8 +5407,9 @@
       ],
       "siblingHint": "AEE／LNT／PNW 與 OGE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/OGE_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/OGE_scan_low_cheat.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -5559,8 +5586,9 @@
       ],
       "siblingHint": "REXR／APLE／HST 與 KRC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/KRC_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/KRC_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -5754,8 +5782,9 @@
       ],
       "siblingHint": "PFE／AMGN 與 RHHBY 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/RHHBY_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/RHHBY_scan_low_cheat.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -5924,8 +5953,9 @@
       ],
       "siblingHint": "HLT／HST／APLE 與 MAR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/MAR_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/MAR_scan_low_cheat.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -6110,8 +6140,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SRAD_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/SRAD_scan_low_cheat.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -6292,8 +6323,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/YUM_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/YUM_scan_low_cheat.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -6487,8 +6519,9 @@
       ],
       "siblingHint": "KR 與 ACI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ACI_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ACI_scan_low_cheat.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -6669,8 +6702,9 @@
       ],
       "siblingHint": "LNT／AEE／OGE 與 PNW 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PNW_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/PNW_scan_low_cheat.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -6851,8 +6885,9 @@
       ],
       "siblingHint": "VFC／DOV／EMR 與 HAS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/HAS_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/HAS_scan_low_cheat.png",
+      "patternScore": 87.0
     },
     {
       "bot": "Grok",
@@ -7046,7 +7081,8 @@
       "siblingHint": "ADSK／BSY／PCOR 與 PTC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/PTC_scan_bull_flag.png"
+      "chartPng": "data/charts/PTC_scan_bull_flag.png",
+      "patternScore": 123.0
     },
     {
       "bot": "Grok",
@@ -7227,8 +7263,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BZ_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/BZ_scan_low_cheat.png",
+      "patternScore": 86.0
     },
     {
       "bot": "Grok",
@@ -7409,8 +7446,9 @@
       ],
       "siblingHint": "CB／ACGL／WRB 與 PGR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PGR_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/PGR_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -7604,8 +7642,9 @@
       ],
       "siblingHint": "CB／ACGL／WRB 與 TRV 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TRV_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TRV_scan_low_cheat.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -7786,8 +7825,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TSN_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TSN_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -7970,8 +8010,9 @@
       ],
       "siblingHint": "GEHC／RVTY／BDX 與 BAX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BAX_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/BAX_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -8152,8 +8193,9 @@
       ],
       "siblingHint": "AEE／ETR／OGE 與 NI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/NI_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/NI_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -8338,8 +8380,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PODD_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/PODD_scan_low_cheat.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -8533,8 +8576,9 @@
       ],
       "siblingHint": "WMB／KMI 與 TRP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TRP_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TRP_scan_low_cheat.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -8728,8 +8772,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ORLY_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ORLY_scan_low_cheat.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -8910,8 +8955,9 @@
       ],
       "siblingHint": "NDAQ／ICE／MA 與 SPGI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SPGI_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/SPGI_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -9092,8 +9138,9 @@
       ],
       "siblingHint": "RRC／EQT／OVV 與 AR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AR_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/AR_scan_low_cheat.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -9270,8 +9317,9 @@
       ],
       "siblingHint": "FRSH／ADSK／OTEX 與 SAP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SAP_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/SAP_scan_triple_bottom.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -9465,8 +9513,9 @@
       ],
       "siblingHint": "ACGL／TRV／WRB 與 CB 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CB_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CB_scan_low_cheat.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -9647,8 +9696,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ZTO_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ZTO_scan_low_cheat.png",
+      "patternScore": 91.0
     },
     {
       "bot": "Grok",
@@ -9829,8 +9879,9 @@
       ],
       "siblingHint": "RRC／AR／KMI 與 EQT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/EQT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/EQT_scan_low_cheat.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -10011,8 +10062,9 @@
       ],
       "siblingHint": "RRC／AR／EQT 與 CNX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CNX_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CNX_scan_low_cheat.png",
+      "patternScore": 95.0
     },
     {
       "bot": "Grok",
@@ -10193,8 +10245,9 @@
       ],
       "siblingHint": "CCI／SUI 與 AMT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AMT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/AMT_scan_low_cheat.png",
+      "patternScore": 104.0
     },
     {
       "bot": "Grok",
@@ -10375,8 +10428,9 @@
       ],
       "siblingHint": "CNC／HUM／CI 與 ELV 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ELV_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ELV_scan_low_cheat.png",
+      "patternScore": 94.0
     },
     {
       "bot": "Grok",
@@ -10557,8 +10611,9 @@
       ],
       "siblingHint": "TRV／CB／ACGL 與 WRB 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/WRB_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/WRB_scan_low_cheat.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -10740,8 +10795,9 @@
       ],
       "siblingHint": "WMB／TRGP／LNG 與 KMI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/KMI_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/KMI_scan_triple_bottom.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -10927,8 +10983,9 @@
       ],
       "siblingHint": "RVTY／TMO／DHR 與 QGEN 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/QGEN_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/QGEN_scan_triple_bottom.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -11109,8 +11166,9 @@
       ],
       "siblingHint": "MAR／WH／APLE 與 HLT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/HLT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/HLT_scan_low_cheat.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -11291,8 +11349,9 @@
       ],
       "siblingHint": "ACGL／TRV／CB 與 AFL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AFL_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/AFL_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -11450,8 +11509,9 @@
       ],
       "siblingHint": "LNT／WEC／AEE 與 ATO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ATO_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ATO_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -11636,8 +11696,9 @@
       ],
       "siblingHint": "PCG／SRE 與 EIX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/EIX_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/EIX_scan_low_cheat.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -11818,8 +11879,9 @@
       ],
       "siblingHint": "PM／MO／UL 與 BTI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BTI_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/BTI_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -12000,8 +12062,9 @@
       ],
       "siblingHint": "VLTO／RSG／GGG 與 CTAS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CTAS_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CTAS_scan_low_cheat.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -12182,8 +12245,9 @@
       ],
       "siblingHint": "CB／TRV／AFL 與 ACGL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ACGL_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ACGL_scan_low_cheat.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -12377,8 +12441,9 @@
       ],
       "siblingHint": "DVN／COP／OVV 與 EOG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/EOG_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/EOG_scan_low_cheat.png",
+      "patternScore": 96.0
     },
     {
       "bot": "Grok",
@@ -12572,8 +12637,9 @@
       ],
       "siblingHint": "FANG／PR／OVV 與 VNOM 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/VNOM_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/VNOM_scan_low_cheat.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -12767,8 +12833,9 @@
       ],
       "siblingHint": "KNTK／OVV／PR 與 TRGP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TRGP_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/TRGP_scan_triple_bottom.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -12962,8 +13029,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/RBA_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/RBA_scan_low_cheat.png",
+      "patternScore": 104.0
     },
     {
       "bot": "Grok",
@@ -13144,7 +13212,8 @@
       "siblingHint": "FORM／COHU／ENTG 與 ASX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/ASX_scan_bull_flag.png"
+      "chartPng": "data/charts/ASX_scan_bull_flag.png",
+      "patternScore": 113.0
     },
     {
       "bot": "Grok",
@@ -13325,8 +13394,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/LAUR_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/LAUR_scan_low_cheat.png",
+      "patternScore": 95.0
     },
     {
       "bot": "Grok",
@@ -13507,8 +13577,9 @@
       ],
       "siblingHint": "BF-B／TAP／BUD 與 DEO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DEO_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/DEO_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -13689,8 +13760,9 @@
       ],
       "siblingHint": "PFGC 與 USFD 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/USFD_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/USFD_scan_low_cheat.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -13872,8 +13944,9 @@
       ],
       "siblingHint": "SHEL／TTE／CVX 與 BP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BP_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/BP_scan_triple_bottom.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -14041,8 +14114,9 @@
       ],
       "siblingHint": "TRMB／FRSH／SHOP 與 TOST 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TOST_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TOST_scan_low_cheat.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -14223,8 +14297,9 @@
       ],
       "siblingHint": "PDD／BABA 與 VIPS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/VIPS_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/VIPS_scan_triple_bottom.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -14405,8 +14480,9 @@
       ],
       "siblingHint": "PK／APLE／MAR 與 HST 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/HST_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/HST_scan_low_cheat.png",
+      "patternScore": 111.0
     },
     {
       "bot": "Grok",
@@ -14587,8 +14663,9 @@
       ],
       "siblingHint": "PM／BTI 與 MO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/MO_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/MO_scan_low_cheat.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -14769,8 +14846,9 @@
       ],
       "siblingHint": "ELV／OSCR 與 CNC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CNC_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CNC_scan_low_cheat.png",
+      "patternScore": 94.0
     },
     {
       "bot": "Grok",
@@ -14964,8 +15042,9 @@
       ],
       "siblingHint": "PR／FANG／DVN 與 OVV 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/OVV_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/OVV_scan_low_cheat.png",
+      "patternScore": 94.0
     },
     {
       "bot": "Grok",
@@ -15146,7 +15225,8 @@
       "siblingHint": "DKS／VFC／WSM 與 ASO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/ASO_scan_bull_flag.png"
+      "chartPng": "data/charts/ASO_scan_bull_flag.png",
+      "patternScore": 116.0
     },
     {
       "bot": "Grok",
@@ -15327,8 +15407,9 @@
       ],
       "siblingHint": "A／SYK／RVTY 與 GEHC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/GEHC_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/GEHC_scan_low_cheat.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -15509,8 +15590,9 @@
       ],
       "siblingHint": "TRI／VRSK 與 RELX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/RELX_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/RELX_scan_low_cheat.png",
+      "patternScore": 96.0
     },
     {
       "bot": "Grok",
@@ -15691,8 +15773,9 @@
       ],
       "siblingHint": "BOX／DOCU／OTEX 與 DBX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DBX_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/DBX_scan_low_cheat.png",
+      "patternScore": 104.0
     },
     {
       "bot": "Grok",
@@ -15872,8 +15955,9 @@
       ],
       "siblingHint": "DINO／PBF／VLO 與 DK 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DK_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/DK_scan_bull_flag.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -16054,8 +16138,9 @@
       ],
       "siblingHint": "RELX／VRSK 與 TRI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TRI_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TRI_scan_low_cheat.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -16248,8 +16333,9 @@
       ],
       "siblingHint": "XP／INTR／ITUB 與 NU 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/NU_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/NU_scan_bull_flag.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -16431,8 +16517,9 @@
       ],
       "siblingHint": "CAH 與 COR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/COR_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/COR_scan_triple_bottom.png",
+      "patternScore": 88.0
     },
     {
       "bot": "Grok",
@@ -16613,8 +16700,9 @@
       ],
       "siblingHint": "SHOO／WSM／SN 與 VFC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/VFC_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/VFC_scan_low_cheat.png",
+      "patternScore": 84.0
     },
     {
       "bot": "Grok",
@@ -16795,8 +16883,9 @@
       ],
       "siblingHint": "NDAQ 與 PYPL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PYPL_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/PYPL_scan_triple_bottom.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -16977,8 +17066,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/RDY_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/RDY_scan_low_cheat.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -17159,8 +17249,9 @@
       ],
       "siblingHint": "LUV／DOV／AME 與 AER 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AER_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/AER_scan_low_cheat.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -17353,7 +17444,8 @@
       "siblingHint": "SPGI／ICE／MET 與 NDAQ 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/NDAQ_scan_VCP.png"
+      "chartPng": "data/charts/NDAQ_scan_VCP.png",
+      "patternScore": 135.0
     },
     {
       "bot": "Grok",
@@ -17523,7 +17615,8 @@
       "siblingHint": "NCLH／RCL／LUV 與 CCL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/CCL_scan_bull_flag.png"
+      "chartPng": "data/charts/CCL_scan_bull_flag.png",
+      "patternScore": 114.0
     },
     {
       "bot": "Grok",
@@ -17704,8 +17797,9 @@
       ],
       "siblingHint": "ODFL／DOV／TREX 與 GXO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/GXO_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/GXO_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -17882,8 +17976,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DLO_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/DLO_scan_low_cheat.png",
+      "patternScore": 94.0
     },
     {
       "bot": "Grok",
@@ -18077,8 +18172,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/KVUE_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/KVUE_scan_low_cheat.png",
+      "patternScore": 111.0
     },
     {
       "bot": "Grok",
@@ -18259,8 +18355,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TME_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TME_scan_low_cheat.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -18441,8 +18538,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/YMM_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/YMM_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -18636,8 +18734,9 @@
       ],
       "siblingHint": "PG／CHD／KO 與 CL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CL_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CL_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -18818,8 +18917,9 @@
       ],
       "siblingHint": "WEC／LNT／AEE 與 CMS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CMS_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CMS_scan_low_cheat.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -19000,8 +19100,9 @@
       ],
       "siblingHint": "LNT／WEC／OGE 與 AEE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AEE_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/AEE_scan_low_cheat.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -19195,8 +19296,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/UGI_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/UGI_scan_low_cheat.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -19377,8 +19479,9 @@
       ],
       "siblingHint": "SYK 與 SNN 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SNN_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/SNN_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -19559,8 +19662,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AHR_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/AHR_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -19754,8 +19858,9 @@
       ],
       "siblingHint": "TRI／RELX／RSG 與 VRSK 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/VRSK_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/VRSK_scan_low_cheat.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -19936,8 +20041,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CART_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CART_scan_low_cheat.png",
+      "patternScore": 104.0
     },
     {
       "bot": "Grok",
@@ -20118,8 +20224,9 @@
       ],
       "siblingHint": "RIG／OVV／APA 與 VAL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/VAL_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/VAL_scan_low_cheat.png",
+      "patternScore": 96.0
     },
     {
       "bot": "Grok",
@@ -20300,8 +20407,9 @@
       ],
       "siblingHint": "AMT 與 SUI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SUI_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/SUI_scan_low_cheat.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -20484,7 +20592,8 @@
       "siblingHint": "FRSH／DOCU／DBX 與 BOX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/BOX_scan_VCP.png"
+      "chartPng": "data/charts/BOX_scan_VCP.png",
+      "patternScore": 135.0
     },
     {
       "bot": "Grok",
@@ -20674,8 +20783,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/VEEV_scan_ascending_base.png"
+      "techPass": false,
+      "chartPng": "data/charts/VEEV_scan_ascending_base.png",
+      "patternScore": 86.0
     },
     {
       "bot": "Grok",
@@ -20856,8 +20966,9 @@
       ],
       "siblingHint": "HLT／MAR／APLE 與 WH 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/WH_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/WH_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -21051,8 +21162,9 @@
       ],
       "siblingHint": "CXW 與 GEO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/GEO_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/GEO_scan_triple_bottom.png",
+      "patternScore": 87.0
     },
     {
       "bot": "Grok",
@@ -21233,8 +21345,9 @@
       ],
       "siblingHint": "PR／OVV／DVN 與 FANG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/FANG_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/FANG_scan_low_cheat.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -21403,8 +21516,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/OCTV_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/OCTV_scan_bull_flag.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -21585,8 +21699,9 @@
       ],
       "siblingHint": "OVV／PR／SHEL 與 TS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TS_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TS_scan_low_cheat.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -21767,8 +21882,9 @@
       ],
       "siblingHint": "SNAP 與 PINS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PINS_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/PINS_scan_low_cheat.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -21954,8 +22070,9 @@
       ],
       "siblingHint": "ASO／WSM／VFC 與 DKS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DKS_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/DKS_scan_bull_flag.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -22149,8 +22266,9 @@
       ],
       "siblingHint": "APLE／KRC／HST 與 REXR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/REXR_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/REXR_scan_low_cheat.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -22331,8 +22449,9 @@
       ],
       "siblingHint": "VAL／OVV／APA 與 RIG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/RIG_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/RIG_scan_low_cheat.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -22513,8 +22632,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/NAVN_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/NAVN_scan_low_cheat.png",
+      "patternScore": 96.0
     },
     {
       "bot": "Grok",
@@ -22695,8 +22815,9 @@
       ],
       "siblingHint": "TRMB／KVYO／NTAP 與 CDW 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CDW_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CDW_scan_low_cheat.png",
+      "patternScore": 93.0
     },
     {
       "bot": "Grok",
@@ -22879,7 +23000,8 @@
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/BWIN_scan_bull_flag.png"
+      "chartPng": "data/charts/BWIN_scan_bull_flag.png",
+      "patternScore": 112.0
     },
     {
       "bot": "Grok",
@@ -23055,8 +23177,9 @@
       ],
       "siblingHint": "WSM／VFC／CCL 與 SN 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SN_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/SN_scan_bull_flag.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -23237,8 +23360,9 @@
       ],
       "siblingHint": "FRSH／ADSK／TRMB 與 OTEX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/OTEX_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/OTEX_scan_low_cheat.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -23419,8 +23543,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ETSY_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ETSY_scan_low_cheat.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -23601,8 +23726,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/COCO_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/COCO_scan_low_cheat.png",
+      "patternScore": 92.0
     },
     {
       "bot": "Grok",
@@ -23796,7 +23922,8 @@
       "siblingHint": "FRO／DHT／CMBT 與 TRMD 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/TRMD_scan_bull_flag.png"
+      "chartPng": "data/charts/TRMD_scan_bull_flag.png",
+      "patternScore": 112.0
     },
     {
       "bot": "Grok",
@@ -23962,8 +24089,9 @@
       ],
       "siblingHint": "ACN／ADP／SSNC 與 EXLS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/EXLS_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/EXLS_scan_low_cheat.png",
+      "patternScore": 86.0
     },
     {
       "bot": "Grok",
@@ -24144,8 +24272,9 @@
       ],
       "siblingHint": "DOCU／RNG／FRSH 與 ZM 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ZM_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ZM_scan_low_cheat.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -24326,8 +24455,9 @@
       ],
       "siblingHint": "AFRM 與 KLAR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/KLAR_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/KLAR_scan_low_cheat.png",
+      "patternScore": 95.0
     },
     {
       "bot": "Grok",
@@ -24496,8 +24626,9 @@
       ],
       "siblingHint": "EMR／GGG／DOV 與 IR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/IR_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/IR_scan_low_cheat.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -24662,8 +24793,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/WAY_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/WAY_scan_bull_flag.png",
+      "patternScore": 103.0
     },
     {
       "bot": "Grok",
@@ -24848,8 +24980,9 @@
       ],
       "siblingHint": "SN／ONON／CCL 與 AS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AS_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/AS_scan_low_cheat.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -25026,8 +25159,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PSN_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/PSN_scan_low_cheat.png",
+      "patternScore": 104.0
     },
     {
       "bot": "Grok",
@@ -25208,8 +25342,9 @@
       ],
       "siblingHint": "PDD／BEKE／VIPS 與 BABA 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BABA_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/BABA_scan_low_cheat.png",
+      "patternScore": 101.0
     },
     {
       "bot": "Grok",
@@ -25397,8 +25532,9 @@
       ],
       "siblingHint": "ECL 與 IFF 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/IFF_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/IFF_scan_triple_bottom.png",
+      "patternScore": 87.0
     },
     {
       "bot": "Grok",
@@ -25579,8 +25715,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/FRPT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/FRPT_scan_low_cheat.png",
+      "patternScore": 103.0
     },
     {
       "bot": "Grok",
@@ -25774,8 +25911,9 @@
       ],
       "siblingHint": "TRGP／OVV／PR 與 KNTK 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/KNTK_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/KNTK_scan_low_cheat.png",
+      "patternScore": 95.0
     },
     {
       "bot": "Grok",
@@ -25956,8 +26094,9 @@
       ],
       "siblingHint": "IR／RXO／GGG 與 ODFL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ODFL_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ODFL_scan_low_cheat.png",
+      "patternScore": 101.0
     },
     {
       "bot": "Grok",
@@ -26138,8 +26277,9 @@
       ],
       "siblingHint": "ACGL／CB／AFL 與 MRSH 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/MRSH_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/MRSH_scan_low_cheat.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -26325,8 +26465,9 @@
       ],
       "siblingHint": "DECK／ONON／AS 與 BIRK 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BIRK_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/BIRK_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -26484,8 +26625,9 @@
       ],
       "siblingHint": "SNOW／DDOG／NOW 與 MDB 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/MDB_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/MDB_scan_low_cheat.png",
+      "patternScore": 85.0
     },
     {
       "bot": "Grok",
@@ -26673,8 +26815,9 @@
       ],
       "siblingHint": "SYK 與 ISRG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ISRG_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/ISRG_scan_triple_bottom.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -26850,8 +26993,9 @@
       ],
       "siblingHint": "FRSH／SHOP 與 U 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/U_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/U_scan_bull_flag.png",
+      "patternScore": 95.0
     },
     {
       "bot": "Grok",
@@ -27032,8 +27176,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/WSE_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/WSE_scan_low_cheat.png",
+      "patternScore": 96.0
     },
     {
       "bot": "Grok",
@@ -27214,8 +27359,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/INDV_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/INDV_scan_low_cheat.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -27396,8 +27542,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/UBER_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/UBER_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -27574,8 +27721,9 @@
       ],
       "siblingHint": "BABA／VIPS 與 PDD 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PDD_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/PDD_scan_low_cheat.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -27756,8 +27904,9 @@
       ],
       "siblingHint": "CCEP 與 MNST 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/MNST_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/MNST_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -27937,8 +28086,9 @@
       ],
       "siblingHint": "SBS／CSANY／UGP 與 CIG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CIG_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/CIG_scan_bull_flag.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -28120,8 +28270,9 @@
       ],
       "siblingHint": "V／MET／AFL 與 MA 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/MA_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/MA_scan_triple_bottom.png",
+      "patternScore": 78.0
     },
     {
       "bot": "Grok",
@@ -28302,8 +28453,9 @@
       ],
       "siblingHint": "VFC／SHOO／ELF 與 EL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/EL_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/EL_scan_low_cheat.png",
+      "patternScore": 94.0
     },
     {
       "bot": "Grok",
@@ -28484,8 +28636,9 @@
       ],
       "siblingHint": "FRSH／TRMB／ADSK 與 PCOR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PCOR_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/PCOR_scan_low_cheat.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -28667,8 +28820,9 @@
       ],
       "siblingHint": "DT／FRSH／ESTC 與 NTNX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/NTNX_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/NTNX_scan_bull_flag.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -28834,8 +28988,9 @@
       ],
       "siblingHint": "TECK 與 FCX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/FCX_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/FCX_scan_low_cheat.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -29017,8 +29172,9 @@
       ],
       "siblingHint": "BRZE／FRSH／KVYO 與 DOCU 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DOCU_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/DOCU_scan_bull_flag.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -29199,8 +29355,9 @@
       ],
       "siblingHint": "ECL 與 LIN 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/LIN_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/LIN_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -29381,8 +29538,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TSCO_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TSCO_scan_low_cheat.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -29564,8 +29722,9 @@
       ],
       "siblingHint": "TRGP／KMI／WMB 與 LNG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/LNG_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/LNG_scan_triple_bottom.png",
+      "patternScore": 88.0
     },
     {
       "bot": "Grok",
@@ -29750,8 +29909,9 @@
       ],
       "siblingHint": "USFD／CCL 與 PFGC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PFGC_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/PFGC_scan_low_cheat.png",
+      "patternScore": 101.0
     },
     {
       "bot": "Grok",
@@ -29945,8 +30105,9 @@
       ],
       "siblingHint": "WMG 與 UNVGY 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/UNVGY_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/UNVGY_scan_low_cheat.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -30117,8 +30278,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CORT_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/CORT_scan_bull_flag.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -30299,8 +30461,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DG_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/DG_scan_low_cheat.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -30440,7 +30603,8 @@
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/TXNM_scan_VCP.png"
+      "chartPng": "data/charts/TXNM_scan_VCP.png",
+      "patternScore": 120.0
     },
     {
       "bot": "Grok",
@@ -30621,8 +30785,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/OPLN_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/OPLN_scan_low_cheat.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -30803,7 +30968,8 @@
       "siblingHint": "VST／MWH／GEV 與 SEI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/SEI_scan_bull_flag.png"
+      "chartPng": "data/charts/SEI_scan_bull_flag.png",
+      "patternScore": 142.0
     },
     {
       "bot": "Grok",
@@ -30985,8 +31151,9 @@
       ],
       "siblingHint": "BP／TTE／COP 與 SHEL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SHEL_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/SHEL_scan_triple_bottom.png",
+      "patternScore": 77.0
     },
     {
       "bot": "Grok",
@@ -31177,7 +31344,8 @@
       "siblingHint": "GGG／IR／ODFL 與 FAST 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/FAST_scan_ascending_base.png"
+      "chartPng": "data/charts/FAST_scan_ascending_base.png",
+      "patternScore": 95.0
     },
     {
       "bot": "Grok",
@@ -31343,8 +31511,9 @@
       ],
       "siblingHint": "CLF／GGB 與 NUE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/NUE_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/NUE_scan_low_cheat.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -31530,8 +31699,9 @@
       ],
       "siblingHint": "CL／CHD／UL 與 PG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PG_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/PG_scan_triple_bottom.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -31699,8 +31869,9 @@
       ],
       "siblingHint": "HTHT 與 YUMC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/YUMC_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/YUMC_scan_low_cheat.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -31881,8 +32052,9 @@
       ],
       "siblingHint": "NOW／TEAM 與 INTU 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/INTU_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/INTU_scan_low_cheat.png",
+      "patternScore": 86.0
     },
     {
       "bot": "Grok",
@@ -32051,8 +32223,9 @@
       ],
       "siblingHint": "JCI／AME／NVT 與 TT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TT_scan_low_cheat.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -32240,8 +32413,9 @@
       ],
       "siblingHint": "CNC 與 OSCR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/OSCR_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/OSCR_scan_triple_bottom.png",
+      "patternScore": 89.0
     },
     {
       "bot": "Grok",
@@ -32422,8 +32596,9 @@
       ],
       "siblingHint": "KR 與 BJ 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BJ_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/BJ_scan_triple_bottom.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -32617,7 +32792,8 @@
       "siblingHint": "BBD／XP／INTR 與 ITUB 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/ITUB_scan_bull_flag.png"
+      "chartPng": "data/charts/ITUB_scan_bull_flag.png",
+      "patternScore": 120.0
     },
     {
       "bot": "Grok",
@@ -32811,8 +32987,9 @@
       ],
       "siblingHint": "IR／EMR／AME 與 GGG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/GGG_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/GGG_scan_triple_bottom.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -32993,8 +33170,9 @@
       ],
       "siblingHint": "ABEV／DEO 與 BUD 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BUD_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/BUD_scan_low_cheat.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -33165,8 +33343,9 @@
       ],
       "siblingHint": "BABA 與 BEKE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BEKE_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/BEKE_scan_low_cheat.png",
+      "patternScore": 94.0
     },
     {
       "bot": "Grok",
@@ -33335,8 +33514,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/RELY_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/RELY_scan_bull_flag.png",
+      "patternScore": 101.0
     },
     {
       "bot": "Grok",
@@ -33518,8 +33698,9 @@
       ],
       "siblingHint": "OVV／FANG／EOG 與 DVN 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DVN_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/DVN_scan_triple_bottom.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -33700,8 +33881,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CNK_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CNK_scan_low_cheat.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -33881,8 +34063,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/EXEL_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/EXEL_scan_bull_flag.png",
+      "patternScore": 95.0
     },
     {
       "bot": "Grok",
@@ -34059,8 +34242,9 @@
       ],
       "siblingHint": "ESI 與 SOLS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SOLS_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/SOLS_scan_low_cheat.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -34241,8 +34425,9 @@
       ],
       "siblingHint": "TRMB 與 FTV 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/FTV_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/FTV_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -34394,7 +34579,8 @@
       "siblingHint": "ODFL／EXPD／EMR 與 RXO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/RXO_scan_bull_flag.png"
+      "chartPng": "data/charts/RXO_scan_bull_flag.png",
+      "patternScore": 123.0
     },
     {
       "bot": "Grok",
@@ -34575,8 +34761,9 @@
       ],
       "siblingHint": "ELV／BAX 與 CI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CI_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CI_scan_low_cheat.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -34753,8 +34940,9 @@
       ],
       "siblingHint": "COR 與 CAH 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CAH_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CAH_scan_low_cheat.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -34940,8 +35128,9 @@
       ],
       "siblingHint": "AME／IR／DOV 與 EMR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/EMR_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/EMR_scan_bull_flag.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -35123,8 +35312,9 @@
       ],
       "siblingHint": "CSANY／CIG／SBS 與 UGP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/UGP_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/UGP_scan_bull_flag.png",
+      "patternScore": 96.0
     },
     {
       "bot": "Grok",
@@ -35307,8 +35497,9 @@
       ],
       "siblingHint": "ADP 與 CHKP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CHKP_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CHKP_scan_low_cheat.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -35489,8 +35680,9 @@
       ],
       "siblingHint": "VST／GEV／SEI 與 TAC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TAC_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TAC_scan_low_cheat.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -35680,8 +35872,9 @@
       ],
       "siblingHint": "MPC／VLO／DINO 與 PSX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PSX_scan_ascending_base.png"
+      "techPass": false,
+      "chartPng": "data/charts/PSX_scan_ascending_base.png",
+      "patternScore": 82.0
     },
     {
       "bot": "Grok",
@@ -35850,8 +36043,9 @@
       ],
       "siblingHint": "WSM／PK 與 CAKE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CAKE_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/CAKE_scan_bull_flag.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -36031,8 +36225,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CLMT_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/CLMT_scan_bull_flag.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -36213,8 +36408,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/GMED_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/GMED_scan_triple_bottom.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -36408,8 +36604,9 @@
       ],
       "siblingHint": "MGNI／META 與 RDDT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/RDDT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/RDDT_scan_low_cheat.png",
+      "patternScore": 104.0
     },
     {
       "bot": "Grok",
@@ -36556,7 +36753,8 @@
       "siblingHint": "SNOW／MDB／NOW 與 DDOG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/DDOG_scan_VCP.png"
+      "chartPng": "data/charts/DDOG_scan_VCP.png",
+      "patternScore": 135.0
     },
     {
       "bot": "Grok",
@@ -36716,7 +36914,8 @@
       "siblingHint": "AMGN／BIIB／ABBV 與 PFE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/PFE_scan_VCP.png"
+      "chartPng": "data/charts/PFE_scan_VCP.png",
+      "patternScore": 135.0
     },
     {
       "bot": "Grok",
@@ -36897,7 +37096,8 @@
       "siblingHint": "WSM／GAP／SHOO 與 AEO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/AEO_scan_bull_flag.png"
+      "chartPng": "data/charts/AEO_scan_bull_flag.png",
+      "patternScore": 112.0
     },
     {
       "bot": "Grok",
@@ -37079,8 +37279,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/JBS_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/JBS_scan_triple_bottom.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -37261,7 +37462,8 @@
       "siblingHint": "CDNS 與 SNPS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/SNPS_scan_bull_flag.png"
+      "chartPng": "data/charts/SNPS_scan_bull_flag.png",
+      "patternScore": 131.0
     },
     {
       "bot": "Grok",
@@ -37442,8 +37644,9 @@
       ],
       "siblingHint": "EMR／GTES／FPS 與 IRM 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/IRM_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/IRM_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -37624,7 +37827,8 @@
       "siblingHint": "GWRE／RBRK／DT 與 IOT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/IOT_scan_bull_flag.png"
+      "chartPng": "data/charts/IOT_scan_bull_flag.png",
+      "patternScore": 111.0
     },
     {
       "bot": "Grok",
@@ -37818,8 +38022,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/LLY_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/LLY_scan_low_cheat.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -38000,8 +38205,9 @@
       ],
       "siblingHint": "IR／AME／EMR 與 DOV 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DOV_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/DOV_scan_low_cheat.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -38195,8 +38401,9 @@
       ],
       "siblingHint": "AS／VFC／WSM 與 TPR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TPR_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TPR_scan_low_cheat.png",
+      "patternScore": 101.0
     },
     {
       "bot": "Grok",
@@ -38354,7 +38561,8 @@
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/OLLI_scan_bull_flag.png"
+      "chartPng": "data/charts/OLLI_scan_bull_flag.png",
+      "patternScore": 118.0
     },
     {
       "bot": "Grok",
@@ -38519,8 +38727,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TEVA_scan_ascending_base.png"
+      "techPass": false,
+      "chartPng": "data/charts/TEVA_scan_ascending_base.png",
+      "patternScore": 82.0
     },
     {
       "bot": "Grok",
@@ -38700,8 +38909,9 @@
       ],
       "siblingHint": "NOW／TEAM 與 ZETA 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ZETA_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/ZETA_scan_bull_flag.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -38881,8 +39091,9 @@
       ],
       "siblingHint": "RBRK／DT／GTLB 與 FROG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/FROG_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/FROG_scan_bull_flag.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -39068,8 +39279,9 @@
       ],
       "siblingHint": "PFE／BIIB／ABBV 與 AMGN 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AMGN_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/AMGN_scan_bull_flag.png",
+      "patternScore": 104.0
     },
     {
       "bot": "Grok",
@@ -39255,8 +39467,9 @@
       ],
       "siblingHint": "BSY／FRSH／PCOR 與 ADSK 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ADSK_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/ADSK_scan_bull_flag.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -39414,8 +39627,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/HIMS_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/HIMS_scan_low_cheat.png",
+      "patternScore": 103.0
     },
     {
       "bot": "Grok",
@@ -39595,8 +39809,9 @@
       ],
       "siblingHint": "BUD 與 ABEV 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ABEV_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/ABEV_scan_bull_flag.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -39777,8 +39992,9 @@
       ],
       "siblingHint": "TOST／FRSH 與 LYFT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/LYFT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/LYFT_scan_low_cheat.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -39947,8 +40163,9 @@
       ],
       "siblingHint": "WSM／SN／NCLH 與 W 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/W_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/W_scan_bull_flag.png",
+      "patternScore": 101.0
     },
     {
       "bot": "Grok",
@@ -40134,8 +40351,9 @@
       ],
       "siblingHint": "EMR／DOV／TT 與 AME 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AME_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/AME_scan_bull_flag.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -40295,7 +40513,8 @@
       "siblingHint": "HLN 與 TAK 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/TAK_scan_VCP.png"
+      "chartPng": "data/charts/TAK_scan_VCP.png",
+      "patternScore": 135.0
     },
     {
       "bot": "Grok",
@@ -40476,8 +40695,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SPOT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/SPOT_scan_low_cheat.png",
+      "patternScore": 93.0
     },
     {
       "bot": "Grok",
@@ -40643,8 +40863,9 @@
       ],
       "siblingHint": "EMR／WSM／IR 與 TREX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TREX_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/TREX_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -40832,8 +41053,9 @@
       ],
       "siblingHint": "KLAR／EQH／CRBG 與 AFRM 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AFRM_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/AFRM_scan_triple_bottom.png",
+      "patternScore": 89.0
     },
     {
       "bot": "Grok",
@@ -41014,8 +41236,9 @@
       ],
       "siblingHint": "ETR／NI／OGE 與 PEG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PEG_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/PEG_scan_low_cheat.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -41155,7 +41378,8 @@
       "siblingHint": "FRSH／ESTC／DT 與 GTLB 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/GTLB_scan_VCP.png"
+      "chartPng": "data/charts/GTLB_scan_VCP.png",
+      "patternScore": 135.0
     },
     {
       "bot": "Grok",
@@ -41332,8 +41556,9 @@
       ],
       "siblingHint": "UNVGY 與 WMG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/WMG_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/WMG_scan_triple_bottom.png",
+      "patternScore": 87.0
     },
     {
       "bot": "Grok",
@@ -41518,8 +41743,9 @@
       ],
       "siblingHint": "MDT／ISRG／GEHC 與 SYK 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SYK_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/SYK_scan_triple_bottom.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -41701,8 +41927,9 @@
       ],
       "siblingHint": "AMGN 與 GILD 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/GILD_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/GILD_scan_triple_bottom.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -41888,8 +42115,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CBC_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/CBC_scan_triple_bottom.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -42057,7 +42285,8 @@
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/GRAB_scan_bull_flag.png"
+      "chartPng": "data/charts/GRAB_scan_bull_flag.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -42238,8 +42467,9 @@
       ],
       "siblingHint": "ACI／BJ 與 KR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/KR_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/KR_scan_triple_bottom.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -42426,7 +42656,8 @@
       "siblingHint": "SU／EOG／OVV 與 CNQ 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/CNQ_scan_VCP.png"
+      "chartPng": "data/charts/CNQ_scan_VCP.png",
+      "patternScore": 135.0
     },
     {
       "bot": "Grok",
@@ -42607,7 +42838,8 @@
       "siblingHint": "TGB／CGAU 與 ERO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/ERO_scan_bull_flag.png"
+      "chartPng": "data/charts/ERO_scan_bull_flag.png",
+      "patternScore": 114.0
     },
     {
       "bot": "Grok",
@@ -42788,8 +43020,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BIPC_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/BIPC_scan_low_cheat.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -42977,8 +43210,9 @@
       ],
       "siblingHint": "MPC／VLO／PSX 與 DINO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DINO_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/DINO_scan_triple_bottom.png",
+      "patternScore": 77.0
     },
     {
       "bot": "Grok",
@@ -43172,8 +43406,9 @@
       ],
       "siblingHint": "CTAS／GGG 與 VLTO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/VLTO_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/VLTO_scan_triple_bottom.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -43342,8 +43577,9 @@
       ],
       "siblingHint": "WSM／PK／VFC 與 M 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/M_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/M_scan_bull_flag.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -43524,7 +43760,8 @@
       "siblingHint": "VTRS 與 AMRX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/AMRX_scan_bull_flag.png"
+      "chartPng": "data/charts/AMRX_scan_bull_flag.png",
+      "patternScore": 120.0
     },
     {
       "bot": "Grok",
@@ -43705,8 +43942,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ARQT_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ARQT_scan_low_cheat.png",
+      "patternScore": 93.0
     },
     {
       "bot": "Grok",
@@ -43899,8 +44137,9 @@
       ],
       "siblingHint": "EQH／MET／NDAQ 與 CRBG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CRBG_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/CRBG_scan_bull_flag.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -44081,8 +44320,9 @@
       ],
       "siblingHint": "EXTR／HPE／NTAP 與 CSCO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CSCO_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/CSCO_scan_low_cheat.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -44262,8 +44502,9 @@
       ],
       "siblingHint": "APH／JBL／KEYS 與 TEL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TEL_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/TEL_scan_bull_flag.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -44457,7 +44698,8 @@
       "siblingHint": "TMO／RVTY／DHR 與 A 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/A_scan_bull_flag.png"
+      "chartPng": "data/charts/A_scan_bull_flag.png",
+      "patternScore": 115.0
     },
     {
       "bot": "Grok",
@@ -44646,7 +44888,8 @@
       "siblingHint": "CME 與 CBOE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/CBOE_scan_VCP.png"
+      "chartPng": "data/charts/CBOE_scan_VCP.png",
+      "patternScore": 135.0
     },
     {
       "bot": "Grok",
@@ -44815,8 +45058,9 @@
       ],
       "siblingHint": "AME／JCI／EMR 與 APG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/APG_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/APG_scan_bull_flag.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -45006,8 +45250,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TAL_scan_ascending_base.png"
+      "techPass": false,
+      "chartPng": "data/charts/TAL_scan_ascending_base.png",
+      "patternScore": 80.0
     },
     {
       "bot": "Grok",
@@ -45201,8 +45446,9 @@
       ],
       "siblingHint": "DVN／APA／COP 與 OXY 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/OXY_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/OXY_scan_triple_bottom.png",
+      "patternScore": 88.0
     },
     {
       "bot": "Grok",
@@ -45383,7 +45629,8 @@
       "siblingHint": "FRSH／DOCU／KVYO 與 RNG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/RNG_scan_bull_flag.png"
+      "chartPng": "data/charts/RNG_scan_bull_flag.png",
+      "patternScore": 116.0
     },
     {
       "bot": "Grok",
@@ -45570,7 +45817,8 @@
       "siblingHint": "CCL／NCLH／LUV 與 RCL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/RCL_scan_bull_flag.png"
+      "chartPng": "data/charts/RCL_scan_bull_flag.png",
+      "patternScore": 116.0
     },
     {
       "bot": "Grok",
@@ -45750,8 +45998,9 @@
       ],
       "siblingHint": "TMO／A／RVTY 與 DHR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DHR_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/DHR_scan_bull_flag.png",
+      "patternScore": 105.0
     },
     {
       "bot": "Grok",
@@ -45939,8 +46188,9 @@
       ],
       "siblingHint": "SHEL／BP／EQNR 與 TTE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TTE_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/TTE_scan_triple_bottom.png",
+      "patternScore": 88.0
     },
     {
       "bot": "Grok",
@@ -46098,8 +46348,9 @@
       ],
       "siblingHint": "VFC／APLE／IR 與 ZGN 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ZGN_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ZGN_scan_low_cheat.png",
+      "patternScore": 100.0
     },
     {
       "bot": "Grok",
@@ -46280,8 +46531,9 @@
       ],
       "siblingHint": "GGG／IR／EMR 與 HON 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/HON_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/HON_scan_low_cheat.png",
+      "patternScore": 101.0
     },
     {
       "bot": "Grok",
@@ -46461,8 +46713,9 @@
       ],
       "siblingHint": "CIEN／LITE 與 ANET 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ANET_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/ANET_scan_bull_flag.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -46644,8 +46897,9 @@
       ],
       "siblingHint": "CTAS／GFL／VRSK 與 RSG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/RSG_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/RSG_scan_triple_bottom.png",
+      "patternScore": 78.0
     },
     {
       "bot": "Grok",
@@ -46831,8 +47085,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/MDLN_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/MDLN_scan_bull_flag.png",
+      "patternScore": 108.0
     },
     {
       "bot": "Grok",
@@ -47001,8 +47256,9 @@
       ],
       "siblingHint": "HPE／CDW／ENTG 與 INGM 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/INGM_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/INGM_scan_bull_flag.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -47188,8 +47444,9 @@
       ],
       "siblingHint": "W／VFC／SN 與 WSM 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/WSM_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/WSM_scan_bull_flag.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -47372,7 +47629,8 @@
       "siblingHint": "HPE／NTAP／FLEX 與 DELL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/DELL_scan_bull_flag.png"
+      "chartPng": "data/charts/DELL_scan_bull_flag.png",
+      "patternScore": 123.0
     },
     {
       "bot": "Grok",
@@ -47565,8 +47823,9 @@
       ],
       "siblingHint": "CRBG／MET／AFRM 與 EQH 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/EQH_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/EQH_scan_bull_flag.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -47747,8 +48006,9 @@
       ],
       "siblingHint": "DEO／STZ／TAP 與 BF-B 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BF-B_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/BF-B_scan_triple_bottom.png",
+      "patternScore": 101.0
     },
     {
       "bot": "Grok",
@@ -47929,7 +48189,8 @@
       "siblingHint": "TT／NVT／AME 與 JCI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/JCI_scan_bull_flag.png"
+      "chartPng": "data/charts/JCI_scan_bull_flag.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -48105,8 +48366,9 @@
       ],
       "siblingHint": "DOCU／PCOR／GTLB 與 FRSH 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/FRSH_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/FRSH_scan_bull_flag.png",
+      "patternScore": 84.0
     },
     {
       "bot": "Grok",
@@ -48287,7 +48549,8 @@
       "siblingHint": "JBL／TER／ENTG 與 KEYS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/KEYS_scan_bull_flag.png"
+      "chartPng": "data/charts/KEYS_scan_bull_flag.png",
+      "patternScore": 118.0
     },
     {
       "bot": "Grok",
@@ -48469,8 +48732,9 @@
       ],
       "siblingHint": "AMGN／PFE／BIIB 與 ABBV 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ABBV_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/ABBV_scan_triple_bottom.png",
+      "patternScore": 78.0
     },
     {
       "bot": "Grok",
@@ -48640,7 +48904,8 @@
       "siblingHint": "VFC／WSM／AEO 與 SHOO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/SHOO_scan_bull_flag.png"
+      "chartPng": "data/charts/SHOO_scan_bull_flag.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -48821,7 +49086,8 @@
       "siblingHint": "RDDT 與 MGNI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/MGNI_scan_bull_flag.png"
+      "chartPng": "data/charts/MGNI_scan_bull_flag.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -48991,7 +49257,8 @@
       "siblingHint": "ADSK／TRMB／PCOR 與 BSY 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/BSY_scan_bull_flag.png"
+      "chartPng": "data/charts/BSY_scan_bull_flag.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -49149,7 +49416,8 @@
       "siblingHint": "CRWD／PANW／ZS 與 S 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/S_scan_bull_flag.png"
+      "chartPng": "data/charts/S_scan_bull_flag.png",
+      "patternScore": 126.0
     },
     {
       "bot": "Grok",
@@ -49326,8 +49594,9 @@
       ],
       "siblingHint": "SYK／GEHC／MDT 與 RMD 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/RMD_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/RMD_scan_triple_bottom.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -49513,8 +49782,9 @@
       ],
       "siblingHint": "PCOR／BSY／FRSH 與 TRMB 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TRMB_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/TRMB_scan_triple_bottom.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -49700,8 +49970,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/YOU_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/YOU_scan_low_cheat.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -49889,8 +50160,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/EBAY_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/EBAY_scan_triple_bottom.png",
+      "patternScore": 101.0
     },
     {
       "bot": "Grok",
@@ -50084,8 +50356,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DIS_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/DIS_scan_triple_bottom.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -50272,7 +50545,8 @@
       "siblingHint": "SNAP 與 PPLI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/PPLI_scan_bull_flag.png"
+      "chartPng": "data/charts/PPLI_scan_bull_flag.png",
+      "patternScore": 112.0
     },
     {
       "bot": "Grok",
@@ -50453,7 +50727,8 @@
       "siblingHint": "RDDT 與 META 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/META_scan_bull_flag.png"
+      "chartPng": "data/charts/META_scan_bull_flag.png",
+      "patternScore": 131.0
     },
     {
       "bot": "Grok",
@@ -50641,8 +50916,9 @@
       ],
       "siblingHint": "FRSH／DOCU／ADSK 與 GDDY 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/GDDY_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/GDDY_scan_triple_bottom.png",
+      "patternScore": 89.0
     },
     {
       "bot": "Grok",
@@ -50828,8 +51104,9 @@
       ],
       "siblingHint": "IFF／LIN 與 ECL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ECL_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/ECL_scan_triple_bottom.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -51011,8 +51288,9 @@
       ],
       "siblingHint": "CB／ACGL／TRV 與 AIG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AIG_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/AIG_scan_triple_bottom.png",
+      "patternScore": 89.0
     },
     {
       "bot": "Grok",
@@ -51178,7 +51456,8 @@
       "siblingHint": "FRSH／DOCU／ADSK 與 WK 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/WK_scan_VCP.png"
+      "chartPng": "data/charts/WK_scan_VCP.png",
+      "patternScore": 135.0
     },
     {
       "bot": "Grok",
@@ -51348,7 +51627,8 @@
       "siblingHint": "VFC／AEO／WSM 與 VSXY 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/VSXY_scan_bull_flag.png"
+      "chartPng": "data/charts/VSXY_scan_bull_flag.png",
+      "patternScore": 118.0
     },
     {
       "bot": "Grok",
@@ -51536,8 +51816,9 @@
       ],
       "siblingHint": "OVV／PR／CNQ 與 BTE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BTE_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/BTE_scan_triple_bottom.png",
+      "patternScore": 88.0
     },
     {
       "bot": "Grok",
@@ -51700,7 +51981,8 @@
       "siblingHint": "PBF／DK／VLO 與 CVI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/CVI_scan_bull_flag.png"
+      "chartPng": "data/charts/CVI_scan_bull_flag.png",
+      "patternScore": 118.0
     },
     {
       "bot": "Grok",
@@ -51888,8 +52170,9 @@
       ],
       "siblingHint": "ELV 與 HUM 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/HUM_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/HUM_scan_triple_bottom.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -52071,8 +52354,9 @@
       ],
       "siblingHint": "WMT 與 COST 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/COST_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/COST_scan_triple_bottom.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -52258,8 +52542,9 @@
       ],
       "siblingHint": "HST／APLE／MAR 與 PK 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PK_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/PK_scan_triple_bottom.png",
+      "patternScore": 86.0
     },
     {
       "bot": "Grok",
@@ -52429,7 +52714,8 @@
       "siblingHint": "SNPS／TSM 與 CDNS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/CDNS_scan_bull_flag.png"
+      "chartPng": "data/charts/CDNS_scan_bull_flag.png",
+      "patternScore": 125.0
     },
     {
       "bot": "Grok",
@@ -52615,8 +52901,9 @@
       ],
       "siblingHint": "AFL／ACGL／TRV 與 BRK-B 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BRK-B_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/BRK-B_scan_triple_bottom.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -52804,8 +53091,9 @@
       ],
       "siblingHint": "PFE／AMGN／ABBV 與 BIIB 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BIIB_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/BIIB_scan_triple_bottom.png",
+      "patternScore": 88.0
     },
     {
       "bot": "Grok",
@@ -52992,7 +53280,8 @@
       "siblingHint": "GGG／ODFL 與 VVV 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/VVV_scan_bull_flag.png"
+      "chartPng": "data/charts/VVV_scan_bull_flag.png",
+      "patternScore": 113.0
     },
     {
       "bot": "Grok",
@@ -53161,8 +53450,9 @@
       ],
       "siblingHint": "JBL／MTSI／RMBS 與 FLEX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/FLEX_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/FLEX_scan_bull_flag.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -53342,8 +53632,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/RAL_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/RAL_scan_bull_flag.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -53529,8 +53820,9 @@
       ],
       "siblingHint": "DOV／AME／EMR 與 RRX 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/RRX_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/RRX_scan_bull_flag.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -53715,8 +54007,9 @@
       ],
       "siblingHint": "EIX／SRE／OGE 與 PCG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PCG_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/PCG_scan_low_cheat.png",
+      "patternScore": 85.0
     },
     {
       "bot": "Grok",
@@ -53898,8 +54191,9 @@
       ],
       "siblingHint": "AR／EQT／OVV 與 RRC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/RRC_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/RRC_scan_triple_bottom.png",
+      "patternScore": 86.0
     },
     {
       "bot": "Grok",
@@ -54069,7 +54363,8 @@
       "siblingHint": "SOLS 與 ESI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/ESI_scan_bull_flag.png"
+      "chartPng": "data/charts/ESI_scan_bull_flag.png",
+      "patternScore": 115.0
     },
     {
       "bot": "Grok",
@@ -54239,7 +54534,8 @@
       "siblingHint": "TXN／LRCX／KLAC 與 ADI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/ADI_scan_bull_flag.png"
+      "chartPng": "data/charts/ADI_scan_bull_flag.png",
+      "patternScore": 114.0
     },
     {
       "bot": "Grok",
@@ -54427,8 +54723,9 @@
       ],
       "siblingHint": "CBOE／TW／ICE 與 CME 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CME_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/CME_scan_triple_bottom.png",
+      "patternScore": 77.0
     },
     {
       "bot": "Grok",
@@ -54614,8 +54911,9 @@
       ],
       "siblingHint": "BRZE／GWRE／IOT 與 TTAN 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TTAN_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/TTAN_scan_bull_flag.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -54797,8 +55095,9 @@
       ],
       "siblingHint": "CL／PG／UL 與 CHD 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CHD_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/CHD_scan_triple_bottom.png",
+      "patternScore": 88.0
     },
     {
       "bot": "Grok",
@@ -54988,8 +55287,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/SONY_scan_flat_base.png"
+      "techPass": false,
+      "chartPng": "data/charts/SONY_scan_flat_base.png",
+      "patternScore": 83.0
     },
     {
       "bot": "Grok",
@@ -55170,8 +55470,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BTSG_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/BTSG_scan_low_cheat.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -55347,8 +55648,9 @@
       ],
       "siblingHint": "TEL／JBL／CLS 與 APH 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/APH_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/APH_scan_bull_flag.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -55531,7 +55833,8 @@
       "siblingHint": "DECK／TJX 與 BURL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/BURL_scan_bull_flag.png"
+      "chartPng": "data/charts/BURL_scan_bull_flag.png",
+      "patternScore": 117.0
     },
     {
       "bot": "Grok",
@@ -55717,8 +56020,9 @@
       ],
       "siblingHint": "CL／MDLZ／PG 與 KO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/KO_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/KO_scan_triple_bottom.png",
+      "patternScore": 75.0
     },
     {
       "bot": "Grok",
@@ -55911,8 +56215,9 @@
       ],
       "siblingHint": "NRG／GEV／TAC 與 VST 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/VST_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/VST_scan_triple_bottom.png",
+      "patternScore": 101.0
     },
     {
       "bot": "Grok",
@@ -56098,8 +56403,9 @@
       ],
       "siblingHint": "NTRA 與 VCYT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/VCYT_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/VCYT_scan_triple_bottom.png",
+      "patternScore": 89.0
     },
     {
       "bot": "Grok",
@@ -56256,8 +56562,9 @@
       ],
       "siblingHint": "GTLB／FRSH／DT 與 ESTC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ESTC_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/ESTC_scan_bull_flag.png",
+      "patternScore": 99.0
     },
     {
       "bot": "Grok",
@@ -56439,8 +56746,9 @@
       ],
       "siblingHint": "EXLS／SSNC／ACN 與 ADP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ADP_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/ADP_scan_triple_bottom.png",
+      "patternScore": 89.0
     },
     {
       "bot": "Grok",
@@ -56598,7 +56906,8 @@
       "siblingHint": "DELL／NTAP／PENG 與 HPE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/HPE_scan_bull_flag.png"
+      "chartPng": "data/charts/HPE_scan_bull_flag.png",
+      "patternScore": 131.0
     },
     {
       "bot": "Grok",
@@ -56768,7 +57077,8 @@
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/ETN_scan_bull_flag.png"
+      "chartPng": "data/charts/ETN_scan_bull_flag.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -56950,8 +57260,9 @@
       ],
       "siblingHint": "AMT 與 CCI 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CCI_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/CCI_scan_triple_bottom.png",
+      "patternScore": 89.0
     },
     {
       "bot": "Grok",
@@ -57121,7 +57432,8 @@
       "siblingHint": "FPS／GTES／JCI 與 GNRC 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/GNRC_scan_bull_flag.png"
+      "chartPng": "data/charts/GNRC_scan_bull_flag.png",
+      "patternScore": 126.0
     },
     {
       "bot": "Grok",
@@ -57302,7 +57614,8 @@
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/KOD_scan_bull_flag.png"
+      "chartPng": "data/charts/KOD_scan_bull_flag.png",
+      "patternScore": 265.0
     },
     {
       "bot": "Grok",
@@ -57483,8 +57796,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ERAS_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ERAS_scan_low_cheat.png",
+      "patternScore": 94.0
     },
     {
       "bot": "Grok",
@@ -57677,8 +57991,9 @@
       ],
       "siblingHint": "A／DHR／RVTY 與 TMO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TMO_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/TMO_scan_bull_flag.png",
+      "patternScore": 107.0
     },
     {
       "bot": "Grok",
@@ -57847,8 +58162,9 @@
       ],
       "siblingHint": "BRZE／FRSH／DOCU 與 KVYO 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/KVYO_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/KVYO_scan_low_cheat.png",
+      "patternScore": 93.0
     },
     {
       "bot": "Grok",
@@ -58034,8 +58350,9 @@
       ],
       "siblingHint": "IOT／ADSK／KVYO 與 GWRE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/GWRE_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/GWRE_scan_triple_bottom.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -58215,8 +58532,9 @@
       ],
       "siblingHint": "AMRX／PFE 與 VTRS 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/VTRS_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/VTRS_scan_triple_bottom.png",
+      "patternScore": 90.0
     },
     {
       "bot": "Grok",
@@ -58582,7 +58900,8 @@
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/HALO_scan_ascending_base.png"
+      "chartPng": "data/charts/HALO_scan_ascending_base.png",
+      "patternScore": 98.0
     },
     {
       "bot": "Grok",
@@ -58762,8 +59081,9 @@
       ],
       "siblingHint": "VLO／DINO／DK 與 PBF 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PBF_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/PBF_scan_bull_flag.png",
+      "patternScore": 104.0
     },
     {
       "bot": "Grok",
@@ -58933,7 +59253,8 @@
       "siblingHint": "NVT／TT／GTES 與 AAON 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/AAON_scan_bull_flag.png"
+      "chartPng": "data/charts/AAON_scan_bull_flag.png",
+      "patternScore": 117.0
     },
     {
       "bot": "Grok",
@@ -59126,8 +59447,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CEG_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/CEG_scan_bull_flag.png",
+      "patternScore": 93.0
     },
     {
       "bot": "Grok",
@@ -59295,8 +59617,9 @@
       ],
       "siblingHint": "GEV／SEI／VST 與 MWH 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/MWH_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/MWH_scan_low_cheat.png",
+      "patternScore": 95.0
     },
     {
       "bot": "Grok",
@@ -59477,7 +59800,8 @@
       "siblingHint": "URBN／WSM／AEO 與 GAP 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/GAP_scan_bull_flag.png"
+      "chartPng": "data/charts/GAP_scan_bull_flag.png",
+      "patternScore": 115.0
     },
     {
       "bot": "Grok",
@@ -59658,7 +59982,8 @@
       "siblingHint": "CRWD／S／ZS 與 NET 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/NET_scan_bull_flag.png"
+      "chartPng": "data/charts/NET_scan_bull_flag.png",
+      "patternScore": 126.0
     },
     {
       "bot": "Grok",
@@ -59827,8 +60152,9 @@
       ],
       "siblingHint": "VST／MWH／NRG 與 GEV 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/GEV_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/GEV_scan_bull_flag.png",
+      "patternScore": 109.0
     },
     {
       "bot": "Grok",
@@ -59998,7 +60324,8 @@
       "siblingHint": "EMR／TT／AME 與 SUNB 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/SUNB_scan_bull_flag.png"
+      "chartPng": "data/charts/SUNB_scan_bull_flag.png",
+      "patternScore": 114.0
     },
     {
       "bot": "Grok",
@@ -60191,8 +60518,9 @@
       ],
       "siblingHint": "RVTY／TMO／A 與 AVTR 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/AVTR_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/AVTR_scan_bull_flag.png",
+      "patternScore": 97.0
     },
     {
       "bot": "Grok",
@@ -60378,8 +60706,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/VIV_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/VIV_scan_bull_flag.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -60537,7 +60866,8 @@
       "siblingHint": "COHU／LSCC／FORM 與 ENTG 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/ENTG_scan_bull_flag.png"
+      "chartPng": "data/charts/ENTG_scan_bull_flag.png",
+      "patternScore": 125.0
     },
     {
       "bot": "Grok",
@@ -60724,7 +61054,8 @@
       "siblingHint": "CCL／RCL／NCLH 與 LUV 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/LUV_scan_bull_flag.png"
+      "chartPng": "data/charts/LUV_scan_bull_flag.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -60918,7 +61249,8 @@
       "siblingHint": "RBRK／DT／ADSK 與 AVPT 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/AVPT_scan_bull_flag.png"
+      "chartPng": "data/charts/AVPT_scan_bull_flag.png",
+      "patternScore": 110.0
     },
     {
       "bot": "Grok",
@@ -61111,8 +61443,9 @@
       ],
       "siblingHint": "EXLS／ADP／SSNC 與 ACN 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ACN_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/ACN_scan_bull_flag.png",
+      "patternScore": 80.0
     },
     {
       "bot": "Grok",
@@ -61481,8 +61814,9 @@
       ],
       "siblingHint": "DUK／WEC／SO 與 ED 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ED_scan_triple_bottom.png"
+      "techPass": false,
+      "chartPng": "data/charts/ED_scan_triple_bottom.png",
+      "patternScore": 78.0
     },
     {
       "bot": "Grok",
@@ -61652,7 +61986,8 @@
       "siblingHint": "ADI／LRCX／AMAT 與 TXN 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/TXN_scan_bull_flag.png"
+      "chartPng": "data/charts/TXN_scan_bull_flag.png",
+      "patternScore": 111.0
     },
     {
       "bot": "Grok",
@@ -61835,7 +62170,8 @@
       "siblingHint": "NDAQ／SPGI／TW 與 ICE 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/ICE_scan_VCP.png"
+      "chartPng": "data/charts/ICE_scan_VCP.png",
+      "patternScore": 135.0
     },
     {
       "bot": "Grok",
@@ -62021,8 +62357,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ECHO_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/ECHO_scan_low_cheat.png",
+      "patternScore": 103.0
     },
     {
       "bot": "Grok",
@@ -62202,8 +62539,9 @@
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PRIM_scan_bull_flag.png"
+      "techPass": false,
+      "chartPng": "data/charts/PRIM_scan_bull_flag.png",
+      "patternScore": 106.0
     },
     {
       "bot": "Grok",
@@ -62579,7 +62917,8 @@
       "siblingHint": "PG／CL／KO 與 UL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
       "techPass": true,
-      "chartPng": "data/charts/UL_scan_VCP.png"
+      "chartPng": "data/charts/UL_scan_VCP.png",
+      "patternScore": 135.0
     },
     {
       "bot": "Grok",
@@ -62760,8 +63099,9 @@
       ],
       "siblingHint": "FLEX／KEYS／CLS 與 JBL 近月同步，若同時收緊／突破，較似板塊資金部署。",
       "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/JBL_scan_low_cheat.png"
+      "techPass": false,
+      "chartPng": "data/charts/JBL_scan_low_cheat.png",
+      "patternScore": 102.0
     },
     {
       "bot": "Grok",
@@ -98008,5 +98348,12 @@
       "TNGX"
     ]
   },
-  "chartNote": "日K 蠟燭圖＋形態標註（跟 Frok NOW 風格）；SVG 推上 GitHub Pages"
+  "chartNote": "日K 蠟燭圖＋形態標註（跟 Frok NOW 風格）；SVG 推上 GitHub Pages",
+  "techPassCount": 61,
+  "techPassGate": {
+    "version": "quality-v1-now-style",
+    "rules": "pattern+pivot+≤6%+aboveMa30; VCP C1>C2>C3 score≥120; bull_flag≥110; asc/flat/cup≥90; low_cheat/triple_bottom excluded from pass",
+    "appliedAt": "2026-10-13T21:40:25+08:00",
+    "prevTechPassCount": 340
+  }
 }

@@ -1269,17 +1269,35 @@ def main():
         report["siblings"] = sibs
         report["siblingHint"] = hint
         report["inScreenerPass"] = t in passed_set  # candidate pool membership
-        # 技術通過：有形態＋可畫 pivot＋收市距 pivot ≤6%（公司／進場只跟呢閘）
-        pat_ok = report.get("primaryPattern") not in (None, "none")
+        # 技術通過：形態＋pivot＋≤6%＋質素閘（對齊 NOW VCP 畫法標準，唔再用「有形就過」）
+        # 允許：VCP（C1>C2>C3）／Bull Flag／Ascending／Flat／Cup；剔除 flood 的 low_cheat／弱三底
+        pat = report.get("primaryPattern")
+        pat_ok = pat not in (None, "none")
         pivot = report.get("pivot")
         close = report.get("close")
         dist_ok = False
+        dist = None
         if pat_ok and pivot not in (None, 0) and close is not None:
             try:
-                dist_ok = abs(float(close) - float(pivot)) / abs(float(pivot)) <= 0.06
+                dist = abs(float(close) - float(pivot)) / abs(float(pivot))
+                dist_ok = dist <= 0.06
             except (TypeError, ValueError, ZeroDivisionError):
                 dist_ok = False
-        report["techPass"] = bool(pat_ok and dist_ok)
+        sc = float(report.get("_score") or 0)
+        quality_ok = False
+        if pat_ok and dist_ok and report.get("aboveMa30"):
+            if pat == "VCP":
+                cons = report.get("contractions") or []
+                pcts = [c.get("pct") for c in cons if c.get("pct") is not None]
+                progressive = len(pcts) >= 3 and pcts[0] > pcts[1] > pcts[2]
+                quality_ok = progressive and sc >= 120
+            elif pat == "bull_flag":
+                quality_ok = sc >= 110
+            elif pat in ("ascending_base", "flat_base", "cup_with_handle", "cup"):
+                quality_ok = sc >= 90
+            # low_cheat / triple_bottom / others: 有圖可睇，但唔入 techPass
+        report["patternScore"] = round(sc, 1) if sc else None
+        report["techPass"] = bool(pat_ok and dist_ok and quality_ok)
         tlog("analyze:pattern", f"{t} → {report['primaryPattern']} | {report.get('whyPattern','')}")
         analyses.append(report)
 
