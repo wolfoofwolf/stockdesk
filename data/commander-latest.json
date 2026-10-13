@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-10-13T13:33:15.000Z",
+  "generatedAt": "2026-10-13T15:06:34.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-13 21:33 HKT",
+  "asOfHKT": "2026-10-13 23:06 HKT",
   "pipeline": {
     "candidates": 480,
-    "techPassed": 340,
-    "company": 340,
-    "leaders": 87,
-    "entry": 87,
-    "entryConsider": 80,
-    "anchor": "Grok techPass (pattern+pivot+≤6%)",
-    "downstreamStale": false
+    "techPassed": 88,
+    "company": 88,
+    "leaders": 33,
+    "entry": 33,
+    "entryConsider": 33,
+    "anchor": "Grok techPass (quality gate + NOW style); 480 rescan in progress",
+    "downstreamStale": true,
+    "staleReason": "Frok 480 churn; Grok multi_pattern_scan running"
   },
-  "summaryTw": "【總司令｜2026-10-13 21:33 HKT】\n⚠️ 開市閘：QQQ **−0.90%**／SPY −0.04%（@Drok）— AI／半導；CPI 明天\n錨 techPass 重刷中（先鎖 340）＋新畫法全量重畫 → 齊咗分批推圖\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=en1)",
+  "summaryTw": "【總司令｜2026-10-13 23:06 HKT】\n✅ 閘門解除：QQQ −0.60%／SPY −0.13%（@Drok；開市曾 −0.90%）· CPI 明天\n① 候選 **480**（churn 74）已推 · @Grok 重刷 techPass 中（現鎖 88／領導 33／進場 33，完再對齊）\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/)",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=en1"
+    "site": "https://wolfoofwolf.github.io/stockdesk/"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-13 21:33 HKT",
-      "msg": "Cash open QQQ -0.90%; await Grok redraw batches"
+      "t": "2026-10-13 23:06 HKT",
+      "msg": "Gate cleared; pushed screener 480 + macro; await Grok 480 rescan"
     }
   ],
   "premarketGate": {
-    "triggered": true,
-    "stillOpen": true,
-    "session": "cash_open",
-    "asOf": "2026-10-13 ~21:33 HKT",
-    "QQQ": -0.9,
-    "SPY": -0.04,
-    "note": "Drok 開市閘：QQQ −0.90%；Grok 全量重畫＋techPass 重刷中。"
+    "triggered": false,
+    "cleared": true,
+    "qqqPct": -0.6,
+    "spyPct": -0.13,
+    "threshold": -0.65,
+    "note": "Opened QQQ -0.90% triggered; mid-day QQQ -0.60% cleared"
   }
 }
