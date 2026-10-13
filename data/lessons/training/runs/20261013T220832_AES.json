@@ -1,0 +1,140 @@
+{
+  "gradedAt": "2026-10-13T22:08:32+08:00",
+  "ticker": "AES",
+  "candidateSvg": "data/charts/AES_scan_VCP.svg",
+  "exemplarId": "draw-style-vcp-c123-dtl-now",
+  "rubricId": "rubric-vcp-c123-dtl",
+  "score": 36,
+  "passThreshold": 90,
+  "pass": false,
+  "verdict": "never_learn",
+  "failureSignatures": [
+    "missing_style_lock",
+    "early_left_dump_c123"
+  ],
+  "itemResults": [
+    {
+      "id": "zigzag_white",
+      "weight": 6,
+      "passed": true,
+      "earned": 6,
+      "detail": "VCP SVG with path content"
+    },
+    {
+      "id": "c1_on_low",
+      "weight": 8,
+      "passed": false,
+      "earned": 0,
+      "detail": "missing C1 label"
+    },
+    {
+      "id": "c2_on_low",
+      "weight": 8,
+      "passed": false,
+      "earned": 0,
+      "detail": "missing C2 label"
+    },
+    {
+      "id": "c3_on_low",
+      "weight": 8,
+      "passed": false,
+      "earned": 0,
+      "detail": "missing C3 label"
+    },
+    {
+      "id": "progressive_dates",
+      "weight": 12,
+      "passed": true,
+      "earned": 12,
+      "detail": "highs ['2025-05-15', '2025-06-12', '2025-07-23'] lows ['2025-05-22', '2025-06-30', '2025-09-17']"
+    },
+    {
+      "id": "progressive_pct",
+      "weight": 12,
+      "passed": true,
+      "earned": 12,
+      "detail": "pcts=[25.3, 14.9, 10.7]"
+    },
+    {
+      "id": "late_base_not_micros",
+      "weight": 10,
+      "passed": false,
+      "earned": 0,
+      "detail": "C3 too old (447d before asOf 2026-10-13)"
+    },
+    {
+      "id": "c3_green_box",
+      "weight": 8,
+      "passed": false,
+      "earned": 0,
+      "detail": "missing C3 green box"
+    },
+    {
+      "id": "vol_dry_zh_note",
+      "weight": 8,
+      "passed": false,
+      "earned": 0,
+      "detail": "missing 成交量萎縮 note"
+    },
+    {
+      "id": "vol_arrow",
+      "weight": 4,
+      "passed": false,
+      "earned": 0,
+      "detail": "vol arrow proxy failed"
+    },
+    {
+      "id": "dtl_label",
+      "weight": 6,
+      "passed": false,
+      "earned": 0,
+      "detail": "missing DTL"
+    },
+    {
+      "id": "bo_dtl",
+      "weight": 4,
+      "passed": false,
+      "earned": 0,
+      "detail": "broken but missing Bo DTL"
+    },
+    {
+      "id": "pivot_label",
+      "weight": 6,
+      "passed": true,
+      "earned": 6,
+      "detail": "pivot point present"
+    }
+  ],
+  "analysisSnapshot": {
+    "primaryPattern": "VCP",
+    "pivot": 14.77,
+    "close": 14.96,
+    "contractions": [
+      {
+        "label": "C1",
+        "pct": 25.3,
+        "highDate": "2025-05-15",
+        "high": 11.9077,
+        "lowDate": "2025-05-22",
+        "low": 8.8908
+      },
+      {
+        "label": "C2",
+        "pct": 14.9,
+        "highDate": "2025-06-12",
+        "high": 11.0618,
+        "lowDate": "2025-06-30",
+        "low": 9.4171
+      },
+      {
+        "label": "C3",
+        "pct": 10.7,
+        "highDate": "2025-07-23",
+        "high": 13.1576,
+        "lowDate": "2025-09-17",
+        "low": 11.7453
+      }
+    ],
+    "asOf": "2026-10-13"
+  }
+}
