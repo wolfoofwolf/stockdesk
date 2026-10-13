@@ -17273,31 +17273,23 @@
         "contractions": [
           {
             "label": "C1",
-            "pct": 24.3,
-            "highDate": "2026-01-16",
-            "high": 100.7654,
-            "lowDate": "2026-02-12",
-            "low": 76.314
+            "pct": 18.2,
+            "highDate": "2026-06-01",
+            "high": 93.2889,
+            "lowDate": "2026-06-30",
+            "low": 76.2921
           },
           {
             "label": "C2",
-            "pct": 10.1,
-            "highDate": "2026-03-06",
-            "high": 89.5098,
-            "lowDate": "2026-03-27",
-            "low": 80.4386
-          },
-          {
-            "label": "C3",
-            "pct": 7.7,
-            "highDate": "2026-04-08",
-            "high": 88.3732,
-            "lowDate": "2026-04-10",
-            "low": 81.6104
+            "pct": 12.6,
+            "highDate": "2026-08-27",
+            "high": 100.6298,
+            "lowDate": "2026-09-16",
+            "low": 87.94
           }
         ],
-        "pivot": 93.29,
-        "pivotDate": "2026-06-01",
+        "pivot": 100.63,
+        "pivotDate": "2026-08-27",
         "contracting": true
       },
       "alternates": [
@@ -17307,17 +17299,17 @@
             {
               "date": "2026-05-05",
               "price": 86.71,
-              "i": 334
+              "i": 149
             },
             {
               "date": "2026-05-20",
               "price": 88.22,
-              "i": 345
+              "i": 160
             },
             {
               "date": "2026-06-11",
               "price": 85.01,
-              "i": 360
+              "i": 175
             }
           ],
           "neckline": 93.29,
@@ -17357,32 +17349,24 @@
       "contractions": [
         {
           "label": "C1",
-          "pct": 24.3,
-          "highDate": "2026-01-16",
-          "high": 100.7654,
-          "lowDate": "2026-02-12",
-          "low": 76.314
+          "pct": 18.2,
+          "highDate": "2026-06-01",
+          "high": 93.2889,
+          "lowDate": "2026-06-30",
+          "low": 76.2921
         },
         {
           "label": "C2",
-          "pct": 10.1,
-          "highDate": "2026-03-06",
-          "high": 89.5098,
-          "lowDate": "2026-03-27",
-          "low": 80.4386
-        },
-        {
-          "label": "C3",
-          "pct": 7.7,
-          "highDate": "2026-04-08",
-          "high": 88.3732,
-          "lowDate": "2026-04-10",
-          "low": 81.6104
+          "pct": 12.6,
+          "highDate": "2026-08-27",
+          "high": 100.6298,
+          "lowDate": "2026-09-16",
+          "low": 87.94
         }
       ],
-      "pivot": 93.29,
-      "pivotDate": "2026-06-01",
-      "status": "收市已企穩／突破 pivot 上方",
+      "pivot": 100.63,
+      "pivotDate": "2026-08-27",
+      "status": "仍未破 pivot；收市低於突破位",
       "trendlines": [
         {
           "dir": "up",
@@ -17402,10 +17386,13 @@
         }
       ],
       "chartPath": "data/charts/NDAQ_scan_VCP.svg",
-      "barsUsed": 445,
-      "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 24.3% → C2 10.1% → C3 7.7%，選為主形態（score=135）",
-      "summaryTw": "NDAQ（Nasdaq, Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 24.3% → C2 10.1% → C3 7.7%\n收縮遞減 C1 24.3% → C2 10.1% → C3 7.7%，選為主形態（score=135）\nPivot／突破位：$93.29（2026-06-01）\n收市：$94.29；收市已企穩／突破 pivot 上方\n相對 SMA30：上方（SMA30≈93.32）\n趨勢線：低點抬高（上升趨勢線）；高點降低（下降壓力線）\n主題／ETF：金融／XLF",
+      "barsUsed": 260,
+      "dataSource": "cache",
+      "whyPattern": "收縮遞減 C1 18.2% → C2 12.6%，選為主形態（score=202）",
+      "summaryTw": "NDAQ（Nasdaq, Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 18.2% → C2 12.6%\n收縮遞減 C1 18.2% → C2 12.6%，選為主形態（score=202）\nPivot／突破位：$100.63（2026-08-27）\n收市：$94.29；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈93.32）\n趨勢線：低點抬高（上升趨勢線）；高點降低（下降壓力線）\n主題／ETF：金融／XLF",
+      "techPass": true,
+      "patternScore": 202.0,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "SPGI",
@@ -17442,10 +17429,7 @@
         }
       ],
       "siblingHint": "SPGI／ICE／MET 與 NDAQ 近月同步，若同時收緊／突破，較似板塊資金部署。",
-      "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/NDAQ_scan_VCP.png",
-      "patternScore": 135.0
+      "chartPng": "data/charts/NDAQ_scan_VCP.png"
     },
     {
       "bot": "Grok",
@@ -20431,31 +20415,31 @@
         "contractions": [
           {
             "label": "C1",
-            "pct": 16.4,
-            "highDate": "2026-06-01",
-            "high": 28.8,
-            "lowDate": "2026-06-22",
-            "low": 24.067
+            "pct": 20.4,
+            "highDate": "2026-03-04",
+            "high": 26.805,
+            "lowDate": "2026-04-13",
+            "low": 21.34
           },
           {
             "label": "C2",
-            "pct": 11.9,
-            "highDate": "2026-07-16",
-            "high": 31.83,
-            "lowDate": "2026-07-23",
-            "low": 28.055
+            "pct": 10.2,
+            "highDate": "2026-05-07",
+            "high": 26.0,
+            "lowDate": "2026-05-13",
+            "low": 23.34
           },
           {
             "label": "C3",
-            "pct": 7.1,
-            "highDate": "2026-07-29",
-            "high": 32.61,
-            "lowDate": "2026-07-30",
-            "low": 30.295
+            "pct": 8.9,
+            "highDate": "2026-05-19",
+            "high": 26.55,
+            "lowDate": "2026-05-27",
+            "low": 24.2
           }
         ],
-        "pivot": 37.3,
-        "pivotDate": "2026-10-12",
+        "pivot": 31.83,
+        "pivotDate": "2026-07-16",
         "contracting": true
       },
       "alternates": [
@@ -20465,17 +20449,17 @@
             {
               "date": "2026-05-27",
               "price": 24.2,
-              "i": 349
+              "i": 164
             },
             {
               "date": "2026-06-12",
               "price": 24.85,
-              "i": 361
+              "i": 176
             },
             {
               "date": "2026-06-22",
               "price": 24.07,
-              "i": 366
+              "i": 181
             }
           ],
           "neckline": 28.8,
@@ -20505,32 +20489,32 @@
       "contractions": [
         {
           "label": "C1",
-          "pct": 16.4,
-          "highDate": "2026-06-01",
-          "high": 28.8,
-          "lowDate": "2026-06-22",
-          "low": 24.067
+          "pct": 20.4,
+          "highDate": "2026-03-04",
+          "high": 26.805,
+          "lowDate": "2026-04-13",
+          "low": 21.34
         },
         {
           "label": "C2",
-          "pct": 11.9,
-          "highDate": "2026-07-16",
-          "high": 31.83,
-          "lowDate": "2026-07-23",
-          "low": 28.055
+          "pct": 10.2,
+          "highDate": "2026-05-07",
+          "high": 26.0,
+          "lowDate": "2026-05-13",
+          "low": 23.34
         },
         {
           "label": "C3",
-          "pct": 7.1,
-          "highDate": "2026-07-29",
-          "high": 32.61,
-          "lowDate": "2026-07-30",
-          "low": 30.295
+          "pct": 8.9,
+          "highDate": "2026-05-19",
+          "high": 26.55,
+          "lowDate": "2026-05-27",
+          "low": 24.2
         }
       ],
-      "pivot": 37.3,
-      "pivotDate": "2026-10-12",
-      "status": "盤中試破但收市仍低於 pivot",
+      "pivot": 31.83,
+      "pivotDate": "2026-07-16",
+      "status": "收市已企穩／突破 pivot 上方",
       "trendlines": [
         {
           "dir": "up",
@@ -20550,10 +20534,13 @@
         }
       ],
       "chartPath": "data/charts/BOX_scan_VCP.svg",
-      "barsUsed": 445,
-      "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 16.4% → C2 11.9% → C3 7.1%，選為主形態（score=135）",
-      "summaryTw": "BOX（Box, Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 16.4% → C2 11.9% → C3 7.1%\n收縮遞減 C1 16.4% → C2 11.9% → C3 7.1%，選為主形態（score=135）\nPivot／突破位：$37.3（2026-10-12）\n收市：$36.71；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈34.38）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：Hardware／XLK",
+      "barsUsed": 260,
+      "dataSource": "cache",
+      "whyPattern": "收縮遞減 C1 20.4% → C2 10.2% → C3 8.9%，選為主形態（score=155）",
+      "summaryTw": "BOX（Box, Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 20.4% → C2 10.2% → C3 8.9%\n收縮遞減 C1 20.4% → C2 10.2% → C3 8.9%，選為主形態（score=155）\nPivot／突破位：$31.83（2026-07-16）\n收市：$36.71；收市已企穩／突破 pivot 上方\n相對 SMA30：上方（SMA30≈34.38）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：Hardware／XLK",
+      "techPass": true,
+      "patternScore": 155.0,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "FRSH",
@@ -20590,10 +20577,7 @@
         }
       ],
       "siblingHint": "FRSH／DOCU／DBX 與 BOX 近月同步，若同時收緊／突破，較似板塊資金部署。",
-      "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/BOX_scan_VCP.png",
-      "patternScore": 135.0
+      "chartPng": "data/charts/BOX_scan_VCP.png"
     },
     {
       "bot": "Grok",
@@ -30478,75 +30462,19 @@
       "ma30": 58.27,
       "ma50": 57.94,
       "aboveMa30": true,
-      "primaryPattern": "VCP",
-      "primaryLabelTw": "VCP（波動收縮）",
-      "detail": {
-        "pattern": "VCP",
-        "contractions": [
-          {
-            "label": "C1",
-            "pct": 14.1,
-            "highDate": "2025-03-18",
-            "high": 53.1285,
-            "lowDate": "2025-04-09",
-            "low": 45.6522
-          },
-          {
-            "label": "C2",
-            "pct": 8.0,
-            "highDate": "2025-05-12",
-            "high": 54.4999,
-            "lowDate": "2025-05-14",
-            "low": 50.1302
-          },
-          {
-            "label": "C3",
-            "pct": 6.5,
-            "highDate": "2026-05-27",
-            "high": 59.0952,
-            "lowDate": "2026-07-02",
-            "low": 55.2336
-          }
-        ],
-        "pivot": 59.1,
-        "pivotDate": "2026-05-27",
-        "contracting": true
-      },
+      "primaryPattern": "none",
+      "primaryLabelTw": "未識別清晰形態",
+      "detail": {},
       "alternates": [],
-      "contractions": [
-        {
-          "label": "C1",
-          "pct": 14.1,
-          "highDate": "2025-03-18",
-          "high": 53.1285,
-          "lowDate": "2025-04-09",
-          "low": 45.6522
-        },
-        {
-          "label": "C2",
-          "pct": 8.0,
-          "highDate": "2025-05-12",
-          "high": 54.4999,
-          "lowDate": "2025-05-14",
-          "low": 50.1302
-        },
-        {
-          "label": "C3",
-          "pct": 6.5,
-          "highDate": "2026-05-27",
-          "high": 59.0952,
-          "lowDate": "2026-07-02",
-          "low": 55.2336
-        }
-      ],
-      "pivot": 59.1,
-      "pivotDate": "2026-05-27",
-      "status": "仍未破 pivot；收市低於突破位",
+      "contractions": null,
+      "pivot": null,
+      "pivotDate": null,
+      "status": null,
       "trendlines": [
         {
           "dir": "up",
-          "fromDate": "2025-05-14",
-          "fromPrice": 50.1302,
+          "fromDate": "2025-09-30",
+          "fromPrice": 54.9407,
           "toDate": "2026-07-02",
           "toPrice": 55.2336,
           "note": "低點抬高（上升趨勢線）"
@@ -30560,11 +30488,13 @@
           "note": "高點降低（下降壓力線）"
         }
       ],
-      "chartPath": "data/charts/TXNM_scan_VCP.svg",
-      "barsUsed": 445,
+      "chartPath": "data/charts/TXNM_scan_none.svg",
+      "barsUsed": 260,
       "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 14.1% → C2 8.0% → C3 6.5%，選為主形態（score=120）",
-      "summaryTw": "TXNM（TXNM Energy, Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 14.1% → C2 8.0% → C3 6.5%\n收縮遞減 C1 14.1% → C2 8.0% → C3 6.5%，選為主形態（score=120）\nPivot／突破位：$59.1（2026-05-27）\n收市：$58.42；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈58.27）\n趨勢線：低點抬高（上升趨勢線）；高點降低（下降壓力線）\n主題／ETF：能源／XLU",
+      "whyPattern": "",
+      "summaryTw": "TXNM（TXNM Energy, Inc.） 日K技術分析 @ 2026-10-12\n主形態：未識別清晰形態\nPivot：待定\n收市：$58.42\n相對 SMA30：上方（SMA30≈58.27）\n趨勢線：低點抬高（上升趨勢線）；高點降低（下降壓力線）\n主題／ETF：能源／XLU",
+      "techPass": true,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "OGE",
@@ -30601,10 +30531,7 @@
         }
       ],
       "siblingHint": "未見強同步兄弟股；可保留同主題名單繼續觀察。",
-      "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TXNM_scan_VCP.png",
-      "patternScore": 120.0
+      "chartPng": "data/charts/TXNM_scan_none.png"
     },
     {
       "bot": "Grok",
@@ -36628,31 +36555,23 @@
         "contractions": [
           {
             "label": "C1",
-            "pct": 24.5,
-            "highDate": "2026-02-17",
-            "high": 129.83,
-            "lowDate": "2026-02-24",
-            "low": 98.01
+            "pct": 23.7,
+            "highDate": "2026-06-01",
+            "high": 278.705,
+            "lowDate": "2026-06-25",
+            "low": 212.73
           },
           {
             "label": "C2",
-            "pct": 10.8,
-            "highDate": "2026-02-26",
-            "high": 117.85,
-            "lowDate": "2026-03-03",
-            "low": 105.17
-          },
-          {
-            "label": "C3",
-            "pct": 6.2,
-            "highDate": "2026-03-12",
-            "high": 131.33,
-            "lowDate": "2026-03-13",
-            "low": 123.24
+            "pct": 14.1,
+            "highDate": "2026-07-15",
+            "high": 276.7,
+            "lowDate": "2026-07-28",
+            "low": 237.67
           }
         ],
-        "pivot": 278.7,
-        "pivotDate": "2026-06-01",
+        "pivot": 292.72,
+        "pivotDate": "2026-08-05",
         "contracting": true
       },
       "alternates": [
@@ -36666,32 +36585,24 @@
       "contractions": [
         {
           "label": "C1",
-          "pct": 24.5,
-          "highDate": "2026-02-17",
-          "high": 129.83,
-          "lowDate": "2026-02-24",
-          "low": 98.01
+          "pct": 23.7,
+          "highDate": "2026-06-01",
+          "high": 278.705,
+          "lowDate": "2026-06-25",
+          "low": 212.73
         },
         {
           "label": "C2",
-          "pct": 10.8,
-          "highDate": "2026-02-26",
-          "high": 117.85,
-          "lowDate": "2026-03-03",
-          "low": 105.17
-        },
-        {
-          "label": "C3",
-          "pct": 6.2,
-          "highDate": "2026-03-12",
-          "high": 131.33,
-          "lowDate": "2026-03-13",
-          "low": 123.24
+          "pct": 14.1,
+          "highDate": "2026-07-15",
+          "high": 276.7,
+          "lowDate": "2026-07-28",
+          "low": 237.67
         }
       ],
-      "pivot": 278.7,
-      "pivotDate": "2026-06-01",
-      "status": "收市已企穩／突破 pivot 上方",
+      "pivot": 292.72,
+      "pivotDate": "2026-08-05",
+      "status": "盤中試破但收市仍低於 pivot",
       "trendlines": [
         {
           "dir": "up",
@@ -36711,10 +36622,13 @@
         }
       ],
       "chartPath": "data/charts/DDOG_scan_VCP.svg",
-      "barsUsed": 445,
-      "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 24.5% → C2 10.8% → C3 6.2%，選為主形態（score=135）",
-      "summaryTw": "DDOG（Datadog, Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 24.5% → C2 10.8% → C3 6.2%\n收縮遞減 C1 24.5% → C2 10.8% → C3 6.2%，選為主形態（score=135）\nPivot／突破位：$278.7（2026-06-01）\n收市：$287.29；收市已企穩／突破 pivot 上方\n相對 SMA30：上方（SMA30≈248.25）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：Software service／IGV",
+      "barsUsed": 260,
+      "dataSource": "cache",
+      "whyPattern": "收縮遞減 C1 23.7% → C2 14.1%，選為主形態（score=160）",
+      "summaryTw": "DDOG（Datadog, Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 23.7% → C2 14.1%\n收縮遞減 C1 23.7% → C2 14.1%，選為主形態（score=160）\nPivot／突破位：$292.72（2026-08-05）\n收市：$287.29；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈248.25）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：Software service／IGV",
+      "techPass": true,
+      "patternScore": 160.0,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "SNOW",
@@ -36751,10 +36665,7 @@
         }
       ],
       "siblingHint": "SNOW／MDB／NOW 與 DDOG 近月同步，若同時收緊／突破，較似板塊資金部署。",
-      "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/DDOG_scan_VCP.png",
-      "patternScore": 135.0
+      "chartPng": "data/charts/DDOG_scan_VCP.png"
     },
     {
       "bot": "Grok",
@@ -36769,90 +36680,32 @@
       "ma30": 28.08,
       "ma50": 27.69,
       "aboveMa30": true,
-      "primaryPattern": "VCP",
-      "primaryLabelTw": "VCP（波動收縮）",
+      "primaryPattern": "triple_top",
+      "primaryLabelTw": "三頂（Triple Top）",
       "detail": {
-        "pattern": "VCP",
-        "contractions": [
+        "pattern": "triple_top",
+        "highs": [
           {
-            "label": "C1",
-            "pct": 16.5,
-            "highDate": "2026-04-02",
-            "high": 27.7969,
-            "lowDate": "2026-07-06",
-            "low": 23.2139
+            "date": "2026-09-03",
+            "price": 29.21
           },
           {
-            "label": "C2",
-            "pct": 6.7,
-            "highDate": "2026-09-03",
-            "high": 29.21,
-            "lowDate": "2026-09-15",
-            "low": 27.25
+            "date": "2026-09-30",
+            "price": 28.95
           },
           {
-            "label": "C3",
-            "pct": 6.3,
-            "highDate": "2026-09-30",
-            "high": 28.95,
-            "lowDate": "2026-10-05",
-            "low": 27.12
+            "date": "2026-10-12",
+            "price": 28.5
           }
         ],
-        "pivot": 28.95,
-        "pivotDate": "2026-09-30",
-        "contracting": true
+        "neckline": 27.12,
+        "pivot": 27.12
       },
-      "alternates": [
-        {
-          "pattern": "triple_top",
-          "highs": [
-            {
-              "date": "2026-09-03",
-              "price": 29.21
-            },
-            {
-              "date": "2026-09-30",
-              "price": 28.95
-            },
-            {
-              "date": "2026-10-12",
-              "price": 28.5
-            }
-          ],
-          "neckline": 27.12,
-          "pivot": 27.12
-        }
-      ],
-      "contractions": [
-        {
-          "label": "C1",
-          "pct": 16.5,
-          "highDate": "2026-04-02",
-          "high": 27.7969,
-          "lowDate": "2026-07-06",
-          "low": 23.2139
-        },
-        {
-          "label": "C2",
-          "pct": 6.7,
-          "highDate": "2026-09-03",
-          "high": 29.21,
-          "lowDate": "2026-09-15",
-          "low": 27.25
-        },
-        {
-          "label": "C3",
-          "pct": 6.3,
-          "highDate": "2026-09-30",
-          "high": 28.95,
-          "lowDate": "2026-10-05",
-          "low": 27.12
-        }
-      ],
-      "pivot": 28.95,
-      "pivotDate": "2026-09-30",
-      "status": "仍未破 pivot；收市低於突破位",
+      "alternates": [],
+      "contractions": null,
+      "pivot": 27.12,
+      "pivotDate": null,
+      "status": "收市已企穩／突破 pivot 上方",
       "trendlines": [
         {
           "dir": "down",
@@ -36871,11 +36724,13 @@
           "note": "高點降低（下降壓力線）"
         }
       ],
-      "chartPath": "data/charts/PFE_scan_VCP.svg",
-      "barsUsed": 445,
+      "chartPath": "data/charts/PFE_scan_triple_top.svg",
+      "barsUsed": 260,
       "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 16.5% → C2 6.7% → C3 6.3%，選為主形態（score=135）",
-      "summaryTw": "PFE（Pfizer, Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 16.5% → C2 6.7% → C3 6.3%\n收縮遞減 C1 16.5% → C2 6.7% → C3 6.3%，選為主形態（score=135）\nPivot／突破位：$28.95（2026-09-30）\n收市：$28.4；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈28.08）\n趨勢線：低點降低；高點降低（下降壓力線）\n主題／ETF：醫療／XLV",
+      "whyPattern": "偵測為 三頂（Triple Top）（score=56）",
+      "summaryTw": "PFE（Pfizer, Inc.） 日K技術分析 @ 2026-10-12\n主形態：三頂（Triple Top）\n偵測為 三頂（Triple Top）（score=56）\nPivot／突破位：$27.12\n收市：$28.4；收市已企穩／突破 pivot 上方\n相對 SMA30：上方（SMA30≈28.08）\n趨勢線：低點降低；高點降低（下降壓力線）\n主題／ETF：醫療／XLV",
+      "techPass": true,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "AMGN",
@@ -36912,10 +36767,7 @@
         }
       ],
       "siblingHint": "AMGN／BIIB／ABBV 與 PFE 近月同步，若同時收緊／突破，較似板塊資金部署。",
-      "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/PFE_scan_VCP.png",
-      "patternScore": 135.0
+      "chartPng": "data/charts/PFE_scan_triple_top.png"
     },
     {
       "bot": "Grok",
@@ -40388,14 +40240,6 @@
             "high": 17.83,
             "lowDate": "2026-08-04",
             "low": 16.3
-          },
-          {
-            "label": "C3",
-            "pct": 7.1,
-            "highDate": "2026-09-17",
-            "high": 19.1,
-            "lowDate": "2026-10-05",
-            "low": 17.75
           }
         ],
         "pivot": 19.1,
@@ -40439,14 +40283,6 @@
           "high": 17.83,
           "lowDate": "2026-08-04",
           "low": 16.3
-        },
-        {
-          "label": "C3",
-          "pct": 7.1,
-          "highDate": "2026-09-17",
-          "high": 19.1,
-          "lowDate": "2026-10-05",
-          "low": 17.75
         }
       ],
       "pivot": 19.1,
@@ -40471,10 +40307,13 @@
         }
       ],
       "chartPath": "data/charts/TAK_scan_VCP.svg",
-      "barsUsed": 445,
-      "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 21.5% → C2 8.6% → C3 7.1%，選為主形態（score=135）",
-      "summaryTw": "TAK（Takeda Pharmaceutical Company L） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 21.5% → C2 8.6% → C3 7.1%\n收縮遞減 C1 21.5% → C2 8.6% → C3 7.1%，選為主形態（score=135）\nPivot／突破位：$19.1（2026-09-17）\n收市：$18.68；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈18.47）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：醫療／XLV",
+      "barsUsed": 260,
+      "dataSource": "cache",
+      "whyPattern": "收縮遞減 C1 21.5% → C2 8.6%，選為主形態（score=180）",
+      "summaryTw": "TAK（Takeda Pharmaceutical Company L） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 21.5% → C2 8.6%\n收縮遞減 C1 21.5% → C2 8.6%，選為主形態（score=180）\nPivot／突破位：$19.1（2026-09-17）\n收市：$18.68；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈18.47）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：醫療／XLV",
+      "techPass": true,
+      "patternScore": 180.0,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "HLN",
@@ -40511,10 +40350,7 @@
         }
       ],
       "siblingHint": "HLN 與 TAK 近月同步，若同時收緊／突破，較似板塊資金部署。",
-      "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/TAK_scan_VCP.png",
-      "patternScore": 135.0
+      "chartPng": "data/charts/TAK_scan_VCP.png"
     },
     {
       "bot": "Grok",
@@ -41260,63 +41096,63 @@
         "contractions": [
           {
             "label": "C1",
-            "pct": 22.5,
-            "highDate": "2025-03-05",
-            "high": 64.42,
-            "lowDate": "2025-03-11",
-            "low": 49.91
+            "pct": 26.0,
+            "highDate": "2026-06-01",
+            "high": 34.06,
+            "lowDate": "2026-06-22",
+            "low": 25.22
           },
           {
             "label": "C2",
-            "pct": 10.8,
-            "highDate": "2025-03-12",
-            "high": 54.61,
-            "lowDate": "2025-03-13",
-            "low": 48.694
+            "pct": 15.3,
+            "highDate": "2026-07-10",
+            "high": 35.24,
+            "lowDate": "2026-07-23",
+            "low": 29.85
           },
           {
             "label": "C3",
-            "pct": 6.4,
-            "highDate": "2025-03-17",
-            "high": 52.648,
-            "lowDate": "2025-03-18",
-            "low": 49.3
+            "pct": 8.4,
+            "highDate": "2026-08-14",
+            "high": 43.81,
+            "lowDate": "2026-08-26",
+            "low": 40.14
           }
         ],
-        "pivot": 54.08,
-        "pivotDate": "2025-05-14",
+        "pivot": 56.64,
+        "pivotDate": "2026-10-12",
         "contracting": true
       },
       "alternates": [],
       "contractions": [
         {
           "label": "C1",
-          "pct": 22.5,
-          "highDate": "2025-03-05",
-          "high": 64.42,
-          "lowDate": "2025-03-11",
-          "low": 49.91
+          "pct": 26.0,
+          "highDate": "2026-06-01",
+          "high": 34.06,
+          "lowDate": "2026-06-22",
+          "low": 25.22
         },
         {
           "label": "C2",
-          "pct": 10.8,
-          "highDate": "2025-03-12",
-          "high": 54.61,
-          "lowDate": "2025-03-13",
-          "low": 48.694
+          "pct": 15.3,
+          "highDate": "2026-07-10",
+          "high": 35.24,
+          "lowDate": "2026-07-23",
+          "low": 29.85
         },
         {
           "label": "C3",
-          "pct": 6.4,
-          "highDate": "2025-03-17",
-          "high": 52.648,
-          "lowDate": "2025-03-18",
-          "low": 49.3
+          "pct": 8.4,
+          "highDate": "2026-08-14",
+          "high": 43.81,
+          "lowDate": "2026-08-26",
+          "low": 40.14
         }
       ],
-      "pivot": 54.08,
-      "pivotDate": "2025-05-14",
-      "status": "收市已企穩／突破 pivot 上方",
+      "pivot": 56.64,
+      "pivotDate": "2026-10-12",
+      "status": "盤中試破但收市仍低於 pivot",
       "trendlines": [
         {
           "dir": "down",
@@ -41336,10 +41172,13 @@
         }
       ],
       "chartPath": "data/charts/GTLB_scan_VCP.svg",
-      "barsUsed": 445,
-      "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 22.5% → C2 10.8% → C3 6.4%，選為主形態（score=135）",
-      "summaryTw": "GTLB（GitLab Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 22.5% → C2 10.8% → C3 6.4%\n收縮遞減 C1 22.5% → C2 10.8% → C3 6.4%，選為主形態（score=135）\nPivot／突破位：$54.08（2025-05-14）\n收市：$56.01；收市已企穩／突破 pivot 上方\n相對 SMA30：上方（SMA30≈49.25）\n趨勢線：低點降低；高點抬高\n主題／ETF：Hardware／XLK",
+      "barsUsed": 260,
+      "dataSource": "cache",
+      "whyPattern": "收縮遞減 C1 26.0% → C2 15.3% → C3 8.4%，選為主形態（score=295）",
+      "summaryTw": "GTLB（GitLab Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 26.0% → C2 15.3% → C3 8.4%\n收縮遞減 C1 26.0% → C2 15.3% → C3 8.4%，選為主形態（score=295）\nPivot／突破位：$56.64（2026-10-12）\n收市：$56.01；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈49.25）\n趨勢線：低點降低；高點抬高\n主題／ETF：Hardware／XLK",
+      "techPass": true,
+      "patternScore": 295.0,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "FRSH",
@@ -41376,10 +41215,7 @@
         }
       ],
       "siblingHint": "FRSH／ESTC／DT 與 GTLB 近月同步，若同時收緊／突破，較似板塊資金部署。",
-      "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/GTLB_scan_VCP.png",
-      "patternScore": 135.0
+      "chartPng": "data/charts/GTLB_scan_VCP.png"
     },
     {
       "bot": "Grok",
@@ -42491,27 +42327,19 @@
         "contractions": [
           {
             "label": "C1",
-            "pct": 18.7,
-            "highDate": "2026-06-03",
-            "high": 47.3345,
+            "pct": 21.1,
+            "highDate": "2026-05-20",
+            "high": 48.7858,
             "lowDate": "2026-07-01",
             "low": 38.4845
           },
           {
             "label": "C2",
-            "pct": 6.7,
-            "highDate": "2026-07-24",
-            "high": 46.8791,
-            "lowDate": "2026-07-28",
-            "low": 43.7572
-          },
-          {
-            "label": "C3",
-            "pct": 6.5,
-            "highDate": "2026-07-31",
-            "high": 47.3945,
-            "lowDate": "2026-08-07",
-            "low": 44.3221
+            "pct": 10.2,
+            "highDate": "2026-09-10",
+            "high": 51.8446,
+            "lowDate": "2026-09-29",
+            "low": 46.58
           }
         ],
         "pivot": 51.84,
@@ -42525,17 +42353,17 @@
             {
               "date": "2026-05-07",
               "price": 42.89,
-              "i": 336
+              "i": 151
             },
             {
               "date": "2026-05-29",
               "price": 43.92,
-              "i": 351
+              "i": 166
             },
             {
               "date": "2026-06-09",
               "price": 43.62,
-              "i": 358
+              "i": 173
             }
           ],
           "neckline": 48.79,
@@ -42569,27 +42397,19 @@
       "contractions": [
         {
           "label": "C1",
-          "pct": 18.7,
-          "highDate": "2026-06-03",
-          "high": 47.3345,
+          "pct": 21.1,
+          "highDate": "2026-05-20",
+          "high": 48.7858,
           "lowDate": "2026-07-01",
           "low": 38.4845
         },
         {
           "label": "C2",
-          "pct": 6.7,
-          "highDate": "2026-07-24",
-          "high": 46.8791,
-          "lowDate": "2026-07-28",
-          "low": 43.7572
-        },
-        {
-          "label": "C3",
-          "pct": 6.5,
-          "highDate": "2026-07-31",
-          "high": 47.3945,
-          "lowDate": "2026-08-07",
-          "low": 44.3221
+          "pct": 10.2,
+          "highDate": "2026-09-10",
+          "high": 51.8446,
+          "lowDate": "2026-09-29",
+          "low": 46.58
         }
       ],
       "pivot": 51.84,
@@ -42614,10 +42434,13 @@
         }
       ],
       "chartPath": "data/charts/CNQ_scan_VCP.svg",
-      "barsUsed": 445,
-      "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 18.7% → C2 6.7% → C3 6.5%，選為主形態（score=135）",
-      "summaryTw": "CNQ（Canadian Natural Resources Limi） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 18.7% → C2 6.7% → C3 6.5%\n收縮遞減 C1 18.7% → C2 6.7% → C3 6.5%，選為主形態（score=135）\nPivot／突破位：$51.84（2026-09-10）\n收市：$50.5；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈49.24）\n趨勢線：低點抬高（上升趨勢線）；高點降低（下降壓力線）\n主題／ETF：能源／XLE",
+      "barsUsed": 260,
+      "dataSource": "cache",
+      "whyPattern": "收縮遞減 C1 21.1% → C2 10.2%，選為主形態（score=202）",
+      "summaryTw": "CNQ（Canadian Natural Resources Limi） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 21.1% → C2 10.2%\n收縮遞減 C1 21.1% → C2 10.2%，選為主形態（score=202）\nPivot／突破位：$51.84（2026-09-10）\n收市：$50.5；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈49.24）\n趨勢線：低點抬高（上升趨勢線）；高點降低（下降壓力線）\n主題／ETF：能源／XLE",
+      "techPass": true,
+      "patternScore": 202.0,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "SU",
@@ -42654,10 +42477,7 @@
         }
       ],
       "siblingHint": "SU／EOG／OVV 與 CNQ 近月同步，若同時收緊／突破，較似板塊資金部署。",
-      "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CNQ_scan_VCP.png",
-      "patternScore": 135.0
+      "chartPng": "data/charts/CNQ_scan_VCP.png"
     },
     {
       "bot": "Grok",
@@ -44721,31 +44541,31 @@
         "contractions": [
           {
             "label": "C1",
-            "pct": 20.2,
-            "highDate": "2026-08-27",
-            "high": 316.8598,
-            "lowDate": "2026-09-28",
-            "low": 252.82
+            "pct": 27.1,
+            "highDate": "2026-05-19",
+            "high": 369.3776,
+            "lowDate": "2026-06-02",
+            "low": 269.2122
           },
           {
             "label": "C2",
-            "pct": 6.7,
-            "highDate": "2026-09-29",
-            "high": 282.0,
-            "lowDate": "2026-09-30",
-            "low": 263.11
+            "pct": 25.8,
+            "highDate": "2026-06-11",
+            "high": 305.3418,
+            "lowDate": "2026-06-29",
+            "low": 226.5207
           },
           {
             "label": "C3",
-            "pct": 6.1,
-            "highDate": "2026-10-01",
-            "high": 283.54,
-            "lowDate": "2026-10-05",
-            "low": 266.32
+            "pct": 12.1,
+            "highDate": "2026-07-31",
+            "high": 310.1983,
+            "lowDate": "2026-08-19",
+            "low": 272.6027
           }
         ],
-        "pivot": 310.99,
-        "pivotDate": "2026-10-12",
+        "pivot": 316.86,
+        "pivotDate": "2026-08-27",
         "contracting": true
       },
       "alternates": [
@@ -44761,17 +44581,17 @@
             {
               "date": "2026-08-12",
               "price": 278.18,
-              "i": 402
+              "i": 217
             },
             {
               "date": "2026-08-19",
               "price": 272.6,
-              "i": 407
+              "i": 222
             },
             {
               "date": "2026-09-02",
               "price": 288.31,
-              "i": 417
+              "i": 232
             }
           ],
           "neckline": 316.86,
@@ -44801,32 +44621,32 @@
       "contractions": [
         {
           "label": "C1",
-          "pct": 20.2,
-          "highDate": "2026-08-27",
-          "high": 316.8598,
-          "lowDate": "2026-09-28",
-          "low": 252.82
+          "pct": 27.1,
+          "highDate": "2026-05-19",
+          "high": 369.3776,
+          "lowDate": "2026-06-02",
+          "low": 269.2122
         },
         {
           "label": "C2",
-          "pct": 6.7,
-          "highDate": "2026-09-29",
-          "high": 282.0,
-          "lowDate": "2026-09-30",
-          "low": 263.11
+          "pct": 25.8,
+          "highDate": "2026-06-11",
+          "high": 305.3418,
+          "lowDate": "2026-06-29",
+          "low": 226.5207
         },
         {
           "label": "C3",
-          "pct": 6.1,
-          "highDate": "2026-10-01",
-          "high": 283.54,
-          "lowDate": "2026-10-05",
-          "low": 266.32
+          "pct": 12.1,
+          "highDate": "2026-07-31",
+          "high": 310.1983,
+          "lowDate": "2026-08-19",
+          "low": 272.6027
         }
       ],
-      "pivot": 310.99,
-      "pivotDate": "2026-10-12",
-      "status": "盤中試破但收市仍低於 pivot",
+      "pivot": 316.86,
+      "pivotDate": "2026-08-27",
+      "status": "仍未破 pivot；收市低於突破位",
       "trendlines": [
         {
           "dir": "up",
@@ -44846,10 +44666,13 @@
         }
       ],
       "chartPath": "data/charts/CBOE_scan_VCP.svg",
-      "barsUsed": 445,
-      "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 20.2% → C2 6.7% → C3 6.1%，選為主形態（score=135）",
-      "summaryTw": "CBOE（Cboe Global Markets, Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 20.2% → C2 6.7% → C3 6.1%\n收縮遞減 C1 20.2% → C2 6.7% → C3 6.1%，選為主形態（score=135）\nPivot／突破位：$310.99（2026-10-12）\n收市：$297.38；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈280.73）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：金融／XLF",
+      "barsUsed": 260,
+      "dataSource": "cache",
+      "whyPattern": "收縮遞減 C1 27.1% → C2 25.8% → C3 12.1%，選為主形態（score=277）",
+      "summaryTw": "CBOE（Cboe Global Markets, Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 27.1% → C2 25.8% → C3 12.1%\n收縮遞減 C1 27.1% → C2 25.8% → C3 12.1%，選為主形態（score=277）\nPivot／突破位：$316.86（2026-08-27）\n收市：$297.38；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈280.73）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：金融／XLF",
+      "techPass": true,
+      "patternScore": 277.0,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "CME",
@@ -44886,10 +44709,7 @@
         }
       ],
       "siblingHint": "CME 與 CBOE 近月同步，若同時收緊／突破，較似板塊資金部署。",
-      "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/CBOE_scan_VCP.png",
-      "patternScore": 135.0
+      "chartPng": "data/charts/CBOE_scan_VCP.png"
     },
     {
       "bot": "Grok",
@@ -51312,31 +51132,23 @@
         "contractions": [
           {
             "label": "C1",
-            "pct": 33.5,
-            "highDate": "2025-03-20",
-            "high": 91.0,
-            "lowDate": "2025-04-08",
-            "low": 60.5
+            "pct": 16.8,
+            "highDate": "2026-06-01",
+            "high": 53.62,
+            "lowDate": "2026-06-22",
+            "low": 44.621
           },
           {
             "label": "C2",
-            "pct": 9.4,
-            "highDate": "2025-04-09",
-            "high": 70.89,
-            "lowDate": "2025-04-11",
-            "low": 64.23
-          },
-          {
-            "label": "C3",
-            "pct": 7.3,
-            "highDate": "2025-04-15",
-            "high": 70.45,
-            "lowDate": "2025-04-21",
-            "low": 65.282
+            "pct": 12.2,
+            "highDate": "2026-08-31",
+            "high": 80.56,
+            "lowDate": "2026-09-10",
+            "low": 70.7
           }
         ],
-        "pivot": 76.88,
-        "pivotDate": "2025-05-01",
+        "pivot": 80.56,
+        "pivotDate": "2026-08-31",
         "contracting": true
       },
       "alternates": [
@@ -51369,32 +51181,24 @@
       "contractions": [
         {
           "label": "C1",
-          "pct": 33.5,
-          "highDate": "2025-03-20",
-          "high": 91.0,
-          "lowDate": "2025-04-08",
-          "low": 60.5
+          "pct": 16.8,
+          "highDate": "2026-06-01",
+          "high": 53.62,
+          "lowDate": "2026-06-22",
+          "low": 44.621
         },
         {
           "label": "C2",
-          "pct": 9.4,
-          "highDate": "2025-04-09",
-          "high": 70.89,
-          "lowDate": "2025-04-11",
-          "low": 64.23
-        },
-        {
-          "label": "C3",
-          "pct": 7.3,
-          "highDate": "2025-04-15",
-          "high": 70.45,
-          "lowDate": "2025-04-21",
-          "low": 65.282
+          "pct": 12.2,
+          "highDate": "2026-08-31",
+          "high": 80.56,
+          "lowDate": "2026-09-10",
+          "low": 70.7
         }
       ],
-      "pivot": 76.88,
-      "pivotDate": "2025-05-01",
-      "status": "盤中試破但收市仍低於 pivot",
+      "pivot": 80.56,
+      "pivotDate": "2026-08-31",
+      "status": "仍未破 pivot；收市低於突破位",
       "trendlines": [
         {
           "dir": "up",
@@ -51414,10 +51218,13 @@
         }
       ],
       "chartPath": "data/charts/WK_scan_VCP.svg",
-      "barsUsed": 445,
-      "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 33.5% → C2 9.4% → C3 7.3%，選為主形態（score=135）",
-      "summaryTw": "WK（Workiva Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 33.5% → C2 9.4% → C3 7.3%\n收縮遞減 C1 33.5% → C2 9.4% → C3 7.3%，選為主形態（score=135）\nPivot／突破位：$76.88（2025-05-01）\n收市：$73.04；盤中試破但收市仍低於 pivot\n相對 SMA30：上方（SMA30≈72.53）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：Hardware／XLK",
+      "barsUsed": 260,
+      "dataSource": "cache",
+      "whyPattern": "收縮遞減 C1 16.8% → C2 12.2%，選為主形態（score=187）",
+      "summaryTw": "WK（Workiva Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 16.8% → C2 12.2%\n收縮遞減 C1 16.8% → C2 12.2%，選為主形態（score=187）\nPivot／突破位：$80.56（2026-08-31）\n收市：$73.04；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈72.53）\n趨勢線：低點抬高（上升趨勢線）；高點抬高\n主題／ETF：Hardware／XLK",
+      "techPass": true,
+      "patternScore": 187.0,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "FRSH",
@@ -51454,10 +51261,7 @@
         }
       ],
       "siblingHint": "FRSH／DOCU／ADSK 與 WK 近月同步，若同時收緊／突破，較似板塊資金部署。",
-      "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/WK_scan_VCP.png",
-      "patternScore": 135.0
+      "chartPng": "data/charts/WK_scan_VCP.png"
     },
     {
       "bot": "Grok",
@@ -62009,31 +61813,23 @@
         "contractions": [
           {
             "label": "C1",
-            "pct": 17.3,
-            "highDate": "2026-02-05",
-            "high": 172.5321,
-            "lowDate": "2026-02-12",
-            "low": 142.7094
+            "pct": 27.3,
+            "highDate": "2026-04-08",
+            "high": 167.0222,
+            "lowDate": "2026-06-29",
+            "low": 121.3864
           },
           {
             "label": "C2",
-            "pct": 8.5,
-            "highDate": "2026-03-02",
-            "high": 166.2865,
-            "lowDate": "2026-03-11",
-            "low": 152.0729
-          },
-          {
-            "label": "C3",
-            "pct": 6.4,
-            "highDate": "2026-03-17",
-            "high": 161.7295,
-            "lowDate": "2026-03-27",
-            "low": 151.313
+            "pct": 10.1,
+            "highDate": "2026-09-03",
+            "high": 164.1143,
+            "lowDate": "2026-10-05",
+            "low": 147.5
           }
         ],
-        "pivot": 167.02,
-        "pivotDate": "2026-04-08",
+        "pivot": 164.11,
+        "pivotDate": "2026-09-03",
         "contracting": true
       },
       "alternates": [
@@ -62043,17 +61839,17 @@
             {
               "date": "2026-08-06",
               "price": 146.98,
-              "i": 398
+              "i": 213
             },
             {
               "date": "2026-09-23",
               "price": 151.42,
-              "i": 431
+              "i": 246
             },
             {
               "date": "2026-10-05",
               "price": 147.5,
-              "i": 439
+              "i": 254
             }
           ],
           "neckline": 164.11,
@@ -62083,31 +61879,23 @@
       "contractions": [
         {
           "label": "C1",
-          "pct": 17.3,
-          "highDate": "2026-02-05",
-          "high": 172.5321,
-          "lowDate": "2026-02-12",
-          "low": 142.7094
+          "pct": 27.3,
+          "highDate": "2026-04-08",
+          "high": 167.0222,
+          "lowDate": "2026-06-29",
+          "low": 121.3864
         },
         {
           "label": "C2",
-          "pct": 8.5,
-          "highDate": "2026-03-02",
-          "high": 166.2865,
-          "lowDate": "2026-03-11",
-          "low": 152.0729
-        },
-        {
-          "label": "C3",
-          "pct": 6.4,
-          "highDate": "2026-03-17",
-          "high": 161.7295,
-          "lowDate": "2026-03-27",
-          "low": 151.313
+          "pct": 10.1,
+          "highDate": "2026-09-03",
+          "high": 164.1143,
+          "lowDate": "2026-10-05",
+          "low": 147.5
         }
       ],
-      "pivot": 167.02,
-      "pivotDate": "2026-04-08",
+      "pivot": 164.11,
+      "pivotDate": "2026-09-03",
       "status": "仍未破 pivot；收市低於突破位",
       "trendlines": [
         {
@@ -62128,10 +61916,13 @@
         }
       ],
       "chartPath": "data/charts/ICE_scan_VCP.svg",
-      "barsUsed": 445,
-      "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 17.3% → C2 8.5% → C3 6.4%，選為主形態（score=135）",
-      "summaryTw": "ICE（Intercontinental Exchange Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 17.3% → C2 8.5% → C3 6.4%\n收縮遞減 C1 17.3% → C2 8.5% → C3 6.4%，選為主形態（score=135）\nPivot／突破位：$167.02（2026-04-08）\n收市：$157.42；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈155.5）\n趨勢線：低點抬高（上升趨勢線）；高點降低（下降壓力線）\n主題／ETF：金融／XLF",
+      "barsUsed": 260,
+      "dataSource": "cache",
+      "whyPattern": "收縮遞減 C1 27.3% → C2 10.1%，選為主形態（score=212）",
+      "summaryTw": "ICE（Intercontinental Exchange Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 27.3% → C2 10.1%\n收縮遞減 C1 27.3% → C2 10.1%，選為主形態（score=212）\nPivot／突破位：$164.11（2026-09-03）\n收市：$157.42；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈155.5）\n趨勢線：低點抬高（上升趨勢線）；高點降低（下降壓力線）\n主題／ETF：金融／XLF",
+      "techPass": true,
+      "patternScore": 212.0,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "NDAQ",
@@ -62168,10 +61959,7 @@
         }
       ],
       "siblingHint": "NDAQ／SPGI／TW 與 ICE 近月同步，若同時收緊／突破，較似板塊資金部署。",
-      "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/ICE_scan_VCP.png",
-      "patternScore": 135.0
+      "chartPng": "data/charts/ICE_scan_VCP.png"
     },
     {
       "bot": "Grok",
@@ -62745,63 +62533,55 @@
       "ma30": 62.3,
       "ma50": 62.73,
       "aboveMa30": true,
-      "primaryPattern": "VCP",
-      "primaryLabelTw": "VCP（波動收縮）",
+      "primaryPattern": "triple_bottom",
+      "primaryLabelTw": "三底（Triple Bottom）",
       "detail": {
-        "pattern": "VCP",
-        "contractions": [
+        "pattern": "triple_bottom",
+        "lows": [
           {
-            "label": "C1",
-            "pct": 26.2,
-            "highDate": "2026-02-13",
-            "high": 73.0901,
-            "lowDate": "2026-04-01",
-            "low": 53.9737
+            "date": "2026-07-23",
+            "price": 59.4,
+            "i": 203
           },
           {
-            "label": "C2",
-            "pct": 9.0,
-            "highDate": "2026-05-01",
-            "high": 59.6609,
-            "lowDate": "2026-06-04",
-            "low": 54.2933
+            "date": "2026-08-17",
+            "price": 60.98,
+            "i": 220
           },
           {
-            "label": "C3",
-            "pct": 5.8,
-            "highDate": "2026-07-07",
-            "high": 63.2381,
-            "lowDate": "2026-07-15",
-            "low": 59.5888
+            "date": "2026-10-01",
+            "price": 59.22,
+            "i": 252
           }
         ],
+        "neckline": 66.89,
         "pivot": 66.89,
-        "pivotDate": "2026-07-28",
-        "contracting": true
+        "support": 59.87
       },
       "alternates": [
         {
-          "pattern": "triple_bottom",
-          "lows": [
+          "pattern": "VCP",
+          "contractions": [
             {
-              "date": "2026-07-23",
-              "price": 59.4,
-              "i": 388
+              "label": "C1",
+              "pct": 9.0,
+              "highDate": "2026-05-01",
+              "high": 59.6609,
+              "lowDate": "2026-06-04",
+              "low": 54.2933
             },
             {
-              "date": "2026-08-17",
-              "price": 60.98,
-              "i": 405
-            },
-            {
-              "date": "2026-10-01",
-              "price": 59.22,
-              "i": 437
+              "label": "C2",
+              "pct": 11.5,
+              "highDate": "2026-07-28",
+              "high": 66.8874,
+              "lowDate": "2026-10-01",
+              "low": 59.22
             }
           ],
-          "neckline": 66.89,
           "pivot": 66.89,
-          "support": 59.87
+          "pivotDate": "2026-07-28",
+          "contracting": false
         },
         {
           "pattern": "triple_top",
@@ -62830,14 +62610,6 @@
       "contractions": [
         {
           "label": "C1",
-          "pct": 26.2,
-          "highDate": "2026-02-13",
-          "high": 73.0901,
-          "lowDate": "2026-04-01",
-          "low": 53.9737
-        },
-        {
-          "label": "C2",
           "pct": 9.0,
           "highDate": "2026-05-01",
           "high": 59.6609,
@@ -62845,16 +62617,16 @@
           "low": 54.2933
         },
         {
-          "label": "C3",
-          "pct": 5.8,
-          "highDate": "2026-07-07",
-          "high": 63.2381,
-          "lowDate": "2026-07-15",
-          "low": 59.5888
+          "label": "C2",
+          "pct": 11.5,
+          "highDate": "2026-07-28",
+          "high": 66.8874,
+          "lowDate": "2026-10-01",
+          "low": 59.22
         }
       ],
       "pivot": 66.89,
-      "pivotDate": "2026-07-28",
+      "pivotDate": null,
       "status": "仍未破 pivot；收市低於突破位",
       "trendlines": [
         {
@@ -62874,11 +62646,13 @@
           "note": "高點降低（下降壓力線）"
         }
       ],
-      "chartPath": "data/charts/UL_scan_VCP.svg",
-      "barsUsed": 445,
+      "chartPath": "data/charts/UL_scan_triple_bottom.svg",
+      "barsUsed": 260,
       "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 26.2% → C2 9.0% → C3 5.8%，選為主形態（score=135）",
-      "summaryTw": "UL（Unilever PLC） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 26.2% → C2 9.0% → C3 5.8%\n收縮遞減 C1 26.2% → C2 9.0% → C3 5.8%，選為主形態（score=135）\nPivot／突破位：$66.89（2026-07-28）\n收市：$62.95；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈62.3）\n趨勢線：低點降低；高點降低（下降壓力線）\n主題／ETF：雜項／XLP",
+      "whyPattern": "三個近似低點 [59.4, 60.98, 59.22] ＋頸線 $66.89 → 三底（score=78）",
+      "summaryTw": "UL（Unilever PLC） 日K技術分析 @ 2026-10-12\n主形態：三底（Triple Bottom）\n三個近似低點 [59.4, 60.98, 59.22] ＋頸線 $66.89 → 三底（score=78）\nPivot／突破位：$66.89\n收市：$62.95；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈62.3）\n趨勢線：低點降低；高點降低（下降壓力線）\n主題／ETF：雜項／XLP",
+      "techPass": true,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "PG",
@@ -62915,10 +62689,7 @@
         }
       ],
       "siblingHint": "PG／CL／KO 與 UL 近月同步，若同時收緊／突破，較似板塊資金部署。",
-      "inScreenerPass": true,
-      "techPass": true,
-      "chartPng": "data/charts/UL_scan_VCP.png",
-      "patternScore": 135.0
+      "chartPng": "data/charts/UL_scan_triple_bottom.png"
     },
     {
       "bot": "Grok",
@@ -70535,31 +70306,31 @@
         "contractions": [
           {
             "label": "C1",
-            "pct": 19.5,
-            "highDate": "2026-02-02",
-            "high": 121.67,
-            "lowDate": "2026-02-09",
-            "low": 98.0
+            "pct": 35.8,
+            "highDate": "2026-06-01",
+            "high": 139.2,
+            "lowDate": "2026-06-25",
+            "low": 89.39
           },
           {
             "label": "C2",
-            "pct": 8.9,
-            "highDate": "2026-02-10",
-            "high": 108.98,
-            "lowDate": "2026-02-12",
-            "low": 99.27
+            "pct": 19.6,
+            "highDate": "2026-07-07",
+            "high": 113.79,
+            "lowDate": "2026-07-23",
+            "low": 91.53
           },
           {
             "label": "C3",
-            "pct": 6.7,
-            "highDate": "2026-02-17",
-            "high": 110.85,
-            "lowDate": "2026-02-18",
-            "low": 103.4
+            "pct": 15.3,
+            "highDate": "2026-08-31",
+            "high": 149.6,
+            "lowDate": "2026-09-28",
+            "low": 126.75
           }
         ],
-        "pivot": 126.67,
-        "pivotDate": "2026-03-09",
+        "pivot": 149.6,
+        "pivotDate": "2026-08-31",
         "contracting": true
       },
       "alternates": [
@@ -70575,17 +70346,17 @@
             {
               "date": "2026-09-11",
               "price": 130.39,
-              "i": 423
+              "i": 238
             },
             {
               "date": "2026-09-18",
               "price": 135.07,
-              "i": 428
+              "i": 243
             },
             {
               "date": "2026-09-28",
               "price": 126.75,
-              "i": 434
+              "i": 249
             }
           ],
           "neckline": 147.57,
@@ -70604,32 +70375,32 @@
       "contractions": [
         {
           "label": "C1",
-          "pct": 19.5,
-          "highDate": "2026-02-02",
-          "high": 121.67,
-          "lowDate": "2026-02-09",
-          "low": 98.0
+          "pct": 35.8,
+          "highDate": "2026-06-01",
+          "high": 139.2,
+          "lowDate": "2026-06-25",
+          "low": 89.39
         },
         {
           "label": "C2",
-          "pct": 8.9,
-          "highDate": "2026-02-10",
-          "high": 108.98,
-          "lowDate": "2026-02-12",
-          "low": 99.27
+          "pct": 19.6,
+          "highDate": "2026-07-07",
+          "high": 113.79,
+          "lowDate": "2026-07-23",
+          "low": 91.53
         },
         {
           "label": "C3",
-          "pct": 6.7,
-          "highDate": "2026-02-17",
-          "high": 110.85,
-          "lowDate": "2026-02-18",
-          "low": 103.4
+          "pct": 15.3,
+          "highDate": "2026-08-31",
+          "high": 149.6,
+          "lowDate": "2026-09-28",
+          "low": 126.75
         }
       ],
-      "pivot": 126.67,
-      "pivotDate": "2026-03-09",
-      "status": "收市已企穩／突破 pivot 上方",
+      "pivot": 149.6,
+      "pivotDate": "2026-08-31",
+      "status": "仍未破 pivot；收市低於突破位",
       "trendlines": [
         {
           "dir": "down",
@@ -70649,10 +70420,13 @@
         }
       ],
       "chartPath": "data/charts/NOW_scan_VCP.svg",
-      "barsUsed": 445,
-      "dataSource": "yfinance",
-      "whyPattern": "收縮遞減 C1 19.5% → C2 8.9% → C3 6.7%，選為主形態（score=135）",
-      "summaryTw": "NOW（ServiceNow, Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 19.5% → C2 8.9% → C3 6.7%\n收縮遞減 C1 19.5% → C2 8.9% → C3 6.7%，選為主形態（score=135）\nPivot／突破位：$126.67（2026-03-09）\n收市：$140.32；收市已企穩／突破 pivot 上方\n相對 SMA30：上方（SMA30≈137.69）\n趨勢線：低點降低；高點抬高\n主題／ETF：Software service／IGV",
+      "barsUsed": 260,
+      "dataSource": "cache",
+      "whyPattern": "收縮遞減 C1 35.8% → C2 19.6% → C3 15.3%，選為主形態（score=305）",
+      "summaryTw": "NOW（ServiceNow, Inc.） 日K技術分析 @ 2026-10-12\n主形態：VCP（波動收縮）；C1 35.8% → C2 19.6% → C3 15.3%\n收縮遞減 C1 35.8% → C2 19.6% → C3 15.3%，選為主形態（score=305）\nPivot／突破位：$149.6（2026-08-31）\n收市：$140.32；仍未破 pivot；收市低於突破位\n相對 SMA30：上方（SMA30≈137.69）\n趨勢線：低點降低；高點抬高\n主題／ETF：Software service／IGV",
+      "techPass": false,
+      "patternScore": 305.0,
+      "inScreenerPass": true,
       "siblings": [
         {
           "ticker": "TEAM",
@@ -70689,8 +70463,6 @@
         }
       ],
       "siblingHint": "TEAM／INTU／SNOW 與 NOW 近月同步，若同時收緊／突破，較似板塊資金部署。",
-      "inScreenerPass": true,
-      "techPass": false,
       "chartPng": "data/charts/NOW_scan_VCP.png"
     },
     {
@@ -97519,67 +97291,67 @@
     }
   ],
   "techPassed": [
-    "A",
-    "AAON",
-    "ADI",
-    "AEO",
-    "AMRX",
-    "ASO",
+    "PTC",
     "ASX",
-    "AVPT",
-    "BOX",
-    "BSY",
-    "BURL",
-    "BWIN",
-    "CBOE",
+    "ASO",
+    "NDAQ",
     "CCL",
-    "CDNS",
-    "CNQ",
-    "CVI",
-    "DDOG",
-    "DELL",
-    "ENTG",
-    "ERO",
-    "ESI",
-    "ETN",
+    "BOX",
+    "BWIN",
+    "TRMD",
+    "TXNM",
+    "SEI",
     "FAST",
-    "GAP",
-    "GNRC",
-    "GRAB",
-    "GTLB",
-    "HALO",
-    "HPE",
-    "ICE",
-    "IOT",
     "ITUB",
+    "RXO",
+    "DDOG",
+    "PFE",
+    "AEO",
+    "SNPS",
+    "IOT",
+    "OLLI",
+    "TAK",
+    "GTLB",
+    "GRAB",
+    "CNQ",
+    "ERO",
+    "AMRX",
+    "A",
+    "CBOE",
+    "RNG",
+    "RCL",
+    "DELL",
     "JCI",
     "KEYS",
-    "KOD",
-    "LUV",
-    "META",
-    "MGNI",
-    "NDAQ",
-    "NET",
-    "OLLI",
-    "PFE",
-    "PPLI",
-    "PTC",
-    "RCL",
-    "RNG",
-    "RXO",
-    "S",
-    "SEI",
     "SHOO",
-    "SNPS",
-    "SUNB",
-    "TAK",
-    "TRMD",
-    "TXN",
-    "TXNM",
-    "UL",
+    "MGNI",
+    "BSY",
+    "S",
+    "PPLI",
+    "META",
+    "WK",
     "VSXY",
+    "CVI",
+    "CDNS",
     "VVV",
-    "WK"
+    "ESI",
+    "ADI",
+    "BURL",
+    "HPE",
+    "ETN",
+    "GNRC",
+    "KOD",
+    "HALO",
+    "AAON",
+    "GAP",
+    "NET",
+    "SUNB",
+    "ENTG",
+    "LUV",
+    "AVPT",
+    "TXN",
+    "ICE",
+    "UL"
   ],
   "techPassedCount": 61,
   "candidateCount": 480,
@@ -98076,5 +97848,7 @@
     "rules": "pattern+pivot+≤6%+aboveMa30; VCP C1>C2>C3 score≥120; bull_flag≥110; asc/flat/cup≥90; low_cheat/triple_bottom excluded from pass",
     "appliedAt": "2026-10-13T21:40:25+08:00",
     "prevTechPassCount": 340
-  }
+  },
+  "vcpStyleFixAt": "2026-10-13T21:53:42+08:00",
+  "vcpStyleFixNote": "detect_vcp late-base + NOW exemplar draw style; re-analyzed VCP techPass set"
 }

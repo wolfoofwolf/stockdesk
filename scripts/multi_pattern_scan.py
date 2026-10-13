@@ -156,84 +156,199 @@ def atr(bars, n=14):
 
 # --- detectors ---
 def detect_vcp(bars):
-    zz = zigzag(bars, 0.055)
+    """Volatility Contraction Pattern.
+
+    Prefer the *late* progressive base (C1 > C2 > C3 toward the right under the
+    pivot), not early-chart micro swings. Multi-scale zigzag + min span, then
+    score with strong recency / higher-low / progressive bias. Keeps _hi/_li for
+    drawing.
+    """
+    if not bars or len(bars) < 60:
+        return None
+    n = len(bars)
+
+    # Multi-scale HL pairs; reject micro (span < 4) and tiny % moves
     hl = []
-    for i in range(len(zz) - 1):
-        if zz[i]["type"] == "H" and zz[i + 1]["type"] == "L":
+    seen = set()
+    for thr in (0.10, 0.08, 0.12):
+        zz = zigzag(bars, thr)
+        for i in range(len(zz) - 1):
+            if zz[i]["type"] != "H" or zz[i + 1]["type"] != "L":
+                continue
+            hi, li = zz[i]["i"], zz[i + 1]["i"]
+            if li - hi < 4:
+                continue
             p = pct(zz[i]["bar"]["h"], zz[i + 1]["bar"]["l"])
+            if p is None or p < 5:
+                continue
+            key = (hi // 3, li // 3)
+            if key in seen:
+                continue
+            seen.add(key)
             hl.append({
                 "highDate": zz[i]["bar"]["date"], "high": zz[i]["bar"]["h"],
                 "lowDate": zz[i + 1]["bar"]["date"], "low": zz[i + 1]["bar"]["l"],
-                "pct": None if p is None else round(p, 1),
-                "_hi": zz[i]["i"], "_li": zz[i + 1]["i"],
+                "pct": round(p, 1),
+                "_hi": hi, "_li": li,
             })
+    hl.sort(key=lambda c: (c["_li"], c["_hi"]))
+    cleaned = []
+    for c in hl:
+        if cleaned and abs(cleaned[-1]["_li"] - c["_li"]) <= 5:
+            if c["pct"] > cleaned[-1]["pct"]:
+                cleaned[-1] = c
+            continue
+        cleaned.append(c)
+    hl = cleaned
     if len(hl) < 2:
         return None
+
+    def strictly_progressive(sl):
+        return all(sl[k]["pct"] < sl[k - 1]["pct"] for k in range(1, len(sl)))
 
     def score_slice(sl):
         if not sl or len(sl) < 2:
             return -1e9
-        s = 0
+        if not all(c["pct"] is not None for c in sl):
+            return -1e9
+        # 3-leg must be progressive (tiny 2% tolerance); reject expanding late legs
+        if len(sl) >= 3:
+            for k in range(1, len(sl)):
+                if sl[k]["pct"] > sl[k - 1]["pct"] * 1.02:
+                    return -1e9
+        s = 0.0
         for k in range(1, len(sl)):
-            if sl[k]["pct"] is None or sl[k - 1]["pct"] is None:
-                return -1e9
-            if sl[k]["pct"] <= sl[k - 1]["pct"] * 1.05:
-                s += 30
-            elif sl[k]["pct"] <= sl[k - 1]["pct"] * 1.2:
-                s += 10
+            if sl[k]["pct"] < sl[k - 1]["pct"]:
+                s += 40
+            elif sl[k]["pct"] <= sl[k - 1]["pct"] * 1.02:
+                s += 15
             else:
-                s -= 40
-        last_pct = sl[-1]["pct"]
-        if last_pct <= 8:
-            s += 25
-        elif last_pct <= 12:
-            s += 10
-        if sl[0]["pct"] >= 15:
-            s += 15
-        # recency bias milder than before
-        # quality only — do NOT inflate with bar index (was dominating all picks)
+                s -= 60
         if len(sl) == 3:
+            s += 30
+        if strictly_progressive(sl) and len(sl) >= 3:
+            s += 30
+        last_pct = sl[-1]["pct"]
+        if last_pct <= 10:
+            s += 25
+        elif last_pct <= 14:
+            s += 12
+        elif last_pct <= 18:
+            s += 5
+        if sl[0]["pct"] >= 18:
+            s += 15
+        if sl[0]["pct"] >= 28:
+            s += 10
+
+        last_li = sl[-1]["_li"]
+        first_hi = sl[0]["_hi"]
+        dist_end = n - 1 - last_li
+        # Recency: last contraction near end of series (maturing base under pivot)
+        if dist_end <= 25:
+            s += 70
+        elif dist_end <= 45:
+            s += 50
+        elif dist_end <= 75:
+            s += 25
+        else:
+            s -= 100  # early-chart micro VCPs
+
+        mid = (first_hi + last_li) / 2
+        if mid >= n * 0.50:
             s += 20
-        if len(sl) >= 3 and all(sl[k]["pct"] <= sl[k-1]["pct"] * 1.05 for k in range(1, len(sl))):
-            s += 15  # clean progressive contraction
+        elif mid < n * 0.30:
+            s -= 50
+
+        lows = [c["low"] for c in sl]
+        if all(lows[k] >= lows[k - 1] * 0.98 for k in range(1, len(lows))):
+            s += 25
+        elif lows[-1] > lows[0]:
+            s += 10
+
+        highs = [c["high"] for c in sl]
+        if len(highs) >= 2 and highs[-1] <= max(highs[:-1]) * 1.05:
+            s += 10
+
+        total_span = last_li - first_hi
+        if 30 <= total_span <= 180:
+            s += 20
+        elif total_span < 18:
+            s -= 50
+
+        for k in range(1, len(sl)):
+            if sl[k]["_hi"] < sl[k - 1]["_li"] - 2:
+                s -= 30
         return s
 
     best = None
     best_score = -1e9
-    for n in (3, 2):
-        if len(hl) < n:
+    for n_c in (3, 2):
+        if len(hl) < n_c:
             continue
-        for s0 in range(0, len(hl) - n + 1):
-            sl = hl[s0:s0 + n]
+        for s0 in range(0, len(hl) - n_c + 1):
+            sl = [dict(c) for c in hl[s0:s0 + n_c]]
             sc = score_slice(sl)
-            if sc > best_score:
-                best_score = sc
-                contractions = [{
-                    "label": f"C{idx + 1}", "pct": c["pct"],
-                    "highDate": c["highDate"], "high": c["high"],
-                    "lowDate": c["lowDate"], "low": c["low"],
-                    "_hi": c["_hi"], "_li": c["_li"],
-                } for idx, c in enumerate(sl)]
-                last_h = sl[-1]
-                pivot = last_h["high"]
-                pivot_date = last_h["highDate"]
-                for z in zz:
-                    if z["type"] == "H" and last_h["_hi"] <= z["i"] <= last_h["_hi"] + 60 and z["bar"]["h"] >= pivot * 0.98:
-                        if z["bar"]["h"] >= pivot:
-                            pivot = z["bar"]["h"]
-                            pivot_date = z["bar"]["date"]
-                best = {
-                    "pattern": "VCP",
-                    "contractions": [{k: v for k, v in c.items() if not str(k).startswith("_")} for c in contractions],
-                    "pivot": round(pivot, 2),
-                    "pivotDate": pivot_date,
-                    "contracting": contractions[-1]["pct"] < contractions[0]["pct"],
-                    "_score": max(0, sc),  # quality-only, comparable to other patterns
-                    "_ann": {"contractions": contractions, "pivot": pivot},
-                }
-    if best and best_score > 20:  # require meaningful contraction quality
+            if sc <= best_score:
+                continue
+            best_score = sc
+            # Widen final contraction through subsequent pivot-zone troughs
+            # (same roof high) while keeping progressive % — matches C3 green box
+            last = sl[-1]
+            roof = last["high"]
+            end_scan = min(n, last["_li"] + 45)
+            deep_i = last["_li"]
+            deep_low = last["low"]
+            for ii in range(last["_li"] + 1, end_scan):
+                if bars[ii]["h"] > roof * 1.02:
+                    break  # left the pivot roof
+                if bars[ii]["l"] < deep_low:
+                    deep_low = bars[ii]["l"]
+                    deep_i = ii
+            if deep_i != last["_li"]:
+                new_pct = pct(roof, deep_low)
+                if new_pct is not None:
+                    new_pct = round(new_pct, 1)
+                    trial = [dict(c) for c in sl]
+                    trial[-1] = {
+                        **last,
+                        "low": deep_low,
+                        "lowDate": bars[deep_i]["date"],
+                        "pct": new_pct,
+                        "_li": deep_i,
+                    }
+                    if score_slice(trial) >= sc - 25 and (
+                        len(trial) < 3 or trial[-1]["pct"] < trial[-2]["pct"] * 1.02
+                    ):
+                        sl = trial
+                        sc = score_slice(sl)
+                        best_score = sc
+
+            contractions = [{
+                "label": f"C{idx + 1}", "pct": c["pct"],
+                "highDate": c["highDate"], "high": c["high"],
+                "lowDate": c["lowDate"], "low": c["low"],
+                "_hi": c["_hi"], "_li": c["_li"],
+            } for idx, c in enumerate(sl)]
+            last_h = sl[-1]
+            pivot = last_h["high"]
+            pivot_date = last_h["highDate"]
+            for ii in range(last_h["_hi"], min(n, last_h["_li"] + 35)):
+                if bars[ii]["h"] >= pivot:
+                    pivot = bars[ii]["h"]
+                    pivot_date = bars[ii]["date"]
+            best = {
+                "pattern": "VCP",
+                "contractions": [{k: v for k, v in c.items() if not str(k).startswith("_")} for c in contractions],
+                "pivot": round(pivot, 2),
+                "pivotDate": pivot_date,
+                "contracting": contractions[-1]["pct"] < contractions[0]["pct"],
+                "_score": max(0, sc),
+                "_ann": {"contractions": contractions, "pivot": pivot},
+            }
+    if best and best_score > 50:
         return best
     return None
+
 
 
 def detect_flag(bars):
@@ -895,20 +1010,22 @@ def find_siblings(ticker, theme, ohlcv_map, theme_map, names):
 # --- candlestick chart (Frok NOW style) ---
 def draw_candle_chart(ticker, bars, report, path_svg):
     # Prefer CJK-capable font for Traditional Chinese annotations
+    _cjk_fp = None
     try:
         from matplotlib import font_manager as _fm
+        import matplotlib as _mpl
         for _fp in (
             "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
             "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
         ):
             if Path(_fp).exists():
                 _fm.fontManager.addfont(_fp)
-                import matplotlib as _mpl
-                _mpl.rcParams["font.family"] = "Noto Sans CJK TC"
+                _cjk_fp = _fm.FontProperties(fname=_fp)
+                _mpl.rcParams["font.family"] = _cjk_fp.get_name()
                 _mpl.rcParams["axes.unicode_minus"] = False
                 break
     except Exception:
-        pass
+        _cjk_fp = None
     # VCP: macro / zoomed-out window so whole contraction structure is visible
     pat0 = report.get("primaryPattern")
     n_bars = 240 if pat0 == "VCP" else 150
@@ -938,12 +1055,13 @@ def draw_candle_chart(ticker, bars, report, path_svg):
         vc = color
         axv.bar(i, b["v"], width=0.7, color=vc, alpha=0.7)
 
-    # white zigzag overlay
-    zz = zigzag(use, 0.05)
+    # white zigzag overlay — coarser for VCP so line emphasizes structure swings
+    zz_thr = 0.08 if pat0 == "VCP" else 0.05
+    zz = zigzag(use, zz_thr)
     if len(zz) >= 2:
         zx = [p["i"] for p in zz]
         zy = [p["bar"]["h"] if p["type"] == "H" else p["bar"]["l"] for p in zz]
-        ax.plot(zx, zy, color="#ffffff", lw=1.5, alpha=0.85, zorder=4)
+        ax.plot(zx, zy, color="#ffffff", lw=2.0 if pat0 == "VCP" else 1.5, alpha=0.9, zorder=4)
 
     pat = report.get("primaryPattern")
     ann = report.get("_ann") or {}
@@ -959,78 +1077,115 @@ def draw_candle_chart(ticker, bars, report, path_svg):
                     ha="center", zorder=6)
 
     if pat == "VCP":
-        # Style lock (human exemplar NOW): white zigzag + C1/C2/C3 at lows,
-        # C3 green box + vol dry-up note, DTL across C3 highs, Bo DTL + pivot.
+        # Style lock (human exemplar NOW): white zigzag + C1/C2/C3 at lows
+        # (white fill / black text to match JPG), C3 green box + vol dry-up,
+        # DTL across C3 highs, Bo DTL + labeled pivot point.
         cons = report.get("contractions") or []
+        ann_cons = (ann.get("contractions") if isinstance(ann, dict) else None) or cons
         c3_span = None
         c3_highs = []
-        for c in cons:
+        for c in ann_cons:
             try:
-                hi = next(i for i, b in enumerate(bars) if b["date"] == c["highDate"])
-                li = next(i for i, b in enumerate(bars) if b["date"] == c["lowDate"])
+                if c.get("_hi") is not None and c.get("_li") is not None:
+                    hi, li = int(c["_hi"]), int(c["_li"])
+                else:
+                    hi = next(i for i, b in enumerate(bars) if b["date"] == c["highDate"])
+                    li = next(i for i, b in enumerate(bars) if b["date"] == c["lowDate"])
                 xi_h, yi_h = x_of(hi), c["high"]
                 xi_l, yi_l = x_of(li), c["low"]
                 lab = c.get("label") or "?"
-                # C labels sit on contraction lows (TradingView-style white box)
+                # Exemplar JPG: white box, black text on contraction lows
                 if 0 <= xi_l < len(use):
                     ax.annotate(lab, xy=(xi_l, yi_l), xytext=(0, -18), textcoords="offset points",
-                                fontsize=10, fontweight="bold", color="#ffffff",
-                                bbox=dict(boxstyle="square,pad=0.25", facecolor="#000000", edgecolor="#ffffff", lw=1.2),
+                                fontsize=10, fontweight="bold", color="#000000",
+                                bbox=dict(boxstyle="square,pad=0.28", facecolor="#ffffff",
+                                          edgecolor="#000000", lw=1.3),
                                 ha="center", zorder=7)
                 if 0 <= xi_h < len(use) and 0 <= xi_l < len(use):
                     if lab.upper() == "C3":
-                        c3_span = (min(xi_h, xi_l), max(xi_h, xi_l))
-                        # collect local highs inside C3 for DTL
-                        lo_i, hi_i = int(min(xi_h, xi_l)), int(max(xi_h, xi_l))
+                        x0 = min(xi_h, xi_l)
+                        x1 = max(xi_h, xi_l)
+                        # Extend only through nearby pivot-zone chop (cap ~25 bars),
+                        # not the whole right edge when price remains below pivot.
+                        pv = report.get("pivot") or c["high"]
+                        ext = int(x1)
+                        for ii in range(int(x1) + 1, min(len(use), int(x1) + 25)):
+                            if use[ii]["h"] > pv * 1.01:
+                                break
+                            # stop if a sharp thrust away from the tight zone
+                            if use[ii]["l"] < (c["low"] * 0.92):
+                                break
+                            ext = ii
+                        c3_span = (x0, max(x1, ext))
+                        lo_i, hi_i = int(c3_span[0]), int(c3_span[1])
                         for ii in range(max(0, lo_i), min(len(use), hi_i + 1)):
                             c3_highs.append((ii, use[ii]["h"]))
                     else:
                         ax.axvspan(min(xi_h, xi_l), max(xi_h, xi_l), color="#ffffff", alpha=0.03, zorder=1)
-            except StopIteration:
+            except (StopIteration, KeyError, TypeError, ValueError):
                 pass
-        # C3: translucent green box + volume dry-up callout
         if c3_span is not None:
             x0, x1 = c3_span
-            y_lo = min(use[i]["l"] for i in range(int(x0), int(x1) + 1) if 0 <= i < len(use)) if x1 >= x0 else use[-1]["l"]
-            y_hi = max(use[i]["h"] for i in range(int(x0), int(x1) + 1) if 0 <= i < len(use)) if x1 >= x0 else use[-1]["h"]
+            idxs = [i for i in range(int(x0), int(x1) + 1) if 0 <= i < len(use)]
+            if idxs:
+                y_hi = max(use[i]["h"] for i in idxs)
+            else:
+                y_hi = use[-1]["h"]
             ax.axvspan(x0, x1, color="#2e7d32", alpha=0.22, zorder=1)
             axv.axvspan(x0, x1, color="#2e7d32", alpha=0.18, zorder=1)
             ax.annotate("綠色範圍內(pivot point)成交量萎縮",
                         xy=((x0 + x1) / 2, y_hi), xytext=(0, 18), textcoords="offset points",
-                        fontsize=8, color="#ffffff",
-                        bbox=dict(boxstyle="square,pad=0.3", facecolor="#000000", edgecolor="#ffffff", lw=1.0),
+                        fontsize=8, color="#000000",
+                        fontproperties=_cjk_fp,
+                        bbox=dict(boxstyle="square,pad=0.3", facecolor="#ffffff",
+                                  edgecolor="#000000", lw=1.0),
                         ha="center", zorder=7)
-            # volume arrow into C3 dry-up
             mid = int((x0 + x1) / 2)
-            if 0 <= mid < len(use):
-                axv.annotate("", xy=(mid, use[mid]["v"] * 0.15), xytext=(mid, max(use[i]["v"] for i in range(int(x0), int(x1)+1) if 0<=i<len(use)) * 0.85),
+            if 0 <= mid < len(use) and idxs:
+                vmax = max(use[i]["v"] for i in idxs) or 1
+                axv.annotate("", xy=(mid, max(1, use[mid]["v"] * 0.12)),
+                             xytext=(mid, vmax * 0.85),
                              arrowprops=dict(arrowstyle="->", color="#ffffff", lw=2.0), zorder=6)
-            # DTL across late C3 highs (descending)
-            if len(c3_highs) >= 4:
-                # take first third and last third peak for slope
-                left = max(c3_highs[: max(2, len(c3_highs)//3)], key=lambda t: t[1])
-                right = max(c3_highs[-max(2, len(c3_highs)//3):], key=lambda t: t[1])
-                if right[0] > left[0] and right[1] <= left[1] * 1.02:
-                    ax.plot([left[0], right[0]], [left[1], right[1]], color="#ffffff", lw=1.8, zorder=5)
+            # DTL across C3 highs (descending into pivot)
+            if len(c3_highs) >= 3:
+                mid_c = max(2, len(c3_highs) // 2)
+                left = max(c3_highs[:mid_c], key=lambda t: t[1])
+                later = [t for t in c3_highs[mid_c:] if t[0] > left[0]]
+                if later:
+                    # prefer a later peak that is <= left (descending DTL)
+                    desc = [t for t in later if t[1] <= left[1] * 1.01]
+                    right = max(desc or later, key=lambda t: t[1])
+                else:
+                    right = max(c3_highs[-max(2, len(c3_highs) // 3):], key=lambda t: t[1])
+                if right[0] > left[0]:
+                    slope = (right[1] - left[1]) / max(1, right[0] - left[0])
+                    x_ext = min(len(use) - 1, right[0] + 10)
+                    y_ext = right[1] + slope * (x_ext - right[0])
+                    ax.plot([left[0], x_ext], [left[1], y_ext], color="#ffffff", lw=1.8, zorder=5)
                     ax.annotate("down trend line(DTL)", xy=(right[0], right[1]),
-                                xytext=(12, 10), textcoords="offset points",
-                                fontsize=8, color="#ffffff",
-                                bbox=dict(boxstyle="square,pad=0.2", facecolor="#000000", edgecolor="#ffffff"),
+                                xytext=(14, 12), textcoords="offset points",
+                                fontsize=8, color="#000000",
+                                bbox=dict(boxstyle="square,pad=0.2", facecolor="#ffffff",
+                                          edgecolor="#000000"),
                                 arrowprops=dict(arrowstyle="->", color="#ffffff", lw=1.2), zorder=7)
-                    # Bo DTL if last close above DTL line
-                    if report.get("pivot") is not None and use[-1]["c"] >= min(left[1], right[1]) * 0.995:
+                    y_at_last = left[1] + slope * ((len(use) - 1) - left[0])
+                    if use[-1]["c"] >= y_at_last * 0.995 or (
+                        report.get("pivot") is not None and use[-1]["c"] >= report["pivot"] * 0.98
+                    ):
                         ax.annotate("Bo DTL", xy=(len(use) - 2, use[-2]["h"]),
-                                    xytext=(-40, 22), textcoords="offset points",
-                                    fontsize=9, fontweight="bold", color="#ffffff",
-                                    bbox=dict(boxstyle="square,pad=0.25", facecolor="#000000", edgecolor="#ffffff"),
+                                    xytext=(-48, 24), textcoords="offset points",
+                                    fontsize=9, fontweight="bold", color="#000000",
+                                    bbox=dict(boxstyle="square,pad=0.25", facecolor="#ffffff",
+                                              edgecolor="#000000"),
                                     arrowprops=dict(arrowstyle="->", color="#ffffff", lw=1.4), zorder=8)
         if report.get("pivot") is not None:
             pv = report["pivot"]
             ax.axhline(pv, color="#ffffff", ls="-", lw=1.2, alpha=0.85, zorder=5)
             ax.annotate("pivot point", xy=(len(use) - 1, pv),
-                        xytext=(-60, 16), textcoords="offset points",
-                        fontsize=9, fontweight="bold", color="#ffffff",
-                        bbox=dict(boxstyle="square,pad=0.25", facecolor="#000000", edgecolor="#ffffff", lw=1.2),
+                        xytext=(-70, 16), textcoords="offset points",
+                        fontsize=9, fontweight="bold", color="#000000",
+                        bbox=dict(boxstyle="square,pad=0.25", facecolor="#ffffff",
+                                  edgecolor="#000000", lw=1.2),
                         arrowprops=dict(arrowstyle="->", color="#ffffff", lw=1.2),
                         ha="right", va="bottom", zorder=7)
 
