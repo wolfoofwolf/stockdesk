@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-13T01:18:32.450475Z",
+  "generatedAt": "2026-10-13T06:02:40.203690Z",
   "bot": "Jrok",
   "count": 87,
-  "techPassed": 350,
+  "techPassed": 340,
   "leaders": [
     {
       "ticker": "TJX",
@@ -13,7 +13,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 140.9425048828125,
+      "price": 141.9199981689453,
       "pivot": 141.94,
       "close": 141.92
     },
@@ -26,7 +26,7 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 6,
-      "price": 117.44999694824219,
+      "price": 117.69000244140625,
       "pivot": 117.74,
       "close": 117.69
     },
@@ -39,9 +39,22 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 6,
-      "price": 86.69000244140625,
+      "price": 87.04000091552734,
       "pivot": 87.08,
       "close": 87.04
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific Corporation",
+      "theme": "雜項",
+      "etf": "XLI",
+      "pattern": "low_cheat",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 281.57000732421875,
+      "pivot": 281.71,
+      "close": 281.57
     },
     {
       "ticker": "WMT",
@@ -52,7 +65,7 @@
       "moat": "高",
       "valueChain": "下游",
       "score": 7,
-      "price": 112.34500122070312,
+      "price": 113.08000183105469,
       "pivot": 113.14,
       "close": 113.08
     },
@@ -65,7 +78,7 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 6,
-      "price": 73.65499877929688,
+      "price": 74.16999816894531,
       "pivot": 74.21,
       "close": 74.17
     },
@@ -78,7 +91,7 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 6,
-      "price": 123.72740173339844,
+      "price": 124.2300033569336,
       "pivot": 124.3,
       "close": 124.23
     },
@@ -91,22 +104,9 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 61.349998474121094,
+      "price": 61.790000915527344,
       "pivot": 61.83,
       "close": 61.79
-    },
-    {
-      "ticker": "BABA",
-      "name": "Alibaba Group Holding Limited",
-      "theme": "雜項",
-      "etf": "XLY",
-      "pattern": "low_cheat",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 110.32140350341797,
-      "pivot": 111.47,
-      "close": 111.37
     },
     {
       "ticker": "RHHBY",
@@ -117,8 +117,8 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 53.93000030517578,
-      "pivot": 54.21,
+      "price": 54.099998474121094,
+      "pivot": 54.22,
       "close": 54.1
     },
     {
@@ -130,7 +130,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 369.32000732421875,
+      "price": 369.29998779296875,
       "pivot": 370.14,
       "close": 369.3
     },
@@ -143,35 +143,9 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 219.72999572753906,
+      "price": 220.27999877929688,
       "pivot": 220.84,
       "close": 220.28
-    },
-    {
-      "ticker": "PDD",
-      "name": "PDD Holdings Inc.",
-      "theme": "雜項",
-      "etf": "XLY",
-      "pattern": "low_cheat",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 80.68499755859375,
-      "pivot": 81.58,
-      "close": 81.35
-    },
-    {
-      "ticker": "HLT",
-      "name": "Hilton Worldwide Holdings Inc.",
-      "theme": "雜項",
-      "etf": "XLY",
-      "pattern": "low_cheat",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 328.30499267578125,
-      "pivot": 327.7,
-      "close": 326.56
     },
     {
       "ticker": "SPGI",
@@ -182,7 +156,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 413.010009765625,
+      "price": 412.19000244140625,
       "pivot": 413.63,
       "close": 412.19
     },
@@ -195,7 +169,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 7,
-      "price": 217.3300018310547,
+      "price": 217.85000610351562,
       "pivot": 218.69,
       "close": 217.85
     },
@@ -208,7 +182,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 345.17999267578125,
+      "price": 345.05999755859375,
       "pivot": 346.4,
       "close": 345.06
     },
@@ -221,7 +195,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 181.72999572753906,
+      "price": 182.55999755859375,
       "pivot": 183.31,
       "close": 182.56
     },
@@ -234,7 +208,7 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 7,
-      "price": 32.849998474121094,
+      "price": 33.08000183105469,
       "pivot": 33.03,
       "close": 33.08
     },
@@ -247,7 +221,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 55.560001373291016,
+      "price": 55.619998931884766,
       "pivot": 55.92,
       "close": 55.62
     },
@@ -260,7 +234,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 205.4149932861328,
+      "price": 205.22999572753906,
       "pivot": 206.34,
       "close": 205.23
     },
@@ -273,7 +247,7 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 6,
-      "price": 150.32000732421875,
+      "price": 150.50999450683594,
       "pivot": 151.4,
       "close": 150.51
     },
@@ -286,7 +260,7 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 5,
-      "price": 290.489990234375,
+      "price": 290.5400085449219,
       "pivot": 289.68,
       "close": 290.54
     },
@@ -299,7 +273,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 7,
-      "price": 46.34000015258789,
+      "price": 47.529998779296875,
       "pivot": 47.83,
       "close": 47.53
     },
@@ -312,7 +286,7 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 7,
-      "price": 46.849998474121094,
+      "price": 46.72999954223633,
       "pivot": 47.04,
       "close": 46.73
     },
@@ -325,9 +299,22 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 71.45649719238281,
+      "price": 71.66000366210938,
       "pivot": 72.18,
       "close": 71.66
+    },
+    {
+      "ticker": "NU",
+      "name": "Nu Holdings Ltd.",
+      "theme": "金融",
+      "etf": "XLF",
+      "pattern": "bull_flag",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 5,
+      "price": 16.010000228881836,
+      "pivot": 16.19,
+      "close": 16.01
     },
     {
       "ticker": "COR",
@@ -338,7 +325,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 5,
-      "price": 324.3500061035156,
+      "price": 325.05999755859375,
       "pivot": 322.33,
       "close": 325.06
     },
@@ -351,7 +338,7 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 7,
-      "price": 101.74500274658203,
+      "price": 100.18000030517578,
       "pivot": 99.16,
       "close": 100.18
     },
@@ -364,48 +351,22 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 5,
-      "price": 94.13999938964844,
+      "price": 94.29000091552734,
       "pivot": 93.29,
       "close": 94.29
     },
     {
-      "ticker": "CL",
-      "name": "Colgate-Palmolive Company",
+      "ticker": "BABA",
+      "name": "Alibaba Group Holding Limited",
       "theme": "雜項",
-      "etf": "XLP",
+      "etf": "XLY",
       "pattern": "low_cheat",
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 89.02999877929688,
-      "pivot": 89.98,
-      "close": 89.98
-    },
-    {
-      "ticker": "NU",
-      "name": "Nu Holdings Ltd.",
-      "theme": "金融",
-      "etf": "XLF",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 5,
-      "price": 16.069900512695312,
-      "pivot": 16.22,
-      "close": 16.12
-    },
-    {
-      "ticker": "SPOT",
-      "name": "Spotify Technology S.A.",
-      "theme": "Software service",
-      "etf": "ARKK",
-      "pattern": "low_cheat",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 5,
-      "price": 530,
-      "pivot": 540.82,
-      "close": 529.14
+      "price": 110.77999877929688,
+      "pivot": 111.47,
+      "close": 110.78
     },
     {
       "ticker": "ISRG",
@@ -416,9 +377,48 @@
       "moat": "高",
       "valueChain": "下游",
       "score": 8,
-      "price": 426.5,
+      "price": 427.6400146484375,
       "pivot": 430.85,
       "close": 427.64
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber Technologies, Inc.",
+      "theme": "智能駕駛",
+      "etf": "ARKK",
+      "pattern": "low_cheat",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 71.5,
+      "pivot": 72.08,
+      "close": 71.5
+    },
+    {
+      "ticker": "PDD",
+      "name": "PDD Holdings Inc.",
+      "theme": "雜項",
+      "etf": "XLY",
+      "pattern": "low_cheat",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 80.91999816894531,
+      "pivot": 81.58,
+      "close": 80.92
+    },
+    {
+      "ticker": "MNST",
+      "name": "Monster Beverage Corporation",
+      "theme": "雜項",
+      "etf": "XLP",
+      "pattern": "low_cheat",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 43.7599983215332,
+      "pivot": 44.12,
+      "close": 43.76
     },
     {
       "ticker": "MA",
@@ -429,7 +429,7 @@
       "moat": "高",
       "valueChain": "下游",
       "score": 8,
-      "price": 596.3499755859375,
+      "price": 595.0900268554688,
       "pivot": 600.32,
       "close": 595.09
     },
@@ -442,7 +442,7 @@
       "moat": "低",
       "valueChain": "上游",
       "score": 5,
-      "price": 73.625,
+      "price": 73.29000091552734,
       "pivot": 74.0,
       "close": 73.29
     },
@@ -455,7 +455,7 @@
       "moat": "中",
       "valueChain": "中游",
       "score": 6,
-      "price": 490.885009765625,
+      "price": 487.3500061035156,
       "pivot": 492.1,
       "close": 487.35
     },
@@ -468,7 +468,7 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 5,
-      "price": 283.17999267578125,
+      "price": 282.489990234375,
       "pivot": 276.3,
       "close": 282.49
     },
@@ -481,7 +481,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 5,
-      "price": 51.57500076293945,
+      "price": 51.4900016784668,
       "pivot": 52.15,
       "close": 51.49
     },
@@ -494,7 +494,7 @@
       "moat": "中",
       "valueChain": "中游",
       "score": 6,
-      "price": 252.2449951171875,
+      "price": 251.8300018310547,
       "pivot": 255.08,
       "close": 251.83
     },
@@ -507,22 +507,9 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 7,
-      "price": 152.77499389648438,
+      "price": 153.1999969482422,
       "pivot": 149.48,
       "close": 153.2
-    },
-    {
-      "ticker": "INTU",
-      "name": "Intuit Inc.",
-      "theme": "Software service",
-      "etf": "IGV",
-      "pattern": "low_cheat",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 5,
-      "price": 307.1400146484375,
-      "pivot": 314.95,
-      "close": 305.99
     },
     {
       "ticker": "TT",
@@ -533,7 +520,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 479.0498962402344,
+      "price": 477.54998779296875,
       "pivot": 484.13,
       "close": 477.55
     },
@@ -546,7 +533,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 5,
-      "price": 10.050000190734863,
+      "price": 10.0600004196167,
       "pivot": 10.2,
       "close": 10.06
     },
@@ -559,35 +546,9 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 77.77999877929688,
+      "price": 78.29000091552734,
       "pivot": 79.42,
       "close": 78.29
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "theme": "能源",
-      "etf": "XLE",
-      "pattern": "bull_flag",
-      "moat": "中",
-      "valueChain": "上游",
-      "score": 6,
-      "price": 280.989990234375,
-      "pivot": 286.57,
-      "close": 278.18
-    },
-    {
-      "ticker": "ABBV",
-      "name": "AbbVie Inc.",
-      "theme": "醫療",
-      "etf": "XLV",
-      "pattern": "triple_bottom",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 7,
-      "price": 279.3599853515625,
-      "pivot": 269.39,
-      "close": 276.47
     },
     {
       "ticker": "DVN",
@@ -598,22 +559,9 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 5,
-      "price": 48.89500045776367,
+      "price": 48.959999084472656,
       "pivot": 49.69,
       "close": 48.96
-    },
-    {
-      "ticker": "DELL",
-      "name": "Dell Technologies Inc.",
-      "theme": "Hardware",
-      "etf": "XLK",
-      "pattern": "bull_flag",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 7,
-      "price": 570.6400146484375,
-      "pivot": 595.51,
-      "close": 586.06
     },
     {
       "ticker": "EMR",
@@ -624,22 +572,35 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 7,
-      "price": 163.07000732421875,
+      "price": 162.4600067138672,
       "pivot": 165.24,
       "close": 162.46
     },
     {
-      "ticker": "KEYS",
-      "name": "Keysight Technologies Inc.",
-      "theme": "Hardware",
-      "etf": "XLK",
-      "pattern": "bull_flag",
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "theme": "能源",
+      "etf": "XLE",
+      "pattern": "ascending_base",
+      "moat": "中",
+      "valueChain": "上游",
+      "score": 7,
+      "price": 281.4700012207031,
+      "pivot": 286.57,
+      "close": 281.47
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog, Inc.",
+      "theme": "Software service",
+      "etf": "IGV",
+      "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
       "score": 7,
-      "price": 378.010009765625,
-      "pivot": 389.93,
-      "close": 382.75
+      "price": 287.2900085449219,
+      "pivot": 278.7,
+      "close": 287.29
     },
     {
       "ticker": "PFE",
@@ -650,7 +611,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 7,
-      "price": 28.34589958190918,
+      "price": 28.399999618530273,
       "pivot": 28.95,
       "close": 28.4
     },
@@ -662,23 +623,10 @@
       "pattern": "bull_flag",
       "moat": "中",
       "valueChain": "中游",
-      "score": 5,
-      "price": 501.7200012207031,
+      "score": 7,
+      "price": 502.510009765625,
       "pivot": 512.49,
       "close": 502.51
-    },
-    {
-      "ticker": "LITE",
-      "name": "Lumentum Holdings Inc.",
-      "theme": "光通信",
-      "etf": "SMH",
-      "pattern": "bull_flag",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 1007.3900146484375,
-      "pivot": 1143.0,
-      "close": 1103.36
     },
     {
       "ticker": "LLY",
@@ -689,7 +637,7 @@
       "moat": "高",
       "valueChain": "下游",
       "score": 7,
-      "price": 1182.3050537109375,
+      "price": 1182.6199951171875,
       "pivot": 1206.63,
       "close": 1182.62
     },
@@ -702,22 +650,22 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 415.7250061035156,
+      "price": 417.57000732421875,
       "pivot": 426.59,
       "close": 417.57
     },
     {
-      "ticker": "ADSK",
-      "name": "Autodesk, Inc.",
-      "theme": "Hardware",
-      "etf": "XLK",
-      "pattern": "bull_flag",
+      "ticker": "SPOT",
+      "name": "Spotify Technology S.A.",
+      "theme": "Software service",
+      "etf": "ARKK",
+      "pattern": "low_cheat",
       "moat": "中",
       "valueChain": "下游",
       "score": 5,
-      "price": 234.25999450683594,
-      "pivot": 238.59,
-      "close": 233.54
+      "price": 528.7999877929688,
+      "pivot": 540.82,
+      "close": 528.8
     },
     {
       "ticker": "GILD",
@@ -728,22 +676,9 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 150.22219848632812,
+      "price": 150.42999267578125,
       "pivot": 154.2,
       "close": 150.43
-    },
-    {
-      "ticker": "NET",
-      "name": "Cloudflare, Inc.",
-      "theme": "Cyber security",
-      "etf": "HACK",
-      "pattern": "bull_flag",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 351.67498779296875,
-      "pivot": 370.35,
-      "close": 360.93
     },
     {
       "ticker": "CNQ",
@@ -754,7 +689,7 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 6,
-      "price": 50.44499969482422,
+      "price": 50.5,
       "pivot": 51.84,
       "close": 50.5
     },
@@ -767,7 +702,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 5,
-      "price": 114.66999816894531,
+      "price": 115.33999633789062,
       "pivot": 118.65,
       "close": 115.34
     },
@@ -780,22 +715,9 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 217.00999450683594,
+      "price": 217.27999877929688,
       "pivot": 223.52,
       "close": 217.28
-    },
-    {
-      "ticker": "CEG",
-      "name": "Constellation Energy Corporatio",
-      "theme": "核能",
-      "etf": "URA",
-      "pattern": "triple_bottom",
-      "moat": "中",
-      "valueChain": "上游",
-      "score": 7,
-      "price": 294.9800109863281,
-      "pivot": 286.56,
-      "close": 298.07
     },
     {
       "ticker": "OXY",
@@ -806,7 +728,7 @@
       "moat": "中",
       "valueChain": "上游",
       "score": 5,
-      "price": 61.20000076293945,
+      "price": 61.130001068115234,
       "pivot": 58.72,
       "close": 61.13
     },
@@ -819,7 +741,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 283.2101135253906,
+      "price": 280.6700134277344,
       "pivot": 289.17,
       "close": 280.67
     },
@@ -832,9 +754,48 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 219.85000610351562,
+      "price": 221.1999969482422,
       "pivot": 227.98,
       "close": 221.2
+    },
+    {
+      "ticker": "TTE",
+      "name": "TotalEnergies SE",
+      "theme": "能源",
+      "etf": "XLE",
+      "pattern": "triple_bottom",
+      "moat": "中",
+      "valueChain": "上游",
+      "score": 6,
+      "price": 88.37000274658203,
+      "pivot": 91.09,
+      "close": 88.37
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks, Inc.",
+      "theme": "光通信",
+      "etf": "IGV",
+      "pattern": "bull_flag",
+      "moat": "高",
+      "valueChain": "下游",
+      "score": 7,
+      "price": 210.8800048828125,
+      "pivot": 217.41,
+      "close": 210.88
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies Inc.",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "pattern": "bull_flag",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 576.760009765625,
+      "pivot": 595.06,
+      "close": 576.76
     },
     {
       "ticker": "JCI",
@@ -845,22 +806,48 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 156.6199951171875,
+      "price": 155.41000366210938,
       "pivot": 160.41,
       "close": 155.41
     },
     {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks, Inc.",
+      "ticker": "KEYS",
+      "name": "Keysight Technologies Inc.",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "pattern": "bull_flag",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 377.70001220703125,
+      "pivot": 389.93,
+      "close": 377.7
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie Inc.",
+      "theme": "醫療",
+      "etf": "XLV",
+      "pattern": "triple_bottom",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 7,
+      "price": 281.1199951171875,
+      "pivot": 269.39,
+      "close": 281.12
+    },
+    {
+      "ticker": "S",
+      "name": "SentinelOne, Inc.",
       "theme": "Cyber security",
       "etf": "HACK",
       "pattern": "bull_flag",
       "moat": "中",
       "valueChain": "下游",
-      "score": 6,
-      "price": 404.9849853515625,
-      "pivot": 432.33,
-      "close": 418.78
+      "score": 5,
+      "price": 25.65999984741211,
+      "pivot": 26.5,
+      "close": 25.66
     },
     {
       "ticker": "EBAY",
@@ -871,7 +858,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 5,
-      "price": 118.41000366210938,
+      "price": 114.6500015258789,
       "pivot": 109.65,
       "close": 114.65
     },
@@ -884,9 +871,22 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 7,
-      "price": 108.3550033569336,
+      "price": 108.48999786376953,
       "pivot": 103.74,
       "close": 108.49
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "theme": "Software service",
+      "etf": "IGV",
+      "pattern": "bull_flag",
+      "moat": "高",
+      "valueChain": "下游",
+      "score": 7,
+      "price": 742.9600219726562,
+      "pivot": 769.57,
+      "close": 742.96
     },
     {
       "ticker": "ECL",
@@ -897,7 +897,7 @@
       "moat": "中",
       "valueChain": "中游",
       "score": 6,
-      "price": 285.30999755859375,
+      "price": 284.29998779296875,
       "pivot": 294.55,
       "close": 284.3
     },
@@ -910,7 +910,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 5,
-      "price": 425.93499755859375,
+      "price": 433.5,
       "pivot": 413.57,
       "close": 433.5
     },
@@ -923,22 +923,9 @@
       "moat": "高",
       "valueChain": "下游",
       "score": 7,
-      "price": 955.510009765625,
+      "price": 959.4400024414062,
       "pivot": 995.83,
       "close": 959.44
-    },
-    {
-      "ticker": "CDNS",
-      "name": "Cadence Design Systems, Inc.",
-      "theme": "半導體",
-      "etf": "IGV",
-      "pattern": "bull_flag",
-      "moat": "中",
-      "valueChain": "中游",
-      "score": 6,
-      "price": 352.44500732421875,
-      "pivot": 361.91,
-      "close": 348.42
     },
     {
       "ticker": "BRK-B",
@@ -949,7 +936,7 @@
       "moat": "高",
       "valueChain": "下游",
       "score": 7,
-      "price": 517.2587280273438,
+      "price": 517.5999755859375,
       "pivot": 537.74,
       "close": 517.6
     },
@@ -962,22 +949,9 @@
       "moat": "中",
       "valueChain": "中游",
       "score": 6,
-      "price": 404.55999755859375,
+      "price": 406.25,
       "pivot": 422.67,
       "close": 406.25
-    },
-    {
-      "ticker": "ITW",
-      "name": "Illinois Tool Works Inc.",
-      "theme": "雜項",
-      "etf": "XLI",
-      "pattern": "low_cheat",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 5,
-      "price": 267.1600036621094,
-      "pivot": 274.61,
-      "close": 265.11
     },
     {
       "ticker": "SONY",
@@ -988,22 +962,9 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 24.385000228881836,
+      "price": 24.260000228881836,
       "pivot": 25.27,
       "close": 24.26
-    },
-    {
-      "ticker": "DDOG",
-      "name": "Datadog, Inc.",
-      "theme": "Software service",
-      "etf": "IGV",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 7,
-      "price": 290.8900146484375,
-      "pivot": 278.7,
-      "close": 293.26
     },
     {
       "ticker": "APH",
@@ -1014,22 +975,9 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 86.50900268554688,
+      "price": 86.19000244140625,
       "pivot": 89.93,
       "close": 86.19
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "theme": "Cyber security",
-      "etf": "HACK",
-      "pattern": "bull_flag",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 265.0350036621094,
-      "pivot": 286.99,
-      "close": 275.04
     },
     {
       "ticker": "KO",
@@ -1040,9 +988,22 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 7,
-      "price": 89.05999755859375,
+      "price": 89.79000091552734,
       "pivot": 85.17,
       "close": 89.79
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra Corp.",
+      "theme": "能源",
+      "etf": "XLU",
+      "pattern": "triple_bottom",
+      "moat": "中",
+      "valueChain": "上游",
+      "score": 5,
+      "price": 158.1300048828125,
+      "pivot": 149.93,
+      "close": 158.13
     },
     {
       "ticker": "ADP",
@@ -1053,9 +1014,22 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 273.3599853515625,
+      "price": 273.80999755859375,
       "pivot": 286.17,
       "close": 273.81
+    },
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise Comp",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "pattern": "bull_flag",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 70.33000183105469,
+      "pivot": 73.56,
+      "close": 70.33
     },
     {
       "ticker": "ETN",
@@ -1066,22 +1040,9 @@
       "moat": "中",
       "valueChain": "中游",
       "score": 6,
-      "price": 432.2650146484375,
+      "price": 426.69000244140625,
       "pivot": 446.73,
       "close": 426.69
-    },
-    {
-      "ticker": "GEV",
-      "name": "GE Vernova Inc.",
-      "theme": "能源",
-      "etf": "XLU",
-      "pattern": "low_cheat",
-      "moat": "中",
-      "valueChain": "上游",
-      "score": 5,
-      "price": 997.219970703125,
-      "pivot": 1052.78,
-      "close": 1004.73
     },
     {
       "ticker": "TMO",
@@ -1092,9 +1053,48 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 656.3599853515625,
+      "price": 662.239990234375,
       "pivot": 694.33,
       "close": 662.24
+    },
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy Corporatio",
+      "theme": "核能",
+      "etf": "URA",
+      "pattern": "bull_flag",
+      "moat": "中",
+      "valueChain": "上游",
+      "score": 6,
+      "price": 293.8900146484375,
+      "pivot": 309.8,
+      "close": 293.89
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare, Inc.",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "pattern": "bull_flag",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 350.8699951171875,
+      "pivot": 370.35,
+      "close": 350.87
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova Inc.",
+      "theme": "能源",
+      "etf": "XLU",
+      "pattern": "bull_flag",
+      "moat": "中",
+      "valueChain": "上游",
+      "score": 6,
+      "price": 996.7999877929688,
+      "pivot": 1052.78,
+      "close": 996.8
     },
     {
       "ticker": "ACN",
@@ -1105,7 +1105,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 212.69000244140625,
+      "price": 214.8699951171875,
       "pivot": 227.63,
       "close": 214.87
     },
@@ -1118,7 +1118,7 @@
       "moat": "中",
       "valueChain": "中游",
       "score": 6,
-      "price": 281.9599914550781,
+      "price": 281.739990234375,
       "pivot": 298.75,
       "close": 281.74
     },
@@ -1131,7 +1131,7 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 62.689998626708984,
+      "price": 62.95000076293945,
       "pivot": 66.89,
       "close": 62.95
     }
