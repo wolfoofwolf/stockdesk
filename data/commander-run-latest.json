@@ -1,86 +1,88 @@
 {
-  "generatedAt": "2026-10-12T15:25:34.000Z",
-  "asOf": "2026-10-12 23:20 HKT",
+  "generatedAt": "2026-10-13T05:56:05.000Z",
+  "asOf": "2026-10-13 13:56 HKT",
   "bot": "Trok",
   "role": "資料蒐集＋總司令",
   "pipeline": {
     "candidates": 484,
-    "techPassed": 344,
-    "company": 312,
-    "leaders": 76,
-    "entry": 73,
-    "entryConsider": 67,
+    "techPassed": 350,
+    "company": 350,
+    "leaders": 87,
+    "entry": 87,
+    "entryConsider": 82,
+    "entryWatch": 5,
     "anchor": "Grok techPass (pattern+pivot+≤6%)",
-    "downstreamStale": true
+    "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-12 23:25 HKT】\n錨 Grok techPass **344**（候選 484；484 全量定案）\n下游暫舊：公司 312／領導 76／進場 73（可考慮 67）— 等 @Jrok／@Arok 跟 **344**\nCPI 10/14 · [StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=en1)",
+  "summaryTw": "【總司令｜2026-10-13 13:56 HKT】\n錨 Grok techPass **350**（候選 484；344→350 換馬 +23/−17）\n下游已對齊：公司 350／領導 87／進場 87（可考慮 82）\nCPI **明天** 10/14 · FedWatch hold ~79.5% · [StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=cmd1013a)",
   "catalysts": [
     {
       "id": "cpi-2026-10-14",
       "date": "2026-10-14",
-      "title": "美國 CPI（9月）公布 — 後天",
+      "title": "美國 CPI（9月）公布 — 明天",
       "tickers": [],
       "themes": [
         "大市",
         "利率"
       ],
-      "score": 8,
-      "note": "Street ~3.7%／Cleveland ~3.60%；core MoM≤0.2% 利好暫停；熱則加息機率同長息或再抽"
+      "score": 9,
+      "note": "D-1；Street ~3.6–3.7%／Cleveland 10/9 headline 3.60%／core MoM ~0.20%；core≤0.2% 利好暫停；熱則加息機率同長息或再抽；FedWatch hold ~79.5%"
     },
     {
       "id": "ppi-2026-10-15",
       "date": "2026-10-15",
-      "title": "美國 PPI（+ Retail Sales）",
+      "title": "美國 PPI（+ Advance Retail Sales）",
       "tickers": [],
       "themes": [
         "大市",
         "利率"
       ],
       "score": 7,
-      "note": "CPI 後翌日；上游仍高，留意滯後傳導"
+      "note": "上游仍高 ~5.4% YoY；留意滯後傳導"
     },
     {
-      "id": "market-reopen-2026-10-13",
+      "id": "bank-earnings-2026-10-13",
       "date": "2026-10-13",
-      "title": "美股休市後首個交易日（Columbus Day 後）",
+      "title": "大型銀行業績窗（JPM／GS／WFC／C）",
       "tickers": [
-        "ATO",
-        "CNP",
-        "KDP",
-        "OCTV",
-        "PNW"
+        "JPM",
+        "GS",
+        "WFC",
+        "C",
+        "BAC",
+        "MS"
       ],
       "themes": [
+        "金融",
         "大市"
       ],
       "score": 6,
-      "note": "asOfMarket 多為 10/9；首日波動或洗掉近 pivot 低 cheat"
+      "note": "10/13 開市前一批；BAC／MS 10/14；唔臆測未出數字"
     },
     {
       "id": "fomc-2026-10-28",
       "date": "2026-10-28",
-      "title": "FOMC（10月）＋Mag7 業績窗",
+      "title": "FOMC（10月）＋MSFT／GOOGL 業績",
       "tickers": [
         "MSFT",
-        "GOOGL",
-        "META"
+        "GOOGL"
       ],
       "themes": [
         "大市",
         "利率"
       ],
       "score": 8,
-      "note": "FedWatch hold ~82%；同日 MSFT／GOOGL／META 業績"
+      "note": "FedWatch hold ~79.5%／+25bp ~20.5%（較先前略轉鷹）；META 已改 10/21"
     },
     {
       "id": "mag7-earnings-window",
       "date": "2026-10-21",
-      "title": "Mag7 業績窗起：TSLA→MSFT/GOOGL/META→AMZN→AAPL",
+      "title": "Mag7 業績窗：TSLA+META→MSFT/GOOGL→AMZN→AAPL",
       "tickers": [
         "TSLA",
+        "META",
         "MSFT",
         "GOOGL",
-        "META",
         "AMZN",
         "AAPL"
       ],
@@ -89,110 +91,112 @@
         "AI"
       ],
       "score": 7,
-      "note": "TSLA 10/21；MSFT/GOOGL/META 10/28；AMZN 10/29；AAPL 11/2"
+      "note": "META 確認改 10/21（同 TSLA）；MSFT／GOOGL 10/28"
     }
   ],
   "techTurnover": {
-    "vs": "tech-scan-before-1355 (afternoon commander base)",
-    "from": 314,
-    "to": 312,
+    "vs": "tech-scan-before-0849 / evening techPass 344",
+    "from": 344,
+    "to": 350,
     "added": [
-      "AFRM",
-      "ANET",
-      "BEKE",
-      "CIG",
-      "CNK",
-      "DK",
-      "EL",
-      "ELF",
-      "EXTR",
-      "FCX",
-      "HPE",
-      "HTFL",
-      "ICE",
-      "IOT",
-      "ITUB",
-      "JCI",
-      "META",
-      "MNDY",
-      "NIQ",
-      "ORLY",
-      "PTC",
-      "RBLX",
-      "RXO",
-      "S",
-      "SNPS",
-      "VIV",
-      "VRNS",
-      "VSXY"
-    ],
-    "removed": [
-      "ANF",
+      "ACN",
       "ARX",
-      "AVGO",
       "BIIB",
       "CCC",
+      "CMBT",
       "CRDO",
       "CRWD",
       "CTVA",
-      "DAL",
       "EBAY",
+      "ECHO",
       "ENTG",
       "EXEL",
-      "EXPD",
       "FPS",
       "GLBE",
-      "HCA",
-      "KLAC",
+      "GWRE",
+      "JBL",
       "LITE",
-      "MU",
       "NVT",
       "PANW",
       "PR",
-      "Q",
-      "RDDT",
       "SN",
-      "TSEM",
-      "V",
-      "VIAV",
-      "VSAT",
-      "XOM"
+      "U",
+      "UL"
+    ],
+    "removed": [
+      "AFRM",
+      "ANET",
+      "ASML",
+      "BEKE",
+      "CGNX",
+      "EXTR",
+      "GGB",
+      "HPE",
+      "HTFL",
+      "IOT",
+      "META",
+      "NIQ",
+      "RBLX",
+      "RXO",
+      "S",
+      "SU",
+      "VRNS"
+    ],
+    "leaderAdded": [
+      "ACN",
+      "AEP",
+      "CDNS",
+      "CRWD",
+      "EBAY",
+      "INTU",
+      "LITE",
+      "PANW",
+      "UL"
+    ],
+    "leaderRemoved": [
+      "AME",
+      "ANET",
+      "ASML",
+      "HPE",
+      "META",
+      "S",
+      "SU"
     ]
   },
   "inputs": {
-    "screenerAsOf": "2026-10-12T15:17:10.352Z",
-    "techAsOf": "2026-10-12T15:18:36.482849Z",
-    "macroAsOf": "2026-10-12T15:12:23.478Z",
-    "companyAsOf": "2026-10-12T15:18:06.560Z",
-    "entryAsOf": "2026-10-12T05:11:51.143Z"
+    "screenerAsOf": "2026-10-13T05:55:40.853Z",
+    "techAsOf": "2026-10-13T01:12:54.662308Z",
+    "macroAsOf": "2026-10-13T05:50:28.000Z",
+    "companyAsOf": "2026-10-13T01:18:32.450475Z",
+    "entryAsOf": "2026-10-13T05:53:00.559Z"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-12T15:20:17.222Z",
+      "t": "2026-10-13T05:56:05.000Z",
       "bot": "Trok",
       "step": "gather",
-      "detail": "錨 Grok techPass 312；Frok 候選 484；領導過濾 73（原料 82）；進場過濾 73"
+      "detail": "錨 Grok techPass 350；Frok 候選 484；公司 350／領導 87；進場 87（可考慮 82）"
     },
     {
-      "t": "2026-10-12T15:20:17.222Z",
+      "t": "2026-10-13T05:56:05.000Z",
       "bot": "Trok",
       "step": "catalysts",
-      "detail": "CPI後天/開市日/PPI/FOMC+Mag7；tech 換馬跌出 V/CRWD/PANW/XOM 等"
+      "detail": "CPI明天D-1／PPI／銀行業績／FOMC+Mag7；FedWatch hold~79.5%；META改10/21"
     },
     {
-      "t": "2026-10-12T15:20:17.222Z",
+      "t": "2026-10-13T05:56:05.000Z",
       "bot": "Trok",
       "step": "briefing",
       "detail": "覆寫 commander-briefing-latest.md + commander-run-latest.json + commander-latest.json"
     },
     {
-      "t": "2026-10-12T15:20:17.222Z",
+      "t": "2026-10-13T05:56:05.000Z",
       "bot": "Trok",
       "step": "materialChange",
-      "detail": "相對 13:56 run：techPass 314→312 換馬 +28/−30；候選 467→484；領導原料 81→82；CPI 窗口改後天；公司/進場未重跑需標註"
+      "detail": "相對 10/12 晚間：techPass 344→350 換馬 +23/−17；領導 85→87；進場已重跑 87／82；CPI 窗口改明天；macro 午後刷新；清晨 monitor 失敗後本輪補齊"
     }
   ],
-  "asOfHKT": "2026-10-12 23:25 HKT",
+  "asOfHKT": "2026-10-13 13:56 HKT",
   "materialChange": true,
-  "note": "Anchor techPass 344; await Jrok/Arok"
+  "note": "Anchor techPass 350; downstream aligned; CPI D-1"
 }

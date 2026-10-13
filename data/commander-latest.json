@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-13T05:55:05.000Z",
+  "generatedAt": "2026-10-13T05:56:05.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-13 13:55 HKT",
+  "asOfHKT": "2026-10-13 13:56 HKT",
   "pipeline": {
     "candidates": 484,
     "techPassed": 350,
@@ -10,16 +10,18 @@
     "leaders": 87,
     "entry": 87,
     "entryConsider": 82,
-    "anchor": "Grok techPass (pattern+pivot+≤6%)"
+    "entryWatch": 5,
+    "anchor": "Grok techPass (pattern+pivot+≤6%)",
+    "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-13 13:55 HKT】\n錨 techPass **350**（候選 484）→ 公司 350 → 領導 87 → 進場 87（可考慮 82／觀望 5）\nCPI 明天 10/14 · [StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=en1)",
+  "summaryTw": "【總司令｜2026-10-13 13:56 HKT】\n錨 Grok techPass **350**（候選 484；344→350 換馬 +23/−17）\n下游已對齊：公司 350／領導 87／進場 87（可考慮 82）\nCPI **明天** 10/14 · FedWatch hold ~79.5% · [StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=cmd1013a)",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=en1"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=cmd1013a"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-13 13:55 HKT",
-      "msg": "Push entry 87 aligned techPass 350"
+      "t": "2026-10-13 13:56 HKT",
+      "msg": "Afternoon monitor: techPass 350 aligned; entry 87; CPI D-1; material push"
     }
   ]
 }
