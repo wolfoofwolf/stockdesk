@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
-"""Grok Item-2: multi-pattern scan (not VCP-only) + candlestick SVG charts."""
+"""Grok Item-2: multi-pattern scan (not VCP-only) + candlestick SVG charts.
+
+VCP style lock: C1–C3 on lows + C3 green vol-dry box + DTL + Bo DTL + pivot
+(see lessons draw-style-vcp-c123-dtl-now). After drawing, grade vs exemplar:
+
+  python scripts/lesson_chart_grade.py data/charts/NOW_scan_VCP.svg --ticker NOW
+  python scripts/multi_pattern_scan.py --grade data/charts/NOW_scan_VCP.svg
+
+Keep only score>=90 (gallery/keep); else counterexample / never_learn + remediation-queue.
+"""
 from __future__ import annotations
 import json, math, os
 from datetime import datetime, timezone
@@ -22,7 +31,7 @@ OHLCV_DIR = DATA / "ohlcv"
 OHLCV_DIR.mkdir(parents=True, exist_ok=True)
 CHARTS.mkdir(parents=True, exist_ok=True)
 
-ASOF_END = "2026-10-13"
+ASOF_END = "2026-10-14"
 START = "2025-01-01"
 
 PREFERRED = [
@@ -1537,4 +1546,24 @@ def main():
 
 
 if __name__ == "__main__":
+    import sys
+    if len(sys.argv) >= 2 and sys.argv[1] == "--grade":
+        # Thin wire to training gate (does not run full scan).
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from lesson_chart_grade import grade
+        svg = Path(sys.argv[2] if len(sys.argv) > 2 else DATA / "charts" / "NOW_scan_VCP.svg")
+        if not svg.is_absolute():
+            cand = (Path.cwd() / svg).resolve()
+            svg = cand if cand.exists() else (ROOT / sys.argv[2]).resolve()
+        ticker = None
+        if "--ticker" in sys.argv:
+            i = sys.argv.index("--ticker")
+            ticker = sys.argv[i + 1] if i + 1 < len(sys.argv) else None
+        r = grade(svg_path=svg, ticker=ticker)
+        print(json.dumps({
+            "ticker": r["ticker"], "score": r["score"], "pass": r["pass"],
+            "verdict": r["verdict"], "runPath": r.get("runPath"),
+            "failedItems": [x["id"] for x in r["itemResults"] if not x["passed"]],
+        }, ensure_ascii=False, indent=2))
+        raise SystemExit(0 if r.get("verdict") == "keep" else 1)
     main()

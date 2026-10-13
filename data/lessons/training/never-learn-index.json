@@ -1,0 +1,28 @@
+{
+  "updatedAt": "2026-10-13T22:09:03+08:00",
+  "description": "Banned failure signatures — chart bot must not repeat these draw mistakes.",
+  "signatures": [
+    {
+      "id": "early_left_dump_c123",
+      "antiPattern": "c123_on_left_dump",
+      "rule": "Do not place C1–C3 on a left-side dump when a later progressive base exists under the pivot.",
+      "addedAt": "2026-10-13T22:05:00+08:00",
+      "source": "human-style-lock NOW"
+    },
+    {
+      "id": "feb_micros_vs_late_base",
+      "antiPattern": "feb_micros_when_late_base_exists",
+      "rule": "When a late (right-side) VCP base exists, never label Jan/Feb micro-swings as C1–C3.",
+      "addedAt": "2026-10-13T22:05:00+08:00",
+      "source": "human-style-lock NOW"
+    },
+    {
+      "id": "missing_style_lock",
+      "antiPattern": "missing_style_lock_labels",
+      "rule": "VCP export must include C1/C2/C3 + green vol-dry box + DTL + pivot point labels.",
+      "addedAt": "2026-10-13T22:05:00+08:00",
+      "source": "training-gate-90"
+    }
+  ],
+  "repeatCounts": {}
+}
