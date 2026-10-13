@@ -1,0 +1,137 @@
+{
+  "gradedAt": "2026-10-13T22:08:33+08:00",
+  "ticker": "NOW",
+  "candidateSvg": "data/charts/NOW_scan_VCP.svg",
+  "exemplarId": "draw-style-vcp-c123-dtl-now",
+  "rubricId": "rubric-vcp-c123-dtl",
+  "score": 100,
+  "passThreshold": 90,
+  "pass": true,
+  "verdict": "keep",
+  "failureSignatures": [],
+  "itemResults": [
+    {
+      "id": "zigzag_white",
+      "weight": 6,
+      "passed": true,
+      "earned": 6,
+      "detail": "VCP SVG with path content"
+    },
+    {
+      "id": "c1_on_low",
+      "weight": 8,
+      "passed": true,
+      "earned": 8,
+      "detail": "C1 label present"
+    },
+    {
+      "id": "c2_on_low",
+      "weight": 8,
+      "passed": true,
+      "earned": 8,
+      "detail": "C2 label present"
+    },
+    {
+      "id": "c3_on_low",
+      "weight": 8,
+      "passed": true,
+      "earned": 8,
+      "detail": "C3 label present"
+    },
+    {
+      "id": "progressive_dates",
+      "weight": 12,
+      "passed": true,
+      "earned": 12,
+      "detail": "highs ['2026-06-01', '2026-07-07', '2026-08-31'] lows ['2026-06-25', '2026-07-23', '2026-09-28']"
+    },
+    {
+      "id": "progressive_pct",
+      "weight": 12,
+      "passed": true,
+      "earned": 12,
+      "detail": "pcts=[35.8, 19.6, 15.3]"
+    },
+    {
+      "id": "late_base_not_micros",
+      "weight": 10,
+      "passed": true,
+      "earned": 10,
+      "detail": "C1=2026-06-01 C3=2026-08-31 asOf=2026-10-13 (C3 age 43d)"
+    },
+    {
+      "id": "c3_green_box",
+      "weight": 8,
+      "passed": true,
+      "earned": 8,
+      "detail": "green C3 box present"
+    },
+    {
+      "id": "vol_dry_zh_note",
+      "weight": 8,
+      "passed": true,
+      "earned": 8,
+      "detail": "Chinese vol-dry note present"
+    },
+    {
+      "id": "vol_arrow",
+      "weight": 4,
+      "passed": true,
+      "earned": 4,
+      "detail": "vol arrow inferred from green+note co-presence"
+    },
+    {
+      "id": "dtl_label",
+      "weight": 6,
+      "passed": true,
+      "earned": 6,
+      "detail": "DTL label present"
+    },
+    {
+      "id": "bo_dtl",
+      "weight": 4,
+      "passed": true,
+      "earned": 4,
+      "detail": "N/A not broken — full credit"
+    },
+    {
+      "id": "pivot_label",
+      "weight": 6,
+      "passed": true,
+      "earned": 6,
+      "detail": "pivot point present"
+    }
+  ],
+  "analysisSnapshot": {
+    "primaryPattern": "VCP",
+    "pivot": 149.6,
+    "close": 144.32,
+    "contractions": [
+      {
+        "label": "C1",
+        "pct": 35.8,
+        "highDate": "2026-06-01",
+        "high": 139.2,
+        "lowDate": "2026-06-25",
+        "low": 89.39
+      },
+      {
+        "label": "C2",
+        "pct": 19.6,
+        "highDate": "2026-07-07",
+        "high": 113.79,
+        "lowDate": "2026-07-23",
+        "low": 91.53
+      },
+      {
+        "label": "C3",
+        "pct": 15.3,
+        "highDate": "2026-08-31",
+        "high": 149.6,
+        "lowDate": "2026-09-28",
+        "low": 126.75
+      }
+    ],
+    "asOf": "2026-10-13"
+  }
+}
