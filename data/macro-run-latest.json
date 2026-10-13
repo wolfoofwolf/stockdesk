@@ -1,7 +1,7 @@
 {
-  "title": "大市刷新｜2026-10-12 晚間（Drok）",
-  "asOf": "2026-10-12T15:12:23.478Z",
-  "updatedAt": "2026-10-12T15:12:23.478Z",
+  "title": "大市刷新｜2026-10-13 午後（Drok）",
+  "asOf": "2026-10-13T05:50:28.000Z",
+  "updatedAt": "2026-10-13T05:50:28.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -18,7 +18,7 @@
         "revisions": -60000
       },
       "spyDayReturn": 0.74,
-      "note": "弱料＝利好暫停加息；10月加息機率約64%→~18–20%。長端息其後仍硬。",
+      "note": "弱料＝利好暫停加息；公布後加息機率由約64%急降至~18–20%。長端息其後仍硬。",
       "status": "done",
       "sources": [
         "CME FedWatch／公開報道 2026-10",
@@ -40,18 +40,22 @@
       "id": "cpi-2026-09",
       "type": "CPI",
       "date": "2026-10-14",
-      "label": "CPI（2026年9月）—後天公布",
+      "label": "CPI（2026年9月）—明天公布",
       "status": "upcoming",
       "consensusHeadlineYoY": 3.7,
       "consensusCoreYoY": 2.4,
       "priorHeadlineYoY": 3.4,
       "priorCoreYoY": 2.4,
-      "note": "08:30 ET。Street headline ~3.7%（部分來源仍寫~3.6%）；Cleveland nowcast（10/9，Columbus Day 無新業務日更新）headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。美股 10/12 Columbus Day 休市；下一個交易日 10/13。",
+      "note": "08:30 ET（D-1；約 20:30 HKT 10/14）。Street headline ~3.6–3.7%／core ~2.4–2.5% （FactSet／Morningstar：headline MoM +0.5%、YoY 3.6%；core MoM +0.2%、YoY 2.4%；FinancialJuice 表列 headline YoY 3.6%／MoM 0.6%、core YoY 2.5%／MoM 0.2%）。Cleveland nowcast 仍停 10/9：headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM（10/12 債券休市無更新；下一業務日更新約 10:00 ET＝今晚 ~22:00 HKT）。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。訂正：10/12 Columbus Day 美股照開（債券休市）；SPY 收 778.10（約 -0.06%）。亞洲今早風險偏好弱（公開報道／X：KOSPI 約 -6%、Nikkei 約 -2%、Nasdaq 期貨偏軟）入 CPI 窗口。",
       "sources": [
         "BLS CPI schedule",
-        "Cleveland Fed Inflation Nowcasting 2026-10-09",
-        "Street／Admirals／RBC previews 2026-10",
-        "CME FedWatch 公開報道 2026-10-11/12"
+        "Cleveland Fed Inflation Nowcasting 2026-10-09 (fetched 2026-10-13)",
+        "Morningstar CPI preview 2026-10-12",
+        "FinancialJuice US CPI Prep 2026-10-12",
+        "TD Economics／NewsQuawk／Admirals／RBC previews 2026-10",
+        "CME FedWatch 公開報道 2026-10-13（GMT EIGHT hold ~79.5%）",
+        "NYSE／SIFMA holiday notes 2026-10-12",
+        "Asia open notes／X market pulse 2026-10-13"
       ]
     },
     {
@@ -62,10 +66,10 @@
       "status": "upcoming",
       "consensusHeadlineYoY": 5.4,
       "priorHeadlineYoY": 5.4,
-      "note": "08:30 ET；同日 Advance Retail Sales。上游仍高，留意滯後傳導（部分機構預估 headline YoY 企喺 5.4%）。",
+      "note": "08:30 ET；同日 Advance Retail Sales。上游仍高，留意滯後傳導（部分機構預估 headline YoY 企喺 5.4%；MoM 預覽約 +0.5%）。",
       "sources": [
         "BLS／Census 日曆",
-        "Continuum Economics PPI preview 2026-10-01"
+        "Continuum Economics／NewsQuawk PPI preview 2026-10"
       ]
     },
     {
@@ -74,7 +78,7 @@
       "date": "2026-10-28",
       "label": "FOMC 決定（10/27–28）",
       "status": "upcoming",
-      "note": "聲明約 14:00 ET。CME FedWatch（~10/11–12）hold ~81.7%／+25bp ~18.3%。CPI／PPI 後最終定價窗口；同日 Mag7 有 MSFT／GOOGL／META 業績（估計）。"
+      "note": "聲明約 14:00 ET。CME FedWatch（~10/13 公開報道）hold ~79.5%／+25bp ~20.5%（較 10/11–12 ~81.7%／18.3% 略偏鷹；盤中閃報亦見 ~77–82% hold）。CPI／PPI 後最終定價窗口；同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 已改為 10/21。"
     }
   ],
   "nfpReport": {
@@ -101,23 +105,23 @@
     "followThrough": [
       {
         "day": 1,
-        "returnPct": 0.2,
-        "note": "修復／延續上升"
+        "returnPct": 0.67,
+        "note": "修復／延續上升（10/5）"
       },
       {
         "day": 2,
-        "returnPct": -0.35,
-        "note": "失地／延續下跌"
+        "returnPct": 0.55,
+        "note": "修復／延續上升（10/6）"
       },
       {
         "day": 3,
-        "returnPct": 0.45,
-        "note": "修復／延續上升"
+        "returnPct": -0.24,
+        "note": "失地／回吐（10/7）"
       },
       {
         "day": 4,
-        "returnPct": 0.1,
-        "note": "修復／延續上升"
+        "returnPct": -0.42,
+        "note": "失地／回吐（10/8）；其後 10/9 +0.60%、10/12 -0.06%"
       }
     ],
     "levelsNote": [
@@ -127,18 +131,21 @@
     ],
     "mag7Link": null,
     "sources": [
-      "CME FedWatch／公開報道 2026-10"
+      "CME FedWatch／公開報道 2026-10",
+      "Yahoo Finance SPY 日K 2026-10"
     ],
-    "summaryTw": "非農就業（2026年9月） @ 2026-10-02\n數據：弱過預期（actual < consensus）\n當日大盤：+0.74%\n留意：數據偏弱但大市上升（利好降息／軟著陸交易）\n收市K線：膠住／十字味：實體細，方向未決；收市創近期新高／破阻力；企穩 SMA20 上方；企穩 SMA50 上方\n其後4日：D+1 0.2%(修復／延續上升)，D+2 -0.35%(失地／延續下跌)，D+3 0.45%(修復／延續上升)，D+4 0.1%(修復／延續上升)"
+    "summaryTw": "非農就業（2026年9月） @ 2026-10-02\n數據：弱過預期（actual < consensus）\n當日大盤：+0.74%\n留意：數據偏弱但大市上升（利好降息／軟著陸交易）\n收市K線：膠住／十字味：實體細，方向未決；收市創近期新高／破阻力；企穩 SMA20 上方；企穩 SMA50 上方\n其後4日：D+1 0.67%(修復／延續上升)，D+2 0.55%(修復／延續上升)，D+3 -0.24%(失地／回吐)，D+4 -0.42%(失地／回吐)；其後 10/9 +0.60%、10/12 -0.06%"
   },
   "watch": [
-    "【D-2】10/14 CPI 08:30 ET（Street headline ~3.7%／core ~2.4%；Cleveland core MoM ~0.20%—≤0.2% 利好暫停）",
+    "【D-1】10/14 CPI 08:30 ET（Street headline ~3.6–3.7%／core ~2.4–2.5%；Cleveland core MoM ~0.20%—≤0.2% 利好暫停）",
     "10/15 PPI（~5.4% YoY）＋ Advance Retail Sales",
-    "10/27–28 FOMC（FedWatch hold ~81.7%；決定 10/28 14:00 ET）",
-    "Mag7：TSLA 10/21（已確認）→ MSFT／GOOGL／META 10/28 → AMZN 10/29 → AAPL 11/2（未有新完整業績包）"
+    "10/27–28 FOMC（FedWatch hold ~79.5%；決定 10/28 14:00 ET）",
+    "Mag7：TSLA＋META 10/21（均已確認）→ MSFT／GOOGL 10/28（已確認）→ AMZN 10/29 → AAPL 11/2（估計）",
+    "銀行業績窗：今日（10/13）開市前 JPM／GS／WFC／C（此刻美東約 01:50，尚未見官方數字）；BAC／MS 約 10/14",
+    "亞洲隔夜：半導體／韓股偏弱開局，留意美股開市風險偏好"
   ],
-  "mag7Note": "未有新完整七巨頭業績包。前睇：TSLA 10/21（IR／SEC 已確認 AMC）；MSFT 10/28（官方確認）；GOOGL／META 估計 10/28（同 FOMC 日）；AMZN 估計 10/29；AAPL 估計 11/2。出數後拆最賺業務（雲／廣告／AI 基建）→主題。",
-  "summaryTw": "【狀態 10/12 晚間｜美股 Columbus Day 休市】距離 CPI 約 2 日（10/14 08:30 ET）。\n【非農 10/2】+2.9萬 vs ~9萬預期（弱），失業率 4.2%；當日 SPY/SPX 約 +0.74%（數據弱但大市升＝暫停加息交易）。FedWatch 10月 hold ~81.7%／加息 ~18.3%。\n【跟進】其後數日路徑示意：+0.2%／-0.35%／+0.45%／+0.1%（波動中未一鼓作氣斷開）。\n【前睇】10/14 CPI 係關鍵：Street headline ~3.7%、Cleveland（10/9）~3.60%／core MoM ~0.20%；core 涼→鞏固暫停；core 熱→加息機率同長息或再抽。然後 10/15 PPI、10/28 FOMC。\n【Mag7】未出新業績；TSLA 10/21（已確認）起一批，MSFT／GOOGL／META 對齊 10/28 FOMC。\n【9月 FOMC】已 +25bp 至 3.75–4.00%。\n【本輪】無新公布／無背離轉向／FedWatch 同 nowcast 未變；僅晚間刷新窗口標籤（CPI 後天），唔洗版。",
+  "mag7Note": "未有新完整七巨頭業績包。日程：META 官方（2026-10-12）確認 Q3 喺 10/21 AMC 公布（同日 TSLA）；TSLA 10/21（IR／SEC 已確認 AMC）；MSFT 10/28（官方確認）；GOOGL 10/28（官方確認）；AMZN 估計 10/29；AAPL 估計 11/2。出數後拆最賺業務（雲／廣告／AI 基建／汽車＋能源）→主題。",
+  "summaryTw": "【狀態 10/13 午後 HKT｜CPI 前夕 D-1】距離 CPI 約 1 日（10/14 08:30 ET ≈ 10/14 20:30 HKT）。\n【非農 10/2】+2.9萬 vs ~9萬預期（弱），失業率 4.2%；當日 SPY 約 +0.74%（數據弱但大市升＝暫停加息交易）。跟進路徑（實盤）：+0.67%／+0.55%／-0.24%／-0.42%，其後 10/9 +0.60%、10/12 -0.06%。\n【FedWatch】10月 hold ~79.5%／+25bp ~20.5%（較先前 ~81.7%／18.3% 略轉鷹；盤中閃報約 77–82% hold）。Cleveland nowcast 仍 10/9：headline 3.60%／core MoM 0.20%（今晚 ~22:00 HKT 先有機會更新）。\n【訂正】10/12 Columbus Day：美股開市、債券休市；SPY 收 778.10（約 -0.06%）。\n【亞洲】10/13 早盤風險偏好弱（公開報道：KOSPI 約 -6%、Nikkei 約 -2%、Nasdaq 期貨偏軟）入 CPI 窗口。\n【前睇】10/14 CPI 係關鍵：core 涼→鞏固暫停；core 熱→加息機率同長息或再抽。然後 10/15 PPI、10/28 FOMC。\n【銀行】10/13 開市前 JPM／GS／WFC／C（此刻尚未見官方數字，唔作臆測）；BAC／MS 10/14。\n【Mag7】META 已確認改喺 10/21（同 TSLA）；MSFT／GOOGL 10/28 已確認；尚未出新業績包。\n【9月 FOMC】已 +25bp 至 3.75–4.00%。\n【本輪】清晨本地已寫入明顯變化但 GitHub Pages 仍停喺 10/12 晚間——本輪覆寫並推送；重點仍係 FedWatch 略轉鷹、META 業績日確認、CPI D-1、Columbus Day 開市訂正＋亞洲隔夜偏弱。會匯報 Stock 群（清晨例行失敗／未上線，補報一次）。",
   "thinkingLog": [
     {
       "t": "2026-10-12T01:59:09.819Z",
@@ -674,6 +681,360 @@
       "detail": {
         "speakToStockGroup": false,
         "reason": "冇明顯變化（無新公布／背離未轉／FedWatch 與 nowcast 未變），保持安靜"
+      }
+    },
+    {
+      "t": "2026-10-13T01:07:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "init",
+      "detail": "macro monitor routine fire 2026-10-13 morning HKT"
+    },
+    {
+      "t": "2026-10-13T01:07:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "calendarScan",
+      "detail": {
+        "cpi": "upcoming 2026-10-14 D-1",
+        "ppi": "upcoming 2026-10-15",
+        "nfp": "done 2026-10-02",
+        "fomc": "upcoming 2026-10-28",
+        "newPrint": false
+      }
+    },
+    {
+      "t": "2026-10-13T01:07:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "fedwatch",
+      "detail": {
+        "oct": {
+          "holdPct": 79.5,
+          "hike25bpPct": 20.5
+        },
+        "prior": {
+          "holdPct": 81.7,
+          "hike25bpPct": 18.3
+        },
+        "delta": "slightly hawkish drift",
+        "sources": [
+          "GMT EIGHT 2026-10-13",
+          "CoinNess 2026-10-12"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-13T01:07:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "nowcast",
+      "detail": {
+        "cleveland": {
+          "asOf": "2026-10-09",
+          "headlineYoY": 3.6,
+          "headlineMoM": 0.53,
+          "coreYoY": 2.39,
+          "coreMoM": 0.2
+        },
+        "note": "仍停 10/9；業務日 ~10:00 ET 更新；此刻 HKT 清晨未見新表"
+      }
+    },
+    {
+      "t": "2026-10-13T01:07:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "holidayCorrect",
+      "detail": {
+        "date": "2026-10-12",
+        "equitiesOpen": true,
+        "bondsHoliday": true,
+        "spy": {
+          "o": 778.78,
+          "h": 779.4,
+          "l": 777.05,
+          "c": 778.1,
+          "chgPct": -0.06
+        },
+        "priorError": "先前摘要誤寫美股 Columbus Day 休市"
+      }
+    },
+    {
+      "t": "2026-10-13T01:07:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "mag7",
+      "detail": {
+        "newResults": false,
+        "materialCalendarChange": true,
+        "upcoming": [
+          {
+            "ticker": "TSLA",
+            "date": "2026-10-21",
+            "status": "confirmed"
+          },
+          {
+            "ticker": "META",
+            "date": "2026-10-21",
+            "status": "confirmed",
+            "note": "官方 2026-10-12；先前誤估 10/28"
+          },
+          {
+            "ticker": "MSFT",
+            "date": "2026-10-28",
+            "status": "confirmed"
+          },
+          {
+            "ticker": "GOOGL",
+            "date": "2026-10-28",
+            "status": "confirmed"
+          },
+          {
+            "ticker": "AMZN",
+            "date": "2026-10-29",
+            "status": "estimated"
+          },
+          {
+            "ticker": "AAPL",
+            "date": "2026-11-02",
+            "status": "estimated"
+          }
+        ],
+        "sources": [
+          "Meta IR PR 2026-10-12",
+          "Tesla SEC IR 2026-10",
+          "Microsoft Source 2026-10-07",
+          "Alphabet IR／SignalStack"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-13T01:07:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "nfpFollowThroughRefresh",
+      "detail": {
+        "spyCloses": {
+          "2026-10-02": 769.64,
+          "2026-10-05": 774.83,
+          "2026-10-06": 779.09,
+          "2026-10-07": 777.22,
+          "2026-10-08": 773.93,
+          "2026-10-09": 778.57,
+          "2026-10-12": 778.1
+        },
+        "source": "Yahoo Finance SPY daily"
+      }
+    },
+    {
+      "t": "2026-10-13T01:07:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "window",
+      "detail": {
+        "cpi": "D-1 2026-10-14",
+        "ppi": "2026-10-15",
+        "fomc": "2026-10-28",
+        "fedwatchOct": {
+          "holdPct": 79.5,
+          "hike25bpPct": 20.5
+        },
+        "clevelandNowcast": {
+          "asOf": "2026-10-09",
+          "headlineYoY": 3.6,
+          "headlineMoM": 0.53,
+          "coreYoY": 2.39,
+          "coreMoM": 0.2
+        },
+        "streetCpiHeadlineYoY": 3.7,
+        "materialChange": true,
+        "materialChangeNote": "FedWatch 81.7→79.5 hold；META 確認 10/21；CPI 入 D-1；訂正 10/12 美股開市"
+      }
+    },
+    {
+      "t": "2026-10-13T01:07:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "write",
+      "detail": {
+        "files": [
+          "data/macro-run-latest.json",
+          "data/macro-report-nfp-latest.json",
+          "data/macro-events.json"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-13T01:07:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "push",
+      "detail": {
+        "target": "wolfoofwolf/stockdesk GitHub Pages",
+        "localGhAuth": false,
+        "action": "request Trok via parent WakeParent"
+      }
+    },
+    {
+      "t": "2026-10-13T01:07:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "speakDecision",
+      "detail": {
+        "speakToStockGroup": true,
+        "reason": "FedWatch 略轉鷹、META 業績日確認、CPI 窗口 D-1、訂正 Columbus Day 開市"
+      }
+    },
+    {
+      "t": "2026-10-13T05:50:28.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "refresh",
+      "detail": {
+        "reason": "weekday afternoon monitor (13:49 HKT window)",
+        "marketSession": "US pre-open (~01:50 ET); Asia session risk-off overnight",
+        "asOf": "2026-10-13T05:50:28.000Z",
+        "priorLocalAsOf": "2026-10-13T01:07:00.000Z",
+        "remotePagesAsOf": "2026-10-12T15:12:23.478Z",
+        "note": "清晨本地 JSON 未成功推上 Pages；本輪補推"
+      }
+    },
+    {
+      "t": "2026-10-13T05:50:28.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "fedwatch",
+      "detail": {
+        "oct": {
+          "holdPct": 79.5,
+          "hike25bpPct": 20.5
+        },
+        "intradayFlashRange": {
+          "holdPct": [
+            77.3,
+            82.3
+          ]
+        },
+        "prior": {
+          "holdPct": 81.7,
+          "hike25bpPct": 18.3
+        },
+        "delta": "unchanged vs morning local; still slightly hawkish vs 10/11-12",
+        "sources": [
+          "GMT EIGHT 2026-10-13",
+          "Morningstar 2026-10-12 (~22% hike Mon)"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-13T05:50:28.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "nowcast",
+      "detail": {
+        "cleveland": {
+          "asOf": "2026-10-09",
+          "headlineYoY": 3.6,
+          "headlineMoM": 0.53,
+          "coreYoY": 2.39,
+          "coreMoM": 0.2
+        },
+        "note": "fetched clevelandfed.org 2026-10-13；仍標 Updated 10/09；下一業務日 ~10:00 ET 更新"
+      }
+    },
+    {
+      "t": "2026-10-13T05:50:28.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "asiaTape",
+      "detail": {
+        "kospiApproxPct": -6.0,
+        "nikkeiApproxPct": -2.0,
+        "nasdaqFutures": "soft / down ~0.8% in some pulses",
+        "sources": [
+          "NordFX／X market radar 2026-10-13"
+        ],
+        "caveat": "approx from public pulses; not a full OHLC pull"
+      }
+    },
+    {
+      "t": "2026-10-13T05:50:28.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "bankEarnings",
+      "detail": {
+        "date": "2026-10-13",
+        "names": [
+          "JPM",
+          "GS",
+          "WFC",
+          "C"
+        ],
+        "status": "scheduled pre-open; not yet released at ~01:50 ET",
+        "nextDay": [
+          "BAC",
+          "MS"
+        ],
+        "note": "拒絕採用標註 Predicted／AI 嘅臆測業績文章"
+      }
+    },
+    {
+      "t": "2026-10-13T05:50:28.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "mag7",
+      "detail": {
+        "newResults": false,
+        "materialCalendarChange": false,
+        "note": "相對清晨無新增；維持 META 10/21 確認"
+      }
+    },
+    {
+      "t": "2026-10-13T05:50:28.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "window",
+      "detail": {
+        "cpi": "D-1 2026-10-14",
+        "ppi": "2026-10-15",
+        "fomc": "2026-10-28",
+        "fedwatchOct": {
+          "holdPct": 79.5,
+          "hike25bpPct": 20.5
+        },
+        "clevelandNowcast": {
+          "asOf": "2026-10-09",
+          "headlineYoY": 3.6,
+          "headlineMoM": 0.53,
+          "coreYoY": 2.39,
+          "coreMoM": 0.2
+        },
+        "streetCpiHeadlineYoY": 3.7,
+        "materialChange": true,
+        "materialChangeNote": "Pages 仍停 10/12 晚；需補報清晨變化（FedWatch／META／CPI D-1／Columbus 訂正）＋亞洲隔夜偏弱；銀行業績尚未出"
+      }
+    },
+    {
+      "t": "2026-10-13T05:50:28.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "write",
+      "detail": {
+        "files": [
+          "data/macro-run-latest.json",
+          "data/macro-report-nfp-latest.json",
+          "data/macro-events.json"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-13T05:50:28.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "speakDecision",
+      "detail": {
+        "speakToStockGroup": true,
+        "reason": "清晨例行失敗／Pages 未更新；補報 FedWatch 略轉鷹、META 10/21、CPI D-1、Columbus 開市訂正；附加亞洲隔夜偏弱"
       }
     }
   ],

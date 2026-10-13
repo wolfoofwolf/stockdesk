@@ -12,7 +12,7 @@
       "revisions": -60000
     },
     "spyDayReturn": 0.74,
-    "note": "弱料＝利好暫停加息；10月加息機率約64%→~18–20%。長端息其後仍硬。",
+    "note": "弱料＝利好暫停加息；公布後加息機率由約64%急降至~18–20%。長端息其後仍硬。",
     "status": "done",
     "sources": [
       "CME FedWatch／公開報道 2026-10",
@@ -34,18 +34,22 @@
     "id": "cpi-2026-09",
     "type": "CPI",
     "date": "2026-10-14",
-    "label": "CPI（2026年9月）—後天公布",
+    "label": "CPI（2026年9月）—明天公布",
     "status": "upcoming",
     "consensusHeadlineYoY": 3.7,
     "consensusCoreYoY": 2.4,
     "priorHeadlineYoY": 3.4,
     "priorCoreYoY": 2.4,
-    "note": "08:30 ET。Street headline ~3.7%（部分來源仍寫~3.6%）；Cleveland nowcast（10/9，Columbus Day 無新業務日更新）headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。美股 10/12 Columbus Day 休市；下一個交易日 10/13。",
+    "note": "08:30 ET（D-1；約 20:30 HKT 10/14）。Street headline ~3.6–3.7%／core ~2.4–2.5% （FactSet／Morningstar：headline MoM +0.5%、YoY 3.6%；core MoM +0.2%、YoY 2.4%；FinancialJuice 表列 headline YoY 3.6%／MoM 0.6%、core YoY 2.5%／MoM 0.2%）。Cleveland nowcast 仍停 10/9：headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM（10/12 債券休市無更新；下一業務日更新約 10:00 ET＝今晚 ~22:00 HKT）。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。訂正：10/12 Columbus Day 美股照開（債券休市）；SPY 收 778.10（約 -0.06%）。亞洲今早風險偏好弱（公開報道／X：KOSPI 約 -6%、Nikkei 約 -2%、Nasdaq 期貨偏軟）入 CPI 窗口。",
     "sources": [
       "BLS CPI schedule",
-      "Cleveland Fed Inflation Nowcasting 2026-10-09",
-      "Street／Admirals／RBC previews 2026-10",
-      "CME FedWatch 公開報道 2026-10-11/12"
+      "Cleveland Fed Inflation Nowcasting 2026-10-09 (fetched 2026-10-13)",
+      "Morningstar CPI preview 2026-10-12",
+      "FinancialJuice US CPI Prep 2026-10-12",
+      "TD Economics／NewsQuawk／Admirals／RBC previews 2026-10",
+      "CME FedWatch 公開報道 2026-10-13（GMT EIGHT hold ~79.5%）",
+      "NYSE／SIFMA holiday notes 2026-10-12",
+      "Asia open notes／X market pulse 2026-10-13"
     ]
   },
   {
@@ -56,10 +60,10 @@
     "status": "upcoming",
     "consensusHeadlineYoY": 5.4,
     "priorHeadlineYoY": 5.4,
-    "note": "08:30 ET；同日 Advance Retail Sales。上游仍高，留意滯後傳導（部分機構預估 headline YoY 企喺 5.4%）。",
+    "note": "08:30 ET；同日 Advance Retail Sales。上游仍高，留意滯後傳導（部分機構預估 headline YoY 企喺 5.4%；MoM 預覽約 +0.5%）。",
     "sources": [
       "BLS／Census 日曆",
-      "Continuum Economics PPI preview 2026-10-01"
+      "Continuum Economics／NewsQuawk PPI preview 2026-10"
     ]
   },
   {
@@ -68,6 +72,6 @@
     "date": "2026-10-28",
     "label": "FOMC 決定（10/27–28）",
     "status": "upcoming",
-    "note": "聲明約 14:00 ET。CME FedWatch（~10/11–12）hold ~81.7%／+25bp ~18.3%。CPI／PPI 後最終定價窗口；同日 Mag7 有 MSFT／GOOGL／META 業績（估計）。"
+    "note": "聲明約 14:00 ET。CME FedWatch（~10/13 公開報道）hold ~79.5%／+25bp ~20.5%（較 10/11–12 ~81.7%／18.3% 略偏鷹；盤中閃報亦見 ~77–82% hold）。CPI／PPI 後最終定價窗口；同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 已改為 10/21。"
   }
 ]
