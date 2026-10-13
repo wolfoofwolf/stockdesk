@@ -1,6 +1,6 @@
 {
   "schema": {
-    "version": 1,
+    "version": 2,
     "owner": "Grok",
     "purpose": "High-value technical analysis lessons + exemplar charts for long-term memory and self-improvement. Not a dump of every daily scan.",
     "retention": {
@@ -9,7 +9,11 @@
         "annotated_exemplars",
         "false_positive_cases",
         "process_regressions",
-        "annotation_standards"
+        "annotation_standards",
+        "training_rubrics",
+        "never_learn_signatures",
+        "keep_gallery_exemplars",
+        "counterexample_gallery"
       ],
       "rotate_or_drop": [
         "routine_scan_snapshots",
@@ -51,10 +55,24 @@
       "createdAt": "ISO",
       "updatedAt": "ISO",
       "source": "human | scan | regression"
+    },
+    "training": {
+      "gradePassThreshold": 90,
+      "rubric": "data/lessons/training/rubric-vcp-c123-dtl.json",
+      "gradeScript": "scripts/lesson_chart_grade.py",
+      "runs": "data/lessons/training/runs/",
+      "remediationQueue": "data/lessons/training/remediation-queue.json",
+      "neverLearnIndex": "data/lessons/training/never-learn-index.json",
+      "gallery": {
+        "keep": "data/lessons/gallery/keep/",
+        "counterexamples": "data/lessons/gallery/counterexamples/",
+        "neverLearn": "data/lessons/gallery/never-learn/"
+      },
+      "loop": "draw → grade vs exemplar → keep|counterexample|never_learn → remediate → redraw"
     }
   },
-  "updatedAt": "2026-10-13T21:25:00+08:00",
-  "count": 5,
+  "updatedAt": "2026-10-13T22:05:00+08:00",
+  "count": 6,
   "lessons": [
     {
       "id": "techpass-gate-v1",
@@ -131,6 +149,23 @@
       "keepForever": true,
       "summary": "人類 exemplar（NOW 日線）：白折線標結構；C1/C2/C3 黑底白框標在收縮低點；C3 用綠色半透明框標 pivot 區並註「綠色範圍內(pivot point)成交量萎縮」；C3 高點連 down trend line(DTL)；突破標 Bo DTL；pivot point 白箭頭標註。之後 VCP 圖必須跟呢套畫法。",
       "entryPath": "data/lessons/entries/draw-style-vcp-c123-dtl-now.json",
+      "chartCount": 2
+    },
+    {
+      "id": "training-gate-90-vs-exemplar",
+      "title": "訓練室閘：畫圖必須對照 exemplar ≥90% 先保留",
+      "tier": "core",
+      "worth": "high",
+      "tags": [
+        "training",
+        "annotation",
+        "vcp",
+        "gate",
+        "process"
+      ],
+      "keepForever": true,
+      "summary": "畫圖 bot 作品必須用 rubric 對照人類 NOW exemplar，≥90 先入 keep；差作歸 counterexamples／never-learn，並寫 remediation-queue 迭代升級。",
+      "entryPath": "data/lessons/entries/training-gate-90-vs-exemplar.json",
       "chartCount": 2
     }
   ]

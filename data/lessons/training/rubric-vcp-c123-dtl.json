@@ -1,0 +1,111 @@
+{
+  "id": "rubric-vcp-c123-dtl",
+  "title": "VCP C1–C3＋DTL 畫法對照（對齊人類 NOW exemplar）",
+  "exemplarId": "draw-style-vcp-c123-dtl-now",
+  "exemplarSvg": "data/lessons/exemplars/NOW_vcp_c123_dtl_style.svg",
+  "exemplarJpg": "data/lessons/exemplars/NOW_vcp_c123_dtl_style.jpg",
+  "passThreshold": 90,
+  "totalPoints": 100,
+  "verdicts": {
+    "keep": "score >= passThreshold — 值得保留，可入 gallery/keep",
+    "counterexample": "score < passThreshold 但錯誤可教 — 入 gallery/counterexamples 作反面教材",
+    "never_learn": "命中 bannedAntiPatterns，或同一 failureSignature 重複出現 — 入 gallery/never-learn，之後畫圖禁止再犯"
+  },
+  "bannedAntiPatterns": [
+    {
+      "id": "c123_on_left_dump",
+      "description": "C1–C3 標在左段大瀉／早期結構，而右段已有更成熟基座",
+      "failureSignature": "early_left_dump_c123"
+    },
+    {
+      "id": "feb_micros_when_late_base_exists",
+      "description": "有晚期 VCP 基座時仍用 1–2 月微波動當 C1–C3（NOW 反例）",
+      "failureSignature": "feb_micros_vs_late_base"
+    },
+    {
+      "id": "missing_style_lock_labels",
+      "description": "缺 C1/C2/C3 或 DTL／pivot／綠框量縮整套標註",
+      "failureSignature": "missing_style_lock"
+    }
+  ],
+  "items": [
+    {
+      "id": "zigzag_white",
+      "weight": 6,
+      "description": "白折線 zigzag 標 VCP 結構高低（唔係光裸 K 線）",
+      "autoCheck": "svg_or_meta: title/comment contains VCP; matplotlib SVG typically has white stroke paths — pass if chart is VCP primary and file is non-trivial SVG with path elements"
+    },
+    {
+      "id": "c1_on_low",
+      "weight": 8,
+      "description": "C1 黑底／白框標在收縮低點",
+      "autoCheck": "svg_comment_or_text: C1"
+    },
+    {
+      "id": "c2_on_low",
+      "weight": 8,
+      "description": "C2 標在收縮低點",
+      "autoCheck": "svg_comment_or_text: C2"
+    },
+    {
+      "id": "c3_on_low",
+      "weight": 8,
+      "description": "C3 標在收縮低點",
+      "autoCheck": "svg_comment_or_text: C3"
+    },
+    {
+      "id": "progressive_dates",
+      "weight": 12,
+      "description": "C1→C2→C3 日期遞進（高點／低點時間序）",
+      "autoCheck": "contractions_json: highDate/lowDate strictly increasing by label order"
+    },
+    {
+      "id": "progressive_pct",
+      "weight": 12,
+      "description": "收縮幅度遞減 C1% > C2% > C3%",
+      "autoCheck": "contractions_json: pct[0] > pct[1] > pct[2]"
+    },
+    {
+      "id": "late_base_not_micros",
+      "weight": 10,
+      "description": "C1–C3 落在右段成熟基座，唔係早期微浪／左段 dump",
+      "autoCheck": "contractions_json: C3 highDate within ~150 calendar days of asOf; C1 not >400d before asOf when C3 is recent; fail → feb_micros / left_dump signatures"
+    },
+    {
+      "id": "c3_green_box",
+      "weight": 8,
+      "description": "C3 綠色半透明框標 pivot 區",
+      "autoCheck": "svg: comment/text 綠色 OR fill #2e7d32"
+    },
+    {
+      "id": "vol_dry_zh_note",
+      "weight": 8,
+      "description": "中文量縮註：綠色範圍內(pivot point)成交量萎縮",
+      "autoCheck": "svg_comment_or_text: 成交量萎縮"
+    },
+    {
+      "id": "vol_arrow",
+      "weight": 4,
+      "description": "成交量面板有向下量縮箭頭（與綠框同區）",
+      "autoCheck": "proxy: award if c3_green_box and vol_dry_zh_note both pass (draw path co-emits arrow with those labels)"
+    },
+    {
+      "id": "dtl_label",
+      "weight": 6,
+      "description": "down trend line(DTL) 標籤＋線（沿 C3 高點）",
+      "autoCheck": "svg_comment_or_text: down trend line(DTL) OR DTL"
+    },
+    {
+      "id": "bo_dtl",
+      "weight": 4,
+      "description": "突破時標 Bo DTL；未破線可給滿分（N/A）",
+      "autoCheck": "svg has Bo DTL OR analysis close < pivot*0.98 (not broken → full credit)"
+    },
+    {
+      "id": "pivot_label",
+      "weight": 6,
+      "description": "pivot point 標籤＋水平線",
+      "autoCheck": "svg_comment_or_text: pivot point"
+    }
+  ]
+}

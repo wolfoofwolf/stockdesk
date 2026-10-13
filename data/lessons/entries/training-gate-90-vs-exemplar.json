@@ -1,0 +1,44 @@
+{
+  "id": "training-gate-90-vs-exemplar",
+  "title": "訓練室閘：畫圖必須對照 exemplar ≥90% 先保留",
+  "tier": "core",
+  "worth": "high",
+  "tags": [
+    "training",
+    "annotation",
+    "vcp",
+    "gate",
+    "process"
+  ],
+  "keepForever": true,
+  "summary": "教材庫訓練室：畫圖 bot 不停畫圖後必須用 rubric 對照人類作品（NOW VCP C1–C3＋DTL）。得分 ≥90 → gallery/keep；<90 可教錯誤 → counterexamples；命中永不學習簽名／重複同錯 → never-learn。失敗要寫入 remediation-queue，下次大規模重畫前必須先改碼。",
+  "rule": "VCP chart keep only if lesson_chart_grade score >= 90 vs rubric-vcp-c123-dtl (exemplar draw-style-vcp-c123-dtl-now). Below 90 → counterexample or never_learn; process remediation-queue before next mass redraw.",
+  "do": [
+    "畫完用 scripts/lesson_chart_grade.py 對照 data/lessons/training/rubric-vcp-c123-dtl.json",
+    "≥90 複製到 data/lessons/gallery/keep/",
+    "<90 且可教 → gallery/counterexamples/ + 反面教材索引",
+    "banned anti-pattern／重複失敗 → gallery/never-learn/ + never-learn-index.json",
+    "失敗追加 remediation-queue.json 一行，改 detect_vcp／draw_candle_chart 後先清 queue 再 bulk redraw"
+  ],
+  "dont": [
+    "未達 90% 就當完成品推 Pages",
+    "忽略 never-learn 簽名繼續用左段 dump／Feb 微浪當 C1–C3",
+    "只改圖唔改偵測碼（queue 未處理就重畫）"
+  ],
+  "chartRefs": [
+    {
+      "ticker": "NOW",
+      "chartPath": "data/lessons/exemplars/NOW_vcp_c123_dtl_style.svg",
+      "why": "人類 exemplar（90% 對照基準）"
+    },
+    {
+      "ticker": "NOW",
+      "chartPath": "data/charts/NOW_scan_VCP.svg",
+      "why": "系統輸出；必須過 training gate"
+    }
+  ],
+  "relatedGate": "training gradePassThreshold=90; style lock draw-style-vcp-c123-dtl-now",
+  "createdAt": "2026-10-13T22:05:00+08:00",
+  "updatedAt": "2026-10-13T22:05:00+08:00",
+  "source": "human"
+}
