@@ -225,3 +225,42 @@ img#tech-chart{
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
 }
+
+/* —— 訓練室 gallery —— */
+.train-hr{border:0;border-top:1px solid rgba(255,255,255,.12);margin:28px 0 18px}
+.train-cols{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;
+}
+@media(max-width:1100px){.train-cols{grid-template-columns:1fr}}
+.train-col{
+  background:#0a0a0a;border:1px solid var(--line);border-radius:var(--radius);
+  padding:10px;min-height:120px;
+}
+.train-col-keep{border-color:rgba(46,125,50,.55)}
+.train-col-counter{border-color:rgba(196,92,38,.55)}
+.train-col-never{border-color:rgba(180,40,40,.65)}
+.train-col-head h3{margin:0 0 4px;font-size:14px;color:#fff}
+.train-card-list{display:flex;flex-direction:column;gap:10px;max-height:70vh;overflow:auto}
+.train-card{
+  background:#000;border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:8px;
+}
+.train-card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.train-ticker{font-weight:700;color:#fff;font-size:13px}
+.train-score{font-weight:700;font-size:14px}
+.train-score-pass{color:#7dffa0}
+.train-score-near{color:#ffd27a}
+.train-score-fail{color:#ff8f8f}
+.train-thumb{
+  width:100%;max-height:180px;object-fit:contain;background:#111;
+  border-radius:6px;border:1px solid rgba(255,255,255,.08);cursor:zoom-in;
+}
+.train-meta{font-size:11px;margin-top:4px;word-break:break-all}
+.train-compare{
+  display:grid;grid-template-columns:1fr 1fr;gap:12px;
+}
+@media(max-width:900px){.train-compare{grid-template-columns:1fr}}
+.train-rubric-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:900px){.train-rubric-grid{grid-template-columns:1fr}}
+.train-rubric h4{margin:0 0 6px;font-size:12px;color:#9aa6d0}
+.train-ul{margin:0;padding-left:18px;font-size:12px;color:#ccc;line-height:1.45}
+.train-orphan{opacity:.85}

@@ -851,6 +851,10 @@
     if ($('btn-tech-scan')) $('btn-tech-scan').addEventListener('click', loadTechScanLatest);
     if ($('btn-lessons')) $('btn-lessons').addEventListener('click', loadLessonsCatalog);
     if ($('lessons-tier-filter')) $('lessons-tier-filter').addEventListener('change', renderLessonsList);
+    if ($('btn-train')) $('btn-train').addEventListener('click', function () {
+      if (window.LessonsTraining && LessonsTraining.load) LessonsTraining.load();
+      else if ($('train-status')) $('train-status').textContent = 'lessons-training.js 未載入';
+    });
   if ($('tech-theme-filter')) $('tech-theme-filter').addEventListener('change', function () {
     renderTechScanTable();
   });
@@ -911,6 +915,7 @@
     loadScreenerLatest();
     loadTechScanLatest();
     loadLessonsCatalog();
+    if (window.LessonsTraining && LessonsTraining.load) LessonsTraining.load();
     loadCompanyLatest();
     loadEntryLatest();
     setTimeout(runCommander, 400);
