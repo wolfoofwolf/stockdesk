@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T01:09:00.000Z",
+  "generatedAt": "2026-10-14T01:10:14.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-14 09:09 HKT",
+  "asOfHKT": "2026-10-14 09:10 HKT",
   "pipeline": {
     "candidates": 502,
     "techPassed": 83,
@@ -10,24 +10,23 @@
     "leaders": 29,
     "entry": 29,
     "entryConsider": 29,
-    "anchor": "Hold evening techPass 83 until Grok locks 502 rescan (ignore interim 79)",
-    "downstreamStale": true,
-    "staleReason": "Frok 502 morning churn; Grok rescan in progress; Jrok/Arok 79 is pre-502"
+    "anchor": "Evening techPass 83 (asOf 2026-10-13); 502 rescan deferred to cash-open",
+    "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-14 09:09 HKT】\n今日 CPI 20:30 HKT · 閘門靜止\n① 候選 **502** 已推 · 錨暫鎖晚間 techPass **83**／29／29\n⚠️ 早市監察 **79** 唔跟——等 @Grok 用 502 定案\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/)",
+  "summaryTw": "【總司令｜2026-10-14 09:10 HKT】\n今日 CPI 20:30 HKT · 閘門靜止\n錨 techPass **83**／公司 83／領導 29／進場 29（502 盤前舊 bar 噪音唔鎖；今晚 cash-open 再刷）\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/)",
   "links": {
     "site": "https://wolfoofwolf.github.io/stockdesk/"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-14 09:09 HKT",
-      "msg": "Pushed screener 502; hold 83; block downstream 79 until Grok 502"
+      "t": "2026-10-14 09:10 HKT",
+      "msg": "Grok: no lock on premarket 502 scan; hold 83 until cash-open"
     }
   ],
   "premarketGate": {
     "triggered": false,
     "cleared": true,
     "applicable": false,
-    "note": "US cash not open yet 10/14 HKT morning"
+    "note": "US cash not open; CPI 20:30 HKT"
   }
 }
