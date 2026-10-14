@@ -1,35 +1,33 @@
 {
-  "generatedAt": "2026-10-14T00:55:34.000Z",
+  "generatedAt": "2026-10-14T01:09:00.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-14 08:55 HKT",
+  "asOfHKT": "2026-10-14 09:09 HKT",
   "pipeline": {
-    "candidates": 480,
+    "candidates": 502,
     "techPassed": 83,
     "company": 83,
     "leaders": 29,
     "entry": 29,
     "entryConsider": 29,
-    "entryWatch": 0,
-    "anchor": "Grok techPass (quality gate NOW-style)",
-    "downstreamStale": false
+    "anchor": "Hold evening techPass 83 until Grok locks 502 rescan (ignore interim 79)",
+    "downstreamStale": true,
+    "staleReason": "Frok 502 morning churn; Grok rescan in progress; Jrok/Arok 79 is pre-502"
   },
-  "summaryTw": "【總司令｜2026-10-14 08:55 HKT】\n⚠️ **今日 CPI** 20:30 HKT（08:30 ET）· 閘門昨已解除 QQQ −0.60%/SPY −0.13%\n錨 Grok techPass **83**（晚間重刷 88→83；+5/−10）→ 公司 83／領導 29／進場 29 已對齊\nTop 近 pivot：**CVI**／**XOM**／**SU** · BAC／MS 今早業績\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=cmd1014a)",
+  "summaryTw": "【總司令｜2026-10-14 09:09 HKT】\n今日 CPI 20:30 HKT · 閘門靜止\n① 候選 **502** 已推 · 錨暫鎖晚間 techPass **83**／29／29\n⚠️ 早市監察 **79** 唔跟——等 @Grok 用 502 定案\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/)",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=cmd1014a"
+    "site": "https://wolfoofwolf.github.io/stockdesk/"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-14 08:55 HKT",
-      "msg": "Morning sync techPass 83 + CPI D-0"
+      "t": "2026-10-14 09:09 HKT",
+      "msg": "Pushed screener 502; hold 83; block downstream 79 until Grok 502"
     }
   ],
   "premarketGate": {
     "triggered": false,
     "cleared": true,
-    "qqqPct": -0.6,
-    "spyPct": -0.13,
-    "threshold": -0.65,
-    "note": "Prior session cleared mid-day; pre-CPI morning HKT — no new US open yet"
+    "applicable": false,
+    "note": "US cash not open yet 10/14 HKT morning"
   }
 }
