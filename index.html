@@ -187,28 +187,29 @@
 
         <hr class="train-hr" />
         <h2>訓練室 · 畫法對照閘門</h2>
-        <p class="muted">每張候選圖對你嘅 exemplar 打分；<b>≥90</b> 入「值得保留」，否則入「反面教材」；命中 banned／重複錯法入「永不學習」。Grok <code>lesson_chart_grade.py</code> 寫 runs／gallery，呢頁只讀展示。</p>
+        <p class="muted">先分析你教嘅 exemplar，寫死硬性畫法；畫完對照打分。<b>≥90</b>＝值得保留；&lt;90＝反面教材；banned／重複錯＝永不學習。<b>同一 ticker 會並排顯示：你教的｜值得保留｜永不學習／反面</b>（唔再分欄散開重複圖）。</p>
         <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
           <button class="primary" id="btn-train" type="button">載入訓練室</button>
           <span class="muted" id="train-status">尚未載入</span>
         </div>
         <div id="train-rubric" class="train-rubric report" style="margin-top:12px"></div>
+        <div id="train-hard-rules" class="report" style="margin-top:12px"></div>
+        <div id="train-pairs" style="margin-top:16px"></div>
         <div class="train-compare" style="margin-top:12px">
-          <div>
-            <h3 style="color:#9aa6d0;font-size:13px;margin:0 0 8px">你教嘅 exemplar（標準）</h3>
-            <img id="train-exemplar" alt="exemplar" style="display:none;max-width:100%;border:1px solid #2a3560;border-radius:10px" />
-          </div>
           <div>
             <h3 style="color:#9aa6d0;font-size:13px;margin:0 0 8px">點選預覽／評分明細</h3>
             <img id="train-preview" alt="preview" style="display:none;max-width:100%;border:1px solid #2a3560;border-radius:10px" />
-            <div id="train-run-detail" class="report" style="margin-top:8px;max-height:42vh;overflow:auto">點右面三欄任一张圖</div>
+            <div id="train-run-detail" class="report" style="margin-top:8px;max-height:42vh;overflow:auto">點下面成對圖任一张</div>
           </div>
         </div>
-        <div id="train-cols" class="train-cols" style="margin-top:16px">
-          <div id="train-col-keep" class="train-col train-col-keep"></div>
-          <div id="train-col-counter" class="train-col train-col-counter"></div>
-          <div id="train-col-never" class="train-col train-col-never"></div>
-        </div>
+        <details style="margin-top:16px">
+          <summary class="muted">後備分欄（舊）</summary>
+          <div id="train-cols" class="train-cols" style="margin-top:12px">
+            <div id="train-col-keep" class="train-col train-col-keep"></div>
+            <div id="train-col-counter" class="train-col train-col-counter"></div>
+            <div id="train-col-never" class="train-col train-col-never"></div>
+          </div>
+        </details>
       </section>
 
       <section class="panel" data-panel="logs">

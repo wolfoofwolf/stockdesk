@@ -264,3 +264,23 @@ img#tech-chart{
 .train-rubric h4{margin:0 0 6px;font-size:12px;color:#9aa6d0}
 .train-ul{margin:0;padding-left:18px;font-size:12px;color:#ccc;line-height:1.45}
 .train-orphan{opacity:.85}
+
+/* —— 訓練室成對對照 —— */
+.train-pair{
+  background:#0a0a0a;border:1px solid var(--line);border-radius:var(--radius);
+  padding:12px;margin-bottom:14px;
+}
+.train-pair-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:10px}
+.train-pair-head h3{margin:0;font-size:15px;color:#fff}
+.train-pair-grid{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;
+}
+@media(max-width:1100px){.train-pair-grid{grid-template-columns:1fr}}
+.train-pair-cell{
+  background:#000;border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:8px;
+}
+.train-pair-cell.role-exemplar{border-color:rgba(66,165,245,.55)}
+.train-pair-cell.role-keep{border-color:rgba(46,125,50,.55)}
+.train-pair-cell.role-bad{border-color:rgba(180,40,40,.55)}
+.train-pair-role{font-size:11px;color:#9aa6d0;margin-bottom:6px;font-weight:600}
+.train-hard-ol{margin:6px 0 0;padding-left:18px;font-size:12px;color:#ccc;line-height:1.5}
