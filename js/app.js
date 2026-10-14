@@ -166,6 +166,8 @@
         }).catch(function () {});
       }
       window.__latestMacro = j;
+      refreshOverviewKpis();
+      renderOverviewGate(window.__latestCommander || null);
       refreshLogs();
     }).catch(function (e) {
       $('macro-report').textContent = '未能載入大市報告：' + e.message;
@@ -884,6 +886,59 @@
     }
   }
 
+
+  function loadCommanderLatest() {
+    return fetch(bust('data/commander-latest.json')).then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).then(function (j) {
+      window.__latestCommander = j;
+      renderOverviewGate(j);
+      alog('commander-latest:loaded', j && j.asOfHKT);
+    }).catch(function (e) {
+      alog('commander-latest:error', e.message);
+      // fallback: derive from macro watch
+      renderOverviewGate(null);
+    });
+  }
+
+  function renderOverviewGate(cmd) {
+    var el = $('overview-gate');
+    if (!el) return;
+    var g = cmd && cmd.premarketGate;
+    var fired = g && g.triggered;
+    var macro = window.__latestMacro;
+    if (!fired && macro) {
+      var blob = (macro.title || '') + ' ' + (macro.summaryTw || '') + ' ' + ((macro.watch || []).join ? macro.watch.join(' ') : '');
+      if (/閘門\s*(觸發|FIRED)|gate\s*FIRED/i.test(blob)) fired = true;
+    }
+    if (!fired && !(g && g.cleared === false)) {
+      // show quiet state only if we have explicit gate object
+      if (g && g.triggered === false) {
+        el.style.display = 'block';
+        el.className = 'overview-gate ok';
+        el.innerHTML = '<b>閘門未觸發</b> · QQQ ' + (g.qqqPct != null ? g.qqqPct + '%' : '—') +
+          '／SPY ' + (g.spyPct != null ? g.spyPct + '%' : '—') +
+          '（閾值 ' + (g.threshold != null ? g.threshold + '%' : '−0.65%') + '）';
+        return;
+      }
+      el.style.display = 'none';
+      return;
+    }
+    el.style.display = 'block';
+    el.className = 'overview-gate';
+    if (g && g.triggered) {
+      el.innerHTML = '<b>🚨 閘門觸發</b> · QQQ ' + (g.qqqPct != null ? g.qqqPct + '%' : '—') +
+        (g.qqqLaterPct != null ? '（其後 ~' + g.qqqLaterPct + '%）' : '') +
+        '／SPY ' + (g.spyPct != null ? g.spyPct + '%' : '—') +
+        ' · 閾值 ' + (g.threshold != null ? g.threshold + '%' : '−0.65%') +
+        (g.driver ? '<br>' + g.driver : '') +
+        '<br>techPass 暫錨 83 · 等現金盤 502 重鎖';
+    } else {
+      el.innerHTML = '<b>🚨 閘門觸發</b> · 見大市報告（Drok）· techPass 暫錨 83 · 等現金盤重鎖';
+    }
+  }
+
   function refreshOverviewKpis() {
     var ss = window.__latestScreener && window.__latestScreener.stats;
     var tech = window.__latestTech;
@@ -901,7 +956,21 @@
     if (ss) bits.push('① 篩選 asOf ' + (window.__latestScreener.asOf || '') + ' · 過 ' + ss.passed);
     if (tech) bits.push('② 技術 asOf ' + (tech.asOfMarket || tech.generatedAt || '') + ' · top ' + ((tech.topSetups||[]).map(function(t){return t.ticker;}).slice(0,3).join('/') || '—'));
     if (co) bits.push('③ 公司 ' + ((co.reports||[]).length) + ' 隻');
-    if (window.__latestMacro && window.__latestMacro.summaryTw) bits.push('④ 大市已載入');
+    if (window.__latestMacro && window.__latestMacro.summaryTw) {
+      var gbit = '④ 大市已載入';
+      var mg = window.__latestCommander && window.__latestCommander.premarketGate;
+      if (mg && mg.triggered) gbit += ' · 閘門觸發 QQQ ' + mg.qqqPct + '%';
+      else if (/閘門\s*(觸發|FIRED)|gate\s*FIRED/i.test(window.__latestMacro.summaryTw || window.__latestMacro.title || '')) gbit += ' · 閘門觸發';
+      bits.push(gbit);
+    }
+    if (window.__latestCommander && window.__latestCommander.pipeline) {
+      var p = window.__latestCommander.pipeline;
+      bits.push('⑥ 總司令 techPass ' + (p.techPassed != null ? p.techPassed : '—') +
+        '／領導 ' + (p.leaders != null ? p.leaders : '—') +
+        '／進場 ' + (p.entry != null ? p.entry : '—') +
+        (p.anchor ? ' · ' + p.anchor : ''));
+    }
+    renderOverviewGate(window.__latestCommander || null);
     if (en) bits.push('⑤ 進場 ' + ((en.reports||[]).length || en.count || 0) + ' 隻');
     if ($('overview-live')) $('overview-live').textContent = bits.length ? bits.join('\n') : '尚未載入 latest JSON（若長期空白，請用 HTTP 開頁）';
   }
