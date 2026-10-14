@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-14T01:00:43.469489Z",
+  "generatedAt": "2026-10-14T01:10:51.523505Z",
   "bot": "Jrok",
-  "count": 28,
-  "techPassed": 79,
+  "count": 29,
+  "techPassed": 83,
   "leaders": [
     {
-      "ticker": "XOM",
-      "name": "ExxonMobil Holdings Corporation",
+      "ticker": "SU",
+      "name": "Suncor Energy  Inc.",
       "theme": "能源",
       "etf": "XLE",
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "上游",
-      "score": 7,
-      "price": 174.08,
-      "pivot": 172.55,
-      "close": 172.15
+      "score": 5,
+      "price": 75.2,
+      "pivot": 75.24,
+      "close": 75.17
     },
     {
       "ticker": "HCA",
@@ -27,86 +27,21 @@
       "valueChain": "下游",
       "score": 7,
       "price": 460.75,
-      "pivot": 460.28,
-      "close": 458.6
+      "pivot": 462.07,
+      "close": 459.27
     },
     {
-      "ticker": "XP",
-      "name": "XP Inc.",
+      "ticker": "ARX",
+      "name": "Accelerant Holdings",
       "theme": "金融",
       "etf": "XLF",
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 31.38,
-      "pivot": 32.73,
-      "close": 32.6
-    },
-    {
-      "ticker": "SU",
-      "name": "Suncor Energy  Inc.",
-      "theme": "能源",
-      "etf": "XLE",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "上游",
-      "score": 5,
-      "price": 75.2,
-      "pivot": 74.25,
-      "close": 73.51
-    },
-    {
-      "ticker": "PBR",
-      "name": "Petroleo Brasileiro S.A. Petrob",
-      "theme": "能源",
-      "etf": "XLE",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "上游",
-      "score": 7,
-      "price": 25.5,
-      "pivot": 25.8,
-      "close": 25.42
-    },
-    {
-      "ticker": "BWIN",
-      "name": "The Baldwin Insurance Group, In",
-      "theme": "金融",
-      "etf": "XLF",
-      "pattern": "bull_flag",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 31.87,
-      "pivot": 31.95,
-      "close": 31.85
-    },
-    {
-      "ticker": "FTNT",
-      "name": "Fortinet, Inc.",
-      "theme": "Cyber security",
-      "etf": "HACK",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 7,
-      "price": 190.76,
-      "pivot": 196.87,
-      "close": 192.94
-    },
-    {
-      "ticker": "KDP",
-      "name": "Keurig Dr Pepper Inc.",
-      "theme": "雜項",
-      "etf": "XLP",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 32.66,
-      "pivot": 32.93,
-      "close": 32.75
+      "price": 19.795000076293945,
+      "pivot": 19.72,
+      "close": 19.79
     },
     {
       "ticker": "EOG",
@@ -119,20 +54,20 @@
       "score": 5,
       "price": 153.17,
       "pivot": 151.53,
-      "close": 150.51
+      "close": 152.27
     },
     {
-      "ticker": "ITUB",
-      "name": "Itau Unibanco Banco Holding SA",
-      "theme": "金融",
-      "etf": "XLF",
-      "pattern": "bull_flag",
+      "ticker": "XOM",
+      "name": "ExxonMobil Holdings Corporation",
+      "theme": "能源",
+      "etf": "XLE",
+      "pattern": "VCP",
       "moat": "中",
-      "valueChain": "下游",
+      "valueChain": "上游",
       "score": 7,
-      "price": 9.89,
-      "pivot": 10.2,
-      "close": 10.06
+      "price": 174.08,
+      "pivot": 174.38,
+      "close": 174.28
     },
     {
       "ticker": "PSX",
@@ -142,10 +77,36 @@
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "上游",
-      "score": 7,
+      "score": 5,
       "price": 292.73,
-      "pivot": 286.57,
-      "close": 281.47
+      "pivot": 288.74,
+      "close": 287.19
+    },
+    {
+      "ticker": "PBR",
+      "name": "Petroleo Brasileiro S.A. Petrob",
+      "theme": "能源",
+      "etf": "XLE",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "上游",
+      "score": 7,
+      "price": 25.5,
+      "pivot": 25.8,
+      "close": 25.45
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet, Inc.",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 190.76,
+      "pivot": 197.13,
+      "close": 191.27
     },
     {
       "ticker": "SAP",
@@ -155,49 +116,36 @@
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
-      "score": 6,
+      "score": 7,
       "price": 219.75,
       "pivot": 223.28,
-      "close": 217.85
+      "close": 219.96
     },
     {
-      "ticker": "ERO",
-      "name": "Ero Copper Corp.",
-      "theme": "化學工業",
-      "etf": "XLB",
-      "pattern": "bull_flag",
-      "moat": "中",
-      "valueChain": "中游",
-      "score": 5,
-      "price": 36.65,
-      "pivot": 38.53,
-      "close": 37.53
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "theme": "Software service",
+      "etf": "IGV",
+      "pattern": "VCP",
+      "moat": "高",
+      "valueChain": "下游",
+      "score": 8,
+      "price": 762.5,
+      "pivot": 779.82,
+      "close": 768.13
     },
     {
-      "ticker": "FAST",
-      "name": "Fastenal Company",
-      "theme": "雜項",
-      "etf": "XLI",
+      "ticker": "XP",
+      "name": "XP Inc.",
+      "theme": "金融",
+      "etf": "XLF",
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
-      "score": 6,
-      "price": 51.43,
-      "pivot": 52.92,
-      "close": 51.49
-    },
-    {
-      "ticker": "RCL",
-      "name": "Royal Caribbean Cruises Ltd.",
-      "theme": "雜項",
-      "etf": "XLY",
-      "pattern": "bull_flag",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 281.51,
-      "pivot": 289.17,
-      "close": 280.67
+      "score": 5,
+      "price": 31.38,
+      "pivot": 32.73,
+      "close": 32.02
     },
     {
       "ticker": "DIS",
@@ -210,20 +158,20 @@
       "score": 6,
       "price": 108.58,
       "pivot": 111.87,
-      "close": 108.49
+      "close": 109.32
     },
     {
-      "ticker": "S",
-      "name": "SentinelOne, Inc.",
-      "theme": "Cyber security",
-      "etf": "HACK",
+      "ticker": "RCL",
+      "name": "Royal Caribbean Cruises Ltd.",
+      "theme": "雜項",
+      "etf": "XLY",
       "pattern": "bull_flag",
       "moat": "中",
       "valueChain": "下游",
-      "score": 5,
-      "price": 24.01,
-      "pivot": 26.5,
-      "close": 25.66
+      "score": 6,
+      "price": 281.51,
+      "pivot": 288.14,
+      "close": 281.46
     },
     {
       "ticker": "ECL",
@@ -236,33 +184,59 @@
       "score": 6,
       "price": 285.66,
       "pivot": 294.55,
-      "close": 284.3
+      "close": 285.79
     },
     {
-      "ticker": "CDNS",
-      "name": "Cadence Design Systems, Inc.",
-      "theme": "半導體",
-      "etf": "IGV",
+      "ticker": "ITUB",
+      "name": "Itau Unibanco Banco Holding SA",
+      "theme": "金融",
+      "etf": "XLF",
       "pattern": "bull_flag",
       "moat": "中",
-      "valueChain": "中游",
+      "valueChain": "下游",
       "score": 6,
-      "price": 334.2,
-      "pivot": 361.91,
-      "close": 348.42
+      "price": 9.89,
+      "pivot": 10.2,
+      "close": 9.88
     },
     {
-      "ticker": "SONY",
-      "name": "Sony Group Corporation",
-      "theme": "Hardware",
-      "etf": "XLK",
+      "ticker": "JCI",
+      "name": "Johnson Controls International ",
+      "theme": "雜項",
+      "etf": "XLI",
+      "pattern": "bull_flag",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 156.47,
+      "pivot": 158.14,
+      "close": 153.1
+    },
+    {
+      "ticker": "FAST",
+      "name": "Fastenal Company",
+      "theme": "雜項",
+      "etf": "XLI",
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 24.33,
-      "pivot": 25.27,
-      "close": 24.26
+      "price": 51.43,
+      "pivot": 52.92,
+      "close": 51.09
+    },
+    {
+      "ticker": "NTRA",
+      "name": "Natera, Inc.",
+      "theme": "醫療",
+      "etf": "XLV",
+      "pattern": "bull_flag",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 395.655,
+      "pivot": 407.06,
+      "close": 391.6
     },
     {
       "ticker": "ADP",
@@ -275,7 +249,7 @@
       "score": 6,
       "price": 275.9,
       "pivot": 286.17,
-      "close": 273.81
+      "close": 275.29
     },
     {
       "ticker": "CLMT",
@@ -288,7 +262,20 @@
       "score": 5,
       "price": 58.59,
       "pivot": 59.87,
-      "close": 57.17
+      "close": 57.59
+    },
+    {
+      "ticker": "SONY",
+      "name": "Sony Group Corporation",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 24.33,
+      "pivot": 25.27,
+      "close": 24.27
     },
     {
       "ticker": "RELX",
@@ -301,7 +288,7 @@
       "score": 6,
       "price": 36.7,
       "pivot": 38.28,
-      "close": 36.54
+      "close": 36.72
     },
     {
       "ticker": "TMO",
@@ -314,46 +301,33 @@
       "score": 6,
       "price": 663.04,
       "pivot": 694.33,
-      "close": 662.24
+      "close": 662.48
     },
     {
-      "ticker": "META",
-      "name": "Meta Platforms, Inc.",
-      "theme": "Software service",
-      "etf": "IGV",
-      "pattern": "VCP",
-      "moat": "高",
-      "valueChain": "下游",
-      "score": 7,
-      "price": 762.5,
-      "pivot": 779.82,
-      "close": 742.96
-    },
-    {
-      "ticker": "HUM",
-      "name": "Humana Inc.",
-      "theme": "醫療",
-      "etf": "XLV",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 420.38,
-      "pivot": 456.5,
-      "close": 433.5
-    },
-    {
-      "ticker": "NET",
-      "name": "Cloudflare, Inc.",
+      "ticker": "PANW",
+      "name": "Palo Alto Networks, Inc.",
       "theme": "Cyber security",
       "etf": "HACK",
       "pattern": "bull_flag",
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 347.7,
-      "pivot": 370.35,
-      "close": 350.87
+      "price": 397.03,
+      "pivot": 421.48,
+      "close": 399.83
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "theme": "Software service",
+      "etf": "IGV",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 138.61,
+      "pivot": 149.6,
+      "close": 141.78
     },
     {
       "ticker": "ACN",
@@ -366,7 +340,46 @@
       "score": 6,
       "price": 213.56,
       "pivot": 227.63,
-      "close": 214.87
+      "close": 215.1
+    },
+    {
+      "ticker": "GGB",
+      "name": "Gerdau S.A.",
+      "theme": "化學工業",
+      "etf": "XLB",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "中游",
+      "score": 5,
+      "price": 5.18,
+      "pivot": 5.48,
+      "close": 5.17
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova Inc.",
+      "theme": "能源",
+      "etf": "XLU",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "上游",
+      "score": 6,
+      "price": 1004.04,
+      "pivot": 1052.78,
+      "close": 991.88
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare, Inc.",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "pattern": "bull_flag",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 347.7,
+      "pivot": 370.35,
+      "close": 348.81
     }
   ]
 }
