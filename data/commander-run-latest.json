@@ -1,33 +1,47 @@
 {
-  "generatedAt": "2026-10-13T15:10:57.000Z",
-  "asOf": "2026-10-13 23:10 HKT",
+  "generatedAt": "2026-10-14T00:55:34.000Z",
+  "asOf": "2026-10-14 08:55 HKT",
   "bot": "Trok",
   "role": "資料蒐集＋總司令",
   "pipeline": {
     "candidates": 480,
-    "techPassed": 88,
-    "company": 88,
-    "leaders": 33,
-    "entry": 33,
-    "entryConsider": 33,
+    "techPassed": 83,
+    "company": 83,
+    "leaders": 29,
+    "entry": 29,
+    "entryConsider": 29,
     "entryWatch": 0,
     "anchor": "Grok techPass (quality gate NOW-style)",
-    "downstreamStale": true,
-    "staleReason": "Frok 480 候選池剛刷新；Grok multi_pattern_scan 重刷中"
+    "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-13 23:10 HKT】\n✅ 閘門解除 QQQ −0.60%／SPY −0.13% · CPI **明天**\n錨 Grok techPass **88**（質素閘；開市重掃 61→88；相對午後鬆閘 350 大砍）\n下游已對齊：公司 88／領導 33／進場 33（可考慮 33） · @Grok 正重刷 480 候選\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=cmd1013e)",
+  "summaryTw": "【總司令｜2026-10-14 08:55 HKT】\n⚠️ **今日 CPI** 20:30 HKT（08:30 ET）· 閘門昨已解除 QQQ −0.60%/SPY −0.13%\n錨 Grok techPass **83**（晚間重刷 88→83；+5/−10）→ 公司 83／領導 29／進場 29 已對齊\nTop 近 pivot：**CVI**／**XOM**／**SU** · BAC／MS 今早業績\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=cmd1014a)",
   "catalysts": [
     {
       "id": "cpi-2026-10-14",
       "date": "2026-10-14",
-      "title": "美國 CPI（9月）公布 — 明天",
+      "title": "美國 CPI（9月）公布 — 今日",
       "tickers": [],
       "themes": [
         "大市",
         "利率"
       ],
       "score": 9,
-      "note": "D-1；Street ~3.6–3.7%／core ~2.4–2.5%；Cleveland Updated 10/13：headline 3.60%／core MoM 0.20%；core≤0.2% 利好暫停；熱則疊加半導弱＝雙殺；FedWatch hold ~80.6%"
+      "note": "D-0；Street ~3.6–3.7%／core ~2.4–2.5%／~0.2% MoM；Cleveland 10/13：headline 3.60%／core MoM 0.20%；core≤0.2% 利好暫停；熱則雙殺；FedWatch hike ~17–19%"
+    },
+    {
+      "id": "bank-earnings-2026-10-14",
+      "date": "2026-10-14",
+      "title": "BAC／MS 業績（開市前）",
+      "tickers": [
+        "BAC",
+        "MS"
+      ],
+      "themes": [
+        "金融",
+        "大市"
+      ],
+      "score": 7,
+      "note": "接昨日 JPM／GS／WFC／C 齊 beat；BAC 預告 $1.2B remediation charge（≈EPS −$0.17）"
     },
     {
       "id": "ppi-2026-10-15",
@@ -39,26 +53,7 @@
         "利率"
       ],
       "score": 7,
-      "note": "上游仍高 ~5.4% YoY；留意滯後傳導"
-    },
-    {
-      "id": "bank-earnings-2026-10-13",
-      "date": "2026-10-13",
-      "title": "大型銀行業績窗（JPM／GS／WFC／C 齊 beat）",
-      "tickers": [
-        "JPM",
-        "GS",
-        "WFC",
-        "C",
-        "BAC",
-        "MS"
-      ],
-      "themes": [
-        "金融",
-        "大市"
-      ],
-      "score": 6,
-      "note": "10/13 開市前齊 beat；DIA 早強午後回吐；BAC／MS 10/14"
+      "note": "上游仍高；CPI 後第二天"
     },
     {
       "id": "fomc-2026-10-28",
@@ -73,7 +68,7 @@
         "利率"
       ],
       "score": 8,
-      "note": "FedWatch hold ~80.6%／+25bp ~19.4%；META 已改 10/21"
+      "note": "FedWatch hold ~80%+／hike ~17–19%；Williams：今年或只再加一次"
     },
     {
       "id": "mag7-earnings-window",
@@ -92,219 +87,92 @@
         "AI"
       ],
       "score": 7,
-      "note": "META Muse Wonder Frontier AI 盤中 +3.4%；業績日仍 10/21（同 TSLA）；MSFT／GOOGL 10/28"
+      "note": "META Muse 10/13 盤中強；業績日仍 10/21（同 TSLA）"
     }
   ],
   "techTurnover": {
-    "vs": "cash-open quality gate 61 + afternoon loose 350",
-    "from": 61,
-    "to": 88,
-    "fromAfternoonLoose": 350,
+    "vs": "evening quality-gate 88 (before 2301 rescan)",
+    "from": 88,
+    "to": 83,
     "added": [
-      "ACN",
-      "ADP",
-      "ADSK",
-      "ANET",
-      "ARX",
-      "AVTR",
-      "BZ",
-      "CBZ",
-      "CCC",
-      "CHKP",
-      "CLMT",
-      "CMBT",
-      "CNK",
-      "CORT",
-      "CSANY",
-      "DG",
-      "DIS",
-      "DOCU",
-      "DT",
-      "ECL",
-      "ELF",
-      "EOG",
-      "FTNT",
-      "GDDY",
-      "GEO",
-      "GEV",
-      "HCA",
-      "KDP",
-      "KR",
-      "LAUR",
-      "MUR",
-      "NOW",
-      "NTRA",
-      "NTSK",
-      "OSCR",
-      "P",
-      "PAGS",
-      "PANW",
-      "PBR",
-      "PENG",
-      "PRIM",
-      "PSX",
-      "RAL",
-      "RBRK",
-      "RELX",
-      "REXR",
-      "RMD",
-      "SAP",
-      "SONY",
-      "SSNC",
-      "SU",
-      "TAL",
-      "TMO",
-      "TRI",
-      "URBN",
-      "VIV",
-      "VTRS",
-      "WAY",
-      "WING",
-      "XOM",
-      "XP"
+      "DDOG",
+      "GGB",
+      "KOD",
+      "MIR",
+      "VST"
     ],
     "removed": [
-      "ADI",
-      "AMRX",
-      "ASO",
-      "BOX",
-      "BSY",
-      "BWIN",
-      "CCL",
-      "CNQ",
-      "DDOG",
-      "DELL",
-      "ENTG",
-      "ESI",
-      "ETN",
-      "GAP",
-      "GNRC",
-      "GRAB",
-      "HPE",
-      "ICE",
-      "KEYS",
-      "KOD",
-      "LUV",
-      "MGNI",
-      "NDAQ",
-      "OLLI",
-      "PFE",
-      "SHOO",
-      "SNPS",
-      "SUNB",
-      "TAK",
-      "TXN",
-      "TXNM",
-      "UL",
-      "VSXY",
-      "WK"
-    ],
-    "addedVsAfternoon350": [
       "ANET",
-      "CBZ",
-      "CSANY",
-      "DT",
-      "ELF",
-      "FTNT",
-      "HCA",
-      "IOT",
-      "META",
-      "MUR",
-      "NOW",
-      "NTRA",
-      "NTSK",
-      "P",
-      "PAGS",
-      "PBR",
-      "PENG",
-      "RXO",
-      "S",
-      "SSNC",
-      "SU",
-      "URBN",
-      "WING",
-      "XOM",
-      "XP"
-    ],
-    "removedVsAfternoon350Count": 287,
-    "leaderAdded": [
-      "ACN",
-      "ADP",
-      "ANET",
+      "BURL",
       "CBOE",
       "CDNS",
-      "CLMT",
-      "DIS",
-      "ECL",
-      "EOG",
-      "FTNT",
-      "GEV",
-      "HCA",
-      "NOW",
-      "NTRA",
-      "P",
-      "PANW",
-      "PBR",
-      "PSX",
-      "RELX",
-      "SAP"
+      "GDDY",
+      "IOT",
+      "PRIM",
+      "RBRK",
+      "S",
+      "TRI"
+    ],
+    "leaderAdded": [
+      "GGB"
     ],
     "leaderRemoved": [
-      "A",
-      "ADI",
-      "CNQ",
-      "DDOG",
-      "DELL",
-      "ESI",
-      "ETN",
-      "HPE",
-      "ICE",
-      "MGNI",
-      "NDAQ",
-      "PFE",
+      "ANET",
+      "BURL",
+      "CBOE",
+      "CDNS",
+      "GDDY",
+      "IOT",
+      "PRIM",
+      "RBRK",
       "S",
-      "SEI",
-      "SNPS",
-      "TAK",
-      "TXN",
-      "TXNM",
-      "UL"
+      "TRI"
+    ],
+    "top3Old": [
+      "EOG",
+      "CVI",
+      "DBX"
+    ],
+    "top3New": [
+      "SU",
+      "BP",
+      "FRO"
     ]
   },
   "inputs": {
     "screenerAsOf": "2026-10-13T15:04:14.520Z",
-    "techAsOf": "2026-10-13T14:02:34.410418Z",
+    "techAsOf": "2026-10-13T15:11:22.431904Z",
     "macroAsOf": "2026-10-13T15:05:00.000Z",
-    "companyAsOf": "2026-10-13T14:54:58.074201Z",
-    "entryAsOf": "2026-10-13T14:57:19.251Z"
+    "companyAsOf": "2026-10-13T15:13:59.623367Z",
+    "entryAsOf": "2026-10-13T15:14:55.188Z"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-13T15:10:57.000Z",
+      "t": "2026-10-14T00:55:34.000Z",
       "bot": "Trok",
       "step": "gather",
-      "detail": "錨 Grok techPass 88；Frok 候選 480；公司 88／領導 33；進場 33（可考慮 33）"
+      "detail": "錨 Grok techPass 83；Frok 候選 480；公司 83／領導 29；進場 29"
     },
     {
-      "t": "2026-10-13T15:10:57.000Z",
+      "t": "2026-10-14T00:55:34.000Z",
       "bot": "Trok",
       "step": "catalysts",
-      "detail": "CPI明天D-1／PPI／銀行齊beat／FOMC+Mag7；閘門解除；FedWatch hold~80.6%；META Muse +3.4%"
+      "detail": "CPI今日D-0／BAC·MS業績／PPI／FOMC+Mag7；閘門昨解除；FedWatch hike~17–19%"
     },
     {
-      "t": "2026-10-13T15:10:57.000Z",
+      "t": "2026-10-14T00:55:34.000Z",
       "bot": "Trok",
       "step": "briefing",
-      "detail": "覆寫 commander-briefing-latest.md + commander-run-latest.json + commander-latest.json"
+      "detail": "覆寫 commander-briefing-latest.md + commander-run-latest.json + commander-latest.json（對齊晚間 88→83）"
     },
     {
-      "t": "2026-10-13T15:10:57.000Z",
+      "t": "2026-10-14T00:55:34.000Z",
       "bot": "Trok",
       "step": "materialChange",
-      "detail": "相對午後：techPass 350→88（質素閘＋開市重掃61→88）；領導87→33；進場87→33；macro閘門解除＋Cleveland Updated 10/13；Grok 480重刷中"
+      "detail": "相對前回 commander-run：techPass 88→83；領導／進場 33→29；CPI D-1→D-0；BAC/MS 今日"
     }
   ],
-  "asOfHKT": "2026-10-13 23:10 HKT",
+  "asOfHKT": "2026-10-14 08:55 HKT",
   "materialChange": true,
   "premarketGate": {
     "triggered": false,
@@ -312,7 +180,7 @@
     "qqqPct": -0.6,
     "spyPct": -0.13,
     "threshold": -0.65,
-    "note": "Opened QQQ -0.90% triggered; mid-day QQQ -0.60% cleared"
+    "note": "Prior session cleared mid-day; pre-CPI morning HKT — no new US open yet"
   },
-  "note": "Anchor techPass 88 quality gate; CPI D-1; gate cleared; 480 rescan running"
+  "note": "Morning sync: techPass 83 after evening rescan; CPI D-0; BAC/MS today"
 }
