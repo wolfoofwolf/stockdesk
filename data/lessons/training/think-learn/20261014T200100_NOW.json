@@ -1,0 +1,86 @@
+{
+  "id": "think-learn-20261014-NOW-v1",
+  "updatedAt": "2026-10-14T20:01:47+08:00",
+  "ticker": "NOW",
+  "loop": "think→compare→patch→redraw→regrade",
+  "exemplar": {
+    "path": "data/lessons/exemplars/NOW_vcp_c123_dtl_style.jpg",
+    "lesson": "draw-style-vcp-c123-dtl-now",
+    "hardRules": "data/lessons/training/hard-draw-rules-vcp.json"
+  },
+  "candidate": {
+    "before": "data/lessons/gallery/keep/NOW_20261013T220916.svg (deduped/removed)",
+    "after": "data/lessons/gallery/keep/NOW_20261014T194946.svg",
+    "liveChart": "data/charts/NOW_scan_VCP.svg"
+  },
+  "thinking": [
+    {
+      "step": 1,
+      "title": "對照你教嘅圖，問邊點唔似",
+      "observations": [
+        "你嘅 exemplar：深色底、白折線結構、C1/C2/C3 白底黑字標低點、C3 綠框蓋價＋量、中文量縮註、DTL 連 C3 高點、Bo DTL、pivot point 箭頭",
+        "舊機器 keep：有 C1–C3／綠框字樣／DTL，但 Bo DTL 只喺收市接近突破先畫 → 教法圖常見嘅 Bo DTL 標籤經常缺席",
+        "訓練室以前把同一 NOW 重複散落 keep／永不學習兩欄，冇並排 → 睇唔到學習過程"
+      ]
+    },
+    {
+      "step": 2,
+      "title": "改咩（規則／碼）",
+      "patches": [
+        {
+          "where": "scripts/multi_pattern_scan.py draw VCP",
+          "change": "Bo DTL 改為對準 DTL 突破位必標（硬規則），唔再等收市先畫"
+        },
+        {
+          "where": "data/lessons/training/hard-draw-rules-vcp.json",
+          "change": "由 exemplar 拆 must/never 寫死"
+        },
+        {
+          "where": "data/lessons/training/rubric-vcp-c123-dtl.json",
+          "change": "bo_dtl 改為 SVG 必須有「Bo DTL」字樣"
+        },
+        {
+          "where": "data/lessons/training/pairs-index.json + js/lessons-training.js",
+          "change": "同 ticker 並排：你教的｜值得保留｜永不／反面"
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "title": "再畫 → 再對",
+      "actions": [
+        "redraw NOW_scan_VCP.svg",
+        "grade → score 100 keep",
+        "gallery keep 只留一張 canonical"
+      ],
+      "grade": {
+        "score": 100,
+        "verdict": "keep",
+        "runPath": "data/lessons/training/runs/20261014T194946_NOW.json",
+        "failedItems": []
+      }
+    },
+    {
+      "step": 4,
+      "title": "仲未似你／下一輪自學",
+      "openGaps": [
+        "視覺仍係 matplotlib 出口，同 TradingView 手繪筆觸／箭嘴位置未 1:1",
+        "需要更多你教嘅圖（唔止 NOW）先學到跨股一致畫法",
+        "每次 cash-open／重畫應 append 新 think-learn run，唔覆蓋"
+      ],
+      "nextLoop": "等你丟新教法圖 → 拆差異 → patch → redraw → 寫新 think-learn JSON"
+    }
+  ],
+  "visibleForPages": true,
+  "schemaHint": {
+    "pathPattern": "data/lessons/training/think-learn/*.json",
+    "index": "data/lessons/training/think-learn-index.json",
+    "fields": [
+      "id",
+      "ticker",
+      "updatedAt",
+      "thinking[].title",
+      "thinking[].observations|patches|actions|openGaps"
+    ]
+  }
+}

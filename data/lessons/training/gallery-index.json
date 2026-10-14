@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T19:49:54+08:00",
+  "updatedAt": "2026-10-14T20:01:47+08:00",
   "passThreshold": 90,
   "exemplarId": "draw-style-vcp-c123-dtl-now",
   "exemplarJpg": "data/lessons/exemplars/NOW_vcp_c123_dtl_style.jpg",
@@ -17,5 +17,6 @@
     "pairs": 3
   },
   "uiNote": "訓練室以 pairs 並排為主；分欄只作後備。",
-  "hardRulesPath": "data/lessons/training/hard-draw-rules-vcp.json"
+  "hardRulesPath": "data/lessons/training/hard-draw-rules-vcp.json",
+  "thinkLearnIndex": "data/lessons/training/think-learn-index.json"
 }
