@@ -1,37 +1,51 @@
 {
-  "generatedAt": "2026-10-14T00:55:34.000Z",
-  "asOf": "2026-10-14 08:55 HKT",
+  "generatedAt": "2026-10-14T05:57:52.000Z",
+  "asOf": "2026-10-14 13:57 HKT",
   "bot": "Trok",
   "role": "資料蒐集＋總司令",
   "pipeline": {
-    "candidates": 480,
+    "candidates": 502,
     "techPassed": 83,
     "company": 83,
     "leaders": 29,
     "entry": 29,
     "entryConsider": 29,
     "entryWatch": 0,
-    "anchor": "Grok techPass (quality gate NOW-style)",
+    "anchor": "Evening techPass 83 (asOf 2026-10-13); 502 cash-open pending",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-14 08:55 HKT】\n⚠️ **今日 CPI** 20:30 HKT（08:30 ET）· 閘門昨已解除 QQQ −0.60%/SPY −0.13%\n錨 Grok techPass **83**（晚間重刷 88→83；+5/−10）→ 公司 83／領導 29／進場 29 已對齊\nTop 近 pivot：**CVI**／**XOM**／**SU** · BAC／MS 今早業績\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=cmd1014a)",
+  "summaryTw": "【總司令｜2026-10-14 13:57 HKT】\n⚠️ **今晚 CPI** 20:30 HKT · ASML Q3 已出（盤前約 −2%）· 閘門未觸發\n錨 Grok techPass **83**（asOfMarket 10/13；Frok 池 502 盤前未鎖）→ 公司 83／領導 29／進場 29\nTop 近 pivot：**CVI**／**XOM**／**SU** · FedWatch hold ~79.5%\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=cmd1014b)",
   "catalysts": [
     {
       "id": "cpi-2026-10-14",
       "date": "2026-10-14",
-      "title": "美國 CPI（9月）公布 — 今日",
+      "title": "美國 CPI（9月）公布 — 今晚",
       "tickers": [],
       "themes": [
         "大市",
         "利率"
       ],
       "score": 9,
-      "note": "D-0；Street ~3.6–3.7%／core ~2.4–2.5%／~0.2% MoM；Cleveland 10/13：headline 3.60%／core MoM 0.20%；core≤0.2% 利好暫停；熱則雙殺；FedWatch hike ~17–19%"
+      "note": "D-0 20:30 HKT；Street ~3.6–3.7%／core ~2.4–2.5%／~0.2% MoM；Cleveland 10/13：headline 3.60%／core MoM 0.20%；FedWatch hold ~79.5%／hike ~20.5%"
+    },
+    {
+      "id": "asml-q3-2026-10-14",
+      "date": "2026-10-14",
+      "title": "ASML Q3 已出（sell-the-news）",
+      "tickers": [
+        "ASML"
+      ],
+      "themes": [
+        "半導體",
+        "AI"
+      ],
+      "score": 8,
+      "note": "銷售 €11.7B／毛利率 57.5%／淨利 €5.0B；Q4 €14.2–15.2B、FY €44–45B；2027–28 產能仍緊；美股盤前約 −2%（$1,715）"
     },
     {
       "id": "bank-earnings-2026-10-14",
       "date": "2026-10-14",
-      "title": "BAC／MS 業績（開市前）",
+      "title": "BAC／MS 業績（開市前・尚未出）",
       "tickers": [
         "BAC",
         "MS"
@@ -41,7 +55,7 @@
         "大市"
       ],
       "score": 7,
-      "note": "接昨日 JPM／GS／WFC／C 齊 beat；BAC 預告 $1.2B remediation charge（≈EPS −$0.17）"
+      "note": "接 JPM／GS／WFC／C；BAC 預告 $1.2B remediation charge（≈EPS −$0.17）；美東尚未公布"
     },
     {
       "id": "ppi-2026-10-15",
@@ -53,7 +67,7 @@
         "利率"
       ],
       "score": 7,
-      "note": "上游仍高；CPI 後第二天"
+      "note": "上游仍高；Street headline YoY ~5.4%"
     },
     {
       "id": "fomc-2026-10-28",
@@ -68,7 +82,7 @@
         "利率"
       ],
       "score": 8,
-      "note": "FedWatch hold ~80%+／hike ~17–19%；Williams：今年或只再加一次"
+      "note": "FedWatch hold ~79.5%／hike ~20.5%"
     },
     {
       "id": "mag7-earnings-window",
@@ -87,100 +101,59 @@
         "AI"
       ],
       "score": 7,
-      "note": "META Muse 10/13 盤中強；業績日仍 10/21（同 TSLA）"
+      "note": "META 昨 +2.63%；業績日仍 10/21（同 TSLA）"
     }
   ],
   "techTurnover": {
-    "vs": "evening quality-gate 88 (before 2301 rescan)",
-    "from": 88,
+    "vs": "morning commander (techPass still 83)",
+    "from": 83,
     "to": 83,
-    "added": [
-      "DDOG",
-      "GGB",
-      "KOD",
-      "MIR",
-      "VST"
-    ],
-    "removed": [
-      "ANET",
-      "BURL",
-      "CBOE",
-      "CDNS",
-      "GDDY",
-      "IOT",
-      "PRIM",
-      "RBRK",
-      "S",
-      "TRI"
-    ],
-    "leaderAdded": [
-      "GGB"
-    ],
-    "leaderRemoved": [
-      "ANET",
-      "BURL",
-      "CBOE",
-      "CDNS",
-      "GDDY",
-      "IOT",
-      "PRIM",
-      "RBRK",
-      "S",
-      "TRI"
-    ],
-    "top3Old": [
-      "EOG",
-      "CVI",
-      "DBX"
-    ],
-    "top3New": [
-      "SU",
-      "BP",
-      "FRO"
-    ]
+    "added": [],
+    "removed": [],
+    "note": "No techPass mix change; material = ASML Q3 + macro FedWatch drift"
   },
   "inputs": {
-    "screenerAsOf": "2026-10-13T15:04:14.520Z",
+    "screenerAsOf": "2026-10-14T05:57:18.205Z",
     "techAsOf": "2026-10-13T15:11:22.431904Z",
-    "macroAsOf": "2026-10-13T15:05:00.000Z",
-    "companyAsOf": "2026-10-13T15:13:59.623367Z",
+    "macroAsOf": "2026-10-14T05:55:00.000Z",
+    "companyAsOf": "2026-10-14T05:55:41.981291Z",
     "entryAsOf": "2026-10-13T15:14:55.188Z"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-14T00:55:34.000Z",
+      "t": "2026-10-14T05:57:52.000Z",
       "bot": "Trok",
       "step": "gather",
-      "detail": "錨 Grok techPass 83；Frok 候選 480；公司 83／領導 29；進場 29"
+      "detail": "錨 Grok techPass 83；Frok 候選 502；公司 83／領導 29；進場 29；macro 午後 ASML"
     },
     {
-      "t": "2026-10-14T00:55:34.000Z",
+      "t": "2026-10-14T05:57:52.000Z",
       "bot": "Trok",
       "step": "catalysts",
-      "detail": "CPI今日D-0／BAC·MS業績／PPI／FOMC+Mag7；閘門昨解除；FedWatch hike~17–19%"
+      "detail": "CPI今晚D-0／ASML Q3已出／BAC·MS待出／PPI／FOMC；閘門未觸發；FedWatch hold~79.5%"
     },
     {
-      "t": "2026-10-14T00:55:34.000Z",
+      "t": "2026-10-14T05:57:52.000Z",
       "bot": "Trok",
       "step": "briefing",
-      "detail": "覆寫 commander-briefing-latest.md + commander-run-latest.json + commander-latest.json（對齊晚間 88→83）"
+      "detail": "覆寫 commander-briefing-latest.md + commander-run-latest.json + commander-latest.json（午後）"
     },
     {
-      "t": "2026-10-14T00:55:34.000Z",
+      "t": "2026-10-14T05:57:52.000Z",
       "bot": "Trok",
       "step": "materialChange",
-      "detail": "相對前回 commander-run：techPass 88→83；領導／進場 33→29；CPI D-1→D-0；BAC/MS 今日"
+      "detail": "相對早市 commander-run：techPass 不變83；新增 ASML Q3 催化；FedWatch 80.6→79.5；macro 已由 Drok 推 Pages"
     }
   ],
-  "asOfHKT": "2026-10-14 08:55 HKT",
+  "asOfHKT": "2026-10-14 13:57 HKT",
   "materialChange": true,
   "premarketGate": {
     "triggered": false,
     "cleared": true,
-    "qqqPct": -0.6,
-    "spyPct": -0.13,
+    "qqqPct": -0.33,
+    "spyPct": -0.01,
     "threshold": -0.65,
-    "note": "Prior session cleared mid-day; pre-CPI morning HKT — no new US open yet"
+    "note": "US cash not open yet (~16:00 HKT premarket); overnight futures flat; gate N/A / not fired"
   },
-  "note": "Morning sync: techPass 83 after evening rescan; CPI D-0; BAC/MS today"
+  "note": "Afternoon: ASML Q3 printed; techPass hold 83; CPI 20:30 HKT"
 }

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T01:10:14.000Z",
+  "generatedAt": "2026-10-14T05:57:52.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-14 09:10 HKT",
+  "asOfHKT": "2026-10-14 13:57 HKT",
   "pipeline": {
     "candidates": 502,
     "techPassed": 83,
@@ -10,23 +10,26 @@
     "leaders": 29,
     "entry": 29,
     "entryConsider": 29,
-    "anchor": "Evening techPass 83 (asOf 2026-10-13); 502 rescan deferred to cash-open",
+    "entryWatch": 0,
+    "anchor": "Evening techPass 83 (asOf 2026-10-13); 502 cash-open pending",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-14 09:10 HKT】\n今日 CPI 20:30 HKT · 閘門靜止\n錨 techPass **83**／公司 83／領導 29／進場 29（502 盤前舊 bar 噪音唔鎖；今晚 cash-open 再刷）\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/)",
+  "summaryTw": "【總司令｜2026-10-14 13:57 HKT】\n⚠️ **今晚 CPI** 20:30 HKT · ASML Q3 已出（盤前約 −2%）· 閘門未觸發\n錨 Grok techPass **83**（asOfMarket 10/13；Frok 池 502 盤前未鎖）→ 公司 83／領導 29／進場 29\nTop 近 pivot：**CVI**／**XOM**／**SU** · FedWatch hold ~79.5%\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=cmd1014b)",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=cmd1014b"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-14 09:10 HKT",
-      "msg": "Grok: no lock on premarket 502 scan; hold 83 until cash-open"
+      "t": "2026-10-14 13:57 HKT",
+      "msg": "ASML Q3 material; hold techPass 83; CPI tonight"
     }
   ],
   "premarketGate": {
     "triggered": false,
     "cleared": true,
-    "applicable": false,
-    "note": "US cash not open; CPI 20:30 HKT"
+    "qqqPct": -0.33,
+    "spyPct": -0.01,
+    "threshold": -0.65,
+    "note": "US cash not open yet (~16:00 HKT premarket); overnight futures flat; gate N/A / not fired"
   }
 }
