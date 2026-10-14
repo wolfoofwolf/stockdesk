@@ -71,9 +71,17 @@
       "loop": "draw → grade vs exemplar → keep|counterexample|never_learn → remediate → redraw"
     }
   },
-  "updatedAt": "2026-10-13T22:05:00+08:00",
+  "updatedAt": "2026-10-14T19:49:25+08:00",
   "count": 6,
   "lessons": [
+    {
+      "id": "hard-draw-rules-from-human-images",
+      "title": "硬性畫法：先分析你教嘅圖，再強制 VCP 出口",
+      "tier": "process",
+      "worth": "high",
+      "keepForever": true,
+      "path": "data/lessons/entries/hard-draw-rules-from-human-images.json"
+    },
     {
       "id": "techpass-gate-v1",
       "title": "techPass 閘門：形態＋pivot＋距 pivot ≤6%",
