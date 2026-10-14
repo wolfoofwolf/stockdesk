@@ -3,7 +3,7 @@
   'use strict';
 
   var PASS = 90;
-  var cache = { summary: null, rubric: null, never: null, pairs: null, hardRules: null, buckets: {} };
+  var cache = { summary: null, rubric: null, never: null, pairs: null, hardRules: null, thinkIndex: null, thinkRun: null, buckets: {} };
 
   function bust(url) {
     if (!url) return '';
@@ -45,6 +45,7 @@
       cache.summary = sum;
       PASS = sum.passThreshold || 90;
       var buckets = sum.buckets || {};
+      var thinkIdxPath = sum.thinkLearnIndex || 'data/lessons/training/think-learn-index.json';
       return Promise.all([
         fetchJson(sum.rubricPath || 'data/lessons/training/rubric-vcp-c123-dtl.json').catch(function () { return null; }),
         fetchJson(sum.neverLearnIndex || 'data/lessons/training/never-learn-index.json').catch(function () { return null; }),
@@ -52,19 +53,29 @@
         fetchJson(sum.hardRulesPath || 'data/lessons/training/hard-draw-rules-vcp.json').catch(function () { return null; }),
         fetchJson(buckets.keep || 'data/lessons/gallery/keep/index.json').catch(function () { return { items: [] }; }),
         fetchJson(buckets.counterexamples || 'data/lessons/gallery/counterexamples/index.json').catch(function () { return { items: [] }; }),
-        fetchJson(buckets.neverLearn || 'data/lessons/gallery/never-learn/index.json').catch(function () { return { items: [] }; })
+        fetchJson(buckets.neverLearn || 'data/lessons/gallery/never-learn/index.json').catch(function () { return { items: [] }; }),
+        fetchJson(thinkIdxPath).catch(function () { return null; })
       ]).then(function (arr) {
         cache.rubric = arr[0];
         cache.never = arr[1];
         cache.pairs = arr[2];
         cache.hardRules = arr[3];
         cache.buckets = { keep: arr[4], counterexamples: arr[5], neverLearn: arr[6] };
-        renderTrainingRoom();
-        var c = sum.counts || {};
-        setStatus('閘門 ≥' + PASS + ' · 成對 ' + (c.pairs || (cache.pairs && cache.pairs.pairs && cache.pairs.pairs.length) || 0) +
-          ' · keep ' + (c.keep || 0) +
-          ' · 永不 ' + (c.neverLearn || c.never_learn || 0) +
-          ' · 更新 ' + (sum.updatedAt || ''));
+        cache.thinkIndex = arr[7];
+        var latest = cache.thinkIndex && (cache.thinkIndex.latest || (cache.thinkIndex.runs && cache.thinkIndex.runs[0] && cache.thinkIndex.runs[0].path));
+        var afterThink = latest
+          ? fetchJson(latest).then(function (run) { cache.thinkRun = run; }).catch(function () { cache.thinkRun = null; })
+          : Promise.resolve();
+        return afterThink.then(function () {
+          renderTrainingRoom();
+          var c = sum.counts || {};
+          var nThink = (cache.thinkIndex && cache.thinkIndex.runs && cache.thinkIndex.runs.length) || 0;
+          setStatus('閘門 ≥' + PASS + ' · 成對 ' + (c.pairs || (cache.pairs && cache.pairs.pairs && cache.pairs.pairs.length) || 0) +
+            ' · 自學 ' + nThink +
+            ' · keep ' + (c.keep || 0) +
+            ' · 永不 ' + (c.neverLearn || c.never_learn || 0) +
+            ' · 更新 ' + (sum.updatedAt || ''));
+        });
       });
     }).catch(function (e) {
       setStatus('訓練室未就緒：' + e.message);
@@ -244,9 +255,100 @@
     });
   }
 
+
+  function renderThinkLearn() {
+    var el = $('train-think-learn');
+    if (!el) return;
+    var idx = cache.thinkIndex;
+    var run = cache.thinkRun;
+    if (!idx) {
+      el.innerHTML = '<div class="muted">尚未有自學思考 log（等 Grok append think-learn/*.json）</div>';
+      return;
+    }
+    var runs = idx.runs || [];
+    var head = '<div class="train-think-head"><b>自學思考</b> · think→compare→patch→redraw→regrade' +
+      ' · <span class="tag">' + runs.length + ' runs</span>' +
+      (run && run.ticker ? ' · <b>' + esc(run.ticker) + '</b>' : '') +
+      (run && run.updatedAt ? ' · ' + esc(run.updatedAt) : '') +
+      '</div>';
+    var list = '';
+    if (runs.length) {
+      list = '<div class="train-think-runs">' + runs.map(function (r, i) {
+        var active = run && (r.path === (idx.latest) || r.id === run.id);
+        return '<button type="button" class="train-think-run-btn' + (active ? ' active' : '') +
+          '" data-path="' + esc(r.path) + '">' + esc(r.ticker || r.id) +
+          (r.score != null ? ' · ' + r.score : '') +
+          (r.verdict ? ' · ' + verdictLabel(r.verdict) : '') +
+          '</button>';
+      }).join('') + '</div>';
+    }
+    if (!run || !run.thinking || !run.thinking.length) {
+      el.innerHTML = head + list + '<div class="muted" style="margin-top:8px">點上面 run 或等最新 think-learn 載入</div>';
+      bindThinkRunButtons();
+      return;
+    }
+    var steps = run.thinking.map(function (s) {
+      var body = '';
+      if (s.observations && s.observations.length) {
+        body += '<h4>觀察</h4><ul class="train-ul">' + s.observations.map(function (o) {
+          return '<li>' + esc(o) + '</li>';
+        }).join('') + '</ul>';
+      }
+      if (s.patches && s.patches.length) {
+        body += '<h4>改動</h4><ul class="train-ul">' + s.patches.map(function (p) {
+          return '<li><code>' + esc(p.where || '') + '</code> — ' + esc(p.change || '') + '</li>';
+        }).join('') + '</ul>';
+      }
+      if (s.actions && s.actions.length) {
+        body += '<h4>行動</h4><ul class="train-ul">' + s.actions.map(function (a) {
+          return '<li>' + esc(a) + '</li>';
+        }).join('') + '</ul>';
+      }
+      if (s.grade) {
+        body += '<p>評分：<span class="train-score ' + scoreClass(s.grade.score) + '">' +
+          (s.grade.score != null ? s.grade.score : '—') + '</span> · ' +
+          esc(verdictLabel(s.grade.verdict)) +
+          (s.grade.runPath ? ' · <code>' + esc(s.grade.runPath) + '</code>' : '') + '</p>';
+      }
+      if (s.openGaps && s.openGaps.length) {
+        body += '<h4>仲差</h4><ul class="train-ul">' + s.openGaps.map(function (g) {
+          return '<li>' + esc(g) + '</li>';
+        }).join('') + '</ul>';
+      }
+      if (s.nextLoop) body += '<p class="muted">下一圈：' + esc(s.nextLoop) + '</p>';
+      return '<article class="train-think-step">' +
+        '<div class="train-think-step-title">Step ' + esc(s.step) + ' · ' + esc(s.title || '') + '</div>' +
+        body + '</article>';
+    }).join('');
+    var cand = run.candidate || {};
+    var meta = '<p class="muted" style="margin:8px 0 0">loop <code>' + esc(run.loop || '') + '</code>' +
+      (cand.after ? ' · after <code>' + esc(cand.after) + '</code>' : '') +
+      (cand.liveChart ? ' · live <code>' + esc(cand.liveChart) + '</code>' : '') + '</p>';
+    el.innerHTML = head + list + meta + '<div class="train-think-steps">' + steps + '</div>';
+    bindThinkRunButtons();
+  }
+
+  function bindThinkRunButtons() {
+    Array.prototype.forEach.call(document.querySelectorAll('.train-think-run-btn'), function (btn) {
+      btn.addEventListener('click', function () {
+        var path = btn.getAttribute('data-path');
+        if (!path) return;
+        setStatus('載入自學 run…');
+        fetchJson(path).then(function (run) {
+          cache.thinkRun = run;
+          renderThinkLearn();
+          setStatus('自學 run · ' + (run.ticker || '') + ' · ' + (run.updatedAt || ''));
+        }).catch(function (e) {
+          setStatus('自學 run 失敗：' + e.message);
+        });
+      });
+    });
+  }
+
   function renderTrainingRoom() {
     renderRubricStrip();
     renderHardRules();
+    renderThinkLearn();
     renderPairs();
     renderCol('train-col-keep', '值得保留', '≥90% 對齊你教嘅畫法', cache.buckets.keep, 'keep');
     renderCol('train-col-counter', '反面教材', '<90 但可教', cache.buckets.counterexamples, 'counterexamples');

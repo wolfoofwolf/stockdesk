@@ -284,3 +284,19 @@ img#tech-chart{
 .train-pair-cell.role-bad{border-color:rgba(180,40,40,.55)}
 .train-pair-role{font-size:11px;color:#9aa6d0;margin-bottom:6px;font-weight:600}
 .train-hard-ol{margin:6px 0 0;padding-left:18px;font-size:12px;color:#ccc;line-height:1.5}
+
+
+/* —— 自學思考 log —— */
+.train-think-head{margin-bottom:8px;color:#fff;font-size:13px}
+.train-think-runs{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.train-think-run-btn{
+  background:#111;border:1px solid var(--line);color:#ddd;
+  border-radius:99px;padding:4px 10px;font-size:12px;cursor:pointer;
+}
+.train-think-run-btn.active,.train-think-run-btn:hover{border-color:#7dffa0;color:#fff}
+.train-think-steps{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+.train-think-step{
+  background:#000;border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:10px 12px;
+}
+.train-think-step-title{font-weight:700;color:#9aa6d0;font-size:13px;margin-bottom:6px}
+.train-think-step h4{margin:8px 0 4px;font-size:12px;color:#9aa6d0}
