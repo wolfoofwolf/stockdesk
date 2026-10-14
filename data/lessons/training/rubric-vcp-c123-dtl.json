@@ -31,7 +31,7 @@
   "items": [
     {
       "id": "zigzag_white",
-      "weight": 6,
+      "weight": 4,
       "description": "白折線 zigzag 標 VCP 結構高低（唔係光裸 K 線）",
       "autoCheck": "svg_or_meta: title/comment contains VCP; matplotlib SVG typically has white stroke paths — pass if chart is VCP primary and file is non-trivial SVG with path elements"
     },
@@ -97,9 +97,9 @@
     },
     {
       "id": "bo_dtl",
-      "weight": 4,
-      "description": "突破時標 Bo DTL；未破線可給滿分（N/A）",
-      "autoCheck": "svg has Bo DTL OR analysis close < pivot*0.98 (not broken → full credit)"
+      "weight": 6,
+      "description": "必須標 Bo DTL（對準 DTL 突破位；未破線亦要有標籤——跟人類 exemplar）",
+      "autoCheck": "svg_comment_or_text: Bo DTL"
     },
     {
       "id": "pivot_label",

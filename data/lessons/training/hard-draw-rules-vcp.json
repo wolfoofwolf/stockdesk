@@ -1,0 +1,38 @@
+{
+  "id": "hard-draw-rules-vcp-from-human-exemplar",
+  "updatedAt": "2026-10-14T19:49:25+08:00",
+  "sourceExemplar": "data/lessons/exemplars/NOW_vcp_c123_dtl_style.jpg",
+  "sourceLesson": "draw-style-vcp-c123-dtl-now",
+  "sourceNote": "由你教嘅 NOW 日線圖逐項拆解；之後所有 VCP 出口必須滿足 must，違反 never → 永不學習／唔入值得保留。",
+  "analysis": [
+    "深色底＋白折線 zigzag 標結構高低（唔係光裸 K）",
+    "C1／C2／C3 白底黑字方框標在收縮低點（唔標高點）",
+    "C3 區綠色半透明框同時蓋價同量",
+    "中文註「綠色範圍內(pivot point)成交量萎縮」＋量能向下箭頭",
+    "down trend line(DTL) 連 C3 高點並標籤",
+    "突破位標 Bo DTL；pivot point 白箭頭＋水平線"
+  ],
+  "must": [
+    "白折線 zigzag 連結構高低",
+    "C1、C2、C3 白底黑框標在收縮低點（日期遞進、幅度遞減）",
+    "C1–C3 必須落在右段成熟基座，禁止左段 dump／早期微浪",
+    "C3 綠色半透明框（價＋量）",
+    "中文量縮註：綠色範圍內(pivot point)成交量萎縮",
+    "成交量面板向下量縮箭頭（綠框同區）",
+    "畫 down trend line(DTL) 沿 C3 高點並標籤",
+    "標 Bo DTL（突破教法；未破亦要有標籤位置對準 DTL）",
+    "標 pivot point＋水平線"
+  ],
+  "never": [
+    "只畫 K 線無 zigzag／無 C1–C3",
+    "C1–C3 標在左段大跌或 Jan/Feb 微浪",
+    "用黃色淡影代替 C3 綠框量縮語意",
+    "省略 DTL／Bo DTL／pivot point 任一標籤",
+    "「值得保留」同「永不學習」各堆同一圖嘅重複複本、唔並排對照 exemplar"
+  ],
+  "gate": {
+    "passThreshold": 90,
+    "keepRequiresAllMustLabels": true,
+    "boDtlRequiredInSvg": true
+  }
+}

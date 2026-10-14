@@ -1,0 +1,50 @@
+{
+  "id": "hard-draw-rules-from-human-images",
+  "title": "硬性畫法：先分析你教嘅圖，再強制 VCP 出口",
+  "tier": "process",
+  "worth": "high",
+  "tags": [
+    "annotation",
+    "vcp",
+    "training",
+    "hard-rules",
+    "exemplar"
+  ],
+  "keepForever": true,
+  "summary": "教材庫唔係分欄堆圖。流程＝分析你俾嘅 exemplar → 寫死 must/never → 畫圖 → 成對對照（exemplar｜keep｜never-learn）→ ≥90 先值得保留。",
+  "rule": "Analyze human teaching image first; encode hard must/never; only keep charts that satisfy must and fail never; UI shows same-ticker triples side-by-side.",
+  "do": [
+    "白折線 zigzag 連結構高低",
+    "C1、C2、C3 白底黑框標在收縮低點（日期遞進、幅度遞減）",
+    "C1–C3 必須落在右段成熟基座，禁止左段 dump／早期微浪",
+    "C3 綠色半透明框（價＋量）",
+    "中文量縮註：綠色範圍內(pivot point)成交量萎縮",
+    "成交量面板向下量縮箭頭（綠框同區）",
+    "畫 down trend line(DTL) 沿 C3 高點並標籤",
+    "標 Bo DTL（突破教法；未破亦要有標籤位置對準 DTL）",
+    "標 pivot point＋水平線"
+  ],
+  "dont": [
+    "只畫 K 線無 zigzag／無 C1–C3",
+    "C1–C3 標在左段大跌或 Jan/Feb 微浪",
+    "用黃色淡影代替 C3 綠框量縮語意",
+    "省略 DTL／Bo DTL／pivot point 任一標籤",
+    "「值得保留」同「永不學習」各堆同一圖嘅重複複本、唔並排對照 exemplar"
+  ],
+  "chartRefs": [
+    {
+      "ticker": "NOW",
+      "chartPath": "data/lessons/exemplars/NOW_vcp_c123_dtl_style.jpg",
+      "why": "人類教法標準"
+    },
+    {
+      "ticker": "NOW",
+      "chartPath": "data/lessons/gallery/keep/NOW_20261013T220916.svg",
+      "why": "機器 keep（必須並排對照 exemplar）"
+    }
+  ],
+  "relatedGate": "training-gate-90-vs-exemplar + hard-draw-rules-vcp",
+  "createdAt": "2026-10-14T19:49:25+08:00",
+  "updatedAt": "2026-10-14T19:49:25+08:00",
+  "source": "human-feedback-2026-10-14"
+}
