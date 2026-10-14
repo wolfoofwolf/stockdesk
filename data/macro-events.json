@@ -34,19 +34,22 @@
     "id": "cpi-2026-09",
     "type": "CPI",
     "date": "2026-10-14",
-    "label": "CPI（2026年9月）—今天公布",
-    "status": "upcoming",
+    "label": "CPI（2026年9月）—已公布",
+    "status": "done",
     "consensusHeadlineYoY": 3.6,
     "consensusCoreYoY": 2.5,
     "priorHeadlineYoY": 3.4,
     "priorCoreYoY": 2.4,
-    "note": "08:30 ET（公布日；約 20:30 HKT 10/14）。Street headline ~3.6–3.7%／core ~2.4–2.5%（TD／FJ：3.6%／0.6% MoM headline、core 2.5%／0.2% MoM）。Cleveland nowcast 仍 Updated 10/13（本輪再確認）：9月 headline 3.60% YoY／0.53% MoM、core 2.39%／0.20% MoM；10月 nowcast headline 3.63%／core 2.30% YoY——數字相對清晨未變。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。【本輪】閘門未觸發（US 盤前約 16:00 HKT 才開；隔夜期貨近平）。ASML Q3 已公布（半導／AI 設備主題）。",
+    "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY（前值 0.4%／3.4%；Street〜3.6%）。Core +0.3% MoM／+2.6% YoY（前值 0.3%／2.4%；共識 MoM〜0.2%、YoY〜2.4–2.5%）——偏熱。汽油 +9.1% MoM、能源 +5.2% MoM 主導 headline。【閘門】觸發時 QQQ 盤前 −0.69%＞−0.65%；SPY −0.38%。",
     "sources": [
-      "BLS CPI schedule",
-      "Cleveland Fed Inflation Nowcasting Updated 10/13 (re-fetched 2026-10-14 ~05:55Z)",
-      "FinancialJuice / TD Economics street table",
-      "ASML Q3 release 2026-10-14"
-    ]
+      "BLS CPI Sep 2026 via AP／The Hill／TradingEconomics 2026-10-14",
+      "CNBC premarket QQQ/SPY ~08:45–08:47 ET",
+      "BAC／MS Q3 releases 2026-10-14"
+    ],
+    "actualHeadlineYoY": 3.7,
+    "actualHeadlineMoM": 0.6,
+    "actualCoreYoY": 2.6,
+    "actualCoreMoM": 0.3
   },
   {
     "id": "ppi-2026-09",
@@ -69,6 +72,6 @@
     "date": "2026-10-28",
     "label": "FOMC 決定（10/27–28）",
     "status": "upcoming",
-    "note": "聲明約 14:00 ET。CME FedWatch（GMT EIGHT dated 14/10/2026）：hold ~80.6%／+25bp ~19.4%（區間仍見 ~79.5–82%）。CPI／PPI 後最終定價窗口；同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 已改為 10/21。"
+    "note": "聲明約 14:00 ET。CPI 已偏熱（headline 3.7%／core 2.6% YoY）——10月 hold 定價或受壓；留意 FedWatch 重定價。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 10/21。"
   }
 ]

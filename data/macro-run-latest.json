@@ -1,7 +1,7 @@
 {
-  "title": "大市更新｜ASML Q3 強勢・CPI 今宵・閘門靜止（Drok）",
-  "asOf": "2026-10-14T05:55:00.000Z",
-  "updatedAt": "2026-10-14T05:55:00.000Z",
+  "title": "大市更新｜閘門觸發・CPI 偏熱・QQQ 盤前急挫（Drok）",
+  "asOf": "2026-10-14T12:47:00.000Z",
+  "updatedAt": "2026-10-14T12:47:00.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -40,19 +40,22 @@
       "id": "cpi-2026-09",
       "type": "CPI",
       "date": "2026-10-14",
-      "label": "CPI（2026年9月）—今天公布",
-      "status": "upcoming",
+      "label": "CPI（2026年9月）—已公布",
+      "status": "done",
       "consensusHeadlineYoY": 3.6,
       "consensusCoreYoY": 2.5,
       "priorHeadlineYoY": 3.4,
       "priorCoreYoY": 2.4,
-      "note": "08:30 ET（公布日；約 20:30 HKT 10/14）。Street headline ~3.6–3.7%／core ~2.4–2.5%（TD／FJ：3.6%／0.6% MoM headline、core 2.5%／0.2% MoM）。Cleveland nowcast 仍 Updated 10/13（本輪再確認）：9月 headline 3.60% YoY／0.53% MoM、core 2.39%／0.20% MoM；10月 nowcast headline 3.63%／core 2.30% YoY——數字相對清晨未變。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。【本輪】閘門未觸發（US 盤前約 16:00 HKT 才開；隔夜期貨近平）。ASML Q3 已公布（半導／AI 設備主題）。",
+      "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY（前值 0.4%／3.4%；Street〜3.6%）。Core +0.3% MoM／+2.6% YoY（前值 0.3%／2.4%；共識 MoM〜0.2%、YoY〜2.4–2.5%）——偏熱。汽油 +9.1% MoM、能源 +5.2% MoM 主導 headline。【閘門】觸發時 QQQ 盤前 −0.69%＞−0.65%；SPY −0.38%。",
       "sources": [
-        "BLS CPI schedule",
-        "Cleveland Fed Inflation Nowcasting Updated 10/13 (re-fetched 2026-10-14 ~05:55Z)",
-        "FinancialJuice / TD Economics street table",
-        "ASML Q3 release 2026-10-14"
-      ]
+        "BLS CPI Sep 2026 via AP／The Hill／TradingEconomics 2026-10-14",
+        "CNBC premarket QQQ/SPY ~08:45–08:47 ET",
+        "BAC／MS Q3 releases 2026-10-14"
+      ],
+      "actualHeadlineYoY": 3.7,
+      "actualHeadlineMoM": 0.6,
+      "actualCoreYoY": 2.6,
+      "actualCoreMoM": 0.3
     },
     {
       "id": "ppi-2026-09",
@@ -75,7 +78,7 @@
       "date": "2026-10-28",
       "label": "FOMC 決定（10/27–28）",
       "status": "upcoming",
-      "note": "聲明約 14:00 ET。CME FedWatch（GMT EIGHT dated 14/10/2026）：hold ~80.6%／+25bp ~19.4%（區間仍見 ~79.5–82%）。CPI／PPI 後最終定價窗口；同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 已改為 10/21。"
+      "note": "聲明約 14:00 ET。CPI 已偏熱（headline 3.7%／core 2.6% YoY）——10月 hold 定價或受壓；留意 FedWatch 重定價。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 10/21。"
     }
   ],
   "nfpReport": {
@@ -134,18 +137,16 @@
     "summaryTw": "非農就業（2026年9月） @ 2026-10-02\n數據：弱過預期（actual < consensus）\n當日大盤：+0.74%\n留意：數據偏弱但大市上升（利好降息／軟著陸交易）\n收市K線：膠住／十字味：實體細，方向未決；收市創近期新高／破阻力；企穩 SMA20 上方；企穩 SMA50 上方\n其後4日：D+1 0.67%(修復／延續上升)，D+2 0.55%(修復／延續上升)，D+3 -0.24%(失地／回吐)，D+4 -0.42%(失地／回吐)；其後 10/9 +0.60%、10/12 -0.06%"
   },
   "watch": [
-    "【CPI 今宵】10/14 08:30 ET（20:30 HKT）—Street ~3.6–3.7%／core ~2.4–2.5%；Cleveland core MoM 0.20%（仍 Updated 10/13）",
-    "【ASML Q3】銷售 €11.7B／毛利率 57.5%／淨利 €5.0B；FY €44–45B；稱 2027–28 產能仍跟不上需求——美股盤前約 −2%（$1,715）sell-the-news",
-    "【閘門】US 10/14 盤前尚未開（~16:00 HKT）；昨收 QQQ −0.33%／SPY −0.01%；隔夜期貨近平——閾值 −0.65% 未觸發",
-    "亞洲回補回吐：KOSPI 早段曾 >+2%，午後約 +0.6%（仍開市）；日經午後約 +0.45%（~68,085）",
-    "FedWatch：10月 hold ~79.5%／+25bp ~20.5%（GMT EIGHT；較清晨 80.6% 略偏鷹）",
-    "銀行：BAC／MS 美東開市前尚未出；JPM 略遜／GS・C 大勝／WFC EPS beat 仍在",
-    "10/15 PPI（~5.4% YoY／MoM ~0.5%）＋ Advance Retail Sales",
-    "10/27–28 FOMC（FedWatch hold ~79.5%）",
-    "Mag7：TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2"
+    "【閘門 FIRED】觸發時 QQQ 盤前 −0.69%（$738.47）＞−0.65%；SPY −0.38%；其後 QQQ ~−0.58%",
+    "【CPI 已出・偏熱】Headline +0.6%／+3.7% YoY；Core +0.3%／+2.6% YoY（核心亦熱）",
+    "能源：汽油 +9.1% MoM、整體能源 +5.2% MoM（中東／油價）",
+    "銀行：BAC 盤前 ~−7%（$1.2B 監管和解）；MS beat 仍跟跌 ~−2.5%",
+    "半導／Mag7：SMH ~−1.5%；NVDA／META／TSLA 盤前偏軟；ASML 續賣",
+    "10/15 PPI＋ Advance Retail Sales；10/28 FOMC",
+    "FedWatch：CPI 後重定價窗口（先前 hold ~79.5–80.6%）"
   ],
-  "mag7Note": "ASML（半導設備／AI 資本開支風向標）Q3：銷售 €11.7B、毛利率 57.5%、淨利 €5.0B；Q4 指引 €14.2–15.2B、FY €44–45B／毛利率 ~56%；CEO 稱客戶 AI 投資令 2027–28 計劃產能仍不足，訂單可見至 2029–30。美股盤前約 −2%（$1,715）典型 sell-the-news。META 昨收仍 +2.63%（$762.50；Muse Wonder）。日曆不變：TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2。",
-  "summaryTw": "【HKT 午後｜ASML 已出・CPI 今晚・閘門未觸發】美股昨收不變：QQQ $743.57（−0.33%）、SPY $778.01（−0.01%）。US 10/14 盤前約 16:00 HKT 才開；隔夜期貨大致平坦（Investing 昨晚 ES ~7,855.75 平／NQ ~30,793.75 平）——無 >0.65% 急挫，閘門不適用／未觸發。\n【ASML Q3＝本輪主變化】銷售 €11.7B（紀錄）、毛利率 57.5%、淨利 €5.0B；Q4 €14.2–15.2B、全年 €44–45B／毛利率 ~56%。客戶 AI 投資令 2027–28 計劃產能仍跟不上；產能擴張評估超先前 +30%。美股盤前約 −2% 至 $1,715（GMT EIGHT）——強業績／sell-the-news，半導設備主題仍偏多但短線回吐。\n【CPI】今晚 20:30 HKT。Street ~3.6–3.7%／core ~2.4–2.5%。Cleveland 仍 Updated 10/13：9月 3.60%／0.53% MoM、core 2.39%／0.20% MoM（本輪再抓數字未變）。\n【定價】FedWatch（GMT EIGHT 14/10）：10月 hold ~79.5%／+25bp ~20.5%（清晨曾見 80.6%；略偏鷹漂移，仍高機率暫停）。跟住 10/15 PPI、10/28 FOMC。\n【亞洲】周三回補但由熱變溫：KOSPI 早段 >+2%（高見 ~6,190），午後約 +0.6%（~6,073，仍開市）；日經午後約 +0.45%（~68,085）。CXMT 敘事未消，但非續殺。\n【銀行／Mag7】BAC／MS 美東尚未出。META 昨收 +2.63% 仍在。日曆不變。\n【本輪】有實質變化＝ASML Q3 由「待出」變「已出＋盤前反應」；FedWatch 微移；亞洲回補回吐。閘門靜止。刷新 Pages 並匯報 Stock 群。",
+  "mag7Note": "盤前（CPI 後）：NVDA ~−0.9%、META ~−0.9%、TSLA ~−0.7%；AAPL／GOOG 偏紅。SMH ~−1.5%。ASML 盤前 ~−1.2%（Q3 強勢後 sell-the-news）。日曆：TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2。",
+  "summaryTw": "【閘門觸發｜CPI 偏熱】US 盤前 ~20:45 HKT：觸發時 QQQ −0.69%／SPY −0.38%（閾值 −0.65%）；其後回至 QQQ ~−0.58%／SPY −0.30%。NQ ~−0.61%、ES ~−0.28%。\n【CPI 9月＝已公布】Headline +0.6% MoM／+3.7% YoY（熱過 ~3.6%）；Core +0.3% MoM／+2.6% YoY（MoM 高過共識 ~0.2%、YoY 由 2.4% 升）。汽油 +9.1%／能源 +5.2% 主導 headline。\n【放大】YES——FOMC 10/28 前；PPI＋零售 10/15。偏熱 core 令暫停加息敘事變脆。\n【銀行】BAC 盤前 ~−7%（$1.2B 監管和解）；MS beat 仍 ~−2.5%。SMH ~−1.5%；ASML 盤前續軟。\n【本輪】閘門 FIRED on QQQ；主因 CPI 偏熱。刷新 Pages 並匯報 Stock 群。",
   "thinkingLog": [
     {
       "t": "2026-10-12T01:59:09.819Z",
@@ -1952,6 +1953,97 @@
           "data/macro-events.json"
         ],
         "ok": true
+      }
+    },
+    {
+      "t": "2026-10-14T12:47:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "premarketGate",
+      "detail": {
+        "thresholdPct": -0.65,
+        "qqq": {
+          "price": 738.47,
+          "pct": -0.69,
+          "source": "CNBC ExtendedMktQuote 8:45 AM EDT",
+          "laterPct": -0.58
+        },
+        "spy": {
+          "price": 775.09,
+          "pct": -0.38,
+          "source": "CNBC ExtendedMktQuote 8:45 AM EDT",
+          "laterPct": -0.3
+        },
+        "fired": true,
+        "firedOn": [
+          "QQQ"
+        ],
+        "futures": {
+          "NQ": -0.61,
+          "ES": -0.28
+        },
+        "vix": 15.8
+      }
+    },
+    {
+      "t": "2026-10-14T12:47:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "investigate",
+      "detail": {
+        "primaryDriver": "Hotter Sep CPI (headline+core) at 08:30 ET",
+        "cpi": {
+          "headlineYoY": 3.7,
+          "headlineMoM": 0.6,
+          "coreYoY": 2.6,
+          "coreMoM": 0.3,
+          "consensusHeadlineYoY": 3.6,
+          "consensusCoreMoM": 0.2,
+          "energy": {
+            "gasolineMoM": 9.1,
+            "energyMoM": 5.2
+          },
+          "sources": [
+            "AP",
+            "The Hill",
+            "TradingEconomics",
+            "X news"
+          ]
+        },
+        "banks": {
+          "BAC": "GAAP EPS $0.91 / adj ~$1.08 after $1.2B regulatory settlement; PRE ~-7%",
+          "MS": "adj EPS $3.03 beat / rev $20.3B; PRE ~-2.5%"
+        },
+        "semisMag7": {
+          "SMH": -1.53,
+          "NVDA": -0.86,
+          "META": -0.85,
+          "ASML": -1.21
+        },
+        "calendarAmplifies": true,
+        "calendarNote": "Hot CPI into FOMC 10/28; PPI+retail 10/15"
+      }
+    },
+    {
+      "t": "2026-10-14T12:47:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "speakDecision",
+      "detail": {
+        "speakToStockGroup": true,
+        "reason": "Premarket gate: QQQ -0.69% > 0.65%; hotter CPI (headline+core) material"
+      }
+    },
+    {
+      "t": "2026-10-14T12:47:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "write",
+      "detail": {
+        "files": [
+          "data/macro-run-latest.json",
+          "data/macro-events.json"
+        ]
       }
     }
   ],
