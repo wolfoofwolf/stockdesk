@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T12:50:25.000Z",
+  "generatedAt": "2026-10-14T14:56:58.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-14 20:50 HKT",
+  "asOfHKT": "2026-10-14 22:56 HKT",
   "pipeline": {
     "candidates": 502,
     "techPassed": 83,
@@ -11,21 +11,21 @@
     "entry": 29,
     "entryConsider": 29,
     "entryWatch": 0,
-    "anchor": "Hold techPass 83 until cash-open 502 rescan (gate FIRED on CPI)",
+    "anchor": "Hold techPass 83 until cash-open 502 rescan (gate FIRED; cash session weaker; FedWatch repriced)",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-14 20:50 HKT】\n🚨 **閘門觸發** · QQQ 盤前 −0.69%（觸發時）＞−0.65% · SPY −0.38% · 其後 QQQ ~−0.58%\n主因 **CPI 偏熱**：Headline +0.6%／+3.7%；Core +0.3%／+2.6% · BAC 盤前弱／半導續軟\n錨 Grok techPass **83**（asOfMarket 10/13；Frok 池 502）→ 公司 83／領導 29／進場 29 — **等現金盤再重鎖**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=gate1014)",
+  "summaryTw": "【總司令｜2026-10-14 22:56 HKT】\n🚨 閘門後現金盤更深 · QQQ -1.06%（$735.68）／SPY -0.68%（$772.28）\nCPI 偏熱已出 · FedWatch **hold ~56%／hike ~44%**（先前 ~80%／~20%）· BAC ~-6%／SMH ~-2%\n錨 Grok techPass **83**（asOfMarket 10/13；Frok 池 502）→ 公司 83／領導 29／進場 29 — **仍等 502 重鎖**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=eve1014)",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=gate1014"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=eve1014"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-14 13:57 HKT",
-      "msg": "ASML Q3 material; hold techPass 83; CPI tonight"
+      "t": "2026-10-14 20:50 HKT",
+      "msg": "Gate FIRED QQQ -0.69%; hold 83 until cash-open"
     },
     {
-      "t": "2026-10-14 20:50 HKT",
-      "msg": "Gate FIRED QQQ -0.69%; mark overview; hold 83 until cash-open"
+      "t": "2026-10-14 22:56 HKT",
+      "msg": "Cash deeper QQQ -1.06%; FedWatch hike ~44%; hold 83 pending 502"
     }
   ],
   "premarketGate": {
@@ -42,6 +42,30 @@
     ],
     "asOfHKT": "2026-10-14 ~20:45 HKT",
     "driver": "CPI hotter (headline +0.6%/+3.7%; core +0.3%/+2.6%)",
-    "note": "Gate FIRED on QQQ premarket −0.69% > −0.65%; CPI digest later QQQ ~−0.58%. Hold techPass 83 until cash-open 502."
+    "note": "Gate FIRED on QQQ premarket −0.69%. Cash session ~22:55 HKT: QQQ −1.06% / SPY −0.68% (deeper). Hold techPass 83 until 502 rescan."
+  },
+  "cashSession": {
+    "asOfHKT": "2026-10-14 22:56 HKT",
+    "qqq": {
+      "last": 735.68,
+      "prevClose": 743.57,
+      "pct": -1.06
+    },
+    "spy": {
+      "last": 772.28,
+      "prevClose": 777.57,
+      "pct": -0.68
+    },
+    "bacPct": -5.5,
+    "msPct": -3.2,
+    "smhPct": -2.09,
+    "asmlPct": 0.14,
+    "fedWatch": {
+      "holdPct": 56.3,
+      "hikePct": 43.7,
+      "priorHoldPct": 79.5,
+      "priorHikePct": 20.5
+    },
+    "note": "Early cash session (~1.5h after open); closes not final. Quotes via yfinance."
   }
 }

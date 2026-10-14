@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-10-14T12:50:25.000Z",
-  "asOf": "2026-10-14 13:57 HKT",
+  "generatedAt": "2026-10-14T14:56:58.000Z",
   "bot": "Trok",
   "role": "資料蒐集＋總司令",
+  "asOf": "2026-10-14 22:56 HKT",
+  "asOfHKT": "2026-10-14 22:56 HKT",
   "pipeline": {
     "candidates": 502,
     "techPassed": 83,
@@ -11,27 +12,39 @@
     "entry": 29,
     "entryConsider": 29,
     "entryWatch": 0,
-    "anchor": "Hold techPass 83 until cash-open 502 rescan (gate FIRED on CPI)",
+    "anchor": "Hold techPass 83 until cash-open 502 rescan (gate FIRED; cash session weaker; FedWatch repriced)",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-14 20:50 HKT】\n🚨 **閘門觸發** · QQQ 盤前 −0.69%（觸發時）＞−0.65% · SPY −0.38% · 其後 QQQ ~−0.58%\n主因 **CPI 偏熱**：Headline +0.6%／+3.7%；Core +0.3%／+2.6% · BAC 盤前弱／半導續軟\n錨 Grok techPass **83**（asOfMarket 10/13；Frok 池 502）→ 公司 83／領導 29／進場 29 — **等現金盤再重鎖**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=gate1014)",
+  "summaryTw": "【總司令｜2026-10-14 22:56 HKT】\n🚨 閘門後現金盤更深 · QQQ -1.06%（$735.68）／SPY -0.68%（$772.28）\nCPI 偏熱已出 · FedWatch **hold ~56%／hike ~44%**（先前 ~80%／~20%）· BAC ~-6%／SMH ~-2%\n錨 Grok techPass **83**（asOfMarket 10/13；Frok 池 502）→ 公司 83／領導 29／進場 29 — **仍等 502 重鎖**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=eve1014)",
   "catalysts": [
     {
       "id": "cpi-2026-10-14",
       "date": "2026-10-14",
-      "title": "美國 CPI（9月）公布 — 今晚",
+      "title": "美國 CPI（9月）—已公布・偏熱",
       "tickers": [],
       "themes": [
         "大市",
         "利率"
       ],
       "score": 9,
-      "note": "D-0 20:30 HKT；Street ~3.6–3.7%／core ~2.4–2.5%／~0.2% MoM；Cleveland 10/13：headline 3.60%／core MoM 0.20%；FedWatch hold ~79.5%／hike ~20.5%"
+      "note": "已出：Headline +0.6% MoM／+3.7% YoY；Core +0.3%／+2.6% YoY；汽油 +9.1%、能源 +5.2%。閘門觸發後現金盤 QQQ ~−1.1%／SPY ~−0.7%。"
+    },
+    {
+      "id": "fedwatch-reprice-2026-10-14",
+      "date": "2026-10-14",
+      "title": "FedWatch 重定價（CPI 後）",
+      "tickers": [],
+      "themes": [
+        "大市",
+        "利率"
+      ],
+      "score": 9,
+      "note": "10月會議：hold ~56.3%／+25bp hike ~43.7%（先前 hold ~79.5%／hike ~20.5%）。12月加息敘事亦升溫。"
     },
     {
       "id": "asml-q3-2026-10-14",
       "date": "2026-10-14",
-      "title": "ASML Q3 已出（sell-the-news）",
+      "title": "ASML Q3 已出（sell-the-news 後回穩）",
       "tickers": [
         "ASML"
       ],
@@ -39,13 +52,13 @@
         "半導體",
         "AI"
       ],
-      "score": 8,
-      "note": "銷售 €11.7B／毛利率 57.5%／淨利 €5.0B；Q4 €14.2–15.2B、FY €44–45B；2027–28 產能仍緊；美股盤前約 −2%（$1,715）"
+      "score": 7,
+      "note": "銷售 €11.7B／毛利率 57.5%／FY €44–45B；盤前弱後現金盤約 +0.1%（$1,720）。"
     },
     {
       "id": "bank-earnings-2026-10-14",
       "date": "2026-10-14",
-      "title": "BAC／MS 業績（開市前・尚未出）",
+      "title": "BAC／MS Q3 已出",
       "tickers": [
         "BAC",
         "MS"
@@ -54,8 +67,8 @@
         "金融",
         "大市"
       ],
-      "score": 7,
-      "note": "接 JPM／GS／WFC／C；BAC 預告 $1.2B remediation charge（≈EPS −$0.17）；美東尚未公布"
+      "score": 8,
+      "note": "BAC GAAP EPS $0.91／adj ~$1.08（$1.2B 和解）；現金盤 ~−5.5%。MS adj EPS $3.03 beat／收入 $20.3B；現金盤 ~−3.2%。"
     },
     {
       "id": "ppi-2026-10-15",
@@ -66,8 +79,8 @@
         "大市",
         "利率"
       ],
-      "score": 7,
-      "note": "上游仍高；Street headline YoY ~5.4%"
+      "score": 8,
+      "note": "D-1；Street headline YoY ~5.4%；CPI 偏熱後上游數據敏感度升。"
     },
     {
       "id": "fomc-2026-10-28",
@@ -81,8 +94,8 @@
         "大市",
         "利率"
       ],
-      "score": 8,
-      "note": "FedWatch hold ~79.5%／hike ~20.5%"
+      "score": 9,
+      "note": "FedWatch hold ~56%／hike ~44%（CPI 後）；同日 Mag7 有 MSFT／GOOGL。"
     },
     {
       "id": "mag7-earnings-window",
@@ -101,61 +114,9 @@
         "AI"
       ],
       "score": 7,
-      "note": "META 昨 +2.63%；業績日仍 10/21（同 TSLA）"
+      "note": "TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2。"
     }
   ],
-  "techTurnover": {
-    "vs": "morning commander (techPass still 83)",
-    "from": 83,
-    "to": 83,
-    "added": [],
-    "removed": [],
-    "note": "No techPass mix change; material = ASML Q3 + macro FedWatch drift"
-  },
-  "inputs": {
-    "screenerAsOf": "2026-10-14T05:57:18.205Z",
-    "techAsOf": "2026-10-13T15:11:22.431904Z",
-    "macroAsOf": "2026-10-14T05:55:00.000Z",
-    "companyAsOf": "2026-10-14T05:55:41.981291Z",
-    "entryAsOf": "2026-10-13T15:14:55.188Z"
-  },
-  "thinkingLog": [
-    {
-      "t": "2026-10-14T05:57:52.000Z",
-      "bot": "Trok",
-      "step": "gather",
-      "detail": "錨 Grok techPass 83；Frok 候選 502；公司 83／領導 29；進場 29；macro 午後 ASML"
-    },
-    {
-      "t": "2026-10-14T05:57:52.000Z",
-      "bot": "Trok",
-      "step": "catalysts",
-      "detail": "CPI今晚D-0／ASML Q3已出／BAC·MS待出／PPI／FOMC；閘門未觸發；FedWatch hold~79.5%"
-    },
-    {
-      "t": "2026-10-14T05:57:52.000Z",
-      "bot": "Trok",
-      "step": "briefing",
-      "detail": "覆寫 commander-briefing-latest.md + commander-run-latest.json + commander-latest.json（午後）"
-    },
-    {
-      "t": "2026-10-14T05:57:52.000Z",
-      "bot": "Trok",
-      "step": "materialChange",
-      "detail": "相對早市 commander-run：techPass 不變83；新增 ASML Q3 催化；FedWatch 80.6→79.5；macro 已由 Drok 推 Pages"
-    },
-    {
-      "t": "2026-10-14 20:50 HKT",
-      "bot": "Trok",
-      "step": "gateMark",
-      "detail": "overview marked FIRED; hold techPass 83"
-    }
-  ],
-  "asOfHKT": "2026-10-14 20:50 HKT",
-  "materialChange": {
-    "yes": true,
-    "why": "Premarket gate FIRED on QQQ -0.69% after hotter Sep CPI (headline+core)"
-  },
   "premarketGate": {
     "triggered": true,
     "cleared": false,
@@ -170,7 +131,83 @@
     ],
     "asOfHKT": "2026-10-14 ~20:45 HKT",
     "driver": "CPI hotter (headline +0.6%/+3.7%; core +0.3%/+2.6%)",
-    "note": "Gate FIRED on QQQ premarket −0.69% > −0.65%; CPI digest later QQQ ~−0.58%. Hold techPass 83 until cash-open 502."
+    "note": "Gate FIRED on QQQ premarket −0.69%. Cash session ~22:55 HKT: QQQ −1.06% / SPY −0.68% (deeper). Hold techPass 83 until 502 rescan."
   },
-  "note": "Afternoon: ASML Q3 printed; techPass hold 83; CPI 20:30 HKT"
+  "cashSession": {
+    "asOfHKT": "2026-10-14 22:56 HKT",
+    "qqq": {
+      "last": 735.68,
+      "prevClose": 743.57,
+      "pct": -1.06
+    },
+    "spy": {
+      "last": 772.28,
+      "prevClose": 777.57,
+      "pct": -0.68
+    },
+    "bacPct": -5.5,
+    "msPct": -3.2,
+    "smhPct": -2.09,
+    "asmlPct": 0.14,
+    "fedWatch": {
+      "holdPct": 56.3,
+      "hikePct": 43.7,
+      "priorHoldPct": 79.5,
+      "priorHikePct": 20.5
+    },
+    "note": "Early cash session (~1.5h after open); closes not final. Quotes via yfinance."
+  },
+  "inputs": {
+    "screenerAsOf": "2026-10-14T05:57:18.205Z",
+    "techAsOf": "2026-10-13T15:11:22.431904Z",
+    "techAsOfMarket": "2026-10-13",
+    "macroAsOf": "2026-10-14T12:47:00.000Z",
+    "companyAsOf": "2026-10-14T05:55:41.981291Z",
+    "entryAsOf": "2026-10-14T05:57:55.664Z"
+  },
+  "materialChange": {
+    "yes": true,
+    "why": "Cash session QQQ/SPY deeper than gate; FedWatch hike ~20.5%→~43.7%; BAC/MS cash moves; still hold techPass 83 (no 502 lock yet)"
+  },
+  "note": "Evening: gate already briefed; material = cash-session deepening + FedWatch reprice; techPass HOLD 83 pending 502",
+  "techTurnover": {
+    "vs": "20:50 gate commander (techPass still 83)",
+    "from": 83,
+    "to": 83,
+    "added": [],
+    "removed": [],
+    "note": "No techPass mix change; no cash-open 502 rescan yet"
+  },
+  "thinkingLog": [
+    {
+      "t": "2026-10-14 20:50 HKT",
+      "bot": "Trok",
+      "step": "gateMark",
+      "detail": "overview marked FIRED; hold techPass 83"
+    },
+    {
+      "t": "2026-10-14 22:56 HKT",
+      "bot": "Trok",
+      "step": "gather",
+      "detail": "techPass still 83 asOfMarket 10/13; Frok 502; company/leaders/entry 83/29/29; no 502 cash-open lock"
+    },
+    {
+      "t": "2026-10-14 22:56 HKT",
+      "bot": "Trok",
+      "step": "catalysts",
+      "detail": "Cash QQQ -1.06%/SPY -0.68%; FedWatch hold 56.3%/hike 43.7%; BAC -5.5%/MS -3.2%; PPI D-1"
+    },
+    {
+      "t": "2026-10-14 22:56 HKT",
+      "bot": "Trok",
+      "step": "materialChange",
+      "detail": "YES vs 20:50: cash session deeper + FedWatch reprice (not mere clock tick)"
+    },
+    {
+      "t": "2026-10-14 22:56 HKT",
+      "bot": "Trok",
+      "step": "briefing",
+      "detail": "overwrite commander-briefing + commander-run-latest + commander-latest (evening)"
+    }
+  ]
 }
