@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-14T14:56:58.000Z",
+  "generatedAt": "2026-10-14T15:13:26.000Z",
   "bot": "Trok",
   "role": "資料蒐集＋總司令",
   "asOf": "2026-10-14 22:56 HKT",
-  "asOfHKT": "2026-10-14 22:56 HKT",
+  "asOfHKT": "2026-10-14 23:13 HKT",
   "pipeline": {
-    "candidates": 502,
-    "techPassed": 83,
-    "company": 83,
-    "leaders": 29,
-    "entry": 29,
-    "entryConsider": 29,
+    "candidates": 438,
+    "techPassed": 65,
+    "company": 65,
+    "leaders": 24,
+    "entry": 24,
+    "entryConsider": 24,
     "entryWatch": 0,
-    "anchor": "Hold techPass 83 until cash-open 502 rescan (gate FIRED; cash session weaker; FedWatch repriced)",
+    "anchor": "Cash-open relock: pool 438 → techPass 65 (asOfMarket 10/14)",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-14 22:56 HKT】\n🚨 閘門後現金盤更深 · QQQ -1.06%（$735.68）／SPY -0.68%（$772.28）\nCPI 偏熱已出 · FedWatch **hold ~56%／hike ~44%**（先前 ~80%／~20%）· BAC ~-6%／SMH ~-2%\n錨 Grok techPass **83**（asOfMarket 10/13；Frok 池 502）→ 公司 83／領導 29／進場 29 — **仍等 502 重鎖**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=eve1014)",
+  "summaryTw": "【總司令｜2026-10-14 23:13 HKT】\n現金盤重鎖：池 **438** → techPass **65** → 公司 65／領導 **24**／進場 **24**（可考慮 24）\n閘門後現金更深：QQQ −1.06%／SPY −0.68% · FedWatch hold ~56%／hike ~44%\nTop 近 pivot：**HALO** · **OSCR** · **XOM**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=lock1014)",
   "catalysts": [
     {
       "id": "cpi-2026-10-14",
@@ -120,18 +120,12 @@
   "premarketGate": {
     "triggered": true,
     "cleared": false,
-    "qqqPct": -0.69,
-    "spyPct": -0.38,
-    "qqqLaterPct": -0.58,
-    "spyLaterPct": -0.3,
-    "qqqPx": 738.47,
+    "qqqPct": -1.06,
+    "spyPct": -0.68,
     "threshold": -0.65,
-    "firedOn": [
-      "QQQ"
-    ],
-    "asOfHKT": "2026-10-14 ~20:45 HKT",
-    "driver": "CPI hotter (headline +0.6%/+3.7%; core +0.3%/+2.6%)",
-    "note": "Gate FIRED on QQQ premarket −0.69%. Cash session ~22:55 HKT: QQQ −1.06% / SPY −0.68% (deeper). Hold techPass 83 until 502 rescan."
+    "asOfHKT": "2026-10-14 cash session",
+    "driver": "CPI hotter → cash selloff; FedWatch hold~56%/hike~44%",
+    "note": "Gate stayed open into cash; techPass relocked 83→65 on pool 438"
   },
   "cashSession": {
     "asOfHKT": "2026-10-14 22:56 HKT",
@@ -167,7 +161,7 @@
   },
   "materialChange": {
     "yes": true,
-    "why": "Cash session QQQ/SPY deeper than gate; FedWatch hike ~20.5%→~43.7%; BAC/MS cash moves; still hold techPass 83 (no 502 lock yet)"
+    "why": "Cash-open techPass 83→65 on pool 438; leaders/entry 24"
   },
   "note": "Evening: gate already briefed; material = cash-session deepening + FedWatch reprice; techPass HOLD 83 pending 502",
   "techTurnover": {
@@ -208,6 +202,22 @@
       "bot": "Trok",
       "step": "briefing",
       "detail": "overwrite commander-briefing + commander-run-latest + commander-latest (evening)"
+    },
+    {
+      "t": "2026-10-14 23:13 HKT",
+      "bot": "Trok",
+      "step": "pipelineSync",
+      "detail": {
+        "candidates": 438,
+        "techPassed": 65,
+        "company": 65,
+        "leaders": 24,
+        "entry": 24,
+        "entryConsider": 24,
+        "entryWatch": 0,
+        "anchor": "Cash-open relock: pool 438 → techPass 65 (asOfMarket 10/14)",
+        "downstreamStale": false
+      }
     }
   ]
 }
