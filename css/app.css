@@ -300,3 +300,8 @@ img#tech-chart{
 }
 .train-think-step-title{font-weight:700;color:#9aa6d0;font-size:13px;margin-bottom:6px}
 .train-think-step h4{margin:8px 0 4px;font-size:12px;color:#9aa6d0}
+
+/* —— 總覽閘門橫幅 —— */
+.overview-gate{margin:10px 0;padding:10px 14px;border-radius:10px;border:1px solid #c45c26;background:#3a1f12;color:#ffd0b0;line-height:1.45;font-size:13px}
+.overview-gate.ok{border-color:#2a6b45;background:#12241a;color:#b8f0c8}
+.overview-gate b{color:#fff}
