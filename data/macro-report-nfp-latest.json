@@ -1,7 +1,7 @@
 {
-  "title": "大市更新｜閘門解除 QQQ −0.60%・META +3.4%（Drok）",
-  "asOf": "2026-10-13T15:05:00.000Z",
-  "updatedAt": "2026-10-13T15:05:00.000Z",
+  "title": "大市更新｜CPI 今宵公布・閘門靜止（Drok）",
+  "asOf": "2026-10-14T00:56:00.000Z",
+  "updatedAt": "2026-10-14T00:56:00.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -40,24 +40,23 @@
       "id": "cpi-2026-09",
       "type": "CPI",
       "date": "2026-10-14",
-      "label": "CPI（2026年9月）—明天公布",
+      "label": "CPI（2026年9月）—今天公布",
       "status": "upcoming",
-      "consensusHeadlineYoY": 3.7,
-      "consensusCoreYoY": 2.4,
+      "consensusHeadlineYoY": 3.6,
+      "consensusCoreYoY": 2.5,
       "priorHeadlineYoY": 3.4,
       "priorCoreYoY": 2.4,
-      "note": "08:30 ET（D-1；約 20:30 HKT 10/14）。Street headline ~3.6–3.7%／core ~2.4–2.5%。Cleveland nowcast 已更新 10/13：9月 headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM（數字相對 10/9 不變；頁面 Updated 10/13；另見 10月 nowcast headline 3.63%／core 2.30% YoY）。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。【盤中 ~11:00 ET】QQQ −0.60%／SPY −0.13%（Yahoo）——開市閘門（QQQ −0.90%）已解除；半導仍弱（SMH −1.8%、MU −5.2%）但 QQQ 修復；META +3.4%（Muse Wonder Frontier AI）托住 Mag7。DIA 早段 +0.85% 已回吐至 −0.14%。CPI 前夕波動仍高。",
+      "note": "08:30 ET（公布日；約 20:30 HKT 10/14）。Street headline ~3.6–3.7%／core ~2.4–2.5%（TD／FinancialJuice：3.6%／0.6% MoM headline、core 2.5%／0.2% MoM；GS tracking 略熱 headline 3.70%／core 2.46%）。Cleveland nowcast 仍 Updated 10/13：9月 headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM（數字未變；另見 10月 nowcast headline 3.63%／core 2.30% YoY）。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。【隔夜】美股已收 QQQ −0.33%／SPY −0.01%；閘門未觸發（盤前未開；NQ／ES 近平）。亞洲早段回補（KOSPI ~+2%）。META 昨收 +2.63% 承接 Muse Wonder。",
       "sources": [
         "BLS CPI schedule",
-        "Cleveland Fed Inflation Nowcasting Updated 10/13 (fetched 2026-10-13 ~15:00Z)",
-        "Morningstar CPI preview 2026-10-12",
-        "FinancialJuice US CPI Prep 2026-10-12",
-        "TD Economics／NewsQuawk／Admirals／RBC previews 2026-10",
-        "CME FedWatch via GMT EIGHT hold 80.6%／hike 19.4%（2026-10-13）",
-        "Yahoo Finance QQQ/SPY/Mag7/SMH chart ~11:00 ET 2026-10-13",
-        "TradingView／TipRanks／Kalkine META Muse Wonder Frontier AI 2026-10-13",
-        "ts2／AP open snapshot chip rout vs banks 2026-10-13 ~09:48 ET",
-        "WSJ／Investing／Reuters／X KOSPI CXMT DRAM／Asia AI selloff 2026-10-13"
+        "Cleveland Fed Inflation Nowcasting Updated 10/13 (fetched 2026-10-14 ~00:55Z)",
+        "FinancialJuice／TD Economics US CPI Prep 2026-10-12",
+        "Goldman Sachs Week Ahead via Finvaulta (tracking)",
+        "CME FedWatch via GMT EIGHT hold 80.6%／hike 19.4%（dated 14/10/2026）",
+        "exa.ai／0dteclose QQQ/SPY/META daily 2026-10-13",
+        "WSJ NQ futures ~5:09 PM CDT 2026-10-13",
+        "CHOSUNBIZ／Yonhap KOSPI rebound 2026-10-14",
+        "CNBC bank earnings 2026-10-13 (JPM/GS/WFC/C)"
       ]
     },
     {
@@ -68,9 +67,10 @@
       "status": "upcoming",
       "consensusHeadlineYoY": 5.4,
       "priorHeadlineYoY": 5.4,
-      "note": "08:30 ET；同日 Advance Retail Sales。上游仍高，留意滯後傳導（部分機構預估 headline YoY 企喺 5.4%；MoM 預覽約 +0.5%）。",
+      "note": "08:30 ET；同日 Advance Retail Sales。上游仍高，留意滯後傳導（Street headline YoY ~5.4%；MoM 共識約 +0.5%；Continuum 屋企預估 MoM +0.6%／YoY 5.4%）。",
       "sources": [
         "BLS／Census 日曆",
+        "Finobird PPI MoM calendar 2026-10-15",
         "Continuum Economics／NewsQuawk PPI preview 2026-10"
       ]
     },
@@ -80,7 +80,7 @@
       "date": "2026-10-28",
       "label": "FOMC 決定（10/27–28）",
       "status": "upcoming",
-      "note": "聲明約 14:00 ET。CME FedWatch（GMT EIGHT 10/13）：hold ~80.6%／+25bp ~19.4%（早段／午後區間約 79.5–82.3%）。CPI／PPI 後最終定價窗口；同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 已改為 10/21。"
+      "note": "聲明約 14:00 ET。CME FedWatch（GMT EIGHT dated 14/10/2026）：hold ~80.6%／+25bp ~19.4%（區間仍見 ~79.5–82%）。CPI／PPI 後最終定價窗口；同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 已改為 10/21。"
     }
   ],
   "nfpReport": {
@@ -139,17 +139,18 @@
     "summaryTw": "非農就業（2026年9月） @ 2026-10-02\n數據：弱過預期（actual < consensus）\n當日大盤：+0.74%\n留意：數據偏弱但大市上升（利好降息／軟著陸交易）\n收市K線：膠住／十字味：實體細，方向未決；收市創近期新高／破阻力；企穩 SMA20 上方；企穩 SMA50 上方\n其後4日：D+1 0.67%(修復／延續上升)，D+2 0.55%(修復／延續上升)，D+3 -0.24%(失地／回吐)，D+4 -0.42%(失地／回吐)；其後 10/9 +0.60%、10/12 -0.06%"
   },
   "watch": [
-    "【閘門解除】QQQ 盤中 −0.60%（開市曾 −0.90%）；SPY −0.13%——閾值 −0.65% 兩邊均未觸發",
-    "【D-1】10/14 CPI 08:30 ET（Street ~3.6–3.7%／core ~2.4–2.5%；Cleveland 10/13：core MoM 0.20%）—熱則疊加半導殺估值＝雙殺風險",
-    "META Muse Wonder Frontier AI 發布→Mag7 AI 主題分化（META 強／記憶體弱）",
-    "10/15 PPI（~5.4% YoY）＋ Advance Retail Sales",
-    "銀行開季：JPM／GS／WFC／Citi 齊 beat；BAC／MS 10/14；DIA 早強午後回吐",
-    "半導：SMH −1.8%、MU −5.2%（CXMT／Asia 敘事未消）",
+    "【CPI 今宵】10/14 08:30 ET（20:30 HKT）—Street ~3.6–3.7%／core ~2.4–2.5%；Cleveland core MoM 0.20%",
+    "【閘門】US 盤前尚未開；隔夜 NQ／ES 近平；昨收 QQQ −0.33%／SPY −0.01%——閾值 −0.65% 未觸發",
+    "亞洲回補：KOSPI 早段約 +2%（昨 −5.5%）；CXMT 敘事未消但非續殺",
+    "META Muse Wonder 收市仍持 +2.63%；Mag7 AI 主題分化延續",
+    "銀行：JPM 略遜／GS・Citi 大勝／WFC EPS beat；BAC／MS 10/14 美東開市前",
+    "ASML Q3 今早美東開市前（半導季開鑼）",
+    "10/15 PPI（~5.4% YoY／MoM ~0.5%）＋ Advance Retail Sales",
     "10/27–28 FOMC（FedWatch hold ~80.6%；決定 10/28 14:00 ET）",
     "Mag7：TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL 11/2（估計）"
   ],
-  "mag7Note": "盤中 ~11:00 ET：META +3.4%（Muse Wonder Frontier AI）／AAPL +1.6%／MSFT +1.2%／GOOGL +1.0%／AMZN +0.3%／NVDA −0.5%／TSLA −0.5%。相對開市：半導系修復、META 由 −0.3% 翻升成領頭；記憶體仍重挫。",
-  "summaryTw": "【閘門解除 10/13 盤中 ~11:00 ET｜CPI D-1】QQQ −0.60%（$741.59；Yahoo Finance），SPY −0.13%（$777.12）。閾值 −0.65%：QQQ／SPY 均未觸發（開市 ~09:32 曾 −0.90%／−0.04%；盤前最深約 −0.74%；其後反彈過閘）。\n【主因延續但緩和】半導體／記憶體仍拖累（SMH −1.8%、MU −5.2%、WDC −3.7%、AMD −1.2%）；亞洲 CXMT DRAM／AI CapEx 質疑敘事未消，但 QQQ 自開市低位修復。DIA −0.14%＝銀行開市強勢（早段 +0.85%）已回吐。\n【Mag7 分化加劇】META +3.4%（Muse Wonder／Frontier AI 模型發布）；AAPL +1.6%、MSFT +1.2%、GOOGL +1.0%、AMZN +0.3%；NVDA −0.5%、TSLA −0.5%（較開市 −1.2%/−1.4% 修復）。\n【日曆】明天 10/14 CPI 08:30 ET（Street ~3.6–3.7%／core ~2.4–2.5%）。Cleveland nowcast 已更新至 10/13：9月 headline 3.60% YoY／0.53% MoM，core 2.39%／0.20% MoM（數字同前；日期刷新）。FedWatch hold ~80.6%／+25bp ~19.4%（GMT EIGHT）。跟住 10/15 PPI、10/28 FOMC。\n【本輪】閘門由開市觸發→盤中解除；META AI 主題成 Mag7 亮點；刷新 Pages 並匯報 Stock 群。",
+  "mag7Note": "昨收（10/13）：META +2.63%（$762.50；Muse Wonder Frontier AI 持倉至收市）／相對盤中 +3.4% 略回吐但仍強。半導／記憶體昨仍弱但亞洲周三早段回補。日曆：TSLA＋META 10/21（確認）→ MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2。",
+  "summaryTw": "【CPI 公布日 10/14 清晨 HKT｜閘門未觸發】美股隔夜已收：QQQ 收 $743.57（−0.33%）、SPY 收 $778.01（−0.01%）。相對昨盤中（~11:00 ET QQQ −0.60%）收市進一步修復。US 10/14 盤前尚未開（約 16:00 HKT）；隔夜 NQ／ES 近平（約 −0.04%／−0.02%），無 >0.65% 急挫——閘門不適用／未觸發。\n【今日焦點】CPI（2026年9月）08:30 ET＝今晚 20:30 HKT。Street 約 headline 3.6–3.7% YoY／core 2.4–2.5%；TD／FJ 表：3.6%／0.6% MoM headline、core 2.5%／0.2% MoM。Cleveland nowcast 仍 Updated 10/13：9月 headline 3.60%／0.53% MoM、core 2.39%／0.20% MoM（數字未變）。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。\n【定價】FedWatch（GMT EIGHT 14/10）：10月 hold ~80.6%／+25bp ~19.4%（同昨盤中；區間仍見 ~79.5–82%）。跟住 10/15 PPI（~5.4% YoY／MoM ~0.5%）、10/28 FOMC。\n【亞洲】周三早段反彈而非續殺：KOSPI 早段約 +2.1%（昨 −5.5%）；日經高開約 +0.2%；三星／海力士回補。CXMT DRAM 敘事仍在，但是回補日。\n【Mag7／銀行】META 昨收 +2.63%（$762.50）承接 Muse Wonder Frontier AI；日曆不變（TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2）。銀行：JPM 略遜／GS・C 大勝／WFC EPS beat；BAC／MS 今早美東尚未出（本輪 HKT 清晨）。\n【本輪】有實質變化＝CPI 由 D-1 進入公布日窗口；閘門靜止；刷新 Pages 並匯報 Stock 群。",
   "thinkingLog": [
     {
       "t": "2026-10-12T01:59:09.819Z",
@@ -1472,6 +1473,218 @@
           "data/macro-events.json"
         ],
         "ok": true
+      }
+    },
+    {
+      "t": "2026-10-14T00:56:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "refresh",
+      "detail": {
+        "reason": "weekday morning monitor (08:49 HKT window)",
+        "marketSession": "HKT morning / US overnight; US cash closed; US 10/14 premarket not yet open; CPI print-day",
+        "asOf": "2026-10-14T00:56:00.000Z",
+        "priorLocalAsOf": "2026-10-13T15:05:00.000Z"
+      }
+    },
+    {
+      "t": "2026-10-14T00:56:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "sessionGate",
+      "detail": {
+        "thresholdPct": -0.65,
+        "qqq": {
+          "price": 743.57,
+          "pct": -0.33,
+          "session": "RTH close 2026-10-13",
+          "source": "exa.ai / 0dteclose"
+        },
+        "spy": {
+          "price": 778.01,
+          "pct": -0.01,
+          "session": "RTH close 2026-10-13",
+          "source": "exa.ai / 0dteclose"
+        },
+        "futures": {
+          "nqPct": -0.04,
+          "esPct": -0.02,
+          "overnightDump": false
+        },
+        "fired": false,
+        "firedOn": [],
+        "note": "US premarket for 10/14 not open yet; overnight futures near flat; gate N/A / not fired"
+      }
+    },
+    {
+      "t": "2026-10-14T00:56:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "nowcast",
+      "detail": {
+        "cleveland": {
+          "asOf": "2026-10-13",
+          "headlineYoY": 3.6,
+          "headlineMoM": 0.53,
+          "coreYoY": 2.39,
+          "coreMoM": 0.2,
+          "octHeadlineYoY": 3.63,
+          "octCoreYoY": 2.3
+        },
+        "note": "Page still Updated 10/13; Sep figures unchanged vs prior run",
+        "source": "clevelandfed.org/indicators-and-data/inflation-nowcasting"
+      }
+    },
+    {
+      "t": "2026-10-14T00:56:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "fedwatch",
+      "detail": {
+        "oct": {
+          "holdPct": 80.6,
+          "hike25bpPct": 19.4
+        },
+        "prior": {
+          "holdPct": 80.6,
+          "hike25bpPct": 19.4
+        },
+        "delta": "unchanged vs prior 15:05Z",
+        "sources": [
+          "GMT EIGHT flash dated 14/10/2026 hold 80.6%"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-14T00:56:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "asiaTape",
+      "detail": {
+        "kospiEarlyPct": 2.13,
+        "kospiPriorDayPct": -5.46,
+        "nikkeiOpenPctApprox": 0.24,
+        "crashContinuation": false,
+        "note": "Wed rebound after Tue AI/semi selloff; CXMT narrative still present",
+        "sources": [
+          "CHOSUNBIZ",
+          "Yonhap",
+          "Reuters/Jiji summaries"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-14T00:56:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "bankEarnings",
+      "detail": {
+        "reported2026_10_13": {
+          "JPM": "EPS miss $5.57 vs ~$5.90; NII guidance raised",
+          "GS": "large beat EPS $17.01 vs ~$13.02",
+          "WFC": "EPS beat $1.87 vs ~$1.85; revenue miss",
+          "C": "beat EPS $2.85 vs ~$2.66"
+        },
+        "scheduled2026_10_14": [
+          "BAC",
+          "MS"
+        ],
+        "note": "BAC/MS not yet out at HKT morning"
+      }
+    },
+    {
+      "t": "2026-10-14T00:56:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "mag7",
+      "detail": {
+        "newResults": false,
+        "materialCalendarChange": false,
+        "metaClose": {
+          "px": 762.5,
+          "pct": 2.63,
+          "theme": "Muse Wonder Frontier AI held into close"
+        },
+        "upcoming": [
+          {
+            "ticker": "TSLA",
+            "date": "2026-10-21",
+            "status": "confirmed"
+          },
+          {
+            "ticker": "META",
+            "date": "2026-10-21",
+            "status": "confirmed"
+          },
+          {
+            "ticker": "MSFT",
+            "date": "2026-10-28",
+            "status": "confirmed"
+          },
+          {
+            "ticker": "GOOGL",
+            "date": "2026-10-28",
+            "status": "confirmed"
+          },
+          {
+            "ticker": "AMZN",
+            "date": "2026-10-29",
+            "status": "estimated"
+          },
+          {
+            "ticker": "AAPL",
+            "date": "2026-11-02",
+            "status": "estimated"
+          }
+        ]
+      }
+    },
+    {
+      "t": "2026-10-14T00:56:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "window",
+      "detail": {
+        "cpi": "print-day 2026-10-14 08:30 ET / 20:30 HKT",
+        "ppi": "2026-10-15",
+        "fomc": "2026-10-28",
+        "fedwatchOct": {
+          "holdPct": 80.6,
+          "hike25bpPct": 19.4
+        },
+        "clevelandNowcast": {
+          "asOf": "2026-10-13",
+          "headlineYoY": 3.6,
+          "headlineMoM": 0.53,
+          "coreYoY": 2.39,
+          "coreMoM": 0.2
+        },
+        "streetCpiHeadlineYoY": 3.6,
+        "materialChange": true,
+        "materialChangeNote": "CPI entered print-day window (was D-1); FedWatch/nowcast stable; drop gate quiet; Asia rebound"
+      }
+    },
+    {
+      "t": "2026-10-14T00:56:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "write",
+      "detail": {
+        "files": [
+          "data/macro-run-latest.json",
+          "data/macro-report-nfp-latest.json",
+          "data/macro-events.json"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-14T00:56:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "speakDecision",
+      "detail": {
+        "speakToStockGroup": true,
+        "reason": "Material: CPI D-1 → print-day tonight 20:30 HKT; gate quiet; Asia rebound note"
       }
     }
   ],

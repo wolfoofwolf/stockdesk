@@ -34,24 +34,23 @@
     "id": "cpi-2026-09",
     "type": "CPI",
     "date": "2026-10-14",
-    "label": "CPI（2026年9月）—明天公布",
+    "label": "CPI（2026年9月）—今天公布",
     "status": "upcoming",
-    "consensusHeadlineYoY": 3.7,
-    "consensusCoreYoY": 2.4,
+    "consensusHeadlineYoY": 3.6,
+    "consensusCoreYoY": 2.5,
     "priorHeadlineYoY": 3.4,
     "priorCoreYoY": 2.4,
-    "note": "08:30 ET（D-1；約 20:30 HKT 10/14）。Street headline ~3.6–3.7%／core ~2.4–2.5%。Cleveland nowcast 已更新 10/13：9月 headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM（數字相對 10/9 不變；頁面 Updated 10/13；另見 10月 nowcast headline 3.63%／core 2.30% YoY）。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。【盤中 ~11:00 ET】QQQ −0.60%／SPY −0.13%（Yahoo）——開市閘門（QQQ −0.90%）已解除；半導仍弱（SMH −1.8%、MU −5.2%）但 QQQ 修復；META +3.4%（Muse Wonder Frontier AI）托住 Mag7。DIA 早段 +0.85% 已回吐至 −0.14%。CPI 前夕波動仍高。",
+    "note": "08:30 ET（公布日；約 20:30 HKT 10/14）。Street headline ~3.6–3.7%／core ~2.4–2.5%（TD／FinancialJuice：3.6%／0.6% MoM headline、core 2.5%／0.2% MoM；GS tracking 略熱 headline 3.70%／core 2.46%）。Cleveland nowcast 仍 Updated 10/13：9月 headline 3.60% YoY／0.53% MoM，core 2.39% YoY／0.20% MoM（數字未變；另見 10月 nowcast headline 3.63%／core 2.30% YoY）。Core MoM ≤0.2% 利好暫停；≥0.3% 或令加息機率回升。【隔夜】美股已收 QQQ −0.33%／SPY −0.01%；閘門未觸發（盤前未開；NQ／ES 近平）。亞洲早段回補（KOSPI ~+2%）。META 昨收 +2.63% 承接 Muse Wonder。",
     "sources": [
       "BLS CPI schedule",
-      "Cleveland Fed Inflation Nowcasting Updated 10/13 (fetched 2026-10-13 ~15:00Z)",
-      "Morningstar CPI preview 2026-10-12",
-      "FinancialJuice US CPI Prep 2026-10-12",
-      "TD Economics／NewsQuawk／Admirals／RBC previews 2026-10",
-      "CME FedWatch via GMT EIGHT hold 80.6%／hike 19.4%（2026-10-13）",
-      "Yahoo Finance QQQ/SPY/Mag7/SMH chart ~11:00 ET 2026-10-13",
-      "TradingView／TipRanks／Kalkine META Muse Wonder Frontier AI 2026-10-13",
-      "ts2／AP open snapshot chip rout vs banks 2026-10-13 ~09:48 ET",
-      "WSJ／Investing／Reuters／X KOSPI CXMT DRAM／Asia AI selloff 2026-10-13"
+      "Cleveland Fed Inflation Nowcasting Updated 10/13 (fetched 2026-10-14 ~00:55Z)",
+      "FinancialJuice／TD Economics US CPI Prep 2026-10-12",
+      "Goldman Sachs Week Ahead via Finvaulta (tracking)",
+      "CME FedWatch via GMT EIGHT hold 80.6%／hike 19.4%（dated 14/10/2026）",
+      "exa.ai／0dteclose QQQ/SPY/META daily 2026-10-13",
+      "WSJ NQ futures ~5:09 PM CDT 2026-10-13",
+      "CHOSUNBIZ／Yonhap KOSPI rebound 2026-10-14",
+      "CNBC bank earnings 2026-10-13 (JPM/GS/WFC/C)"
     ]
   },
   {
@@ -62,9 +61,10 @@
     "status": "upcoming",
     "consensusHeadlineYoY": 5.4,
     "priorHeadlineYoY": 5.4,
-    "note": "08:30 ET；同日 Advance Retail Sales。上游仍高，留意滯後傳導（部分機構預估 headline YoY 企喺 5.4%；MoM 預覽約 +0.5%）。",
+    "note": "08:30 ET；同日 Advance Retail Sales。上游仍高，留意滯後傳導（Street headline YoY ~5.4%；MoM 共識約 +0.5%；Continuum 屋企預估 MoM +0.6%／YoY 5.4%）。",
     "sources": [
       "BLS／Census 日曆",
+      "Finobird PPI MoM calendar 2026-10-15",
       "Continuum Economics／NewsQuawk PPI preview 2026-10"
     ]
   },
@@ -74,6 +74,6 @@
     "date": "2026-10-28",
     "label": "FOMC 決定（10/27–28）",
     "status": "upcoming",
-    "note": "聲明約 14:00 ET。CME FedWatch（GMT EIGHT 10/13）：hold ~80.6%／+25bp ~19.4%（早段／午後區間約 79.5–82.3%）。CPI／PPI 後最終定價窗口；同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 已改為 10/21。"
+    "note": "聲明約 14:00 ET。CME FedWatch（GMT EIGHT dated 14/10/2026）：hold ~80.6%／+25bp ~19.4%（區間仍見 ~79.5–82%）。CPI／PPI 後最終定價窗口；同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 已改為 10/21。"
   }
 ]
