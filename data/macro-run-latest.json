@@ -1,7 +1,7 @@
 {
-  "title": "大市更新｜閘門觸發・CPI 偏熱・QQQ 盤前急挫（Drok）",
-  "asOf": "2026-10-14T12:47:00.000Z",
-  "updatedAt": "2026-10-14T12:47:00.000Z",
+  "title": "大市更新｜閘門加深・FedWatch 重定價・現金盤延續挫（Drok）",
+  "asOf": "2026-10-14T14:55:00.000Z",
+  "updatedAt": "2026-10-14T14:55:00.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -46,10 +46,12 @@
       "consensusCoreYoY": 2.5,
       "priorHeadlineYoY": 3.4,
       "priorCoreYoY": 2.4,
-      "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY（前值 0.4%／3.4%；Street〜3.6%）。Core +0.3% MoM／+2.6% YoY（前值 0.3%／2.4%；共識 MoM〜0.2%、YoY〜2.4–2.5%）——偏熱。汽油 +9.1% MoM、能源 +5.2% MoM 主導 headline。【閘門】觸發時 QQQ 盤前 −0.69%＞−0.65%；SPY −0.38%。",
+      "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY（前值 0.4%／3.4%；Street〜3.6%）。Core +0.3% MoM／+2.6% YoY（前值 0.3%／2.4%；共識 MoM〜0.2%、YoY〜2.4–2.5%）——偏熱。汽油 +9.1% MoM、能源 +5.2% MoM 主導 headline。【閘門】盤前 QQQ −0.69%／SPY −0.38%；現金盤 ~10:55 ET QQQ −1.13%／SPY −0.77%（雙觸發加深）。FedWatch 10月 hold ~79.5%→56.3%、+25bp ~20.5%→43.7%。",
       "sources": [
         "BLS CPI Sep 2026 via AP／The Hill／TradingEconomics 2026-10-14",
-        "CNBC premarket QQQ/SPY ~08:45–08:47 ET",
+        "CNBC cash QQQ/SPY ~10:55 ET",
+        "Yahoo Finance Mag7/SMH/BAC ~10:55 ET",
+        "CME FedWatch via FXBus／BlockBeats／PANews 2026-10-14",
         "BAC／MS Q3 releases 2026-10-14"
       ],
       "actualHeadlineYoY": 3.7,
@@ -65,7 +67,7 @@
       "status": "upcoming",
       "consensusHeadlineYoY": 5.4,
       "priorHeadlineYoY": 5.4,
-      "note": "08:30 ET；同日 Advance Retail Sales。上游仍高，留意滯後傳導（Street headline YoY ~5.4%；MoM 共識約 +0.5%；Continuum 屋企預估 MoM +0.6%／YoY 5.4%）。",
+      "note": "08:30 ET；同日 Advance Retail Sales。上游仍高，留意滯後傳導（Street headline YoY ~5.4%；MoM 共識約 +0.5%；Continuum 屋企預估 MoM +0.6%／YoY 5.4%）。CPI 偏熱後明日 PPI 風險偏好升。",
       "sources": [
         "BLS／Census 日曆",
         "Finobird PPI MoM calendar 2026-10-15",
@@ -78,7 +80,7 @@
       "date": "2026-10-28",
       "label": "FOMC 決定（10/27–28）",
       "status": "upcoming",
-      "note": "聲明約 14:00 ET。CPI 已偏熱（headline 3.7%／core 2.6% YoY）——10月 hold 定價或受壓；留意 FedWatch 重定價。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 10/21。"
+      "note": "聲明約 14:00 ET。CPI 偏熱後 FedWatch 急轉：hold ~56.3%／+25bp ~43.7%（先前 ~79–81% hold）。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 10/21。"
     }
   ],
   "nfpReport": {
@@ -137,16 +139,16 @@
     "summaryTw": "非農就業（2026年9月） @ 2026-10-02\n數據：弱過預期（actual < consensus）\n當日大盤：+0.74%\n留意：數據偏弱但大市上升（利好降息／軟著陸交易）\n收市K線：膠住／十字味：實體細，方向未決；收市創近期新高／破阻力；企穩 SMA20 上方；企穩 SMA50 上方\n其後4日：D+1 0.67%(修復／延續上升)，D+2 0.55%(修復／延續上升)，D+3 -0.24%(失地／回吐)，D+4 -0.42%(失地／回吐)；其後 10/9 +0.60%、10/12 -0.06%"
   },
   "watch": [
-    "【閘門 FIRED】觸發時 QQQ 盤前 −0.69%（$738.47）＞−0.65%；SPY −0.38%；其後 QQQ ~−0.58%",
-    "【CPI 已出・偏熱】Headline +0.6%／+3.7% YoY；Core +0.3%／+2.6% YoY（核心亦熱）",
-    "能源：汽油 +9.1% MoM、整體能源 +5.2% MoM（中東／油價）",
-    "銀行：BAC 盤前 ~−7%（$1.2B 監管和解）；MS beat 仍跟跌 ~−2.5%",
-    "半導／Mag7：SMH ~−1.5%；NVDA／META／TSLA 盤前偏軟；ASML 續賣",
-    "10/15 PPI＋ Advance Retail Sales；10/28 FOMC",
-    "FedWatch：CPI 後重定價窗口（先前 hold ~79.5–80.6%）"
+    "【閘門 FIRED・加深】現金盤 ~10:55 ET：QQQ −1.13%（$735.18）／SPY −0.77%（$771.99）；雙觸發＞−0.65%",
+    "【FedWatch 重定價】10月 hold ~56.3%／+25bp ~43.7%（盤前/先前 ~79–81% hold）——接近五五開",
+    "【CPI 已出・偏熱】Headline +0.6%／+3.7% YoY；Core +0.3%／+2.6% YoY",
+    "息：10Y ~5.26%（+0.88%）；VIX ~15.9（+3.8%）",
+    "銀行：BAC ~−7.7%；MS ~−3.1%",
+    "半導／Mag7：SMH −2.2%；NVDA −2.0%；META −2.2%；TSLA −1.7%；AAPL +0.9%／GOOGL 偏平",
+    "10/15 PPI＋Advance Retail Sales；10/28 FOMC"
   ],
-  "mag7Note": "盤前（CPI 後）：NVDA ~−0.9%、META ~−0.9%、TSLA ~−0.7%；AAPL／GOOG 偏紅。SMH ~−1.5%。ASML 盤前 ~−1.2%（Q3 強勢後 sell-the-news）。日曆：TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2。",
-  "summaryTw": "【閘門觸發｜CPI 偏熱】US 盤前 ~20:45 HKT：觸發時 QQQ −0.69%／SPY −0.38%（閾值 −0.65%）；其後回至 QQQ ~−0.58%／SPY −0.30%。NQ ~−0.61%、ES ~−0.28%。\n【CPI 9月＝已公布】Headline +0.6% MoM／+3.7% YoY（熱過 ~3.6%）；Core +0.3% MoM／+2.6% YoY（MoM 高過共識 ~0.2%、YoY 由 2.4% 升）。汽油 +9.1%／能源 +5.2% 主導 headline。\n【放大】YES——FOMC 10/28 前；PPI＋零售 10/15。偏熱 core 令暫停加息敘事變脆。\n【銀行】BAC 盤前 ~−7%（$1.2B 監管和解）；MS beat 仍 ~−2.5%。SMH ~−1.5%；ASML 盤前續軟。\n【本輪】閘門 FIRED on QQQ；主因 CPI 偏熱。刷新 Pages 並匯報 Stock 群。",
+  "mag7Note": "現金盤 ~10:55 ET：NVDA −2.0%、META −2.2%、TSLA −1.7%、MSFT −1.0%、AMZN −1.0%；AAPL +0.9%、GOOGL +0.1%。SMH −2.2%。ASML 由盤前 sell-the-news 回至近平（~+0.1%）。日曆：TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2。",
+  "summaryTw": "【閘門加深｜現金盤】~10:55 ET／22:55 HKT：QQQ −1.13%（$735.18；開 $737.98／低 $734.68）／SPY −0.77%（$771.99）——雙觸發＞−0.65%；較盤前觸發時 QQQ −0.69%／SPY −0.38% 明顯加深。Nasdaq −1.0%、S&P −0.77%、Dow −0.14%。\n【FedWatch 急轉】10月 hold ~79.5–80.6%→56.3%；+25bp ~19–21%→43.7%。接近五五開——CPI 偏熱後最大敘事變化。\n【CPI 9月＝已公布・偏熱】Headline +0.6%／+3.7% YoY；Core +0.3%／+2.6% YoY；汽油 +9.1%／能源 +5.2%。10Y ~5.26%、VIX ~15.9。\n【銀行／半導／Mag7】BAC ~−7.7%（和解）；MS ~−3.1%；SMH −2.2%；NVDA −2.0%、META −2.2%、TSLA −1.7%；AAPL 仍紅。\n【本輪】閘門雙觸發加深＋FedWatch 重定價＝明顯變化。明日 PPI＋零售；刷新 Pages 並匯報 Stock 群。",
   "thinkingLog": [
     {
       "t": "2026-10-12T01:59:09.819Z",
@@ -2036,6 +2038,179 @@
     },
     {
       "t": "2026-10-14T12:47:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "write",
+      "detail": {
+        "files": [
+          "data/macro-run-latest.json",
+          "data/macro-events.json"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-14T12:47:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "push",
+      "detail": {
+        "target": "wolfoofwolf/stockdesk GitHub Pages",
+        "method": "user-GitHub-xai push_files",
+        "branch": "main",
+        "commitSha": "d0afb9853ccdd16695e300d291caacb0b1dbd416",
+        "files": [
+          "data/macro-run-latest.json",
+          "data/macro-events.json"
+        ],
+        "ok": true
+      }
+    },
+    {
+      "t": "2026-10-14T14:55:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "refresh",
+      "detail": {
+        "reason": "weekday evening monitor (10:49 HKT window → ~22:54 HKT)",
+        "marketSession": "US cash RTH ~10:55 ET",
+        "asOf": "2026-10-14T14:55:00.000Z",
+        "priorLocalAsOf": "2026-10-14T12:47:00.000Z",
+        "routine": "Macro market monitor"
+      }
+    },
+    {
+      "t": "2026-10-14T14:55:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "sessionGate",
+      "detail": {
+        "thresholdPct": -0.65,
+        "qqq": {
+          "price": 735.18,
+          "pct": -1.13,
+          "open": 737.98,
+          "high": 740.53,
+          "low": 734.68,
+          "prevClose": 743.57,
+          "source": "CNBC / Yahoo Finance ~10:55 ET"
+        },
+        "spy": {
+          "price": 771.99,
+          "pct": -0.77,
+          "open": 774.92,
+          "high": 776.35,
+          "low": 771.78,
+          "prevClose": 778.01,
+          "source": "CNBC / Yahoo Finance ~10:55 ET"
+        },
+        "indices": {
+          "nasdaqPct": -1.0,
+          "spxPct": -0.77,
+          "diaPct": -0.14
+        },
+        "ratesVol": {
+          "tnx": 5.263,
+          "tnxPct": 0.88,
+          "vix": 15.85,
+          "vixPct": 3.8
+        },
+        "fired": true,
+        "firedOn": [
+          "QQQ",
+          "SPY"
+        ],
+        "priorPremarket": {
+          "qqqPct": -0.69,
+          "spyPct": -0.38,
+          "asOf": "2026-10-14T12:47:00.000Z"
+        },
+        "note": "Gate deepened into cash: both QQQ and SPY now below -0.65%"
+      }
+    },
+    {
+      "t": "2026-10-14T14:55:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "investigate",
+      "detail": {
+        "primaryDriver": "Hotter Sep CPI → FedWatch hike odds nearly double; duration/tech selloff into cash",
+        "cpi": {
+          "headlineYoY": 3.7,
+          "headlineMoM": 0.6,
+          "coreYoY": 2.6,
+          "coreMoM": 0.3,
+          "status": "already printed; session follow-through"
+        },
+        "fedwatch": {
+          "oct": {
+            "holdPct": 56.3,
+            "hike25bpPct": 43.7
+          },
+          "prior": {
+            "holdPct": 79.5,
+            "hike25bpPct": 20.5
+          },
+          "decemberFlash": {
+            "holdPct": 4.3,
+            "hike25bpCumulativePct": 55.3,
+            "hike50bpCumulativePct": 40.4
+          },
+          "delta": "hold −23pp / hike +23pp — material hawkish repricing",
+          "sources": [
+            "FXBus 2026-10-14",
+            "BlockBeats 2026-10-14",
+            "PANews 2026-10-14",
+            "InvestmentNews FedWatch flash"
+          ]
+        },
+        "banks": {
+          "BAC": "session ~-7.7% after $1.2B regulatory settlement",
+          "MS": "session ~-3.1% despite beat"
+        },
+        "semisMag7": {
+          "SMH": -2.18,
+          "NVDA": -2.04,
+          "META": -2.2,
+          "TSLA": -1.68,
+          "MSFT": -1.0,
+          "AMZN": -0.95,
+          "AAPL": 0.94,
+          "GOOGL": 0.13,
+          "ASML": 0.09
+        },
+        "calendarAmplifies": true,
+        "calendarNote": "Hot CPI + FedWatch near coin-flip into FOMC 10/28; PPI+retail 10/15"
+      }
+    },
+    {
+      "t": "2026-10-14T14:55:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "window",
+      "detail": {
+        "cpi": "done 2026-10-14",
+        "ppi": "2026-10-15 D-1",
+        "fomc": "2026-10-28",
+        "fedwatchOct": {
+          "holdPct": 56.3,
+          "hike25bpPct": 43.7
+        },
+        "materialChange": true,
+        "materialChangeNote": "Cash gate deepened (QQQ -1.13%/SPY -0.77%); FedWatch hold 79.5→56.3; Mag7/semis follow-through"
+      }
+    },
+    {
+      "t": "2026-10-14T14:55:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "speakDecision",
+      "detail": {
+        "speakToStockGroup": true,
+        "reason": "Gate FIRED on QQQ+SPY with deepening vs premarket; FedWatch material hawkish repricing"
+      }
+    },
+    {
+      "t": "2026-10-14T14:55:00.000Z",
       "bot": "Drok",
       "role": "大市分析",
       "step": "write",
