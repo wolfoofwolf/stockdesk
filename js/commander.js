@@ -11,18 +11,27 @@
 
   var CATALYSTS = [
     {
+      id: 'warsh-2026-10-16',
+      date: '2026-10-16',
+      title: 'Kevin Warsh（Fed 主席）IMF 曼谷 fireside chat',
+      tickers: [],
+      themes: ['大市', '利率'],
+      score: 7,
+      note: '11:30–12:00 HKT；同 Georgieva；10/28 FOMC 前最後公開（其後 blackout）'
+    },
+    {
       id: 'cpi-2026-10-14',
       date: '2026-10-14',
-      title: '美國 CPI（9月）公布 — 後天',
+      title: '美國 CPI（9月）— 已公布（偏熱）',
       tickers: [],
       themes: ['大市', '利率'],
       score: 8,
-      note: '共識 ~3.6%／core ~2.5%；core MoM≤0.2% 利好暫停；熱則加息機率同長息或再抽'
+      note: '已出 Headline +0.6%/+3.7%、Core +0.3%/+2.6%；餘震中'
     },
     {
       id: 'ppi-2026-10-15',
       date: '2026-10-15',
-      title: '美國 PPI',
+      title: '美國 PPI＋零售＋初請 — 今夜 20:30 HKT',
       tickers: [],
       themes: ['大市', '利率'],
       score: 7,

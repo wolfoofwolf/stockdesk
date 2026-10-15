@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-15T09:51:54.000Z",
+  "generatedAt": "2026-10-15T10:58:04.000Z",
   "bot": "Trok",
   "role": "總司令",
   "asOf": "2026-10-15 14:08 HKT",
-  "asOfHKT": "2026-10-15 17:51 HKT",
+  "asOfHKT": "2026-10-15 18:58 HKT",
   "pipeline": {
     "candidates": 442,
     "techPassed": 65,
@@ -15,7 +15,7 @@
     "anchor": "Hold techPass 65 (asOfMarket 10/14); tonight relock on 442 after PPI/cash",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-15 17:51 HKT】\n閘門｜續觸加深｜QQQ −1.10%／SPY −0.26%\nFedWatch｜hold 69.0%／+25bp 31.0%（10月）\n美股／亞洲｜半導續壓；日經 −4.9%／韓綜 −7.6%\n日曆｜PPI＋零售＋初請 20:30 HKT\n管道｜442→65→24→24\n結論｜加深未解；PPI 前勿追動能\nhttps://wolfoofwolf.github.io/stockdesk/?v=gate1015c",
+  "summaryTw": "【總司令｜2026-10-15 18:58 HKT】\n閘門｜續觸加深｜QQQ −1.25%／SPY −0.33%\nFedWatch｜hold 69%／+25bp 31%（10月）\n日曆｜今夜 PPI 20:30｜明早 Warsh 11:30 HKT（IMF 曼谷）\n管道｜442→65→24→24\n結論｜PPI＋Warsh 前勿追動能\nhttps://wolfoofwolf.github.io/stockdesk/?v=warsh1015",
   "catalysts": [
     {
       "id": "ppi-2026-10-15",
@@ -147,19 +147,19 @@
   "premarketGate": {
     "triggered": true,
     "cleared": false,
-    "qqqPct": -1.1,
-    "spyPct": -0.26,
-    "qqqPx": 720.91,
-    "spyPx": 767.6,
+    "qqqPct": -1.25,
+    "spyPct": -0.33,
+    "qqqPx": 719.82,
+    "spyPx": 767.12,
     "qqqClosePrev": 728.95,
-    "qqqEarlierPct": -0.97,
+    "qqqEarlierPct": -1.17,
     "threshold": -0.65,
-    "asOfHKT": "2026-10-15 ~17:48 HKT premarket",
+    "asOfHKT": "2026-10-15 ~18:53 HKT premarket",
     "firedOn": [
       "QQQ"
     ],
-    "driver": "CPI aftershock + semi/AI credit; FedWatch hike odds up",
-    "note": "Still FIRED; deepened -0.97%→-1.10%; SPY not through threshold"
+    "driver": "CPI aftershock + semi/AI credit; PPI ahead",
+    "note": "Still FIRED; deepened -1.17%→-1.25%; SPY not through threshold"
   },
   "cashSession": {
     "asOfHKT": "2026-10-14 final close (read 2026-10-15 08:51 HKT)",
@@ -237,7 +237,7 @@
   },
   "materialChange": {
     "yes": true,
-    "why": "Gate deepened QQQ -1.10%"
+    "why": "Warsh IMF on calendar; gate deepened QQQ -1.25%"
   },
   "note": "Afternoon weekday fire: sync pipeline to pool 442; techPass HOLD 65 until cash bars; PPI D-0 already in morning",
   "techTurnover": {
@@ -293,27 +293,27 @@
     }
   ],
   "brief": {
-    "asOfHKT": "2026-10-15 17:51 HKT",
+    "asOfHKT": "2026-10-15 18:58 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "續觸加深｜QQQ 盤前 −1.10%（$720.91；自 −0.97% 再加深）＞−0.65%；SPY −0.26% 未觸｜SMH −2.08%；VIX 17.55"
+        "value": "續觸加深｜QQQ 盤前 −1.25%（$719.82）＞−0.65%；SPY −0.33% 未觸｜SMH −2.46%；VIX 17.58"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "10/28 hold 69.0%／+25bp 31.0%｜12月 hold 10.3%／+25bp 63.3%／+50bp 26.4% · 10月加息機率再升"
+        "value": "10/28 hold 69.0%／+25bp 31.0%｜12月 hold 8.7%／+25bp 64.2%／+50bp 27.1%"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "半導續壓 MU −3.7%／AMD −2.5%／NVDA −1.8%；CRWV −6.8%｜日經 −4.9%／韓綜 −7.6%／恒指 −1.0%"
+        "value": "半導加深 MU −4.4%／AMD −3.2%／NVDA −2.0%；CRWV −6.8%｜日經 −4.9%／韓綜 −7.6%／恒指 −1.2%"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "今夜 20:30 HKT＝PPI＋零售＋初請｜銀行 SCHW／PNC／USB｜10/28 FOMC"
+        "value": "今夜 20:30 HKT＝PPI＋零售＋初請｜明早 11:30 HKT＝Warsh IMF 曼谷 fireside｜10/28 FOMC"
       },
       {
         "id": "pipeline",
@@ -328,18 +328,47 @@
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "閘門續觸且加深；PPI 前勿追動能"
+        "value": "閘門續觸加深；今夜 PPI，明早 Warsh；勿追動能"
       }
     ]
   },
   "fedWatch": {
-    "asOf": "2026-10-15 ~17:48 HKT (Investing 05:25 EDT)",
+    "asOf": "2026-10-15 ~18:53 HKT (Investing 06:25 EDT)",
     "octHoldPct": 69.0,
     "octHike25Pct": 31.0,
-    "decHoldPct": 10.3,
-    "decHike25Pct": 63.3,
-    "decCumulative50Pct": 26.4,
+    "decHoldPct": 8.7,
+    "decHike25Pct": 64.2,
+    "decCumulative50Pct": 27.1,
     "stance": "hold-dominated",
-    "note": "Oct hold ~69%; hike ~31% rising; Dec still hard"
+    "note": "Oct hold ~69%; Dec path still hike-leaning"
+  },
+  "calendar": {
+    "ppi": {
+      "date": "2026-10-15",
+      "timeHKT": "20:30",
+      "status": "D-0",
+      "street": "PPI + Advance Retail + Initial Claims"
+    },
+    "retail": {
+      "date": "2026-10-15",
+      "timeHKT": "20:30",
+      "status": "D-0",
+      "label": "Advance Retail Sales"
+    },
+    "banks": {
+      "date": "2026-10-15",
+      "label": "SCHW／PNC／USB"
+    },
+    "warsh": {
+      "date": "2026-10-16",
+      "timeHKT": "11:30–12:00",
+      "status": "D-1",
+      "label": "Kevin Warsh（Fed 主席）IMF 曼谷 fireside chat（同 Georgieva）",
+      "note": "Bangkok Queen Sirikit G-02；有直播；10/28 FOMC 前最後公開（其後 blackout）"
+    },
+    "fomc": {
+      "date": "2026-10-28",
+      "label": "FOMC"
+    }
   }
 }
