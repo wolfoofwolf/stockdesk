@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-15T00:57:39.000Z",
+  "generatedAt": "2026-10-15T05:58:44.000Z",
   "bot": "Trok",
-  "role": "資料蒐集＋總司令",
-  "asOf": "2026-10-15 08:51 HKT",
-  "asOfHKT": "2026-10-15 08:57 HKT",
+  "role": "總司令",
+  "asOf": "2026-10-15 13:58 HKT",
+  "asOfHKT": "2026-10-15 13:58 HKT",
   "pipeline": {
-    "candidates": 474,
+    "candidates": 442,
     "techPassed": 65,
     "company": 65,
     "leaders": 24,
     "entry": 24,
     "entryConsider": 24,
     "entryWatch": 0,
-    "anchor": "Hold techPass 65 (asOfMarket 10/14); pool 474 pending 10/15 cash+PPI relock",
+    "anchor": "Hold techPass 65 (asOfMarket 10/14); pool 442 pending 10/15 cash+PPI relock (~21:35 HKT)",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-15 08:57 HKT】\n⚠️ **FedWatch 加息主導** hold~29%／+25bp~71% · 終盤 QQQ **−1.97%**／SPY **−1.08%** · 閘門仍開\n**PPI D-0** 今夜 20:30 HKT（+ Advance Retail）· 亞洲跟跌（日經 −3.4%／韓綜 −5.8%）\n錨 techPass **65**（池 **474**；asOfMarket 10/14）→ 公司 65／領導 24／進場 24 — 等現金盤再重鎖\nTop：**HALO** · **OSCR** · **XOM**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=morn1015b)",
+  "summaryTw": "【總司令｜2026-10-15 13:58 HKT】\n⚠️ **FedWatch 加息主導** hold~29%／+25bp~71% · 終盤 QQQ **−1.97%**／SPY **−1.08%** · 閘門仍開\n**PPI D-0** 今夜 20:30 HKT（+ Advance Retail）· 管道：**池 474→442**（Frok 午後），錨 techPass **65** 未改\n錨 techPass **65**（池 **442**；asOfMarket 10/14）→ 公司 65／領導 24／進場 24 — 今夜現金盤（~21:35）跟 **442** 重鎖\nTop：**HALO** · **OSCR** · **XOM**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=aftn1015)",
   "catalysts": [
     {
       "id": "ppi-2026-10-15",
@@ -28,6 +28,17 @@
       ],
       "score": 9,
       "note": "D-0：08:30 ET＝20:30 HKT（尚未公布）。Street FD MoM +0.5%／YoY 5.4%；core MoM +0.3%／YoY 4.5%。CPI 偏熱後上游敏感。"
+    },
+    {
+      "id": "frok-pool-442-2026-10-15",
+      "date": "2026-10-15",
+      "title": "Frok 候選池 474→442（techPass 仍錨 65）",
+      "tickers": [],
+      "themes": [
+        "管道"
+      ],
+      "score": 7,
+      "note": "午後篩選刷新：宇宙 1164／候選 442（commit 9931956）。Grok techPass 65 未重掃（asOfMarket 10/14）；今夜現金盤重鎖跟 442。"
     },
     {
       "id": "cpi-2026-10-14",
@@ -51,7 +62,7 @@
         "利率"
       ],
       "score": 9,
-      "note": "10月會議：hold ~56.3%／+25bp hike ~43.7%（先前 hold ~79.5%／hike ~20.5%）。晨間無更新 print。"
+      "note": "晨間 GMT EIGHT：10月 hold ~29.1%／+25bp ~70.9%（加息主導；前晚曾 hold~56%/hike~44%）。午後無確認更新 print。"
     },
     {
       "id": "cash-close-deeper-2026-10-14",
@@ -111,7 +122,7 @@
         "利率"
       ],
       "score": 9,
-      "note": "FedWatch hold ~56%／hike ~44%（CPI 後）；同日 Mag7 有 MSFT／GOOGL。"
+      "note": "FedWatch 加息主導（hold~29%／hike~71%）；同日 Mag7 有 MSFT／GOOGL。"
     },
     {
       "id": "mag7-earnings-window",
@@ -143,7 +154,7 @@
     "threshold": -0.65,
     "asOfHKT": "2026-10-14 cash close",
     "driver": "Hot CPI → FedWatch hike-dominated; Asia follow-through",
-    "note": "Finals deeper than early snapshot; 10/15 US premarket not open yet (~16:00 HKT)"
+    "note": "Finals still gate-open; 10/15 US premarket not open yet (~16:00 HKT); afternoon fire ~13:58 HKT"
   },
   "cashSession": {
     "asOfHKT": "2026-10-14 final close (read 2026-10-15 08:51 HKT)",
@@ -177,7 +188,7 @@
     "note": "Final cash closes via yfinance hist; early commander had QQQ −1.06%@735.68 / SPY −0.68%@772.28"
   },
   "overnightSession": {
-    "asOfHKT": "2026-10-15 08:51 HKT",
+    "asOfHKT": "2026-10-15 13:58 HKT",
     "es": {
       "last": 7749.75,
       "pctVsPriorHist": -1.34
@@ -186,65 +197,59 @@
       "last": 29960.75,
       "pctVsPriorHist": -2.7
     },
-    "note": "Futures hist may largely reflect prior cash session; treat overnight as quiet/post-close unless a true overnight print appears"
+    "note": "No fresh overnight/premarket tape at afternoon fire; still post-close quiet until ~16:00 HKT premarket"
   },
   "inputs": {
-    "screenerAsOf": "2026-10-14T15:00:49.790110Z",
+    "screenerAsOf": "2026-10-15T05:53:35.105Z",
     "techAsOf": "2026-10-14T15:09:33.910671Z",
     "techAsOfMarket": "2026-10-14",
-    "macroAsOf": "2026-10-15T00:51:00.000Z",
-    "companyAsOf": "2026-10-14T15:10:05.655035Z",
-    "entryAsOf": "2026-10-14T15:12:43.688Z"
+    "macroAsOf": "2026-10-15T00:56:00.000Z",
+    "companyAsOf": "2026-10-15T05:53:46.815826Z",
+    "entryAsOf": "2026-10-15T05:54:39.607Z"
   },
   "materialChange": {
     "yes": true,
-    "why": "FedWatch hike-dominated (~71% +25bp); PPI D-0 tonight; finals QQQ -1.97%"
+    "why": "Frok pool 474→442 not yet in commander; hold techPass 65; tonight relock follows 442 (PPI D-0 already morning-covered)"
   },
-  "note": "Morning weekday fire: techPass HOLD 65 (cash-open lock); material = final closes + PPI D-0",
+  "note": "Afternoon weekday fire: sync pipeline to pool 442; techPass HOLD 65 until cash bars; PPI D-0 already in morning",
   "techTurnover": {
-    "vs": "2026-10-14 23:13 cash-open lock",
+    "vs": "2026-10-15 08:57 morning",
     "from": 65,
     "to": 65,
     "added": [],
     "removed": [],
-    "note": "No techPass mix change overnight; pattern mix VCP 51／bull_flag 13／cup 1"
+    "note": "No techPass mix change; pattern mix VCP 51／bull_flag 13／cup 1; pool only 474→442"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-14 23:13 HKT",
-      "bot": "Trok",
-      "step": "priorLock",
-      "detail": "Cash-open lock 438→65→65→24→24; early cash QQQ −1.06%/SPY −0.68%"
-    },
-    {
-      "t": "2026-10-15 08:51 HKT",
-      "bot": "Trok",
-      "step": "gather",
-      "detail": "Artifacts unchanged: techPass 65 asOfMarket 10/14; company/leaders/entry 65/24/24; Frok pool 438"
-    },
-    {
-      "t": "2026-10-15 08:51 HKT",
-      "bot": "Trok",
-      "step": "catalysts",
-      "detail": "Final QQQ −1.97%/SPY −1.08%/SMH −3.98%; PPI D-0 20:30 HKT; FedWatch hold 56.3%/hike 43.7% (no fresh print)"
-    },
-    {
-      "t": "2026-10-15 08:51 HKT",
-      "bot": "Trok",
-      "step": "materialChange",
-      "detail": "YES vs 23:13: final cash deeper + PPI → D-0 (not mere clock tick)"
-    },
-    {
-      "t": "2026-10-15 08:51 HKT",
-      "bot": "Trok",
-      "step": "briefing",
-      "detail": "overwrite commander-briefing + commander-run-latest + commander-latest + macro-events PPI D-0"
-    },
-    {
       "t": "2026-10-15 08:57 HKT",
       "bot": "Trok",
-      "step": "overviewMark",
-      "detail": "FedWatch hike + PPI D-0"
+      "step": "priorMorning",
+      "detail": "FedWatch hike + PPI D-0; hold techPass 65; pool 474"
+    },
+    {
+      "t": "2026-10-15 13:53 HKT",
+      "bot": "Frok/Jrok/Arok",
+      "step": "upstream",
+      "detail": "Screener pool 442; company/leaders/entry refresh 65/24/24 on hold techPass 65"
+    },
+    {
+      "t": "2026-10-15 13:58 HKT",
+      "bot": "Trok",
+      "step": "gather",
+      "detail": "tech-scan still 10/14 23:12 lock; candidateCount 438 on disk; live Frok pool 442"
+    },
+    {
+      "t": "2026-10-15 13:58 HKT",
+      "bot": "Trok",
+      "step": "materialChange",
+      "detail": "YES for Pages: commander still showed pool 474; chat = short pipeline sync only"
+    },
+    {
+      "t": "2026-10-15 13:58 HKT",
+      "bot": "Trok",
+      "step": "briefing",
+      "detail": "overwrite commander-briefing + commander-run-latest + commander-latest; pool 442"
     }
   ]
 }
