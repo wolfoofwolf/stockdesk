@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-15T08:19:24.000Z",
+  "generatedAt": "2026-10-15T08:54:44.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-15 16:19 HKT",
+  "asOfHKT": "2026-10-15 16:54 HKT",
   "pipeline": {
     "candidates": 442,
     "techPassed": 65,
@@ -14,9 +14,9 @@
     "anchor": "Hold techPass 65 (asOfMarket 10/14); tonight relock on 442 after PPI/cash",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-15 16:19 HKT】\n閘門｜觸發｜QQQ −1.33%／SPY −0.35%\nFedWatch｜hold 71.3%／+25bp 28.7%（10月）\n美股／亞洲｜半導再開；日經〜−4.4%／韓綜〜−6.8%\n日曆｜PPI＋零售＋初請 20:30 HKT\n管道｜442→65→24→24\n結論｜閘門觸發；PPI 前慎追動能\nhttps://wolfoofwolf.github.io/stockdesk/?v=gate1015",
+  "summaryTw": "【總司令｜2026-10-15 16:54 HKT】\n閘門｜續觸｜QQQ −1.06%／SPY −0.23%\nFedWatch｜hold 70.1%／+25bp 29.9%（10月）\n美股／亞洲｜半導續壓；日經 −4.9%／韓綜 −7.6%\n日曆｜PPI＋零售＋初請 20:30 HKT\n管道｜442→65→24→24\n結論｜略回未解；PPI 前勿追動能\nhttps://wolfoofwolf.github.io/stockdesk/?v=gate1015b",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=gate1015"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=gate1015b"
   },
   "thinkingLog": [
     {
@@ -46,23 +46,28 @@
     {
       "t": "2026-10-15 16:19 HKT",
       "msg": "Premarket gate FIRED QQQ -1.33%; mark overview; hold 65 / pool 442"
+    },
+    {
+      "t": "2026-10-15 16:54 HKT",
+      "msg": "Gate still FIRED QQQ -1.06% (was -1.33%); refresh overview"
     }
   ],
   "premarketGate": {
     "triggered": true,
     "cleared": false,
-    "qqqPct": -1.33,
-    "spyPct": -0.35,
-    "qqqPx": 719.25,
-    "spyPx": 766.92,
+    "qqqPct": -1.06,
+    "spyPct": -0.23,
+    "qqqPx": 721.21,
+    "spyPx": 767.87,
     "qqqClosePrev": 728.95,
+    "qqqEarlierPct": -1.33,
     "threshold": -0.65,
-    "asOfHKT": "2026-10-15 ~16:16 HKT premarket",
+    "asOfHKT": "2026-10-15 ~16:50 HKT premarket",
     "firedOn": [
       "QQQ"
     ],
-    "driver": "CPI aftershock + semis lead; CoreWeave default narrative",
-    "note": "Premarket gate FIRED on QQQ -1.33%; SMH -2.59%; VIX 17.54"
+    "driver": "CPI aftershock + AI/semi credit (CRWV); semis still soft",
+    "note": "Still FIRED on QQQ -1.06% (earlier -1.33%); SPY not through threshold"
   },
   "cashSession": {
     "asOfHKT": "2026-10-14 final close (read 2026-10-15 08:51 HKT)",
@@ -131,14 +136,14 @@
     }
   },
   "fedWatch": {
-    "asOf": "2026-10-15 ~16:16 HKT premarket",
-    "octHoldPct": 71.3,
-    "octHike25Pct": 28.7,
-    "decHoldPct": 11.8,
-    "decHike25Pct": 64.3,
-    "decCumulative50Pct": 24.0,
+    "asOf": "2026-10-15 ~16:50 HKT (Investing 00:45 EDT)",
+    "octHoldPct": 70.1,
+    "octHike25Pct": 29.9,
+    "decHoldPct": 14.1,
+    "decHike25Pct": 62.0,
+    "decCumulative50Pct": 23.8,
     "stance": "hold-dominated",
-    "note": "Oct hold 71.3%; Dec still priced toward +25bp"
+    "note": "Oct hold ~70%; Dec still leans +25bp"
   },
   "calendar": {
     "ppi": {
@@ -163,27 +168,27 @@
     }
   },
   "material": {
-    "asia": "日經約 −4.4%／韓綜約 −6.8%／恒指約 −1.5%",
-    "us": "半導再開：MU −4.5%、AMD −3.5%、NVDA −1.9%、TSM −2.4%；AAPL +0.8%",
-    "tsmc": "TSM 盤前 −2.4%（Q3 beat 餘波）"
+    "asia": "日經 −4.9%／韓綜 −7.6%／恒指 −1.0%",
+    "us": "半導續壓 MU −3.6%／AMD −2.9%／NVDA −1.6%／TSM −1.5%／SMH −2.0%；META −1.4%；AAPL +0.7%",
+    "credit": "CRWV 盤前再 −5.7%（昨 −15.5%；neocloud／債息敘事）"
   },
   "brief": {
-    "asOfHKT": "2026-10-15 16:19 HKT",
+    "asOfHKT": "2026-10-15 16:54 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "觸發｜QQQ 盤前 −1.33%（$719.25）＞−0.65%；SPY −0.35%（$766.92）｜SMH −2.59%；VIX 17.54"
+        "value": "續觸｜QQQ 盤前 −1.06%（$721.21；較 16:16 之 −1.33% 略回）＞−0.65%；SPY −0.23% 未觸｜SMH −2.04%；VIX 17.46"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "10/28 hold 71.3%／+25bp 28.7%｜12月 hold 11.8%／+25bp 64.3%／+50bp 24.0% · hold 主導（10月）"
+        "value": "10/28 hold 70.1%／+25bp 29.9%｜12月 hold 14.1%／+25bp 62.0%／+50bp 23.8% · hold 主導（10月）"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "半導再開 MU −4.5%／AMD −3.5%／NVDA −1.9%／TSM −2.4%；AAPL +0.8%｜日經約 −4.4%／韓綜約 −6.8%／恒指約 −1.5%"
+        "value": "半導續壓 MU −3.6%／AMD −2.9%／NVDA −1.6%／TSM −1.5%；CRWV 再 −5.7%｜日經 −4.9%／韓綜 −7.6%／恒指 −1.0%"
       },
       {
         "id": "calendar",
@@ -203,7 +208,7 @@
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "閘門因 QQQ −1.33% 觸發；PPI 前半導領跌，慎追動能"
+        "value": "閘門仍因 QQQ −1.06% 觸發（略回未解）；PPI 前勿追動能"
       }
     ]
   }
