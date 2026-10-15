@@ -82,10 +82,10 @@
     "type": "PPI",
     "date": "2026-10-15",
     "label": "PPI（2026年9月）—D-0 今日",
-    "status": "upcoming",
+    "status": "printed",
     "consensusHeadlineYoY": 5.3,
     "priorHeadlineYoY": 5.4,
-    "note": "D-0 今日 08:30 ET＝20:30 HKT（尚未公布）。同日 Advance Retail Sales／初請失業金。Street：PPI MoM +0.5%／YoY ~5.3%（前值 0.4%／5.4%）；core MoM +0.3%／YoY ~4.4%。閘門續觸：QQQ 盤前 −1.08%——PPI 前半導／CRWV 仍壓（CRWV 較深跌再回至 −3.5%）。",
+    "note": "偏熱；自 2022 以來最大月升之一。同批零售 +0.8%；初請 199K。",
     "sources": [
       "BLS／Census 日曆",
       "SquawkNews／Investing.com／nowflation calendar 2026-10-15",
@@ -108,7 +108,9 @@
       "Nasdaq QQQ/SPY PRE_MKT 2026-10-15 ~07:52 ET",
       "Yahoo Finance PRE_MKT 2026-10-15 ~19:52 HKT",
       "Investing.com Fed rate monitor 2026-10-15 07:25 EDT"
-    ]
+    ],
+    "actual": "MoM +1.3% / YoY +6.3% / core MoM +0.7%",
+    "consensus": "MoM +0.5% / YoY ~5.3–5.4% / core MoM +0.3%"
   },
   {
     "id": "fomc-2026-10",
