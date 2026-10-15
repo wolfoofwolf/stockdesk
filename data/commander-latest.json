@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-15T00:51:00.000Z",
+  "generatedAt": "2026-10-15T00:57:39.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-15 08:51 HKT",
+  "asOfHKT": "2026-10-15 08:57 HKT",
   "pipeline": {
-    "candidates": 438,
+    "candidates": 474,
     "techPassed": 65,
     "company": 65,
     "leaders": 24,
     "entry": 24,
     "entryConsider": 24,
     "entryWatch": 0,
-    "anchor": "Hold cash-open lock: pool 438 → techPass 65 (asOfMarket 10/14)",
+    "anchor": "Hold techPass 65 (asOfMarket 10/14); pool 474 pending 10/15 cash+PPI relock",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-15 08:51 HKT】\n晨間：池 **438** → techPass **65** → 公司 65／領導 **24**／進場 **24**（可考慮 24）\n終盤更深：QQQ **−1.97%**／SPY **−1.08%** · 閘門仍開 · PPI **D-0** 今夜 20:30 HKT\nFedWatch hold ~56%／hike ~44% · Top 近 pivot：**HALO** · **OSCR** · **XOM**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=morn1015)",
+  "summaryTw": "【總司令｜2026-10-15 08:57 HKT】\n⚠️ **FedWatch 加息主導** hold~29%／+25bp~71% · 終盤 QQQ **−1.97%**／SPY **−1.08%** · 閘門仍開\n**PPI D-0** 今夜 20:30 HKT（+ Advance Retail）· 亞洲跟跌（日經 −3.4%／韓綜 −5.8%）\n錨 techPass **65**（池 **474**；asOfMarket 10/14）→ 公司 65／領導 24／進場 24 — 等現金盤再重鎖\nTop：**HALO** · **OSCR** · **XOM**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=morn1015b)",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=morn1015"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=morn1015b"
   },
   "thinkingLog": [
     {
@@ -26,6 +26,10 @@
     {
       "t": "2026-10-15 08:51 HKT",
       "msg": "Final cash deeper QQQ −1.97%/SPY −1.08%; PPI D-0 tonight; hold techPass 65"
+    },
+    {
+      "t": "2026-10-15 08:57 HKT",
+      "msg": "Mark overview: FedWatch hike-dominated + PPI D-0; hold techPass 65; pool 474"
     }
   ],
   "premarketGate": {
@@ -33,10 +37,12 @@
     "cleared": false,
     "qqqPct": -1.97,
     "spyPct": -1.08,
+    "qqqPx": 728.95,
+    "spyPx": 769.6,
     "threshold": -0.65,
-    "asOfHKT": "2026-10-14 final cash close",
-    "driver": "CPI hotter → final cash deeper; FedWatch hold~56%/hike~44%; PPI D-0 tonight",
-    "note": "Gate still open on final closes QQQ −1.97%/SPY −1.08% (vs early −1.06%/−0.68%)"
+    "asOfHKT": "2026-10-14 cash close",
+    "driver": "Hot CPI → FedWatch hike-dominated; Asia follow-through",
+    "note": "Finals deeper than early snapshot; 10/15 US premarket not open yet (~16:00 HKT)"
   },
   "cashSession": {
     "asOfHKT": "2026-10-14 final close (read 2026-10-15 08:51 HKT)",
@@ -80,5 +86,27 @@
       "pctVsPriorHist": -2.7
     },
     "note": "Futures hist may largely reflect prior cash session; treat overnight as quiet/post-close unless a true overnight print appears"
+  },
+  "fedWatch": {
+    "asOf": "2026-10-15 morning (GMT EIGHT)",
+    "octHoldPct": 29.1,
+    "octHike25Pct": 70.9,
+    "decCumulative50Pct": 58.7,
+    "stance": "hike-dominated",
+    "note": "Was hold~56%/hike~44% evening prior; now hike leads into PPI D-0"
+  },
+  "calendar": {
+    "ppi": {
+      "date": "2026-10-15",
+      "timeHKT": "20:30",
+      "status": "D-0",
+      "street": "PPI MoM +0.5% / YoY ~5.3%"
+    },
+    "retail": {
+      "date": "2026-10-15",
+      "timeHKT": "20:30",
+      "status": "D-0",
+      "label": "Advance Retail Sales"
+    }
   }
 }
