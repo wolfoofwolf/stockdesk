@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T15:13:26.000Z",
+  "generatedAt": "2026-10-15T00:51:00.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-14 23:13 HKT",
+  "asOfHKT": "2026-10-15 08:51 HKT",
   "pipeline": {
     "candidates": 438,
     "techPassed": 65,
@@ -11,59 +11,74 @@
     "entry": 24,
     "entryConsider": 24,
     "entryWatch": 0,
-    "anchor": "Cash-open relock: pool 438 → techPass 65 (asOfMarket 10/14)",
+    "anchor": "Hold cash-open lock: pool 438 → techPass 65 (asOfMarket 10/14)",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-14 23:13 HKT】\n現金盤重鎖：池 **438** → techPass **65** → 公司 65／領導 **24**／進場 **24**（可考慮 24）\n閘門後現金更深：QQQ −1.06%／SPY −0.68% · FedWatch hold ~56%／hike ~44%\nTop 近 pivot：**HALO** · **OSCR** · **XOM**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=lock1014)",
+  "summaryTw": "【總司令｜2026-10-15 08:51 HKT】\n晨間：池 **438** → techPass **65** → 公司 65／領導 **24**／進場 **24**（可考慮 24）\n終盤更深：QQQ **−1.97%**／SPY **−1.08%** · 閘門仍開 · PPI **D-0** 今夜 20:30 HKT\nFedWatch hold ~56%／hike ~44% · Top 近 pivot：**HALO** · **OSCR** · **XOM**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=morn1015)",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=lock1014"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=morn1015"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-14 20:50 HKT",
-      "msg": "Gate FIRED QQQ -0.69%; hold 83 until cash-open"
-    },
-    {
-      "t": "2026-10-14 22:56 HKT",
-      "msg": "Cash deeper QQQ -1.06%; FedWatch hike ~44%; hold 83 pending 502"
-    },
-    {
       "t": "2026-10-14 23:13 HKT",
       "msg": "Synced pipeline 438/65/65/24/24 after cash-open relock"
+    },
+    {
+      "t": "2026-10-15 08:51 HKT",
+      "msg": "Final cash deeper QQQ −1.97%/SPY −1.08%; PPI D-0 tonight; hold techPass 65"
     }
   ],
   "premarketGate": {
     "triggered": true,
     "cleared": false,
-    "qqqPct": -1.06,
-    "spyPct": -0.68,
+    "qqqPct": -1.97,
+    "spyPct": -1.08,
     "threshold": -0.65,
-    "asOfHKT": "2026-10-14 cash session",
-    "driver": "CPI hotter → cash selloff; FedWatch hold~56%/hike~44%",
-    "note": "Gate stayed open into cash; techPass relocked 83→65 on pool 438"
+    "asOfHKT": "2026-10-14 final cash close",
+    "driver": "CPI hotter → final cash deeper; FedWatch hold~56%/hike~44%; PPI D-0 tonight",
+    "note": "Gate still open on final closes QQQ −1.97%/SPY −1.08% (vs early −1.06%/−0.68%)"
   },
   "cashSession": {
-    "asOfHKT": "2026-10-14 22:56 HKT",
+    "asOfHKT": "2026-10-14 final close (read 2026-10-15 08:51 HKT)",
     "qqq": {
-      "last": 735.68,
+      "last": 728.95,
       "prevClose": 743.57,
-      "pct": -1.06
+      "pct": -1.97
     },
     "spy": {
-      "last": 772.28,
+      "last": 769.6,
       "prevClose": 777.57,
-      "pct": -0.68
+      "pct": -1.08
     },
-    "bacPct": -5.5,
-    "msPct": -3.2,
-    "smhPct": -2.09,
-    "asmlPct": 0.14,
+    "smhPct": -3.98,
+    "bacPct": -4.76,
+    "msPct": -2.75,
+    "asmlPct": -3.94,
+    "vix": {
+      "last": 16.87,
+      "pct": 10.5
+    },
+    "haloPct": 6.57,
+    "xomPct": 1.68,
+    "oscrLast": 34.32,
     "fedWatch": {
       "holdPct": 56.3,
       "hikePct": 43.7,
       "priorHoldPct": 79.5,
       "priorHikePct": 20.5
     },
-    "note": "Early cash session (~1.5h after open); closes not final. Quotes via yfinance."
+    "note": "Final cash closes via yfinance hist; early commander had QQQ −1.06%@735.68 / SPY −0.68%@772.28"
+  },
+  "overnightSession": {
+    "asOfHKT": "2026-10-15 08:51 HKT",
+    "es": {
+      "last": 7749.75,
+      "pctVsPriorHist": -1.34
+    },
+    "nq": {
+      "last": 29960.75,
+      "pctVsPriorHist": -2.7
+    },
+    "note": "Futures hist may largely reflect prior cash session; treat overnight as quiet/post-close unless a true overnight print appears"
   }
 }
