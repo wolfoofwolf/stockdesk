@@ -1,7 +1,7 @@
 {
-  "title": "大市更新｜閘門續觸・QQQ 盤前 −1.25%・半導／CRWV 再壓・PPI D-0（Drok）",
-  "asOf": "2026-10-15T10:53:00.000Z",
-  "updatedAt": "2026-10-15T10:53:00.000Z",
+  "title": "大市更新｜閘門續觸・QQQ 盤前 −1.19%・半導仍壓・CRWV 稍回・PPI D-0（Drok）",
+  "asOf": "2026-10-15T11:22:00.000Z",
+  "updatedAt": "2026-10-15T11:22:00.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -46,7 +46,7 @@
       "consensusCoreYoY": 2.5,
       "priorHeadlineYoY": 3.4,
       "priorCoreYoY": 2.4,
-      "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY；Core +0.3% MoM／+2.6% YoY——偏熱。10/14 終盤：QQQ −1.97%（$728.95）／SPY −1.08%（$769.60）。10/15 盤前閘門續觸：QQQ −1.25%（較 18:21 之 −1.17%）／SPY −0.33%——CPI 餘震＋半導／AI 債壓加深；FedWatch hold 69%／hike 31%。",
+      "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY；Core +0.3% MoM／+2.6% YoY——偏熱。10/14 終盤：QQQ −1.97%（$728.95）／SPY −1.08%（$769.60）。10/15 盤前閘門續觸：QQQ −1.19%（$720.30；較 18:53 −1.25% 略回）／SPY −0.30%——CPI 餘震＋半導／AI 債；FedWatch hold 69%／hike 31%。",
       "sources": [
         "BLS CPI Sep 2026 via AP／The Hill／TradingEconomics 2026-10-14",
         "Yahoo Finance QQQ/SPY/Mag7/SMH close 2026-10-14",
@@ -67,7 +67,12 @@
         "Yahoo Finance QQQ/SPY/SMH/Mag7/CRWV PRE_MKT 2026-10-15 ~18:21 HKT",
         "MarketDrip FedWatch 2026-10-15 10:18 UTC",
         "Yahoo Finance QQQ/SPY/SMH/Mag7/CRWV PRE_MKT 2026-10-15 ~18:53 HKT",
-        "Investing.com Fed rate monitor 2026-10-15 06:25 EDT"
+        "Investing.com Fed rate monitor 2026-10-15 06:25 EDT",
+        "Yahoo Finance QQQ/SPY/SMH/Mag7/CRWV PRE_MKT 2026-10-15 ~19:22 HKT",
+        "Investing.com Fed rate monitor 2026-10-15 premarket (69.0/31.0; Dec 10.0/63.5/26.5)",
+        "Yahoo NQ=F/ES=F/^VIX 2026-10-15 ~19:22 HKT",
+        "Reuters/Investing Nasdaq futures AI debt/CoreWeave 2026-10-15",
+        "WSJ premarket movers CoreWeave/TSMC/chips 2026-10-15"
       ],
       "actualHeadlineYoY": 3.7,
       "actualHeadlineMoM": 0.6,
@@ -82,7 +87,7 @@
       "status": "upcoming",
       "consensusHeadlineYoY": 5.3,
       "priorHeadlineYoY": 5.4,
-      "note": "D-0 今日 08:30 ET＝20:30 HKT（尚未公布）。同日 Advance Retail Sales／初請失業金。Street：PPI MoM +0.5%／YoY ~5.3%（前值 0.4%／5.4%）；core MoM +0.3%／YoY ~4.4%。閘門續觸：QQQ 盤前 −1.25%——PPI 前半導／CRWV 再壓，上游若再熱將放大風險。",
+      "note": "D-0 今日 08:30 ET＝20:30 HKT（尚未公布）。同日 Advance Retail Sales／初請失業金。Street：PPI MoM +0.5%／YoY ~5.3%（前值 0.4%／5.4%）；core MoM +0.3%／YoY ~4.4%。閘門續觸：QQQ 盤前 −1.19%——PPI 前半導／CRWV 仍壓（CRWV 較深跌稍回）。",
       "sources": [
         "BLS／Census 日曆",
         "SquawkNews／Investing.com／nowflation calendar 2026-10-15",
@@ -99,7 +104,9 @@
         "MarketDrip FedWatch 2026-10-15 10:18 UTC",
         "Yahoo Finance PRE_MKT 2026-10-15 ~18:21 HKT",
         "Yahoo Finance PRE_MKT 2026-10-15 ~18:53 HKT",
-        "Investing.com Fed rate monitor 2026-10-15 06:25 EDT"
+        "Investing.com Fed rate monitor 2026-10-15 06:25 EDT",
+        "Yahoo Finance PRE_MKT 2026-10-15 ~19:22 HKT",
+        "Investing.com Fed rate monitor 2026-10-15 premarket"
       ]
     },
     {
@@ -108,7 +115,19 @@
       "date": "2026-10-28",
       "label": "FOMC 決定（10/27–28）",
       "status": "upcoming",
-      "note": "聲明約 14:00 ET。FedWatch（Investing 06:25 EDT）：hold 69.0%／+25bp 31.0%。十二月：hold 8.7%／+25bp 64.2%／+50bp 27.1%。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META／TSLA 10/21。"
+      "note": "聲明約 14:00 ET。FedWatch（Investing 盤前）：hold 69.0%／+25bp 31.0%。十二月：hold 10.0%／+25bp 63.5%／+50bp 26.5%。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META／TSLA 10/21。"
+    },
+    {
+      "id": "warsh-imf-bangkok-2026-10-16",
+      "type": "FedSpeak",
+      "date": "2026-10-16",
+      "label": "Warsh×Georgieva IMF 曼谷 fireside",
+      "status": "upcoming",
+      "note": "11:30 HKT；10/28 FOMC 前最後公開露面（Kevin Warsh）。閘門日曆須標時間／場地／是否 blackout 前最後一場。",
+      "sources": [
+        "StockDesk macro memory 2026-10-15",
+        "Dow Jones/calendar 2026-10-15"
+      ]
     }
   ],
   "nfpReport": {
@@ -167,17 +186,17 @@
     "summaryTw": "非農就業（2026年9月） @ 2026-10-02\n數據：弱過預期（actual < consensus）\n當日大盤：+0.74%\n留意：數據偏弱但大市上升（利好降息／軟著陸交易）\n收市K線：膠住／十字味：實體細，方向未決；收市創近期新高／破阻力；企穩 SMA20 上方；企穩 SMA50 上方\n其後4日：D+1 0.67%(修復／延續上升)，D+2 0.55%(修復／延續上升)，D+3 -0.24%(失地／回吐)，D+4 -0.42%(失地／回吐)；其後 10/9 +0.60%、10/12 -0.06%"
   },
   "watch": {
-    "【閘門續觸】QQQ 盤前 −1.25%（$719.82）＞−0.65%；SPY 盤前 −0.33%（$767.12）；較 18:21 −1.17% 再加深": true,
-    "【半導／Mag7 盤前】SMH −2.46%；MU −4.42%、AMD −3.24%、NVDA −1.97%；META −1.13%；AAPL +0.88%": true,
-    "【CRWV】盤前 −6.81%（$61.30）；AI／neocloud 債敘事續壓": true,
-    "【FedWatch】10月 hold 69.0%／hike 31.0%；12月 hold 8.7%／路徑偏加息（Investing 06:25 EDT）": true,
-    "【亞洲收市】日經 −4.90%；韓綜 −7.57%；恒指 −1.16%": true,
-    "【期貨／波幅】NQ −1.23%；ES −0.35%；VIX 17.58；US10Y ~5.19%": true,
-    "【日曆】今夜 20:30 HKT＝PPI＋零售＋初請；銀行業績今日；10/28 FOMC": true,
-    "【地緣】荷莫茲海峽貨船觸雷／中東風險＋亞太晶片下挫": true
+    "【閘門續觸】QQQ 盤前 −1.19%（$720.30）＞−0.65%；SPY 盤前 −0.30%（$767.35）；較 18:53 −1.25% 略回": true,
+    "【半導／Mag7 盤前】SMH −2.45%；MU −4.42%、AMD −3.12%、NVDA −1.59%；META −1.06%；AAPL +0.79%": true,
+    "【CRWV】盤前 −4.53%（$62.80）；較 18:53 −6.8% 稍回；AI／neocloud 債敘事續壓": true,
+    "【FedWatch】10月 hold 69.0%／hike 31.0%；12月 hold 10.0%／路徑偏加息（Investing 盤前）": true,
+    "【亞洲收市】日經 −4.90%；韓綜 −7.57%；恒指 −1.03%": true,
+    "【期貨／波幅】NQ −1.24%；ES −0.29%；VIX 17.63": true,
+    "【日曆】今夜 20:30 HKT＝PPI＋零售＋初請；明 Warsh 曼谷；銀行今日；10/28 FOMC": true,
+    "【地緣】荷莫茲／中東風險＋亞太晶片下挫": true
   },
-  "mag7Note": "盤前～18:53 HKT：NVDA −1.97%、AMD −3.24%、MU −4.42%、META −1.13%、AAPL +0.88%；SMH −2.46%；CRWV −6.81%。",
-  "summaryTw": "【閘門續觸】QQQ 盤前 −1.25%（$719.82；昨收 $728.95）＞閾值 −0.65%；SPY 盤前 −0.33%（$767.12）。較 18:21 之 −1.17% 再加深。SMH −2.46%；NQ −1.23%；VIX 17.58；10Y ~5.19%。\n【主因】昨 CPI 偏熱餘震＋半導／AI 債壓加深：MU −4.42%、AMD −3.24%、NVDA −1.97%；META −1.13%；AAPL +0.88% 分化。CRWV 盤前 −6.81%（$61.30）。荷莫茲貨船觸雷＋亞太晶片下挫加重風險偏好轉弱。\n【FedWatch】10/28 hold 69.0%／+25bp 31.0%；12月 hold 8.7%／+25bp 64.2%／+50bp 27.1%（Investing 06:25 EDT）。\n【亞洲】日經 −4.90%；韓綜 −7.57%；恒指 −1.16%。\n【日曆放大】今夜 20:30 HKT＝PPI＋零售＋初請；銀行 SCHW／PNC／USB 等今日；10/28 FOMC。",
+  "mag7Note": "盤前～19:22 HKT：NVDA −1.59%、AMD −3.12%、MU −4.42%、META −1.06%、AAPL +0.79%；SMH −2.45%；CRWV −4.53%。",
+  "summaryTw": "【閘門續觸】QQQ 盤前 −1.19%（$720.30；昨收 $728.95）＞閾值 −0.65%；SPY 盤前 −0.30%（$767.35）。較 18:53 之 −1.25% 略回，仍過閘。SMH −2.45%；NQ −1.24%；VIX 17.63。\n【主因】昨 CPI 偏熱餘震＋半導／AI 債壓：MU −4.42%、AMD −3.12%、NVDA −1.59%；META −1.06%；AAPL +0.79% 分化。CRWV 盤前 −4.53%（$62.80；較 −6.8% 稍回）。TSMC 謹慎展望＋亞太晶片下挫。\n【FedWatch】10/28 hold 69.0%／+25bp 31.0%；12月 hold 10.0%／+25bp 63.5%／+50bp 26.5%（Investing 盤前）。\n【亞洲】日經 −4.90%；韓綜 −7.57%；恒指 −1.03%。\n【日曆放大】今夜 20:30 HKT＝PPI＋零售＋初請；銀行今日；明 Warsh 曼谷（FOMC 前最後公開）；10/28 FOMC。",
   "thinkingLog": [
     {
       "t": "2026-10-12T01:59:09.819Z",
@@ -3182,6 +3201,11 @@
         },
         "note": "QQQ −1.25%／SMH −2.46%／CRWV −6.81%；較 18:21 加深"
       }
+    },
+    {
+      "at": "2026-10-15T11:22:00.000Z",
+      "tag": "premarket-gate-1922",
+      "note": "Gate FIRED QQQ −1.19% (Yahoo $720.30); SPY −0.30%. Vs 18:53 QQQ −1.25% slight bounce; CRWV −6.8%→−4.5%. FedWatch Investing 69/31. Material continuation brief + Pages refresh."
     }
   ],
   "liveSync": "poll data/macro-run-latest.json every 15s",
@@ -3194,12 +3218,12 @@
       "結論"
     ],
     "sections": {
-      "閘門": "續觸｜QQQ 盤前 −1.25%（$719.82 vs 收 $728.95）＞−0.65%；SPY 盤前 −0.33%（$767.12）未觸。較 18:21 之 −1.17% 再加深，仍過閘。SMH −2.46%；NQ −1.23%；VIX 17.58。",
-      "FedWatch": "10/28 hold 69.0%／+25bp 31.0%（Investing 06:25 EDT）；12月 hold 8.7%／+25bp 64.2%／+50bp 27.1%——較 18:21 MarketDrip 68/32 略回 69/31，年末路徑仍偏加息。",
-      "美股／亞洲": "半導續壓加深：MU −4.4%、AMD −3.2%、NVDA −2.0%、SMH −2.5%、TSM −2.1%；META −1.1%；AAPL +0.9% 分化。CRWV 盤前 −6.8%（$61.30；AI／neocloud 債敘事）。SKHY −7.4%。亞洲：日經 −4.9%、韓綜 −7.6%、恒指 −1.2%。外加荷莫茲海峽貨船觸雷風險＋亞太晶片下挫。",
-      "日曆": "放大｜今夜 20:30 HKT＝PPI＋Advance Retail Sales＋初請；銀行 SCHW／PNC／USB 今日；10/28 FOMC。",
-      "結論": "閘門續觸且再加深（QQQ −1.17%→−1.25%；SMH −2.0%→−2.5%；CRWV −5.9%→−6.8%）；CPI 餘震＋半導／AI 債＋PPI 前勿追動能。"
+      "閘門": "續觸｜QQQ 盤前 −1.19%（$720.30 vs 收 $728.95）＞−0.65%；SPY 盤前 −0.30%（$767.35）未觸。較 18:53 之 −1.25% 略回，仍過閘。SMH −2.45%；NQ −1.24%；VIX 17.63。",
+      "FedWatch": "10/28 hold 69.0%／+25bp 31.0%（Investing 盤前）；12月 hold 10.0%／+25bp 63.5%／+50bp 26.5%——較 18:53 之 8.7／64.2／27.1 略移，年末路徑仍偏加息。",
+      "美股／亞洲": "半導續壓：MU −4.4%、AMD −3.1%、NVDA −1.6%、SMH −2.4%、TSM −2.4%、INTC −3.9%；META −1.1%；AAPL +0.8% 分化。CRWV 盤前 −4.5%（$62.80；較 18:53 −6.8% 稍回；AI／neocloud 債敘事）。亞洲：日經 −4.9%、韓綜 −7.6%、恒指 −1.0%。TSMC 業績後 ADR 仍壓；荷莫茲風險＋亞太晶片下挫續在。",
+      "日曆": "放大｜今夜 20:30 HKT＝PPI＋Advance Retail Sales＋初請；銀行 SCHW／PNC／USB 今日；明 10/16 11:30 HKT Warsh×Georgieva IMF 曼谷（10/28 FOMC 前最後公開）；10/28 FOMC。",
+      "結論": "閘門續觸（QQQ −1.25%→−1.19%；CRWV −6.8%→−4.5% 稍回）；半導／AI 債主軸未解；PPI 前勿追動能。"
     },
-    "chatTw": "【Drok｜大市分析｜閘門續觸｜10/15 盤前 ~18:53 HKT】\n閘門｜續觸｜QQQ 盤前 −1.25%（$719.82 vs 收 $728.95）＞−0.65%；SPY 盤前 −0.33%（$767.12）未觸。較 18:21 之 −1.17% 再加深，仍過閘。SMH −2.46%；NQ −1.23%；VIX 17.58。\nFedWatch｜10/28 hold 69.0%／+25bp 31.0%（Investing 06:25 EDT）；12月 hold 8.7%／+25bp 64.2%／+50bp 27.1%——較 18:21 MarketDrip 68/32 略回 69/31，年末路徑仍偏加息。\n美股／亞洲｜半導續壓加深：MU −4.4%、AMD −3.2%、NVDA −2.0%、SMH −2.5%、TSM −2.1%；META −1.1%；AAPL +0.9% 分化。CRWV 盤前 −6.8%（$61.30；AI／neocloud 債敘事）。SKHY −7.4%。亞洲：日經 −4.9%、韓綜 −7.6%、恒指 −1.2%。外加荷莫茲海峽貨船觸雷風險＋亞太晶片下挫。\n日曆｜放大｜今夜 20:30 HKT＝PPI＋Advance Retail Sales＋初請；銀行 SCHW／PNC／USB 今日；10/28 FOMC。\n結論｜閘門續觸且再加深（QQQ −1.17%→−1.25%；SMH −2.0%→−2.5%；CRWV −5.9%→−6.8%）；CPI 餘震＋半導／AI 債＋PPI 前勿追動能。\n\nPages：https://wolfoofwolf.github.io/stockdesk/"
+    "chatTw": "【Drok｜大市分析｜閘門續觸｜10/15 盤前 ~19:22 HKT】\n閘門｜續觸｜QQQ 盤前 −1.19%（$720.30 vs 收 $728.95）＞−0.65%；SPY 盤前 −0.30%（$767.35）未觸。較 18:53 之 −1.25% 略回，仍過閘。SMH −2.45%；NQ −1.24%；VIX 17.63。\nFedWatch｜10/28 hold 69.0%／+25bp 31.0%（Investing 盤前）；12月 hold 10.0%／+25bp 63.5%／+50bp 26.5%——較 18:53 之 8.7／64.2／27.1 略移，年末路徑仍偏加息。\n美股／亞洲｜半導續壓：MU −4.4%、AMD −3.1%、NVDA −1.6%、SMH −2.4%、TSM −2.4%、INTC −3.9%；META −1.1%；AAPL +0.8% 分化。CRWV 盤前 −4.5%（$62.80；較 18:53 −6.8% 稍回；AI／neocloud 債敘事）。亞洲：日經 −4.9%、韓綜 −7.6%、恒指 −1.0%。TSMC 業績後 ADR 仍壓；荷莫茲風險＋亞太晶片下挫續在。\n日曆｜放大｜今夜 20:30 HKT＝PPI＋Advance Retail Sales＋初請；銀行 SCHW／PNC／USB 今日；明 10/16 11:30 HKT Warsh×Georgieva IMF 曼谷（10/28 FOMC 前最後公開）；10/28 FOMC。\n結論｜閘門續觸（QQQ −1.25%→−1.19%；CRWV −6.8%→−4.5% 稍回）；半導／AI 債主軸未解；PPI 前勿追動能。\n\nPages：https://wolfoofwolf.github.io/stockdesk/"
   }
 }
