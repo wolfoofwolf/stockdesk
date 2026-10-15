@@ -40,13 +40,14 @@
     "consensusCoreYoY": 2.5,
     "priorHeadlineYoY": 3.4,
     "priorCoreYoY": 2.4,
-    "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY；Core +0.3% MoM／+2.6% YoY——偏熱。終盤加深：QQQ −1.97%（$728.95）／SPY −1.08%（$769.60）（早盤曾報 ~−1.13%/−0.77%）。FedWatch 隔夜再急轉：10月 hold ~56.3%→29.1%、+25bp ~43.7%→70.9%（GMT EIGHT 15/10）。",
+    "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY；Core +0.3% MoM／+2.6% YoY——偏熱。10/14 終盤加深：QQQ −1.97%（$728.95）／SPY −1.08%（$769.60）。FedWatch 晨報 hold ~29.1%／+25bp ~70.9%（GMT EIGHT 1534460）；午後回擺 hold ~66.8%／+25bp ~33.2%（GMT EIGHT 1557001）——hold 再成主導。",
     "sources": [
       "BLS CPI Sep 2026 via AP／The Hill／TradingEconomics 2026-10-14",
       "Yahoo Finance QQQ/SPY/Mag7/SMH close 2026-10-14",
       "CNBC session wrap 2026-10-14",
       "CME FedWatch via GMT EIGHT flash 1534460 2026-10-15",
-      "BAC／MS Q3 releases 2026-10-14"
+      "BAC／MS Q3 releases 2026-10-14",
+      "CME FedWatch via GMT EIGHT flash 1557001 2026-10-15 afternoon"
     ],
     "actualHeadlineYoY": 3.7,
     "actualHeadlineMoM": 0.6,
@@ -61,7 +62,7 @@
     "status": "upcoming",
     "consensusHeadlineYoY": 5.3,
     "priorHeadlineYoY": 5.4,
-    "note": "D-0 今日 08:30 ET＝20:30 HKT（尚未公布）。同日 Advance Retail Sales／初請失業金。Street：PPI MoM +0.5%／YoY ~5.3%（前值 0.4%／5.4%）；core MoM +0.3%／YoY ~4.4%。Continuum 屋企：overall MoM +0.6%（能源主導）。Retail Sales MoM 共識 ~+0.3%／ex-autos ~+0.5%。CPI 偏熱＋FedWatch 加息主導後，上游敏感度升。",
+    "note": "D-0 今日 08:30 ET＝20:30 HKT（尚未公布）。同日 Advance Retail Sales／初請失業金。Street 共識未見明顯修訂：PPI MoM +0.5%／YoY ~5.3%（前值 0.4%／5.4%）；core MoM +0.3%／YoY ~4.4%。Continuum 屋企 overall MoM +0.6%。Retail Sales MoM 共識 ~+0.3%／ex-autos ~+0.5%。FedWatch 午後回擺 hold 主導後，PPI 仍為上游確認關鍵。",
     "sources": [
       "BLS／Census 日曆",
       "SquawkNews／Investing.com／nowflation calendar 2026-10-15",
@@ -75,6 +76,6 @@
     "date": "2026-10-28",
     "label": "FOMC 決定（10/27–28）",
     "status": "upcoming",
-    "note": "聲明約 14:00 ET。CPI 偏熱後 FedWatch 再急轉：hold ~29.1%／+25bp ~70.9%（10/14 午後曾 ~56.3/43.7；先前 ~79–81% hold）。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META／TSLA 10/21。"
+    "note": "聲明約 14:00 ET。FedWatch 午後回擺：hold ~66.8%／+25bp ~33.2%（晨報曾 ~29.1/70.9；10/14 午後曾 ~56.3/43.7）。十二月：hold ~9.1%／累計 +25bp ~62.2%／+50bp ~28.7%。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META／TSLA 10/21。"
   }
 ]
