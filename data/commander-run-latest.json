@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-15T15:10:00.000Z",
+  "generatedAt": "2026-10-15T15:12:00.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOf": "2026-10-15 15:10 HKT",
-  "asOfHKT": "2026-10-15 23:10 HKT",
+  "asOf": "2026-10-15 15:12 HKT",
+  "asOfHKT": "2026-10-15 23:12 HKT",
   "pipeline": {
     "candidates": 529,
     "techPassed": 80,
     "company": 80,
     "leaders": 28,
-    "entry": 23,
-    "entryConsider": 23,
+    "entry": 28,
+    "entryConsider": 28,
     "entryWatch": 0,
-    "anchor": "Evening fire 10/15: 529→80→80→28→23(stale); wait Arok entry",
-    "downstreamStale": true
+    "anchor": "Evening locked 10/15: 529→80→80→28→28; downstream fresh (Arok cleared)",
+    "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-15 23:10 HKT】\n閘門｜續觸｜QQQ −0.68%（開市 −1.40% 回升）／SPY +0.01%\nFedWatch｜hold 70.1%／+25bp 29.9%｜12月 hold 12.5%／+25bp 63.0%／+50bp 24.5%\n美股／亞洲｜盤中回升｜SMH −2.1%／AMD −4.3%／CRWV −5.0%｜日經 −4.9%／韓綜 −7.6%\n日曆｜PPI 已出偏熱｜明 11:30 Warsh IMF（D-0）｜10/28 FOMC\n管道｜529→80→80→28→23(stale)｜entry 待 Arok\n結論｜閘門續觸但回升；晚間池重鎖；勿追反彈\nhttps://wolfoofwolf.github.io/stockdesk/?v=eve1015",
+  "summaryTw": "【總司令｜2026-10-15 23:12 HKT】\n閘門｜續觸｜QQQ −0.68%（開市 −1.40% 回升）／SPY +0.01%\nFedWatch｜hold 70.1%／+25bp 29.9%｜12月 hold 12.5%／+25bp 63.0%／+50bp 24.5%\n美股／亞洲｜盤中回升｜SMH −2.1%／AMD −4.3%／CRWV −5.0%｜日經 −4.9%／韓綜 −7.6%\n日曆｜PPI 已出偏熱｜明 11:30 Warsh IMF（D-0）｜10/28 FOMC\n管道｜529→80→80→28→28｜已解 stale\n結論｜閘門續觸但回升；晚間全日管道已鎖；勿追反彈\nhttps://wolfoofwolf.github.io/stockdesk/?v=eve1015",
   "catalysts": [
     {
       "id": "evening-rescan-529-80-2026-10-15",
       "date": "2026-10-15",
-      "title": "晚間重鎖：池 442→529／techPass 71→80／領導股 23→28",
+      "title": "晚間重鎖：池 442→529／techPass 71→80／領導股＋進場 23→28",
       "tickers": [
         "RELX",
         "SAP",
@@ -33,7 +33,7 @@
         "管道"
       ],
       "score": 9,
-      "note": "Frok 宇宙 1174／候選 529；Grok evening rescan techPass 80（VCP 71／bull_flag 9）；+17/−8／kept 63；Jrok 公司 80／領導股 28；entry 仍錨舊 71→23 → downstreamStale。"
+      "note": "Frok 宇宙 1174／候選 529；Grok techPass 80（VCP 71／bull_flag 9）；+17/−8／kept 63；Jrok 公司 80／領導股 28；Arok 進場 28 → downstream fresh。"
     },
     {
       "id": "gate-bounce-2026-10-15",
@@ -208,15 +208,15 @@
     "techAsOfMarket": "2026-10-15",
     "macroAsOf": "2026-10-15T15:00:00.000Z",
     "companyAsOf": "2026-10-15T15:06:24.110246Z",
-    "entryAsOf": "2026-10-15T15:00:59.126Z",
-    "entryUpstreamTechPassed": 71,
-    "note": "entry still on cash-open 71→23; downstreamStale"
+    "entryAsOf": "2026-10-15T15:09:39.624Z",
+    "entryUpstreamTechPassed": 80,
+    "note": "entry refreshed to techPass 80 / leaders 28; downstreamStale cleared"
   },
   "materialChange": {
     "yes": true,
-    "why": "pool 442→529; techPass 71→80 (+17/−8/kept 63); leaders 23→28; entry stale; gate QQQ −1.40%→−0.68% still fired; Warsh D-0 tomorrow"
+    "why": "pool 442→529; techPass 71→80 (+17/−8/kept 63); leaders/entry 23→28; gate QQQ −1.40%→−0.68% still fired; Warsh D-0 tomorrow; stale cleared"
   },
-  "note": "Evening weekday fire ~23:10 HKT: rewrite commander after Frok 529 + Grok 80 + Jrok 80/28; entry lag waiting Arok; Pages ?v=eve1015",
+  "note": "Evening fire ~23:12 HKT: full lock after Arok entry 28; Pages ?v=eve1015",
   "techTurnover": {
     "vs": "2026-10-15 ~21:52 cash-open techPass 71 (pool 442)",
     "from": 71,
@@ -289,10 +289,16 @@
       "bot": "Trok",
       "step": "eveningFire",
       "detail": "material YES; pipeline 529→80→80→28→23(stale); rewrite briefing+commander; wait Arok"
+    },
+    {
+      "t": "2026-10-15 23:12 HKT",
+      "bot": "Trok",
+      "step": "clearStale",
+      "detail": "Arok entry 28 landed mid-fire; reconcile commander 529→80→80→28→28 downstreamStale false"
     }
   ],
   "brief": {
-    "asOfHKT": "2026-10-15 23:10 HKT",
+    "asOfHKT": "2026-10-15 23:12 HKT",
     "sections": [
       {
         "id": "gate",
@@ -317,17 +323,17 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **529** → techPass **80** → 公司 **80** → 領導股 **28** → 進場 **23**（stale 待 Arok｜可考慮 23／觀望 0）"
+        "value": "池 **529** → techPass **80** → 公司 **80** → 領導股 **28** → 進場 **28**（可考慮 28／觀望 0）｜已解 stale"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "tech RELX · SAP · HALO｜領導股前排 RELX · SAP · SU · ACN · ADP · KDP · ECL · ADSK｜進場（stale）ACN · DIS · ECL · HCA · NOW · PBR · PSX · RELX"
+        "value": "進場前排 ACN · DIS · ECL · HCA · NOW · PBR · PSX · RELX｜tech RELX · SAP · HALO｜領導股 RELX · SAP · SU · ACN · ADP · KDP · ECL · ADSK"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "material：池 442→529、techPass 71→80、領導股 23→28；閘門續觸但 QQQ −1.40%→−0.68%；等 Arok 刷進場解 stale；勿追反彈"
+        "value": "material：池 442→529、techPass 71→80、領導股／進場 23→28；閘門續觸但 QQQ −1.40%→−0.68%；晚間全日管道已鎖；勿追反彈"
       }
     ]
   },
