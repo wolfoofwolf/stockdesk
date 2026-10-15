@@ -1,7 +1,7 @@
 {
-  "title": "大市更新｜閘門加深・FedWatch 重定價・現金盤延續挫（Drok）",
-  "asOf": "2026-10-14T14:55:00.000Z",
-  "updatedAt": "2026-10-14T14:55:00.000Z",
+  "title": "大市更新｜終盤加深・FedWatch 加息主導・PPI D-0（Drok）",
+  "asOf": "2026-10-15T00:56:00.000Z",
+  "updatedAt": "2026-10-15T00:56:00.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -46,12 +46,12 @@
       "consensusCoreYoY": 2.5,
       "priorHeadlineYoY": 3.4,
       "priorCoreYoY": 2.4,
-      "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY（前值 0.4%／3.4%；Street〜3.6%）。Core +0.3% MoM／+2.6% YoY（前值 0.3%／2.4%；共識 MoM〜0.2%、YoY〜2.4–2.5%）——偏熱。汽油 +9.1% MoM、能源 +5.2% MoM 主導 headline。【閘門】盤前 QQQ −0.69%／SPY −0.38%；現金盤 ~10:55 ET QQQ −1.13%／SPY −0.77%（雙觸發加深）。FedWatch 10月 hold ~79.5%→56.3%、+25bp ~20.5%→43.7%。",
+      "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY；Core +0.3% MoM／+2.6% YoY——偏熱。終盤加深：QQQ −1.97%（$728.95）／SPY −1.08%（$769.60）（早盤曾報 ~−1.13%/−0.77%）。FedWatch 隔夜再急轉：10月 hold ~56.3%→29.1%、+25bp ~43.7%→70.9%（GMT EIGHT 15/10）。",
       "sources": [
         "BLS CPI Sep 2026 via AP／The Hill／TradingEconomics 2026-10-14",
-        "CNBC cash QQQ/SPY ~10:55 ET",
-        "Yahoo Finance Mag7/SMH/BAC ~10:55 ET",
-        "CME FedWatch via FXBus／BlockBeats／PANews 2026-10-14",
+        "Yahoo Finance QQQ/SPY/Mag7/SMH close 2026-10-14",
+        "CNBC session wrap 2026-10-14",
+        "CME FedWatch via GMT EIGHT flash 1534460 2026-10-15",
         "BAC／MS Q3 releases 2026-10-14"
       ],
       "actualHeadlineYoY": 3.7,
@@ -63,15 +63,16 @@
       "id": "ppi-2026-09",
       "type": "PPI",
       "date": "2026-10-15",
-      "label": "PPI（2026年9月）",
+      "label": "PPI（2026年9月）—D-0 今日",
       "status": "upcoming",
-      "consensusHeadlineYoY": 5.4,
+      "consensusHeadlineYoY": 5.3,
       "priorHeadlineYoY": 5.4,
-      "note": "08:30 ET；同日 Advance Retail Sales。上游仍高，留意滯後傳導（Street headline YoY ~5.4%；MoM 共識約 +0.5%；Continuum 屋企預估 MoM +0.6%／YoY 5.4%）。CPI 偏熱後明日 PPI 風險偏好升。",
+      "note": "D-0 今日 08:30 ET＝20:30 HKT（尚未公布）。同日 Advance Retail Sales／初請失業金。Street：PPI MoM +0.5%／YoY ~5.3%（前值 0.4%／5.4%）；core MoM +0.3%／YoY ~4.4%。Continuum 屋企：overall MoM +0.6%（能源主導）。Retail Sales MoM 共識 ~+0.3%／ex-autos ~+0.5%。CPI 偏熱＋FedWatch 加息主導後，上游敏感度升。",
       "sources": [
         "BLS／Census 日曆",
-        "Finobird PPI MoM calendar 2026-10-15",
-        "Continuum Economics／NewsQuawk PPI preview 2026-10"
+        "SquawkNews／Investing.com／nowflation calendar 2026-10-15",
+        "Continuum Economics PPI／Retail preview 2026-10-14",
+        "BLS PPI Sep 2026 schedule 2026-10-15"
       ]
     },
     {
@@ -80,7 +81,7 @@
       "date": "2026-10-28",
       "label": "FOMC 決定（10/27–28）",
       "status": "upcoming",
-      "note": "聲明約 14:00 ET。CPI 偏熱後 FedWatch 急轉：hold ~56.3%／+25bp ~43.7%（先前 ~79–81% hold）。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META 10/21。"
+      "note": "聲明約 14:00 ET。CPI 偏熱後 FedWatch 再急轉：hold ~29.1%／+25bp ~70.9%（10/14 午後曾 ~56.3/43.7；先前 ~79–81% hold）。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META／TSLA 10/21。"
     }
   ],
   "nfpReport": {
@@ -139,16 +140,16 @@
     "summaryTw": "非農就業（2026年9月） @ 2026-10-02\n數據：弱過預期（actual < consensus）\n當日大盤：+0.74%\n留意：數據偏弱但大市上升（利好降息／軟著陸交易）\n收市K線：膠住／十字味：實體細，方向未決；收市創近期新高／破阻力；企穩 SMA20 上方；企穩 SMA50 上方\n其後4日：D+1 0.67%(修復／延續上升)，D+2 0.55%(修復／延續上升)，D+3 -0.24%(失地／回吐)，D+4 -0.42%(失地／回吐)；其後 10/9 +0.60%、10/12 -0.06%"
   },
   "watch": [
-    "【閘門 FIRED・加深】現金盤 ~10:55 ET：QQQ −1.13%（$735.18）／SPY −0.77%（$771.99）；雙觸發＞−0.65%",
-    "【FedWatch 重定價】10月 hold ~56.3%／+25bp ~43.7%（盤前/先前 ~79–81% hold）——接近五五開",
-    "【CPI 已出・偏熱】Headline +0.6%／+3.7% YoY；Core +0.3%／+2.6% YoY",
-    "息：10Y ~5.26%（+0.88%）；VIX ~15.9（+3.8%）",
-    "銀行：BAC ~−7.7%；MS ~−3.1%",
-    "半導／Mag7：SMH −2.2%；NVDA −2.0%；META −2.2%；TSLA −1.7%；AAPL +0.9%／GOOGL 偏平",
-    "10/15 PPI＋Advance Retail Sales；10/28 FOMC"
+    "【終盤加深】10/14 收：QQQ −1.97%（$728.95；低 $726.39）／SPY −1.08%（$769.60；低 $766.71）；較午後 ~−1.13%/−0.77% 再加深；Nasdaq −1.88%、S&P −1.11%",
+    "【FedWatch 再急轉】10月 hold ~56.3%→29.1%；+25bp ~43.7%→70.9%（GMT EIGHT 15/10）——加息成主導定價",
+    "【亞洲跟跌】日經 −3.38%；韓綜 −5.81%；三星／海力士盤前曾報約 −6%/−7%",
+    "【息／波】VIX 16.87（+10.5%）；10Y ~5.19%（收市回落 vs 盤中高）",
+    "【半導／Mag7 收】SMH −3.98%；NVDA −3.16%；META ~−3.3%；ASML −3.94%；AAPL 仍 +0.5%",
+    "【閘門】10/15 美股盤前尚未開（~16:00 HKT）；隔夜期貨偏軟但非新盤前閘門；昨收仍遠低於 −0.65%",
+    "【日曆】今夜 20:30 HKT＝PPI＋Advance Retail Sales；10/28 FOMC"
   ],
-  "mag7Note": "現金盤 ~10:55 ET：NVDA −2.0%、META −2.2%、TSLA −1.7%、MSFT −1.0%、AMZN −1.0%；AAPL +0.9%、GOOGL +0.1%。SMH −2.2%。ASML 由盤前 sell-the-news 回至近平（~+0.1%）。日曆：TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2。",
-  "summaryTw": "【閘門加深｜現金盤】~10:55 ET／22:55 HKT：QQQ −1.13%（$735.18；開 $737.98／低 $734.68）／SPY −0.77%（$771.99）——雙觸發＞−0.65%；較盤前觸發時 QQQ −0.69%／SPY −0.38% 明顯加深。Nasdaq −1.0%、S&P −0.77%、Dow −0.14%。\n【FedWatch 急轉】10月 hold ~79.5–80.6%→56.3%；+25bp ~19–21%→43.7%。接近五五開——CPI 偏熱後最大敘事變化。\n【CPI 9月＝已公布・偏熱】Headline +0.6%／+3.7% YoY；Core +0.3%／+2.6% YoY；汽油 +9.1%／能源 +5.2%。10Y ~5.26%、VIX ~15.9。\n【銀行／半導／Mag7】BAC ~−7.7%（和解）；MS ~−3.1%；SMH −2.2%；NVDA −2.0%、META −2.2%、TSLA −1.7%；AAPL 仍紅。\n【本輪】閘門雙觸發加深＋FedWatch 重定價＝明顯變化。明日 PPI＋零售；刷新 Pages 並匯報 Stock 群。",
+  "mag7Note": "10/14 收：NVDA −3.16%（$221.30）、META ~−3.3%（~$737.5 vs 前收 $762.50）、TSLA −2.15%、MSFT −1.8%、AMZN −1.74%、GOOGL −1.74%；AAPL +0.5%（$342.96）。SMH −3.98%；ASML −3.94%（Q3 後 sell-the-news 收深）。日曆：TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2。",
+  "summaryTw": "【終盤加深｜10/14 收】QQQ −1.97%（$728.95；開 $737.98／低 $726.39）／SPY −1.08%（$769.60）——較本輪午後快照 −1.13%/−0.77% 再加深。Nasdaq −1.88%、S&P −1.11%、Dow −0.09%。\n【FedWatch 再急轉・加息主導】10月 hold ~56.3%→29.1%；+25bp ~43.7%→70.9%（GMT EIGHT 15/10）。十二月累計 +50bp 機率亦升至 ~58.7%。CPI 偏熱後敘事由五五開→加息主導。\n【亞洲跟跌】日經 −3.38%；韓綜 −5.81%（延續半導／AI 壓力）。\n【銀行／半導／Mag7 收】BAC −4.76%；MS −2.75%；SMH −3.98%；NVDA −3.16%、META ~−3.3%、ASML −3.94%；AAPL 仍紅。VIX 16.87（+10.5%）。\n【閘門】10/15 美股盤前未開；昨收雙觸發仍開。今夜 20:30 HKT＝PPI＋零售（Street PPI MoM +0.5%/YoY ~5.3%）。\n【本輪】終盤加深＋FedWatch 加息主導＋PPI D-0＝明顯變化；刷新 Pages 並匯報 Stock 群。",
   "thinkingLog": [
     {
       "t": "2026-10-12T01:59:09.819Z",
@@ -2213,6 +2214,235 @@
       "t": "2026-10-14T14:55:00.000Z",
       "bot": "Drok",
       "role": "大市分析",
+      "step": "write",
+      "detail": {
+        "files": [
+          "data/macro-run-latest.json",
+          "data/macro-events.json"
+        ]
+      }
+    },
+    {
+      "t": "2026-10-14T14:55:00.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "push",
+      "detail": {
+        "target": "wolfoofwolf/stockdesk GitHub Pages",
+        "method": "user-GitHub-xai push_files",
+        "branch": "main",
+        "commitSha": "47ae03ba759649e16ad3d1ad838e09bd3bebf71f",
+        "files": [
+          "data/macro-run-latest.json",
+          "data/macro-events.json"
+        ],
+        "ok": true
+      }
+    },
+    {
+      "bot": "Drok",
+      "role": "大市分析",
+      "t": "2026-10-15T00:56:00.000Z",
+      "step": "refresh",
+      "detail": {
+        "reason": "weekday morning monitor (08:49 HKT window)",
+        "marketSession": "HKT morning / US overnight; US cash closed 10/14; US 10/15 premarket not yet open (~4:00 ET=16:00 HKT); PPI print-day tonight 20:30 HKT",
+        "asOf": "2026-10-15T00:56:00.000Z",
+        "priorLocalAsOf": "2026-10-14T14:55:00.000Z",
+        "routine": "Macro market monitor"
+      }
+    },
+    {
+      "bot": "Drok",
+      "role": "大市分析",
+      "t": "2026-10-15T00:56:00.000Z",
+      "step": "sessionGate",
+      "detail": {
+        "thresholdPct": -0.65,
+        "qqq": {
+          "price": 728.95,
+          "pct": -1.97,
+          "session": "RTH close 2026-10-14",
+          "open": 737.98,
+          "high": 740.53,
+          "low": 726.39,
+          "prevClose": 743.57,
+          "source": "Yahoo Finance daily"
+        },
+        "spy": {
+          "price": 769.6,
+          "pct": -1.08,
+          "session": "RTH close 2026-10-14",
+          "open": 774.92,
+          "high": 776.35,
+          "low": 766.71,
+          "prevClose": 778.01,
+          "source": "Yahoo Finance daily"
+        },
+        "indices": {
+          "nasdaqPct": -1.88,
+          "spxPct": -1.11,
+          "diaPct": -0.09,
+          "iwmPct": -1.93
+        },
+        "ratesVol": {
+          "tnx": 5.19,
+          "tnxPct": -0.52,
+          "vix": 16.87,
+          "vixPct": 10.48,
+          "note": "10Y pulled back from intraday spike; VIX closed higher"
+        },
+        "futures": {
+          "nqApprox": 29968,
+          "esApprox": 7750,
+          "note": "Yahoo NQ/ES last ~29968/7750; soft overnight continuation vs prior cash; not a fresh >0.65% premarket dump print"
+        },
+        "fired": false,
+        "firedOn": [],
+        "priorMidSession": {
+          "qqqPct": -1.13,
+          "spyPct": -0.77,
+          "asOf": "2026-10-14T14:55:00.000Z"
+        },
+        "note": "US 10/15 premarket not open yet; gate N/A for new premarket. Prior RTH closed both below -0.65% (deepened vs afternoon alert)."
+      }
+    },
+    {
+      "bot": "Drok",
+      "role": "大市分析",
+      "t": "2026-10-15T00:56:00.000Z",
+      "step": "fedwatch",
+      "detail": {
+        "oct": {
+          "holdPct": 29.1,
+          "hike25bpPct": 70.9
+        },
+        "prior": {
+          "holdPct": 56.3,
+          "hike25bpPct": 43.7
+        },
+        "december": {
+          "holdPct": 5.0,
+          "hike25bpCumulativePct": 36.3,
+          "hike50bpCumulativePct": 58.7
+        },
+        "delta": "hold −27pp / hike +27pp vs afternoon — hike now dominant pricing",
+        "sources": [
+          "GMT EIGHT flash 1534460 dated 15/10/2026"
+        ]
+      }
+    },
+    {
+      "bot": "Drok",
+      "role": "大市分析",
+      "t": "2026-10-15T00:56:00.000Z",
+      "step": "asiaTape",
+      "detail": {
+        "nikkeiPct": -3.38,
+        "nikkeiLevel": 65454.0,
+        "kospiPct": -5.81,
+        "kospiLevel": 5659.68,
+        "kospiPriorClose": 6008.81,
+        "samsungPremarketApproxPct": -6.5,
+        "skHynixPremarketApproxPct": -7.7,
+        "crashContinuation": true,
+        "note": "Thu Asia follows US CPI/tech selloff; memory names hit again",
+        "sources": [
+          "Yahoo Finance ^N225/^KS11",
+          "ajunews／sonmul／TradingKey 2026-10-15"
+        ]
+      }
+    },
+    {
+      "bot": "Drok",
+      "role": "大市分析",
+      "t": "2026-10-15T00:56:00.000Z",
+      "step": "mag7",
+      "detail": {
+        "sessionClosePct": {
+          "AAPL": 0.5,
+          "MSFT": -1.8,
+          "GOOGL": -1.74,
+          "AMZN": -1.74,
+          "META": -3.27,
+          "NVDA": -3.16,
+          "TSLA": -2.15
+        },
+        "semisPct": {
+          "SMH": -3.98,
+          "ASML": -3.94
+        },
+        "banksPct": {
+          "BAC": -4.76,
+          "MS": -2.75
+        },
+        "metaNote": "Yahoo daily bar close null; regularMarketPrice 737.54 used vs prior close 762.50 → ~−3.27%",
+        "sources": [
+          "Yahoo Finance daily 2026-10-14"
+        ]
+      }
+    },
+    {
+      "bot": "Drok",
+      "role": "大市分析",
+      "t": "2026-10-15T00:56:00.000Z",
+      "step": "ppiPreview",
+      "detail": {
+        "status": "upcoming D-0",
+        "release": "2026-10-15 08:30 ET / 20:30 HKT",
+        "consensus": {
+          "headlineMoM": 0.5,
+          "headlineYoY": 5.3,
+          "coreMoM": 0.3,
+          "coreYoY": 4.4
+        },
+        "prior": {
+          "headlineMoM": 0.4,
+          "headlineYoY": 5.4
+        },
+        "retailSalesConsensus": {
+          "mom": 0.3,
+          "exAutos": 0.5
+        },
+        "sources": [
+          "SquawkNews",
+          "Investing.com",
+          "nowflation",
+          "Continuum Economics"
+        ]
+      }
+    },
+    {
+      "bot": "Drok",
+      "role": "大市分析",
+      "t": "2026-10-15T00:56:00.000Z",
+      "step": "window",
+      "detail": {
+        "cpi": "done 2026-10-14",
+        "ppi": "print-day D-0 2026-10-15 08:30 ET",
+        "fomc": "2026-10-28",
+        "fedwatchOct": {
+          "holdPct": 29.1,
+          "hike25bpPct": 70.9
+        },
+        "materialChange": true,
+        "materialChangeNote": "Cash close deepened (QQQ -1.97%/SPY -1.08%); FedWatch hold 56.3→29.1 hike-dominant; Asia -3.4/-5.8; PPI entered D-0"
+      }
+    },
+    {
+      "bot": "Drok",
+      "role": "大市分析",
+      "t": "2026-10-15T00:56:00.000Z",
+      "step": "speakDecision",
+      "detail": {
+        "speakToStockGroup": true,
+        "reason": "Material: close deepened vs afternoon; FedWatch hike-dominant (70.9%); Asia follow-through; PPI D-0 tonight"
+      }
+    },
+    {
+      "bot": "Drok",
+      "role": "大市分析",
+      "t": "2026-10-15T00:56:00.000Z",
       "step": "write",
       "detail": {
         "files": [
