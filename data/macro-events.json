@@ -40,14 +40,17 @@
     "consensusCoreYoY": 2.5,
     "priorHeadlineYoY": 3.4,
     "priorCoreYoY": 2.4,
-    "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY；Core +0.3% MoM／+2.6% YoY——偏熱。10/14 終盤：QQQ −1.97%（$728.95）／SPY −1.08%（$769.60）。10/15 盤前閘門觸發：QQQ -1.33%／SPY -0.35%——CPI 餘震延續。",
+    "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY；Core +0.3% MoM／+2.6% YoY——偏熱。10/14 終盤：QQQ −1.97%（$728.95）／SPY −1.08%（$769.60）。10/15 盤前閘門續觸：QQQ −1.06%（較 16:16 之 −1.33% 略回）／SPY −0.23%——CPI 餘震＋半導／AI 債壓延續。",
     "sources": [
       "BLS CPI Sep 2026 via AP／The Hill／TradingEconomics 2026-10-14",
       "Yahoo Finance QQQ/SPY/Mag7/SMH close 2026-10-14",
       "CNBC session wrap 2026-10-14",
       "CME FedWatch via GMT EIGHT flash 1534460 2026-10-15",
       "BAC／MS Q3 releases 2026-10-14",
-      "CME FedWatch via GMT EIGHT flash 1557001 2026-10-15 afternoon"
+      "CME FedWatch via GMT EIGHT flash 1557001 2026-10-15 afternoon",
+      "Yahoo Finance QQQ/SPY/SMH/Mag7 PRE_MKT 2026-10-15 ~16:50 HKT",
+      "Investing.com Fed rate monitor 2026-10-15 00:45 EDT",
+      "CNBC／Bloomberg／X CoreWeave bond yields ~15% 2026-10-14/15"
     ],
     "actualHeadlineYoY": 3.7,
     "actualHeadlineMoM": 0.6,
@@ -62,13 +65,15 @@
     "status": "upcoming",
     "consensusHeadlineYoY": 5.3,
     "priorHeadlineYoY": 5.4,
-    "note": "D-0 今日 08:30 ET＝20:30 HKT（尚未公布）。同日 Advance Retail Sales／初請失業金。Street：PPI MoM +0.5%／YoY ~5.3%（前值 0.4%／5.4%）；core MoM +0.3%／YoY ~4.4%。閘門已觸：QQQ 盤前 -1.33%——PPI 前半導續瀉，上游若再熱將放大風險。",
+    "note": "D-0 今日 08:30 ET＝20:30 HKT（尚未公布）。同日 Advance Retail Sales／初請失業金。Street：PPI MoM +0.5%／YoY ~5.3%（前值 0.4%／5.4%）；core MoM +0.3%／YoY ~4.4%。閘門續觸：QQQ 盤前 −1.06%——PPI 前半導／CRWV 續壓，上游若再熱將放大風險。",
     "sources": [
       "BLS／Census 日曆",
       "SquawkNews／Investing.com／nowflation calendar 2026-10-15",
       "Continuum Economics PPI／Retail preview 2026-10-14",
       "BLS PPI Sep 2026 schedule 2026-10-15",
-      "CNBC QQQ/SPY/Mag7 PRE_MKT 2026-10-15 ~16:16 HKT"
+      "CNBC QQQ/SPY/Mag7 PRE_MKT 2026-10-15 ~16:16 HKT",
+      "Yahoo Finance PRE_MKT 2026-10-15 ~16:50 HKT",
+      "Investing.com Fed rate monitor 2026-10-15 00:45 EDT"
     ]
   },
   {
@@ -77,6 +82,6 @@
     "date": "2026-10-28",
     "label": "FOMC 決定（10/27–28）",
     "status": "upcoming",
-    "note": "聲明約 14:00 ET。FedWatch（Investing 03:45 EDT）：hold ~71.3%／+25bp ~28.7%。十二月：hold ~11.8%／+25bp ~64.3%／+50bp ~24.0%。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META／TSLA 10/21。"
+    "note": "聲明約 14:00 ET。FedWatch（Investing 00:45 EDT）：hold 70.1%／+25bp 29.9%。十二月：hold 14.1%／+25bp 62.0%／+50bp 23.8%。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META／TSLA 10/21。"
   }
 ]
