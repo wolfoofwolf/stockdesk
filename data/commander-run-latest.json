@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-15T15:08:12.000Z",
+  "generatedAt": "2026-10-15T15:10:09.000Z",
   "bot": "Trok",
   "role": "總司令",
   "asOf": "2026-10-15 14:08 HKT",
-  "asOfHKT": "2026-10-15 23:08 HKT",
+  "asOfHKT": "2026-10-15 23:10 HKT",
   "pipeline": {
     "candidates": 529,
     "techPassed": 80,
     "company": 80,
     "leaders": 28,
-    "entry": 23,
-    "entryConsider": 23,
+    "entry": 28,
+    "entryConsider": 28,
     "entryWatch": 0,
-    "anchor": "Evening rescan: pool 529 techPass 80 company 80/leaders 28; entry still cash-open 23 until Arok",
-    "downstreamStale": true
+    "anchor": "Evening locked 10/15: 529→80→80→28→28; downstream fresh",
+    "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-15 23:08 HKT】\n閘門｜續觸｜QQQ −0.68%（開市 −1.40% 回升）／SPY +0.01%\nFedWatch｜hold 70.1%／+25bp 29.9%｜12月 hold 12.5%／+25bp 63.0%／+50bp 24.5%\n美股／亞洲｜盤中回升｜SMH −2.1%／CRWV −5.0%｜日經 −4.9%／韓綜 −7.6%\n日曆｜PPI 已出｜明 11:30 Warsh IMF｜10/28 FOMC\n管道｜529→80→80→28→23｜entry 待 @Arok（stale）\n結論｜閘門續觸但回升；晚間池重鎖 529／80；勿追反彈\nhttps://wolfoofwolf.github.io/stockdesk/?v=eve1015",
+  "summaryTw": "【總司令｜2026-10-15 23:10 HKT】\n閘門｜續觸｜QQQ −0.68%（開市 −1.40% 回升）／SPY +0.01%\nFedWatch｜hold 70.1%／+25bp 29.9%｜12月 hold 12.5%／+25bp 63.0%／+50bp 24.5%\n美股／亞洲｜盤中回升｜SMH −2.1%／CRWV −5.0%｜日經 −4.9%／韓綜 −7.6%\n日曆｜PPI 已出｜明 11:30 Warsh IMF｜10/28 FOMC\n管道｜529→80→80→28→28｜已解 stale\n結論｜晚間全日管道鎖完；閘門續觸但回升；勿追反彈\nhttps://wolfoofwolf.github.io/stockdesk/?v=eveEntry1015",
   "catalysts": [
     {
       "id": "ppi-2026-10-15",
@@ -279,7 +279,7 @@
     }
   ],
   "brief": {
-    "asOfHKT": "2026-10-15 23:08 HKT",
+    "asOfHKT": "2026-10-15 23:10 HKT",
     "sections": [
       {
         "id": "gate",
@@ -304,17 +304,17 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **529** → techPass **80** → 公司 **80** → 領導股 **28** → 進場 **23**（stale 待 Arok）"
+        "value": "池 **529** → techPass **80** → 公司 **80** → 領導股 **28** → 進場 **28**（可考慮 28／觀望 0）｜已解 stale"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "tech RELX · SAP · HALO｜領導股含 SHOP／TD／ITUB 等新進"
+        "value": "進場前排 ACN · DIS · ECL · HCA · NOW · PBR · PSX · RELX｜tech RELX · SAP · HALO"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "閘門續觸但 QQQ 回升；晚間重鎖 529→80；等 Arok 刷進場後解 stale；勿追反彈"
+        "value": "晚間管道已鎖 529→80→28→28；閘門續觸但回升；勿追反彈"
       }
     ]
   },
