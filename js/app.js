@@ -935,8 +935,11 @@
       ' · 池 ' + (pipe.candidates != null ? pipe.candidates : '—') +
       (pipe.anchor ? ' · ' + pipe.anchor : '');
     var extra = '';
-    if (fw.stance === 'hike-dominated' || (fw.octHike25Pct != null && fw.octHike25Pct >= 50)) {
+    if (fw.stance === 'hike-dominated' || (fw.octHike25Pct != null && fw.octHike25Pct >= 50 && fw.stance !== 'hold-dominated')) {
       extra += '<br><b>FedWatch 加息主導</b> hold~' + (fw.octHoldPct != null ? fw.octHoldPct : '—') +
+        '%／+25bp~' + (fw.octHike25Pct != null ? fw.octHike25Pct : '—') + '%';
+    } else if (fw.stance === 'hold-dominated' || (fw.octHoldPct != null && fw.octHoldPct >= 50)) {
+      extra += '<br><b>FedWatch hold 主導</b> hold~' + (fw.octHoldPct != null ? fw.octHoldPct : '—') +
         '%／+25bp~' + (fw.octHike25Pct != null ? fw.octHike25Pct : '—') + '%';
     } else if (fw.octHoldPct != null) {
       extra += '<br>FedWatch hold~' + fw.octHoldPct + '%／hike~' + (fw.octHike25Pct != null ? fw.octHike25Pct : '—') + '%';

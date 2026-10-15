@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-15T05:58:44.000Z",
+  "generatedAt": "2026-10-15T06:01:23.000Z",
   "bot": "Trok",
   "role": "總司令",
   "asOf": "2026-10-15 13:58 HKT",
-  "asOfHKT": "2026-10-15 13:58 HKT",
+  "asOfHKT": "2026-10-15 14:01 HKT",
   "pipeline": {
     "candidates": 442,
     "techPassed": 65,
@@ -12,10 +12,10 @@
     "entry": 24,
     "entryConsider": 24,
     "entryWatch": 0,
-    "anchor": "Hold techPass 65 (asOfMarket 10/14); pool 442 pending 10/15 cash+PPI relock (~21:35 HKT)",
+    "anchor": "Hold techPass 65 (asOfMarket 10/14); tonight relock on pool 442 after PPI/cash bars",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-15 13:58 HKT】\n⚠️ **FedWatch 加息主導** hold~29%／+25bp~71% · 終盤 QQQ **−1.97%**／SPY **−1.08%** · 閘門仍開\n**PPI D-0** 今夜 20:30 HKT（+ Advance Retail）· 管道：**池 474→442**（Frok 午後），錨 techPass **65** 未改\n錨 techPass **65**（池 **442**；asOfMarket 10/14）→ 公司 65／領導 24／進場 24 — 今夜現金盤（~21:35）跟 **442** 重鎖\nTop：**HALO** · **OSCR** · **XOM**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=aftn1015)",
+  "summaryTw": "【總司令｜2026-10-15 14:01 HKT】\n**FedWatch 回擺 hold 主導** hold~67%／+25bp~33%（晨曾加息主導 ~29%／~71%）\n**PPI D-0** 今夜 20:30 HKT · 亞洲加深（日經 ~−4.8%／韓綜 ~−8.6%）· TSMC Q3 beat／ADR 隔夜仍軟\n昨收閘門仍開 QQQ −1.97%／SPY −1.08%；盤前未開＝未新觸發\n錨 techPass **65**（池 **442**；asOfMarket 10/14）→ 65／24／24 — 今晚現金盤重鎖\nTop：**HALO** · **OSCR** · **XOM**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=aft1015)",
   "catalysts": [
     {
       "id": "ppi-2026-10-15",
@@ -149,12 +149,12 @@
     "cleared": false,
     "qqqPct": -1.97,
     "spyPct": -1.08,
-    "qqqPx": 728.95,
-    "spyPx": 769.6,
+    "qqqOvernightPct": -1.06,
+    "spyOvernightPct": -0.41,
     "threshold": -0.65,
-    "asOfHKT": "2026-10-14 cash close",
-    "driver": "Hot CPI → FedWatch hike-dominated; Asia follow-through",
-    "note": "Finals still gate-open; 10/15 US premarket not open yet (~16:00 HKT); afternoon fire ~13:58 HKT"
+    "asOfHKT": "2026-10-14 cash close; 10/15 premarket not open yet",
+    "driver": "Prior cash selloff still on books; overnight QQQ/NQ soft (premarket gate N/A until ~16:00 HKT)",
+    "note": "10/15 US premarket not open; overnight QQQ -1.06% noted only"
   },
   "cashSession": {
     "asOfHKT": "2026-10-14 final close (read 2026-10-15 08:51 HKT)",
@@ -209,7 +209,7 @@
   },
   "materialChange": {
     "yes": true,
-    "why": "Frok pool 474→442 not yet in commander; hold techPass 65; tonight relock follows 442 (PPI D-0 already morning-covered)"
+    "why": "FedWatch swing to hold~67%; Asia deeper; TSMC beat; pool 474→442"
   },
   "note": "Afternoon weekday fire: sync pipeline to pool 442; techPass HOLD 65 until cash bars; PPI D-0 already in morning",
   "techTurnover": {
@@ -250,6 +250,12 @@
       "bot": "Trok",
       "step": "briefing",
       "detail": "overwrite commander-briefing + commander-run-latest + commander-latest; pool 442"
+    },
+    {
+      "t": "2026-10-15 14:01 HKT",
+      "bot": "Trok",
+      "step": "overviewMark",
+      "detail": "FedWatch hold-dominated again"
     }
   ]
 }
