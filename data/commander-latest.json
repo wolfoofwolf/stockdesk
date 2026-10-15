@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T15:10:09.000Z",
+  "generatedAt": "2026-10-15T15:10:00.000Z",
   "bot": "Trok",
   "role": "總司令",
   "asOfHKT": "2026-10-15 23:10 HKT",
@@ -8,73 +8,39 @@
     "techPassed": 80,
     "company": 80,
     "leaders": 28,
-    "entry": 28,
-    "entryConsider": 28,
+    "entry": 23,
+    "entryConsider": 23,
     "entryWatch": 0,
-    "anchor": "Evening locked 10/15: 529→80→80→28→28; downstream fresh",
-    "downstreamStale": false
+    "anchor": "Evening fire 10/15: 529→80→80→28→23(stale); wait Arok entry",
+    "downstreamStale": true
   },
-  "summaryTw": "【總司令｜2026-10-15 23:10 HKT】\n閘門｜續觸｜QQQ −0.68%（開市 −1.40% 回升）／SPY +0.01%\nFedWatch｜hold 70.1%／+25bp 29.9%｜12月 hold 12.5%／+25bp 63.0%／+50bp 24.5%\n美股／亞洲｜盤中回升｜SMH −2.1%／CRWV −5.0%｜日經 −4.9%／韓綜 −7.6%\n日曆｜PPI 已出｜明 11:30 Warsh IMF｜10/28 FOMC\n管道｜529→80→80→28→28｜已解 stale\n結論｜晚間全日管道鎖完；閘門續觸但回升；勿追反彈\nhttps://wolfoofwolf.github.io/stockdesk/?v=eveEntry1015",
+  "summaryTw": "【總司令｜2026-10-15 23:10 HKT】\n閘門｜續觸｜QQQ −0.68%（開市 −1.40% 回升）／SPY +0.01%\nFedWatch｜hold 70.1%／+25bp 29.9%｜12月 hold 12.5%／+25bp 63.0%／+50bp 24.5%\n美股／亞洲｜盤中回升｜SMH −2.1%／AMD −4.3%／CRWV −5.0%｜日經 −4.9%／韓綜 −7.6%\n日曆｜PPI 已出偏熱｜明 11:30 Warsh IMF（D-0）｜10/28 FOMC\n管道｜529→80→80→28→23(stale)｜entry 待 Arok\n結論｜閘門續觸但回升；晚間池重鎖；勿追反彈\nhttps://wolfoofwolf.github.io/stockdesk/?v=eve1015",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=eveEntry1015"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=eve1015"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-15 14:01 HKT",
-      "msg": "FedWatch swing back hold-dominated; pool 442; PPI D-0; hold techPass 65"
+      "t": "2026-10-15 21:58 HKT",
+      "msg": "Cash-open lock 442→71→23→23; gate QQQ −1.40%"
     },
     {
-      "t": "2026-10-15 14:08 HKT",
-      "msg": "Top fix XOM/HCA/OSCR; FedWatch catalyst notes aligned"
+      "t": "2026-10-15 22:57 HKT",
+      "msg": "Frok pool 442→529"
     },
     {
-      "t": "2026-10-15 14:49 HKT",
-      "msg": "UI format: classified brief board (gate/FedWatch/markets/calendar/pipeline)"
+      "t": "2026-10-15 23:06 HKT",
+      "msg": "Grok techPass 71→80; Jrok leaders 28; entry stale"
     },
     {
-      "t": "2026-10-15 16:19 HKT",
-      "msg": "Premarket gate FIRED QQQ -1.33%; mark overview; hold 65 / pool 442"
+      "t": "2026-10-15 23:00 HKT",
+      "msg": "Gate bounce QQQ −0.68%; FedWatch hold 70.1%; Warsh D-0 tomorrow"
     },
     {
-      "t": "2026-10-15 16:54 HKT",
-      "msg": "Gate still FIRED QQQ -1.06% (was -1.33%); refresh overview"
-    },
-    {
-      "t": "2026-10-15 17:51 HKT",
-      "msg": "Gate deepened QQQ -0.97→-1.10; refresh overview"
-    },
-    {
-      "t": "2026-10-15 18:58 HKT",
-      "msg": "Add Warsh IMF calendar; gate QQQ -1.25%"
-    },
-    {
-      "t": "2026-10-15 20:49 HKT",
-      "msg": "Mark PPI hot +1.3%/+6.3%; gate still FIRED; hold 65/442"
-    },
-    {
-      "t": "2026-10-15 21:55 HKT",
-      "msg": "Cash-open relock techPass 65→71 on pool 442; +24 SVG charts pushed; downstream stale until Jrok/Arok"
-    },
-    {
-      "t": "2026-10-15T13:58:13.000Z",
+      "t": "2026-10-15T15:10:00.000Z",
       "bot": "Trok",
       "role": "Pages",
-      "step": "cash-open-pipeline-sync",
-      "detail": "Unlocked downstreamStale after Jrok company 71/leaders 23 + Arok entry 23; pushed entry-run-latest + commander"
-    },
-    {
-      "t": "2026-10-15T15:08:12.000Z",
-      "bot": "Trok",
-      "role": "Pages",
-      "step": "evening-529-80-gate",
-      "detail": "Pushed screener 529 + marked gate recovery −1.40%→−0.68%; pipeline 529→80→80→28→23 stale entry"
-    },
-    {
-      "t": "2026-10-15T15:10:09.000Z",
-      "bot": "Trok",
-      "role": "Pages",
-      "step": "evening-entry-sync",
-      "detail": "Pushed entry 28 + cleared downstreamStale; pipeline 529→80→80→28→28"
+      "step": "evening-529-80-full",
+      "detail": "Full schema rewrite + briefings; pipeline 529→80→80→28→23 stale; ?v=eve1015"
     }
   ],
   "premarketGate": {
@@ -90,7 +56,7 @@
     "firedOn": [
       "QQQ"
     ],
-    "driver": "Hot PPI + semi/AI credit; midday recovery from open −1.40%",
+    "driver": "Hot PPI + semi/AI credit; midday bounce from open −1.40%",
     "note": "Still FIRED QQQ −0.68% ($724.01 vs close $728.95); recovered from open −1.40%; SPY +0.01% not fired"
   },
   "cashSession": {
@@ -109,7 +75,7 @@
     "vix": {
       "last": 17.17
     },
-    "note": "Midday recovery QQQ −1.40%→−0.68%; gate still FIRED; SPY green"
+    "note": "Midday bounce QQQ −1.40%→−0.68%; gate still FIRED; SPY green"
   },
   "overnightSession": {
     "asOfHKT": "2026-10-15 13:58 HKT",
@@ -121,7 +87,7 @@
       "last": 29960.75,
       "pctVsPriorHist": -2.7
     },
-    "note": "No fresh overnight/premarket tape at afternoon fire; still post-close quiet until ~16:00 HKT premarket",
+    "note": "Cash session underway; overnight snapshot retained from afternoon. Asia close Nikkei −4.9% / KOSPI −7.6%.",
     "fedWatch": {
       "asOfHKT": "2026-10-15 ~13:56 HKT",
       "source": "GMT EIGHT 1557001",
@@ -136,14 +102,14 @@
       "stance": "hold-dominated"
     },
     "asia": {
-      "nikkeiPct": -4.81,
-      "kospiPct": -8.62,
-      "note": "vs morning Nikkei −3.38% / KOSPI −5.81%"
+      "nikkeiPct": -4.9,
+      "kospiPct": -7.6,
+      "note": "Asia close; vs morning Nikkei −3.38% / KOSPI −5.81% deeper then settled"
     },
     "tsmc": {
       "q3Beat": true,
       "adrOvernightPct": -1.93,
-      "note": "Revenue NT$1.49T / NI NT$763.1B beat; ADR still soft overnight"
+      "note": "Revenue NT$1.49T / NI NT$763.1B beat; ADR soft"
     }
   },
   "fedWatch": {
@@ -184,9 +150,9 @@
     "warsh": {
       "date": "2026-10-16",
       "timeHKT": "11:30–12:00",
-      "status": "D-1",
+      "status": "D-0",
       "label": "Kevin Warsh × Georgieva IMF 曼谷 fireside",
-      "note": "10/28 FOMC 前最後公開（其後 blackout）"
+      "note": "明日 11:30 HKT；10/28 FOMC 前最後公開（其後 blackout）"
     },
     "banks": {
       "date": "2026-10-15",
@@ -198,9 +164,9 @@
     }
   },
   "material": {
-    "asia": "日經 −4.9%／韓綜 −7.6%／恒指 −1.0%",
-    "us": "半導加深 AMD −5.4%／MU −4.5%／TSM −4.7%／NVDA −3.2%／SMH −3.5%；AAPL +0.7%",
-    "credit": "CRWV −7.6%（$60.76）"
+    "asia": "日經 −4.9%／韓綜 −7.6%／恒指 −1.2%",
+    "us": "盤中回升｜AMD −4.3%／SMH −2.1%／NVDA −1.9%／MU −0.2% 修復；AAPL/MSFT 綠",
+    "credit": "CRWV −5.0%（$62.51；較開市 −7.6% 收窄）"
   },
   "brief": {
     "asOfHKT": "2026-10-15 23:10 HKT",
@@ -208,37 +174,37 @@
       {
         "id": "gate",
         "label": "閘門",
-        "value": "續觸｜QQQ −0.68%（$724.01 vs 收 $728.95）＞−0.65%；較開市 −1.40% 回升｜SPY +0.01% 未觸｜SMH −2.05%；VIX 17.17"
+        "value": "續觸｜QQQ −0.68%（$724.01 vs 收 $728.95）＞−0.65%；較開市 −1.40% 回升約 +0.72pp｜SPY +0.01%（$769.69）未觸｜SMH −2.05%；VIX 17.17"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "10/28 hold 70.1%／+25bp 29.9%｜12月 hold 12.5%／+25bp 63.0%／+50bp 24.5%"
+        "value": "10/28 hold 70.1%／+25bp 29.9%（Investing 10:35 EDT）｜12月 hold 12.5%／+25bp 63.0%／+50bp 24.5%"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "盤中回升｜AMD −4.3%／SMH −2.1%／CRWV −5.0%（較開市收窄）｜日經 −4.9%／韓綜 −7.6%"
+        "value": "盤中回升｜熱 PPI＋半導／AI 債仍主軸惟較開市收窄｜AMD −4.3%／SMH −2.1%／CRWV −5.0%｜日經 −4.9%／韓綜 −7.6%／恒指 −1.2%"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "**PPI 偏熱已出**｜明 11:30 Warsh IMF｜META/TSLA 10/21｜MSFT/GOOGL 10/28｜FOMC 10/27–28"
+        "value": "**PPI 偏熱已出** MoM +1.3%／YoY +6.3%／核心 MoM +0.7%｜零售 +0.8%｜初請 199K｜**明 11:30 Warsh IMF（D-0）**｜META/TSLA 10/21｜FOMC 10/27–28"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **529** → techPass **80** → 公司 **80** → 領導股 **28** → 進場 **28**（可考慮 28／觀望 0）｜已解 stale"
+        "value": "池 **529** → techPass **80** → 公司 **80** → 領導股 **28** → 進場 **23**（stale 待 Arok｜可考慮 23／觀望 0）"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "進場前排 ACN · DIS · ECL · HCA · NOW · PBR · PSX · RELX｜tech RELX · SAP · HALO"
+        "value": "tech RELX · SAP · HALO｜領導股前排 RELX · SAP · SU · ACN · ADP · KDP · ECL · ADSK｜進場（stale）ACN · DIS · ECL · HCA · NOW · PBR · PSX · RELX"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "晚間管道已鎖 529→80→28→28；閘門續觸但回升；勿追反彈"
+        "value": "material：池 442→529、techPass 71→80、領導股 23→28；閘門續觸但 QQQ −1.40%→−0.68%；等 Arok 刷進場解 stale；勿追反彈"
       }
     ]
   }
