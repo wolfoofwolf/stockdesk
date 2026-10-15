@@ -40,7 +40,7 @@
     "consensusCoreYoY": 2.5,
     "priorHeadlineYoY": 3.4,
     "priorCoreYoY": 2.4,
-    "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY；Core +0.3% MoM／+2.6% YoY——偏熱。10/14 終盤：QQQ −1.97%（$728.95）／SPY −1.08%（$769.60）。10/15 盤前閘門續觸：QQQ −1.25%（較 18:21 之 −1.17%）／SPY −0.33%——CPI 餘震＋半導／AI 債壓加深；FedWatch hold 69%／hike 31%。",
+    "note": "08:30 ET 已公布。Headline +0.6% MoM／+3.7% YoY；Core +0.3% MoM／+2.6% YoY——偏熱。10/14 終盤：QQQ −1.97%（$728.95）／SPY −1.08%（$769.60）。10/15 盤前閘門續觸：QQQ −1.08%（$721.07；較 19:22 −1.19% 再略回）／SPY −0.22%——CPI 餘震＋半導／AI 債；FedWatch hold 69%／hike 31%。",
     "sources": [
       "BLS CPI Sep 2026 via AP／The Hill／TradingEconomics 2026-10-14",
       "Yahoo Finance QQQ/SPY/Mag7/SMH close 2026-10-14",
@@ -61,7 +61,16 @@
       "Yahoo Finance QQQ/SPY/SMH/Mag7/CRWV PRE_MKT 2026-10-15 ~18:21 HKT",
       "MarketDrip FedWatch 2026-10-15 10:18 UTC",
       "Yahoo Finance QQQ/SPY/SMH/Mag7/CRWV PRE_MKT 2026-10-15 ~18:53 HKT",
-      "Investing.com Fed rate monitor 2026-10-15 06:25 EDT"
+      "Investing.com Fed rate monitor 2026-10-15 06:25 EDT",
+      "Yahoo Finance QQQ/SPY/SMH/Mag7/CRWV PRE_MKT 2026-10-15 ~19:22 HKT",
+      "Investing.com Fed rate monitor 2026-10-15 premarket (69.0/31.0; Dec 10.0/63.5/26.5)",
+      "Yahoo NQ=F/ES=F/^VIX 2026-10-15 ~19:22 HKT",
+      "Reuters/Investing Nasdaq futures AI debt/CoreWeave 2026-10-15",
+      "WSJ premarket movers CoreWeave/TSMC/chips 2026-10-15",
+      "Nasdaq QQQ/SPY PRE_MKT 2026-10-15 ~07:52 ET",
+      "Yahoo Finance Mag7/SMH/CRWV/NQ/ES/^VIX PRE_MKT 2026-10-15 ~19:52 HKT",
+      "Investing.com Fed rate monitor 2026-10-15 07:25 EDT (69.0/31.0; Dec 11.4/62.7/25.9)",
+      "Reuters/CNA Asia chip rout KOSPI/Nikkei 2026-10-15"
     ],
     "actualHeadlineYoY": 3.7,
     "actualHeadlineMoM": 0.6,
@@ -76,7 +85,7 @@
     "status": "upcoming",
     "consensusHeadlineYoY": 5.3,
     "priorHeadlineYoY": 5.4,
-    "note": "D-0 今日 08:30 ET＝20:30 HKT（尚未公布）。同日 Advance Retail Sales／初請失業金。Street：PPI MoM +0.5%／YoY ~5.3%（前值 0.4%／5.4%）；core MoM +0.3%／YoY ~4.4%。閘門續觸：QQQ 盤前 −1.25%——PPI 前半導／CRWV 再壓，上游若再熱將放大風險。",
+    "note": "D-0 今日 08:30 ET＝20:30 HKT（尚未公布）。同日 Advance Retail Sales／初請失業金。Street：PPI MoM +0.5%／YoY ~5.3%（前值 0.4%／5.4%）；core MoM +0.3%／YoY ~4.4%。閘門續觸：QQQ 盤前 −1.08%——PPI 前半導／CRWV 仍壓（CRWV 較深跌再回至 −3.5%）。",
     "sources": [
       "BLS／Census 日曆",
       "SquawkNews／Investing.com／nowflation calendar 2026-10-15",
@@ -93,7 +102,12 @@
       "MarketDrip FedWatch 2026-10-15 10:18 UTC",
       "Yahoo Finance PRE_MKT 2026-10-15 ~18:21 HKT",
       "Yahoo Finance PRE_MKT 2026-10-15 ~18:53 HKT",
-      "Investing.com Fed rate monitor 2026-10-15 06:25 EDT"
+      "Investing.com Fed rate monitor 2026-10-15 06:25 EDT",
+      "Yahoo Finance PRE_MKT 2026-10-15 ~19:22 HKT",
+      "Investing.com Fed rate monitor 2026-10-15 premarket",
+      "Nasdaq QQQ/SPY PRE_MKT 2026-10-15 ~07:52 ET",
+      "Yahoo Finance PRE_MKT 2026-10-15 ~19:52 HKT",
+      "Investing.com Fed rate monitor 2026-10-15 07:25 EDT"
     ]
   },
   {
@@ -102,19 +116,20 @@
     "date": "2026-10-28",
     "label": "FOMC 決定（10/27–28）",
     "status": "upcoming",
-    "note": "聲明約 14:00 ET。FedWatch（Investing 06:25 EDT）：hold 69.0%／+25bp 31.0%。十二月：hold 8.7%／+25bp 64.2%／+50bp 27.1%。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META／TSLA 10/21。"
+    "note": "聲明約 14:00 ET。FedWatch（Investing 07:25 EDT）：hold 69.0%／+25bp 31.0%。十二月：hold 11.4%／+25bp 62.7%／+50bp 25.9%。同日 Mag7 有 MSFT／GOOGL 業績（已確認），META／TSLA 10/21。"
   },
   {
     "id": "warsh-imf-2026-10-16",
     "type": "FedSpeak",
     "date": "2026-10-16",
-    "timeHKT": "11:30–12:00",
     "label": "Kevin Warsh（Fed 主席）× Georgieva｜IMF 曼谷 fireside chat",
-    "note": "Queen Sirikit G-02；有直播；10/28 FOMC 前最後公開現身（其後 blackout）",
     "status": "upcoming",
+    "note": "Queen Sirikit G-02；有直播；10/28 FOMC 前最後公開現身（其後 blackout）",
     "sources": [
       "IMF Annual Meetings Bangkok 2026",
-      "Stock room Drok/Grok 2026-10-15"
-    ]
+      "Stock room Drok/Grok 2026-10-15",
+      "StockDesk macro memory 2026-10-15"
+    ],
+    "timeHKT": "11:30–12:00"
   }
 ]
