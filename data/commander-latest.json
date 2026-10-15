@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-15T13:55:00.000Z",
+  "generatedAt": "2026-10-15T13:58:13.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-15 21:55 HKT",
+  "asOfHKT": "2026-10-15 21:58 HKT",
   "pipeline": {
     "candidates": 442,
     "techPassed": 71,
-    "company": 65,
-    "leaders": 24,
-    "entry": 24,
-    "entryConsider": 24,
+    "company": 71,
+    "leaders": 23,
+    "entry": 23,
+    "entryConsider": 23,
     "entryWatch": 0,
-    "anchor": "techPass 71 locked cash-open 10/15 on pool 442; waiting Jrok company/leaders + Arok entry",
-    "downstreamStale": true
+    "anchor": "Cash-open locked 10/15: 442→71→71→23→23; downstream fresh",
+    "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-15 21:55 HKT】\n閘門｜續觸｜QQQ −1.40%／SPY −0.43%\nFedWatch｜hold 71.3%／+25bp 28.7%｜12月 hold 10.1%／+25bp 65.3%／+50bp 24.6%\n美股／亞洲｜半導加深 AMD −5.4%／SMH −3.5%／CRWV −7.6%｜日經 −4.9%／韓綜 −7.6%\n日曆｜PPI 已出偏熱｜明 11:30 Warsh IMF｜10/28 FOMC\n管道｜442→71→65→24→24｜company／entry 待 Jrok／Arok（stale）\n結論｜閘門續觸＋techPass 重鎖 71；勿追動能\nhttps://wolfoofwolf.github.io/stockdesk/?v=cash1015",
+  "summaryTw": "【總司令｜2026-10-15 21:58 HKT】\n閘門｜續觸｜QQQ −1.40%／SPY −0.43%\nFedWatch｜hold 71.3%／+25bp 28.7%｜12月 hold 10.1%／+25bp 65.3%／+50bp 24.6%\n美股／亞洲｜半導加深 AMD −5.4%／SMH −3.5%／CRWV −7.6%｜日經 −4.9%／韓綜 −7.6%\n日曆｜PPI 已出偏熱｜明 11:30 Warsh IMF｜10/28 FOMC\n管道｜442→71→71→23→23｜已解 stale\n結論｜閘門續觸＋全日管道鎖完；勿追動能\nhttps://wolfoofwolf.github.io/stockdesk/?v=entry1015",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=cash1015"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=entry1015"
   },
   "thinkingLog": [
     {
@@ -54,6 +54,13 @@
     {
       "t": "2026-10-15 21:55 HKT",
       "msg": "Cash-open relock techPass 65→71 on pool 442; +24 SVG charts pushed; downstream stale until Jrok/Arok"
+    },
+    {
+      "t": "2026-10-15T13:58:13.000Z",
+      "bot": "Trok",
+      "role": "Pages",
+      "step": "cash-open-pipeline-sync",
+      "detail": "Unlocked downstreamStale after Jrok company 71/leaders 23 + Arok entry 23; pushed entry-run-latest + commander"
     }
   ],
   "premarketGate": {
@@ -182,7 +189,7 @@
     "credit": "CRWV −7.6%（$60.76）"
   },
   "brief": {
-    "asOfHKT": "2026-10-15 21:55 HKT",
+    "asOfHKT": "2026-10-15 21:58 HKT",
     "sections": [
       {
         "id": "gate",
@@ -207,17 +214,17 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 442 → techPass **71** → 65／24／24｜company／leaders／entry stale 待 Jrok／Arok"
+        "value": "池 442 → techPass **71** → 公司 **71** → 領導股 **23** → 進場 **23**（可考慮 23／觀望 0）｜已解 stale"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "ADP · HCA · HALO"
+        "value": "進場前排 ACN · DIS · ECL · HCA · PBR · PSX · RELX · SAP｜tech ADP · HCA · HALO"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "閘門續觸＋techPass 現金盤重鎖 71；勿追動能，等 company／entry 刷新"
+        "value": "閘門續觸＋現金盤全日管道已鎖 442→71→23→23；勿追動能"
       }
     ]
   }

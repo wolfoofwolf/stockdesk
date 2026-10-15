@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-15T12:49:50.000Z",
+  "generatedAt": "2026-10-15T13:58:13.000Z",
   "bot": "Trok",
   "role": "總司令",
   "asOf": "2026-10-15 14:08 HKT",
-  "asOfHKT": "2026-10-15 20:49 HKT",
+  "asOfHKT": "2026-10-15 21:58 HKT",
   "pipeline": {
     "candidates": 442,
-    "techPassed": 65,
-    "company": 65,
-    "leaders": 24,
-    "entry": 24,
-    "entryConsider": 24,
+    "techPassed": 71,
+    "company": 71,
+    "leaders": 23,
+    "entry": 23,
+    "entryConsider": 23,
     "entryWatch": 0,
-    "anchor": "Hold techPass 65 (asOfMarket 10/14); tonight cash-open relock on 442 after PPI",
+    "anchor": "Cash-open locked 10/15: 442→71→71→23→23; downstream fresh",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-15 20:49 HKT】\n閘門｜續觸｜QQQ −1.13%／SPY −0.29%\n**PPI 偏熱**｜MoM +1.3%（預期 +0.5%）／YoY +6.3%／核心 MoM +0.7%\nFedWatch｜hold 69%／+25bp 31%（尚未重定價）\n日曆｜明 11:30 Warsh IMF｜10/28 FOMC\n管道｜442→65→24→24｜今晚現金盤重鎖\n結論｜PPI 驚喜；勿追動能\nhttps://wolfoofwolf.github.io/stockdesk/?v=ppi1015",
+  "summaryTw": "【總司令｜2026-10-15 21:58 HKT】\n閘門｜續觸｜QQQ −1.40%／SPY −0.43%\nFedWatch｜hold 71.3%／+25bp 28.7%｜12月 hold 10.1%／+25bp 65.3%／+50bp 24.6%\n美股／亞洲｜半導加深 AMD −5.4%／SMH −3.5%／CRWV −7.6%｜日經 −4.9%／韓綜 −7.6%\n日曆｜PPI 已出偏熱｜明 11:30 Warsh IMF｜10/28 FOMC\n管道｜442→71→71→23→23｜已解 stale\n結論｜閘門續觸＋全日管道鎖完；勿追動能\nhttps://wolfoofwolf.github.io/stockdesk/?v=entry1015",
   "catalysts": [
     {
       "id": "ppi-2026-10-15",
@@ -292,42 +292,42 @@
     }
   ],
   "brief": {
-    "asOfHKT": "2026-10-15 20:49 HKT",
+    "asOfHKT": "2026-10-15 21:58 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "續觸｜QQQ 盤前 −1.13%（$720.71）＞−0.65%；SPY −0.29% 未觸｜SMH −2.52%；VIX 17.70"
+        "value": "續觸｜QQQ −1.40%（$718.74 vs 收 $728.95）＞−0.65%；SPY −0.43%（$766.37）未觸｜SMH −3.52%；VIX 17.70"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "10/28 hold 69%／+25bp 31%（PPI 後尚未刷新）｜12月 hold 10.3%／+25bp 63.3%／+50bp 26.4%"
+        "value": "10/28 hold 71.3%／+25bp 28.7%｜12月 hold 10.1%／+25bp 65.3%／+50bp 24.6%"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "PPI 偏熱主導｜半導續壓 MU −4.2%／TSM −3.1%／SMH −2.5%；CRWV −3.8%｜日經 −4.9%／韓綜 −7.6%"
+        "value": "熱 PPI＋半導／AI 債加深｜AMD −5.4%／SMH −3.5%／CRWV −7.6%｜日經 −4.9%／韓綜 −7.6%"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "**PPI 偏熱已出** MoM +1.3%（預期 +0.5%）／YoY +6.3%（預期 ~5.3–5.4%）／核心 MoM +0.7%（預期 +0.3%）｜零售 +0.8%｜初請 199K｜明 11:30 Warsh IMF｜10/28 FOMC"
+        "value": "**PPI 偏熱已出** MoM +1.3%／YoY +6.3%／核心 MoM +0.7%｜零售 +0.8%｜初請 199K｜明 11:30 Warsh IMF｜10/28 FOMC"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 442 → techPass 65 → 65／24／24｜今晚 ~21:35 現金盤跟 442 重鎖"
+        "value": "池 442 → techPass **71** → 公司 **71** → 領導股 **23** → 進場 **23**（可考慮 23／觀望 0）｜已解 stale"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "HALO · OSCR · XOM"
+        "value": "進場前排 ACN · DIS · ECL · HCA · PBR · PSX · RELX · SAP｜tech ADP · HCA · HALO"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "閘門續觸＋PPI 大驚喜；勿追動能，等 FedWatch／期貨消化"
+        "value": "閘門續觸＋現金盤全日管道已鎖 442→71→23→23；勿追動能"
       }
     ]
   },
