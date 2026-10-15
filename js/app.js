@@ -927,15 +927,34 @@
     }
     el.style.display = 'block';
     el.className = 'overview-gate';
+    var pipe = (cmd && cmd.pipeline) || {};
+    var fw = (cmd && cmd.fedWatch) || {};
+    var cal = (cmd && cmd.calendar) || {};
+    var ppi = cal.ppi || {};
+    var holdLine = 'techPass 暫錨 ' + (pipe.techPassed != null ? pipe.techPassed : '—') +
+      ' · 池 ' + (pipe.candidates != null ? pipe.candidates : '—') +
+      (pipe.anchor ? ' · ' + pipe.anchor : '');
+    var extra = '';
+    if (fw.stance === 'hike-dominated' || (fw.octHike25Pct != null && fw.octHike25Pct >= 50)) {
+      extra += '<br><b>FedWatch 加息主導</b> hold~' + (fw.octHoldPct != null ? fw.octHoldPct : '—') +
+        '%／+25bp~' + (fw.octHike25Pct != null ? fw.octHike25Pct : '—') + '%';
+    } else if (fw.octHoldPct != null) {
+      extra += '<br>FedWatch hold~' + fw.octHoldPct + '%／hike~' + (fw.octHike25Pct != null ? fw.octHike25Pct : '—') + '%';
+    }
+    if (ppi.status === 'D-0' || (ppi.date && String(ppi.date).indexOf('2026-10-15') === 0)) {
+      extra += '<br><b>PPI D-0</b> ' + (ppi.timeHKT || '20:30') + ' HKT' +
+        (ppi.street ? ' · ' + ppi.street : '');
+    }
     if (g && g.triggered) {
       el.innerHTML = '<b>🚨 閘門觸發</b> · QQQ ' + (g.qqqPct != null ? g.qqqPct + '%' : '—') +
         (g.qqqLaterPct != null ? '（其後 ~' + g.qqqLaterPct + '%）' : '') +
         '／SPY ' + (g.spyPct != null ? g.spyPct + '%' : '—') +
         ' · 閾值 ' + (g.threshold != null ? g.threshold + '%' : '−0.65%') +
         (g.driver ? '<br>' + g.driver : '') +
-        '<br>techPass 暫錨 83 · 等現金盤 502 重鎖';
+        extra +
+        '<br>' + holdLine;
     } else {
-      el.innerHTML = '<b>🚨 閘門觸發</b> · 見大市報告（Drok）· techPass 暫錨 83 · 等現金盤重鎖';
+      el.innerHTML = '<b>🚨 閘門觸發</b> · 見大市報告（Drok）' + extra + '<br>' + holdLine;
     }
   }
 
