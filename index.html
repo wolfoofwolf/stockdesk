@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
   <title>StockDesk · 六項流水線</title>
-  <link rel="stylesheet" href="css/app.css?v=gate1" />
+  <link rel="stylesheet" href="css/app.css?v=fmt1" />
 </head>
 <body class="fx-root">
   <header>
@@ -40,6 +40,7 @@
       <section class="panel active" data-panel="overview">
         <h2>總覽</h2>
         <div id="overview-gate" class="overview-gate" style="display:none"></div>
+        <div id="overview-brief" class="brief-board" style="margin-top:12px"></div>
         <div id="boot-warn" style="display:none;margin:10px 0;padding:12px 14px;border-radius:10px;border:1px solid #c45c26;background:#3a1f12;color:#ffd0b0;line-height:1.5"></div>
         <div class="kpi">
           <div class="card">篩選通過<b id="kpi-pass">—</b></div>
@@ -131,7 +132,7 @@
         <h3 style="color:#9aa6d0;font-size:13px">事件日曆</h3>
         <div id="macro-events"></div>
         <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">最新示範報告</h3>
-        <pre class="report" id="macro-report">載入中…</pre>
+        <div id="macro-report" class="brief-board report">載入中…</div>
         <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">Drok 思考 log</h3>
         <div class="log-box" id="log-macro"></div>
       </section>
@@ -161,7 +162,7 @@
       <section class="panel" data-panel="commander">
         <h2>⑥ 資料蒐集＋總司令（Trok）</h2>
         <button class="primary" id="btn-commander" type="button">重新匯總</button>
-        <pre class="report" id="commander-summary" style="margin-top:12px"></pre>
+        <div id="commander-summary" class="brief-board report" style="margin-top:12px"></div>
         <h3 style="color:#9aa6d0;font-size:13px">催化劑監控</h3>
         <div id="catalyst-list"></div>
         <h3 style="color:#9aa6d0;font-size:13px;margin-top:14px">Trok 思考 log</h3>
@@ -236,6 +237,6 @@
   <script src="js/charts/ISRG_vcp_C1C2C3.js"></script>
   <script src="js/charts/NVDA_scan_VCP.js"></script>
   <script src="js/charts/AMD_scan_VCP.js"></script>
-  <script src="js/app.js?v=aft15"></script>
+  <script src="js/app.js?v=fmt1"></script>
 </body>
 </html>

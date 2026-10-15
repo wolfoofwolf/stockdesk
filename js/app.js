@@ -143,19 +143,12 @@
       return fetch('data/macro-report-nfp-latest.json').then(function (r) { return r.json(); });
     }).then(function (j) {
       alog('macro-report:loaded', j && (j.title || j.updatedAt));
-      var body;
-      if (j && j.summaryTw) {
-        body = j.summaryTw;
-        if (j.watch && j.watch.length) {
-          body += '\n\n【前瞻】\n' + j.watch.map(function (w) {
-            return '· ' + (w.date || '') + ' ' + (w.label || w.type || '') + (w.note ? ' — ' + w.note : '');
-          }).join('\n');
-        }
-        if (j.mag7Note) body += '\n\n【七巨頭】\n' + j.mag7Note;
-      } else {
-        body = '未有繁中摘要（summaryTw），請等 Drok 刷新大市報告。';
+      window.__latestMacro = j;
+      renderMacroBrief(j);
+      // keep plain text fallback if board empty
+      if ($('macro-report') && !$('macro-report').querySelector('.brief-label') && j && j.summaryTw) {
+        renderBriefBoard($('macro-report'), [{ label: '摘要', value: j.summaryTw }], { title: j.title || '' });
       }
-      $('macro-report').textContent = body;
       var logs = (j && j.thinkingLog && j.thinkingLog.length) ? j.thinkingLog : ((window.Macro && Macro.getLog && Macro.getLog()) || []);
       if ($('log-macro')) $('log-macro').innerHTML = fmtLog(logs);
       if (j && j.calendar && j.calendar.length) renderMacroEvents(j.calendar);
@@ -619,7 +612,13 @@
       var L = x.leadership || {};
       return x.ticker + (L.isLeader ? '(領導)' : '(非領導)') + ' 護城河' + ((x.moat && x.moat.level) || '?');
     }).join('、'));
-    $('commander-summary').textContent = sum.text + (extra.length ? '\n\n—— 最新刷新 ——\n' + extra.join('\n') : '');
+    if (window.__latestCommander && window.__latestCommander.brief) {
+      renderCommanderBrief(window.__latestCommander);
+    } else {
+      renderBriefBoard($('commander-summary'), [
+        { label: '匯總', value: sum.text + (extra.length ? '\n—— 最新刷新 ——\n' + extra.join('\n') : '') }
+      ], { title: '總司令（即時）' });
+    }
     $('catalyst-list').innerHTML = Commander.listCatalysts().map(function (c) {
       return '<div class="bot"><div class="name">影響力 ' + c.score + '/10</div><div class="role">' +
         (c.date || '') + ' · ' + (c.title || '') + '</div><div class="muted">' + (c.note || (c.why || []).join('、')) + '</div></div>';
@@ -887,6 +886,141 @@
   }
 
 
+
+  function escHtml(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function renderBriefBoard(el, sections, opts) {
+    if (!el) return;
+    opts = opts || {};
+    if (!sections || !sections.length) {
+      el.innerHTML = '<div class="brief-row"><div class="brief-val muted">' +
+        escHtml(opts.empty || '尚未有分欄簡報') + '</div></div>';
+      return;
+    }
+    var head = opts.title ? '<div class="brief-row"><div class="brief-label">更新</div><div class="brief-val brief-muted">' +
+      escHtml(opts.title) + '</div></div>' : '';
+    el.innerHTML = head + sections.map(function (s) {
+      return '<div class="brief-row">' +
+        '<div class="brief-label">' + escHtml(s.label || s.id || '') + '</div>' +
+        '<div class="brief-val">' + escHtml(s.value || s.text || '').replace(/\n/g, '<br>') + '</div>' +
+        '</div>';
+    }).join('');
+  }
+
+  function sectionsFromCommander(cmd) {
+    if (!cmd) return [];
+    if (cmd.brief && cmd.brief.sections && cmd.brief.sections.length) return cmd.brief.sections;
+    var g = cmd.premarketGate || {};
+    var fw = cmd.fedWatch || {};
+    var cal = cmd.calendar || {};
+    var mat = cmd.material || {};
+    var pipe = cmd.pipeline || {};
+    var ppi = cal.ppi || {};
+    var rows = [];
+    if (g.qqqPct != null || g.triggered != null) {
+      rows.push({
+        id: 'gate', label: '閘門',
+        value: (g.triggered ? '觸發／仍開' : '未觸發') +
+          ' · QQQ ' + (g.qqqPct != null ? g.qqqPct + '%' : '—') +
+          '／SPY ' + (g.spyPct != null ? g.spyPct + '%' : '—')
+      });
+    }
+    if (fw.octHoldPct != null || fw.stance) {
+      var stance = fw.stance === 'hike-dominated' ? '加息主導' :
+        fw.stance === 'hold-dominated' ? 'hold 主導' : '';
+      rows.push({
+        id: 'fedwatch', label: 'FedWatch',
+        value: 'hold~' + (fw.octHoldPct != null ? fw.octHoldPct : '—') +
+          '%／+25bp~' + (fw.octHike25Pct != null ? fw.octHike25Pct : '—') + '%' +
+          (stance ? ' · ' + stance : '')
+      });
+    }
+    if (mat.asia || mat.tsmc) {
+      rows.push({ id: 'markets', label: '美股／亞洲', value: [mat.asia, mat.tsmc].filter(Boolean).join('｜') });
+    }
+    if (ppi.date || ppi.status) {
+      rows.push({
+        id: 'calendar', label: '日曆',
+        value: 'PPI ' + (ppi.status || '') + ' ' + (ppi.timeHKT || '') + ' HKT' +
+          (ppi.street ? ' · ' + ppi.street : '')
+      });
+    }
+    if (pipe.techPassed != null) {
+      rows.push({
+        id: 'pipeline', label: '管道',
+        value: (pipe.candidates != null ? pipe.candidates : '—') + '→' +
+          pipe.techPassed + '→' + (pipe.company != null ? pipe.company : '—') +
+          '／' + (pipe.leaders != null ? pipe.leaders : '—') +
+          '／' + (pipe.entry != null ? pipe.entry : '—')
+      });
+    }
+    return rows;
+  }
+
+  function sectionsFromMacro(j) {
+    if (!j) return [];
+    if (j.brief && j.brief.sections && j.brief.sections.length) return j.brief.sections;
+    var rows = [];
+    var watch = j.watch || [];
+    function pick(re, label) {
+      for (var i = 0; i < watch.length; i++) {
+        var w = typeof watch[i] === 'string' ? watch[i] : ((watch[i].label || '') + ' ' + (watch[i].note || ''));
+        if (re.test(w)) return w.replace(/^【[^】]+】/, '').trim();
+      }
+      return '';
+    }
+    var gate = pick(/閘門|FIRED|QQQ/, '閘門');
+    var fw = pick(/FedWatch|hold|加息/, 'FedWatch');
+    var asia = pick(/亞洲|日經|韓|Nikkei|Kospi/, '亞洲');
+    var us = pick(/隔夜|期貨|NQ|ES|美股/, '美股');
+    var cal = pick(/PPI|零售|FOMC|日曆/, '日曆');
+    var tsmc = pick(/TSMC|台積/, 'TSMC');
+    if (gate) rows.push({ id: 'gate', label: '閘門', value: gate });
+    if (fw) rows.push({ id: 'fedwatch', label: 'FedWatch', value: fw });
+    var mk = [asia, us, tsmc].filter(Boolean).join('｜');
+    if (mk) rows.push({ id: 'markets', label: '美股／亞洲', value: mk });
+    if (cal) rows.push({ id: 'calendar', label: '日曆', value: cal });
+    // conclusion: first line of summaryTw after last section, or title
+    var sum = j.summaryTw || '';
+    var concl = '';
+    var m = sum.match(/【結論】([^\n]+)/) || sum.match(/結論[：:｜|]\s*([^\n]+)/);
+    if (m) concl = m[1].trim();
+    else if (j.title) concl = j.title.replace(/^大市更新｜/, '');
+    if (concl) rows.push({ id: 'conclusion', label: '結論', value: concl });
+    if (!rows.length && sum) {
+      // fallback: split 【】 blocks
+      var parts = sum.split(/(?=【)/).filter(Boolean);
+      parts.slice(0, 6).forEach(function (block) {
+        var mm = block.match(/【([^】]+)】\s*([\s\S]*)/);
+        if (mm) rows.push({ label: mm[1].slice(0, 8), value: mm[2].trim().slice(0, 220) });
+      });
+    }
+    return rows;
+  }
+
+  function renderCommanderBrief(cmd) {
+    var sections = sectionsFromCommander(cmd);
+    var title = cmd && (cmd.asOfHKT || cmd.generatedAt) || '';
+    renderBriefBoard($('overview-brief'), sections, { title: title ? ('總司令 · ' + title) : '總司令' });
+    renderBriefBoard($('commander-summary'), sections, {
+      title: title ? ('總司令 · ' + title) : '總司令',
+      empty: '撳「重新匯總」或等 commander-latest.json'
+    });
+  }
+
+  function renderMacroBrief(j) {
+    var sections = sectionsFromMacro(j);
+    var title = (j && (j.updatedAt || j.asOf)) || '';
+    renderBriefBoard($('macro-report'), sections, {
+      title: title ? ('大市 · ' + title) : '大市',
+      empty: '未有大市分欄（等 Drok 刷新）'
+    });
+  }
+
   function loadCommanderLatest() {
     return fetch(bust('data/commander-latest.json')).then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -894,6 +1028,7 @@
     }).then(function (j) {
       window.__latestCommander = j;
       renderOverviewGate(j);
+      renderCommanderBrief(j);
       alog('commander-latest:loaded', j && j.asOfHKT);
     }).catch(function (e) {
       alog('commander-latest:error', e.message);

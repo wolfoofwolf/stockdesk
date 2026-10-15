@@ -305,3 +305,17 @@ img#tech-chart{
 .overview-gate{margin:10px 0;padding:10px 14px;border-radius:10px;border:1px solid #c45c26;background:#3a1f12;color:#ffd0b0;line-height:1.45;font-size:13px}
 .overview-gate.ok{border-color:#2a6b45;background:#12241a;color:#b8f0c8}
 .overview-gate b{color:#fff}
+
+/* —— 分欄簡報（總覽／大市／總司令） —— */
+.brief-board{display:flex;flex-direction:column;gap:0;border:1px solid var(--line,#2a3560);border-radius:10px;overflow:hidden;background:#0a0e18}
+.brief-row{display:grid;grid-template-columns:7.5em 1fr;gap:10px;padding:10px 12px;border-bottom:1px solid rgba(255,255,255,.06);align-items:start}
+.brief-row:last-child{border-bottom:0}
+.brief-label{color:#9aa6d0;font-size:12px;font-weight:700;letter-spacing:.02em;padding-top:1px}
+.brief-val{color:#e8ecf8;font-size:13px;line-height:1.45;white-space:pre-wrap}
+.brief-val b{color:#fff}
+.brief-val .tag{display:inline-block;margin-right:6px}
+.brief-muted{color:#8b93a7;font-size:12px}
+.brief-board.report{margin-top:0}
+@media (max-width:640px){
+  .brief-row{grid-template-columns:1fr;gap:4px}
+}

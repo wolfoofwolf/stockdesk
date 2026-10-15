@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-15T06:01:23.000Z",
+  "generatedAt": "2026-10-15T06:49:53.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-15 14:01 HKT",
+  "asOfHKT": "2026-10-15 14:49 HKT",
   "pipeline": {
     "candidates": 442,
     "techPassed": 65,
@@ -14,9 +14,9 @@
     "anchor": "Hold techPass 65 (asOfMarket 10/14); tonight relock on pool 442 after PPI/cash bars",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-15 14:01 HKT】\n**FedWatch 回擺 hold 主導** hold~67%／+25bp~33%（晨曾加息主導 ~29%／~71%）\n**PPI D-0** 今夜 20:30 HKT · 亞洲加深（日經 ~−4.8%／韓綜 ~−8.6%）· TSMC Q3 beat／ADR 隔夜仍軟\n昨收閘門仍開 QQQ −1.97%／SPY −1.08%；盤前未開＝未新觸發\n錨 techPass **65**（池 **442**；asOfMarket 10/14）→ 65／24／24 — 今晚現金盤重鎖\nTop：**HALO** · **OSCR** · **XOM**\n[StockDesk](https://wolfoofwolf.github.io/stockdesk/?v=aft1015)",
+  "summaryTw": "【總司令｜2026-10-15 14:49 HKT】\n閘門｜昨收 QQQ -1.97%／SPY -1.08% · 仍開\nFedWatch｜hold~66.8%／+25bp~33.2% · hold 主導\n美股／亞洲｜Nikkei ~-4.81%; Kospi ~-8.62%\n日曆｜PPI D-0 20:30 HKT\n管道｜442→65→24→24｜Top HALO／OSCR／XOM\n結論｜hold 主導＋亞洲加深；今晚現金盤跟 442 重鎖\nhttps://wolfoofwolf.github.io/stockdesk/?v=fmt1",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=aft1015"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=fmt1"
   },
   "thinkingLog": [
     {
@@ -34,6 +34,14 @@
     {
       "t": "2026-10-15 14:01 HKT",
       "msg": "FedWatch swing back hold-dominated; pool 442; PPI D-0; hold techPass 65"
+    },
+    {
+      "t": "2026-10-15 14:08 HKT",
+      "msg": "Top fix XOM/HCA/OSCR; FedWatch catalyst notes aligned"
+    },
+    {
+      "t": "2026-10-15 14:49 HKT",
+      "msg": "UI format: classified brief board (gate/FedWatch/markets/calendar/pipeline)"
     }
   ],
   "premarketGate": {
@@ -89,7 +97,30 @@
       "last": 29960.75,
       "pctVsPriorHist": -2.7
     },
-    "note": "No fresh overnight/premarket tape at afternoon fire; still post-close quiet until ~16:00 HKT premarket"
+    "note": "No fresh overnight/premarket tape at afternoon fire; still post-close quiet until ~16:00 HKT premarket",
+    "fedWatch": {
+      "asOfHKT": "2026-10-15 ~13:56 HKT",
+      "source": "GMT EIGHT 1557001",
+      "octHoldPct": 66.8,
+      "octHike25Pct": 33.2,
+      "decCum50Pct": 28.7,
+      "priorMorning": {
+        "octHoldPct": 29.1,
+        "octHike25Pct": 70.9,
+        "source": "GMT EIGHT 1534460"
+      },
+      "stance": "hold-dominated"
+    },
+    "asia": {
+      "nikkeiPct": -4.81,
+      "kospiPct": -8.62,
+      "note": "vs morning Nikkei −3.38% / KOSPI −5.81%"
+    },
+    "tsmc": {
+      "q3Beat": true,
+      "adrOvernightPct": -1.93,
+      "note": "Revenue NT$1.49T / NI NT$763.1B beat; ADR still soft overnight"
+    }
   },
   "fedWatch": {
     "asOf": "2026-10-15 afternoon (GMT EIGHT 1557001)",
@@ -117,5 +148,45 @@
   "material": {
     "asia": "Nikkei ~-4.81%; Kospi ~-8.62%",
     "tsmc": "Q3 beat (rev NT$1.49T / NI NT$763.1B); ADR overnight ~-1.93%"
+  },
+  "brief": {
+    "asOfHKT": "2026-10-15 14:49 HKT",
+    "sections": [
+      {
+        "id": "gate",
+        "label": "閘門",
+        "value": "昨收 QQQ -1.97%／SPY -1.08% · 仍開｜隔夜 QQQ -1.06%（盤前未開＝未新觸發）"
+      },
+      {
+        "id": "fedwatch",
+        "label": "FedWatch",
+        "value": "10月 hold~66.8%／+25bp~33.2% · hold 主導"
+      },
+      {
+        "id": "markets",
+        "label": "美股／亞洲",
+        "value": "Nikkei ~-4.81%; Kospi ~-8.62%｜Q3 beat (rev NT$1.49T / NI NT$763.1B); ADR overnight ~-1.93%"
+      },
+      {
+        "id": "calendar",
+        "label": "日曆",
+        "value": "PPI D-0 20:30 HKT · PPI MoM +0.5% / YoY ~5.3%｜Advance Retail Sales"
+      },
+      {
+        "id": "pipeline",
+        "label": "管道",
+        "value": "池 442 → techPass 65 → 公司 65／領導 24／進場 24｜今晚現金盤跟 442 重鎖"
+      },
+      {
+        "id": "top",
+        "label": "Top",
+        "value": "HALO · OSCR · XOM"
+      },
+      {
+        "id": "conclusion",
+        "label": "結論",
+        "value": "FedWatch 回擺 hold；亞洲加深；PPI 今夜再測｜techPass 暫錨 65"
+      }
+    ]
   }
 }
