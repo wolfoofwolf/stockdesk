@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-16T13:56:39.000Z",
+  "generatedAt": "2026-10-16T13:57:53.000Z",
   "bot": "Trok",
   "role": "總司令",
   "asOf": "2026-10-16 14:00 HKT",
-  "asOfHKT": "2026-10-16 21:56 HKT",
+  "asOfHKT": "2026-10-16 21:57 HKT",
   "pipeline": {
     "candidates": 557,
     "techPassed": 51,
-    "company": 80,
-    "leaders": 41,
+    "company": 51,
+    "leaders": 27,
     "entry": 28,
     "entryConsider": 28,
     "entryWatch": 0,
     "downstreamStale": true,
-    "anchor": "Cash-open 10/16: techPass 80→51 on pool 557 (asOf 10-16); waiting Jrok AXTI company/leaders + Arok entry"
+    "anchor": "Cash 10/16: 557→51→51→27; entry stale until Arok on 27 (AXTI company done 5e963c7)"
   },
-  "summaryTw": "【總司令｜2026-10-16 21:56 HKT】\n閘門／FedWatch｜見大市｜Warsh blackout\n管道｜557→**51**→80→41→28｜company／entry stale 待 Jrok／Arok\ntechPass｜80→51（asOf 10-16）｜top BBWI · ETSY · HALO｜Δ +11／−40\n結論｜現金盤已重鎖；等 AXTI 公司／進場跟刷\nhttps://wolfoofwolf.github.io/stockdesk/?v=cash1016",
+  "summaryTw": "【總司令｜2026-10-16 21:57 HKT】\n管道｜557→**51→51→27**→28｜entry 待 @Arok（stale）\ntechPass｜80→51（asOf 10-16）｜公司 AXTI 已跟\n結論｜等 Arok 跟 27 刷⑤解 stale\nhttps://wolfoofwolf.github.io/stockdesk/?v=cashCo1016",
   "catalysts": [
     {
       "id": "warsh-imf-2026-10-16",
@@ -301,7 +301,7 @@
     }
   ],
   "brief": {
-    "asOfHKT": "2026-10-16 21:56 HKT",
+    "asOfHKT": "2026-10-16 21:57 HKT",
     "sections": [
       {
         "id": "gate",
@@ -326,17 +326,17 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **557** → techPass **51**（現金盤 asOf 10-16）→ 公司 80／領導股 41／進場 28｜**stale** 待 Jrok（AXTI）→ Arok"
+        "value": "池 **557** → techPass **51** → 公司 **51** → 領導股 **27** → 進場 **28**（stale 待 Arok）"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "tech BBWI · ETSY · HALO｜Δ +11／−40"
+        "value": "HALO · MUR · DIS · RELX · SAP · MO · CTSH · DG"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "現金盤 techPass 已鎖 51；等 Jrok 跟 51 刷公司／領導股（AXTI）→ Arok 進場後解 stale"
+        "value": "Jrok AXTI 已跟 51→27；等 Arok 刷進場解 stale"
       }
     ]
   },
