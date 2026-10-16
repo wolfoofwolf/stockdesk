@@ -162,12 +162,16 @@
     "type": "FedSpeak",
     "date": "2026-10-16",
     "label": "Warsh×Georgieva IMF 曼谷 fireside —D-0 今日",
-    "status": "D-0",
-    "note": "今日 11:30–12:00 HKT；場地 IMF 曼谷；Kevin Warsh／Fed Chair；10/28 FOMC 前最後公開露面（其後 blackout）。PPI 偏熱翌日，留意鷹派語調。",
+    "status": "printed",
+    "note": "已畢｜偏緩和／路徑中性｜blackout 至 10/28 FOMC",
     "sources": [
       "StockDesk macro memory 2026-10-15",
       "Dow Jones/calendar 2026-10-15",
       "Drok morning verify 2026-10-16 ~08:57 HKT"
-    ]
+    ],
+    "fedWatchPost": {
+      "octHoldPct": 82,
+      "octHike25Pct": 18
+    }
   }
 ]
