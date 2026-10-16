@@ -1,9 +1,9 @@
 {
   "id": "hard-draw-rules-vcp-from-human-exemplar",
-  "updatedAt": "2026-10-14T19:49:25+08:00",
+  "updatedAt": "2026-10-16T09:25:34+08:00",
   "sourceExemplar": "data/lessons/exemplars/NOW_vcp_c123_dtl_style.jpg",
   "sourceLesson": "draw-style-vcp-c123-dtl-now",
-  "sourceNote": "由你教嘅 NOW 日線圖逐項拆解；之後所有 VCP 出口必須滿足 must，違反 never → 永不學習／唔入值得保留。",
+  "sourceNote": "由你教嘅 NOW 日線圖逐項拆解；之後所有 VCP 出口必須滿足 must，違反 never → 永不學習／唔入值得保留。｜2026-10-16 PSX 人教：標籤勿堆；爆上去嘅末段唔硬標 Cn；VCP 可 2–5 段。",
   "analysis": [
     "深色底＋白折線 zigzag 標結構高低（唔係光裸 K）",
     "C1／C2／C3 白底黑字方框標在收縮低點（唔標高點）",
@@ -21,14 +21,19 @@
     "成交量面板向下量縮箭頭（綠框同區）",
     "畫 down trend line(DTL) 沿 C3 高點並標籤",
     "標 Bo DTL（突破教法；未破亦要有標籤位置對準 DTL）",
-    "標 pivot point＋水平線"
+    "標 pivot point＋水平線",
+    "VCP 收縮段數允許 C1–C2 至 C1–C5（唔強制三個）",
+    "若末段高點已被明顯向上爆破（收市 ≫ 該段 high），刪末段 Cn，唔再畫假 C3",
+    "標籤扇開：DTL 靠左、Bo DTL 右上、pivot 右下、量縮註在綠框上方；禁止右上／綠框角堆疊"
   ],
   "never": [
     "只畫 K 線無 zigzag／無 C1–C3",
     "C1–C3 標在左段大跌或 Jan/Feb 微浪",
     "用黃色淡影代替 C3 綠框量縮語意",
     "省略 DTL／Bo DTL／pivot point 任一標籤",
-    "「值得保留」同「永不學習」各堆同一圖嘅重複複本、唔並排對照 exemplar"
+    "「值得保留」同「永不學習」各堆同一圖嘅重複複本、唔並排對照 exemplar",
+    "硬塞 C3（已爆破或實際只有 2 段收縮時）",
+    "Bo DTL／DTL／pivot／量縮註擠同一角重疊難讀"
   ],
   "gate": {
     "passThreshold": 90,

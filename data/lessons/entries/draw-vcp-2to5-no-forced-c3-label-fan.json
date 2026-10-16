@@ -1,0 +1,29 @@
+{
+  "id": "draw-vcp-2to5-no-forced-c3-label-fan",
+  "worth": "high",
+  "tier": "process",
+  "keepForever": true,
+  "title": "VCP 2–5 段＋爆破唔硬標 Cn＋標籤扇開",
+  "learnedAt": "2026-10-16T09:26:20+08:00",
+  "source": {
+    "userTeaching": "劃得不錯起碼正確；字堆在一起；C3已爆上去所以沒C3；VCP可2–5個C",
+    "exemplar": "data/lessons/exemplars/PSX_user_feedback_label_stack_no_forced_c3.jpg",
+    "thinkLearn": "data/lessons/training/think-learn/20261016T0925_PSX.json"
+  },
+  "rules": {
+    "must": [
+      "VCP 收縮允許 2–5 段",
+      "末段 high 已被向上爆破（close≫high）→ 刪 Cn，唔畫假 C3",
+      "標籤扇開：DTL 左、Bo DTL 右上、pivot 右下、量縮註綠框上"
+    ],
+    "never": [
+      "硬塞 C3",
+      "Bo/DTL/pivot/量縮堆同一角"
+    ]
+  },
+  "code": [
+    "scripts/multi_pattern_scan.py detect_vcp + draw_candle_chart",
+    "scripts/lesson_chart_grade.py",
+    "data/lessons/training/hard-draw-rules-vcp.json"
+  ]
+}
