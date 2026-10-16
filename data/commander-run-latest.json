@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-16T06:00:31.000Z",
+  "generatedAt": "2026-10-16T13:52:11.000Z",
   "bot": "Trok",
   "role": "總司令",
   "asOf": "2026-10-16 14:00 HKT",
-  "asOfHKT": "2026-10-16 14:00 HKT",
+  "asOfHKT": "2026-10-16 21:52 HKT",
   "pipeline": {
     "candidates": 557,
     "techPassed": 80,
     "company": 80,
-    "leaders": 28,
+    "leaders": 41,
     "entry": 28,
     "entryConsider": 28,
     "entryWatch": 0,
-    "downstreamStale": false,
-    "anchor": "Afternoon re-fire: Frok pool 557; HOLD Grok techPass 80 (asOf 10/15, VCP71/bull_flag9) until cash ~21:35 relock on 557"
+    "downstreamStale": true,
+    "anchor": "Jrok AXTI-template rewrite: company 80 / leaders 28→41; entry stale until Arok on 41; techPass HOLD 80 until cash ~21:35 on 557"
   },
-  "summaryTw": "【總司令｜2026-10-16 14:00 HKT】\n閘門｜終盤已解｜QQQ −0.13%／SPY +0.28%｜盤前閘門待 ~16:00\nFedWatch｜hold **86.2%**／+25bp **13.8%**（較今早 +14.9pp）｜12月仍偏加息\n**Warsh 已畢**｜blackout 至 10/28 FOMC\n亞洲｜日經 +1.87%／韓綜 +3.03%／恒指 +0.95%｜夜期 NQ +0.12%\n管道｜**557**→**80**→80→28→28｜HOLD techPass 80（Grok asOf 10/15）至 ~21:35 跟 557 重鎖\n結論｜對上 13:56 無新催化／無 tech 重鎖；勿搶跑\nhttps://wolfoofwolf.github.io/stockdesk/?v=aft1016b",
+  "summaryTw": "【總司令｜2026-10-16 21:52 HKT】\n閘門／FedWatch｜見大市｜Warsh blackout 至 10/28\n管道｜557→80→80→**41**→28｜entry 待 @Arok（stale）\n公司｜已跟 AXTI template 重刷 80（領導股 28→41）\n結論｜等 Arok 跟 41 刷⑤；techPass 仍 HOLD 至 ~21:35 跟 557\nhttps://wolfoofwolf.github.io/stockdesk/?v=axtiCo1016",
   "catalysts": [
     {
       "id": "warsh-imf-2026-10-16",
@@ -301,7 +301,7 @@
     }
   ],
   "brief": {
-    "asOfHKT": "2026-10-16 14:00 HKT",
+    "asOfHKT": "2026-10-16 21:52 HKT",
     "sections": [
       {
         "id": "gate",
@@ -326,7 +326,7 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **557** → techPass **80**（Grok HOLD asOf 10/15；VCP 71／bull_flag 9）→ 80 → 28 → 28｜今 ~21:35 跟 **557** 重鎖"
+        "value": "池 **557** → techPass **80**（HOLD）→ 公司 **80** → 領導股 **41** → 進場 **28**（stale 待 Arok）"
       },
       {
         "id": "top",
@@ -336,7 +336,7 @@
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "對上 13:56 無新催化；hold 86.2＋亞洲續彈；管道 HOLD 80；勿搶跑"
+        "value": "公司已跟 AXTI template；領導股 41；等 Arok 刷進場解 stale；現金盤再跟 557 重鎖 techPass"
       }
     ]
   },
