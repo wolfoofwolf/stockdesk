@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-16T04:12:03.000Z",
+  "generatedAt": "2026-10-16T05:56:58.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-16 12:12 HKT",
+  "asOfHKT": "2026-10-16 13:56 HKT",
   "pipeline": {
-    "candidates": 516,
+    "candidates": 557,
     "techPassed": 80,
     "company": 80,
     "leaders": 28,
     "entry": 28,
     "entryConsider": 28,
     "entryWatch": 0,
-    "anchor": "Post-Warsh: HOLD evening techPass 80; pool 516 until cash ~21:35; FOMC blackout active",
-    "downstreamStale": false
+    "downstreamStale": false,
+    "anchor": "Afternoon: Frok pool 557; HOLD evening techPass 80 (asOf 10/15) until cash ~21:35 relock on 557"
   },
-  "summaryTw": "【總司令｜2026-10-16 12:12 HKT】\n閘門｜終盤已解｜QQQ −0.13%／SPY +0.28%\n**Warsh 已畢**｜偏緩和／路徑中性｜無加息暗示\nFedWatch｜hold **~82%**／+25bp **~18%**（較今早 71.3／28.7 明顯偏 hold）\n日曆｜**blackout 至 10/28 FOMC**｜META/TSLA 10/21\n管道｜516→80→80→28→28｜HOLD 至 ~21:35\n結論｜Warsh 後略鬆一口氣；勿搶跑；聽現金盤\nhttps://wolfoofwolf.github.io/stockdesk/?v=warsh1016",
+  "summaryTw": "【總司令｜2026-10-16 13:56 HKT】\n閘門｜終盤已解｜QQQ −0.13%／SPY +0.28%｜盤前閘門待 ~16:00\nFedWatch｜hold **86.2%**／+25bp **13.8%**（較今早 +14.9pp）｜12月仍偏加息\n**Warsh 已畢**｜blackout 至 10/28 FOMC\n亞洲｜日經 +1.8%／韓綜 +3.5%／恒指 +1.0%｜夜期 NQ +0.12%\n管道｜**557**→80→80→28→28｜HOLD 至 ~21:35（跟 557 重鎖）\n結論｜hold 再升＋亞洲續彈；勿搶跑\nhttps://wolfoofwolf.github.io/stockdesk/?v=aft1016",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=warsh1016"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=aft1016"
   },
   "thinkingLog": [
     {
@@ -40,6 +40,13 @@
       "role": "Pages",
       "step": "warsh-done-fedwatch",
       "detail": "Marked Warsh printed + FedWatch hold~82%/hike~18% + FOMC blackout to 10/28"
+    },
+    {
+      "t": "2026-10-16T05:56:58.000Z",
+      "bot": "Trok",
+      "role": "Pages",
+      "step": "aft-557-fedwatch",
+      "detail": "Pushed screener 557; FedWatch 86.2/13.8; Asia rebound; HOLD techPass 80 until ~21:35 on 557"
     }
   ],
   "premarketGate": {
@@ -76,46 +83,29 @@
     "note": "Final cash cleared gate (QQQ −0.13% / SPY +0.28%); SMH −1.04%; VIX 16.46. Midday print had been QQQ −0.68%."
   },
   "overnightSession": {
-    "asOfHKT": "2026-10-16 ~08:42 HKT",
-    "es": {
-      "last": 7786.5,
-      "pctVsPriorHist": -0.06
-    },
-    "nq": {
-      "last": 30021.25,
-      "pctVsPriorHist": -0.41
-    },
-    "note": "Post-US-close / Asia morning. NQ -0.41% / ES -0.06% soft. Asia rebound Nikkei +1.37% / KOSPI +1.37%.",
-    "fedWatch": {
-      "asOfHKT": "2026-10-16 08:53 HKT",
-      "source": "Investing.com Fed rate monitor (Oct) + CME-style kryptomagazin (Dec as of 2026-10-15 23:59 UTC)",
-      "octHoldPct": 71.3,
-      "octHike25Pct": 28.7,
-      "decHoldPct": 8.8,
-      "decHike25Pct": 64.9,
-      "decCum50Pct": 26.2,
-      "priorEvening": {
-        "octHoldPct": 70.1,
-        "octHike25Pct": 29.9
-      },
-      "stance": "hold-dominated"
-    },
-    "asia": {
-      "nikkeiPct": 1.37,
-      "kospiPct": 1.37,
-      "hsiPriorPct": -1.16,
-      "note": "Today session rebound: Nikkei +1.37% / KOSPI +1.37% (vs prior close −4.9%/−7.6%). HSI prior close -1.16% (HK not open at snapshot)."
-    }
+    "asOfHKT": "2026-10-16 13:56 HKT",
+    "nqPct": 0.12,
+    "esPct": 0.14,
+    "nikkeiPct": 1.82,
+    "kospiPct": 3.51,
+    "hsiPct": 0.97,
+    "dxy": 101.91,
+    "dxyPct": -0.08,
+    "note": "Asia rebound deeper (KOSPI +3.5%); overnight futures steady; cash still closed US"
   },
   "fedWatch": {
-    "asOf": "2026-10-16 ~12:10 HKT (Frenzy/CME-method post-Warsh)",
-    "octHoldPct": 82.0,
-    "octHike25Pct": 18.0,
-    "decHoldPct": 8.8,
-    "decHike25Pct": 64.9,
-    "decCumulative50Pct": 26.2,
+    "asOf": "2026-10-16 ~13:51 HKT (Investing 01:25 AM EDT)",
+    "octHoldPct": 86.2,
+    "octHike25Pct": 13.8,
+    "decHoldPct": 12.5,
+    "decHike25Pct": 75.7,
+    "decCumulative50Pct": 11.8,
     "stance": "hold-dominated",
-    "note": "Post-Warsh swing to hold ~82%/+25bp ~18% (was morning Investing 71.3/28.7); Dec still hike-leaning"
+    "note": "Hold 71.3→86.2 (+14.9pp) post-Warsh; CME-method cross 82/18; Dec still hike-leaning",
+    "cmeMethodCross": {
+      "octHoldPct": 82.0,
+      "octHike25Pct": 18.0
+    }
   },
   "calendar": {
     "ppi": {
@@ -147,7 +137,7 @@
       "timeHKT": "11:30–12:00",
       "status": "printed",
       "label": "Kevin Warsh × Georgieva IMF 曼谷 fireside",
-      "note": "已畢｜偏緩和／路徑中性；不預判會議 → 進入 FOMC blackout 至 10/28",
+      "note": "已畢｜偏緩和／路徑中性｜blackout 至 10/28 FOMC",
       "tone": "moderate/path-neutral",
       "takeawayTw": "會交付物價穩定；不預判／不預告其餘議息；9月以來大致符合預期；AI 為全球上行主線；無加息暗示"
     },
@@ -180,42 +170,42 @@
     "why": "Warsh D-0 today 11:30 HKT; gate final CLEARED QQQ −0.13% (was midday FIRED −0.68%); Asia rebound Nikkei/KOSPI ~+1.4%; FedWatch hold 70.1→71.3; overnight NQ −0.41% soft; pipeline HOLD 529→80→28"
   },
   "brief": {
-    "asOfHKT": "2026-10-16 12:12 HKT",
+    "asOfHKT": "2026-10-16 13:56 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "終盤已解｜QQQ −0.13%／SPY +0.28%（盤中曾 −0.68%）｜本則非閘門重跑"
+        "value": "終盤已解｜QQQ −0.13%／SPY +0.28%｜夜期未傾瀉｜盤前閘門待 ~16:00 HKT"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "10/28 hold **~82%**／+25bp **~18%**（Warsh 後；較今早 71.3／28.7）｜12月仍偏加息"
+        "value": "10/28 hold **86.2%**／+25bp **13.8%**（較今早 71.3／28.7 +14.9pp）｜CME 交叉 82／18｜12月 hold 12.5%／+25bp 75.7%"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "Warsh 後 DXY −0.22% ~101.82｜美元略軟｜亞洲／美盤前視期貨"
+        "value": "亞洲續彈｜日經 +1.82%／韓綜 +3.51%／恒指 +0.97%｜夜期 NQ +0.12%／ES +0.14%｜DXY ~101.91"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "**Warsh 已畢**（11:30–12:00）｜**blackout 至 10/28 FOMC**｜META/TSLA 10/21｜MSFT/GOOGL 10/28"
+        "value": "**Warsh 已畢**｜**blackout 至 10/28 FOMC**｜META/TSLA 10/21｜MSFT/GOOGL 10/28"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **516** → techPass **80**（HOLD）→ 80 → 28 → 28｜今 ~21:35 跟 516 重鎖"
+        "value": "池 **557** → techPass **80**（HOLD asOf 10/15）→ 80 → 28 → 28｜今 ~21:35 跟 **557** 重鎖"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "Warsh 解讀：偏緩和／路徑中性｜無加息暗示"
+        "value": "FedWatch hold↑｜亞洲續彈｜Warsh blackout"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "Warsh 後 FedWatch 偏 hold；進入 blackout；勿搶跑，等現金盤 516 重鎖"
+        "value": "hold 86.2＋亞洲續彈；管道 HOLD 80 至現金盤；勿搶跑"
       }
     ]
   }
