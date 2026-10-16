@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-16T14:58:53.000Z",
+  "generatedAt": "2026-10-16T15:02:11.000Z",
   "bot": "Trok",
   "role": "總司令",
   "asOf": "2026-10-16 14:00 HKT",
-  "asOfHKT": "2026-10-16 22:58 HKT",
+  "asOfHKT": "2026-10-16 23:02 HKT",
   "pipeline": {
-    "candidates": 557,
+    "candidates": 613,
     "techPassed": 51,
     "company": 51,
     "leaders": 27,
     "entry": 27,
     "entryConsider": 27,
     "entryWatch": 0,
-    "downstreamStale": false,
-    "anchor": "Cash-open locked 10/16: 557→51→51→27→27; downstream fresh; gate FIRED RTH"
+    "downstreamStale": true,
+    "anchor": "Evening Frok pool 557→613; HOLD cash 51/27/27 until Grok rescreen on 613 (cash 557 anchor retired)"
   },
-  "summaryTw": "【總司令｜2026-10-16 22:58 HKT】\n閘門｜**觸發**｜QQQ −0.93%／SPY −0.05%\nFedWatch｜hold **85.1%**／+25bp **14.9%**｜Warsh blackout\n美股｜CRWV −8.3%／SMH −1.3%｜亞洲已收日經 +1.4%／韓綜 +2.1%\n管道｜**557→51→51→27→27**｜已解 stale\n結論｜閘門觸發＋現金盤全日鎖完；勿追動能\nhttps://wolfoofwolf.github.io/stockdesk/?v=eve1016",
+  "summaryTw": "【總司令｜2026-10-16 23:02 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%\nFedWatch｜hold 85.1%／+25bp 14.9%｜Warsh blackout\n管道｜**613**→51→51→27→27｜池已換；等 @Grok 跟 **613** 重刷 techPass（stale）\n結論｜篩選晚間擴至 613；現金盤 557 錨退役\nhttps://wolfoofwolf.github.io/stockdesk/?v=eve613",
   "catalysts": [
     {
       "id": "warsh-imf-2026-10-16",
@@ -304,7 +304,7 @@
     }
   ],
   "brief": {
-    "asOfHKT": "2026-10-16 22:58 HKT",
+    "asOfHKT": "2026-10-16 23:02 HKT",
     "sections": [
       {
         "id": "gate",
@@ -329,7 +329,7 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **557** → techPass **51** → 公司 **51** → 領導股 **27** → 進場 **27**（可考慮 27／觀望 0）｜已解 stale"
+        "value": "池 **613**（557→613）→ techPass **51**／公司 51／領導股 27／進場 27｜**stale** 待 Grok 跟 613 重鎖"
       },
       {
         "id": "top",
@@ -339,7 +339,7 @@
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "閘門觸發＋現金盤管道已鎖 557→51→27→27；勿追動能"
+        "value": "晚間池擴 613；閘門仍觸發；等 Grok 重刷 techPass 後 Jrok／Arok 跟刷"
       }
     ]
   },
