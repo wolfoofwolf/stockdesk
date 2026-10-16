@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-16T15:18:52.000Z",
+  "generatedAt": "2026-10-16T15:21:30.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-16 23:18 HKT",
+  "asOfHKT": "2026-10-16 23:21 HKT",
   "pipeline": {
     "candidates": 613,
     "techPassed": 56,
-    "company": 51,
-    "leaders": 27,
-    "entry": 27,
-    "entryConsider": 27,
+    "company": 56,
+    "leaders": 28,
+    "entry": 28,
+    "entryConsider": 28,
     "entryWatch": 0,
-    "downstreamStale": true,
-    "anchor": "Evening rescan: pool 613 techPass 51→56 (asOf 10-16); waiting Jrok AXTI + Arok entry"
+    "downstreamStale": false,
+    "anchor": "Evening lock 613→56→28→28 after Jrok AXTI + Arok entry (asOf 10-16)"
   },
-  "summaryTw": "【總司令｜2026-10-16 23:18 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%\n管道｜**613→56**→51→27→27｜stale 待 Jrok／Arok\ntechPass｜51→56｜top DIS · VTRS · CNK｜Δ +10／−5\n結論｜晚間池重鎖；等 AXTI 公司／進場\nhttps://wolfoofwolf.github.io/stockdesk/?v=eve56",
+  "summaryTw": "【總司令｜2026-10-16 23:21 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%\n管道｜**613→56→28→28**｜downstreamStale **false**\n進場前排｜NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 27／META 1｜VCP 26／bull_flag 2\nΔ｜＋ADSK／AEO／AWK／BNS／KDP／NWSA · −CTSH／GDDY／GME／MUR／NOW｜＋10 SVG 已推\nFedWatch｜hold 85.1%｜Warsh 已畢／blackout 至 10/28\n結論｜晚間解 stale；Jrok AXTI＋Arok 進場齊\nhttps://wolfoofwolf.github.io/stockdesk/?v=eveEntry1016",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=eve56"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=eveEntry1016"
   },
   "thinkingLog": [
     {
@@ -48,6 +48,13 @@
       "role": "Pages",
       "step": "eve-56",
       "detail": "Marked evening techPass 56 on 613; downstream stale"
+    },
+    {
+      "t": "2026-10-16 23:21 HKT",
+      "bot": "Trok",
+      "role": "Pages",
+      "step": "eve-entry-unlock",
+      "detail": "Jrok AXTI + Arok entry landed; pipeline 613→56→28→28; downstreamStale false; ?v=eveEntry1016"
     }
   ],
   "premarketGate": {
@@ -148,11 +155,11 @@
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "vs prior cash-open commander ~21:57 HKT (be61335/19c498d9): gate CLEARED→FIRED QQQ −0.93%; pipeline unlocked stale 28→27 fresh (557→51→51→27→27); FedWatch 86.2→85.1 (−1.1pp); entry tops shifted to SONY/XOM/NUE…; CRWV −8.33%/SMH −1.34%/AMD·MU ~−3% RTH dump; Asia closed +1.39/+2.05/+0.52.",
-    "vs": "cash-open commander 2026-10-16 ~21:57 HKT"
+    "why": "vs eve-56 stale tip a10ebbe (~23:18 HKT): Jrok AXTI 56→28 + Arok entry 28/0 unlocked; pipeline 613→56→51→27→27 stale → 613→56→56→28→28 fresh; front NUE/SONY/XOM/ADSK/DIS/ECL/IBN/MDLZ; +10 SVG already pushed; gate/FedWatch/Warsh unchanged.",
+    "vs": "eve-56 commander 2026-10-16 23:18 HKT (a10ebbe)"
   },
   "brief": {
-    "asOfHKT": "2026-10-16 23:18 HKT",
+    "asOfHKT": "2026-10-16 23:21 HKT",
     "sections": [
       {
         "id": "gate",
@@ -177,17 +184,17 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **613** → techPass **56** → 公司 51／領導股 27／進場 27｜**stale** 待 Jrok（AXTI）→ Arok"
+        "value": "池 **613** → techPass **56** → 公司 **56**／領導股 **28**／進場 **28**（可考慮 28／觀望 0）｜**downstreamStale false**"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "tech DIS · VTRS · CNK｜Δ +10／−5"
+        "value": "進場 NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜領導 Δ＋ADSK／AEO／AWK／BNS／KDP／NWSA · −CTSH／GDDY／GME／MUR／NOW｜＋10 SVG 已推"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "晚間 techPass 已鎖 56；等 Jrok／Arok 跟刷解 stale"
+        "value": "晚間鎖 **613→56→28→28**；Jrok AXTI＋Arok 進場齊；解 stale"
       }
     ]
   }
