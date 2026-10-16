@@ -141,7 +141,8 @@
       "Yahoo NQ=F/ES=F/^VIX/^TNX 2026-10-15 ~23:00 HKT",
       "Yahoo Finance QQQ/SPY final 2026-10-15",
       "Investing.com Fed rate monitor 2026-10-15 20:25 EDT",
-      "Drok morning 2026-10-16 ~08:57 HKT"
+      "Drok morning 2026-10-16 ~08:57 HKT",
+      "Drok afternoon refresh 2026-10-16 ~13:51 HKT"
     ],
     "actualHeadlineYoY": 6.3,
     "actualHeadlineMoM": 1.3,
@@ -155,23 +156,32 @@
     "date": "2026-10-28",
     "label": "FOMC 決定（10/27–28）",
     "status": "upcoming",
-    "note": "聲明約 14:00 ET。FedWatch（Investing 10/15 20:25 EDT）：hold 71.3%／+25bp 28.7%。十二月：hold 10.4%／+25bp 65.1%／+50bp 24.5%。PPI 偏熱後定價偏 hold，但年末仍偏加息。同日 Mag7 有 MSFT／GOOGL 業績；META／TSLA 10/21。"
+    "note": "聲明約 14:00 ET。FedWatch（Investing 10/16 01:25 AM EDT）：hold 86.2%／+25bp 13.8%。十二月：hold 12.5%／+25bp 75.7%／+50bp 11.8%。Warsh 已進 blackout。同日 Mag7 有 MSFT／GOOGL 業績；META／TSLA 10/21。"
   },
   {
     "id": "warsh-imf-bangkok-2026-10-16",
     "type": "FedSpeak",
     "date": "2026-10-16",
-    "label": "Warsh×Georgieva IMF 曼谷 fireside —D-0 今日",
-    "status": "printed",
-    "note": "已畢｜偏緩和／路徑中性｜blackout 至 10/28 FOMC",
+    "label": "Warsh×Georgieva IMF 曼谷 fireside —已畢／blackout",
+    "status": "done",
+    "note": "已畢 11:30–12:00 HKT｜偏緩和／路徑中性｜**blackout 至 10/28 FOMC**｜FedWatch 午後 Investing hold 86.2%／+25 13.8%（較今早 71.3／28.7 +14.9pp；CME-method 82.0/18.0）",
     "sources": [
       "StockDesk macro memory 2026-10-15",
       "Dow Jones/calendar 2026-10-15",
-      "Drok morning verify 2026-10-16 ~08:57 HKT"
+      "Drok morning verify 2026-10-16 ~08:57 HKT",
+      "Drok Warsh IMF brief 2026-10-16 ~12:10 HKT",
+      "Investing.com Fed rate monitor 2026-10-16 01:25 AM EDT",
+      "CME-method kryptomagazin 2026-10-16 04:59 UTC",
+      "Drok afternoon refresh 2026-10-16 ~13:51 HKT"
     ],
     "fedWatchPost": {
-      "octHoldPct": 82,
-      "octHike25Pct": 18
+      "octHoldPct": 86.2,
+      "octHike25Pct": 13.8,
+      "cmeMethodHoldPct": 82.0,
+      "cmeMethodHike25Pct": 18.0,
+      "decHoldPct": 12.5,
+      "decHike25Pct": 75.7,
+      "decHike50Pct": 11.8
     }
   }
 ]
