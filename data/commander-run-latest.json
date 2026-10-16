@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-15T15:12:00.000Z",
+  "generatedAt": "2026-10-16T00:53:14.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOf": "2026-10-15 15:12 HKT",
-  "asOfHKT": "2026-10-15 23:12 HKT",
+  "asOf": "2026-10-16 08:53 HKT",
+  "asOfHKT": "2026-10-16 08:53 HKT",
   "pipeline": {
     "candidates": 529,
     "techPassed": 80,
@@ -12,33 +12,27 @@
     "entry": 28,
     "entryConsider": 28,
     "entryWatch": 0,
-    "anchor": "Evening locked 10/15: 529→80→80→28→28; downstream fresh (Arok cleared)",
+    "anchor": "HOLD evening lock 10/15: 529→80→80→28→28 until cash-open ~21:35 HKT (morning fire; no tech rescan)",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-15 23:12 HKT】\n閘門｜續觸｜QQQ −0.68%（開市 −1.40% 回升）／SPY +0.01%\nFedWatch｜hold 70.1%／+25bp 29.9%｜12月 hold 12.5%／+25bp 63.0%／+50bp 24.5%\n美股／亞洲｜盤中回升｜SMH −2.1%／AMD −4.3%／CRWV −5.0%｜日經 −4.9%／韓綜 −7.6%\n日曆｜PPI 已出偏熱｜明 11:30 Warsh IMF（D-0）｜10/28 FOMC\n管道｜529→80→80→28→28｜已解 stale\n結論｜閘門續觸但回升；晚間全日管道已鎖；勿追反彈\nhttps://wolfoofwolf.github.io/stockdesk/?v=eve1015",
+  "summaryTw": "【總司令｜2026-10-16 08:53 HKT】\n閘門｜終盤已解｜QQQ −0.13%（$728.00 vs 收 $728.95）／SPY +0.28%（$771.79）｜夜期 NQ −0.41%／ES −0.06% 偏軟未觸 −0.65%\nFedWatch｜hold 71.3%／+25bp 28.7%（較晚間 70.1／29.9 略偏 hold）｜12月 hold 8.8%／+25bp 64.9%／+50bp 26.2%\n美股／亞洲｜終盤回升解閘｜亞洲反彈 日經 +1.4%／韓綜 +1.4%（昨 −4.9%／−7.6%）｜恒指昨收 −1.2%\n日曆｜**今 11:30 Warsh IMF（D-0）**｜PPI 偏熱已出｜META/TSLA 10/21｜FOMC 10/28\n管道｜HOLD 529→80→80→28→28｜錨晚間鎖至 ~21:35 現金開\n結論｜Warsh D-0 今日；閘門終盤已解惟夜期偏軟；管道持晚間鎖；勿搶跑\nhttps://wolfoofwolf.github.io/stockdesk/?v=morn1016",
   "catalysts": [
     {
-      "id": "evening-rescan-529-80-2026-10-15",
-      "date": "2026-10-15",
-      "title": "晚間重鎖：池 442→529／techPass 71→80／領導股＋進場 23→28",
-      "tickers": [
-        "RELX",
-        "SAP",
-        "HALO",
-        "SHOP",
-        "TD",
-        "ITUB"
-      ],
+      "id": "warsh-imf-2026-10-16",
+      "date": "2026-10-16",
+      "title": "Kevin Warsh × Georgieva IMF 曼谷 —D-0 今日",
+      "tickers": [],
       "themes": [
-        "管道"
+        "大市",
+        "利率"
       ],
       "score": 9,
-      "note": "Frok 宇宙 1174／候選 529；Grok techPass 80（VCP 71／bull_flag 9）；+17/−8／kept 63；Jrok 公司 80／領導股 28；Arok 進場 28 → downstream fresh。"
+      "note": "今日 11:30–12:00 HKT；10/28 FOMC 前最後公開（其後 blackout）。"
     },
     {
-      "id": "gate-bounce-2026-10-15",
+      "id": "gate-final-clear-2026-10-15",
       "date": "2026-10-15",
-      "title": "閘門續觸但盤中回升（QQQ −1.40%→−0.68%）",
+      "title": "閘門終盤已解（QQQ 盤中 −0.68%→終盤 −0.13%）",
       "tickers": [
         "QQQ",
         "SPY",
@@ -48,7 +42,30 @@
         "大市"
       ],
       "score": 9,
-      "note": "盤中 QQQ −0.68%（$724.01 vs 收 $728.95）仍＞−0.65%；SPY +0.01%（$769.69）未觸。SMH −2.05%；VIX 17.17。"
+      "note": "Yahoo 日線終盤：QQQ $728.00（−0.13% vs 收 $728.95）／SPY $771.79（+0.28% vs $769.60）＜−0.65% 門檻已解。盤中曾觸 −0.68%（$724.01）。今早夜期 NQ −0.41%／ES −0.06% 偏軟未再觸。"
+    },
+    {
+      "id": "asia-rebound-2026-10-16",
+      "date": "2026-10-16",
+      "title": "亞洲反彈：日經／韓綜各約 +1.4%（昨 −4.9%／−7.6%）",
+      "tickers": [],
+      "themes": [
+        "大市"
+      ],
+      "score": 8,
+      "note": "Yahoo ~08:40 HKT：日經 +1.37%／韓綜 +1.37%（開市曾約 +1.8%）；恒指昨收 −1.16%（今未開）。"
+    },
+    {
+      "id": "fedwatch-2026-10-16-morning",
+      "date": "2026-10-16",
+      "title": "FedWatch hold 略升（71.3%／28.7%）",
+      "tickers": [],
+      "themes": [
+        "大市",
+        "利率"
+      ],
+      "score": 7,
+      "note": "Investing.com：10月 hold 71.3%／+25bp 28.7%（昨晚 70.1／29.9）。12月（CME 式 10/15 23:59 UTC）：hold 8.8%／+25bp 64.9%／+50bp 26.2%。"
     },
     {
       "id": "ppi-2026-10-15",
@@ -59,32 +76,8 @@
         "大市",
         "利率"
       ],
-      "score": 9,
+      "score": 8,
       "note": "已出：MoM +1.3%（預期 +0.5%）／YoY +6.3%／核心 MoM +0.7%。同批零售 +0.8%；初請 199K。"
-    },
-    {
-      "id": "warsh-imf-2026-10-16",
-      "date": "2026-10-16",
-      "title": "Kevin Warsh × Georgieva IMF 曼谷 —D-0 明日",
-      "tickers": [],
-      "themes": [
-        "大市",
-        "利率"
-      ],
-      "score": 8,
-      "note": "明日 11:30–12:00 HKT；10/28 FOMC 前最後公開（其後 blackout）。"
-    },
-    {
-      "id": "fedwatch-2026-10-15-evening",
-      "date": "2026-10-15",
-      "title": "FedWatch 仍 hold 主導（70.1%／29.9%）",
-      "tickers": [],
-      "themes": [
-        "大市",
-        "利率"
-      ],
-      "score": 8,
-      "note": "Investing 10:35 EDT：10月 hold 70.1%／+25bp 29.9%（開市曾 71.3／28.7）；12月 hold 12.5%／+25bp 63.0%／+50bp 24.5%。"
     },
     {
       "id": "cpi-2026-10-14",
@@ -95,7 +88,7 @@
         "大市",
         "利率"
       ],
-      "score": 8,
+      "score": 7,
       "note": "Headline +0.6% MoM／+3.7% YoY；Core +0.3%／+2.6% YoY。10/14 終盤 QQQ −1.97%／SPY −1.08%。"
     },
     {
@@ -131,75 +124,88 @@
       ],
       "score": 7,
       "note": "TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2。"
+    },
+    {
+      "id": "evening-lock-hold-2026-10-16",
+      "date": "2026-10-16",
+      "title": "管道 HOLD 晚間鎖：529→80→80→28→28",
+      "tickers": [
+        "RELX",
+        "SAP",
+        "HALO",
+        "ACN",
+        "DIS"
+      ],
+      "themes": [
+        "管道"
+      ],
+      "score": 7,
+      "note": "晨間火未重掃 tech；錨 asOfMarket 2026-10-15 techPass 80；待 ~21:35 現金開再決定是否重鎖。"
     }
   ],
   "premarketGate": {
-    "triggered": true,
-    "cleared": false,
-    "qqqPct": -0.68,
-    "spyPct": 0.01,
-    "qqqPx": 724.01,
-    "spyPx": 769.69,
+    "triggered": false,
+    "cleared": true,
+    "qqqPct": -0.13,
+    "spyPct": 0.28,
+    "qqqPx": 728.0,
+    "spyPx": 771.79,
     "qqqClosePrev": 728.95,
+    "spyClosePrev": 769.6,
     "threshold": -0.65,
-    "asOfHKT": "2026-10-15 ~23:00 HKT session",
-    "firedOn": [
-      "QQQ"
-    ],
-    "driver": "Hot PPI + semi/AI credit; midday bounce from open −1.40%",
-    "note": "Still FIRED QQQ −0.68% ($724.01 vs close $728.95); recovered from open −1.40%; SPY +0.01% not fired"
+    "asOfHKT": "2026-10-15 final cash + 2026-10-16 ~08:42 HKT futures",
+    "firedOn": [],
+    "driver": "Final cash bounce cleared midday FIRED; overnight NQ soft but above threshold",
+    "note": "CLEARED on final: QQQ -0.13% ($728.0 vs $728.95); SPY +0.28% ($771.79). Midday was FIRED −0.68% ($724.01). Overnight NQ -0.41% / ES -0.06% soft, not fired."
   },
   "cashSession": {
-    "asOfHKT": "2026-10-15 ~23:00 HKT",
+    "asOfHKT": "2026-10-15 final (Yahoo daily)",
     "qqq": {
-      "last": 724.01,
+      "last": 728.0,
       "prevClose": 728.95,
-      "pct": -0.68
+      "pct": -0.13
     },
     "spy": {
-      "last": 769.69,
+      "last": 771.79,
       "prevClose": 769.6,
-      "pct": 0.01
+      "pct": 0.28
     },
-    "smhPct": -2.05,
+    "smhPct": -1.04,
     "vix": {
-      "last": 17.17
+      "last": 16.46
     },
-    "note": "Midday bounce QQQ −1.40%→−0.68%; gate still FIRED; SPY green"
+    "note": "Final cash cleared gate (QQQ −0.13% / SPY +0.28%); SMH −1.04%; VIX 16.46. Midday print had been QQQ −0.68%."
   },
   "overnightSession": {
-    "asOfHKT": "2026-10-15 13:58 HKT",
+    "asOfHKT": "2026-10-16 ~08:42 HKT",
     "es": {
-      "last": 7749.75,
-      "pctVsPriorHist": -1.34
+      "last": 7786.5,
+      "pctVsPriorHist": -0.06
     },
     "nq": {
-      "last": 29960.75,
-      "pctVsPriorHist": -2.7
+      "last": 30021.25,
+      "pctVsPriorHist": -0.41
     },
-    "note": "Cash session underway; overnight snapshot retained from afternoon. Asia close Nikkei −4.9% / KOSPI −7.6%.",
+    "note": "Post-US-close / Asia morning. NQ -0.41% / ES -0.06% soft. Asia rebound Nikkei +1.37% / KOSPI +1.37%.",
     "fedWatch": {
-      "asOfHKT": "2026-10-15 ~13:56 HKT",
-      "source": "GMT EIGHT 1557001",
-      "octHoldPct": 66.8,
-      "octHike25Pct": 33.2,
-      "decCum50Pct": 28.7,
-      "priorMorning": {
-        "octHoldPct": 29.1,
-        "octHike25Pct": 70.9,
-        "source": "GMT EIGHT 1534460"
+      "asOfHKT": "2026-10-16 08:53 HKT",
+      "source": "Investing.com Fed rate monitor (Oct) + CME-style kryptomagazin (Dec as of 2026-10-15 23:59 UTC)",
+      "octHoldPct": 71.3,
+      "octHike25Pct": 28.7,
+      "decHoldPct": 8.8,
+      "decHike25Pct": 64.9,
+      "decCum50Pct": 26.2,
+      "priorEvening": {
+        "octHoldPct": 70.1,
+        "octHike25Pct": 29.9
       },
       "stance": "hold-dominated"
     },
     "asia": {
-      "nikkeiPct": -4.9,
-      "kospiPct": -7.6,
-      "note": "Asia close; vs morning Nikkei −3.38% / KOSPI −5.81% deeper then settled"
-    },
-    "tsmc": {
-      "q3Beat": true,
-      "adrOvernightPct": -1.93,
-      "note": "Revenue NT$1.49T / NI NT$763.1B beat; ADR soft"
+      "nikkeiPct": 1.37,
+      "kospiPct": 1.37,
+      "hsiPriorPct": -1.16,
+      "note": "Today session rebound: Nikkei +1.37% / KOSPI +1.37% (vs prior close −4.9%/−7.6%). HSI prior close -1.16% (HK not open at snapshot)."
     }
   },
   "inputs": {
@@ -210,13 +216,13 @@
     "companyAsOf": "2026-10-15T15:06:24.110246Z",
     "entryAsOf": "2026-10-15T15:09:39.624Z",
     "entryUpstreamTechPassed": 80,
-    "note": "entry refreshed to techPass 80 / leaders 28; downstreamStale cleared"
+    "note": "Morning fire HOLD evening artifacts; no tech/screener rescan"
   },
   "materialChange": {
     "yes": true,
-    "why": "pool 442→529; techPass 71→80 (+17/−8/kept 63); leaders/entry 23→28; gate QQQ −1.40%→−0.68% still fired; Warsh D-0 tomorrow; stale cleared"
+    "why": "Warsh D-0 today 11:30 HKT; gate final CLEARED QQQ −0.13% (was midday FIRED −0.68%); Asia rebound Nikkei/KOSPI ~+1.4%; FedWatch hold 70.1→71.3; overnight NQ −0.41% soft; pipeline HOLD 529→80→28"
   },
-  "note": "Evening fire ~23:12 HKT: full lock after Arok entry 28; Pages ?v=eve1015",
+  "note": "Morning fire 2026-10-16 08:53 HKT: HOLD evening lock; Pages ?v=morn1016",
   "techTurnover": {
     "vs": "2026-10-15 ~21:52 cash-open techPass 71 (pool 442)",
     "from": 71,
@@ -295,35 +301,41 @@
       "bot": "Trok",
       "step": "clearStale",
       "detail": "Arok entry 28 landed mid-fire; reconcile commander 529→80→80→28→28 downstreamStale false"
+    },
+    {
+      "t": "2026-10-16 08:53 HKT",
+      "bot": "Trok",
+      "step": "morningFire",
+      "detail": "material YES; Warsh D-0 today; gate final CLEARED QQQ −0.13%/SPY +0.28% (was midday FIRED −0.68%); Asia rebound Nikkei/KOSPI ~+1.4%; FedWatch hold 71.3%; HOLD evening lock 529→80→80→28→28 until cash ~21:35; ?v=morn1016"
     }
   ],
   "brief": {
-    "asOfHKT": "2026-10-15 23:12 HKT",
+    "asOfHKT": "2026-10-16 08:53 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "續觸｜QQQ −0.68%（$724.01 vs 收 $728.95）＞−0.65%；較開市 −1.40% 回升約 +0.72pp｜SPY +0.01%（$769.69）未觸｜SMH −2.05%；VIX 17.17"
+        "value": "終盤已解｜QQQ -0.13%（$728.0 vs 收 $728.95）＜−0.65%｜SPY +0.28%（$771.79）｜盤中曾觸 −0.68%（$724.01）｜夜期 NQ -0.41%／ES -0.06% 偏軟未觸｜SMH −1.04%；VIX 16.46"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "10/28 hold 70.1%／+25bp 29.9%（Investing 10:35 EDT）｜12月 hold 12.5%／+25bp 63.0%／+50bp 24.5%"
+        "value": "10/28 hold 71.3%／+25bp 28.7%（Investing；較晚間 70.1／29.9 略偏 hold）｜12月 hold 8.8%／+25bp 64.9%／+50bp 26.2%（CME 式）"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "盤中回升｜熱 PPI＋半導／AI 債仍主軸惟較開市收窄｜AMD −4.3%／SMH −2.1%／CRWV −5.0%｜日經 −4.9%／韓綜 −7.6%／恒指 −1.2%"
+        "value": "終盤回升解閘｜夜期偏軟 NQ -0.41%／ES -0.06%｜亞洲反彈 日經 +1.37%／韓綜 +1.37%（昨 −4.9%／−7.6%）｜恒指昨收 -1.16%"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "**PPI 偏熱已出** MoM +1.3%／YoY +6.3%／核心 MoM +0.7%｜零售 +0.8%｜初請 199K｜**明 11:30 Warsh IMF（D-0）**｜META/TSLA 10/21｜FOMC 10/27–28"
+        "value": "**PPI 偏熱已出** MoM +1.3%／YoY +6.3%／核心 MoM +0.7%｜零售 +0.8%｜初請 199K｜**今 11:30 Warsh IMF（D-0）**｜META/TSLA 10/21｜FOMC 10/27–28"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **529** → techPass **80** → 公司 **80** → 領導股 **28** → 進場 **28**（可考慮 28／觀望 0）｜已解 stale"
+        "value": "池 **529** → techPass **80** → 公司 **80** → 領導股 **28** → 進場 **28**（可考慮 28／觀望 0）｜**HOLD** 晚間鎖至 ~21:35 現金開｜downstream fresh"
       },
       {
         "id": "top",
@@ -333,19 +345,19 @@
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "material：池 442→529、techPass 71→80、領導股／進場 23→28；閘門續觸但 QQQ −1.40%→−0.68%；晚間全日管道已鎖；勿追反彈"
+        "value": "material：Warsh D-0 今日；閘門終盤已解（盤中曾觸）；亞洲反彈；FedWatch hold 略升；管道 HOLD 晚間 529→80→28；勿搶跑等現金開"
       }
     ]
   },
   "fedWatch": {
-    "asOf": "2026-10-15 ~23:00 HKT (Investing 10:35 EDT)",
-    "octHoldPct": 70.1,
-    "octHike25Pct": 29.9,
-    "decHoldPct": 12.5,
-    "decHike25Pct": 63.0,
-    "decCumulative50Pct": 24.5,
+    "asOf": "2026-10-16 08:53 HKT (Investing.com Oct; CME-style Dec)",
+    "octHoldPct": 71.3,
+    "octHike25Pct": 28.7,
+    "decHoldPct": 8.8,
+    "decHike25Pct": 64.9,
+    "decCumulative50Pct": 26.2,
     "stance": "hold-dominated",
-    "note": "Slightly less hold vs open 71.3/28.7; Dec still hike-leaning"
+    "note": "Oct hold +1.2pp vs evening 70.1; Dec still hike-leaning (CME-style as of 10/15 23:59 UTC)"
   },
   "calendar": {
     "ppi": {
@@ -377,7 +389,7 @@
       "timeHKT": "11:30–12:00",
       "status": "D-0",
       "label": "Kevin Warsh × Georgieva IMF 曼谷 fireside",
-      "note": "明日 11:30 HKT；10/28 FOMC 前最後公開（其後 blackout）"
+      "note": "今日 11:30 HKT；10/28 FOMC 前最後公開（其後 blackout）"
     },
     "banks": {
       "date": "2026-10-15",
@@ -386,6 +398,10 @@
     "fomc": {
       "date": "2026-10-28",
       "label": "FOMC"
+    },
+    "mag7": {
+      "start": "2026-10-21",
+      "note": "TSLA+META 10/21 → MSFT/GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2"
     }
   }
 }
