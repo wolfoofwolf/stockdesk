@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-10-16T13:52:11.000Z",
+  "generatedAt": "2026-10-16T13:56:39.000Z",
   "bot": "Trok",
   "role": "總司令",
   "asOf": "2026-10-16 14:00 HKT",
-  "asOfHKT": "2026-10-16 21:52 HKT",
+  "asOfHKT": "2026-10-16 21:56 HKT",
   "pipeline": {
     "candidates": 557,
-    "techPassed": 80,
+    "techPassed": 51,
     "company": 80,
     "leaders": 41,
     "entry": 28,
     "entryConsider": 28,
     "entryWatch": 0,
     "downstreamStale": true,
-    "anchor": "Jrok AXTI-template rewrite: company 80 / leaders 28→41; entry stale until Arok on 41; techPass HOLD 80 until cash ~21:35 on 557"
+    "anchor": "Cash-open 10/16: techPass 80→51 on pool 557 (asOf 10-16); waiting Jrok AXTI company/leaders + Arok entry"
   },
-  "summaryTw": "【總司令｜2026-10-16 21:52 HKT】\n閘門／FedWatch｜見大市｜Warsh blackout 至 10/28\n管道｜557→80→80→**41**→28｜entry 待 @Arok（stale）\n公司｜已跟 AXTI template 重刷 80（領導股 28→41）\n結論｜等 Arok 跟 41 刷⑤；techPass 仍 HOLD 至 ~21:35 跟 557\nhttps://wolfoofwolf.github.io/stockdesk/?v=axtiCo1016",
+  "summaryTw": "【總司令｜2026-10-16 21:56 HKT】\n閘門／FedWatch｜見大市｜Warsh blackout\n管道｜557→**51**→80→41→28｜company／entry stale 待 Jrok／Arok\ntechPass｜80→51（asOf 10-16）｜top BBWI · ETSY · HALO｜Δ +11／−40\n結論｜現金盤已重鎖；等 AXTI 公司／進場跟刷\nhttps://wolfoofwolf.github.io/stockdesk/?v=cash1016",
   "catalysts": [
     {
       "id": "warsh-imf-2026-10-16",
@@ -301,7 +301,7 @@
     }
   ],
   "brief": {
-    "asOfHKT": "2026-10-16 21:52 HKT",
+    "asOfHKT": "2026-10-16 21:56 HKT",
     "sections": [
       {
         "id": "gate",
@@ -326,17 +326,17 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **557** → techPass **80**（HOLD）→ 公司 **80** → 領導股 **41** → 進場 **28**（stale 待 Arok）"
+        "value": "池 **557** → techPass **51**（現金盤 asOf 10-16）→ 公司 80／領導股 41／進場 28｜**stale** 待 Jrok（AXTI）→ Arok"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "進場 ACN · DIS · ECL · HCA · NOW · PBR · PSX · RELX｜tech RELX · SAP · HALO"
+        "value": "tech BBWI · ETSY · HALO｜Δ +11／−40"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "公司已跟 AXTI template；領導股 41；等 Arok 刷進場解 stale；現金盤再跟 557 重鎖 techPass"
+        "value": "現金盤 techPass 已鎖 51；等 Jrok 跟 51 刷公司／領導股（AXTI）→ Arok 進場後解 stale"
       }
     ]
   },
