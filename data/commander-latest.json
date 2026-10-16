@@ -1,23 +1,22 @@
 {
-  "generatedAt": "2026-10-16T15:02:24.024Z",
+  "generatedAt": "2026-10-16T15:18:52.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-16 22:58 HKT",
+  "asOfHKT": "2026-10-16 23:18 HKT",
   "pipeline": {
-    "candidates": 557,
-    "techPassed": 51,
+    "candidates": 613,
+    "techPassed": 56,
     "company": 51,
     "leaders": 27,
     "entry": 27,
     "entryConsider": 27,
     "entryWatch": 0,
-    "downstreamStale": false,
-    "anchor": "Cash-open locked 10/16: 557→51→51→27→27; downstream fresh; gate FIRED RTH"
+    "downstreamStale": true,
+    "anchor": "Evening rescan: pool 613 techPass 51→56 (asOf 10-16); waiting Jrok AXTI + Arok entry"
   },
-  "summaryTw": "【總司令｜2026-10-16 22:58 HKT】\n閘門｜**觸發**｜QQQ −0.93%／SPY −0.05%\nFedWatch｜hold **85.1%**／+25bp **14.9%**｜Warsh blackout\n美股｜CRWV −8.3%／SMH −1.3%｜亞洲已收日經 +1.4%／韓綜 +2.1%\n管道｜**557→51→51→27→27**｜已解 stale\n結論｜閘門觸發＋現金盤全日鎖完；勿追動能\nhttps://wolfoofwolf.github.io/stockdesk/?v=eve1016",
+  "summaryTw": "【總司令｜2026-10-16 23:18 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%\n管道｜**613→56**→51→27→27｜stale 待 Jrok／Arok\ntechPass｜51→56｜top DIS · VTRS · CNK｜Δ +10／−5\n結論｜晚間池重鎖；等 AXTI 公司／進場\nhttps://wolfoofwolf.github.io/stockdesk/?v=eve56",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=eve1016",
-    "briefing": "data/commander-briefing-latest.md"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=eve56"
   },
   "thinkingLog": [
     {
@@ -42,6 +41,13 @@
       "role": "Pages",
       "step": "eve-fire-complete",
       "detail": "material YES; rewrite briefing+commander; pipeline 557→51→51→27→27; ?v=eve1016"
+    },
+    {
+      "t": "2026-10-16T15:18:52.000Z",
+      "bot": "Trok",
+      "role": "Pages",
+      "step": "eve-56",
+      "detail": "Marked evening techPass 56 on 613; downstream stale"
     }
   ],
   "premarketGate": {
@@ -146,7 +152,7 @@
     "vs": "cash-open commander 2026-10-16 ~21:57 HKT"
   },
   "brief": {
-    "asOfHKT": "2026-10-16 22:58 HKT",
+    "asOfHKT": "2026-10-16 23:18 HKT",
     "sections": [
       {
         "id": "gate",
@@ -171,17 +177,17 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **557** → techPass **51** → 公司 **51** → 領導股 **27** → 進場 **27**（可考慮 27／觀望 0）｜已解 stale｜VCP 47／bull_flag 4"
+        "value": "池 **613** → techPass **56** → 公司 51／領導股 27／進場 27｜**stale** 待 Jrok（AXTI）→ Arok"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "進場前排 SONY · XOM · NUE · SAP · CBOE · DIS · ECL · MDLZ｜tech BBWI · ETSY · HALO"
+        "value": "tech DIS · VTRS · CNK｜Δ +10／−5"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "閘門觸發＋現金盤管道已鎖 557→51→27→27；勿追動能"
+        "value": "晚間 techPass 已鎖 56；等 Jrok／Arok 跟刷解 stale"
       }
     ]
   }
