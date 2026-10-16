@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-16T00:53:14.000Z",
+  "generatedAt": "2026-10-16T01:00:20.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-16 08:53 HKT",
+  "asOfHKT": "2026-10-16 09:00 HKT",
   "pipeline": {
-    "candidates": 529,
+    "candidates": 516,
     "techPassed": 80,
     "company": 80,
     "leaders": 28,
     "entry": 28,
     "entryConsider": 28,
     "entryWatch": 0,
-    "anchor": "HOLD evening lock 10/15: 529→80→80→28→28 until cash-open ~21:35 HKT (morning fire; no tech rescan)",
+    "anchor": "Morning: Frok pool 516; HOLD evening techPass 80 (asOfMarket 10/15) until cash-open ~21:35 relock on 516",
     "downstreamStale": false
   },
-  "summaryTw": "【總司令｜2026-10-16 08:53 HKT】\n閘門｜終盤已解｜QQQ −0.13%（$728.00 vs 收 $728.95）／SPY +0.28%（$771.79）｜夜期 NQ −0.41%／ES −0.06% 偏軟未觸 −0.65%\nFedWatch｜hold 71.3%／+25bp 28.7%（較晚間 70.1／29.9 略偏 hold）｜12月 hold 8.8%／+25bp 64.9%／+50bp 26.2%\n美股／亞洲｜終盤回升解閘｜亞洲反彈 日經 +1.4%／韓綜 +1.4%（昨 −4.9%／−7.6%）｜恒指昨收 −1.2%\n日曆｜**今 11:30 Warsh IMF（D-0）**｜PPI 偏熱已出｜META/TSLA 10/21｜FOMC 10/28\n管道｜HOLD 529→80→80→28→28｜錨晚間鎖至 ~21:35 現金開\n結論｜Warsh D-0 今日；閘門終盤已解惟夜期偏軟；管道持晚間鎖；勿搶跑\nhttps://wolfoofwolf.github.io/stockdesk/?v=morn1016",
+  "summaryTw": "【總司令｜2026-10-16 09:00 HKT】\n閘門｜終盤已解｜QQQ −0.13%／SPY +0.28%（盤中曾 −0.68%）\nFedWatch｜hold 71.3%｜今 11:30 Warsh IMF（D-0）\n日曆｜Warsh D-0｜10/28 FOMC\n管道｜**516**→80→80→28→28｜HOLD 晚間鎖至 ~21:35（池已換 516）\n結論｜晨間唔重刷；現金盤跟 516 重鎖；Warsh 聽 Drok\nhttps://wolfoofwolf.github.io/stockdesk/?v=morn516",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=morn1016"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=morn516"
   },
   "thinkingLog": [
     {
@@ -26,6 +26,13 @@
     {
       "t": "2026-10-16 08:53 HKT",
       "msg": "Morning: Warsh D-0; gate final CLEARED −0.13%; Asia rebound; HOLD 529→80→28; ?v=morn1016"
+    },
+    {
+      "t": "2026-10-16T01:00:20.000Z",
+      "bot": "Trok",
+      "role": "Pages",
+      "step": "morn-screener-516",
+      "detail": "Pushed Frok screener 529→516; commander candidates→516; HOLD techPass 80 until ~21:35"
     }
   ],
   "premarketGate": {
@@ -158,7 +165,7 @@
     "why": "Warsh D-0 today 11:30 HKT; gate final CLEARED QQQ −0.13% (was midday FIRED −0.68%); Asia rebound Nikkei/KOSPI ~+1.4%; FedWatch hold 70.1→71.3; overnight NQ −0.41% soft; pipeline HOLD 529→80→28"
   },
   "brief": {
-    "asOfHKT": "2026-10-16 08:53 HKT",
+    "asOfHKT": "2026-10-16 09:00 HKT",
     "sections": [
       {
         "id": "gate",
@@ -183,7 +190,7 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **529** → techPass **80** → 公司 **80** → 領導股 **28** → 進場 **28**（可考慮 28／觀望 0）｜**HOLD** 晚間鎖至 ~21:35 現金開｜downstream fresh"
+        "value": "池 **516** → techPass **80**（HOLD asOf 10/15）→ 公司 80 → 領導股 28 → 進場 28｜今 ~21:35 跟 516 重鎖"
       },
       {
         "id": "top",
@@ -193,7 +200,7 @@
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "material：Warsh D-0 今日；閘門終盤已解（盤中曾觸）；亞洲反彈；FedWatch hold 略升；管道 HOLD 晚間 529→80→28；勿搶跑等現金開"
+        "value": "閘門終盤已解；池換 516 但 techPass HOLD 80 至現金盤；Warsh D-0 今 11:30"
       }
     ]
   }
