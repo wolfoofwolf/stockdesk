@@ -1,7 +1,7 @@
 {
-  "title": "大市更新｜FedWatch hold 再升・亞洲續彈・Warsh 已畢 blackout｜午後（Drok）",
-  "asOf": "2026-10-16T05:51:00.000Z",
-  "updatedAt": "2026-10-16T05:51:00.000Z",
+  "title": "大市更新｜閘門觸發 QQQ -0.93%・半導／CRWV續弱・Warsh blackout｜晚間 RTH（Drok）",
+  "asOf": "2026-10-16T14:55:27.000Z",
+  "updatedAt": "2026-10-16T14:55:27.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -163,7 +163,7 @@
       "date": "2026-10-28",
       "label": "FOMC 決定（10/27–28）",
       "status": "upcoming",
-      "note": "聲明約 14:00 ET。FedWatch（Investing 10/16 01:25 AM EDT）：hold 86.2%／+25bp 13.8%。十二月：hold 12.5%／+25bp 75.7%／+50bp 11.8%。Warsh 已進 blackout。同日 Mag7 有 MSFT／GOOGL 業績；META／TSLA 10/21。"
+      "note": "聲明約 14:00 ET。FedWatch（Investing 10/16 10:25 AM EDT）：hold 85.1%／+25bp 14.9%。十二月：hold 14.1%／+25bp 73.5%／+50bp 12.5%。Warsh 已進 blackout。同日 Mag7 有 MSFT／GOOGL 業績；META／TSLA 10/21。"
     },
     {
       "id": "warsh-imf-bangkok-2026-10-16",
@@ -178,13 +178,14 @@
         "Yahoo／Commander morning verify 2026-10-16 ~08:57 HKT",
         "Drok Warsh IMF brief 2026-10-16 ~12:10 HKT",
         "FXStreet／Nick Timiraos／Fed 直播摘錄",
-        "Drok afternoon refresh 2026-10-16 ~13:51 HKT"
+        "Drok afternoon refresh 2026-10-16 ~13:51 HKT",
+        "Drok evening RTH refresh 2026-10-16 22:55 HKT"
       ],
       "fedWatchPost": {
-        "octHoldPct": 86.2,
-        "octHike25Pct": 13.8,
-        "cmeMethodHoldPct": 82.0,
-        "cmeMethodHike25Pct": 18.0
+        "octHoldPct": 85.1,
+        "octHike25Pct": 14.9,
+        "cmeMethodHoldPct": 84.0,
+        "cmeMethodHike25Pct": 16.0
       }
     }
   ],
@@ -244,17 +245,17 @@
     "summaryTw": "非農就業（2026年9月） @ 2026-10-02\n數據：弱過預期（actual < consensus）\n當日大盤：+0.74%\n留意：數據偏弱但大市上升（利好降息／軟著陸交易）\n收市K線：膠住／十字味：實體細，方向未決；收市創近期新高／破阻力；企穩 SMA20 上方；企穩 SMA50 上方\n其後4日：D+1 0.67%(修復／延續上升)，D+2 0.55%(修復／延續上升)，D+3 -0.24%(失地／回吐)，D+4 -0.42%(失地／回吐)；其後 10/9 +0.60%、10/12 -0.06%"
   },
   "watch": {
-    "【閘門】非盤前｜昨收 QQQ -0.13%／SPY +0.28%；夜期 NQ +0.12%／ES +0.14% 未傾瀉＞0.65%": true,
-    "【FedWatch】10月 hold 86.2%／hike 13.8%（Investing 01:25 EDT；較今早 +14.9pp）": true,
-    "【CME交叉】hold 82.0%／hike 18.0%（as of 04:59 UTC；Warsh 後 Frenzy ~82/18）": true,
-    "【亞洲續彈】日經 +1.82%；韓綜 +3.51%（今早 +1.71%）；恒指 +0.97%": true,
+    "【閘門】**觸發**｜QQQ -0.93%（$721.2）／SPY -0.05%；NQ -0.76%": true,
+    "【FedWatch】10月 hold 85.1%／hike 14.9%（Investing 10:25 EDT；較午後 -1.1pp）": true,
+    "【CME交叉】hold 84%／hike 16%（MarketDrip 14:51 UTC）": true,
+    "【半導／CRWV】SMH -1.34%；CRWV -8.33%（$63.88）；AMD/MU ~−3%": true,
+    "【亞洲已收】日經 +1.39%；韓綜 +2.05%；恒指 +0.52%": true,
     "【日曆】Warsh IMF 已畢 → blackout 至 10/28 FOMC": true,
-    "【美元／波幅】DXY ~101.91（-0.08%）；VIX 16.46；TNX 5.089": true,
-    "【CRWV】終盤 +5.9%（$69.69）｜SMH -1.0%": true,
+    "【美元／波幅】DXY ~101.656（-0.39%）；VIX 15.83；TNX 5.094": true,
     "【業績／FOMC】META/TSLA 10/21｜MSFT/GOOGL 10/28｜FOMC 10/27–28": true
   },
-  "mag7Note": "終盤 10/15（現金已收，盤前未開）：NVDA −1.8%、AMD −1.5%、MU +1.9%、TSM −1.8%、META −0.1%、AAPL −0.3%、MSFT +1.1%、GOOGL +0.5%、AMZN +0.3%、TSLA −1.3%；SMH -1.0%；CRWV +5.9%（$69.69）。",
-  "summaryTw": "【閘門】非盤前｜昨收 QQQ -0.13%／SPY +0.28%；夜期 NQ +0.12%／ES +0.14% 未傾瀉。\n【FedWatch】hold 86.2%／+25 13.8%（Investing 01:25 EDT；較今早 +14.9pp）；CME-method 82.0/18.0；12月 12.5/75.7/11.8。\n【亞洲】日經 +1.82%／韓綜 +3.51%／恒指 +0.97%。\n【日曆】Warsh IMF 已畢 → blackout 至 10/28 FOMC；META/TSLA 10/21｜MSFT/GOOGL＋FOMC 10/28。",
+  "mag7Note": "RTH 盤中 ~2026-10-16 22:55 HKT：NVDA +0.15%、AMD -3.12%、MU -3.28%、TSM -1.72%、META -1.89%、AAPL +0.94%、MSFT -0.68%、GOOGL -1.12%、AMZN -0.04%、TSLA -0.41%；SMH -1.34%（$551.32）；CRWV -8.33%（$63.88）。主題：AI／半導／記憶體續弱＋CoreWeave 融資壓力；AAPL／NVDA 相對抗跌。",
+  "summaryTw": "【閘門】**觸發**｜QQQ -0.93%（$721.2）／SPY -0.05%；NQ -0.76%／ES -0.01%。\n【FedWatch】hold 85.1%／+25 14.9%（Investing 10:25 EDT；較午後 -1.1pp）；CME-method 84/16；12月 14.1/73.5/12.5。\n【美股／亞洲】RTH QQQ -0.93%／SPY -0.05%｜日經 +1.39%／韓綜 +2.05%／恒指 +0.52%｜CRWV -8.33%／SMH -1.34%。\n【日曆】Warsh IMF 已畢 → blackout 至 10/28 FOMC；META/TSLA 10/21｜MSFT/GOOGL＋FOMC 10/28。",
   "thinkingLog": [
     {
       "t": "2026-10-12T01:59:09.819Z",
@@ -3871,6 +3872,45 @@
         "ok": true,
         "message": "macro: afternoon 2026-10-16 ~13:51 HKT (Drok)"
       }
+    },
+    {
+      "t": "2026-10-16T14:55:27.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "fetch",
+      "detail": {
+        "session": "HKT evening / US RTH",
+        "asOfHKT": "2026-10-16 22:55 HKT",
+        "sources": [
+          "Yahoo Finance chart API QQQ/SPY/Mag7/SMH/CRWV/NQ/ES/VIX/TNX/DXY/Asia 2026-10-16 ~22:55 HKT",
+          "Investing.com Fed rate monitor 更新 10/16 10:25 AM EDT（≈22:25 HKT）",
+          "MarketDrip CME-method as of 2026-10-16 14:51 UTC",
+          "AP/Investopedia/Reuters AI debt chips selloff 2026-10-16"
+        ],
+        "gateFired": true,
+        "qqqDayPct": -0.934,
+        "spyDayPct": -0.048
+      }
+    },
+    {
+      "t": "2026-10-16T14:55:27.000Z",
+      "bot": "Drok",
+      "role": "大市分析",
+      "step": "materiality",
+      "detail": {
+        "gateFired": true,
+        "gateApplicable": true,
+        "materialChange": true,
+        "speakToStockGroup": true,
+        "materialReasons": [
+          "閘門觸發：QQQ -0.93%（≤−0.65%）RTH vs 昨收 $728.00；SPY -0.05%",
+          "CRWV -8.3%（AI 債務／基建融資主題延續）",
+          "SMH -1.3%；AMD -3.1%／MU -3.3% 記憶體／半導續弱",
+          "韓綜終盤 +2.05%（午後曾報 +3.51%，收斂≥1pp；亞洲已收）"
+        ],
+        "fedWatchHoldDeltaPp": -1.1,
+        "cause": "AI/chips/memory selloff + CoreWeave financing stress; Nasdaq weekly-loss path; SPY near flat (rotation)"
+      }
     }
   ],
   "liveSync": "poll data/macro-run-latest.json every 15s",
@@ -3883,93 +3923,137 @@
       "結論"
     ],
     "sections": {
-      "閘門": "非盤前閘門時段（盤前約 16:00 HKT 開）｜昨收 QQQ -0.13%（$728.00）／SPY +0.28%（$771.79）｜夜期 NQ +0.12%（30179.75）／ES +0.14%（7801.5）未傾瀉＞0.65%｜SMH -1.04%；VIX 16.46。",
-      "FedWatch": "10/28 hold 86.2%／+25bp 13.8%（Investing.com Fed rate monitor 更新 10/16 01:25 AM EDT（≈13:25 HKT）；較今早 Investing 71.3／28.7 hold +14.9pp）｜CME-method 交叉 82.0/18.0（CME-method（kryptomagazin）as of 2026-10-16 04:59 UTC；與 Warsh 後 Frenzy ~82/18 同向）｜12月 hold 12.5%／+25bp 75.7%／+50bp 11.8%——年末仍偏加息。",
-      "美股／亞洲": "美股現金已收｜夜期回穩 NQ +0.12%／ES +0.14%（今早曾 NQ −0.37%）｜亞洲續彈 日經 +1.82%（~65,595）／韓綜 +3.51%（~5,749；今早 +1.71%）／恒指 +0.97%（~24,296）｜DXY ~101.91（-0.08%）｜CRWV 終盤 +5.9%（$69.69）｜半導昨收 SMH -1.0%；NVDA −1.8%。",
+      "閘門": "**閘門觸發**｜RTH 開盤傾瀉匹配閘門｜QQQ -0.93%（$721.2 vs 昨收 $728.00）／SPY -0.05%（$771.42）｜NQ -0.76%（29915.5）／ES -0.01%（7790.5）｜SMH -1.34%；VIX 15.83（-3.83%）。主因：AI 債務／基建融資憂慮＋半導／記憶體續瀉（CRWV -8.33%；AMD/MU ~−3%）。",
+      "FedWatch": "10/28 hold 85.1%／+25bp 14.9%（Investing.com Fed rate monitor 更新 10/16 10:25 AM EDT（≈22:25 HKT）；較午後 Investing 86.2 hold -1.1pp）｜CME-method 交叉 84/16（MarketDrip CME-method as of 2026-10-16 14:51 UTC）｜12月 hold 14.1%／+25bp 73.5%／+50bp 12.5%——年末仍偏加息。",
+      "美股／亞洲": "美股 RTH 開｜QQQ -0.93%／SPY -0.05%｜亞洲已收 日經 +1.39%（65,324）／韓綜 +2.05%（5,668；午後曾報 +3.5%）／恒指 +0.52%（24,187）｜DXY ~101.656（-0.39%）｜CRWV -8.33%（$63.88）｜半導 SMH -1.34%；META -1.89%；AAPL +0.94%。",
       "日曆": "Warsh×Georgieva IMF 曼谷 fireside **已畢**（11:30–12:00 HKT）｜**10/28 FOMC 前最後公開 → 已進入 blackout**｜語調偏緩和／路徑中性｜PPI 偏熱已出 MoM +1.3%／YoY +6.3%／核心 MoM +0.7%｜META/TSLA 10/21｜MSFT/GOOGL 10/28｜FOMC 10/27–28。",
-      "結論": "material：FedWatch hold 71.3→86.2（+14.9pp≥5）｜韓綜 +3.5%（vs 今早 +1.7%，加深≥1pp）｜日經 +1.8%／恒指 +1.0%｜Warsh D-0→done／blackout｜夜期未傾瀉｜盤前閘門待 16:00 HKT。"
+      "結論": "material：閘門觸發 QQQ -0.93%｜CRWV -8.33%／SMH -1.34%／AMD·MU ~−3%｜FedWatch hold 86.2→85.1（-1.1pp＜5）｜Warsh blackout 不變｜主因 AI 融資／半導續弱。"
     },
-    "chatTw": "【Drok｜大市分析｜FedWatch hold↑・亞洲續彈・Warsh blackout｜2026-10-16 13:51 HKT】\n閘門｜非盤前閘門時段（盤前約 16:00 HKT 開）｜昨收 QQQ -0.13%（$728.00）／SPY +0.28%（$771.79）｜夜期 NQ +0.12%（30179.75）／ES +0.14%（7801.5）未傾瀉＞0.65%｜SMH -1.04%；VIX 16.46。\nFedWatch｜10/28 hold 86.2%／+25bp 13.8%（Investing.com Fed rate monitor 更新 10/16 01:25 AM EDT（≈13:25 HKT）；較今早 Investing 71.3／28.7 hold +14.9pp）｜CME-method 交叉 82.0/18.0（CME-method（kryptomagazin）as of 2026-10-16 04:59 UTC；與 Warsh 後 Frenzy ~82/18 同向）｜12月 hold 12.5%／+25bp 75.7%／+50bp 11.8%——年末仍偏加息。\n美股／亞洲｜美股現金已收｜夜期回穩 NQ +0.12%／ES +0.14%（今早曾 NQ −0.37%）｜亞洲續彈 日經 +1.82%（~65,595）／韓綜 +3.51%（~5,749；今早 +1.71%）／恒指 +0.97%（~24,296）｜DXY ~101.91（-0.08%）｜CRWV 終盤 +5.9%（$69.69）｜半導昨收 SMH -1.0%；NVDA −1.8%。\n日曆｜Warsh×Georgieva IMF 曼谷 fireside **已畢**（11:30–12:00 HKT）｜**10/28 FOMC 前最後公開 → 已進入 blackout**｜語調偏緩和／路徑中性｜PPI 偏熱已出 MoM +1.3%／YoY +6.3%／核心 MoM +0.7%｜META/TSLA 10/21｜MSFT/GOOGL 10/28｜FOMC 10/27–28。\n結論｜material：FedWatch hold 71.3→86.2（+14.9pp≥5）｜韓綜 +3.5%（vs 今早 +1.7%，加深≥1pp）｜日經 +1.8%／恒指 +1.0%｜Warsh D-0→done／blackout｜夜期未傾瀉｜盤前閘門待 16:00 HKT。\n\nPages：https://wolfoofwolf.github.io/stockdesk/?v=aft1016",
-    "asOfHKT": "2026-10-16 13:51 HKT"
+    "chatTw": "【Drok｜大市分析｜閘門觸發・QQQ傾瀉・半導／CRWV續弱｜2026-10-16 22:55 HKT】\n閘門｜**閘門觸發**｜RTH 開盤傾瀉匹配閘門｜QQQ -0.93%（$721.2 vs 昨收 $728.00）／SPY -0.05%（$771.42）｜NQ -0.76%（29915.5）／ES -0.01%（7790.5）｜SMH -1.34%；VIX 15.83（-3.83%）。主因：AI 債務／基建融資憂慮＋半導／記憶體續瀉（CRWV -8.33%；AMD/MU ~−3%）。\nFedWatch｜10/28 hold 85.1%／+25bp 14.9%（Investing.com Fed rate monitor 更新 10/16 10:25 AM EDT（≈22:25 HKT）；較午後 Investing 86.2 hold -1.1pp）｜CME-method 交叉 84/16（MarketDrip CME-method as of 2026-10-16 14:51 UTC）｜12月 hold 14.1%／+25bp 73.5%／+50bp 12.5%——年末仍偏加息。\n美股／亞洲｜美股 RTH 開｜QQQ -0.93%／SPY -0.05%｜亞洲已收 日經 +1.39%（65,324）／韓綜 +2.05%（5,668；午後曾報 +3.5%）／恒指 +0.52%（24,187）｜DXY ~101.656（-0.39%）｜CRWV -8.33%（$63.88）｜半導 SMH -1.34%；META -1.89%；AAPL +0.94%。\n日曆｜Warsh×Georgieva IMF 曼谷 fireside **已畢**（11:30–12:00 HKT）｜**10/28 FOMC 前最後公開 → 已進入 blackout**｜語調偏緩和／路徑中性｜PPI 偏熱已出 MoM +1.3%／YoY +6.3%／核心 MoM +0.7%｜META/TSLA 10/21｜MSFT/GOOGL 10/28｜FOMC 10/27–28。\n結論｜material：閘門觸發 QQQ -0.93%｜CRWV -8.33%／SMH -1.34%／AMD·MU ~−3%｜FedWatch hold 86.2→85.1（-1.1pp＜5）｜Warsh blackout 不變｜主因 AI 融資／半導續弱。\n\nPages：https://wolfoofwolf.github.io/stockdesk/?v=eve1016",
+    "asOfHKT": "2026-10-16 22:55 HKT"
   },
   "refreshSnapshot": {
-    "session": "HKT afternoon / US overnight",
-    "asOfHKT": "2026-10-16 13:51 HKT",
-    "asOf": "2026-10-16T05:51:00.000Z",
-    "gateFired": false,
-    "gateApplicable": false,
+    "session": "HKT evening / US RTH",
+    "asOfHKT": "2026-10-16 22:55 HKT",
+    "asOf": "2026-10-16T14:55:27.000Z",
+    "gateFired": true,
+    "gateApplicable": true,
     "premarketStartsHKT": "16:00",
     "quotes": {
       "QQQ": {
-        "last": 728.0,
-        "dayPct": -0.13,
-        "session": "prior_RTH_close"
+        "last": 721.2,
+        "dayPct": -0.934,
+        "session": "RTH",
+        "priorClose": 728.0
       },
       "SPY": {
-        "last": 771.79,
-        "dayPct": 0.28,
-        "session": "prior_RTH_close"
+        "last": 771.42,
+        "dayPct": -0.048,
+        "session": "RTH",
+        "priorClose": 771.79
       },
       "NQ=F": {
-        "last": 30179.75,
-        "dayPct": 0.12
+        "last": 29915.5,
+        "dayPct": -0.757
       },
       "ES=F": {
-        "last": 7801.5,
-        "dayPct": 0.14
+        "last": 7790.5,
+        "dayPct": -0.006
       },
       "SMH": {
-        "dayPct": -1.04
+        "last": 551.32,
+        "dayPct": -1.345
       },
-      "VIX": 16.46,
-      "TNX": 5.089,
+      "VIX": 15.83,
+      "TNX": 5.094,
       "DXY": {
-        "last": 101.91,
-        "dayPct": -0.08
+        "last": 101.656,
+        "dayPct": -0.391
       },
       "CRWV": {
-        "last": 69.69,
-        "dayPct": 5.94
+        "last": 63.88,
+        "dayPct": -8.33
+      },
+      "NVDA": {
+        "last": 217.56,
+        "dayPct": 0.152
+      },
+      "AMD": {
+        "last": 544.67,
+        "dayPct": -3.122
+      },
+      "MU": {
+        "last": 900.71,
+        "dayPct": -3.278
+      },
+      "TSM": {
+        "last": 415.01,
+        "dayPct": -1.715
+      },
+      "META": {
+        "last": 722.79,
+        "dayPct": -1.89
+      },
+      "AAPL": {
+        "last": 345.22,
+        "dayPct": 0.942
+      },
+      "MSFT": {
+        "last": 535.76,
+        "dayPct": -0.682
+      },
+      "GOOGL": {
+        "last": 345.29,
+        "dayPct": -1.125
+      },
+      "AMZN": {
+        "last": 254.65,
+        "dayPct": -0.045
+      },
+      "TSLA": {
+        "last": 360.94,
+        "dayPct": -0.415
       },
       "^N225": {
-        "last": 65595,
-        "dayPct": 1.82
+        "last": 65324.29,
+        "dayPct": 1.39
       },
       "^KS11": {
-        "last": 5749,
-        "dayPct": 3.51
+        "last": 5668.05,
+        "dayPct": 2.05
       },
       "^HSI": {
-        "last": 24296,
-        "dayPct": 0.97
+        "last": 24186.83,
+        "dayPct": 0.52
       }
     },
     "fedWatch": {
       "meeting": "2026-10-28",
-      "holdPct": 86.2,
-      "hike25Pct": 13.8,
-      "source": "Investing.com Fed rate monitor 更新 10/16 01:25 AM EDT（≈13:25 HKT）",
+      "holdPct": 85.1,
+      "hike25Pct": 14.9,
+      "source": "Investing.com Fed rate monitor 更新 10/16 10:25 AM EDT（≈22:25 HKT）",
       "december": {
-        "holdPct": 12.5,
-        "hike25Pct": 75.7,
-        "hike50Pct": 11.8
+        "holdPct": 14.1,
+        "hike25Pct": 73.5,
+        "hike50Pct": 12.5
       },
       "cmeMethodCross": {
-        "holdPct": 82.0,
-        "hike25Pct": 18.0,
-        "source": "CME-method（kryptomagazin）as of 2026-10-16 04:59 UTC",
-        "december": "hold 10.4%／+25 73.9%／+50 15.7%"
+        "holdPct": 84.0,
+        "hike25Pct": 16.0,
+        "source": "MarketDrip CME-method as of 2026-10-16 14:51 UTC",
+        "december": "hold ~11%／net hike ~89%（MarketDrip Dec path）"
       },
-      "vsMorningInvestingHoldPct": 71.3,
-      "holdDeltaPp": 14.9
+      "vsAfternoonInvestingHoldPct": 86.2,
+      "holdDeltaPp": -1.1
     },
     "materialChange": true,
     "speakToStockGroup": true,
     "materialReasons": [
-      "FedWatch hold 71.3→86.2 (+14.9pp ≥5)",
-      "KOSPI +3.51% vs morning +1.71% (≥1pp deepen)",
-      "Warsh calendar D-0→done/blackout",
-      "HSI now +0.97% (morning had prior-day -1.03%)"
-    ]
+      "閘門觸發：QQQ -0.93%（≤−0.65%）RTH vs 昨收 $728.00；SPY -0.05%",
+      "CRWV -8.3%（AI 債務／基建融資主題延續）",
+      "SMH -1.3%；AMD -3.1%／MU -3.3% 記憶體／半導續弱",
+      "韓綜終盤 +2.05%（午後曾報 +3.51%，收斂≥1pp；亞洲已收）"
+    ],
+    "causeOfDump": "AI debt/financing worries + semiconductor/memory continuation (CRWV, AMD, MU, SMH); META soft; AAPL/NVDA relative resilience; SPY flat via rotation"
   }
 }

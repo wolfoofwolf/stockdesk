@@ -156,7 +156,7 @@
     "date": "2026-10-28",
     "label": "FOMC 決定（10/27–28）",
     "status": "upcoming",
-    "note": "聲明約 14:00 ET。FedWatch（Investing 10/16 01:25 AM EDT）：hold 86.2%／+25bp 13.8%。十二月：hold 12.5%／+25bp 75.7%／+50bp 11.8%。Warsh 已進 blackout。同日 Mag7 有 MSFT／GOOGL 業績；META／TSLA 10/21。"
+    "note": "聲明約 14:00 ET。FedWatch（Investing 10/16 10:25 AM EDT）：hold 85.1%／+25bp 14.9%。十二月：hold 14.1%／+25bp 73.5%／+50bp 12.5%。Warsh 已進 blackout。同日 Mag7 有 MSFT／GOOGL 業績；META／TSLA 10/21。"
   },
   {
     "id": "warsh-imf-bangkok-2026-10-16",
@@ -172,16 +172,14 @@
       "Drok Warsh IMF brief 2026-10-16 ~12:10 HKT",
       "Investing.com Fed rate monitor 2026-10-16 01:25 AM EDT",
       "CME-method kryptomagazin 2026-10-16 04:59 UTC",
-      "Drok afternoon refresh 2026-10-16 ~13:51 HKT"
+      "Drok afternoon refresh 2026-10-16 ~13:51 HKT",
+      "Drok evening RTH refresh 2026-10-16 22:55 HKT"
     ],
     "fedWatchPost": {
-      "octHoldPct": 86.2,
-      "octHike25Pct": 13.8,
-      "cmeMethodHoldPct": 82.0,
-      "cmeMethodHike25Pct": 18.0,
-      "decHoldPct": 12.5,
-      "decHike25Pct": 75.7,
-      "decHike50Pct": 11.8
+      "octHoldPct": 85.1,
+      "octHike25Pct": 14.9,
+      "cmeMethodHoldPct": 84.0,
+      "cmeMethodHike25Pct": 16.0
     }
   }
 ]
