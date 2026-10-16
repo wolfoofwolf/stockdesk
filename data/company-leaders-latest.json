@@ -1,74 +1,35 @@
 {
-  "generatedAt": "2026-10-16T15:01:35.923065Z",
+  "generatedAt": "2026-10-16T15:19:08.547603Z",
   "bot": "Jrok",
   "template": "AXTI",
-  "count": 27,
-  "techPassed": 51,
+  "count": 28,
+  "techPassed": 56,
   "leaders": [
     {
-      "ticker": "HALO",
-      "name": "Halozyme Therapeutics, Inc.",
-      "theme": "醫療",
-      "etf": "XLV",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 121.045,
-      "pivot": 122.44,
-      "close": 122.18
-    },
-    {
-      "ticker": "MUR",
-      "name": "Murphy Oil Corporation",
-      "theme": "能源",
-      "etf": "XLE",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "上游",
-      "score": 7,
-      "price": 40.995,
-      "pivot": 40.69,
-      "close": 40.58
-    },
-    {
-      "ticker": "DIS",
-      "name": "The Walt Disney Company",
+      "ticker": "CNK",
+      "name": "Cinemark Holdings, Inc.",
       "theme": "Software service",
       "etf": "XLC",
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
-      "score": 7,
-      "price": 112.275,
-      "pivot": 112.01,
-      "close": 111.54
+      "score": 5,
+      "price": 39.48,
+      "pivot": 39.75,
+      "close": 39.68
     },
     {
-      "ticker": "RELX",
-      "name": "RELX PLC",
+      "ticker": "KDP",
+      "name": "Keurig Dr Pepper Inc.",
       "theme": "雜項",
-      "etf": "XLI",
+      "etf": "XLP",
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
-      "score": 7,
-      "price": 38.955,
-      "pivot": 39.56,
-      "close": 39.31
-    },
-    {
-      "ticker": "SAP",
-      "name": "SAP SE",
-      "theme": "Hardware",
-      "etf": "XLK",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 8,
-      "price": 224.58,
-      "pivot": 229.54,
-      "close": 227.64
+      "score": 5,
+      "price": 34.43,
+      "pivot": 34.71,
+      "close": 34.45
     },
     {
       "ticker": "MO",
@@ -79,22 +40,48 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 7,
-      "price": 74.685,
+      "price": 74.865,
       "pivot": 74.1,
       "close": 74.65
     },
     {
-      "ticker": "CTSH",
-      "name": "Cognizant Technology Solutions Corporation",
-      "theme": "Hardware",
-      "etf": "XLK",
+      "ticker": "HALO",
+      "name": "Halozyme Therapeutics, Inc.",
+      "theme": "醫療",
+      "etf": "XLV",
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
       "score": 6,
-      "price": 65.11,
-      "pivot": 67.43,
-      "close": 66.69
+      "price": 121.4,
+      "pivot": 122.44,
+      "close": 121.06
+    },
+    {
+      "ticker": "RELX",
+      "name": "RELX PLC",
+      "theme": "雜項",
+      "etf": "XLI",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 7,
+      "price": 39.02,
+      "pivot": 39.56,
+      "close": 38.97
+    },
+    {
+      "ticker": "DIS",
+      "name": "The Walt Disney Company",
+      "theme": "Software service",
+      "etf": "XLC",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 7,
+      "price": 112.47,
+      "pivot": 112.31,
+      "close": 112.31
     },
     {
       "ticker": "DG",
@@ -105,9 +92,9 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 5,
-      "price": 135.15,
+      "price": 135.575,
       "pivot": 133.47,
-      "close": 134.9
+      "close": 135.17
     },
     {
       "ticker": "BBWI",
@@ -118,35 +105,22 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 5,
-      "price": 20.61,
-      "pivot": 20.88,
-      "close": 20.86
+      "price": 20.785,
+      "pivot": 20.96,
+      "close": 20.59
     },
     {
-      "ticker": "CNK",
-      "name": "Cinemark Holdings, Inc.",
-      "theme": "Software service",
-      "etf": "XLC",
+      "ticker": "SAP",
+      "name": "SAP SE",
+      "theme": "Hardware",
+      "etf": "XLK",
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
-      "score": 5,
-      "price": 39.68,
-      "pivot": 39.22,
-      "close": 39.06
-    },
-    {
-      "ticker": "RMD",
-      "name": "ResMed Inc.",
-      "theme": "醫療",
-      "etf": "XLV",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 240.07,
-      "pivot": 242.63,
-      "close": 241.53
+      "score": 7,
+      "price": 223.97,
+      "pivot": 229.54,
+      "close": 224.28
     },
     {
       "ticker": "SONY",
@@ -159,59 +133,20 @@
       "score": 9,
       "price": 25.025,
       "pivot": 25.27,
-      "close": 25.12
+      "close": 25.02
     },
     {
-      "ticker": "ECL",
-      "name": "Ecolab Inc.",
-      "theme": "化學工業",
-      "etf": "XLB",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "中游",
-      "score": 7,
-      "price": 291.21,
-      "pivot": 295.95,
-      "close": 294.06
-    },
-    {
-      "ticker": "HONA",
-      "name": "Honeywell Aerospace Inc.",
-      "theme": "雜項",
-      "etf": "XLI",
+      "ticker": "RMD",
+      "name": "ResMed Inc.",
+      "theme": "醫療",
+      "etf": "XLV",
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
-      "score": 5,
-      "price": 167.83,
-      "pivot": 170.32,
-      "close": 168.12
-    },
-    {
-      "ticker": "XOM",
-      "name": "ExxonMobil Holdings Corporation",
-      "theme": "能源",
-      "etf": "XLE",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "上游",
-      "score": 9,
-      "price": 176.23,
-      "pivot": 178.69,
-      "close": 176.33
-    },
-    {
-      "ticker": "GDDY",
-      "name": "GoDaddy Inc.",
-      "theme": "Hardware",
-      "etf": "XLK",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 5,
-      "price": 106.695,
-      "pivot": 110.35,
-      "close": 108.83
+      "score": 6,
+      "price": 241.21,
+      "pivot": 242.63,
+      "close": 240.19
     },
     {
       "ticker": "RCL",
@@ -222,61 +157,48 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 7,
-      "price": 286.0,
+      "price": 285.44,
       "pivot": 289.17,
-      "close": 284.83
+      "close": 285.78
     },
     {
-      "ticker": "GME",
-      "name": "GameStop Corp.",
+      "ticker": "HONA",
+      "name": "Honeywell Aerospace Inc.",
       "theme": "雜項",
-      "etf": "XLY",
-      "pattern": "bull_flag",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 5,
-      "price": 27.089,
-      "pivot": 28.3,
-      "close": 27.75
-    },
-    {
-      "ticker": "NOW",
-      "name": "ServiceNow, Inc.",
-      "theme": "Software service",
-      "etf": "IGV",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 7,
-      "price": 142.8,
-      "pivot": 154.2,
-      "close": 148.62
-    },
-    {
-      "ticker": "IQV",
-      "name": "IQVIA Holdings Inc.",
-      "theme": "醫療",
-      "etf": "XLV",
+      "etf": "XLI",
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
       "score": 5,
-      "price": 269.435,
-      "pivot": 277.4,
-      "close": 271.48
+      "price": 168.8,
+      "pivot": 170.32,
+      "close": 168.01
     },
     {
-      "ticker": "NUE",
-      "name": "Nucor Corporation",
+      "ticker": "XOM",
+      "name": "ExxonMobil Holdings Corporation",
+      "theme": "能源",
+      "etf": "XLE",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "上游",
+      "score": 9,
+      "price": 176.1452,
+      "pivot": 178.69,
+      "close": 176.18
+    },
+    {
+      "ticker": "ECL",
+      "name": "Ecolab Inc.",
       "theme": "化學工業",
       "etf": "XLB",
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "中游",
-      "score": 8,
-      "price": 262.965,
-      "pivot": 267.83,
-      "close": 262.01
+      "score": 7,
+      "price": 291.77,
+      "pivot": 295.95,
+      "close": 291.33
     },
     {
       "ticker": "IBN",
@@ -286,10 +208,36 @@
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
-      "score": 6,
-      "price": 30.14,
+      "score": 7,
+      "price": 30.16,
       "pivot": 30.67,
-      "close": 29.94
+      "close": 30.15
+    },
+    {
+      "ticker": "AEO",
+      "name": "American Eagle Outfitters, Inc.",
+      "theme": "雜項",
+      "etf": "XLY",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 5,
+      "price": 18.22,
+      "pivot": 18.55,
+      "close": 18.21
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor Corporation",
+      "theme": "化學工業",
+      "etf": "XLB",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "中游",
+      "score": 9,
+      "price": 261.46,
+      "pivot": 267.83,
+      "close": 262.51
     },
     {
       "ticker": "CBOE",
@@ -299,23 +247,23 @@
       "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
-      "score": 7,
-      "price": 309.805,
+      "score": 5,
+      "price": 311.445,
       "pivot": 316.86,
-      "close": 309.2
+      "close": 310.22
     },
     {
-      "ticker": "NTRA",
-      "name": "Natera, Inc.",
-      "theme": "醫療",
-      "etf": "XLV",
-      "pattern": "bull_flag",
+      "ticker": "ADSK",
+      "name": "Autodesk, Inc.",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "pattern": "VCP",
       "moat": "中",
       "valueChain": "下游",
-      "score": 6,
-      "price": 391.765,
-      "pivot": 410.63,
-      "close": 399.92
+      "score": 7,
+      "price": 241.06,
+      "pivot": 251.74,
+      "close": 241.83
     },
     {
       "ticker": "TD",
@@ -326,9 +274,22 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 7,
-      "price": 121.295,
+      "price": 121.24,
       "pivot": 124.6,
-      "close": 121.08
+      "close": 121.25
+    },
+    {
+      "ticker": "IQV",
+      "name": "IQVIA Holdings Inc.",
+      "theme": "醫療",
+      "etf": "XLV",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 5,
+      "price": 268.38,
+      "pivot": 277.4,
+      "close": 269.84
     },
     {
       "ticker": "MDLZ",
@@ -339,9 +300,48 @@
       "moat": "中",
       "valueChain": "下游",
       "score": 7,
-      "price": 64.19,
+      "price": 64.27,
       "pivot": 66.07,
-      "close": 64.03
+      "close": 64.21
+    },
+    {
+      "ticker": "BNS",
+      "name": "The Bank of Nova Scotia",
+      "theme": "金融",
+      "etf": "XLF",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 92.015,
+      "pivot": 94.89,
+      "close": 92.06
+    },
+    {
+      "ticker": "NWSA",
+      "name": "News Corporation",
+      "theme": "Software service",
+      "etf": "XLC",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 5,
+      "price": 30.39,
+      "pivot": 31.55,
+      "close": 30.32
+    },
+    {
+      "ticker": "NTRA",
+      "name": "Natera, Inc.",
+      "theme": "醫療",
+      "etf": "XLV",
+      "pattern": "bull_flag",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 389.81,
+      "pivot": 410.63,
+      "close": 391.06
     },
     {
       "ticker": "VIV",
@@ -354,7 +354,20 @@
       "score": 5,
       "price": 12.35,
       "pivot": 12.99,
-      "close": 12.38
+      "close": 12.36
+    },
+    {
+      "ticker": "AWK",
+      "name": "American Water Works Company, Inc.",
+      "theme": "能源",
+      "etf": "XLU",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "上游",
+      "score": 5,
+      "price": 134.62,
+      "pivot": 142.37,
+      "close": 134.24
     }
   ]
 }
