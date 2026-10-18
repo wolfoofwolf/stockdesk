@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-18T16:58:29.000Z",
+  "generatedAt": "2026-10-18T17:03:00.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-19 00:58 HKT",
+  "asOfHKT": "2026-10-19 01:03 HKT",
   "pipeline": {
-    "candidates": 613,
+    "candidates": 558,
     "techPassed": 56,
     "company": 56,
     "leaders": 27,
     "entry": 27,
     "entryConsider": 27,
     "entryWatch": 0,
-    "downstreamStale": false,
-    "anchor": "Jrok company refresh 7c39d3d leaders 28→27 (CNK out) + Arok entry align 27; pipeline 613→56→27→27"
+    "downstreamStale": true,
+    "anchor": "Frok rescreen 613→558 (asOf ~10-18/19 yahoo); waiting Grok techPass on 558; retire 613→56→27→27 lock; company/leaders/entry 56/27/27 held stale"
   },
-  "summaryTw": "【總司令｜2026-10-19 00:58 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%（沿用 10-16 RTH；未刷新報價）\n管道｜**613→56→27→27**｜downstreamStale **false**\n進場前排｜NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 26／META 1｜VCP 25／bull_flag 2\n③｜Jrok 公司刷新 `7c39d3d`｜領導股 **28→27**（CNK 退出）｜companyGeneratedAt 00:54 HKT\n⑤｜Arok 對齊領導股閘｜進場 **27**（可考慮 27／觀望 0）\nFedWatch｜hold 85.1%｜Warsh 已畢／blackout 至 10/28\n結論｜③領導股−1＋⑤對齊；Pages tip ?v=entry27-1018\nhttps://wolfoofwolf.github.io/stockdesk/?v=entry27-1018",
+  "summaryTw": "【總司令｜2026-10-19 01:03 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%（沿用 10-16 RTH；未刷新報價）\n管道｜**558→56→27→27**｜downstreamStale **true**（等 Grok 對 558 重鎖 techPass）\n篩選｜Frok 池 **613→558**（Δ−55／−9.0%）｜宇宙 1167｜主題前：雜項 213／能源 96／醫療 74／Hardware 65／金融 49／Software 33／化學 20／半導 4｜asOf ~10-18｜priceSource yahoo-yfinance-2026-10-19\n進場前排｜NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 26／META 1｜VCP 25／bull_flag 2（舊鎖，stale）\nFedWatch｜hold 85.1%｜Warsh 已畢／blackout 至 10/28（沿用）\n結論｜①新池已上 Pages；②～⑤ 舊 56／27／27 標 stale，等 @Grok 重刷 techPass；tip ?v=scr558\nhttps://wolfoofwolf.github.io/stockdesk/?v=scr558",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=entry27-1018"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=scr558"
   },
   "thinkingLog": [
     {
@@ -69,6 +69,13 @@
       "role": "Pages",
       "step": "entry27-align",
       "detail": "Jrok 7c39d3d leaders 28→27 CNK removed; Arok entry aligned 27; pipeline 613→56→27→27; ?v=entry27-1018"
+    },
+    {
+      "t": "2026-10-19 01:03 HKT",
+      "bot": "Trok",
+      "role": "Pages",
+      "step": "scr558-stale",
+      "detail": "Frok screener 613→558 pushed; commander candidates 558; tech/company/leaders/entry held 56/27/27 with downstreamStale true pending Grok; ?v=scr558"
     }
   ],
   "premarketGate": {
@@ -169,16 +176,16 @@
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "vs coEntry1018: Jrok company refresh tip 7c39d3d — leaders 28→27 (CNK leaderRemoved); Arok entry re-aligned count 27/actionable 27/watch 0 (Pullback 26/META 1; VCP 25/bull_flag 2; front NUE·SONY·XOM·ADSK·DIS·ECL·IBN·MDLZ; CNK absent). Gate/FedWatch/quotes held from 10-16 (no invent). Pipeline 613→56→27→27 downstreamStale false.",
-    "vs": "co-entry-align commander 2026-10-18 17:12 HKT"
+    "why": "vs entry27-1018: Frok ① rescreen pool 613→558 (−55/−9%; universe 1167; themes 雜項213/能源96/醫療74/Hardware65/金融49/Software33/化學20/半導4; asOf 2026-10-18T17:02:56Z). techPass/company/leaders/entry numbers held 56/27/27 but downstreamStale TRUE — waiting Grok rescreen on 558; retire 613→56→27→27 lock. Gate/FedWatch/quotes held from 10-16 (no invent).",
+    "vs": "entry27-align commander 2026-10-19 00:58 HKT"
   },
   "brief": {
-    "asOfHKT": "2026-10-19 00:58 HKT",
+    "asOfHKT": "2026-10-19 01:03 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "**觸發**｜QQQ −0.93%（$721.2 vs 收 $728.00）＞−0.65%；SPY −0.05% 未觸｜SMH −1.34%；VIX 15.83｜主因 AI 融資／半導續弱｜（沿用 10-16 RTH；未刷新）"
+        "value": "**觸發**｜QQQ −0.93%（21.2 vs 收 28.00）＞−0.65%；SPY −0.05% 未觸｜SMH −1.34%；VIX 15.83｜主因 AI 融資／半導續弱｜（沿用 10-16 RTH；未刷新）"
       },
       {
         "id": "fedwatch",
@@ -198,17 +205,17 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **613** → techPass **56** → 公司 **56**／領導股 **27**／進場 **27**（可考慮 27／觀望 0）｜**downstreamStale false**｜③ tip `7c39d3d`（領導股 28→27 CNK 出）＋⑤ 對齊"
+        "value": "池 **558**（①新）→ techPass **56**（舊鎖 stale）→ 公司 **56**／領導股 **27**／進場 **27**｜**downstreamStale true**｜等 @Grok 對 558 重鎖 techPass；退 613→56→27→27"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "進場 NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 26／META 1｜VCP 25／bull_flag 2｜CNK 已退出領導／進場"
+        "value": "進場 NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 26／META 1｜VCP 25／bull_flag 2｜（舊鎖，待 Grok／Arok 重刷）"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "③領導股−1（CNK）＋⑤對齊；Pages tip ?v=entry27-1018｜管道 **613→56→27→27**｜downstreamStale **false**"
+        "value": "①池 **613→558**（−55）已上 Pages；②～⑤ 標 stale；Pages tip ?v=scr558｜管道 **558→56→27→27**｜downstreamStale **true**"
       }
     ]
   }
