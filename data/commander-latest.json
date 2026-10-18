@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-18T17:14:00.000Z",
+  "generatedAt": "2026-10-18T17:21:00.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-19 01:14 HKT",
+  "asOfHKT": "2026-10-19 01:21 HKT",
   "pipeline": {
     "candidates": 558,
     "techPassed": 53,
-    "company": 56,
-    "leaders": 27,
-    "entry": 27,
-    "entryConsider": 27,
-    "entryWatch": 0,
-    "downstreamStale": true,
-    "anchor": "Grok techPass relock 56→53 on pool 558 (asOfMarket 10-16; tip 3eb34e0); company/leaders/entry 56/27/27 held stale — waiting @Jrok ③ on 53 then @Arok/@Trok ⑤"
+    "company": 53,
+    "leaders": 26,
+    "entry": 26,
+    "entryConsider": 24,
+    "entryWatch": 2,
+    "downstreamStale": false,
+    "anchor": "Unlocked 558→53→26→26: Grok tech 3eb34e0 + Jrok company ac88bbd (leaders 27→26; +FANG/SM/UGP −AEO/BBWI/KDP/XOM) + Arok entry 26 (consider 24／watch 2; Pullback 22／META 2；VCP 24／bull_flag 2；front SONY/NUE/ADSK/DIS/MDLZ/MO/RELX/SAP)"
   },
-  "summaryTw": "【總司令｜2026-10-19 01:14 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%（沿用 10-16 RTH；未刷新報價）\n管道｜**558→53→…**｜downstreamStale **true**（等 @Jrok ③ 跟 53 → 再刷⑤）\n②｜Grok 重鎖 **56→53**（Δ **+7／−10／kept 46**｜asOfMarket **10-16**）｜VCP **47**／bull_flag **5**／cup **1**｜Top VTRS·AVTR·HALO｜in BZ／CCL／CHKP／FANG／GMAB／SM／UGP｜out DXCM／OSCR／UNM／XOM／KDP／KR／IOVA／KBR／HSIC／PPLI｜tip tech `3eb34e0`\n篩選｜Frok 池 **558**｜宇宙 1167｜主題前：雜項 213／能源 96／醫療 74／Hardware 65／金融 49｜asOf ~10-18\n進場前排｜NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 26／META 1｜VCP 25／bull_flag 2（舊鎖，stale）\nFedWatch｜hold 85.1%｜Warsh 已畢／blackout 至 10/28（沿用）\n結論｜②已定案 **53**；③～⑤ 標 stale，等 @公司分析Jrok 跟 **53**；Pages tip ?v=tech53\nhttps://wolfoofwolf.github.io/stockdesk/?v=tech53",
+  "summaryTw": "【總司令｜2026-10-19 01:21 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%（沿用 10-16 RTH；未刷新報價）\n管道｜**558→53→26→26**｜downstreamStale **false**｜可考慮 24／觀望 2\n②｜Grok techPass **53**（tip `3eb34e0`｜asOfMarket **10-16**）｜VCP 47／bull_flag 5／cup 1\n③｜Jrok company **53**／領導 **26**（tip `ac88bbd`｜Δ領導 ＋FANG·SM·UGP／−AEO·BBWI·KDP·XOM｜ADD BZ·CCL·CHKP·FANG·GMAB·SM·UGP｜DROP DXCM·HSIC·IOVA·KBR·KDP·KR·OSCR·PPLI·UNM·XOM）\n⑤｜Arok 進場 **26**（可考慮 24／觀望 2｜Pullback 22／META 2｜VCP 24／bull_flag 2）｜前排 SONY · NUE · ADSK · DIS · MDLZ · MO · RELX · SAP\n篩選｜Frok 池 **558**｜宇宙 1167｜asOf ~10-18\nFedWatch｜hold 85.1%｜Warsh 已畢／blackout 至 10/28（沿用）\n結論｜管道已解鎖 **558→53→26→26**｜Pages ?v=entry26-1019\nhttps://wolfoofwolf.github.io/stockdesk/?v=entry26-1019",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=tech53"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=entry26-1019"
   },
   "thinkingLog": [
     {
@@ -83,6 +83,20 @@
       "role": "總司令",
       "step": "commander-align-tech53",
       "detail": "Grok tip 3eb34e0: pool 558 techPass 53; pipeline 558→53→… downstreamStale true; waiting Jrok ③; ?v=tech53"
+    },
+    {
+      "t": "2026-10-19 01:20 HKT",
+      "bot": "Jrok",
+      "role": "公司",
+      "step": "company53",
+      "detail": "ac88bbd reports 53 leaders 26; waiting entry"
+    },
+    {
+      "t": "2026-10-19 01:21 HKT",
+      "bot": "Trok",
+      "role": "總司令",
+      "step": "entry26-unlock",
+      "detail": "Arok entry 26 + commander unlock 558→53→26→26; ?v=entry26-1019"
     }
   ],
   "premarketGate": {
@@ -183,11 +197,11 @@
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "vs scr558 commander 01:03 HKT: Grok ② relock techPass 56→53 on Frok pool 558 (Δ +7/−10/kept 46; VCP 47／bull_flag 5／cup 1; tip 3eb34e0; asOfMarket 10-16). Pipeline now 558→53→… with company/leaders/entry 56/27/27 held stale waiting Jrok ③ on 53 then entry. Gate/FedWatch/quotes held from 10-16 (no invent).",
-    "vs": "scr558-pending-tech commander 2026-10-19 01:03 HKT"
+    "why": "vs tech53 commander 01:14 HKT: Jrok ③ ac88bbd company 53／leaders 27→26 + Arok ⑤ entry 26（consider 24／watch 2）unlocked pipeline 558→53→26→26; downstreamStale false. Gate/FedWatch/quotes held from 10-16 (no invent).",
+    "vs": "tech53-pending-company commander 2026-10-19 01:14 HKT"
   },
   "brief": {
-    "asOfHKT": "2026-10-19 01:14 HKT",
+    "asOfHKT": "2026-10-19 01:21 HKT",
     "sections": [
       {
         "id": "gate",
@@ -212,17 +226,17 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **558** → techPass **53**（Grok 重鎖｜tip `3eb34e0`）→ 公司／領導／進場 **…**（舊 56／27／27 暫留 stale）｜**downstreamStale true**｜等 @Jrok ③ 跟 **53** 再刷⑤"
+        "value": "池 **558** → techPass **53**（`3eb34e0`）→ 公司 **53**／領導 **26**（`ac88bbd`）→ 進場 **26**（可考慮 24／觀望 2）｜**downstreamStale false**"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "進場 NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 26／META 1｜VCP 25／bull_flag 2｜（舊鎖，待 Grok／Arok 重刷）"
+        "value": "進場 SONY · NUE · ADSK · DIS · MDLZ · MO · RELX · SAP｜Pullback 22／META 2｜VCP 24／bull_flag 2"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "②已定案 **53**（tip `3eb34e0`）｜③～⑤ stale｜等 @Jrok 跟 **53**｜?v=tech53"
+        "value": "管道已解鎖 **558→53→26→26**｜Jrok `ac88bbd`＋Arok ⑤｜?v=entry26-1019"
       }
     ]
   }
