@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T09:12:01.042Z",
+  "generatedAt": "2026-10-18T16:57:33.703Z",
   "asOf": "2026-10-16",
   "bot": "Arok",
   "role": "進場策略",
@@ -7,22 +7,22 @@
   "upstream": {
     "techPassed": 56,
     "company": 56,
-    "leaders": 28,
+    "leaders": 27,
     "techGeneratedAt": "2026-10-16T15:12:30.661887Z",
-    "companyGeneratedAt": "2026-10-18T17:11:08.963227+08:00"
+    "companyGeneratedAt": "2026-10-18T16:54:50.246024Z"
   },
-  "count": 28,
-  "actionableCount": 28,
+  "count": 27,
+  "actionableCount": 27,
   "watchCount": 0,
   "patternMix": {
-    "VCP": 26,
+    "VCP": 25,
     "bull_flag": 2
   },
   "methodMix": {
-    "Pullback": 27,
+    "Pullback": 26,
     "META": 1
   },
-  "summaryTw": "【進場｜Arok】techPass 56 → 公司 56 → 領導股閘 28 → 計劃 28｜可考慮 28｜觀望 0\n方法：Pullback 27、META 1｜形態：VCP 26、bull_flag 2\n止損上限 6%；只跟 techPass＋領導股；表格欄 entry／stop／risk／策略／領導股。\n前排：NUE Pullback $262.51→$246.76 · SONY Pullback $25.02→$23.52 · XOM Pullback $176.18→$165.61 · ADSK Pullback $241.83→$227.32 · DIS Pullback $112.31→$105.57 · ECL Pullback $291.33→$273.85 · IBN Pullback $30.15→$28.34 · MDLZ Pullback $64.21→$60.36",
+  "summaryTw": "【進場｜Arok】techPass 56 → 公司 56 → 領導股閘 27 → 計劃 27｜可考慮 27｜觀望 0\n方法：Pullback 26、META 1｜形態：VCP 25、bull_flag 2\n止損上限 6%；只跟 techPass＋領導股；表格欄 entry／stop／risk／策略／領導股。\n前排：NUE Pullback $262.51→$246.76 · SONY Pullback $25.02→$23.52 · XOM Pullback $176.18→$165.61 · ADSK Pullback $241.83→$227.32 · DIS Pullback $112.31→$105.57 · ECL Pullback $291.33→$273.85 · IBN Pullback $30.15→$28.34 · MDLZ Pullback $64.21→$60.36",
   "reports": [
     {
       "ticker": "NUE",
@@ -63,7 +63,7 @@
       "detailTw": "NUE 進場策略（Arok）\n領導股：是（score 9）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $262.51／止損 $246.76（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.072Z",
+          "t": "2026-10-18T16:57:33.723Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -81,7 +81,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.072Z",
+          "t": "2026-10-18T16:57:33.723Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -92,7 +92,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.072Z",
+          "t": "2026-10-18T16:57:33.723Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -144,7 +144,7 @@
       "detailTw": "SONY 進場策略（Arok）\n領導股：是（score 9）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $25.02／止損 $23.52（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.066Z",
+          "t": "2026-10-18T16:57:33.717Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -162,7 +162,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.066Z",
+          "t": "2026-10-18T16:57:33.717Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -173,7 +173,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.066Z",
+          "t": "2026-10-18T16:57:33.717Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -225,7 +225,7 @@
       "detailTw": "XOM 進場策略（Arok）\n領導股：是（score 9）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $176.18／止損 $165.61（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.070Z",
+          "t": "2026-10-18T16:57:33.720Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -243,7 +243,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.070Z",
+          "t": "2026-10-18T16:57:33.720Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -254,7 +254,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.070Z",
+          "t": "2026-10-18T16:57:33.720Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -306,7 +306,7 @@
       "detailTw": "ADSK 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $241.83／止損 $227.32（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.073Z",
+          "t": "2026-10-18T16:57:33.724Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -324,7 +324,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.073Z",
+          "t": "2026-10-18T16:57:33.724Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -335,7 +335,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.073Z",
+          "t": "2026-10-18T16:57:33.724Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -387,7 +387,7 @@
       "detailTw": "DIS 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $112.31／止損 $105.57（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.063Z",
+          "t": "2026-10-18T16:57:33.714Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -405,7 +405,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.063Z",
+          "t": "2026-10-18T16:57:33.714Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -416,7 +416,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.063Z",
+          "t": "2026-10-18T16:57:33.715Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -468,7 +468,7 @@
       "detailTw": "ECL 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $291.33／止損 $273.85（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.071Z",
+          "t": "2026-10-18T16:57:33.721Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -485,7 +485,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.071Z",
+          "t": "2026-10-18T16:57:33.721Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -496,7 +496,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.071Z",
+          "t": "2026-10-18T16:57:33.721Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -548,7 +548,7 @@
       "detailTw": "IBN 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $30.15／止損 $28.34（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.071Z",
+          "t": "2026-10-18T16:57:33.722Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -565,7 +565,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.071Z",
+          "t": "2026-10-18T16:57:33.722Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -576,7 +576,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.071Z",
+          "t": "2026-10-18T16:57:33.722Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -628,7 +628,7 @@
       "detailTw": "MDLZ 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $64.21／止損 $60.36（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.075Z",
+          "t": "2026-10-18T16:57:33.725Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -645,7 +645,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.075Z",
+          "t": "2026-10-18T16:57:33.725Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -656,7 +656,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.075Z",
+          "t": "2026-10-18T16:57:33.725Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -708,7 +708,7 @@
       "detailTw": "MO 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $74.65／止損 $70.17（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.061Z",
+          "t": "2026-10-18T16:57:33.710Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -725,7 +725,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.061Z",
+          "t": "2026-10-18T16:57:33.710Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -736,7 +736,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.061Z",
+          "t": "2026-10-18T16:57:33.710Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -788,7 +788,7 @@
       "detailTw": "RCL 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $285.78／止損 $271.87（風險 4.87%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.068Z",
+          "t": "2026-10-18T16:57:33.718Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -805,7 +805,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.068Z",
+          "t": "2026-10-18T16:57:33.718Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -816,7 +816,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.068Z",
+          "t": "2026-10-18T16:57:33.718Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -868,7 +868,7 @@
       "detailTw": "RELX 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $38.97／止損 $36.63（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.062Z",
+          "t": "2026-10-18T16:57:33.712Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -884,7 +884,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.062Z",
+          "t": "2026-10-18T16:57:33.712Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -895,7 +895,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.062Z",
+          "t": "2026-10-18T16:57:33.712Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -947,7 +947,7 @@
       "detailTw": "SAP 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $224.28／止損 $210.82（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.065Z",
+          "t": "2026-10-18T16:57:33.716Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -964,7 +964,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.065Z",
+          "t": "2026-10-18T16:57:33.716Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -975,7 +975,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.065Z",
+          "t": "2026-10-18T16:57:33.716Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1027,7 +1027,7 @@
       "detailTw": "TD 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $121.25／止損 $114.33（風險 5.71%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.073Z",
+          "t": "2026-10-18T16:57:33.724Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1044,7 +1044,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.073Z",
+          "t": "2026-10-18T16:57:33.724Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1055,7 +1055,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.073Z",
+          "t": "2026-10-18T16:57:33.724Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1107,7 +1107,7 @@
       "detailTw": "BNS 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $92.06／止損 $86.54（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.076Z",
+          "t": "2026-10-18T16:57:33.726Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1125,7 +1125,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.076Z",
+          "t": "2026-10-18T16:57:33.726Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1136,7 +1136,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.076Z",
+          "t": "2026-10-18T16:57:33.726Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1188,7 +1188,7 @@
       "detailTw": "HALO 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $121.06／止損 $113.8（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.062Z",
+          "t": "2026-10-18T16:57:33.711Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1206,7 +1206,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.062Z",
+          "t": "2026-10-18T16:57:33.711Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1217,7 +1217,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.062Z",
+          "t": "2026-10-18T16:57:33.711Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1269,7 +1269,7 @@
       "detailTw": "NTRA 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $391.06／止損 $367.6（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.077Z",
+          "t": "2026-10-18T16:57:33.727Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1287,7 +1287,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.077Z",
+          "t": "2026-10-18T16:57:33.727Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1298,7 +1298,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.077Z",
+          "t": "2026-10-18T16:57:33.727Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1350,7 +1350,7 @@
       "detailTw": "RMD 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $240.19／止損 $225.78（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.067Z",
+          "t": "2026-10-18T16:57:33.717Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1368,7 +1368,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.067Z",
+          "t": "2026-10-18T16:57:33.717Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1379,7 +1379,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.067Z",
+          "t": "2026-10-18T16:57:33.717Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1431,7 +1431,7 @@
       "detailTw": "AEO 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $18.21／止損 $17.12（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.072Z",
+          "t": "2026-10-18T16:57:33.722Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1449,7 +1449,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.072Z",
+          "t": "2026-10-18T16:57:33.722Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1460,7 +1460,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.072Z",
+          "t": "2026-10-18T16:57:33.722Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1512,7 +1512,7 @@
       "detailTw": "AWK 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $134.24／止損 $126.34（風險 5.88%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.079Z",
+          "t": "2026-10-18T16:57:33.728Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1530,7 +1530,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.079Z",
+          "t": "2026-10-18T16:57:33.728Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1541,7 +1541,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.079Z",
+          "t": "2026-10-18T16:57:33.728Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1593,7 +1593,7 @@
       "detailTw": "BBWI 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $20.59／止損 $19.35（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.064Z",
+          "t": "2026-10-18T16:57:33.716Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1610,7 +1610,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.064Z",
+          "t": "2026-10-18T16:57:33.716Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1621,7 +1621,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.064Z",
+          "t": "2026-10-18T16:57:33.716Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1673,7 +1673,7 @@
       "detailTw": "CBOE 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $310.22／止損 $291.61（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.072Z",
+          "t": "2026-10-18T16:57:33.723Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1690,7 +1690,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.072Z",
+          "t": "2026-10-18T16:57:33.723Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1701,93 +1701,12 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.072Z",
+          "t": "2026-10-18T16:57:33.723Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
           "detail": {
             "ticker": "CBOE",
-            "action": "可考慮進場",
-            "best": "Pullback",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "CNK",
-      "name": "Cinemark Holdings, Inc.",
-      "theme": "Software service",
-      "etf": "XLC",
-      "asOf": "2026-10-16",
-      "leadership": {
-        "isLeader": true,
-        "score": 5
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "Pullback",
-      "tradeStyle": "Position trade",
-      "entry": 39.68,
-      "stop": 37.3,
-      "riskPct": 6,
-      "levels": {
-        "entry": 39.68,
-        "stop": 37.3,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 39.75
-      },
-      "why": [
-        "領導股 + Pullback 達標",
-        "VCP：樞紐附近 META／Pullback"
-      ],
-      "pattern": "VCP",
-      "pivot": 39.75,
-      "price": 39.68,
-      "setupStale": false,
-      "chartPath": "data/charts/CNK_scan_VCP.svg",
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $39.68→$37.3 (6%) · VCP · Cinemark Holdings, Inc.",
-      "detailTw": "CNK 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $39.68／止損 $37.3（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-10-18T09:12:01.055Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 54%",
-              "回踩縮量",
-              "回踩落入 zone $35.1–$39.75",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 2,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-10-18T09:12:01.055Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "Pullback",
-            "blockLong": false,
-            "note": "VCP：樞紐附近 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-10-18T09:12:01.056Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "CNK",
             "action": "可考慮進場",
             "best": "Pullback",
             "leader": true
@@ -1834,7 +1753,7 @@
       "detailTw": "DG 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $135.17／止損 $127.06（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.064Z",
+          "t": "2026-10-18T16:57:33.715Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1852,7 +1771,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.064Z",
+          "t": "2026-10-18T16:57:33.715Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1863,7 +1782,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.064Z",
+          "t": "2026-10-18T16:57:33.715Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1915,7 +1834,7 @@
       "detailTw": "HONA 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $168.01／止損 $157.93（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.068Z",
+          "t": "2026-10-18T16:57:33.719Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1933,7 +1852,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.068Z",
+          "t": "2026-10-18T16:57:33.719Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1944,7 +1863,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.068Z",
+          "t": "2026-10-18T16:57:33.719Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1996,7 +1915,7 @@
       "detailTw": "IQV 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $269.84／止損 $253.65（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.074Z",
+          "t": "2026-10-18T16:57:33.725Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -2014,7 +1933,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.074Z",
+          "t": "2026-10-18T16:57:33.725Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -2025,7 +1944,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.074Z",
+          "t": "2026-10-18T16:57:33.725Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -2077,7 +1996,7 @@
       "detailTw": "KDP 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $34.45／止損 $32.38（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.058Z",
+          "t": "2026-10-18T16:57:33.707Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -2095,7 +2014,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.058Z",
+          "t": "2026-10-18T16:57:33.707Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -2106,7 +2025,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.058Z",
+          "t": "2026-10-18T16:57:33.707Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -2158,7 +2077,7 @@
       "detailTw": "NWSA 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $30.32／止損 $28.5（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.077Z",
+          "t": "2026-10-18T16:57:33.726Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -2176,7 +2095,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.077Z",
+          "t": "2026-10-18T16:57:33.726Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -2187,7 +2106,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.077Z",
+          "t": "2026-10-18T16:57:33.726Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -2239,7 +2158,7 @@
       "detailTw": "VIV 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $12.36／止損 $11.62（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-10-18T09:12:01.078Z",
+          "t": "2026-10-18T16:57:33.727Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -2257,7 +2176,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.078Z",
+          "t": "2026-10-18T16:57:33.727Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -2268,7 +2187,7 @@
           }
         },
         {
-          "t": "2026-10-18T09:12:01.078Z",
+          "t": "2026-10-18T16:57:33.727Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -2284,15 +2203,15 @@
   ],
   "thinkingLog": [
     {
-      "t": "2026-10-18T09:12:01.042Z",
+      "t": "2026-10-18T16:57:33.703Z",
       "bot": "Arok",
       "role": "進場策略",
       "step": "batch:done",
       "detail": {
         "techPassed": 56,
-        "leadersIntersect": 28,
-        "plans": 28,
-        "actionable": 28,
+        "leadersIntersect": 27,
+        "plans": 27,
+        "actionable": 27,
         "watch": 0,
         "asOf": "2026-10-16"
       }

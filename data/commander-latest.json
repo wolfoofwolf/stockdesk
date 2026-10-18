@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-18T09:12:44.000Z",
+  "generatedAt": "2026-10-18T16:58:29.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-18 17:12 HKT",
+  "asOfHKT": "2026-10-19 00:58 HKT",
   "pipeline": {
     "candidates": 613,
     "techPassed": 56,
     "company": 56,
-    "leaders": 28,
-    "entry": 28,
-    "entryConsider": 28,
+    "leaders": 27,
+    "entry": 27,
+    "entryConsider": 27,
     "entryWatch": 0,
     "downstreamStale": false,
-    "anchor": "Align Jrok company geo/BM rewrite d6fc4b9 (待補 0) + Arok entry re-fire 28 (asOf 10-16); pipeline 613→56→28→28"
+    "anchor": "Jrok company refresh 7c39d3d leaders 28→27 (CNK out) + Arok entry align 27; pipeline 613→56→27→27"
   },
-  "summaryTw": "【總司令｜2026-10-18 17:12 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%（沿用 10-16 RTH；未刷新報價）\n管道｜**613→56→28→28**｜downstreamStale **false**\n進場前排｜NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 27／META 1｜VCP 26／bull_flag 2\n③｜Jrok 地理／業務模式重寫齊｜待補 **0**｜tip `d6fc4b9`｜companyGeneratedAt 17:11 HKT\n⑤｜Arok 重刷對齊③｜ticker／方法／形態 **無變**\nFedWatch｜hold 85.1%｜Warsh 已畢／blackout 至 10/28\n結論｜③重寫齊＋⑤對齊；Pages tip company d6fc4b9 + 本進場推\nhttps://wolfoofwolf.github.io/stockdesk/?v=coEntry1018",
+  "summaryTw": "【總司令｜2026-10-19 00:58 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%（沿用 10-16 RTH；未刷新報價）\n管道｜**613→56→27→27**｜downstreamStale **false**\n進場前排｜NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 26／META 1｜VCP 25／bull_flag 2\n③｜Jrok 公司刷新 `7c39d3d`｜領導股 **28→27**（CNK 退出）｜companyGeneratedAt 00:54 HKT\n⑤｜Arok 對齊領導股閘｜進場 **27**（可考慮 27／觀望 0）\nFedWatch｜hold 85.1%｜Warsh 已畢／blackout 至 10/28\n結論｜③領導股−1＋⑤對齊；Pages tip ?v=entry27-1018\nhttps://wolfoofwolf.github.io/stockdesk/?v=entry27-1018",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=coEntry1018"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=entry27-1018"
   },
   "thinkingLog": [
     {
@@ -62,6 +62,13 @@
       "role": "Pages",
       "step": "co-entry-align",
       "detail": "Jrok ③ geo/BM rewrite d6fc4b9 (待補 0) + Arok ⑤ re-fire aligned; pipeline 613→56→28→28; ?v=coEntry1018"
+    },
+    {
+      "t": "2026-10-19 00:58 HKT",
+      "bot": "Trok",
+      "role": "Pages",
+      "step": "entry27-align",
+      "detail": "Jrok 7c39d3d leaders 28→27 CNK removed; Arok entry aligned 27; pipeline 613→56→27→27; ?v=entry27-1018"
     }
   ],
   "premarketGate": {
@@ -162,11 +169,11 @@
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "vs eveEntry1016: Jrok ③ geo/BM deep rewrite complete (待補 258→0; tip d6fc4b9; companyGeneratedAt 2026-10-18T17:11:08+08:00); Arok ⑤ re-fire aligned (count 28/actionable 28/watch 0; ticker/method/pattern unchanged: Pullback 27/META 1, VCP 26/bull_flag 2; front NUE·SONY·XOM·ADSK·DIS·ECL·IBN·MDLZ). Gate/FedWatch/quotes held from 10-16 (no invent). Pipeline stays 613→56→28→28 downstreamStale false.",
-    "vs": "eve entry unlock commander 2026-10-16 23:21 HKT"
+    "why": "vs coEntry1018: Jrok company refresh tip 7c39d3d — leaders 28→27 (CNK leaderRemoved); Arok entry re-aligned count 27/actionable 27/watch 0 (Pullback 26/META 1; VCP 25/bull_flag 2; front NUE·SONY·XOM·ADSK·DIS·ECL·IBN·MDLZ; CNK absent). Gate/FedWatch/quotes held from 10-16 (no invent). Pipeline 613→56→27→27 downstreamStale false.",
+    "vs": "co-entry-align commander 2026-10-18 17:12 HKT"
   },
   "brief": {
-    "asOfHKT": "2026-10-18 17:12 HKT",
+    "asOfHKT": "2026-10-19 00:58 HKT",
     "sections": [
       {
         "id": "gate",
@@ -191,17 +198,17 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **613** → techPass **56** → 公司 **56**／領導股 **28**／進場 **28**（可考慮 28／觀望 0）｜**downstreamStale false**｜③ tip `d6fc4b9`（待補 0）＋⑤ 對齊"
+        "value": "池 **613** → techPass **56** → 公司 **56**／領導股 **27**／進場 **27**（可考慮 27／觀望 0）｜**downstreamStale false**｜③ tip `7c39d3d`（領導股 28→27 CNK 出）＋⑤ 對齊"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "進場 NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 27／META 1｜VCP 26／bull_flag 2｜⑤ ticker／方法無變（只跟新 companyGeneratedAt）"
+        "value": "進場 NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 26／META 1｜VCP 25／bull_flag 2｜CNK 已退出領導／進場"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "③重寫齊＋⑤對齊；Pages tip company `d6fc4b9` + 本進場推｜管道 **613→56→28→28**｜downstreamStale **false**"
+        "value": "③領導股−1（CNK）＋⑤對齊；Pages tip ?v=entry27-1018｜管道 **613→56→27→27**｜downstreamStale **false**"
       }
     ]
   }
