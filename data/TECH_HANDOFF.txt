@@ -1,9 +1,12 @@
 Grok techPass
 path: /workspace/stockdesk/data/tech-scan-latest.json
 live: https://wolfoofwolf.github.io/stockdesk/data/tech-scan-latest.json
-candidateCount: 529 | techPassedCount: 80 | failedFetches: ['SOX']
-generatedAt: 2026-10-15T15:06:18.429717Z | asOfMarket: 2026-10-15
-lock: evening 2026-10-15 rescan on Frok 529 techPass 80 (was cash-open 71 / pool 442).
-top3 techPass: RELX/SAP/HALO
-delta vs 71: +17 / −8 / kept 63
-handoffSyncedAt: 2026-10-15 23:06 HKT
+candidateCount: 558 | techPassedCount: 53 | failedFetches: ['SOX']
+generatedAt: 2026-10-18T17:13:21.510712Z | asOfMarket: 2026-10-16
+lock: 2026-10-19 ~01:13 HKT rescan on Frok 558 (screener asOf 2026-10-18T17:02:56.303Z); replaced old 613→56.
+top3 techPass (proximity): VTRS · AVTR · HALO
+delta vs 56/613: +7 / −10 / kept 46
+ins: BZ CCL CHKP FANG GMAB SM UGP
+outs: DXCM HSIC IOVA KBR KDP KR OSCR PPLI UNM XOM
+pattern techPass: VCP 47 / bull_flag 5 / cup_with_handle 1
+handoffSyncedAt: 2026-10-19 01:13 HKT
