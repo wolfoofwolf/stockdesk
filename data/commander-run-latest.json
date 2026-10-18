@@ -1,22 +1,45 @@
 {
-  "generatedAt": "2026-10-18T17:03:00.000Z",
+  "generatedAt": "2026-10-18T17:14:00.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOf": "2026-10-19 01:03 HKT",
-  "asOfHKT": "2026-10-19 01:03 HKT",
+  "asOf": "2026-10-18T17:14:00.000Z",
+  "asOfHKT": "2026-10-19 01:14 HKT",
   "pipeline": {
     "candidates": 558,
-    "techPassed": 56,
+    "techPassed": 53,
     "company": 56,
     "leaders": 27,
     "entry": 27,
     "entryConsider": 27,
     "entryWatch": 0,
     "downstreamStale": true,
-    "anchor": "Frok rescreen 613→558 (asOf ~10-18/19 yahoo); waiting Grok techPass on 558; retire 613→56→27→27 lock; company/leaders/entry 56/27/27 held stale"
+    "anchor": "Grok techPass relock 56→53 on pool 558 (asOfMarket 10-16; tip 3eb34e0); company/leaders/entry 56/27/27 held stale — waiting @Jrok ③ on 53 then @Arok/@Trok ⑤"
   },
-  "summaryTw": "【總司令｜2026-10-19 01:03 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%（沿用 10-16 RTH；未刷新報價）\n管道｜**558→56→27→27**｜downstreamStale **true**（等 Grok 對 558 重鎖 techPass）\n篩選｜Frok 池 **613→558**（Δ−55／−9.0%）｜宇宙 1167｜主題前：雜項 213／能源 96／醫療 74／Hardware 65／金融 49／Software 33／化學 20／半導 4｜asOf ~10-18｜priceSource yahoo-yfinance-2026-10-19\n進場前排｜NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 26／META 1｜VCP 25／bull_flag 2（舊鎖，stale）\nFedWatch｜hold 85.1%｜Warsh 已畢／blackout 至 10/28（沿用）\n結論｜①新池已上 Pages；②～⑤ 舊 56／27／27 標 stale，等 @Grok 重刷 techPass；tip ?v=scr558\nhttps://wolfoofwolf.github.io/stockdesk/?v=scr558",
+  "summaryTw": "【總司令｜2026-10-19 01:14 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%（沿用 10-16 RTH；未刷新報價）\n管道｜**558→53→…**｜downstreamStale **true**（等 @Jrok ③ 跟 53 → 再刷⑤）\n②｜Grok 重鎖 **56→53**（Δ **+7／−10／kept 46**｜asOfMarket **10-16**）｜VCP **47**／bull_flag **5**／cup **1**｜Top VTRS·AVTR·HALO｜in BZ／CCL／CHKP／FANG／GMAB／SM／UGP｜out DXCM／OSCR／UNM／XOM／KDP／KR／IOVA／KBR／HSIC／PPLI｜tip tech `3eb34e0`\n篩選｜Frok 池 **558**｜宇宙 1167｜主題前：雜項 213／能源 96／醫療 74／Hardware 65／金融 49｜asOf ~10-18\n進場前排｜NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 26／META 1｜VCP 25／bull_flag 2（舊鎖，stale）\nFedWatch｜hold 85.1%｜Warsh 已畢／blackout 至 10/28（沿用）\n結論｜②已定案 **53**；③～⑤ 標 stale，等 @公司分析Jrok 跟 **53**；Pages tip ?v=tech53\nhttps://wolfoofwolf.github.io/stockdesk/?v=tech53",
   "catalysts": [
+    {
+      "id": "grok-tech53-2026-10-19",
+      "date": "2026-10-19",
+      "title": "② techPass 重鎖：56→53（池 558；Δ +7/−10／kept 46）；下游 stale 等 Jrok",
+      "tickers": [
+        "VTRS",
+        "AVTR",
+        "HALO",
+        "BZ",
+        "CCL",
+        "CHKP",
+        "FANG",
+        "GMAB",
+        "SM",
+        "UGP"
+      ],
+      "themes": [
+        "techPass",
+        "管道"
+      ],
+      "score": 9,
+      "note": "Grok tip 3eb34e0｜asOfMarket 10-16｜VCP 47／bull_flag 5／cup 1｜out DXCM/OSCR/UNM/XOM/KDP…｜company/entry held stale"
+    },
     {
       "id": "frok-scr558-2026-10-19",
       "date": "2026-10-19",
@@ -178,25 +201,6 @@
       ],
       "score": 9,
       "note": "FedWatch hold 主導；同日 Mag7 有 MSFT／GOOGL。blackout 已啟動至會期。"
-    },
-    {
-      "id": "mag7-earnings-window",
-      "date": "2026-10-21",
-      "title": "Mag7 業績窗：TSLA+META→MSFT/GOOGL→AMZN→AAPL",
-      "tickers": [
-        "TSLA",
-        "META",
-        "MSFT",
-        "GOOGL",
-        "AMZN",
-        "AAPL"
-      ],
-      "themes": [
-        "大市",
-        "AI"
-      ],
-      "score": 7,
-      "note": "TSLA＋META 10/21 → MSFT／GOOGL 10/28 → AMZN 10/29 → AAPL ~11/2。"
     }
   ],
   "premarketGate": {
@@ -251,100 +255,66 @@
     "note": "Asia closed: Nikkei +1.39% / KOSPI +2.05% / HSI +0.52%; DXY ~101.656 (−0.39%); US RTH open with QQQ dump"
   },
   "inputs": {
-    "screenerAsOf": "2026-10-16T15:00:00.000Z",
-    "screenerCandidates": 613,
-    "techAsOf": "2026-10-16T15:12:00.000Z",
+    "screenerAsOf": "2026-10-18T17:02:56.303Z",
+    "screenerCandidates": 558,
+    "techAsOf": "2026-10-18T17:13:21.510712Z",
     "techAsOfMarket": "2026-10-16",
-    "techPassedCount": 56,
+    "techPassedCount": 53,
+    "techTip": "3eb34e0",
     "macroAsOf": "2026-10-16T14:55:27.000Z",
     "companyAsOf": "2026-10-18T17:11:08.963227+08:00",
-    "companyLeaders": 28,
+    "companyLeaders": 27,
     "entryAsOf": "2026-10-18T09:12:01.042Z",
     "entryUpstreamTechPassed": 56,
-    "entryUpstreamLeaders": 28,
-    "entryActionable": 28,
+    "entryUpstreamLeaders": 27,
+    "entryActionable": 27,
     "entryWatch": 0,
-    "note": "Align: pool 613 techPass 56 + company 56/leaders 28 (Jrok d6fc4b9 待補 0) + entry 28 (Arok re-fire; asOf market 10-16); pipeline 613→56→28→28"
+    "note": "Align: pool 558 techPass 53 (Grok 3eb34e0) + company/leaders/entry held 56/27/27 stale pending Jrok on 53"
   },
   "materialChange": {
     "yes": true,
-    "why": "vs entry27-1018: Frok ① rescreen pool 613→558 (−55/−9%; universe 1167; themes 雜項213/能源96/醫療74/Hardware65/金融49/Software33/化學20/半導4; asOf 2026-10-18T17:02:56Z). techPass/company/leaders/entry numbers held 56/27/27 but downstreamStale TRUE — waiting Grok rescreen on 558; retire 613→56→27→27 lock. Gate/FedWatch/quotes held from 10-16 (no invent).",
-    "vs": "entry27-align commander 2026-10-19 00:58 HKT"
+    "why": "vs scr558 commander 01:03 HKT: Grok ② relock techPass 56→53 on Frok pool 558 (Δ +7/−10/kept 46; VCP 47／bull_flag 5／cup 1; tip 3eb34e0; asOfMarket 10-16). Pipeline now 558→53→… with company/leaders/entry 56/27/27 held stale waiting Jrok ③ on 53 then entry. Gate/FedWatch/quotes held from 10-16 (no invent).",
+    "vs": "scr558-pending-tech commander 2026-10-19 01:03 HKT"
   },
-  "note": "Company+entry align 2026-10-18 17:12 HKT: Jrok ③ geo/BM rewrite tip d6fc4b9 (待補 0) + Arok ⑤ re-fire 28 (ticker/method mix unchanged); pipeline 613→56→28→28 downstreamStale false; Pages https://wolfoofwolf.github.io/stockdesk/?v=coEntry1018",
+  "note": "Commander align 2026-10-19 01:14 HKT: Grok ② tip 3eb34e0 techPass 56→53 on pool 558; pipeline 558→53→… downstreamStale true; company/leaders/entry 56/27/27 held pending Jrok ③; Pages https://wolfoofwolf.github.io/stockdesk/?v=tech53",
   "techTurnover": {
-    "vs": "prior Grok techPass 80 (asOfMarket 2026-10-15; pool 529 evening→557 afternoon hold)",
-    "from": 80,
-    "to": 51,
+    "vs": "prior Grok techPass 56 (asOfMarket 2026-10-16; pool 613)",
+    "from": 56,
+    "to": 53,
     "added": [
-      "FAST",
-      "GME",
-      "HONA",
-      "KBR",
-      "MO",
-      "NTRA",
-      "NUE",
-      "OCTV",
-      "OTIS",
-      "RNG",
-      "STZ"
+      "BZ",
+      "CCL",
+      "CHKP",
+      "FANG",
+      "GMAB",
+      "SM",
+      "UGP"
     ],
     "removed": [
-      "ACN",
-      "ADP",
-      "ADSK",
-      "AWK",
-      "AXTA",
-      "BURL",
-      "CAI",
-      "CBZ",
-      "CCC",
-      "CCL",
-      "CDW",
-      "CI",
-      "CLMT",
-      "COLD",
-      "DOCU",
-      "DT",
-      "ELF",
-      "EOG",
-      "FIGS",
-      "GGB",
-      "HCA",
-      "HTFL",
-      "HUM",
-      "ITUB",
+      "DXCM",
+      "OSCR",
+      "UNM",
+      "XOM",
       "KDP",
-      "NWSA",
-      "ONON",
-      "PAGS",
-      "PBF",
-      "PBR",
-      "PSX",
-      "PTC",
-      "REXR",
-      "SHOP",
-      "SSNC",
-      "SU",
-      "TMO",
-      "URBN",
-      "WAY",
-      "WING"
+      "KR",
+      "IOVA",
+      "KBR",
+      "HSIC",
+      "PPLI"
     ],
-    "kept": 40,
-    "insCount": 11,
-    "outsCount": 40,
-    "techPassDelta": -29,
-    "patternMixPass": {
+    "kept": 46,
+    "patternCountsPassed": {
       "VCP": 47,
-      "bull_flag": 4
+      "bull_flag": 5,
+      "cup": 1
     },
-    "top3": [
-      "HALO",
-      "DIS",
-      "MUR"
+    "top": [
+      "VTRS",
+      "AVTR",
+      "HALO"
     ],
-    "note": "Exact set from logs/tech-scan-cashopen-557-2142-20261016-compare.json (80→51; +11/−40/kept 40; VCP 47／bull_flag 4)."
+    "asOfMarket": "2026-10-16",
+    "tip": "3eb34e0"
   },
   "thinkingLog": [
     {
@@ -498,10 +468,17 @@
       "role": "Pages",
       "step": "scr558-stale",
       "detail": "Frok screener 613→558 pushed; commander candidates 558; tech/company/leaders/entry held 56/27/27 with downstreamStale true pending Grok; ?v=scr558"
+    },
+    {
+      "t": "2026-10-19 01:14 HKT",
+      "bot": "Trok",
+      "role": "總司令",
+      "step": "commander-align-tech53",
+      "detail": "Grok tip 3eb34e0: pool 558 techPass 53; pipeline 558→53→… downstreamStale true; waiting Jrok ③; ?v=tech53"
     }
   ],
   "brief": {
-    "asOfHKT": "2026-10-19 01:03 HKT",
+    "asOfHKT": "2026-10-19 01:14 HKT",
     "sections": [
       {
         "id": "gate",
@@ -526,7 +503,7 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **558**（①新）→ techPass **56**（舊鎖 stale）→ 公司 **56**／領導股 **27**／進場 **27**｜**downstreamStale true**｜等 @Grok 對 558 重鎖 techPass；退 613→56→27→27"
+        "value": "池 **558** → techPass **53**（Grok 重鎖｜tip `3eb34e0`）→ 公司／領導／進場 **…**（舊 56／27／27 暫留 stale）｜**downstreamStale true**｜等 @Jrok ③ 跟 **53** 再刷⑤"
       },
       {
         "id": "top",
@@ -536,7 +513,7 @@
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "①池 **613→558**（−55）已上 Pages；②～⑤ 標 stale；Pages tip ?v=scr558｜管道 **558→56→27→27**｜downstreamStale **true**"
+        "value": "②已定案 **53**（tip `3eb34e0`）｜③～⑤ stale｜等 @Jrok 跟 **53**｜?v=tech53"
       }
     ]
   },
@@ -608,7 +585,7 @@
     }
   },
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=scr558"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=tech53"
   },
   "material": true
 }

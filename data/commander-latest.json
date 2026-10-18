@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-18T17:03:00.000Z",
+  "generatedAt": "2026-10-18T17:14:00.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-19 01:03 HKT",
+  "asOfHKT": "2026-10-19 01:14 HKT",
   "pipeline": {
     "candidates": 558,
-    "techPassed": 56,
+    "techPassed": 53,
     "company": 56,
     "leaders": 27,
     "entry": 27,
     "entryConsider": 27,
     "entryWatch": 0,
     "downstreamStale": true,
-    "anchor": "Frok rescreen 613→558 (asOf ~10-18/19 yahoo); waiting Grok techPass on 558; retire 613→56→27→27 lock; company/leaders/entry 56/27/27 held stale"
+    "anchor": "Grok techPass relock 56→53 on pool 558 (asOfMarket 10-16; tip 3eb34e0); company/leaders/entry 56/27/27 held stale — waiting @Jrok ③ on 53 then @Arok/@Trok ⑤"
   },
-  "summaryTw": "【總司令｜2026-10-19 01:03 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%（沿用 10-16 RTH；未刷新報價）\n管道｜**558→56→27→27**｜downstreamStale **true**（等 Grok 對 558 重鎖 techPass）\n篩選｜Frok 池 **613→558**（Δ−55／−9.0%）｜宇宙 1167｜主題前：雜項 213／能源 96／醫療 74／Hardware 65／金融 49／Software 33／化學 20／半導 4｜asOf ~10-18｜priceSource yahoo-yfinance-2026-10-19\n進場前排｜NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 26／META 1｜VCP 25／bull_flag 2（舊鎖，stale）\nFedWatch｜hold 85.1%｜Warsh 已畢／blackout 至 10/28（沿用）\n結論｜①新池已上 Pages；②～⑤ 舊 56／27／27 標 stale，等 @Grok 重刷 techPass；tip ?v=scr558\nhttps://wolfoofwolf.github.io/stockdesk/?v=scr558",
+  "summaryTw": "【總司令｜2026-10-19 01:14 HKT】\n閘門｜觸發｜QQQ −0.93%／SPY −0.05%（沿用 10-16 RTH；未刷新報價）\n管道｜**558→53→…**｜downstreamStale **true**（等 @Jrok ③ 跟 53 → 再刷⑤）\n②｜Grok 重鎖 **56→53**（Δ **+7／−10／kept 46**｜asOfMarket **10-16**）｜VCP **47**／bull_flag **5**／cup **1**｜Top VTRS·AVTR·HALO｜in BZ／CCL／CHKP／FANG／GMAB／SM／UGP｜out DXCM／OSCR／UNM／XOM／KDP／KR／IOVA／KBR／HSIC／PPLI｜tip tech `3eb34e0`\n篩選｜Frok 池 **558**｜宇宙 1167｜主題前：雜項 213／能源 96／醫療 74／Hardware 65／金融 49｜asOf ~10-18\n進場前排｜NUE · SONY · XOM · ADSK · DIS · ECL · IBN · MDLZ｜Pullback 26／META 1｜VCP 25／bull_flag 2（舊鎖，stale）\nFedWatch｜hold 85.1%｜Warsh 已畢／blackout 至 10/28（沿用）\n結論｜②已定案 **53**；③～⑤ 標 stale，等 @公司分析Jrok 跟 **53**；Pages tip ?v=tech53\nhttps://wolfoofwolf.github.io/stockdesk/?v=tech53",
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=scr558"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=tech53"
   },
   "thinkingLog": [
     {
@@ -76,6 +76,13 @@
       "role": "Pages",
       "step": "scr558-stale",
       "detail": "Frok screener 613→558 pushed; commander candidates 558; tech/company/leaders/entry held 56/27/27 with downstreamStale true pending Grok; ?v=scr558"
+    },
+    {
+      "t": "2026-10-19 01:14 HKT",
+      "bot": "Trok",
+      "role": "總司令",
+      "step": "commander-align-tech53",
+      "detail": "Grok tip 3eb34e0: pool 558 techPass 53; pipeline 558→53→… downstreamStale true; waiting Jrok ③; ?v=tech53"
     }
   ],
   "premarketGate": {
@@ -176,11 +183,11 @@
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "vs entry27-1018: Frok ① rescreen pool 613→558 (−55/−9%; universe 1167; themes 雜項213/能源96/醫療74/Hardware65/金融49/Software33/化學20/半導4; asOf 2026-10-18T17:02:56Z). techPass/company/leaders/entry numbers held 56/27/27 but downstreamStale TRUE — waiting Grok rescreen on 558; retire 613→56→27→27 lock. Gate/FedWatch/quotes held from 10-16 (no invent).",
-    "vs": "entry27-align commander 2026-10-19 00:58 HKT"
+    "why": "vs scr558 commander 01:03 HKT: Grok ② relock techPass 56→53 on Frok pool 558 (Δ +7/−10/kept 46; VCP 47／bull_flag 5／cup 1; tip 3eb34e0; asOfMarket 10-16). Pipeline now 558→53→… with company/leaders/entry 56/27/27 held stale waiting Jrok ③ on 53 then entry. Gate/FedWatch/quotes held from 10-16 (no invent).",
+    "vs": "scr558-pending-tech commander 2026-10-19 01:03 HKT"
   },
   "brief": {
-    "asOfHKT": "2026-10-19 01:03 HKT",
+    "asOfHKT": "2026-10-19 01:14 HKT",
     "sections": [
       {
         "id": "gate",
@@ -205,7 +212,7 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **558**（①新）→ techPass **56**（舊鎖 stale）→ 公司 **56**／領導股 **27**／進場 **27**｜**downstreamStale true**｜等 @Grok 對 558 重鎖 techPass；退 613→56→27→27"
+        "value": "池 **558** → techPass **53**（Grok 重鎖｜tip `3eb34e0`）→ 公司／領導／進場 **…**（舊 56／27／27 暫留 stale）｜**downstreamStale true**｜等 @Jrok ③ 跟 **53** 再刷⑤"
       },
       {
         "id": "top",
@@ -215,7 +222,7 @@
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "①池 **613→558**（−55）已上 Pages；②～⑤ 標 stale；Pages tip ?v=scr558｜管道 **558→56→27→27**｜downstreamStale **true**"
+        "value": "②已定案 **53**（tip `3eb34e0`）｜③～⑤ stale｜等 @Jrok 跟 **53**｜?v=tech53"
       }
     ]
   }
