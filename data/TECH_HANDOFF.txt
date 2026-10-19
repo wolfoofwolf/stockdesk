@@ -1,13 +1,14 @@
 Grok techPass
 path: /workspace/stockdesk/data/tech-scan-latest.json
 live: https://wolfoofwolf.github.io/stockdesk/data/tech-scan-latest.json
-candidateCount: 558 | techPassedCount: 53 | failedFetches: ['SOX']
-generatedAt: 2026-10-18T17:13:21.510712Z | asOfMarket: 2026-10-16
-lock: 2026-10-19 ~01:13 HKT rescan on Frok 558 (screener asOf 2026-10-18T17:02:56.303Z); replaced old 613→56.
-top3 techPass (proximity): VTRS · AVTR · HALO
-delta vs 56/613: +7 / −10 / kept 46
-ins: BZ CCL CHKP FANG GMAB SM UGP
-outs: DXCM HSIC IOVA KBR KDP KR OSCR PPLI UNM XOM
-pattern techPass: VCP 47 / bull_flag 5 / cup_with_handle 1
-handoffSyncedAt: 2026-10-19 01:13 HKT
-pagesCommit: 3eb34e0 (3eb34e00e07a8e9a9d2f0634b2cd098d06c54e11)
+candidateCount: 531 | techPassedCount: 51 | failedFetches: ['SOX']
+generatedAt: 2026-10-19T14:39:27.245923Z | asOfMarket: 2026-10-19
+lock: 2026-10-19 22:40 HKT cash-open rescan on Frok 531 (screener asOf 2026-10-19T14:36:33.688Z); replaced stale 558→53 @10-16 after usage outage.
+top3 techPass (proximity): DG · KDP · MO
+delta vs 53/558: +10 / −12 / kept 41
+ins: AVPT DINO DXCM HCA IOVA KDP KR OSCR WAY XOM
+outs: AEO AWK BNS BZ CHKP FANG GMAB GME HALO NTRA STZ UGP
+pattern techPass: VCP 47 / bull_flag 4
+handoffSyncedAt: 2026-10-19 22:40 HKT
+pagesCommit: PENDING
+charts: SKIP_CHARTS=1 (JSON-only lock)
