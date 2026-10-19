@@ -896,8 +896,8 @@ def main():
         prev_r = prev_map.get(f["ticker"])
         if is_deep_keeper(prev_r):
             report = preserve_depth_into_report(prev_r, report)
-
-            report = scrub_daibu_literals(report)
+        # Scrub hollow 待補 for keepers AND fresh builds (formatters should already avoid it)
+        report = scrub_daibu_literals(report)
         reports.append(report)
         thinking.append(
             {
