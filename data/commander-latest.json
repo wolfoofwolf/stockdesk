@@ -1,84 +1,84 @@
 {
-  "generatedAt": "2026-10-19T14:41:58.000Z",
+  "generatedAt": "2026-10-19T14:47:28.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-19 22:41 HKT",
+  "asOfHKT": "2026-10-19 22:47 HKT",
   "pipeline": {
     "candidates": 531,
     "techPassed": 51,
-    "company": 53,
-    "leaders": 26,
+    "company": 51,
+    "leaders": 24,
     "entry": 26,
     "entryConsider": 24,
     "entryWatch": 2,
     "downstreamStale": true,
-    "anchor": "STALE 531→51→?→? pending Jrok company on 51 then Arok entry (Grok techPass tip c66ece8 asOfMarket 10-19; VCP 47/bull_flag 4). Old company/entry still 53/26 on 10-16 lock."
+    "anchor": "STALE 531→51→24→? pending Arok entry on 24 leaders (Jrok tip 40df075; Grok tech c66ece8; Frok scr e441905). Old entry still 26 on 10-16."
   },
-  "summaryTw": "【總司令｜2026-10-19 22:41 HKT】\n閘門｜**適用・未觸發**｜QQQ +1.38%／SPY +0.52%（Drok 22:36）\n管道｜**531→51→?→?**｜downstreamStale **true**｜等 Jrok③／Arok⑤\n②｜Grok techPass **51**（tip `c66ece8`｜asOfMarket **10-19**）｜VCP 47／bull_flag 4｜Top DG·KDP·MO\n③｜Jrok 仍舊 **53／26**（等跟 51）\n⑤｜Arok 仍舊 **26**（asOf 10-16｜進場頁暫勿動）\n篩選｜Frok 池 **531**（tip `e441905`｜Δ−27）\nFedWatch｜hold **80.5%**／+25 **19.5%**｜blackout→10/28｜META/TSLA 10/21\n結論｜②已鎖 10-19；③⑤ pending｜Pages ?v=tech51\nhttps://wolfoofwolf.github.io/stockdesk/?v=tech51",
+  "summaryTw": "【總司令｜2026-10-19 22:47 HKT】\n閘門｜**適用・未觸發**｜QQQ +1.38%／SPY +0.52%\n管道｜**531→51→24→?**｜downstreamStale **true**｜等 Arok⑤\n②｜Grok techPass **51**（`c66ece8`｜10-19）｜VCP 47／bull_flag 4\n③｜Jrok 公司 **51**／領導 **24**（`40df075`｜depth-preserve）｜前排 XOM·SONY·NUE·MO·RELX·SAP·DINO·TD\n⑤｜pending（舊 26｜進場頁暫勿動）\n篩選｜Frok **531**（`e441905`）\nFedWatch｜hold **80.5%**／+25 **19.5%**｜META/TSLA 10/21\n結論｜③已鎖；等 Arok 重砌⑤ → Trok 推進場｜?v=co24\nhttps://wolfoofwolf.github.io/stockdesk/?v=co24",
   "brief": {
-    "asOfHKT": "2026-10-19 22:41 HKT",
+    "asOfHKT": "2026-10-19 22:47 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "**適用・未觸發**｜QQQ +1.38%／SPY +0.52%｜VIX 17.69｜Drok 22:36"
+        "value": "**適用・未觸發**｜QQQ +1.38%／SPY +0.52%"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "10/28 hold **80.5%**／+25bp **19.5%**（Investing 解凍）｜SessionOpen 82／18｜blackout→10/28"
+        "value": "hold **80.5%**／+25 **19.5%**｜blackout→10/28"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "美股反彈｜QQQ +1.38%／SPY +0.52%／SMH +2.22%｜韓綜收 +1.76%／日經收 −0.62%｜港休市"
+        "value": "美股反彈｜韓綜收 +1.76%／日經收 −0.62%｜港休市"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "**blackout→10/28**｜**META/TSLA 10/21（D-2）**｜MSFT/GOOGL 10/28｜港 10/20 重開"
+        "value": "**META/TSLA 10/21**｜FOMC 10/28｜港 10/20 重開"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "池 **531** → techPass **51**（`c66ece8`）→ 公司／領導／進場 **pending**｜**downstreamStale true**"
+        "value": "**531→51→24→?**｜tech `c66ece8`／company `40df075`｜**stale** 等⑤"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "tech Top DG·KDP·MO｜Notable in AVPT·DINO·DXCM·XOM｜out FANG·HALO·UGP·GME"
+        "value": "領導前排 XOM·SONY·NUE·MO·RELX·SAP·DINO·TD｜＋DINO／HCA／KDP／OSCR／XOM"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "②現金重鎖完成；等 Jrok depth-preserve 跟 51 → Arok⑤ → Trok 推進場｜?v=tech51"
+        "value": "等 Arok⑤ 齊 → Trok 推進場頁｜?v=co24"
       }
     ]
   },
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=tech51"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=co24"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-19 08:54 HKT",
-      "bot": "Trok",
-      "msg": "morning HOLD 558→53→26→26"
-    },
-    {
       "t": "2026-10-19 22:36 HKT",
       "bot": "Trok",
-      "msg": "screener e441905 558→531"
+      "msg": "screener 531 e441905"
     },
     {
       "t": "2026-10-19 22:41 HKT",
       "bot": "Trok",
-      "msg": "align techPass 531→51 tip c66ece8 stale pending Jrok/Arok"
+      "msg": "techPass 51 e023059"
+    },
+    {
+      "t": "2026-10-19 22:47 HKT",
+      "bot": "Trok",
+      "msg": "company leaders 24 tip 40df075 stale pending Arok entry"
     }
   ],
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "Cash-open: Frok 558→531; Grok techPass 53→51 (asOfMarket 10-19 tip c66ece8); Drok gate active not fired QQQ +1.38%/SPY +0.52%; FedWatch 83.9→80.5. Downstream company/entry still on old 10-16 lock → stale.",
-    "vs": "morning commander 2026-10-19 08:54 HKT"
+    "why": "Jrok company on techPass 51: leaders 26→24 tip 40df075; pipeline 531→51→24 pending Arok entry.",
+    "vs": "tech51 commander e023059"
   }
 }
