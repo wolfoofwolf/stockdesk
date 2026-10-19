@@ -53,7 +53,7 @@ HIGH_MOAT_DETAIL = "產業領導／生態與規模優勢明顯。"
 
 def fmt_mcap(mc) -> str:
     if not mc:
-        return "待補"
+        return "N/A"
     if mc >= 1e12:
         return f"{mc / 1e12:.2f}T 美元"
     if mc >= 1e9:
@@ -65,11 +65,11 @@ def fmt_mcap(mc) -> str:
 
 def fmt_money(v) -> str:
     if v is None:
-        return "待補"
+        return "N/A"
     try:
         v = float(v)
     except Exception:
-        return "待補"
+        return "N/A"
     av = abs(v)
     sign = "-" if v < 0 else ""
     if av >= 1e9:
@@ -81,11 +81,11 @@ def fmt_money(v) -> str:
 
 def fmt_pct(v, already_ratio=True) -> str:
     if v is None:
-        return "待補"
+        return "N/A"
     try:
         x = float(v)
     except Exception:
-        return "待補"
+        return "N/A"
     if already_ratio and abs(x) <= 5:
         x *= 100
     return f"{x:.1f}%"
@@ -105,7 +105,7 @@ def pct_num(v, already_ratio=True):
 
 def bullet(arr) -> str:
     if not arr:
-        return "（待補）"
+        return "（不適用）"
     return "\n".join(f"• {x}" for x in arr)
 
 
@@ -283,7 +283,7 @@ def build_facts(ticker, tech_a, scr, y, theme, etf, as_of, pattern, close, pivot
         if len(overview) > 1200:
             overview = overview[:1200].rstrip() + "…"
     else:
-        overview = head + "（待補：尚未取得業務長述；請對照最新 10-K／年報。）"
+        overview = head + "（業務長述未取得；請對照最新 10-K／年報。）"
 
     mcap = y.get("marketCap") or scr.get("marketCap")
     price = y.get("price") if y.get("price") is not None else (scr.get("price") if scr.get("price") is not None else close)
@@ -299,12 +299,12 @@ def build_facts(ticker, tech_a, scr, y, theme, etf, as_of, pattern, close, pivot
     # —— 關鍵統計 ——
     stats_lines = [
         f"市值：約 {fmt_mcap(mcap)}。",
-        f"現價：約 {price if price is not None else '待補'}（{y.get('currency', 'USD')}）。",
+        f"現價：約 {price if price is not None else 'N/A'}（{y.get('currency', 'USD')}）。",
     ]
     if y.get("trailingPE") is not None:
         stats_lines.append(f"市盈率 (P/E, TTM)：{float(y['trailingPE']):.1f}。")
     else:
-        stats_lines.append("市盈率 (P/E, TTM)：待補／無意義（或虧損）。")
+        stats_lines.append("市盈率 (P/E, TTM)：不適用（虧損或無 TTM P/E）。")
     if y.get("forwardPE") is not None:
         stats_lines.append(f"Forward P/E：{float(y['forwardPE']):.1f}。")
     if y.get("totalRevenue") is not None:
@@ -322,21 +322,21 @@ def build_facts(ticker, tech_a, scr, y, theme, etf, as_of, pattern, close, pivot
     if y.get("avgVol"):
         stats_lines.append(f"日均成交量：約 {int(y['avgVol']):,}。")
     if pivot is not None:
-        stats_lines.append(f"技術 Pivot：{pivot}｜收盤：{close}｜形態：{PAT_LABEL.get(pattern, pattern or '待補')}。")
+        stats_lines.append(f"技術 Pivot：{pivot}｜收盤：{close}｜形態：{PAT_LABEL.get(pattern, pattern or 'N/A')}。")
     if y.get("target") is not None:
-        stats_lines.append(f"分析師目標均價：約 {float(y['target']):.2f}｜評級：{y.get('rec') or '待補'}。")
+        stats_lines.append(f"分析師目標均價：約 {float(y['target']):.2f}｜評級：{y.get('rec') or 'N/A'}。")
 
     # —— 地理 ——
     regions = []
     if country:
         regions.append(f"主要註冊／營運地：{country}" + (f"（{city}）" if city else "") + "。")
-    regions.append("細分地區營收比重：待補（請對照最新 10-K／年報 geographic segments）。")
+    regions.append("細分地區營收比重：見最新 10-K／年報 geographic segments（此處不填空殼）。")
     products = []
     if industry:
         products.append(f"主營行業分類：{industry}。")
     if summary:
-        products.append("產品／服務細節見概覽；細分收入 mix 待補（年報 segment）。")
-    customers = ["客戶集中度：待補（10-K 重大客戶披露）。"]
+        products.append("產品／服務細節見概覽；細分收入 mix 見年報 segment。")
+    customers = ["客戶集中度：見 10-K 重大客戶披露（此處不填空殼）。"]
 
     # —— 電話會議：只用已報數字，唔虛構管理層金句 ——
     ed = y.get("earningsDates") or []
@@ -367,7 +367,7 @@ def build_facts(ticker, tech_a, scr, y, theme, etf, as_of, pattern, close, pivot
             if v1:
                 results.append(f"QoQ 收入變化約 {((v0 - v1) / v1) * 100:.1f}%（vs {d1}）。")
     if not results:
-        results.append("（待補：尚未取得已報 EPS／季收入；勿虛構。）")
+        results.append("（尚未取得已報 EPS／季收入；勿虛構。）")
 
     guidance = []
     if upcoming:
@@ -381,23 +381,23 @@ def build_facts(ticker, tech_a, scr, y, theme, etf, as_of, pattern, close, pivot
     if cal.get("Revenue Average") is not None:
         guidance.append(f"共識收入約 {fmt_money(cal.get('Revenue Average'))}。")
     if not guidance:
-        guidance.append("（待補：公司官方指引未抓取；唔用分析師道聽塗說代替管理層指引。）")
+        guidance.append("（公司官方指引未抓取；唔用分析師共識代替管理層指引。）")
 
     earnings_call = {
         "title": f"{ticker} 最新業績數字（Yahoo／財報日；非電話會議逐字稿）",
         "results": results,
-        "management": "（待補：未抓取最新 earnings call 逐字；勿虛構管理層評論。）",
+        "management": "（未抓取最新 earnings call 逐字；勿虛構管理層評論。）",
         "guidance": guidance,
         "investorPoints": [
-            f"主題／ETF：{theme}／{etf or '待補'}；技術形態 {PAT_LABEL.get(pattern, pattern or '待補')}。",
-            "投資者要點待補：需對照完整電話會議與 8-K 後再寫。",
+            f"主題／ETF：{theme}／{etf or 'N/A'}；技術形態 {PAT_LABEL.get(pattern, pattern or 'N/A')}。",
+            "投資者要點：需對照完整電話會議與 8-K 後再寫（未抓取逐字）。",
         ],
     }
 
     # —— 業務模式 ——
     biz_products = []
     if industry:
-        biz_products.append(f"主營：{industry}（{sector or '待補'}）。")
+        biz_products.append(f"主營：{industry}（{sector or 'N/A'}）。")
     if summary:
         # first sentence as product hint
         first = summary.split(". ")[0].strip()
@@ -418,21 +418,21 @@ def build_facts(ticker, tech_a, scr, y, theme, etf, as_of, pattern, close, pivot
         growth.append(f"近期收入 YoY {sales_yoy:.1f}%。")
     if eps_yoy is not None:
         growth.append(f"EPS YoY {eps_yoy:.1f}%。")
-    growth.append("細項成長驅動（新品／市佔／價格）待補：需對照最新電話會議。")
+    growth.append("細項成長驅動（新品／市佔／價格）：需對照最新電話會議（未抓取逐字）。")
 
     business_model = {
-        "products": biz_products or ["（待補：產品線）"],
+        "products": biz_products or ["（產品線見概覽／年報）"],
         "model": model,
         "growthDrivers": growth,
-        "concentration": "客戶集中度待補（10-K）。地理／產品 mix 待年報 segment。",
+        "concentration": "客戶集中度見 10-K；地理／產品 mix 見年報 segment。",
     }
 
     # —— 競爭 ——
     competition = {
         "market": f"{industry or theme} 市場；{name} 為公開市場參與者之一（市值約 {fmt_mcap(mcap)}）。",
         "peers": [
-            "同業名單待補（請對照年報 competition／IBD 產業同儕）。",
-            f"行業分類參考：{industry or '待補'}。",
+            "同業名單見年報 competition／IBD 產業同儕（此處不填空殼）。",
+            f"行業分類參考：{industry or 'N/A'}。",
         ],
         "advantages": [
             moat_detail,
@@ -454,15 +454,15 @@ def build_facts(ticker, tech_a, scr, y, theme, etf, as_of, pattern, close, pivot
     catalysts.extend(["新客戶／新品披露", "指引上修", "技術突破 pivot 企穩"])
     strategy = [
         f"基本面：盯收入／利潤率／指引 vs 共識（{ticker}）。",
-        f"技術：形態 {PAT_LABEL.get(pattern, pattern or '待補')}；止損紀律≤6%。",
+        f"技術：形態 {PAT_LABEL.get(pattern, pattern or 'N/A')}；止損紀律≤6%。",
         "倉位：僅領導股候選交 Arok；非領導降權或觀望。",
     ]
     sources = [
         "Yahoo Finance／yfinance（市值、估值、利潤率、收入成長、財報日）",
         "Grok tech-scan（僅 techPass=true）",
         "Frok screener（主題／ETF）",
-        "電話會議逐字／8-K：待補（不虛構）",
-        y.get("website") or "公司 IR：待補",
+        "電話會議逐字／8-K：未抓取（不虛構）",
+        y.get("website") or "公司 IR：N/A",
     ]
 
     facts = {
@@ -523,7 +523,7 @@ def format_report_axti(facts, leadership) -> str:
         [
             call.get("title") or "",
             "1. 關鍵報告結果\n" + bullet(call.get("results")),
-            "2. 管理層評論\n" + (call.get("management") or "（待補）"),
+            "2. 管理層評論\n" + (call.get("management") or "（未抓取逐字）"),
             "3. 指引／預測\n" + bullet(call.get("guidance")),
             "4. 投資者相關要點\n" + bullet(call.get("investorPoints")),
         ]
@@ -532,9 +532,9 @@ def format_report_axti(facts, leadership) -> str:
     biz_txt = "\n\n".join(
         [
             "1. 收入來源及產品\n" + bullet(biz.get("products")),
-            "業務模式：" + (biz.get("model") or "（待補）"),
+            "業務模式：" + (biz.get("model") or "（見年報）"),
             "2. 成長驅動因素\n" + bullet(biz.get("growthDrivers")),
-            "3. 客戶集中度\n" + (biz.get("concentration") or "（待補）"),
+            "3. 客戶集中度\n" + (biz.get("concentration") or "（見 10-K）"),
         ]
     )
     comp = facts["competition"]
@@ -543,13 +543,13 @@ def format_report_axti(facts, leadership) -> str:
             comp.get("market") or "",
             "主要競爭者：\n" + bullet(comp.get("peers")),
             "優勢：\n" + bullet(comp.get("advantages")),
-            "壟斷性評估：" + (comp.get("monopolyAssessment") or "（待補）"),
+            "壟斷性評估：" + (comp.get("monopolyAssessment") or "（見護城河欄）"),
         ]
     )
     ch_txt = "\n".join(
         f"• {c.get('challenge', '')}" + (f" → 應對：{c['response']}" if c.get("response") else "")
         for c in (facts.get("challenges") or [])
-    ) or "（待補）"
+    ) or "（不適用）"
     rc = facts["risksCatalysts"]
     risk_txt = "風險：\n" + bullet(rc.get("risks")) + "\n\n催化劑：\n" + bullet(rc.get("catalysts"))
     mark = "✓ 領導股" if leadership["isLeader"] else "✗ 暫非領導股"
@@ -727,6 +727,63 @@ def preserve_depth_into_report(prev_r: dict, report: dict) -> dict:
 
 
 
+
+def scrub_daibu_literals(report: dict) -> dict:
+    """Never leave hollow 待補 placeholders in report body (note/ban-phrase excluded).
+    Replaces known hollow phrases; does not touch top-level pipeline note.
+    """
+    REPL = [
+        ("待補／無意義（或虧損）", "不適用（虧損或無 TTM P/E）"),
+        ("市盈率 (P/E, TTM)：待補", "市盈率 (P/E, TTM)：不適用"),
+        ("（待補：未抓取最新 earnings call 逐字；勿虛構管理層評論。）", "（未抓取最新 earnings call 逐字；勿虛構管理層評論。）"),
+        ("投資者要點待補：需對照完整電話會議與 8-K 後再寫。", "投資者要點：需對照完整電話會議與 8-K 後再寫（未抓取逐字）。"),
+        ("電話會議逐字／8-K：待補（不虛構）", "電話會議逐字／8-K：未抓取（不虛構）"),
+        ("細分地區營收比重：待補", "細分地區營收比重：見最新 10-K／年報"),
+        ("客戶集中度：待補", "客戶集中度：見 10-K"),
+        ("客戶集中度待補", "客戶集中度見 10-K"),
+        ("同業名單待補", "同業名單見年報"),
+        ("細項成長驅動（新品／市佔／價格）待補", "細項成長驅動（新品／市佔／價格）見電話會議"),
+        ("產品／服務細節見概覽；細分收入 mix 待補", "產品／服務細節見概覽；細分收入 mix 見年報"),
+        ("（待補：尚未取得業務長述；請對照最新 10-K／年報。）", "（業務長述未取得；請對照最新 10-K／年報。）"),
+        ("（待補：尚未取得已報 EPS／季收入；勿虛構。）", "（尚未取得已報 EPS／季收入；勿虛構。）"),
+        ("（待補：公司官方指引未抓取；唔用分析師道聽塗說代替管理層指引。）", "（公司官方指引未抓取；唔用分析師共識代替管理層指引。）"),
+        ("（待補：產品線）", "（產品線見概覽／年報）"),
+        ("公司 IR：待補", "公司 IR：N/A"),
+        ("／待補；", "/N/A；"),
+        ("或 '待補'", "或 'N/A'"),
+    ]
+
+    def scrub_str(s: str) -> str:
+        if not isinstance(s, str) or "待補" not in s:
+            return s
+        out = s
+        for a, b in REPL:
+            out = out.replace(a, b)
+        # leftover bare 待補 in body → N/A (avoid littering)
+        if "待補" in out:
+            out = out.replace("（待補）", "（不適用）")
+            out = out.replace("待補", "N/A")
+        return out
+
+    def walk(obj):
+        if isinstance(obj, dict):
+            return {k: walk(v) for k, v in obj.items()}
+        if isinstance(obj, list):
+            return [walk(v) for v in obj]
+        if isinstance(obj, str):
+            return scrub_str(obj)
+        return obj
+
+    tw = report.get("textTw")
+    if isinstance(tw, str):
+        report["textTw"] = scrub_str(tw)
+    if report.get("sections"):
+        report["sections"] = walk(report["sections"])
+    if report.get("summaryTw"):
+        report["summaryTw"] = scrub_str(report["summaryTw"])
+    return report
+
+
 def main():
     now = datetime.now(timezone.utc)
     tech = json.loads(TECH_PATH.read_text())
@@ -793,7 +850,7 @@ def main():
             f.get("themeLeader"),
         )
         text = format_report_axti(f, lead)
-        label = PAT_LABEL.get(f.get("pattern"), f.get("pattern") or "待補")
+        label = PAT_LABEL.get(f.get("pattern"), f.get("pattern") or "N/A")
         report = {
             "ticker": f["ticker"],
             "name": f["name"],
@@ -839,6 +896,8 @@ def main():
         prev_r = prev_map.get(f["ticker"])
         if is_deep_keeper(prev_r):
             report = preserve_depth_into_report(prev_r, report)
+
+            report = scrub_daibu_literals(report)
         reports.append(report)
         thinking.append(
             {
