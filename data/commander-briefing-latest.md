@@ -1,13 +1,13 @@
-# 【總司令｜2026-10-16 22:58 HKT】
+# 【總司令｜2026-10-19 08:54 HKT】
 
 | 欄 | 內容 |
 |---|---|
-| **閘門** | **觸發**｜QQQ −0.93%（$721.2 vs 收 $728.00）／SPY −0.05%｜NQ −0.76%／ES −0.01%｜SMH −1.34%；VIX 15.83｜主因 AI 融資／半導續弱 |
-| **FedWatch** | hold **85.1%**／+25bp **14.9%**（較午後 86.2 −1.1pp）｜CME 交叉 84／16｜12月 hold 14.1%／+25bp 73.5%／+50bp 12.5% |
-| **美股／亞洲** | RTH 傾瀉｜CRWV −8.33%／AMD −3.12%／MU −3.28%｜亞洲已收 日經 +1.39%／韓綜 +2.05%／恒指 +0.52%｜DXY ~101.656（−0.39%） |
-| **日曆** | **Warsh 已畢**｜**blackout 至 10/28 FOMC**｜META/TSLA 10/21｜MSFT/GOOGL 10/28 |
-| **管道** | **557→51→51→27→27**｜已解 stale｜techPass **51**（asOf 10/16；VCP 47／bull_flag 4）｜現金盤全日鎖完 |
-| **Top** | 進場 SONY · XOM · NUE · SAP · CBOE · DIS · ECL · MDLZ｜tech BBWI · ETSY · HALO |
-| **結論** | 閘門觸發＋管道已鎖；勿追動能 |
+| **閘門** | **不適用**｜HKT Mon Asia open／US closed（期貨續開）｜上週五 QQQ −2.50%（$709.8）／SPY −1.11%｜NQ +0.80%／ES +0.47%｜VIX 19.99｜非盤前閘門時段 |
+| **FedWatch** | hold **83.9%**／+25bp **16.1%**（Investing 10/17 戳；週末凍結）｜SessionOpen 交叉 86／14｜12月 12.2／74.1／13.7 |
+| **美股／亞洲** | **亞洲周一開低**｜日經 −1.77%／韓綜 −1.45%｜恒指未開（上週五 +0.52%）｜上週五 CRWV −11.9%／SMH −3.4%｜DXY ~101.85 |
+| **日曆** | Warsh 已畢｜**blackout→10/28 FOMC**｜**META/TSLA 10/21**｜MSFT/GOOGL 10/28 |
+| **管道** | **558→53→26→26**｜stale false｜techPass **53**（asOf 10-16；VCP 47／bull_flag 5／cup 1）｜可考慮 24／觀望 2 |
+| **Top** | 進場 SONY · NUE · ADSK · DIS · MDLZ · MO · RELX · SAP｜tech VTRS · AVTR · HALO |
+| **結論** | macro 材料（亞洲開低≥1%）；管道維持；勿追動能｜跟港開＋美盤前 |
 
-Pages：https://wolfoofwolf.github.io/stockdesk/?v=eve1016
+Pages：https://wolfoofwolf.github.io/stockdesk/?v=morn0854-1019
