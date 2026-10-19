@@ -624,8 +624,13 @@ AXTI_HEADERS = [
 ]
 
 # Thresholds: deep keepers from rewrite_geo_bm / prior deep pass
-GEO_KEEP_MIN = 400
+# GEO was 400; six ADD-era reports sit at 307–398 with real no-待補 prose — keep those.
+GEO_KEEP_MIN = 300
 BM_KEEP_MIN = 300
+# Soft floor: substantive no-待補 geo/bm still kept even if slightly under hard mins
+GEO_SOFT_MIN = 280
+BM_SOFT_MIN = 280
+COMP_HEADER = "競爭格局與壟斷性分析"
 
 
 def _chapter_span(text: str, header: str):
@@ -674,30 +679,35 @@ def is_deep_keeper(prev_r: dict | None) -> bool:
         return False
     geo = extract_chapter(tw, GEO_HEADER)
     bm = extract_chapter(tw, BM_HEADER)
-    if len(geo) < GEO_KEEP_MIN or len(bm) < BM_KEEP_MIN:
+    if not geo or not bm:
         return False
     # Hollow shells from this script always inject 待補 into geo/bm; reject those
+    if "細分地區營收比重：待補" in geo or "客戶集中度：待補" in geo:
+        return False
     if geo.count("待補") >= 1 and len(geo) < 600:
         return False
     if bm.count("待補") >= 1 and len(bm) < 500:
         return False
-    # Prefer keepers that banned 待補 in deep chapters
-    if "細分地區營收比重：待補" in geo or "客戶集中度：待補" in geo:
-        if len(geo) < 800:
-            return False
-    return True
+    # Hard mins OR soft floor when chapter has no 待補 (covers 307–399 geo keepers)
+    geo_ok = len(geo) >= GEO_KEEP_MIN or (len(geo) >= GEO_SOFT_MIN and geo.count("待補") == 0)
+    bm_ok = len(bm) >= BM_KEEP_MIN or (len(bm) >= BM_SOFT_MIN and bm.count("待補") == 0)
+    return bool(geo_ok and bm_ok)
 
 
 def preserve_depth_into_report(prev_r: dict, report: dict) -> dict:
-    """Keep deep geo/BM textTw (+ sections if present); metadata already from fresh build."""
+    """Keep deep geo/BM/competition textTw (+ sections if present); metadata already from fresh build."""
     prev_tw = prev_r.get("textTw") or ""
     new_tw = report.get("textTw") or ""
     geo_ch = extract_chapter(prev_tw, GEO_HEADER)
     bm_ch = extract_chapter(prev_tw, BM_HEADER)
+    comp_ch = extract_chapter(prev_tw, COMP_HEADER)
     if geo_ch:
         new_tw = replace_chapter(new_tw, GEO_HEADER, geo_ch)
     if bm_ch:
         new_tw = replace_chapter(new_tw, BM_HEADER, bm_ch)
+    # Avoid template「同業名單待補」overwriting real peer lists
+    if comp_ch and "同業名單待補" not in comp_ch and comp_ch.count("待補") == 0 and len(comp_ch) >= 120:
+        new_tw = replace_chapter(new_tw, COMP_HEADER, comp_ch)
     report["textTw"] = new_tw
     # Preserve structured sections when previous had them (even if short lists + deep textTw)
     prev_sec = prev_r.get("sections") or {}
@@ -706,6 +716,8 @@ def preserve_depth_into_report(prev_r: dict, report: dict) -> dict:
         sec["geography"] = prev_sec["geography"]
     if prev_sec.get("businessModel"):
         sec["businessModel"] = prev_sec["businessModel"]
+    if prev_sec.get("competition"):
+        sec["competition"] = prev_sec["competition"]
     report["sections"] = sec
     report["depthPreserved"] = True
     # Carry per-report rewrite flag if present
