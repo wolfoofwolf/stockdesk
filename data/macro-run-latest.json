@@ -322,7 +322,7 @@
   "mag7Note": "美股 Mon RTH 收（Yahoo chart；~2026-10-20 13:46 HKT）：AAPL -0.15%、MSFT +0.84%、NVDA +1.38%、META -0.55%、TSLA +3.76%、GOOGL +1.05%、AMZN +4.98%；AMD +1.76%、MU +2.97%；SMH +1.61%（$548.46）；CRWV -0.44%（$61.12）",
   "summaryTw": "【閘門】**不適用（post-close）・未觸發**｜Mon US POST_CLOSE｜QQQ +1.21%／SPY +0.42%；NQ +0.71%／ES +0.34%；VIX 18.44（-7.75%）。\n【FedWatch】hold 83.9%／+25 16.1%（Investing 200 戳 Oct 20, 2026 01:25AM EDT・side Δ+3.4pp）；Current 83.9/16.1；SessionOpen 84/16（Δ+2.0pp）。\n【美股／亞洲】**日／韓／港開市中・韓續弱・日經／恒指再軟**｜日經 -1.44%／韓綜 -4.29%／恒指 -1.20%｜SMH +1.61%／CRWV -0.44%。\n【日曆】Warsh blackout→10/28 FOMC；港 10/20 已重開；META/TSLA 10/21｜MSFT/GOOGL＋FOMC 10/27–28。\n【結論】**靜默**／韓綜 Δ-0.12pp・閘門 N/A・Pages 刷新。",
   "thinkingLog": "2026-10-20 13:46 HKT: hourly after 12:46. Mon US cash closed ~04:00 HKT; POST_CLOSE; Asia KR/JP/HK OPEN (HK afternoon). gateApplicable=false gateFired=false (QQQ +1.21% / SPY +0.42%; Tue premarket gate N/A ~16:00). vs 12:46: QQQ Δ+0.00pp SPY Δ+0.00pp NQ Δ-0.21pp ES Δ-0.10pp; FedWatch side 83.9 Δ+3.4pp (Investing 200 stamp Oct 20, 2026 01:25AM EDT); SessionOpen 84/16 Δ+2.0pp. KS11 -4.17%→-4.29% (Δ-0.12pp); HSI -0.95%→-1.20% (Δ-0.25pp); N225 -1.09%→-1.44% (Δ-0.35pp). → materialChange=false; speakToStockGroup=false.",
-  "liveSync": "lastRefresh=2026-10-20 13:46 HKT; session=Mon US POST_CLOSE / Asia KR+JP+HK OPEN; gateApplicable=false; gateFired=false; materialChange=false; speakToStockGroup=false; QQQ=718.36(+1.21% vs Fri); SPY=766.48(+0.42%); FedWatch side hold 83.9/+25 16.1 (Investing 200 stamp Oct 20, 2026 01:25AM EDT; Current 83.9/16.1; SessionOpen 84.0/16.0); NQ=29599.75(+0.71% vs Fri Δ-0.21pp vs 12:46) ES=7730.5(+0.34%); VIX=18.44; N225=63981.25(-1.44% OPEN) KS11=5520.64(-4.29% OPEN); HSI=23896.86(-1.20% OPEN_TUE); Warsh blackout→10/28; SILENT; pagesCommit=PENDING",
+  "liveSync": "lastRefresh=2026-10-20 13:46 HKT; session=Mon US POST_CLOSE / Asia KR+JP+HK OPEN; gateApplicable=false; gateFired=false; materialChange=false; speakToStockGroup=false; QQQ=718.36(+1.21% vs Fri); SPY=766.48(+0.42%); FedWatch side hold 83.9/+25 16.1 (Investing 200 stamp Oct 20, 2026 01:25AM EDT; Current 83.9/16.1; SessionOpen 84.0/16.0); NQ=29599.75(+0.71% vs Fri Δ-0.21pp vs 12:46) ES=7730.5(+0.34%); VIX=18.44; N225=63981.25(-1.44% OPEN) KS11=5520.64(-4.29% OPEN); HSI=23896.86(-1.20% OPEN_TUE); Warsh blackout→10/28; SILENT; pagesCommit=003ee52e",
   "brief": {
     "skeleton": [
       "閘門",
@@ -571,8 +571,8 @@
         "deltaPp": -0.25
       }
     },
-    "pagesCommitSha": "PENDING",
-    "pagesBlobSha": "PENDING",
+    "pagesCommitSha": "003ee52e0a0a6e3a8f677971fe361d3e92659a09",
+    "pagesBlobSha": "fb70f057c7ec09b33e396ed4036dc11c2b7d4d75",
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1346-1020"
   }
 }
