@@ -1,14 +1,17 @@
-# Commander — 2026-10-20 21:56 HKT
+# Commander — 2026-10-20 22:09 HKT
 
 ## Gate
-**已觸發**｜QQQ −0.87%／SPY −0.13%｜**慎新單**
+**已解除**｜QQQ -0.09%／SPY +0.28%｜慎新單**解除**（vs 21:56 FIRED −0.87%）
 
 ## Pipeline
 **566→58→27→27**｜stale false｜可考慮 27
-- ① Frok 566（`c525735`）
+- ① Frok lock 566（`c525735`；596 wobble 未入鎖）
 - ② Grok 58（`84d8dad`）
 - ③ Jrok 27（`3c6adcad`）
 - ⑤ Arok 27｜前排 SONY·NUE·PSX·SAP·ADSK·DIS·MDLZ·MO
 
+## FedWatch
+hold 84.0%／+25 16.0%｜Δ+1.2pp≪3｜META/TSLA 今晚盤後
+
 ## Conclusion
-全鏈鎖定｜閘門已觸→慎新單｜?v=entry27-1020
+閘門 FIRED→CLEARED｜全鏈鎖定｜?v=macro2206-1020
