@@ -337,7 +337,7 @@
   "mag7Note": "美股 Tue PRE_MKT vs Mon RTH（Yahoo chart includePrePost；~2026-10-20 18:45 HKT）：AAPL -0.95%、MSFT +0.26%、NVDA -0.36%、META -1.00%、TSLA -0.28%、GOOGL -0.30%、AMZN +0.09%；AMD -1.87%、MU -2.86%；SMH -1.18%（$541.97）；CRWV -5.09%（$58.01）",
   "summaryTw": "【閘門】**適用 PRE_MKT・未觸發**｜QQQ pre -0.48%（$714.88 vs Mon $718.36）／SPY pre -0.11%；NQ +0.68%／ES +0.32%；VIX 18.63（-6.8%）。\n【FedWatch】hold 82.8%／+25 17.2%（Investing fresh stamp Oct 20, 2026 06:15AM EDT・side Δ-1.1pp）；Current 82.8/17.2；SessionOpen 82/18（Δ-2.0pp）。\n【美股／亞洲】**PRE_MKT／亞已收・港已收・期貨微軟**｜日經 -1.30%／韓綜 -3.73%／恒指 -1.32%｜SMH pre -1.18%／CRWV pre -5.09%。\n【日曆】Warsh blackout→10/28 FOMC；港 10/20 已收；META/TSLA 10/21｜MSFT/GOOGL＋FOMC 10/27–28。\n【結論】**靜默**／閘門適用未觸・NQ Δ-0.07pp・FedWatch Δ-1.1pp・Pages 刷新。",
   "thinkingLog": "~18:43 HKT Tue US PRE_MKT / Asia CLOSED。相對 17:50：QQQ pre -0.46%→-0.48%（Δ-0.02pp）／SPY -0.07%→-0.11%（Δ-0.04pp）；NQ +0.75%→+0.68%（Δ-0.07pp）；ES +0.36%→+0.32%（Δ-0.04pp）。閘門適用・未觸（門檻 −0.65%）。FedWatch Investing fresh 82.8/17.2 stamp Oct 20, 2026 06:15AM EDT（Δ-1.1pp ≪5）；SessionOpen 82.0/18.0（Δ-2.0pp ≪5）。Asia CLOSED Δ0。材料門檻未觸→靜默；仍刷新 JSON＋Pages。",
-  "liveSync": "lastRefresh=2026-10-20 18:45 HKT; session=Tue US PRE_MKT / Asia JP+KR+HK CLOSED; gateApplicable=true; gateFired=false; materialChange=false; speakToStockGroup=false; QQQ_pre=714.88(-0.48% vs Mon RTH 718.36); SPY_pre=765.62(-0.11%); FedWatch side hold 82.8/+25 17.2 (Investing fresh stamp Oct 20, 2026 06:15AM EDT; Current 82.8/17.2; SessionOpen 82.0/18.0); NQ=29592.0(+0.68% vs Fri Δ-0.07pp vs 17:50) ES=7728.75(+0.32%); VIX=18.63; N225=64075.42(-1.30% CLOSED) KS11=5552.74(-3.73% CLOSED); HSI=23867.74(-1.32% CLOSED); Warsh blackout→10/28; SILENT; pagesCommit=c99c9134",
+  "liveSync": "lastRefresh=2026-10-20 18:45 HKT; session=Tue US PRE_MKT / Asia JP+KR+HK CLOSED; gateApplicable=true; gateFired=false; materialChange=false; speakToStockGroup=false; QQQ_pre=714.88(-0.48% vs Mon RTH 718.36); SPY_pre=765.62(-0.11%); FedWatch side hold 82.8/+25 17.2 (Investing fresh stamp Oct 20, 2026 06:15AM EDT; Current 82.8/17.2; SessionOpen 82.0/18.0); NQ=29592.0(+0.68% vs Fri Δ-0.07pp vs 17:50) ES=7728.75(+0.32%); VIX=18.63; N225=64075.42(-1.30% CLOSED) KS11=5552.74(-3.73% CLOSED); HSI=23867.74(-1.32% CLOSED); Warsh blackout→10/28; SILENT; pagesCommit=43be6c31",
   "brief": {
     "skeleton": [
       "閘門",
@@ -559,8 +559,8 @@
       "SessionOpen 82.0/18.0（Δ-2.0pp hold・≪5pp）"
     ],
     "pipelineNote": "Hourly macro monitor item ④; SILENT — refresh JSON + Pages only; do not speakToStockGroup",
-    "pagesCommitSha": "c99c9134c12b0b116c3b37748b241be00f9c6b40",
-    "pagesBlobSha": "3d3bef5564c4513c0b71a37b7705c1b5cf15fe01",
+    "pagesCommitSha": "43be6c3145d30451b1d390d69ac674274852c8c4",
+    "pagesBlobSha": "3068bc7ab382603581bfe129630765d0ca07588d",
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1845-1020",
     "contentCommitSha": "c99c9134c12b0b116c3b37748b241be00f9c6b40",
     "vs1750": {
