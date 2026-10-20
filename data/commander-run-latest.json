@@ -1,63 +1,58 @@
 {
-  "generatedAt": "2026-10-19T14:48:35.000Z",
-  "asOf": "2026-10-19T14:48:35.000Z",
+  "generatedAt": "2026-10-20T00:09:07.000Z",
+  "asOf": "2026-10-20T00:09:07.000Z",
   "bot": "Trok",
   "pipeline": {
-    "candidates": 531,
+    "candidates": 559,
     "techPassed": 51,
     "company": 51,
     "leaders": 24,
     "entry": 24,
     "entryConsider": 24,
     "entryWatch": 0,
-    "downstreamStale": false,
-    "anchor": "LOCK 531→51→24→24 (Frok e441905; Grok tech c66ece8; Jrok company 40df075 leaders 24; Arok entry 24 consider 24/watch 0). Cash-open 10-19."
+    "downstreamStale": true,
+    "anchor": "STALE 559→51→24→24 pending Grok techPass on 559 (Frok screener tip TBD; old tech/company/entry still on 531 cash-open lock ee340bc)."
   },
-  "summaryTw": "【總司令｜2026-10-19 22:48 HKT】\n閘門｜**適用・未觸發**｜QQQ +1.38%／SPY +0.52%（Drok 22:36）\n管道｜**531→51→24→24**｜downstreamStale **false**｜可考慮 24／觀望 0\n②｜Grok techPass **51**（`c66ece8`｜asOfMarket **10-19**）｜VCP 47／bull_flag 4\n③｜Jrok 公司 **51**／領導 **24**（`40df075`）\n⑤｜Arok 進場 **24**（可考慮 24／觀望 0｜Pullback 23／META 1｜VCP 22／bull_flag 2）｜前排 SONY · XOM · NUE · CBOE · DINO · MDLZ · MO · RELX\n篩選｜Frok 池 **531**（`e441905`｜Δ−27）\nFedWatch｜hold **80.5%**／+25 **19.5%**｜blackout→10/28｜META/TSLA **10/21**\n結論｜現金開市全鏈鎖定｜Pages ?v=entry24-1019\nhttps://wolfoofwolf.github.io/stockdesk/?v=entry24-1019",
+  "summaryTw": "【總司令｜2026-10-20 08:09 HKT】\n閘門｜**適用・未觸發**｜上輪現金 QQQ +1.21%／SPY +0.42%（hourly）\n管道｜**559→51→24→24**｜downstreamStale **true**｜等 Grok② 重鎖 559\n①｜Frok 池 **559**（Δ＋9 vs 550｜churn 67｜宇宙 1169｜price as-of 10-19）\n②③⑤｜仍舊 **51／24／24**（`ee340bc`｜asOf 10-19｜pending rescreen）\nFedWatch｜hold **80.5%**／+25 **19.5%**｜META/TSLA **10/21（D-1）**\n結論｜①有料；下游 stale｜Pages ?v=scr559\nhttps://wolfoofwolf.github.io/stockdesk/?v=scr559",
   "brief": {
-    "asOfHKT": "2026-10-19 22:48 HKT",
+    "asOfHKT": "2026-10-20 08:09 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "**適用・未觸發**｜QQQ +1.38%／SPY +0.52%｜VIX 17.69"
+        "value": "**適用・未觸發**｜QQQ +1.21%／SPY +0.42%（上輪收）"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "10/28 hold **80.5%**／+25bp **19.5%**｜blackout→10/28"
+        "value": "hold **80.5%**／+25 **19.5%**｜blackout→10/28"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "美股反彈｜SMH +2.22%｜韓綜收 +1.76%／日經收 −0.62%｜港休市至 10/20"
+        "value": "美股已收｜港 10/20 重開日｜跟亞洲盤＋美盤前"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "**META/TSLA 10/21（D-2）**｜MSFT/GOOGL／FOMC 10/28｜港 10/20 重開"
+        "value": "**META/TSLA 10/21（D-1）**｜FOMC 10/28"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "**531→51→24→24**｜scr `e441905`／tech `c66ece8`／co `40df075`｜**stale false**｜可考慮 24／觀望 0"
+        "value": "**559→51→24→24**｜①新｜②③⑤ stale 等 Grok"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "前排 SONY·XOM·NUE·CBOE·DINO·MDLZ·MO·RELX｜＋DINO／HCA／KDP／OSCR／XOM"
+        "value": "舊前排 SONY·XOM·NUE·CBOE·DINO·MDLZ·MO·RELX（待②重鎖）"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "現金開市全鏈鎖定｜?v=entry24-1019"
+        "value": "等 Grok 全數 559 techPass｜?v=scr559"
       }
     ]
   },
-  "sourceTips": {
-    "screener": "e441905",
-    "tech": "c66ece8",
-    "company": "40df075"
-  },
-  "status": "locked"
+  "status": "stale_pending_grok_techpass"
 }
