@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-20T14:09:14.000Z",
+  "generatedAt": "2026-10-20T14:50:00.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-20 22:09 HKT",
+  "asOfHKT": "2026-10-20 22:50 HKT",
   "pipeline": {
     "candidates": 566,
     "techPassed": 58,
@@ -12,26 +12,26 @@
     "entryConsider": 27,
     "entryWatch": 0,
     "downstreamStale": false,
-    "anchor": "LOCK 566→58→27→27 (Frok c525735; Grok 84d8dad; Jrok 3c6adcad; Arok entry 27). Gate RTH CLEARED QQQ −0.09% — 慎新單解除. Hourly 10-20."
+    "anchor": "LOCK 566→58→27→27 (Frok c525735; Grok 84d8dad; Jrok 3c6adcad; Arok entry 27). Gate RTH CLEARED QQQ +0.45% — 慎新單解除. Bounce vs 22:09. Monitor 22:50."
   },
-  "summaryTw": "【總司令｜2026-10-20 22:09 HKT】\n閘門｜**適用・已解除**｜QQQ RTH **-0.09%**／SPY **+0.28%**｜慎新單**解除**（vs 21:56 FIRED −0.87%）\n管道｜**566→58→27→27**｜downstreamStale **false**｜可考慮 27／觀望 0\n②｜Grok techPass **58**（`84d8dad`｜10-20）｜VCP 52／bull_flag 6\n③｜Jrok 領導 **27**（`3c6adcad`）\n⑤｜Arok 進場 **27**（Pullback 25／META 2｜VCP 24／bull_flag 3）｜前排 SONY · NUE · PSX · SAP · ADSK · DIS · MDLZ · MO\n①｜Frok lock **566**（`c525735`；screener 596 same-asOf wobble 未入鎖）\nFedWatch｜hold **84.0%**／+25 **16.0%**｜Δ+1.2pp≪3 vs 21:56｜META/TSLA **今晚盤後**\n結論｜閘門 FIRED→CLEARED｜全鏈仍鎖｜Pages ?v=macro2206-1020\nhttps://wolfoofwolf.github.io/stockdesk/?v=macro2206-1020",
+  "summaryTw": "【總司令｜2026-10-20 22:50 HKT】\n閘門｜**適用・已解除**｜QQQ RTH **+0.45%**／SPY **+0.64%**｜慎新單**解除**（開盤曾觸〜−0.91%・其後反彈）\n管道｜**566→58→27→27**｜downstreamStale **false**｜可考慮 27／觀望 0\n②｜Grok techPass **58**（`84d8dad`｜10-20）｜VCP 52／bull_flag 6\n③｜Jrok 領導 **27**（`3c6adcad`）\n⑤｜Arok 進場 **27**（Pullback 25／META 2｜VCP 24／bull_flag 3）｜前排 SONY · NUE · PSX · SAP · ADSK · DIS · MDLZ · MO\n①｜Frok lock **566**（`c525735`；screener 596 same-asOf wobble 未入鎖）\n大市｜NQ **+1.64%**／ES +1.08%／SMH +0.47%／CRWV +4.14%／VIX 17.73（−3.9%）｜亞已收 日經−1.30%／韓綜−3.73%／恒指−1.32%\nFedWatch｜hold **83.9%**／+25 **16.1%**｜Δ+1.1pp≪3｜META/TSLA **今晚盤後**\n結論｜閘門仍 CLEARED｜全鏈鎖定｜反彈已入總司令頁｜Pages ?v=cmd2250-1020\nhttps://wolfoofwolf.github.io/stockdesk/?v=cmd2250-1020",
   "brief": {
-    "asOfHKT": "2026-10-20 22:09 HKT",
+    "asOfHKT": "2026-10-20 22:50 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "**適用・已解除**｜QQQ -0.09%／SPY +0.28%｜慎新單**解除**"
+        "value": "**適用・已解除**｜QQQ +0.45%／SPY +0.64%｜慎新單**解除**"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "hold **84.0%**／+25 **16.0%**｜Δ+1.2pp≪3｜blackout→10/28"
+        "value": "hold **83.9%**／+25 **16.1%**｜Δ+1.1pp≪3｜blackout→10/28"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "RTH 回穩｜QQQ 近平／SPY 微升｜SMH −0.28%／META −2.57%｜亞已收 日經−1.30%／韓綜−3.73%／恒指−1.32%"
+        "value": "RTH 反彈｜NQ +1.64%／QQQ +0.45%／SPY +0.64%｜SMH +0.47%／CRWV +4.14%｜亞已收 日經−1.30%／韓綜−3.73%／恒指−1.32%"
       },
       {
         "id": "calendar",
@@ -51,12 +51,12 @@
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "閘門 **CLEARED**｜全鏈鎖定｜?v=macro2206-1020"
+        "value": "閘門 **CLEARED**｜全鏈鎖定｜反彈已同步｜?v=cmd2250-1020"
       }
     ]
   },
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=macro2206-1020"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=cmd2250-1020"
   },
   "thinkingLog": [
     {
@@ -83,18 +83,25 @@
       "t": "2026-10-20 22:09 HKT",
       "bot": "Trok",
       "msg": "hourly gate FIRED→CLEARED QQQ −0.09%"
+    },
+    {
+      "t": "2026-10-20 22:50 HKT",
+      "bot": "Trok",
+      "msg": "monitor bounce QQQ +0.45% NQ +1.64%; pipeline HOLD; Stock silent (Drok 22:38)"
     }
   ],
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "Gate FIRED→CLEARED: QQQ −0.87%→−0.09% re-crossed −0.65% band; 慎新單 lifted. FedWatch +1.2pp≪3. Pipeline lock unchanged.",
-    "vs": "21:56 FIRED QQQ −0.87%/SPY −0.13%; FedWatch 82.8/17.2"
+    "why": "Macro bounce vs prior commander 22:09: QQQ −0.09%→+0.45%, SPY +0.28%→+0.64%, NQ +1.64% (Δ+1.01pp vs 2143). Pipeline lock unchanged. Drok already spoke Stock at 22:38 — Trok silent on room.",
+    "vs": "22:09 CLEARED QQQ −0.09%/SPY +0.28%; FedWatch 84.0/16.0; tip macro2206-1020"
   },
   "gate": {
     "status": "CLEARED",
-    "qqq": -0.09,
-    "spy": 0.28,
+    "qqq": 0.45,
+    "spy": 0.64,
     "cautionNewEntries": false
-  }
+  },
+  "stockNotify": false,
+  "pagesTip": "cmd2250-1020"
 }
