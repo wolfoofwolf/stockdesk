@@ -325,7 +325,7 @@
   "mag7Note": "美股 Mon RTH 收（Yahoo chart；~2026-10-20 14:46 HKT）：AAPL -0.15%、MSFT +0.84%、NVDA +1.38%、META -0.55%、TSLA +3.76%、GOOGL +1.05%、AMZN +4.98%；AMD +1.76%、MU +2.97%；SMH +1.61%（$548.46）；CRWV -0.44%（$61.12）",
   "summaryTw": "【閘門】**不適用（post-close）・未觸發**｜Mon US POST_CLOSE｜QQQ +1.21%／SPY +0.42%；NQ +0.91%／ES +0.48%；VIX 18.44（-7.75%）。\n【FedWatch】hold 83.9%／+25 16.1%（Investing 403 retained 戳 Oct 20, 2026 01:25AM EDT・side Δ+0.0pp）；Current 83.9/16.1；SessionOpen 84/16（Δ+0.0pp）。\n【美股／亞洲】**日／韓已收・港午後・韓自低位回升・期貨反彈**｜日經 -1.34%／韓綜 -3.97%／恒指 -1.28%｜SMH +1.61%／CRWV -0.44%。\n【日曆】Warsh blackout→10/28 FOMC；港 10/20 已重開；META/TSLA 10/21｜MSFT/GOOGL＋FOMC 10/27–28。\n【結論】**靜默**／韓綜 Δ+0.32pp・閘門 N/A・Pages 刷新。",
   "thinkingLog": "2026-10-20 14:46 HKT: hourly after 13:46. Mon US cash closed ~04:00 HKT; POST_CLOSE; Asia JP CLOSED (~14:00) / KR CLOSED-ish (~14:30) / HK OPEN afternoon. gateApplicable=false gateFired=false (QQQ +1.21% / SPY +0.42%; Tue premarket gate N/A ~16:00). vs 13:46: QQQ Δ+0.00pp SPY Δ+0.00pp NQ Δ+0.20pp ES Δ+0.14pp; FedWatch side 83.9 Δ+0.0pp (Investing 403 retained stamp Oct 20, 2026 01:25AM EDT); SessionOpen 84.0/16.0 Δ+0.0pp. KS11 -4.29%→-3.97% (Δ+0.32pp); HSI -1.20%→-1.28% (Δ-0.08pp); N225 -1.44%→-1.34% (Δ+0.10pp). → materialChange=false; speakToStockGroup=false.",
-  "liveSync": "lastRefresh=2026-10-20 14:46 HKT; session=Mon US POST_CLOSE / Asia JP+KR CLOSED_TUE / HK OPEN; gateApplicable=false; gateFired=false; materialChange=false; speakToStockGroup=false; QQQ=718.36(+1.21% vs Fri); SPY=766.48(+0.42%); FedWatch side hold 83.9/+25 16.1 (Investing 403 retained stamp Oct 20, 2026 01:25AM EDT; Current 83.9/16.1; SessionOpen 84.0/16.0); NQ=29658.75(+0.91% vs Fri Δ+0.20pp vs 13:46) ES=7741.5(+0.48%); VIX=18.44; N225=64043.8(-1.34% CLOSED) KS11=5539.05(-3.97% CLOSED); HSI=23877.73(-1.28% OPEN_TUE); Warsh blackout→10/28; SILENT; pagesCommit=PENDING",
+  "liveSync": "lastRefresh=2026-10-20 14:46 HKT; session=Mon US POST_CLOSE / Asia JP+KR CLOSED_TUE / HK OPEN; gateApplicable=false; gateFired=false; materialChange=false; speakToStockGroup=false; QQQ=718.36(+1.21% vs Fri); SPY=766.48(+0.42%); FedWatch side hold 83.9/+25 16.1 (Investing 403 retained stamp Oct 20, 2026 01:25AM EDT; Current 83.9/16.1; SessionOpen 84.0/16.0); NQ=29658.75(+0.91% vs Fri Δ+0.20pp vs 13:46) ES=7741.5(+0.48%); VIX=18.44; N225=64043.8(-1.34% CLOSED) KS11=5539.05(-3.97% CLOSED); HSI=23877.73(-1.28% OPEN_TUE); Warsh blackout→10/28; SILENT; pagesCommit=8f1d22d2",
   "brief": {
     "skeleton": [
       "閘門",
@@ -574,8 +574,8 @@
         "deltaPp": -0.08
       }
     },
-    "pagesCommitSha": "PENDING",
-    "pagesBlobSha": "PENDING",
+    "pagesCommitSha": "8f1d22d22676f2fbc894565ee4f0a7718151da7c",
+    "pagesBlobSha": "e95482eb76a8d7e83ecb4822100385afdace1837",
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1446-1020"
   }
 }
