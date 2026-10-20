@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-20T00:09:07.000Z",
-  "asOf": "2026-10-20T00:09:07.000Z",
+  "generatedAt": "2026-10-20T00:09:34.000Z",
+  "asOf": "2026-10-20T00:09:34.000Z",
   "bot": "Trok",
   "pipeline": {
-    "candidates": 559,
+    "candidates": 531,
     "techPassed": 51,
     "company": 51,
     "leaders": 24,
     "entry": 24,
     "entryConsider": 24,
     "entryWatch": 0,
-    "downstreamStale": true,
-    "anchor": "STALE 559→51→24→24 pending Grok techPass on 559 (Frok screener tip TBD; old tech/company/entry still on 531 cash-open lock ee340bc)."
+    "downstreamStale": false,
+    "anchor": "HOLD 531→51→24→24 (cash-open lock ee340bc asOf 10-19). Frok morning screener 559 on Pages is same-bar wobble — tech/entry NOT following; true rescreen tonight cash-open 10-20 bars."
   },
-  "summaryTw": "【總司令｜2026-10-20 08:09 HKT】\n閘門｜**適用・未觸發**｜上輪現金 QQQ +1.21%／SPY +0.42%（hourly）\n管道｜**559→51→24→24**｜downstreamStale **true**｜等 Grok② 重鎖 559\n①｜Frok 池 **559**（Δ＋9 vs 550｜churn 67｜宇宙 1169｜price as-of 10-19）\n②③⑤｜仍舊 **51／24／24**（`ee340bc`｜asOf 10-19｜pending rescreen）\nFedWatch｜hold **80.5%**／+25 **19.5%**｜META/TSLA **10/21（D-1）**\n結論｜①有料；下游 stale｜Pages ?v=scr559\nhttps://wolfoofwolf.github.io/stockdesk/?v=scr559",
+  "summaryTw": "【總司令｜2026-10-20 08:09 HKT】\n閘門｜**適用・未觸發**｜上輪現金 QQQ +1.21%／SPY +0.42%\n管道｜**531→51→24→24**｜downstreamStale **false**｜可考慮 24／觀望 0\n①｜Frok Pages 池 **559**（同 asOf 10-19 抖動｜唔跟鎖）\n②③⑤｜**靜持** tech **51**／領導 **24**／進場 **24**（`ee340bc`｜`c66ece8`｜`40df075`）\nFedWatch｜hold **80.5%**／+25 **19.5%**｜META/TSLA **10/21（D-1）**\n結論｜鎖不變；真鎖等今晚 cash-open 10-20｜?v=entry24-1019\nhttps://wolfoofwolf.github.io/stockdesk/?v=entry24-1019",
   "brief": {
     "asOfHKT": "2026-10-20 08:09 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "**適用・未觸發**｜QQQ +1.21%／SPY +0.42%（上輪收）"
+        "value": "**適用・未觸發**｜QQQ +1.21%／SPY +0.42%"
       },
       {
         "id": "fedwatch",
@@ -30,7 +30,7 @@
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "美股已收｜港 10/20 重開日｜跟亞洲盤＋美盤前"
+        "value": "美股已收｜港 10/20 重開｜跟亞洲＋美盤前"
       },
       {
         "id": "calendar",
@@ -40,19 +40,20 @@
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "**559→51→24→24**｜①新｜②③⑤ stale 等 Grok"
+        "value": "**531→51→24→24** HOLD｜① Pages 559＝同 bar 抖動唔跟"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "舊前排 SONY·XOM·NUE·CBOE·DINO·MDLZ·MO·RELX（待②重鎖）"
+        "value": "前排 SONY·XOM·NUE·CBOE·DINO·MDLZ·MO·RELX"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "等 Grok 全數 559 techPass｜?v=scr559"
+        "value": "靜持；今晚 cash-open 再真鎖｜?v=entry24-1019"
       }
     ]
   },
-  "status": "stale_pending_grok_techpass"
+  "status": "hold_entry24",
+  "screenerPagesNote": "559 pushed 02badf4 same-bar wobble; not pipeline anchor"
 }
