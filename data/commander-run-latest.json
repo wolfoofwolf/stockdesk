@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T16:07:59.000Z",
-  "asOf": "2026-10-20T16:07:59.000Z",
+  "generatedAt": "2026-10-20T18:10:01.000Z",
+  "asOf": "2026-10-20T18:10:01.000Z",
   "bot": "Trok",
   "pipeline": {
     "candidates": 566,
@@ -11,7 +11,7 @@
     "entryConsider": 27,
     "entryWatch": 0,
     "downstreamStale": false,
-    "anchor": "LOCK 566→58→27→27 (baa4e0f base; DINO Pullback→META methodMix 24/3 tip TBD). Gate CLEARED.",
+    "anchor": "LOCK 566→58→27→27 (e811e52 methodMix 24/3). Screener same-asOf 10-20 wobble 628 tip TBD — entry untouched.",
     "methodMix": {
       "Pullback": 24,
       "META": 3
@@ -19,16 +19,10 @@
     "patternMix": {
       "VCP": 24,
       "bull_flag": 3
-    }
+    },
+    "note": "Frok screener candidates 607 same-asOf wobble NOT followed; Grok techPass 58 anchors.",
+    "screener": 628
   },
-  "summaryTw": "【總司令｜2026-10-21 00:07 HKT】\n閘門｜**適用・已解除**｜QQQ +0.11%／SPY +0.36%（hourly）｜慎新單已解\n管道｜**566→58→27→27**｜downstreamStale **false**｜可考慮 27／觀望 0\n⑤｜methodMix **Pullback 24／META 3**（DINO Pullback→META｜RCL·NTRA·DINO）｜前排 SONY·NUE·PSX·SAP·ADSK·DIS·MDLZ·MO\n結論｜鎖不變；methodMix 校正｜?v=entry27-dinoMETA\nhttps://wolfoofwolf.github.io/stockdesk/?v=entry27-dinoMETA",
-  "status": "locked_methodmix_dino_meta",
-  "methodMix": {
-    "Pullback": 24,
-    "META": 3
-  },
-  "patternMix": {
-    "VCP": 24,
-    "bull_flag": 3
-  }
+  "status": "screener_wobble_hold_entry",
+  "summaryTw": "【總司令｜2026-10-21 02:10 HKT】\n閘門｜**適用・已解除**｜QQQ +0.11%／SPY +0.37%\n管道｜**566→58→27→27** LOCK｜篩選同 asOf 抖動 **628**（唔重鎖）\n⑤｜methodMix Pullback 24／META 3｜?v=scr628-1020\nhttps://wolfoofwolf.github.io/stockdesk/?v=scr628-1020"
 }

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-20T16:07:59.000Z",
+  "generatedAt": "2026-10-20T18:10:01.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-21 00:07 HKT",
+  "asOfHKT": "2026-10-21 02:10 HKT",
   "pipeline": {
     "candidates": 566,
     "techPassed": 58,
@@ -12,7 +12,7 @@
     "entryConsider": 27,
     "entryWatch": 0,
     "downstreamStale": false,
-    "anchor": "LOCK 566→58→27→27 (baa4e0f base; DINO Pullback→META methodMix 24/3 tip TBD). Gate CLEARED.",
+    "anchor": "LOCK 566→58→27→27 (e811e52 methodMix 24/3). Screener same-asOf 10-20 wobble 628 tip TBD — entry untouched.",
     "methodMix": {
       "Pullback": 24,
       "META": 3
@@ -20,26 +20,28 @@
     "patternMix": {
       "VCP": 24,
       "bull_flag": 3
-    }
+    },
+    "note": "Frok screener candidates 607 same-asOf wobble NOT followed; Grok techPass 58 anchors.",
+    "screener": 628
   },
-  "summaryTw": "【總司令｜2026-10-21 00:07 HKT】\n閘門｜**適用・已解除**｜QQQ +0.11%／SPY +0.36%（hourly）｜慎新單已解\n管道｜**566→58→27→27**｜downstreamStale **false**｜可考慮 27／觀望 0\n⑤｜methodMix **Pullback 24／META 3**（DINO Pullback→META｜RCL·NTRA·DINO）｜前排 SONY·NUE·PSX·SAP·ADSK·DIS·MDLZ·MO\n結論｜鎖不變；methodMix 校正｜?v=entry27-dinoMETA\nhttps://wolfoofwolf.github.io/stockdesk/?v=entry27-dinoMETA",
+  "summaryTw": "【總司令｜2026-10-21 02:10 HKT】\n閘門｜**適用・已解除**｜QQQ +0.11%／SPY +0.37%\n管道｜**566→58→27→27** LOCK｜篩選同 asOf 抖動 **628**（唔重鎖）\n⑤｜methodMix Pullback 24／META 3｜?v=scr628-1020\nhttps://wolfoofwolf.github.io/stockdesk/?v=scr628-1020",
   "brief": {
-    "asOfHKT": "2026-10-21 00:07 HKT",
+    "asOfHKT": "2026-10-21 02:05 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "**適用・已解除**｜QQQ +0.11%／SPY +0.36%｜慎新單**解除**"
+        "value": "**適用・已解除**｜QQQ +0.11%／SPY +0.37%｜慎新單**解除**"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "hold **83.9%**／+25 **16.1%**（Inv）｜SO 86.0｜Δ−2.3pp≪3｜blackout→10/28"
+        "value": "hold **81.6%**／+25 **18.4%**（Inv）｜SO 82.0｜Δ-2.3pp≪3｜blackout→10/28"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "RTH 午後回吐｜NQ +1.20%／QQQ +0.11%／SPY +0.36%｜SMH +0.24%／CRWV +2.41%｜亞已收 日經−1.30%／韓綜−3.73%／恒指−1.32%"
+        "value": "RTH 午後穩｜NQ +1.30%／QQQ +0.11%／SPY +0.37%｜SMH +0.20%／CRWV +2.05%｜亞已收 日經−1.30%／韓綜−3.73%／恒指−1.32%"
       },
       {
         "id": "calendar",
@@ -59,29 +61,14 @@
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "閘門 **CLEARED**｜全鏈鎖定｜無材料・未推｜?v=cmd2250-1020"
+        "value": "閘門 **CLEARED**｜全鏈鎖定｜無材料・未推｜?v=entry27-dinoMETA"
       }
     ]
   },
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=entry27-dinoMETA"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=scr628-1020"
   },
   "thinkingLog": [
-    {
-      "t": "2026-10-20 21:48 HKT",
-      "bot": "Trok",
-      "msg": "tech58"
-    },
-    {
-      "t": "2026-10-20 21:56 HKT",
-      "bot": "Trok",
-      "msg": "co27"
-    },
-    {
-      "t": "2026-10-20 21:56 HKT",
-      "bot": "Trok",
-      "msg": "entry27 unlock gate FIRED 慎新單"
-    },
     {
       "t": "2026-10-20 22:09 HKT",
       "bot": "Trok",
@@ -106,20 +93,35 @@
       "t": "2026-10-21 00:07 HKT",
       "bot": "Trok",
       "msg": "push DINO META methodMix 24/3"
+    },
+    {
+      "t": "2026-10-21 01:03 HKT",
+      "bot": "Trok",
+      "msg": "hourly no material QQQ -0.06%/SPY +0.26% FedWatch Inv 83.9 Δ+0.0pp≪3; HOLD; Stock silent"
+    },
+    {
+      "t": "2026-10-21 02:05 HKT",
+      "bot": "Trok",
+      "msg": "hourly no material QQQ +0.11%/SPY +0.37% FedWatch Inv 81.6 Δ-2.3pp≪3; HOLD; Stock silent"
+    },
+    {
+      "t": "2026-10-21 02:10 HKT",
+      "bot": "Trok",
+      "msg": "push screener 628 same-asOf; HOLD entry"
     }
   ],
-  "material": true,
+  "material": false,
   "materialChange": {
-    "yes": true,
-    "why": "DINO method Pullback→META; methodMix 25/2→24/3; ticker set unchanged.",
-    "vs": "baa4e0f entry27"
+    "yes": false,
+    "why": "same-asOf screener wobble 607→628; HOLD entry lock"
   },
   "gate": {
     "status": "CLEARED",
     "qqq": 0.11,
-    "spy": 0.36,
-    "cautionNewEntries": false
+    "spy": 0.37,
+    "cautionNewEntries": false,
+    "bandCrossedVsPrior": false
   },
   "stockNotify": false,
-  "pagesTip": "cmd2250-1020"
+  "pagesTip": "entry27-dinoMETA"
 }
