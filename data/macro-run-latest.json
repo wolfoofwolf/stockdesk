@@ -1,7 +1,7 @@
 {
-  "title": "大市更新｜韓綜回升−2.54%／Δ+0.93pp・QQQ+1.21%・閘門N/A｜發群｜POST_CLOSE＋Asia OPEN（Drok）",
-  "asOf": "2026-10-20T02:46:00.000Z",
-  "updatedAt": "2026-10-20T02:46:00.000Z",
+  "title": "大市更新｜韓綜再轉弱−3.24%／Δ−0.70pp・QQQ+1.21%・閘門N/A｜發群｜POST_CLOSE＋Asia OPEN（Drok）",
+  "asOf": "2026-10-20T03:46:00.000Z",
+  "updatedAt": "2026-10-20T03:46:00.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -163,7 +163,7 @@
       "date": "2026-10-28",
       "label": "FOMC 決定（10/27–28）",
       "status": "upcoming",
-      "note": "聲明約 14:00 ET。FedWatch（Investing Updated Oct 19, 2026 06:15PM EDT；本輪 HTTP 403 保留）：side/會議卡／Current hold 80.5%／+25bp 19.5%（vs 09:45 Δ+0.0pp）。十二月 Current：hold 9.4%／+25bp 73.4%／+50bp 17.2%（保留）。SessionOpen 82/18（2026-10-20 10:46 HKT；vs 09:45 Δ+0.0pp）。Warsh blackout 已生效→本會。",
+      "note": "聲明約 14:00 ET。FedWatch（Investing Updated Oct 19, 2026 06:15PM EDT；本輪 HTTP 403 保留）：side/會議卡／Current hold 80.5%／+25bp 19.5%（vs 10:46 Δ+0.0pp）。十二月 Current：hold 9.4%／+25bp 73.4%／+50bp 17.2%（保留）。SessionOpen 84/16（2026-10-20 11:46 HKT；vs 10:46 82/18 Δ+2.0pp）。Warsh blackout 已生效→本會。",
       "sources": [
         "Investing.com Fed rate monitor Updated Oct 17, 2026 12:35AM EDT",
         "kryptomagazin CME-method 2026-10-18 12:01 UTC",
@@ -184,7 +184,8 @@
         "Drok POST_CLOSE hourly 2026-10-20 07:45 HKT — Investing 403 retained side 80.5/19.5; SessionOpen 82/18; silent vs 06:45",
         "Drok Asia open hourly 2026-10-20 08:40 HKT — Investing 403 retained side 80.5/19.5; SessionOpen 82/18; N225 -1.01% / KS11 -2.22% OPEN speak",
         "Drok Asia open hourly 2026-10-20 09:45 HKT — Investing 403 retained side 80.5/19.5; SessionOpen 82/18; KS11 -3.47% / HSI OPEN -0.70% speak",
-        "Drok Asia mid hourly 2026-10-20 10:46 HKT — Investing 403 retained side 80.5/19.5; SessionOpen 82/18; KS11 -2.54% (Δ+0.93pp vs 09:45) speak"
+        "Drok Asia mid hourly 2026-10-20 10:46 HKT — Investing 403 retained side 80.5/19.5; SessionOpen 82/18; KS11 -2.54% (Δ+0.93pp vs 09:45) speak",
+        "Drok Asia mid hourly 2026-10-20 11:46 HKT — Investing 403 retained side 80.5/19.5; SessionOpen 84/16; KS11 -3.24% (Δ-0.70pp vs 10:46) speak"
       ]
     },
     {
@@ -218,7 +219,8 @@
         "Drok POST_CLOSE hourly 2026-10-20 06:45 HKT",
         "Drok POST_CLOSE hourly 2026-10-20 07:45 HKT",
         "Drok Asia open hourly 2026-10-20 08:40 HKT",
-        "Drok Asia open hourly 2026-10-20 09:45 HKT"
+        "Drok Asia open hourly 2026-10-20 09:45 HKT",
+        "Drok Asia mid hourly 2026-10-20 11:46 HKT"
       ],
       "fedWatchPost": {
         "octHoldPct": 85.1,
@@ -300,20 +302,20 @@
     "summaryTw": "非農就業（2026年9月） @ 2026-10-02\n數據：弱過預期（actual < consensus）\n當日大盤：+0.74%\n留意：數據偏弱但大市上升（利好降息／軟著陸交易）\n收市K線：膠住／十字味：實體細，方向未決；收市創近期新高／破阻力；企穩 SMA20 上方；企穩 SMA50 上方\n其後4日：D+1 0.67%(修復／延續上升)，D+2 0.55%(修復／延續上升)，D+3 -0.24%(失地／回吐)，D+4 -0.42%(失地／回吐)；其後 10/9 +0.60%、10/12 -0.06%"
   },
   "watch": {
-    "【閘門】**不適用 post-close・未觸發**｜QQQ +1.21%（$718.36）／SPY +0.42%；NQ +1.10%／ES +0.54%": true,
+    "【閘門】**不適用 post-close・未觸發**｜QQQ +1.21%（$718.36）／SPY +0.42%；NQ +1.30%／ES +0.61%": true,
     "【FedWatch】10月 side hold 80.5%／hike 19.5%（Investing 403 retained 戳 Oct 19, 2026 06:15PM EDT；Δ+0.0pp）；Current 80.5/19.5": true,
-    "【交叉】SessionOpen ~82/18（Δ+0.0pp vs 09:45）": true,
+    "【交叉】SessionOpen ~84/16（Δ+2.0pp vs 10:46）": true,
     "【半導／CRWV】SMH +1.61%；CRWV -0.44%（$61.12）；AMD/MU ~+1.76%/+2.97%": true,
-    "【亞洲開盤】**韓綜 -2.54%（Δ+0.93pp）／日經 -0.62%／恒指 -1.09% OPEN**": true,
+    "【亞洲開盤】**韓綜 -3.24%（Δ−0.70pp）／日經 -0.62%／恒指 -0.94% OPEN**": true,
     "【日曆】Warsh blackout 已生效 → 10/28 FOMC": true,
-    "【美元／波幅】DXY ~101.878；VIX 18.44（-7.75%）；TNX 5.136": true,
+    "【美元／波幅】DXY ~101.84；VIX 18.44（-7.75%）；TNX 5.136": true,
     "【業績／FOMC】META/TSLA 10/21｜MSFT/GOOGL 10/28｜FOMC 10/27–28": true,
-    "【決策】**發群**｜韓綜 Δ+0.93pp（NQ Δ+0.15pp）": true
+    "【決策】**發群**｜韓綜 Δ−0.70pp（NQ Δ+0.20pp）": true
   },
-  "mag7Note": "美股 Mon RTH 收（Yahoo chart；~2026-10-20 10:46 HKT）：AAPL -0.15%、MSFT +0.84%、NVDA +1.38%、META -0.55%、TSLA +3.76%、GOOGL +1.05%、AMZN +4.98%；AMD +1.76%、MU +2.97%；SMH +1.61%（$548.46）；CRWV -0.44%（$61.12）",
-  "summaryTw": "【閘門】**不適用（post-close）・未觸發**｜Mon US POST_CLOSE｜QQQ +1.21%／SPY +0.42%；NQ +1.10%／ES +0.54%；VIX 18.44（-7.75%）。\n【FedWatch】hold 80.5%／+25 19.5%（Investing 403 retained 戳 Oct 19, 2026 06:15PM EDT・side Δ+0.0pp）；Current 80.5/19.5；SessionOpen 82/18（Δ+0.0pp）。\n【美股／亞洲】**日／韓／港開市中・韓回升**｜日經 -0.62%／韓綜 -2.54%／恒指 -1.09%｜SMH +1.61%／CRWV -0.44%。\n【日曆】Warsh blackout→10/28 FOMC；港 10/20 已重開；META/TSLA 10/21｜MSFT/GOOGL＋FOMC 10/27–28。\n【結論】**發群**／韓綜 Δ+0.93pp・閘門 N/A・Pages 刷新。",
-  "thinkingLog": "2026-10-20 10:46 HKT: hourly after 09:45. Mon US cash closed ~04:00 HKT; POST_CLOSE; Asia KR/JP/HK OPEN (HK morning). gateApplicable=false gateFired=false (QQQ +1.21% / SPY +0.42%; Tue premarket gate N/A ~16:00). vs 09:45: QQQ Δ+0.00pp SPY Δ+0.00pp NQ Δ+0.15pp ES Δ+0.07pp; FedWatch side 80.5 Δ+0.0pp (Investing 403 retained stamp Oct 19, 2026 06:15PM EDT); SessionOpen 82/18 Δ+0.0pp. KS11 -3.47%→-2.54% (Δ+0.93pp); HSI -0.70%→-1.09% (Δ-0.39pp); N225 -0.91%→-0.62% (Δ+0.29pp). → materialChange=true; speakToStockGroup=true.",
-  "liveSync": "lastRefresh=2026-10-20 10:46 HKT; session=Mon US POST_CLOSE / Asia KR+JP+HK OPEN; gateApplicable=false; gateFired=false; materialChange=true; speakToStockGroup=true; QQQ=718.36(+1.21% vs Fri); SPY=766.48(+0.42%); FedWatch side hold 80.5/+25 19.5 (Investing 403 retained stamp Oct 19, 2026 06:15PM EDT; Current 80.5/19.5; SessionOpen 82.0/18.0); NQ=29714.75(+1.10% vs Fri Δ+0.15pp vs 09:45) ES=7745.5(+0.54%); VIX=18.44; N225=64512.35(-0.62% OPEN) KS11=5621.75(-2.54% OPEN); HSI=23923.26(-1.09% OPEN_TUE); Warsh blackout→10/28; SPEAK; pagesCommit=4d7d9347",
+  "mag7Note": "美股 Mon RTH 收（Yahoo chart；~2026-10-20 11:46 HKT）：AAPL -0.15%、MSFT +0.84%、NVDA +1.38%、META -0.55%、TSLA +3.76%、GOOGL +1.05%、AMZN +4.98%；AMD +1.76%、MU +2.97%；SMH +1.61%（$548.46）；CRWV -0.44%（$61.12）",
+  "summaryTw": "【閘門】**不適用（post-close）・未觸發**｜Mon US POST_CLOSE｜QQQ +1.21%／SPY +0.42%；NQ +1.30%／ES +0.61%；VIX 18.44（-7.75%）。\n【FedWatch】hold 80.5%／+25 19.5%（Investing 403 retained 戳 Oct 19, 2026 06:15PM EDT・side Δ+0.0pp）；Current 80.5/19.5；SessionOpen 84/16（Δ+2.0pp）。\n【美股／亞洲】**日／韓／港開市中・韓再轉弱**｜日經 -0.62%／韓綜 -3.24%／恒指 -0.94%｜SMH +1.61%／CRWV -0.44%。\n【日曆】Warsh blackout→10/28 FOMC；港 10/20 已重開；META/TSLA 10/21｜MSFT/GOOGL＋FOMC 10/27–28。\n【結論】**發群**／韓綜 Δ−0.70pp・閘門 N/A・Pages 刷新。",
+  "thinkingLog": "2026-10-20 11:46 HKT: hourly after 10:46. Mon US cash closed ~04:00 HKT; POST_CLOSE; Asia KR/JP/HK OPEN (HK mid). gateApplicable=false gateFired=false (QQQ +1.21% / SPY +0.42%; Tue premarket gate N/A ~16:00). vs 10:46: QQQ Δ+0.00pp SPY Δ+0.00pp NQ Δ+0.20pp ES Δ+0.07pp; FedWatch side 80.5 Δ+0.0pp (Investing 403 retained stamp Oct 19, 2026 06:15PM EDT); SessionOpen 84/16 Δ+2.0pp. KS11 -2.54%→-3.24% (Δ-0.70pp); HSI -1.09%→-0.94% (Δ+0.15pp); N225 -0.62%→-0.62% (Δ+0.00pp). → materialChange=true; speakToStockGroup=true.",
+  "liveSync": "lastRefresh=2026-10-20 11:46 HKT; session=Mon US POST_CLOSE / Asia KR+JP+HK OPEN; gateApplicable=false; gateFired=false; materialChange=true; speakToStockGroup=true; QQQ=718.36(+1.21% vs Fri); SPY=766.48(+0.42%); FedWatch side hold 80.5/+25 19.5 (Investing 403 retained stamp Oct 19, 2026 06:15PM EDT; Current 80.5/19.5; SessionOpen 84.0/16.0); NQ=29773.75(+1.30% vs Fri Δ+0.20pp vs 10:46) ES=7751.0(+0.61%); VIX=18.44; N225=64516.76(-0.62% OPEN) KS11=5581.1(-3.24% OPEN); HSI=23959.39(-0.94% OPEN_TUE); Warsh blackout→10/28; SPEAK; pagesCommit=pending",
   "brief": {
     "skeleton": [
       "閘門",
@@ -323,65 +325,65 @@
       "結論"
     ],
     "sections": {
-      "閘門": "**閘門不適用（post-close）・未觸發**｜HKT Tue Asia mid／Mon US cash **已收**（~04:00 HKT）｜session=**POST_CLOSE／Asia cash OPEN（日／韓／港）**｜QQQ **+1.21%**（$718.36 vs 週五收 $709.8）／SPY **+0.42%**（$766.48 vs $763.25）｜NQ 29,714.75（vs 週五 29391.5 **+1.10%**）／ES 7,745.50（**+0.54%**）｜VIX 18.44（-7.75% vs 週五 19.99）｜premarket 閘門窗未開（Tue ~16:00 HKT）・RTH 日變未跌穿 −0.65%・**未觸閘門**｜vs 09:45：QQQ Δ+0.00pp／SPY Δ+0.00pp／NQ Δ+0.15pp。",
-      "FedWatch": "10/28 hold **80.5%**／+25bp **19.5%**（Investing.com 會議卡／side／Current；Updated: Oct 19, 2026 06:15PM EDT；**本輪 HTTP 403 保留**；vs 09:45 side **Δ+0.0pp**・≪5pp）｜主表 Current Probability：**80.5%**／**19.5%**（Previous Day 83.9/16.1）｜交叉：SessionOpen Hold **82.0%**／+25 **18.0%**（sessionopen.com/fed-watch 2026-10-20 10:46 HKT；vs 09:45 **Δ+0.0pp** hold・≪5pp）｜CME FedWatch tool 未取（403）｜kryptomagazin 本輪未重取（保留 ~80/20 as of 2026-10-19 22:59 UTC）｜12月 Investing Current hold 9.4%／+25 73.4%／+50 17.2%（保留）——年末仍偏加息。",
-      "美股／亞洲": "**亞洲日／韓／港開市中・韓綜回升・恒指轉弱**｜QQQ +1.21%／SPY +0.42%（Mon RTH 收；vs 09:45 不變）｜NQ 29,714.75（**+1.10%** vs 週五；vs 09:45 +0.95% **Δ+0.15pp**）／ES 7,745.50（+0.54%；Δ+0.07pp）｜VIX 18.44（-7.75%）｜DXY ~101.878｜TNX 5.136｜日經 **OPEN 64,512.35（-0.62%** vs Mon 收 64,916.7；vs 09:45 −0.91% Δ+0.29pp）｜韓綜 **OPEN 5,621.75（-2.54%** vs Mon 收 5,768.01；vs 09:45 −3.47% **Δ+0.93pp**）｜恒指 **OPEN 23,923.26（-1.09%** vs 週五收 24,186.83；港 **10/19 休市**；**10/20 已重開**；vs 09:45 −0.70% Δ-0.39pp）｜SMH **+1.61%**（$548.46）｜CRWV **-0.44%**（$61.12）｜AMD +1.76%／MU +2.97%；AMZN +4.98%／TSLA +3.76%／NVDA +1.38%；META -0.55%；AAPL -0.15%；MSFT +0.84%／GOOGL +1.05%。",
-      "日曆": "Warsh×Georgieva IMF 曼谷 fireside **已畢**（2026-10-16 11:30–12:00 HKT）｜**blackout 已生效**（約 10/17 → 10/28 FOMC／至約 10/29）｜Fed Board 10月日曆：blackout 期間無新增可引用之 FOMC 政策公開（本輪 fed.gov Speakers/2026-october.htm HTTP 404・保留既有 Warsh 條目）｜**港股 10/19 重陽節翌日休市**（HKEX；**10/20 日間已重開**・恒指 -1.09%）｜META/TSLA 業績 **10/21（約 D-1）**｜MSFT/GOOGL 10/28｜FOMC 10/27–28。",
-      "結論": "**發群**：韓綜回升材料門檻觸發——KS11 −3.47%→**-2.54%**（Δ**+0.93pp** ≥~0.5–1pp）｜日經 −0.91%→-0.62%（Δ+0.29pp・未觸）｜恒指 −0.70%→-1.09%（Δ-0.39pp・未觸 ≥0.5）｜vs 09:45 NQ +0.95%→+1.10%（Δ+0.15pp）／QQQ Δ+0.00pp／ES Δ+0.07pp——期貨未觸 ≥~0.4–0.5pp｜閘門不適用 post-close・未觸發（QQQ +1.21%／SPY +0.42%）｜FedWatch side 80.5/19.5 Δ+0.0pp（Investing 403 retained Oct 19, 2026 06:15PM EDT；≪5pp）；SessionOpen 82/18（Δ+0.0pp）｜Warsh blackout→10/28｜Pages 刷新・**發 Stock 群**。"
+      "閘門": "**閘門不適用（post-close）・未觸發**｜HKT Tue Asia mid／Mon US cash **已收**（~04:00 HKT）｜session=**POST_CLOSE／Asia cash OPEN（日／韓／港）**｜QQQ **+1.21%**（$718.36 vs 週五收 $709.8）／SPY **+0.42%**（$766.48 vs $763.25）｜NQ 29,773.75（vs 週五 29391.5 **+1.30%**）／ES 7,751.00（**+0.61%**）｜VIX 18.44（-7.75% vs 週五 19.99）｜premarket 閘門窗未開（Tue ~16:00 HKT）・RTH 日變未跌穿 −0.65%・**未觸閘門**｜vs 10:46：QQQ Δ+0.00pp／SPY Δ+0.00pp／NQ Δ+0.20pp。",
+      "FedWatch": "10/28 hold **80.5%**／+25bp **19.5%**（Investing.com 會議卡／side／Current；Updated: Oct 19, 2026 06:15PM EDT；**本輪 HTTP 403 保留**；vs 10:46 side **Δ+0.0pp**・≪5pp）｜主表 Current Probability：**80.5%**／**19.5%**（Previous Day 83.9/16.1）｜交叉：SessionOpen Hold **84.0%**／+25 **16.0%**（sessionopen.com/fed-watch 2026-10-20 11:46 HKT；vs 10:46 82/18 **Δ+2.0pp** hold・≪5pp）｜CME FedWatch tool 未取（403）｜kryptomagazin 本輪未重取（保留 ~80/20 as of 2026-10-19 22:59 UTC）｜12月 Investing Current hold 9.4%／+25 73.4%／+50 17.2%（保留）——年末仍偏加息。",
+      "美股／亞洲": "**亞洲日／韓／港開市中・韓綜再轉弱・恒指稍修復**｜QQQ +1.21%／SPY +0.42%（Mon RTH 收；vs 10:46 不變）｜NQ 29,773.75（**+1.30%** vs 週五；vs 10:46 +1.10% **Δ+0.20pp**）／ES 7,751.00（+0.61%；Δ+0.07pp）｜VIX 18.44（-7.75%）｜DXY ~101.84｜TNX 5.136｜日經 **OPEN 64,516.76（-0.62%** vs Mon 收 64,916.7；vs 10:46 −0.62% Δ+0.00pp）｜韓綜 **OPEN 5,581.10（-3.24%** vs Mon 收 5,768.01；vs 10:46 −2.54% **Δ-0.70pp**）｜恒指 **OPEN 23,959.39（-0.94%** vs 週五收 24,186.83；港 **10/19 休市**；**10/20 已重開**；vs 10:46 −1.09% Δ+0.15pp）｜SMH **+1.61%**（$548.46）｜CRWV **-0.44%**（$61.12）｜AMD +1.76%／MU +2.97%；AMZN +4.98%／TSLA +3.76%／NVDA +1.38%；META -0.55%；AAPL -0.15%；MSFT +0.84%／GOOGL +1.05%。",
+      "日曆": "Warsh×Georgieva IMF 曼谷 fireside **已畢**（2026-10-16 11:30–12:00 HKT）｜**blackout 已生效**（約 10/17 → 10/28 FOMC／至約 10/29）｜Fed Board 10月日曆：blackout 期間無新增可引用之 FOMC 政策公開（本輪 fed.gov Speakers/2026-october.htm HTTP 404・保留既有 Warsh 條目）｜**港股 10/19 重陽節翌日休市**（HKEX；**10/20 日間已重開**・恒指 -0.94%）｜META/TSLA 業績 **10/21（約 D-1）**｜MSFT/GOOGL 10/28｜FOMC 10/27–28。",
+      "結論": "**發群**：韓綜再轉弱材料門檻觸發——KS11 −2.54%→**−3.24%**（Δ**−0.70pp** ≥~0.5–1pp）｜日經 −0.62%→−0.62%（Δ+0.00pp・未觸）｜恒指 −1.09%→−0.94%（Δ+0.15pp・未觸 ≥0.5）｜vs 10:46 NQ +1.10%→+1.30%（Δ+0.20pp）／QQQ Δ+0.00pp／ES Δ+0.07pp——期貨未觸 ≥~0.4–0.5pp｜閘門不適用 post-close・未觸發（QQQ +1.21%／SPY +0.42%）｜FedWatch side 80.5/19.5 Δ+0.0pp（Investing 403 retained Oct 19, 2026 06:15PM EDT；≪5pp）；SessionOpen 84/16（Δ+2.0pp）｜Warsh blackout→10/28｜Pages 刷新・**發 Stock 群**。"
     },
-    "chatTw": "【Drok｜大市分析｜韓綜回升−2.54%・Δ+0.93pp・閘門N/A・發群｜2026-10-20 10:46 HKT】\n閘門｜**閘門不適用（post-close）・未觸發**｜HKT Tue Asia mid／Mon US cash **已收**（~04:00 HKT）｜session=**POST_CLOSE／Asia cash OPEN（日／韓／港）**｜QQQ **+1.21%**（$718.36 vs 週五收 $709.8）／SPY **+0.42%**（$766.48 vs $763.25）｜NQ 29,714.75（vs 週五 29391.5 **+1.10%**）／ES 7,745.50（**+0.54%**）｜VIX 18.44（-7.75% vs 週五 19.99）｜premarket 閘門窗未開（Tue ~16:00 HKT）・RTH 日變未跌穿 −0.65%・**未觸閘門**｜vs 09:45：QQQ Δ+0.00pp／SPY Δ+0.00pp／NQ Δ+0.15pp。\nFedWatch｜10/28 hold **80.5%**／+25bp **19.5%**（Investing.com 會議卡／side／Current；Updated: Oct 19, 2026 06:15PM EDT；**本輪 HTTP 403 保留**；vs 09:45 side **Δ+0.0pp**・≪5pp）｜主表 Current Probability：**80.5%**／**19.5%**（Previous Day 83.9/16.1）｜交叉：SessionOpen Hold **82.0%**／+25 **18.0%**（sessionopen.com/fed-watch 2026-10-20 10:46 HKT；vs 09:45 **Δ+0.0pp** hold・≪5pp）｜CME FedWatch tool 未取（403）｜kryptomagazin 本輪未重取（保留 ~80/20 as of 2026-10-19 22:59 UTC）｜12月 Investing Current hold 9.4%／+25 73.4%／+50 17.2%（保留）——年末仍偏加息。\n美股／亞洲｜**亞洲日／韓／港開市中・韓綜回升・恒指轉弱**｜QQQ +1.21%／SPY +0.42%（Mon RTH 收；vs 09:45 不變）｜NQ 29,714.75（**+1.10%** vs 週五；vs 09:45 +0.95% **Δ+0.15pp**）／ES 7,745.50（+0.54%；Δ+0.07pp）｜VIX 18.44（-7.75%）｜DXY ~101.878｜TNX 5.136｜日經 **OPEN 64,512.35（-0.62%** vs Mon 收 64,916.7；vs 09:45 −0.91% Δ+0.29pp）｜韓綜 **OPEN 5,621.75（-2.54%** vs Mon 收 5,768.01；vs 09:45 −3.47% **Δ+0.93pp**）｜恒指 **OPEN 23,923.26（-1.09%** vs 週五收 24,186.83；港 **10/19 休市**；**10/20 已重開**；vs 09:45 −0.70% Δ-0.39pp）｜SMH **+1.61%**（$548.46）｜CRWV **-0.44%**（$61.12）｜AMD +1.76%／MU +2.97%；AMZN +4.98%／TSLA +3.76%／NVDA +1.38%；META -0.55%；AAPL -0.15%；MSFT +0.84%／GOOGL +1.05%。\n日曆｜Warsh×Georgieva IMF 曼谷 fireside **已畢**（2026-10-16 11:30–12:00 HKT）｜**blackout 已生效**（約 10/17 → 10/28 FOMC／至約 10/29）｜Fed Board 10月日曆：blackout 期間無新增可引用之 FOMC 政策公開（本輪 fed.gov Speakers/2026-october.htm HTTP 404・保留既有 Warsh 條目）｜**港股 10/19 重陽節翌日休市**（HKEX；**10/20 日間已重開**・恒指 -1.09%）｜META/TSLA 業績 **10/21（約 D-1）**｜MSFT/GOOGL 10/28｜FOMC 10/27–28。\n結論｜**發群**：韓綜回升材料門檻觸發——KS11 −3.47%→**-2.54%**（Δ**+0.93pp** ≥~0.5–1pp）｜日經 −0.91%→-0.62%（Δ+0.29pp・未觸）｜恒指 −0.70%→-1.09%（Δ-0.39pp・未觸 ≥0.5）｜vs 09:45 NQ +0.95%→+1.10%（Δ+0.15pp）／QQQ Δ+0.00pp／ES Δ+0.07pp——期貨未觸 ≥~0.4–0.5pp｜閘門不適用 post-close・未觸發（QQQ +1.21%／SPY +0.42%）｜FedWatch side 80.5/19.5 Δ+0.0pp（Investing 403 retained Oct 19, 2026 06:15PM EDT；≪5pp）；SessionOpen 82/18（Δ+0.0pp）｜Warsh blackout→10/28｜Pages 刷新・**發 Stock 群**。\nPages｜https://wolfoofwolf.github.io/stockdesk/?v=macro1046-1020",
-    "asOfHKT": "2026-10-20 10:46 HKT"
+    "chatTw": "【Drok｜大市分析｜韓綜再轉弱−3.24%・Δ−0.70pp・閘門N/A・發群｜2026-10-20 11:46 HKT】\n閘門｜**閘門不適用（post-close）・未觸發**｜HKT Tue Asia mid／Mon US cash **已收**（~04:00 HKT）｜session=**POST_CLOSE／Asia cash OPEN（日／韓／港）**｜QQQ **+1.21%**（$718.36 vs 週五收 $709.8）／SPY **+0.42%**（$766.48 vs $763.25）｜NQ 29,773.75（vs 週五 29391.5 **+1.30%**）／ES 7,751.00（**+0.61%**）｜VIX 18.44（-7.75% vs 週五 19.99）｜premarket 閘門窗未開（Tue ~16:00 HKT）・RTH 日變未跌穿 −0.65%・**未觸閘門**｜vs 10:46：QQQ Δ+0.00pp／SPY Δ+0.00pp／NQ Δ+0.20pp。\nFedWatch｜10/28 hold **80.5%**／+25bp **19.5%**（Investing.com 會議卡／side／Current；Updated: Oct 19, 2026 06:15PM EDT；**本輪 HTTP 403 保留**；vs 10:46 side **Δ+0.0pp**・≪5pp）｜主表 Current Probability：**80.5%**／**19.5%**（Previous Day 83.9/16.1）｜交叉：SessionOpen Hold **84.0%**／+25 **16.0%**（sessionopen.com/fed-watch 2026-10-20 11:46 HKT；vs 10:46 82/18 **Δ+2.0pp** hold・≪5pp）｜CME FedWatch tool 未取（403）｜kryptomagazin 本輪未重取（保留 ~80/20 as of 2026-10-19 22:59 UTC）｜12月 Investing Current hold 9.4%／+25 73.4%／+50 17.2%（保留）——年末仍偏加息。\n美股／亞洲｜**亞洲日／韓／港開市中・韓綜再轉弱・恒指稍修復**｜QQQ +1.21%／SPY +0.42%（Mon RTH 收；vs 10:46 不變）｜NQ 29,773.75（**+1.30%** vs 週五；vs 10:46 +1.10% **Δ+0.20pp**）／ES 7,751.00（+0.61%；Δ+0.07pp）｜VIX 18.44（-7.75%）｜DXY ~101.84｜TNX 5.136｜日經 **OPEN 64,516.76（-0.62%** vs Mon 收 64,916.7；vs 10:46 −0.62% Δ+0.00pp）｜韓綜 **OPEN 5,581.10（-3.24%** vs Mon 收 5,768.01；vs 10:46 −2.54% **Δ-0.70pp**）｜恒指 **OPEN 23,959.39（-0.94%** vs 週五收 24,186.83；港 **10/19 休市**；**10/20 已重開**；vs 10:46 −1.09% Δ+0.15pp）｜SMH **+1.61%**（$548.46）｜CRWV **-0.44%**（$61.12）｜AMD +1.76%／MU +2.97%；AMZN +4.98%／TSLA +3.76%／NVDA +1.38%；META -0.55%；AAPL -0.15%；MSFT +0.84%／GOOGL +1.05%。\n日曆｜Warsh×Georgieva IMF 曼谷 fireside **已畢**（2026-10-16 11:30–12:00 HKT）｜**blackout 已生效**（約 10/17 → 10/28 FOMC／至約 10/29）｜Fed Board 10月日曆：blackout 期間無新增可引用之 FOMC 政策公開（本輪 fed.gov Speakers/2026-october.htm HTTP 404・保留既有 Warsh 條目）｜**港股 10/19 重陽節翌日休市**（HKEX；**10/20 日間已重開**・恒指 -0.94%）｜META/TSLA 業績 **10/21（約 D-1）**｜MSFT/GOOGL 10/28｜FOMC 10/27–28。\n結論｜**發群**：韓綜再轉弱材料門檻觸發——KS11 −2.54%→**−3.24%**（Δ**−0.70pp** ≥~0.5–1pp）｜日經 −0.62%→−0.62%（Δ+0.00pp・未觸）｜恒指 −1.09%→−0.94%（Δ+0.15pp・未觸 ≥0.5）｜vs 10:46 NQ +1.10%→+1.30%（Δ+0.20pp）／QQQ Δ+0.00pp／ES Δ+0.07pp——期貨未觸 ≥~0.4–0.5pp｜閘門不適用 post-close・未觸發（QQQ +1.21%／SPY +0.42%）｜FedWatch side 80.5/19.5 Δ+0.0pp（Investing 403 retained Oct 19, 2026 06:15PM EDT；≪5pp）；SessionOpen 84/16（Δ+2.0pp）｜Warsh blackout→10/28｜Pages 刷新・**發 Stock 群**。\nPages｜https://wolfoofwolf.github.io/stockdesk/?v=macro1146-1020",
+    "asOfHKT": "2026-10-20 11:46 HKT"
   },
   "refreshSnapshot": {
-    "session": "HKT Tue Asia mid / Mon US POST_CLOSE (~after 04:00 HKT cash close); Tokyo+Seoul+HK OPEN (HK morning after 10/19 holiday)",
-    "asOfHKT": "2026-10-20 10:46 HKT",
-    "asOf": "2026-10-20T02:46:00.000Z",
-    "runTag": "1046",
+    "session": "HKT Tue Asia mid / Mon US POST_CLOSE (~after 04:00 HKT cash close); Tokyo+Seoul+HK OPEN (HK mid after 10/19 holiday)",
+    "asOfHKT": "2026-10-20 11:46 HKT",
+    "asOf": "2026-10-20T03:46:00.000Z",
+    "runTag": "1146",
     "gateFired": false,
     "gateApplicable": false,
     "premarketStartsHKT": "2026-10-20 ~16:00 HKT (Tue US premarket not yet open)",
     "cashOpenHKT": "2026-10-19 ~21:30 HKT",
     "cashCloseHKT": "2026-10-20 ~04:00 HKT",
     "usageCatchUp": false,
-    "priorBrief": "2026-10-20 09:45 HKT",
+    "priorBrief": "2026-10-20 10:46 HKT",
     "quotes": {
       "QQQ": {
         "last": 718.36,
         "dayPct": 1.21,
         "prevCloseFri": 709.8,
         "session": "POST_CLOSE",
-        "src": "Yahoo chart ~2026-10-20 10:46 HKT"
+        "src": "Yahoo chart ~2026-10-20 11:46 HKT"
       },
       "SPY": {
         "last": 766.48,
         "dayPct": 0.42,
         "prevCloseFri": 763.25,
         "session": "POST_CLOSE",
-        "src": "Yahoo chart ~2026-10-20 10:46 HKT"
+        "src": "Yahoo chart ~2026-10-20 11:46 HKT"
       },
       "NQ=F": {
-        "last": 29714.75,
-        "vsFriPct": 1.1,
+        "last": 29773.75,
+        "vsFriPct": 1.3,
         "friLast": 29391.5,
         "session": "OPEN",
-        "src": "Yahoo NQ=F 5m ~2026-10-20 10:46 HKT",
-        "yahooChart": 29714.75
+        "src": "Yahoo NQ=F 5m ~2026-10-20 11:46 HKT",
+        "yahooChart": 29773.75
       },
       "ES=F": {
-        "last": 7745.5,
-        "vsFriPct": 0.54,
+        "last": 7751.0,
+        "vsFriPct": 0.61,
         "friLast": 7704.25,
         "session": "OPEN",
-        "src": "Yahoo ES=F 5m ~2026-10-20 10:46 HKT",
-        "yahooChart": 7745.5
+        "src": "Yahoo ES=F 5m ~2026-10-20 11:46 HKT",
+        "yahooChart": 7751.0
       },
       "VIX": 18.44,
       "VIX_dayPct": -7.75,
       "VIX_prev": 19.99,
-      "VIX_src": "Yahoo ^VIX ~2026-10-20 10:46 HKT",
+      "VIX_src": "Yahoo ^VIX ~2026-10-20 11:46 HKT",
       "TNX": 5.136,
-      "TNX_src": "Yahoo ^TNX ~2026-10-20 10:46 HKT",
-      "DXY": 101.878,
+      "TNX_src": "Yahoo ^TNX ~2026-10-20 11:46 HKT",
+      "DXY": 101.84,
       "DXY_src": "Yahoo DX-Y.NYB",
       "CRWV": {
         "last": 61.12,
@@ -397,26 +399,26 @@
       },
       "Asia": {
         "N225": {
-          "last": 64512.35,
+          "last": 64516.76,
           "dayPct": -0.62,
           "session": "OPEN_TUE",
           "prevCloseMon": 64916.7,
-          "src": "Yahoo ^N225 5m ~2026-10-20 10:46 HKT"
+          "src": "Yahoo ^N225 5m ~2026-10-20 11:46 HKT"
         },
         "KS11": {
-          "last": 5621.75,
-          "dayPct": -2.54,
+          "last": 5581.1,
+          "dayPct": -3.24,
           "session": "OPEN_TUE",
           "prevCloseMon": 5768.01,
-          "src": "Yahoo ^KS11 5m ~2026-10-20 10:46 HKT"
+          "src": "Yahoo ^KS11 5m ~2026-10-20 11:46 HKT"
         },
         "HSI": {
-          "last": 23923.26,
-          "dayPct": -1.09,
+          "last": 23959.39,
+          "dayPct": -0.94,
           "session": "OPEN_TUE",
           "prevCloseFri": 24186.83,
-          "note": "HKEX holiday closed 2026-10-19; day session 2026-10-20 OPEN (vs 09:45 first print)",
-          "src": "Yahoo ^HSI 5m ~2026-10-20 10:46 HKT"
+          "note": "HKEX holiday closed 2026-10-19; day session 2026-10-20 OPEN (vs 10:46 mid)",
+          "src": "Yahoo ^HSI 5m ~2026-10-20 11:46 HKT"
         },
         "session": "Tokyo+Seoul+HK OPEN Tue mid-morning"
       },
@@ -474,9 +476,9 @@
       },
       "crossChecks": {
         "sessionOpen": {
-          "holdPct": 82.0,
-          "hike25Pct": 18.0,
-          "source": "sessionopen.com/fed-watch — UI Hold 82.0% / 25bp hike 18.0% read 2026-10-20 10:46 HKT (OCT 27–28 DECISION ODDS)"
+          "holdPct": 84.0,
+          "hike25Pct": 16.0,
+          "source": "sessionopen.com/fed-watch — UI Hold 84.0% / 25bp hike 16.0% read 2026-10-20 11:46 HKT (OCT 27–28 DECISION ODDS; prices as of 2026-10-20 close)"
         },
         "kalshi": {
           "holdPct": 86.0,
@@ -489,18 +491,25 @@
           "source": "terminal.kryptomagazin.cz CME-method as of 2026-10-19 22:59 UTC (本輪未重取 retained)"
         }
       },
-      "deltaVs0945_side": 0.0,
-      "deltaVs0945_sessionOpen": 0.0,
+      "deltaVs1046_side": 0.0,
+      "deltaVs1046_sessionOpen": 2.0,
       "investingFetch": "HTTP 403 retained stamp Oct 19, 2026 06:15PM EDT"
     },
     "materialChange": true,
     "speakToStockGroup": true,
     "materialReasons": [
-      "韓綜 vs 09:45 回升：OPEN **-2.54%**（5,621.75 vs Mon 收 5,768.01）← 09:45 −3.47%（Δ**+0.93pp** ≥~0.5–1pp）"
+      "韓綜 vs 10:46 轉弱：OPEN **−3.24%**（5,581.10 vs Mon 收 5,768.01）← 10:46 −2.54%（Δ**−0.70pp** ≥~0.5–1pp）"
     ],
-    "silentReasons": [],
+    "silentReasons": [
+      "閘門不適用 post-close・未觸發（QQQ +1.21%／SPY +0.42%）",
+      "QQQ/SPY dayPct Δ+0.00pp",
+      "NQ vsFri +1.30%（Δ+0.20pp ≪0.4–0.5）／ES +0.61%（Δ+0.07pp）",
+      "N225 −0.62% Δ+0.00pp／HSI −0.94% Δ+0.15pp（未觸 ≥0.5）",
+      "FedWatch side 80.5/19.5 Δ+0.0pp（Investing 403 retained Oct 19, 2026 06:15PM EDT；≪5pp）",
+      "SessionOpen 84/16（Δ+2.0pp hold・≪5pp）"
+    ],
     "pipelineNote": "558→53→26→26 still asOf 10-16 until cash-open tech rescan",
-    "vs0945": {
+    "vs1046": {
       "QQQ_dayPct": {
         "from": 1.21,
         "to": 1.21,
@@ -512,13 +521,13 @@
         "deltaPp": 0.0
       },
       "NQ_vsFriPct": {
-        "from": 0.95,
-        "to": 1.1,
-        "deltaPp": 0.15
+        "from": 1.1,
+        "to": 1.3,
+        "deltaPp": 0.2
       },
       "ES_vsFriPct": {
-        "from": 0.47,
-        "to": 0.54,
+        "from": 0.54,
+        "to": 0.61,
         "deltaPp": 0.07
       },
       "VIX": {
@@ -532,33 +541,33 @@
       },
       "SessionOpen_hold": {
         "from": 82.0,
-        "to": 82.0,
-        "deltaPp": 0.0
+        "to": 84.0,
+        "deltaPp": 2.0
       },
       "N225_dayPct": {
-        "from": -0.91,
+        "from": -0.62,
         "to": -0.62,
         "fromSession": "OPEN_TUE",
         "toSession": "OPEN_TUE",
-        "deltaPp": 0.29
+        "deltaPp": 0.0
       },
       "KS11_dayPct": {
-        "from": -3.47,
-        "to": -2.54,
+        "from": -2.54,
+        "to": -3.24,
         "fromSession": "OPEN_TUE",
         "toSession": "OPEN_TUE",
-        "deltaPp": 0.93
+        "deltaPp": -0.7
       },
       "HSI_dayPct": {
-        "from": -0.7,
-        "to": -1.09,
+        "from": -1.09,
+        "to": -0.94,
         "fromSession": "OPEN_TUE",
         "toSession": "OPEN_TUE",
-        "deltaPp": -0.39
+        "deltaPp": 0.15
       }
     },
-    "pagesCommitSha": "4d7d9347250fc224c961fcfae30357bfe53196fd",
-    "pagesBlobSha": "a0740c6752213c4ca293899ed40e5a7129971581",
-    "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1046-1020"
+    "pagesCommitSha": null,
+    "pagesBlobSha": null,
+    "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1146-1020"
   }
 }
