@@ -1,84 +1,79 @@
 {
-  "generatedAt": "2026-10-20T13:38:23.000Z",
+  "generatedAt": "2026-10-20T13:48:03.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-20 21:38 HKT",
+  "asOfHKT": "2026-10-20 21:48 HKT",
   "pipeline": {
     "candidates": 566,
-    "techPassed": 51,
+    "techPassed": 58,
     "company": 51,
     "leaders": 24,
     "entry": 24,
     "entryConsider": 24,
     "entryWatch": 0,
     "downstreamStale": true,
-    "anchor": "STALE 566→51→24→24 pending Grok techPass on full 566 (Frok cash-open 10-20 tip TBD). Old lock ee340bc 531→51→24→24 retired as pipeline start."
+    "anchor": "STALE 566→58→?→? pending Jrok on 58 then Arok entry. Grok tip 84d8dad asOfMarket 10-20. Gate RTH FIRED QQQ −0.87%. Entry page untouched."
   },
-  "summaryTw": "【總司令｜2026-10-20 21:38 HKT】\n閘門｜**適用・未觸發**｜已解除（21:04 回穿）｜跟 RTH\n管道｜**566→51→24→24**｜downstreamStale **true**｜等 Grok② 全數 566\n①｜Frok cash-open **566**（Δ＋16 vs 550｜10-20 bar｜宇宙 1168）\n②③⑤｜舊 **51／24／24** pending 重鎖\nFedWatch｜hold **86.2%**／+25 **13.8%**｜META/TSLA **10/21**\n結論｜①真鎖起步；等②｜?v=scr566\nhttps://wolfoofwolf.github.io/stockdesk/?v=scr566",
+  "summaryTw": "【總司令｜2026-10-20 21:48 HKT】\n閘門｜**適用・已觸發**｜QQQ RTH **−0.87%**／SPY **−0.13%**｜**慎新單**\n管道｜**566→58→?→?**｜downstreamStale **true**｜等 Jrok③／Arok⑤\n②｜Grok techPass **58**（`84d8dad`｜10-20）｜VCP 52／bull_flag 6｜Top G·RMD·RELX\n③⑤｜pending（舊 51／24）｜進場頁暫勿動\n①｜Frok **566**（`c525735`）\nFedWatch｜hold **82.8%**／+25 **17.2%**｜META/TSLA **今晚盤後**\n結論｜②齊；等③⑤｜閘門已觸｜?v=tech58\nhttps://wolfoofwolf.github.io/stockdesk/?v=tech58",
   "brief": {
-    "asOfHKT": "2026-10-20 21:38 HKT",
+    "asOfHKT": "2026-10-20 21:48 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "**適用・未觸發**｜21:04 已解除｜跟 RTH"
+        "value": "**適用・已觸發**｜QQQ −0.87%／SPY −0.13%｜慎新單"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "hold **86.2%**／+25 **13.8%**｜blackout→10/28"
+        "value": "hold **82.8%**／+25 **17.2%**｜blackout→10/28"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "cash-open 鏈開｜亞洲已收"
+        "value": "RTH 開盤急挫｜SMH −1.74%／CRWV −6%｜亞已收"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "**META/TSLA 10/21**｜FOMC 10/28"
+        "value": "**META/TSLA 今晚盤後**｜FOMC 10/28"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "**566→51→24→24** stale｜①齊｜等②全數 566"
+        "value": "**566→58→?→?**｜tech `84d8dad`｜**stale**"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "舊前排待②重鎖"
+        "value": "tech Top G·RMD·RELX｜＋AEO／AWK／BNS／NTRA／UGP…｜−XOM／HCA／KDP／KR"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "等 Grok techPass｜?v=scr566"
+        "value": "等 Jrok→Arok→Trok 推⑤（標閘門）｜?v=tech58"
       }
     ]
   },
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=scr566"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=tech58"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-19 22:48 HKT",
-      "bot": "Trok",
-      "msg": "entry24 ee340bc"
-    },
-    {
-      "t": "2026-10-20 21:04 HKT",
-      "bot": "Trok",
-      "msg": "gate CLEARED"
-    },
-    {
       "t": "2026-10-20 21:38 HKT",
       "bot": "Trok",
-      "msg": "cash-open screener 550→566 stale pending Grok"
+      "msg": "scr566 c525735"
+    },
+    {
+      "t": "2026-10-20 21:48 HKT",
+      "bot": "Trok",
+      "msg": "align techPass 58 tip 84d8dad gate FIRED stale pending Jrok"
     }
   ],
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "Frok cash-open true lock start: 550→566 on 10-20 bars; downstream pending Grok full-pool techPass.",
-    "vs": "HOLD 531→51→24→24"
+    "why": "Grok cash-open techPass 51→58 on 566; gate RTH FIRED; downstream pending.",
+    "vs": "scr566"
   }
 }
