@@ -319,7 +319,7 @@
   "mag7Note": "美股 Mon RTH 收（Yahoo chart；~2026-10-20 12:46 HKT）：AAPL -0.15%、MSFT +0.84%、NVDA +1.38%、META -0.55%、TSLA +3.76%、GOOGL +1.05%、AMZN +4.98%；AMD +1.76%、MU +2.97%；SMH +1.61%（$548.46）；CRWV -0.44%（$61.12）",
   "summaryTw": "【閘門】**不適用（post-close）・未觸發**｜Mon US POST_CLOSE｜QQQ +1.21%／SPY +0.42%；NQ +0.92%／ES +0.44%；VIX 18.44（-7.75%）。\n【FedWatch】hold 80.5%／+25 19.5%（Investing 403 retained 戳 Oct 19, 2026 06:15PM EDT・side Δ+0.0pp）；Current 80.5/19.5；SessionOpen 82/18（Δ−2.0pp）。\n【美股／亞洲】**日／韓／港開市中・韓再加深**｜日經 -1.09%／韓綜 -4.17%／恒指 -0.95%｜SMH +1.61%／CRWV -0.44%。\n【日曆】Warsh blackout→10/28 FOMC；港 10/20 已重開；META/TSLA 10/21｜MSFT/GOOGL＋FOMC 10/27–28。\n【結論】**發群**／韓綜 Δ−0.93pp・閘門 N/A・Pages 刷新。",
   "thinkingLog": "2026-10-20 12:46 HKT: hourly after 11:46. Mon US cash closed ~04:00 HKT; POST_CLOSE; Asia KR/JP/HK OPEN (HK mid). gateApplicable=false gateFired=false (QQQ +1.21% / SPY +0.42%; Tue premarket gate N/A ~16:00). vs 11:46: QQQ Δ+0.00pp SPY Δ+0.00pp NQ Δ-0.38pp ES Δ-0.17pp; FedWatch side 80.5 Δ+0.0pp (Investing 403 retained stamp Oct 19, 2026 06:15PM EDT); SessionOpen 82/18 Δ-2.0pp. KS11 -3.24%→-4.17% (Δ-0.93pp); HSI -0.94%→-0.95% (Δ-0.01pp); N225 -0.62%→-1.09% (Δ-0.47pp). → materialChange=true; speakToStockGroup=true.",
-  "liveSync": "lastRefresh=2026-10-20 12:46 HKT; session=Mon US POST_CLOSE / Asia KR+JP+HK OPEN; gateApplicable=false; gateFired=false; materialChange=true; speakToStockGroup=true; QQQ=718.36(+1.21% vs Fri); SPY=766.48(+0.42%); FedWatch side hold 80.5/+25 19.5 (Investing 403 retained stamp Oct 19, 2026 06:15PM EDT; Current 80.5/19.5; SessionOpen 82.0/18.0); NQ=29662.5(+0.92% vs Fri Δ-0.38pp vs 11:46) ES=7738.5(+0.44%); VIX=18.44; N225=64208.58(-1.09% OPEN) KS11=5527.42(-4.17% OPEN); HSI=23956.93(-0.95% OPEN_TUE); Warsh blackout→10/28; SPEAK; pagesCommit=PENDING",
+  "liveSync": "lastRefresh=2026-10-20 12:46 HKT; session=Mon US POST_CLOSE / Asia KR+JP+HK OPEN; gateApplicable=false; gateFired=false; materialChange=true; speakToStockGroup=true; QQQ=718.36(+1.21% vs Fri); SPY=766.48(+0.42%); FedWatch side hold 80.5/+25 19.5 (Investing 403 retained stamp Oct 19, 2026 06:15PM EDT; Current 80.5/19.5; SessionOpen 82.0/18.0); NQ=29662.5(+0.92% vs Fri Δ-0.38pp vs 11:46) ES=7738.5(+0.44%); VIX=18.44; N225=64208.58(-1.09% OPEN) KS11=5527.42(-4.17% OPEN); HSI=23956.93(-0.95% OPEN_TUE); Warsh blackout→10/28; SPEAK; pagesCommit=7cb6289a",
   "brief": {
     "skeleton": [
       "閘門",
@@ -570,8 +570,8 @@
         "deltaPp": -0.01
       }
     },
-    "pagesCommitSha": null,
-    "pagesBlobSha": null,
+    "pagesCommitSha": "7cb6289a1f8d29ad8d1e86de1621231bc62a640d",
+    "pagesBlobSha": "8ab8c4f4f1ffac39bbd7648be33ffc50ba252e6e",
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1246-1020"
   }
 }
