@@ -344,7 +344,7 @@
   "mag7Note": "美股 Tue RTH_OPEN vs Mon RTH（Yahoo chart includePrePost；~2026-10-20 21:43 HKT）：AAPL -0.62%、MSFT -0.72%、NVDA -1.45%、META -2.79%、TSLA -0.6%、GOOGL -0.75%、AMZN -0.58%；AMD -1.88%、MU -1.87%；SMH -1.74%（$538.89）；CRWV -6.01%（$57.45）",
   "summaryTw": "【閘門】**適用 RTH_OPEN・開盤急挫已觸**｜QQQ RTH -0.87%（$712.08 vs Mon $718.36；首10分低~-0.91%）／SPY RTH -0.13%；NQ +0.63%／ES +0.27%；VIX 18.65（-6.7%）。\n【FedWatch】hold 82.8%／+25 17.2%（Investing fresh stamp Oct 20, 2026 09:15AM EDT・side Δ+1.2pp）；Current 82.8/17.2；SessionOpen 86/14（Δ+0.0pp）。\n【美股／亞洲】**RTH_OPEN／亞已收・開盤科技急挫**｜日經 -1.3%／韓綜 -3.73%／恒指 -1.32%｜SMH RTH -1.74%／CRWV RTH -6.01%／META RTH -2.79%。\n【日曆】Warsh blackout→10/28 FOMC；港 10/20 已收；META/TSLA 10/21｜MSFT/GOOGL＋FOMC 10/27–28。\n【結論】**發群**／開盤閘門觸發・AI融資焦慮延續・Pages 刷新。",
   "thinkingLog": "~21:43 HKT Tue US RTH_OPEN / Asia CLOSED。相對 20:46：session PRE→RTH；QQQ pre -0.43%→RTH -0.87%（Δ-0.44pp；首10分低~-0.91%）／SPY pre -0.13%→RTH -0.13%（Δ+0.00pp）；NQ +0.43%→+0.63%（Δ+0.20pp）；ES +0.07%→+0.27%（Δ+0.20pp）。開盤急挫閘門觸發（QQQ ≤ −0.65%）。成因：AI／數據中心融資焦慮（CRWV/SMH/META；韓 Elice/KS11）＋油價＋今晚業績。FedWatch Investing fresh 82.8/17.2 stamp Oct 20, 2026 09:15AM EDT（Δ+1.2pp ≪5）；SessionOpen 86.0/14.0（Δ+0.0pp ≪5）。Asia CLOSED Δ0。材料門檻觸發→發群；刷新 JSON＋Pages。",
-  "liveSync": "lastRefresh=2026-10-20 21:43 HKT; session=Tue US RTH_OPEN / Asia JP+KR+HK CLOSED; gateApplicable=true; gateFired=true; materialChange=true; speakToStockGroup=true; QQQ_RTH=712.08(-0.87% vs Mon RTH 718.36); SPY_RTH=765.5(-0.13%); FedWatch side hold 82.8/+25 17.2 (Investing fresh stamp Oct 20, 2026 09:15AM EDT; Current 82.8/17.2; SessionOpen 86.0/14.0); NQ=29575.25(+0.63% vs Fri Δ+0.20pp vs 20:46) ES=7724.75(+0.27%); VIX=18.65; N225=64075.42(-1.3% CLOSED) KS11=5552.74(-3.73% CLOSED); HSI=23867.74(-1.32% CLOSED); Warsh blackout→10/28; SPEAK; pagesCommit=pending",
+  "liveSync": "lastRefresh=2026-10-20 21:43 HKT; session=Tue US RTH_OPEN / Asia JP+KR+HK CLOSED; gateApplicable=true; gateFired=true; materialChange=true; speakToStockGroup=true; QQQ_RTH=712.08(-0.87% vs Mon RTH 718.36); SPY_RTH=765.5(-0.13%); FedWatch side hold 82.8/+25 17.2 (Investing fresh stamp Oct 20, 2026 09:15AM EDT; Current 82.8/17.2; SessionOpen 86.0/14.0); NQ=29575.25(+0.63% vs Fri Δ+0.20pp vs 20:46) ES=7724.75(+0.27%); VIX=18.65; N225=64075.42(-1.3% CLOSED) KS11=5552.74(-3.73% CLOSED); HSI=23867.74(-1.32% CLOSED); Warsh blackout→10/28; SPEAK; pagesCommit=12661ced",
   "brief": {
     "skeleton": [
       "閘門",
@@ -567,10 +567,10 @@
     ],
     "silentReasons": [],
     "pipelineNote": "Hourly macro monitor item ④; SPEAK — open-dump gate fired; refresh JSON + Pages; speakToStockGroup",
-    "pagesCommitSha": null,
-    "pagesBlobSha": null,
+    "pagesCommitSha": "12661ced60ddae5516ca229de06114e1ca6861ab",
+    "pagesBlobSha": "f23b7bba13f2428d58820486a89f46a03fade31a",
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro2143-1020",
-    "contentCommitSha": null,
+    "contentCommitSha": "12661ced60ddae5516ca229de06114e1ca6861ab",
     "fetchFailures": [
       "fed.gov Speakers / Speakers/2026-october.htm HTTP 404 — retained Warsh blackout note (2026-speeches.htm OK, no new Warsh)",
       "CME FedWatch tool skipped (403 pattern)",
@@ -580,7 +580,7 @@
       "NQ=F/ES=F Yahoo last bar timestamp ~21:31 HKT (slightly stale vs clock; used last available)",
       "VIX Yahoo last bar ~21:25 HKT (used last available)"
     ],
-    "stampCommitSha": null,
+    "stampCommitSha": "12661ced60ddae5516ca229de06114e1ca6861ab",
     "vs2046": {
       "QQQ_dayPct": {
         "from": -0.43,
