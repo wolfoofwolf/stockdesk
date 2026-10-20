@@ -343,7 +343,7 @@
   "mag7Note": "美股 Tue PRE_MKT vs Mon RTH（Yahoo chart includePrePost；~2026-10-20 20:46 HKT）：AAPL -1.21%、MSFT +0.3%、NVDA -0.62%、META -0.78%、TSLA +0.19%、GOOGL -0.3%、AMZN +0.07%；AMD -1.46%、MU -2.2%；SMH -1.29%（$541.4）；CRWV -3.63%（$58.9）",
   "summaryTw": "【閘門】**適用 PRE_MKT・未觸發**｜QQQ pre -0.43%（$715.30 vs Mon $718.36）／SPY pre -0.13%；NQ +0.43%／ES +0.07%；VIX 19.08（-4.6%）。\n【FedWatch】hold 81.6%／+25 18.4%（Investing fresh stamp Oct 20, 2026 08:15AM EDT・side Δ+1.1pp）；Current 81.6/18.4；SessionOpen 86/14（Δ+4.0pp）。\n【美股／亞洲】**PRE_MKT／亞已收・港已收・期貨微調**｜日經 -1.3%／韓綜 -3.73%／恒指 -1.32%｜SMH pre -1.29%／CRWV pre -3.63%。\n【日曆】Warsh blackout→10/28 FOMC；港 10/20 已收；META/TSLA 10/21｜MSFT/GOOGL＋FOMC 10/27–28。\n【結論】**靜默**／閘門適用未觸・NQ Δ-0.01pp・FedWatch Δ+1.1pp・SessionOpen Δ+4.0pp・Pages 刷新。",
   "thinkingLog": "~20:46 HKT Tue US PRE_MKT / Asia CLOSED。相對 19:45：QQQ pre -0.61%→-0.43%（Δ+0.18pp）／SPY -0.14%→-0.13%（Δ+0.01pp）；NQ +0.44%→+0.43%（Δ-0.01pp）；ES +0.19%→+0.07%（Δ-0.12pp）。閘門適用・未觸（門檻 −0.65%）。FedWatch Investing fresh 81.6/18.4 stamp Oct 20, 2026 08:15AM EDT（Δ+1.1pp ≪5）；SessionOpen 86.0/14.0（Δ+4.0pp ≪5）。Asia CLOSED Δ0。材料門檻未觸→靜默；仍刷新 JSON＋Pages。",
-  "liveSync": "lastRefresh=2026-10-20 20:46 HKT; session=Tue US PRE_MKT / Asia JP+KR+HK CLOSED; gateApplicable=true; gateFired=false; materialChange=false; speakToStockGroup=false; QQQ_pre=715.3(-0.43% vs Mon RTH 718.36); SPY_pre=765.47(-0.13%); FedWatch side hold 81.6/+25 18.4 (Investing fresh stamp Oct 20, 2026 08:15AM EDT; Current 81.6/18.4; SessionOpen 86.0/14.0); NQ=29517.75(+0.43% vs Fri Δ-0.01pp vs 19:45) ES=7709.75(+0.07%); VIX=19.08; N225=64075.42(-1.3% CLOSED) KS11=5552.74(-3.73% CLOSED); HSI=23867.74(-1.32% CLOSED); Warsh blackout→10/28; SILENT; pagesCommit=PENDING",
+  "liveSync": "lastRefresh=2026-10-20 20:46 HKT; session=Tue US PRE_MKT / Asia JP+KR+HK CLOSED; gateApplicable=true; gateFired=false; materialChange=false; speakToStockGroup=false; QQQ_pre=715.3(-0.43% vs Mon RTH 718.36); SPY_pre=765.47(-0.13%); FedWatch side hold 81.6/+25 18.4 (Investing fresh stamp Oct 20, 2026 08:15AM EDT; Current 81.6/18.4; SessionOpen 86.0/14.0); NQ=29517.75(+0.43% vs Fri Δ-0.01pp vs 19:45) ES=7709.75(+0.07%); VIX=19.08; N225=64075.42(-1.3% CLOSED) KS11=5552.74(-3.73% CLOSED); HSI=23867.74(-1.32% CLOSED); Warsh blackout→10/28; SILENT; pagesCommit=7f18581d",
   "brief": {
     "skeleton": [
       "閘門",
@@ -565,10 +565,10 @@
       "SessionOpen 86.0/14.0（Δ+4.0pp hold・≪5pp）"
     ],
     "pipelineNote": "Hourly macro monitor item ④; SILENT — refresh JSON + Pages only; do not speakToStockGroup",
-    "pagesCommitSha": null,
-    "pagesBlobSha": null,
+    "pagesCommitSha": "7f18581dc7d25283526b759625842c4dae698a92",
+    "pagesBlobSha": "28d0913fbd27d35580af915c6172e20152708ffd",
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro2046-1020",
-    "contentCommitSha": null,
+    "contentCommitSha": "7f18581dc7d25283526b759625842c4dae698a92",
     "fetchFailures": [
       "fed.gov Speakers / Speakers/2026-october.htm HTTP 404 — retained Warsh blackout note",
       "CME FedWatch tool skipped (403 pattern)",
@@ -577,7 +577,7 @@
       "Investing.com direct curl may vary; WebFetch ca.investing.com fresh stamp Oct 20, 2026 08:15AM EDT (used)",
       "NQ=F/ES=F Yahoo last bar timestamp ~20:37 HKT (slightly stale vs clock; used last available)"
     ],
-    "stampCommitSha": null,
+    "stampCommitSha": "7f18581dc7d25283526b759625842c4dae698a92",
     "vs1945": {
       "QQQ_prePct": {
         "from": -0.61,
