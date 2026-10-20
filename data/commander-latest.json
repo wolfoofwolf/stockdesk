@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-20T13:48:03.000Z",
+  "generatedAt": "2026-10-20T13:56:18.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-20 21:48 HKT",
+  "asOfHKT": "2026-10-20 21:56 HKT",
   "pipeline": {
     "candidates": 566,
     "techPassed": 58,
-    "company": 51,
-    "leaders": 24,
+    "company": 58,
+    "leaders": 27,
     "entry": 24,
     "entryConsider": 24,
     "entryWatch": 0,
     "downstreamStale": true,
-    "anchor": "STALE 566→58→?→? pending Jrok on 58 then Arok entry. Grok tip 84d8dad asOfMarket 10-20. Gate RTH FIRED QQQ −0.87%. Entry page untouched."
+    "anchor": "STALE 566→58→27→? pending Arok entry. Jrok tip 3c6adcad; Grok 84d8dad; Frok c525735. Gate RTH FIRED — 慎新單 on ⑤ push."
   },
-  "summaryTw": "【總司令｜2026-10-20 21:48 HKT】\n閘門｜**適用・已觸發**｜QQQ RTH **−0.87%**／SPY **−0.13%**｜**慎新單**\n管道｜**566→58→?→?**｜downstreamStale **true**｜等 Jrok③／Arok⑤\n②｜Grok techPass **58**（`84d8dad`｜10-20）｜VCP 52／bull_flag 6｜Top G·RMD·RELX\n③⑤｜pending（舊 51／24）｜進場頁暫勿動\n①｜Frok **566**（`c525735`）\nFedWatch｜hold **82.8%**／+25 **17.2%**｜META/TSLA **今晚盤後**\n結論｜②齊；等③⑤｜閘門已觸｜?v=tech58\nhttps://wolfoofwolf.github.io/stockdesk/?v=tech58",
+  "summaryTw": "【總司令｜2026-10-20 21:56 HKT】\n閘門｜**適用・已觸發**｜QQQ RTH **−0.87%**／SPY **−0.13%**｜**慎新單**\n管道｜**566→58→27→?**｜downstreamStale **true**｜等 Arok⑤\n②｜Grok **58**（`84d8dad`）｜③｜Jrok 領導 **27**（`3c6adcad`）｜⑤ pending\nFedWatch｜hold **82.8%**／+25 **17.2%**｜META/TSLA **今晚盤後**\n結論｜③齊；等⑤（推時標閘門）｜?v=co27\nhttps://wolfoofwolf.github.io/stockdesk/?v=co27",
   "brief": {
-    "asOfHKT": "2026-10-20 21:48 HKT",
+    "asOfHKT": "2026-10-20 21:56 HKT",
     "sections": [
       {
         "id": "gate",
@@ -26,54 +26,54 @@
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "hold **82.8%**／+25 **17.2%**｜blackout→10/28"
+        "value": "hold **82.8%**／+25 **17.2%**"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "RTH 開盤急挫｜SMH −1.74%／CRWV −6%｜亞已收"
+        "value": "RTH 開盤急挫｜CRWV −6%／SMH −1.74%"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "**META/TSLA 今晚盤後**｜FOMC 10/28"
+        "value": "**META/TSLA 今晚盤後**"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "**566→58→?→?**｜tech `84d8dad`｜**stale**"
+        "value": "**566→58→27→?**｜co `3c6adcad`｜stale 等⑤"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "tech Top G·RMD·RELX｜＋AEO／AWK／BNS／NTRA／UGP…｜−XOM／HCA／KDP／KR"
+        "value": "領導＋AWK·BNS·GGB·NOW·NTRA·PSX·SBS·TRI·UGP｜−HCA·KDP·XOM…"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "等 Jrok→Arok→Trok 推⑤（標閘門）｜?v=tech58"
+        "value": "等 Arok⑤ → Trok 推（標閘門）｜?v=co27"
       }
     ]
   },
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=tech58"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=co27"
   },
   "thinkingLog": [
     {
-      "t": "2026-10-20 21:38 HKT",
-      "bot": "Trok",
-      "msg": "scr566 c525735"
-    },
-    {
       "t": "2026-10-20 21:48 HKT",
       "bot": "Trok",
-      "msg": "align techPass 58 tip 84d8dad gate FIRED stale pending Jrok"
+      "msg": "tech58 7bfa0ac"
+    },
+    {
+      "t": "2026-10-20 21:56 HKT",
+      "bot": "Trok",
+      "msg": "company leaders 27 tip 3c6adcad stale pending Arok"
     }
   ],
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "Grok cash-open techPass 51→58 on 566; gate RTH FIRED; downstream pending.",
-    "vs": "scr566"
+    "why": "Jrok leaders 24→27 on techPass 58; gate still FIRED; entry pending Arok.",
+    "vs": "tech58"
   }
 }
