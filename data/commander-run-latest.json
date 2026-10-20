@@ -1,59 +1,60 @@
 {
-  "generatedAt": "2026-10-20T13:56:18.000Z",
-  "asOf": "2026-10-20T13:56:18.000Z",
+  "generatedAt": "2026-10-20T13:56:45.000Z",
+  "asOf": "2026-10-20T13:56:45.000Z",
   "bot": "Trok",
   "pipeline": {
     "candidates": 566,
     "techPassed": 58,
     "company": 58,
     "leaders": 27,
-    "entry": 24,
-    "entryConsider": 24,
+    "entry": 27,
+    "entryConsider": 27,
     "entryWatch": 0,
-    "downstreamStale": true,
-    "anchor": "STALE 566→58→27→? pending Arok entry. Jrok tip 3c6adcad; Grok 84d8dad; Frok c525735. Gate RTH FIRED — 慎新單 on ⑤ push."
+    "downstreamStale": false,
+    "anchor": "LOCK 566→58→27→27 (Frok c525735; Grok 84d8dad; Jrok 3c6adcad; Arok entry 27). Gate RTH FIRED QQQ −0.87% — 慎新單. Cash-open 10-20."
   },
-  "summaryTw": "【總司令｜2026-10-20 21:56 HKT】\n閘門｜**適用・已觸發**｜QQQ RTH **−0.87%**／SPY **−0.13%**｜**慎新單**\n管道｜**566→58→27→?**｜downstreamStale **true**｜等 Arok⑤\n②｜Grok **58**（`84d8dad`）｜③｜Jrok 領導 **27**（`3c6adcad`）｜⑤ pending\nFedWatch｜hold **82.8%**／+25 **17.2%**｜META/TSLA **今晚盤後**\n結論｜③齊；等⑤（推時標閘門）｜?v=co27\nhttps://wolfoofwolf.github.io/stockdesk/?v=co27",
+  "summaryTw": "【總司令｜2026-10-20 21:56 HKT】\n閘門｜**適用・已觸發**｜QQQ RTH **−0.87%**／SPY **−0.13%**｜**慎新單**（可考慮當觀望直至閘門解除）\n管道｜**566→58→27→27**｜downstreamStale **false**｜可考慮 27／觀望 0\n②｜Grok techPass **58**（`84d8dad`｜10-20）｜VCP 52／bull_flag 6\n③｜Jrok 領導 **27**（`3c6adcad`）\n⑤｜Arok 進場 **27**（Pullback 25／META 2｜VCP 24／bull_flag 3）｜前排 SONY · NUE · PSX · SAP · ADSK · DIS · MDLZ · MO\n①｜Frok **566**（`c525735`）\nFedWatch｜hold **82.8%**／+25 **17.2%**｜META/TSLA **今晚盤後**\n結論｜現金開市全鏈鎖定｜閘門已觸→慎新單｜Pages ?v=entry27-1020\nhttps://wolfoofwolf.github.io/stockdesk/?v=entry27-1020",
   "brief": {
     "asOfHKT": "2026-10-20 21:56 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "**適用・已觸發**｜QQQ −0.87%／SPY −0.13%｜慎新單"
+        "value": "**適用・已觸發**｜QQQ −0.87%／SPY −0.13%｜**慎新單**"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "hold **82.8%**／+25 **17.2%**"
+        "value": "hold **82.8%**／+25 **17.2%**｜blackout→10/28"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "RTH 開盤急挫｜CRWV −6%／SMH −1.74%"
+        "value": "RTH 開盤急挫｜SMH −1.74%／CRWV −6%／META −2.79%｜亞已收"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "**META/TSLA 今晚盤後**"
+        "value": "**META/TSLA 今晚盤後**｜FOMC 10/28"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "**566→58→27→?**｜co `3c6adcad`｜stale 等⑤"
+        "value": "**566→58→27→27**｜scr `c525735`／tech `84d8dad`／co `3c6adcad`｜**stale false**｜可考慮 27"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "領導＋AWK·BNS·GGB·NOW·NTRA·PSX·SBS·TRI·UGP｜−HCA·KDP·XOM…"
+        "value": "前排 SONY·NUE·PSX·SAP·ADSK·DIS·MDLZ·MO｜＋AWK／BNS／NOW／NTRA／PSX／UGP…"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "等 Arok⑤ → Trok 推（標閘門）｜?v=co27"
+        "value": "全鏈鎖定｜閘門已觸→**慎新單**｜?v=entry27-1020"
       }
     ]
   },
-  "status": "stale_pending_arok",
-  "gate": "FIRED"
+  "status": "locked",
+  "gate": "FIRED",
+  "cautionNewEntries": true
 }
