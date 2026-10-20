@@ -1,169 +1,84 @@
 {
-  "generatedAt": "2026-10-20T13:05:42.000Z",
+  "generatedAt": "2026-10-20T13:38:23.000Z",
   "bot": "Trok",
   "role": "總司令",
-  "asOfHKT": "2026-10-20 21:04 HKT",
+  "asOfHKT": "2026-10-20 21:38 HKT",
   "pipeline": {
-    "candidates": 531,
+    "candidates": 566,
     "techPassed": 51,
     "company": 51,
     "leaders": 24,
     "entry": 24,
     "entryConsider": 24,
     "entryWatch": 0,
-    "downstreamStale": false,
-    "anchor": "HOLD 531→51→24→24 (cash-open lock ee340bc asOf 10-19). Frok Pages 550 same-bar wobble — tech/entry NOT following; true rescreen tonight cash-open 10-20 bars (~21:35 HKT chain). PRE_MKT gateApplicable **CLEARED** QQQ pre −0.38%/SPY pre −0.10% (FIRED→CLEARED vs 20:02 −0.69%/−0.25%); FedWatch hold 86.2/+25 13.8 Δ+5.7pp≥3 vs 80.5/19.5; Asia 日經-1.30%/韓綜-3.73%/恒指-1.32% CLOSED Δ0 / tip→macro2101-1020 — commander MATERIAL push."
+    "downstreamStale": true,
+    "anchor": "STALE 566→51→24→24 pending Grok techPass on full 566 (Frok cash-open 10-20 tip TBD). Old lock ee340bc 531→51→24→24 retired as pipeline start."
   },
-  "summaryTw": "【總司令｜2026-10-20 21:04 HKT】\n閘門｜**適用（PRE_MKT）・已解除**｜QQQ pre **−0.38%**／SPY pre **−0.10%**（Mon RTH +1.21%／+0.42%）\n管道｜**531→51→24→24**｜downstreamStale **false**｜可考慮 24／觀望 0\n①｜Frok Pages 池 **550**（同 asOf 10-19 抖動｜唔跟鎖）\n②③⑤｜**靜持** tech **51**／領導 **24**／進場 **24**（`ee340bc`｜`c66ece8`｜`40df075`）\n美股／亞洲｜日經 **−1.30%**／韓綜 **−3.73%**／恒指 **−1.32%** CLOSED｜vs 20:02 Δ0｜Pages macro2101-1020\nFedWatch｜hold **86.2%**／+25 **13.8%**｜Δ**+5.7pp**≥3 vs 20:02 80.5/19.5（Investing 08:35AM EDT）｜META/TSLA **10/21（D-0）**\n結論｜**閘門翻轉・已解除**（QQQ pre −0.69%→−0.38% 回穿 −0.65%）｜FedWatch Δ+5.7pp｜管道 HOLD｜material push｜?v=macro2101-1020\nhttps://wolfoofwolf.github.io/stockdesk/?v=macro2101-1020",
+  "summaryTw": "【總司令｜2026-10-20 21:38 HKT】\n閘門｜**適用・未觸發**｜已解除（21:04 回穿）｜跟 RTH\n管道｜**566→51→24→24**｜downstreamStale **true**｜等 Grok② 全數 566\n①｜Frok cash-open **566**（Δ＋16 vs 550｜10-20 bar｜宇宙 1168）\n②③⑤｜舊 **51／24／24** pending 重鎖\nFedWatch｜hold **86.2%**／+25 **13.8%**｜META/TSLA **10/21**\n結論｜①真鎖起步；等②｜?v=scr566\nhttps://wolfoofwolf.github.io/stockdesk/?v=scr566",
   "brief": {
-    "asOfHKT": "2026-10-20 21:04 HKT",
+    "asOfHKT": "2026-10-20 21:38 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "**適用（PRE_MKT）・已解除**｜QQQ pre **−0.38%**／SPY pre **−0.10%**（Mon RTH +1.21%／+0.42%）"
+        "value": "**適用・未觸發**｜21:04 已解除｜跟 RTH"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "hold **86.2%**／+25 **13.8%**｜Δ**+5.7pp**（≥3 vs 20:02）｜blackout→10/28"
+        "value": "hold **86.2%**／+25 **13.8%**｜blackout→10/28"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "美股 PRE_MKT｜日經 **−1.30%**／韓綜 **−3.73%**／恒指 **−1.32%** CLOSED｜vs 20:02 Δ0｜tip→macro2101-1020"
+        "value": "cash-open 鏈開｜亞洲已收"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "**META/TSLA 10/21（D-0）**｜FOMC 10/28"
+        "value": "**META/TSLA 10/21**｜FOMC 10/28"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "**531→51→24→24** HOLD｜① Pages 550＝同 bar 抖動唔跟｜cash-open 鏈未開（~21:35）"
+        "value": "**566→51→24→24** stale｜①齊｜等②全數 566"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "前排 XOM·DG·MO·OSCR·KDP·RELX·RMD·SONY"
+        "value": "舊前排待②重鎖"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "vs 20:02 **閘門翻轉・已解除**（QQQ pre −0.69%→**−0.38%** 回穿 −0.65%；SPY −0.10%）｜FedWatch hold 80.5→**86.2%** Δ+5.7pp≥3（Investing 08:35AM EDT；SO ~86/14）｜亞洲 Δ0 CLOSED｜管道 HOLD｜**material → push**｜?v=macro2101-1020"
+        "value": "等 Grok techPass｜?v=scr566"
       }
     ]
   },
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=macro2101-1020"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=scr566"
   },
   "thinkingLog": [
     {
       "t": "2026-10-19 22:48 HKT",
       "bot": "Trok",
-      "msg": "entry24 unlock ee340bc"
-    },
-    {
-      "t": "2026-10-20 08:09 HKT",
-      "bot": "Trok",
-      "msg": "revert HOLD 531→51→24→24; 559 same-bar wobble"
-    },
-    {
-      "t": "2026-10-20 08:40 HKT",
-      "bot": "Drok",
-      "msg": "Asia OPEN Nikkei−1.01%/KOSPI−2.22%; Pages ?v=macro0840-1020; Stock notified"
-    },
-    {
-      "t": "2026-10-20 08:55 HKT",
-      "bot": "Trok",
-      "msg": "monitor fire: local rewrite only; pipeline HOLD; Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 09:03 HKT",
-      "bot": "Trok",
-      "msg": "hourly: local rewrite; Asia deepen −1.18%/−2.84%; HSI pre-open; Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 09:45 HKT",
-      "bot": "Drok",
-      "msg": "KS11 −3.47%/HSI OPEN −0.70%; Pages ?v=macro0945-1020; Stock notified"
-    },
-    {
-      "t": "2026-10-20 10:06 HKT",
-      "bot": "Trok",
-      "msg": "hourly: local rewrite; Asia −0.83%/−2.87%/HSI −1.12%; vs Drok 09:45 session color; Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 10:46 HKT",
-      "bot": "Drok",
-      "msg": "KS11 bounce −3.47%→−2.54% Δ+0.93pp; Pages ?v=macro1046-1020; Stock notified"
-    },
-    {
-      "t": "2026-10-20 11:05 HKT",
-      "bot": "Trok",
-      "msg": "hourly: local rewrite; Asia −0.62%/−2.96%/HSI −0.85% vs Drok 10:46 drift; Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 12:03 HKT",
-      "bot": "Trok",
-      "msg": "hourly: local rewrite; Asia −0.87%/−3.48%/HSI −0.90% vs Drok 11:46 drift; Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 13:03 HKT",
-      "bot": "Trok",
-      "msg": "hourly: local rewrite; Asia -1.15/-4.24/-0.95 vs Drok 12:46 drift; FedWatch 81.6/18.4 Δ+1.1pp≪3; Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 13:56 HKT",
-      "bot": "Trok",
-      "msg": "monitor fire: local rewrite only; pipeline HOLD 531→51→24→24; FedWatch 83.9/16.1 Δ+2.3pp≪3; Asia vs Drok 13:46 noise; Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 13:58 HKT",
-      "bot": "Trok",
-      "msg": "hourly: local rewrite; Asia -1.40/-4.12/-1.18 vs 13:56 drift; FedWatch 83.9/16.1 Δ0≪3; Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 15:05 HKT",
-      "bot": "Trok",
-      "msg": "hourly: local rewrite; Asia -1.35/-4.14/-1.07 vs 13:58 drift; FedWatch 83.9/16.1 Δ0≪3 (Investing 02:45AM EDT); Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 16:04 HKT",
-      "bot": "Trok",
-      "msg": "hourly: local rewrite; Asia -1.30/-3.73/-1.27 vs 15:05 drift; FedWatch 83.9/16.1 Δ0≪3 (Investing 03:35AM EDT; SO 84.0/16.0); Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 16:58 HKT",
-      "bot": "Trok",
-      "msg": "hourly: local rewrite; PRE_MKT gateApplicable QQQ pre -0.43%/SPY pre -0.04% not fired; Asia -1.30/-3.73/-1.32 vs 16:04 noise; FedWatch 83.9/16.1 Δ0≪3 (Investing 04:35AM EDT); Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 18:05 HKT",
-      "bot": "Trok",
-      "msg": "hourly: local rewrite; PRE_MKT gateApplicable QQQ pre -0.37%/SPY pre -0.02% not fired; Asia -1.30/-3.73/-1.32 vs 16:58/Drok 17:50 Δ0; FedWatch 82.8/17.2 Δ-1.1pp≪3 (Investing 05:35AM EDT; SO 84.0/16.0); Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 19:01 HKT",
-      "bot": "Trok",
-      "msg": "hourly: local rewrite; PRE_MKT gateApplicable QQQ pre −0.57%/SPY pre −0.15% not fired; Asia -1.30/-3.73/-1.32 vs 18:05/Drok 18:45 Δ0; FedWatch 80.5/19.5 Δ−2.3pp≪3 (Investing 06:35AM EDT; SO 82.0/18.0); tip→macro1845-1020; Stock SILENT"
-    },
-    {
-      "t": "2026-10-20 20:02 HKT",
-      "bot": "Trok",
-      "msg": "hourly: MATERIAL gate FIRED flip; PRE_MKT QQQ pre −0.69%/SPY pre −0.25% (vs 19:01 −0.57%/−0.15%; crossed −0.65%); Asia -1.30/-3.73/-1.32 vs Drok 19:45 Δ0 CLOSED; FedWatch 80.5/19.5 Δ0≪3 vs 19:01 (Investing 07:35AM EDT; SO 82.0/18.0); pipeline HOLD 531→51→24→24; tip→macro2002-1020; push + Stock notify"
+      "msg": "entry24 ee340bc"
     },
     {
       "t": "2026-10-20 21:04 HKT",
       "bot": "Trok",
-      "msg": "hourly: MATERIAL gate CLEARED flip + FedWatch Δ+5.7pp; PRE_MKT QQQ pre −0.38%/SPY pre −0.10% (vs 20:02 −0.69%/−0.25%; re-crossed −0.65%); Asia -1.30/-3.73/-1.32 vs 20:02 Δ0 CLOSED; FedWatch 86.2/13.8 Δ+5.7pp≥3 vs 80.5/19.5 (Investing 08:35AM EDT; SO ~86/14); pipeline HOLD 531→51→24→24; tip→macro2101-1020; push + Stock notify"
+      "msg": "gate CLEARED"
+    },
+    {
+      "t": "2026-10-20 21:38 HKT",
+      "bot": "Trok",
+      "msg": "cash-open screener 550→566 stale pending Grok"
     }
   ],
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "Gate FIRED→CLEARED flip vs commander 20:02: QQQ pre −0.69%→−0.38% re-crossed above −0.65% band (Yahoo 1m includePrePost ~2026-10-20 21:04 HKT; $715.65 vs Mon RTH $718.36); SPY pre −0.10% ($765.75 vs Mon $766.48). FedWatch hold 86.2/+25 13.8 Δ+5.7pp≥3 vs 20:02 80.5/19.5 (Investing Current Updated Oct 20, 2026 08:35AM EDT; SessionOpen ~86/14). Asia 日經-1.30/韓綜-3.73/恒指-1.32 vs 20:02: Δ0 CLOSED. Pipeline HOLD 531→51→24→24 unchanged (techPassed=51 Grok; Frok Pages 550 wobble not followed; cash-open rescreen not yet). Calendar META/TSLA 10/21 D-0 unchanged. MATERIAL → push commander + briefing; Stock notify.",
-    "vs": "commander 20:02 / Pages tip was macro2002-1020; this tip macro2101-1020"
+    "why": "Frok cash-open true lock start: 550→566 on 10-20 bars; downstream pending Grok full-pool techPass.",
+    "vs": "HOLD 531→51→24→24"
   }
 }
