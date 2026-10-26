@@ -1,31 +1,32 @@
 {
-  "generatedAt": "2026-10-26T15:18:56.000Z",
+  "generatedAt": "2026-10-26T15:20:07.000Z",
   "bot": "Trok",
   "role": "commander",
-  "asOfHKT": "2026-10-26 23:18 HKT",
+  "asOfHKT": "2026-10-26 23:20 HKT",
   "pipeline": {
     "candidates": 566,
     "techPassed": 58,
     "company": 26,
     "leaders": 27,
-    "entry": 27,
-    "entryConsider": 27,
+    "entry": 26,
+    "entryConsider": 26,
     "entryWatch": 0,
-    "downstreamStale": true,
-    "anchor": "①676→②52→③26 (fb5961e asOf 10-23). ⑤ pending Arok rebuild — entry page DO NOT update yet.",
+    "downstreamStale": false,
+    "anchor": "LOCK 676→52→26→26 asOf 10-23 (catch-up after usage gap). tip TBD.",
     "methodMix": {
-      "Pullback": 24,
-      "META": 3
+      "Pullback": 22,
+      "META": 4
     },
     "patternMix": {
-      "VCP": 24,
-      "bull_flag": 3
+      "VCP": 20,
+      "bull_flag": 5,
+      "cup_with_handle": 1
     },
     "note": "Grok techPass 58 anchors; Frok screener live 676 (universe 1179 asOf 2026-10-26T14:52Z) NOT re-locked. Jrok leaders 27 / Arok entry 27 unchanged vs Oct21.",
     "screener": 676,
     "techPass": 52
   },
-  "summaryTw": "【總司令｜2026-10-26 23:18 HKT】\n閘門｜RTH・未觸\n管道｜**676→52→26**｜③ `fb5961e` asOf **10-23**｜⑤等 Arok 重砌（舊 27 stale）\n結論｜公司 Pages 已對齊｜進場暫勿動｜?v=co52-1023\nhttps://wolfoofwolf.github.io/stockdesk/?v=co52-1023",
+  "summaryTw": "【總司令｜2026-10-26 23:20 HKT】\n閘門｜RTH・未觸｜QQQ ~+1.4%\n管道｜**676→52→26→26** LOCK｜asOf **10-23**｜可考慮 26／觀望 0\n⑤｜methodMix Pullback **22**／META **4**｜VCP 20／BF 5\n前排｜SONY·FANG·NUE·PSX·TD（價已重標 10-23）\n結論｜catch-up 真鎖｜?v=en26-1023\nhttps://wolfoofwolf.github.io/stockdesk/?v=en26-1023",
   "brief": {
     "title": "總司令簡報｜2026-10-26 22:55 HKT",
     "sections": [
@@ -67,10 +68,9 @@
     ]
   },
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=co52-1023"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=en26-1023"
   },
   "thinkingLog": [
-    "Jrok leaders 27 / Arok entry 27 methodMix 24/3 identical vs Oct21 commander",
     "Material vs Oct21 commander: FedWatch 83.9→89.7 Δ+5.8; META/TSLA done+$95B; FOMC ~2d; session RTH re-baseline; Asia closes flipped",
     "Drok MACRO_HANDOFF 2244 already speakToStockGroup=true Pages macro2244-1026 → commander push only; Stock SILENT",
     "pagesTip cmd2254-1026",
@@ -93,13 +93,18 @@
       "t": "2026-10-26 23:18 HKT",
       "bot": "Trok",
       "msg": "align Pages co26 fb5961e; wait Arok⑤"
+    },
+    {
+      "t": "2026-10-26 23:20 HKT",
+      "bot": "Trok",
+      "msg": "push entry 26 en26-1023"
     }
   ],
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "align company 52→26 leaders tip fb5961e; entry untouched",
-    "vs": "921af2b"
+    "why": "catch-up entry lock 676→52→26→26 asOf 10-23",
+    "vs": "e811e52 stale 10-20"
   },
   "gate": {
     "status": "N/A",
