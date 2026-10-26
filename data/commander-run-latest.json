@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-20T18:10:01.000Z",
-  "asOf": "2026-10-20T18:10:01.000Z",
+  "generatedAt": "2026-10-26T14:55:45.000Z",
+  "asOf": "2026-10-26T14:55:45.000Z",
   "bot": "Trok",
   "pipeline": {
     "candidates": 566,
@@ -11,7 +11,7 @@
     "entryConsider": 27,
     "entryWatch": 0,
     "downstreamStale": false,
-    "anchor": "LOCK 566→58→27→27 (e811e52 methodMix 24/3). Screener same-asOf 10-20 wobble 628 tip TBD — entry untouched.",
+    "anchor": "LOCK 566→58→27→27 (e811e52 / tech 2026-10-20). Frok live screener 676 NOT re-locked — pending cash-open tech chain.",
     "methodMix": {
       "Pullback": 24,
       "META": 3
@@ -20,9 +20,41 @@
       "VCP": 24,
       "bull_flag": 3
     },
-    "note": "Frok screener candidates 607 same-asOf wobble NOT followed; Grok techPass 58 anchors.",
-    "screener": 628
+    "note": "Grok techPass 58 anchors; Frok screener live 676 (universe 1179 asOf 2026-10-26T14:52Z) NOT re-locked. Jrok leaders 27 / Arok entry 27 unchanged vs Oct21.",
+    "screener": 676
   },
-  "status": "screener_wobble_hold_entry",
-  "summaryTw": "【總司令｜2026-10-21 02:10 HKT】\n閘門｜**適用・已解除**｜QQQ +0.11%／SPY +0.37%\n管道｜**566→58→27→27** LOCK｜篩選同 asOf 抖動 **628**（唔重鎖）\n⑤｜methodMix Pullback 24／META 3｜?v=scr628-1020\nhttps://wolfoofwolf.github.io/stockdesk/?v=scr628-1020"
+  "status": "commander_material_push_stock_silent",
+  "summaryTw": "【總司令｜2026-10-26 22:55 HKT】\n閘門｜**RTH・不適用・未觸敘事**｜QQQ RTH **+1.02%**（$711.59）｜SPY RTH **+0.75%**（$765.69）\n管道｜**566→58→27→27** LOCK（Grok techPass 錨）｜Frok 篩選 live **676**（唔重鎖・待 cash-open）\n亞洲｜日經 CLOSED **-0.80%**／韓綜 CLOSED **-1.46%**／恒指 CLOSED **+0.51%**\nFedWatch｜hold **89.7%**／+25 **10.3%**（Δ+5.8 vs Oct21 司令）｜FOMC ~2 日｜Pages 已推｜Stock 靜默（Drok 已發）",
+  "gate": {
+    "status": "N/A",
+    "qqq": 1.02,
+    "spy": 0.75,
+    "qqqPre": null,
+    "spyPre": null,
+    "cautionNewEntries": false,
+    "bandCrossedVsPrior": false,
+    "gateApplicable": false,
+    "gateFired": false,
+    "sessionNote": "RTH N/A — QQQ +1.02%/SPY +0.75% vs Fri RTH; both green; no open-crash narrative",
+    "quoteSource": "Drok MACRO_HANDOFF 2244 / CNBC REG_MKT ~10:46 AM EDT Mon; Asia CLOSED vs Fri"
+  },
+  "material": true,
+  "stockNotify": false,
+  "pagesTip": "cmd2254-1026",
+  "session": "RTH",
+  "tradingDay": true,
+  "fedwatch": {
+    "source": "Investing Current",
+    "hold": 89.7,
+    "hike25": 10.3,
+    "sessionOpenHold": 90.0,
+    "deltaPpVsPriorCommander": 5.8,
+    "stamp": "Oct 26, 2026 10:25AM EDT"
+  },
+  "catalysts": {
+    "fomc": "2026-10-27/28 (~2 trading days)",
+    "msftGoogl": "2026-10-28",
+    "metaTsla": "done 2026-10-21; META $95B equity raise 2026-10-26",
+    "warshBlackout": "active → ~2026-10-29"
+  }
 }
