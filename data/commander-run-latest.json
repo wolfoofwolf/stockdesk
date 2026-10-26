@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-26T14:56:28.000Z",
-  "asOf": "2026-10-26T14:56:28.000Z",
+  "generatedAt": "2026-10-26T15:12:26.000Z",
+  "asOf": "2026-10-26T15:12:26.000Z",
   "bot": "Trok",
   "pipeline": {
     "candidates": 566,
@@ -11,7 +11,7 @@
     "entryConsider": 27,
     "entryWatch": 0,
     "downstreamStale": true,
-    "anchor": "① 676 asOf 10-26 (Trok push); desk LOCK 566→58→27→27 STALE pending Grok→Jrok→Arok. Monitor tip b04a3de baseline kept.",
+    "anchor": "①676→②52 (bc94789 asOfMarket 10-23 Fri bar) →③⑤ still 27 stale pending Jrok/Arok. Mon 10-26 RTH not locked.",
     "methodMix": {
       "Pullback": 24,
       "META": 3
@@ -22,9 +22,9 @@
     },
     "note": "Grok techPass 58 anchors; Frok screener live 676 (universe 1179 asOf 2026-10-26T14:52Z) NOT re-locked. Jrok leaders 27 / Arok entry 27 unchanged vs Oct21.",
     "screener": 676,
-    "techPass": 58
+    "techPass": 52
   },
-  "status": "screener_1026_entry_stale",
-  "summaryTw": "【總司令｜2026-10-26 22:56 HKT】\n閘門｜RTH・未觸｜QQQ +1.02%／SPY +0.75%（Drok／cmd2254 基線）\n管道｜① **676** asOf **10-26** 已推｜桌鎖仍 **566→58→27→27**（10-20・**stale**｜等②③⑤）\n結論｜篩選 Pages 更新｜進場未改｜?v=scr676-1026\nhttps://wolfoofwolf.github.io/stockdesk/?v=scr676-1026",
-  "priorMonitor": "b04a3de"
+  "status": "tech52_aligned_entry_stale",
+  "summaryTw": "【總司令｜2026-10-26 23:12 HKT】\n閘門｜RTH・未觸｜QQQ ~+1.4%（Drok）\n管道｜**676→52→27→27**｜②已重鎖 asOfMarket **10-23**（`bc94789`）｜③⑤仍 stale 等 Jrok／Arok\n結論｜Pages 對齊 tech｜進場未改｜?v=tech52-1023\nhttps://wolfoofwolf.github.io/stockdesk/?v=tech52-1023",
+  "techTip": "bc94789"
 }
