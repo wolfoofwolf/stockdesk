@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-26T15:12:26.000Z",
-  "asOf": "2026-10-26T15:12:26.000Z",
+  "generatedAt": "2026-10-26T15:18:56.000Z",
+  "asOf": "2026-10-26T15:18:56.000Z",
   "bot": "Trok",
   "pipeline": {
     "candidates": 566,
     "techPassed": 58,
-    "company": 58,
+    "company": 26,
     "leaders": 27,
     "entry": 27,
     "entryConsider": 27,
     "entryWatch": 0,
     "downstreamStale": true,
-    "anchor": "①676→②52 (bc94789 asOfMarket 10-23 Fri bar) →③⑤ still 27 stale pending Jrok/Arok. Mon 10-26 RTH not locked.",
+    "anchor": "①676→②52→③26 (fb5961e asOf 10-23). ⑤ pending Arok rebuild — entry page DO NOT update yet.",
     "methodMix": {
       "Pullback": 24,
       "META": 3
@@ -24,7 +24,7 @@
     "screener": 676,
     "techPass": 52
   },
-  "status": "tech52_aligned_entry_stale",
-  "summaryTw": "【總司令｜2026-10-26 23:12 HKT】\n閘門｜RTH・未觸｜QQQ ~+1.4%（Drok）\n管道｜**676→52→27→27**｜②已重鎖 asOfMarket **10-23**（`bc94789`）｜③⑤仍 stale 等 Jrok／Arok\n結論｜Pages 對齊 tech｜進場未改｜?v=tech52-1023\nhttps://wolfoofwolf.github.io/stockdesk/?v=tech52-1023",
-  "techTip": "bc94789"
+  "status": "company26_aligned_entry_pending",
+  "summaryTw": "【總司令｜2026-10-26 23:18 HKT】\n閘門｜RTH・未觸\n管道｜**676→52→26**｜③ `fb5961e` asOf **10-23**｜⑤等 Arok 重砌（舊 27 stale）\n結論｜公司 Pages 已對齊｜進場暫勿動｜?v=co52-1023\nhttps://wolfoofwolf.github.io/stockdesk/?v=co52-1023",
+  "companyTip": "fb5961e"
 }
