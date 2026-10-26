@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-26T14:55:45.000Z",
+  "generatedAt": "2026-10-26T14:56:28.000Z",
   "bot": "Trok",
   "role": "commander",
-  "asOfHKT": "2026-10-26 22:55 HKT",
+  "asOfHKT": "2026-10-26 22:56 HKT",
   "pipeline": {
     "candidates": 566,
     "techPassed": 58,
@@ -11,8 +11,8 @@
     "entry": 27,
     "entryConsider": 27,
     "entryWatch": 0,
-    "downstreamStale": false,
-    "anchor": "LOCK 566→58→27→27 (e811e52 / tech 2026-10-20). Frok live screener 676 NOT re-locked — pending cash-open tech chain.",
+    "downstreamStale": true,
+    "anchor": "① 676 asOf 10-26 (Trok push); desk LOCK 566→58→27→27 STALE pending Grok→Jrok→Arok. Monitor tip b04a3de baseline kept.",
     "methodMix": {
       "Pullback": 24,
       "META": 3
@@ -22,9 +22,10 @@
       "bull_flag": 3
     },
     "note": "Grok techPass 58 anchors; Frok screener live 676 (universe 1179 asOf 2026-10-26T14:52Z) NOT re-locked. Jrok leaders 27 / Arok entry 27 unchanged vs Oct21.",
-    "screener": 676
+    "screener": 676,
+    "techPass": 58
   },
-  "summaryTw": "【總司令｜2026-10-26 22:55 HKT】\n閘門｜**RTH・不適用・未觸敘事**｜QQQ RTH **+1.02%**（$711.59）｜SPY RTH **+0.75%**（$765.69）\n管道｜**566→58→27→27** LOCK（Grok techPass 錨）｜Frok 篩選 live **676**（唔重鎖・待 cash-open）\n亞洲｜日經 CLOSED **-0.80%**／韓綜 CLOSED **-1.46%**／恒指 CLOSED **+0.51%**\nFedWatch｜hold **89.7%**／+25 **10.3%**（Δ+5.8 vs Oct21 司令）｜FOMC ~2 日｜Pages 已推｜Stock 靜默（Drok 已發）",
+  "summaryTw": "【總司令｜2026-10-26 22:56 HKT】\n閘門｜RTH・未觸｜QQQ +1.02%／SPY +0.75%（Drok／cmd2254 基線）\n管道｜① **676** asOf **10-26** 已推｜桌鎖仍 **566→58→27→27**（10-20・**stale**｜等②③⑤）\n結論｜篩選 Pages 更新｜進場未改｜?v=scr676-1026\nhttps://wolfoofwolf.github.io/stockdesk/?v=scr676-1026",
   "brief": {
     "title": "總司令簡報｜2026-10-26 22:55 HKT",
     "sections": [
@@ -66,9 +67,7 @@
     ]
   },
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=cmd2254-1026",
-    "pages": "https://wolfoofwolf.github.io/stockdesk/?v=cmd2254-1026",
-    "macroTip": "https://wolfoofwolf.github.io/stockdesk/?v=macro2244-1026"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=scr676-1026"
   },
   "thinkingLog": [
     "2026-10-26 22:55 HKT commander monitor (item 6) after multi-day usage gap",
@@ -76,12 +75,23 @@
     "Jrok leaders 27 / Arok entry 27 methodMix 24/3 identical vs Oct21 commander",
     "Material vs Oct21 commander: FedWatch 83.9→89.7 Δ+5.8; META/TSLA done+$95B; FOMC ~2d; session RTH re-baseline; Asia closes flipped",
     "Drok MACRO_HANDOFF 2244 already speakToStockGroup=true Pages macro2244-1026 → commander push only; Stock SILENT",
-    "pagesTip cmd2254-1026"
+    "pagesTip cmd2254-1026",
+    {
+      "t": "2026-10-26 22:56 HKT",
+      "bot": "Trok",
+      "msg": "push screener 676 asOf 10-26; HOLD entry stale"
+    },
+    {
+      "t": "2026-10-26 22:56 HKT",
+      "bot": "Trok",
+      "msg": "push screener 676; entry stale HOLD"
+    }
   ],
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "vs Oct21 21:06 commander: FedWatch hold Δ+5.8pp (83.9→89.7); calendar catalysts updated (META/TSLA printed + META $95B raise; FOMC within ~2 trading days); gate/session PRE_MKT→RTH re-baseline after multi-day gap; Asia closes flipped. Pipeline LOCK 566→58→27→27 and leadership/entry mix UNCHANGED (scr live 676 wobble not re-locked). Push commander Pages; Stock silent because Drok already spoke macro2244."
+    "why": "push screener 676 asOf 10-26; entry untouched",
+    "vs": "b04a3de"
   },
   "gate": {
     "status": "N/A",
