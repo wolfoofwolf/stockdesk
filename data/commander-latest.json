@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-26T21:12:01.000Z",
+  "generatedAt": "2026-10-26T21:15:25.000Z",
   "bot": "Trok",
   "role": "commander",
-  "asOfHKT": "2026-10-27 05:12 HKT",
+  "asOfHKT": "2026-10-27 05:15 HKT",
   "pipeline": {
     "candidates": 676,
     "techPassed": 52,
-    "company": 26,
+    "company": 28,
     "leaders": 26,
     "entry": 26,
     "entryConsider": 26,
     "entryWatch": 0,
     "downstreamStale": true,
-    "anchor": "①673→②56 (cbae5ac asOf 10-26). ③⑤ still 26 pending Jrok/Arok rebuild.",
+    "anchor": "①673→②56→③28 (fc49145 asOf 10-26). ⑤ pending Arok — entry page DO NOT update.",
     "methodMix": {
       "Pullback": 22,
       "META": 4
@@ -26,7 +26,7 @@
     "screener": 673,
     "techPass": 56
   },
-  "summaryTw": "【總司令｜2026-10-27 05:12 HKT】\n閘門｜RTH／未觸（hourly）\n管道｜**673→56→26→26**｜②已刷 asOf **10-26**（`cbae5ac`）｜③⑤等 Jrok／Arok\n結論｜Pages 對齊 tech｜進場暫勿動｜?v=tech56-1026\nhttps://wolfoofwolf.github.io/stockdesk/?v=tech56-1026",
+  "summaryTw": "【總司令｜2026-10-27 05:15 HKT】\n閘門｜未觸\n管道｜**673→56→28**｜③ `fc49145` asOf **10-26**｜⑤等 Arok（舊 26）\n結論｜公司 Pages 對齊｜進場暫勿動｜?v=co56-1026\nhttps://wolfoofwolf.github.io/stockdesk/?v=co56-1026",
   "brief": {
     "title": "總司令簡報｜2026-10-27 04:58 HKT",
     "sections": [
@@ -68,14 +68,9 @@
     ]
   },
   "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=tech56-1026"
+    "site": "https://wolfoofwolf.github.io/stockdesk/?v=co56-1026"
   },
   "thinkingLog": [
-    {
-      "t": "2026-10-26 23:20 HKT",
-      "bot": "Trok",
-      "msg": "push entry 26 en26-1023"
-    },
     {
       "t": "2026-10-27 00:08 HKT",
       "bot": "Trok",
@@ -110,13 +105,18 @@
       "t": "2026-10-27 05:12 HKT",
       "bot": "Trok",
       "msg": "align Pages tech56 cbae5ac; wait Jrok/Arok"
+    },
+    {
+      "t": "2026-10-27 05:15 HKT",
+      "bot": "Trok",
+      "msg": "align Pages co28 fc49145; wait Arok⑤"
     }
   ],
   "material": true,
   "materialChange": {
     "yes": true,
-    "why": "align techPass 52→56 asOf 10-26 tip cbae5ac",
-    "vs": "3f213d9"
+    "why": "align company→28 leaders tip fc49145",
+    "vs": "0907a35"
   },
   "gate": {
     "status": "N/A",
