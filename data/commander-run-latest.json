@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T04:22:45+08:00",
+  "generatedAt": "2026-10-28T04:23:46+08:00",
   "asOf": "2026-10-27",
   "bot": "Trok",
   "pipeline": {
@@ -7,26 +7,26 @@
     "techPassed": 64,
     "company": 31,
     "leaders": 31,
-    "entry": 28,
-    "entryConsider": 27,
+    "entry": 31,
+    "entryConsider": 30,
     "entryWatch": 1,
-    "downstreamStale": true,
-    "anchor": "ALIGN 692→64→31→28 pending Arok⑤; asOfMarket 10-27. tip ?v=co31-1027",
+    "downstreamStale": false,
+    "anchor": "LOCK 692→64→31→31 asOf 10-27 (consider 30 / watch BROS). tip ?v=en31-1027",
     "methodMix": {
-      "Pullback": 23,
+      "Pullback": 27,
       "META": 4
     },
     "patternMix": {
-      "VCP": 47,
-      "bull_flag": 16,
+      "VCP": 24,
+      "bull_flag": 6,
       "cup_with_handle": 1
     },
-    "note": "Jrok company/leaders 31 (e72bd68; depthKept39); entry still prior 28 LOCK — STALE until Arok⑤. WM out of leaders.",
+    "note": "Arok ⑤ 04:23 HKT: entry 31 on Jrok leaders 31 / Grok tech 64 / Frok scr 692. Δ vs prior LOCK +ADSK/AMX/… −CNK/DINO/…/WM. Push tip en31-1027.",
     "screener": 692,
     "techPass": 64
   },
-  "status": "ALIGN",
-  "summaryTw": "【總司令｜ALIGN】692→64→31→28（entry STALE）asOf 10-27｜待 Arok⑤｜tip ?v=co31-1027",
+  "status": "LOCK",
+  "summaryTw": "【總司令｜LOCK】692→64→31→31 asOf 10-27｜可考慮30／觀望BROS｜tip ?v=en31-1027",
   "materialChange": true,
   "pagesTip": "macro0341-1028",
   "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro0341-1028",
