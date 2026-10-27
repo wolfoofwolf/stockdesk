@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股RTH_OPEN・QQQ +0.67%／SPY +0.31%・開盤綠・閘門未觸｜亞JP+KR+HK CLOSED｜FedWatch hold 89.7%（Δ-2.3 vs2045）｜NQ Δ-0.05pp｜**發群・PRE→RTH開盤**（Drok）",
   "asOf": "2026-10-27T13:43:00.000Z",
-  "updatedAt": "2026-10-27T13:48:00.000Z",
+  "updatedAt": "2026-10-27T13:48:30.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -518,12 +518,12 @@
     "speakToStockGroup": true,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro2143-1027",
     "session": "RTH_OPEN / Asia JP+KR+HK CLOSED",
-    "pagesTipSha": null,
-    "pushed": false,
-    "pushedAtHKT": null,
-    "pushPending": true,
-    "contentCommitSha": null,
-    "blobSha": null,
+    "pagesTipSha": "07c50b8bc11f6e05a453f74ca8e49f226565a45e",
+    "pushed": true,
+    "pushedAtHKT": "2026-10-27 21:48 HKT",
+    "pushPending": false,
+    "contentCommitSha": "07c50b8bc11f6e05a453f74ca8e49f226565a45e",
+    "blobSha": "1cbddb0e57dfa54df09b53e33f8901e2891de277",
     "tipSyncCommitSha": null,
     "finalBlobSha": null,
     "tipSync": "macro2143-1027"
@@ -711,7 +711,8 @@
       "RTH QQQ 716.96 (+0.67%)／SPY 767.71 (+0.31%) from Nasdaq API marketStatus=Open ~9:43 AM ET; CNBC corroboration QQQ 716.71/+0.63 SPY 767.53/+0.28 REG_MKT",
       "Finance MCP needsAuth — skipped; used web/Nasdaq/Yahoo/CNBC",
       "UpdateMemory tool not available this run; journal file written only",
-      "VIX: CNBC 17.76 / Yahoo ~17.83 — used CNBC 17.76 live print"
+      "VIX: CNBC 17.76 / Yahoo ~17.83 — used CNBC 17.76 live print",
+      "GitHub Pages push OK content 07c50b8bc11f6e05a453f74ca8e49f226565a45e tipSync PENDING"
     ]
   }
 }
