@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股RTH・QQQ +1.26%／SPY +0.62%・閘門未觸｜亞JP+KR+HK CLOSED｜FedWatch hold 90.8%（Δ+1.1 vs2244）｜NQ Δ+0.38pp｜不發群（Drok）",
   "asOf": "2026-10-27T15:46:00.000Z",
-  "updatedAt": "2026-10-27T15:51:52.000Z",
+  "updatedAt": "2026-10-27T15:52:33.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -536,14 +536,13 @@
     "session": "RTH / Asia JP+KR+HK CLOSED",
     "pagesTipSha": "428eb64496afbc95d138ba88caa6e804e69c8190",
     "pushed": true,
-    "pushedAtHKT": "2026-10-27 23:51 HKT",
+    "pushedAtHKT": "2026-10-27 23:52 HKT",
     "pushPending": false,
     "contentCommitSha": "428eb64496afbc95d138ba88caa6e804e69c8190",
-    "blobSha": "d9465130918a60b76a4317568d36a499861020fd",
-    "tipSyncCommitSha": null,
-    "finalBlobSha": "d9465130918a60b76a4317568d36a499861020fd",
-    "tipSync": "macro2346-1027",
-    "tipLockCommitSha": null
+    "blobSha": "1f09e14a168d4c6529294fa9b729d8ba727568fa",
+    "tipSyncCommitSha": "6a4c7c829dc1ce8a9b14bc62a2b27684962e0f56",
+    "finalBlobSha": "1f09e14a168d4c6529294fa9b729d8ba727568fa",
+    "tipSync": "macro2346-1027"
   },
   "brief": {
     "skeleton": "閘門｜FedWatch｜美股／亞洲｜日曆｜結論",
@@ -729,7 +728,7 @@
       "UpdateMemory tool not available this run; journal file written only",
       "VIX: CNBC 17.55 / Yahoo 17.55 — used 17.55 live print",
       "CNBC @NQ.1/@ES.1 returned null this round; used Yahoo NQ=F/ES=F 1m chart",
-      "GitHub Pages push OK content 428eb64496afbc95d138ba88caa6e804e69c8190 tipSync PENDING tipLock PENDING"
+      "GitHub Pages push OK content 428eb64496afbc95d138ba88caa6e804e69c8190 tipSync 6a4c7c829dc1ce8a9b14bc62a2b27684962e0f56 tipLock pending"
     ]
   }
 }
