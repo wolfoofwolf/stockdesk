@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T01:52:05+08:00",
+  "generatedAt": "2026-10-28T04:10:35+08:00",
   "asOf": "2026-10-26",
   "bot": "Trok",
   "pipeline": {
@@ -11,7 +11,7 @@
     "entryConsider": 27,
     "entryWatch": 1,
     "downstreamStale": false,
-    "anchor": "LOCK 673→56→28→28 asOf 10-26 (+IBN/−TKOMY). tip ?v=en28-0151",
+    "anchor": "LOCK 673→56→28→28 asOf 10-26; Frok live scr 692 NOT re-locked. tip ?v=scr692-1027",
     "methodMix": {
       "Pullback": 23,
       "META": 4
@@ -21,39 +21,45 @@
       "bull_flag": 4,
       "cup_with_handle": 1
     },
-    "note": "Arok ⑤ 01:51 HKT: leaders Δ＋IBN／−TKOMY; entry 28 (consider 27 / watch WM). techPass 56. Push tip en28-0151.",
-    "screener": 676,
+    "note": "Frok screener material 692 (asOf cash 10-27) pushed Pages ?v=scr692-1027; pipeline HOLD prior LOCK until Grok→Jrok→Arok chain. Entry tip keep en28-0151.",
+    "screener": 692,
     "techPass": 56
   },
   "status": "LOCK",
-  "summaryTw": "【總司令｜LOCK】673→56→28→28 asOf 10-26｜Δ＋IBN／−TKOMY｜可考慮27／觀望WM｜tip ?v=en28-0151",
-  "materialChange": true,
-  "pagesTip": "macro0045-1028",
-  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro0045-1028",
-  "session": "RTH / Asia JP+KR+HK CLOSED",
+  "summaryTw": "【總司令｜HOLD】LOCK 673→56→28→28｜Frok live scr 692 未重鎖｜推 ?v=scr692-1027",
+  "materialChange": false,
+  "pagesTip": "macro0341-1028",
+  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro0341-1028",
+  "session": "POST_CLOSE / Asia JP+KR+HK CLOSED",
   "gateApplicable": false,
   "gateFired": false,
   "speakToStockGroup": false,
   "fedwatch": {
-    "hold": 88.0,
-    "hike25": 12.0,
-    "source": "CME mirror kryptomagazin",
-    "stamp": "2026-10-27 17:00 UTC",
-    "deltaVsPriorCmd": -2.8
+    "hold": 93.1,
+    "hike25": 6.9,
+    "source": "Investing Fed Rate Monitor (CME IP-blocked this run)",
+    "stamp": "Oct 27, 2026 03:45PM EDT",
+    "deltaVsPriorCmd": 1.1,
+    "deltaVsMacro0341": -1.2,
+    "investing": {
+      "hold": 93.1,
+      "hike25": 6.9,
+      "stamp": "Oct 27, 2026 03:45PM EDT"
+    }
   },
   "quotes": {
     "qqq": {
-      "px": 720.74,
-      "chgPct": 1.2
+      "px": 721.25,
+      "chgPct": 1.27
     },
     "spy": {
-      "px": 769.04,
-      "chgPct": 0.48
+      "px": 769.71,
+      "chgPct": 0.57
     },
     "smh": {
-      "px": 557.23,
-      "chgPct": 2.88
+      "px": 557.98,
+      "chgPct": 3.02
     },
-    "vix": 17.77
+    "vix": 17.51
   }
 }
