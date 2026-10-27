@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股RTH・QQQ +1.15%／SPY +0.48%・閘門未觸｜亞JP+KR+HK CLOSED｜FedWatch hold 92.0%（Δ+3.5 vs0144）｜NQ Δ-0.11pp｜不發群（Drok）",
   "asOf": "2026-10-27T18:40:00.000Z",
-  "updatedAt": "2026-10-27T18:48:00.000Z",
+  "updatedAt": "2026-10-27T18:46:30.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -560,14 +560,14 @@
     "session": "RTH / Asia JP+KR+HK CLOSED",
     "pagesTipSha": "481bf864",
     "pushed": true,
-    "pushedAtHKT": "2026-10-28 02:45 HKT",
+    "pushedAtHKT": "2026-10-28 02:46 HKT",
     "pushPending": false,
     "contentCommitSha": "481bf864d70207e12bd2fb498dd3be44aa9666f7",
     "blobSha": "619973a954c20e69c7a5aed74d530085e805d8b0",
-    "tipSyncCommitSha": "",
-    "finalBlobSha": "",
-    "tipSync": false,
-    "tipLockCommitSha": ""
+    "tipSyncCommitSha": "2682d65a007c985a3563c30cb14fc3b24621eecd",
+    "finalBlobSha": "5bb416d684a1ccde59fc810ab8c107cd53671e93",
+    "tipSync": true,
+    "tipLockCommitSha": "2682d65a007c985a3563c30cb14fc3b24621eecd"
   },
   "brief": {
     "skeleton": [
@@ -757,7 +757,8 @@
       "VIX: Yahoo chart last 17.76",
       "CNBC @NQ.1/@ES.1 batch not used this round; Yahoo NQ=F/ES=F 1m chart + Nasdaq CRWV stocks",
       "gh CLI not authenticated; used user-GitHub-xai MCP for Pages push",
-      "WebSearch Warsh: Fed calendar still shows FOMC decision 10/28 14:00 EDT + presser 14:30 EDT; no NEW appearance today; ignore premature CNNBC 'presser already happened' (still Tue US afternoon)"
+      "WebSearch Warsh: Fed calendar still shows FOMC decision 10/28 14:00 EDT + presser 14:30 EDT; no NEW appearance today; ignore premature CNNBC 'presser already happened' (still Tue US afternoon)",
+      "GitHub Pages push OK content 481bf864d70207e12bd2fb498dd3be44aa9666f7 tipSync 2682d65a007c985a3563c30cb14fc3b24621eecd tipLock 2682d65a007c985a3563c30cb14fc3b24621eecd"
     ]
   }
 }
