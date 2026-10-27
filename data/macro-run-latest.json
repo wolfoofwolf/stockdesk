@@ -508,14 +508,15 @@
     "speakToStockGroup": false,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1945-1027",
     "session": "PRE_MKT / Asia JP+KR+HK CLOSED",
-    "pagesTipSha": null,
-    "pushed": false,
-    "pushedAtHKT": null,
-    "pushPending": true,
-    "contentCommitSha": null,
-    "blobSha": null,
+    "pagesTipSha": "a36a06c8c651aa1df62ad70f52d3c64e2939acd8",
+    "pushed": true,
+    "pushedAtHKT": "2026-10-27 19:50 HKT",
+    "pushPending": false,
+    "contentCommitSha": "a36a06c8c651aa1df62ad70f52d3c64e2939acd8",
+    "blobSha": "8a15f2ef1a2fe8448216aa0dbd4c18170626de05",
     "tipSyncCommitSha": null,
-    "finalBlobSha": null
+    "finalBlobSha": null,
+    "tipSync": "macro1945-1027"
   },
   "brief": {
     "skeleton": "閘門｜FedWatch｜美股／亞洲｜日曆｜結論",
@@ -731,7 +732,8 @@
       "HSI/N225/KS11 Yahoo chart confirms CLOSED levels retained (already spoken 1540/1640)",
       "Premarket QQQ 714.44 (+0.31%)／SPY 767.05 (+0.22%) from Nasdaq API ~7:46 AM ET",
       "Finance MCP needsAuth — skipped; used web/Nasdaq/Yahoo",
-      "UpdateMemory tool not available this run; journal file written only"
+      "UpdateMemory tool not available this run; journal file written only",
+      "GitHub Pages content commit a36a06c8c651aa1df62ad70f52d3c64e2939acd8 tipSync pending"
     ]
   }
 }
