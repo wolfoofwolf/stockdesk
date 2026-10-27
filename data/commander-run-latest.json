@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T22:14:53+08:00",
+  "generatedAt": "2026-10-28T00:59:15+08:00",
   "asOf": "2026-10-26",
   "bot": "Trok",
   "pipeline": {
@@ -11,7 +11,7 @@
     "entryConsider": 27,
     "entryWatch": 1,
     "downstreamStale": false,
-    "anchor": "LOCK 673→56→28→28 asOf 10-26 (+IBN/−TKOMY). tip ?v=en28-1026",
+    "anchor": "LOCK 673→56→28→28 asOf 10-26 (+TKOMY/−IBN). tip ?v=en28-1028",
     "methodMix": {
       "Pullback": 23,
       "META": 4
@@ -21,15 +21,15 @@
       "bull_flag": 4,
       "cup_with_handle": 1
     },
-    "note": "Trok 六大項 2026-10-27 22:14 HKT: PRE_MKT→RTH board sync（Pages commander 仍停 PRE）。techPass 56／entry 28 LOCK。scr live 676 唔重鎖。",
+    "note": "Arok ⑤ 00:58 HKT: leaders Δ＋TKOMY／−IBN; entry 28 (consider 27 / watch WM). techPass 56. Push tip en28-1028.",
     "screener": 676,
     "techPass": 56
   },
   "status": "LOCK",
-  "summaryTw": "【總司令｜LOCK】RTH｜QQQ +0.33%／SPY +0.06%｜閘門唔適用・未觸｜FedWatch 89.7｜管道 673→56→28→28｜推 commander sync ?v=cmd2214-1027",
+  "summaryTw": "【總司令｜LOCK】673→56→28→28 asOf 10-26｜Δ＋TKOMY／−IBN｜可考慮27／觀望WM｜tip ?v=en28-1028",
   "materialChange": true,
-  "pagesTip": "?v=cmd2214-1027",
-  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd2214-1027",
+  "pagesTip": "macro2346-1027",
+  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro2346-1027",
   "session": "RTH / Asia JP+KR+HK CLOSED",
   "gateApplicable": false,
   "gateFired": false,
