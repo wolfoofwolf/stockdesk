@@ -471,10 +471,10 @@
     "speakToStockGroup": false,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro0840-1027",
     "session": "POST_CLOSE / Asia JP+KR+HK CLOSED",
-    "pagesTipSha": null,
-    "pushed": false,
-    "pushedAtHKT": null,
-    "pushPending": true
+    "pagesTipSha": "8251df69169f59aabcd2bb7164e6aa46def352fd",
+    "pushed": true,
+    "pushedAtHKT": "2026-10-27 08:40 HKT",
+    "pushPending": false
   },
   "brief": {
     "skeleton": [
@@ -644,7 +644,8 @@
       "kryptomagazin fed-probability 404 unreachable this round; prior 86.0/14.0 asOf 2026-10-26 16:59 UTC not refreshed",
       "Investing stamp rolled 07:15PM→08:15PM EDT with hold unchanged 89.7/10.3 (Δ0.0pp ≪5)",
       "Asia JP/KR Yahoo showed ~08:20–08:25 HKT indicative prints before 09:00 open — treated CLOSED; retained Mon official closes",
-      "NQ/ES overnight futures from Yahoo 1m regularMarketPrice vs Fri settlement"
+      "NQ/ES overnight futures from Yahoo 1m regularMarketPrice vs Fri settlement",
+      "GitHub Pages push OK tip 8251df69169f59aabcd2bb7164e6aa46def352fd"
     ]
   }
 }
