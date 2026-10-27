@@ -486,12 +486,12 @@
     "speakToStockGroup": false,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1240-1027",
     "session": "POST_CLOSE / Asia JP+KR+HK OPEN mid",
-    "pagesTipSha": null,
-    "pushed": false,
-    "pushedAtHKT": null,
-    "pushPending": true,
-    "contentCommitSha": null,
-    "blobSha": null
+    "pagesTipSha": "7f2a5007c0c136409af00d4a8d7eda866c0e9d5c",
+    "pushed": true,
+    "pushedAtHKT": "2026-10-27 12:44 HKT",
+    "pushPending": false,
+    "contentCommitSha": "7f2a5007c0c136409af00d4a8d7eda866c0e9d5c",
+    "blobSha": "e3bf71817e4fd001919864c5774f0090795b6936"
   },
   "brief": {
     "skeleton": [
@@ -687,7 +687,7 @@
       "NQ/ES overnight futures from Yahoo 1m regularMarketPrice vs Fri settlement",
       "curl investing.com 403; WebFetch succeeded for Current+Dec tables",
       "UpdateMemory tool not available this run; journal file written only",
-      "GitHub Pages push pending (parent / MCP)"
+      "GitHub Pages push OK tip 7f2a5007c0c136409af00d4a8d7eda866c0e9d5c (prior content commit 24f8ac5d098950c1e63bc2aac0a40dd300a241a6)"
     ]
   }
 }
