@@ -482,11 +482,11 @@
     "speakToStockGroup": false,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1140-1027",
     "session": "POST_CLOSE / Asia JP+KR+HK OPEN mid",
-    "pagesTipSha": "PENDING",
-    "pushed": false,
-    "pushedAtHKT": null,
-    "pushPending": true,
-    "contentCommitSha": null,
+    "pagesTipSha": "77d7f3da5a10ddd8aa71076513cf46cf5de4de43",
+    "pushed": true,
+    "pushedAtHKT": "2026-10-27 11:40 HKT",
+    "pushPending": false,
+    "contentCommitSha": "77d7f3da5a10ddd8aa71076513cf46cf5de4de43",
     "blobSha": null
   },
   "brief": {
@@ -682,7 +682,7 @@
       "HSI Yahoo 1m mid print 23149.57 (-0.27% vs Mon); OPEN already spoken at 0940",
       "NQ/ES overnight futures from Yahoo 1m regularMarketPrice vs Fri settlement",
       "UpdateMemory tool not available this run; journal file written only",
-      "GitHub Pages push PENDING at write time"
+      "GitHub Pages push OK tip 77d7f3da5a10ddd8aa71076513cf46cf5de4de43 (prior content commit e43e260830a0a5cdaa4bb348c58e4f5868b3479e)"
     ]
   }
 }
