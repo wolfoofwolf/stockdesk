@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股RTH・QQQ +0.65%／SPY +0.27%・閘門未觸｜亞JP+KR+HK CLOSED｜FedWatch hold 89.7%（Δ+0.0 vs2143）｜NQ Δ+0.22pp｜不發群（Drok）",
   "asOf": "2026-10-27T14:44:00.000Z",
-  "updatedAt": "2026-10-27T14:48:24.000Z",
+  "updatedAt": "2026-10-27T14:48:41.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -531,9 +531,9 @@
     "pushedAtHKT": "2026-10-27 22:48 HKT",
     "pushPending": false,
     "contentCommitSha": "101c0da4ecd89af22428fc26a2ab0791b9ee6848",
-    "blobSha": "9738b04b608f27d037379bbd8cefab6d9ede77bd",
-    "tipSyncCommitSha": null,
-    "finalBlobSha": null,
+    "blobSha": "7947d6d6fce69f711c21d3d9391d5a38666a043b",
+    "tipSyncCommitSha": "3eeec4d03478e84caa865162b9e853459aa4cc00",
+    "finalBlobSha": "7947d6d6fce69f711c21d3d9391d5a38666a043b",
     "tipSync": "macro2244-1027"
   },
   "brief": {
@@ -719,7 +719,8 @@
       "Finance MCP needsAuth — skipped; used web/Nasdaq/Yahoo/CNBC",
       "UpdateMemory tool not available this run; journal file written only",
       "VIX: CNBC 17.67 / Yahoo ~17.78 — used CNBC 17.67 live print",
-      "CNBC @NQ.1/@ES.1 returned null this round; used Yahoo NQ=F/ES=F 1m chart"
+      "CNBC @NQ.1/@ES.1 returned null this round; used Yahoo NQ=F/ES=F 1m chart",
+      "GitHub Pages push OK content 101c0da4ecd89af22428fc26a2ab0791b9ee6848 tipSync 3eeec4d03478e84caa865162b9e853459aa4cc00 tipLock pending"
     ]
   }
 }
