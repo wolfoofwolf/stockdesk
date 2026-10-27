@@ -1,13 +1,13 @@
-# Commander — 2026-10-27 09:08 HKT
+# Commander — 2026-10-27 22:14 HKT
 
-**LOCK 673→56→28→28** asOf **10-26**｜consider 27／watch WM｜**亞洲日／韓 OPEN 雙彈**｜已推｜?v=cmd0908-1027
+**LOCK 673→56→28→28** asOf **10-26**｜RTH｜QQQ +0.33%／SPY +0.06%｜閘門唔適用・未觸｜FedWatch hold 89.7%｜**推 commander sync** ?v=cmd2214-1027｜Stock 靜音（Drok2143 已發 RTH）
 
 ## 六大項
-- 閘門｜POST_CLOSE N/A・未觸｜QQQ +1.11%／SPY +0.71%
-- FedWatch｜hold 89.7%／+25 10.3%（stamp Oct 26, 2026 08:45PM EDT）Δ0≪3
-- 美股／亞洲｜日經 OPEN +2.10%／韓綜 OPEN +4.06%／恒指 PRE_OPEN +0.51%
-- 日曆｜FOMC 10/27–28 會議日｜MSFT/GOOGL 10/28｜無新催化劑
-- 管道｜673→56→28→28 LOCK｜scr live 677 唔重鎖｜Pullback 23／META 4
-- 結論｜亞開盤材料・Pages 已推・Stock 發群
+- 閘門｜RTH 經典 PRE 不適用・開盤急挫未觸｜QQQ RTH +0.33%（$714.56）／SPY RTH +0.06%（$765.86）｜VIX ~18.01
+- FedWatch｜hold 89.7%／+25 10.3%（stamp Oct 27, 2026 09:35AM EDT）Δ-2.3pp vs cmd2158／Δ0 vs Drok2143
+- 美股／亞洲｜RTH｜SMH +1.17%｜日經 CLOSED +1.73%／韓綜 CLOSED +3.09%／恒指 CLOSED −0.73%
+- 日曆｜FOMC 10/27–28 會議進行中（聲明 10/28）｜MSFT/GOOGL 10/28｜無新材料催化劑
+- 管道｜673→56→28→28 LOCK｜scr live 676 唔重鎖｜Pullback 23／META 4｜consider 27／watch WM
+- 結論｜推 Pages commander PRE→RTH 同步・Stock 靜音
 
-https://wolfoofwolf.github.io/stockdesk/?v=cmd0908-1027
+https://wolfoofwolf.github.io/stockdesk/?v=cmd2214-1027
