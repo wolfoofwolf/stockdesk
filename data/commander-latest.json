@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-27T01:08:18.000Z",
+  "generatedAt": "2026-10-27T21:58:21+08:00",
   "bot": "Trok",
   "role": "commander",
-  "asOfHKT": "2026-10-27 09:08 HKT",
+  "asOfHKT": "2026-10-27 21:58 HKT",
   "pipeline": {
     "candidates": 673,
     "techPassed": 56,
@@ -12,7 +12,7 @@
     "entryConsider": 27,
     "entryWatch": 1,
     "downstreamStale": false,
-    "anchor": "LOCK 673→56→28→28 asOf 10-26 (consider 27 / watch WM 1). tip ?v=cmd0908-1027 / Trok Asia OPEN.",
+    "anchor": "LOCK 673→56→28→28 asOf 10-26 (+IBN/−TKOMY). tip ?v=en28-1026",
     "methodMix": {
       "Pullback": 23,
       "META": 4
@@ -22,38 +22,38 @@
       "bull_flag": 4,
       "cup_with_handle": 1
     },
-    "note": "Grok techPass 56 anchors; Frok screener live 677 (univ 1182 asOf 2026-10-26T22:59Z) NOT re-locked. Jrok leaders 28 / Arok entry 28. Asia JP+KR OPEN milestone.",
+    "note": "Arok ⑤ rebuild 21:57 HKT: leaders Δ＋IBN／−TKOMY; entry 28 (consider 27 / watch WM). techPass 56 unchanged. Push entry tip en28-1026.",
     "screener": 677,
     "techPass": 56
   },
-  "summaryTw": "【總司令｜2026-10-27 09:08 HKT】\n閘門｜未觸（POST_CLOSE N/A）\n管道｜**673→56→28→28** LOCK｜asOf **10-26**｜可考慮 **27**／觀望 **1＝WM**\n⑤｜Pullback **23**／META **4**｜VCP 23／BF 4\n亞洲｜日經 OPEN **+2.10%**／韓綜 OPEN **+4.06%**／恒指 PRE_OPEN **+0.51%**\n結論｜亞開盤材料・已推｜?v=cmd0908-1027\nhttps://wolfoofwolf.github.io/stockdesk/?v=cmd0908-1027",
+  "summaryTw": "【總司令｜LOCK】673→56→28→28 asOf 10-26｜Δ＋IBN／−TKOMY｜可考慮27／觀望WM｜tip ?v=en28-1026",
   "brief": {
-    "title": "總司令簡報｜2026-10-27 09:08 HKT",
+    "title": "總司令簡報｜2026-10-27 21:08 HKT",
     "sections": [
       {
         "id": "gate",
         "label": "閘門",
-        "value": "**POST_CLOSE・不適用・未觸敘事**｜QQQ RTH close **+1.11%**（$712.20）｜SPY RTH close **+0.71%**（$765.37）｜NQ +1.48% vsFri｜門檻 −0.65% 僅 PRE_MKT｜VIX ~18.39"
+        "value": "**PRE_MKT・適用・未觸**｜QQQ PRE **$714.90（+0.38%** vs Mon RTH **$712.20 +1.11%）｜SPY PRE **$767.39（+0.26%** vs Mon RTH **$765.37 +0.71%）｜門檻 −0.65%・遠未跌穿｜VIX ~17.73"
       },
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "hold **89.7%**／+25 **10.3%**（Inv Current・stamp Oct 26, 2026 08:45PM EDT）｜vs 司令 08:58 89.7 **Δ0≪3**｜Drok 0840 89.7／SO 90/10｜blackout→10/28｜FOMC 會議日（10/27–28）"
+        "value": "hold **92.0%**／+25 **8.0%**（Inv Current・stamp Oct 27, 2026 08:45AM EDT）｜vs 司令 20:07 **Δ0**｜vs Drok2045 92.0 **Δ0**｜blackout→10/28｜FOMC 會議日（10/27–28・聲明 10/28 14:00 EDT）"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "POST_CLOSE｜QQQ +1.11%／SPY +0.71%｜SMH +2.74%｜CRWV +1.76%｜META -1.88%｜TSLA **+5.21%**｜NVDA +2.39%｜**亞洲日／韓 OPEN 雙彈** 日經 **+2.10%**（63,495.54；先前 CLOSED −0.80%）／韓綜 **+4.06%**（5,691.77；先前 CLOSED −1.46%）／恒指 **PRE_OPEN +0.51%**（23,211.81；09:30 待開）"
+        "value": "PRE_MKT｜QQQ PRE +0.38%／SPY PRE +0.26%｜SMH RTH +2.74%（PRE ~+1.40%）｜NQ 29,608／ES 7,742.5｜**亞洲** 日經 CLOSED **+1.73%**／韓綜 CLOSED **+3.09%**／恒指 CLOSED **-0.73%**（23,041.32；Drok2045 已印收市）"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "META/TSLA 10/21 **已刊**＋META **$95B** 融資 10/26｜**FOMC 10/27–28（會議日・聲明 10/28 14:00 EDT）**｜MSFT/GOOGL 10/28｜Warsh blackout→10/28｜無新催化劑"
+        "value": "META/TSLA 10/21 **已刊**＋META **$95B** 融資 10/26｜**FOMC 10/27–28（會議進行中・聲明 10/28 14:00 EDT）**｜MSFT/GOOGL 10/28｜Warsh blackout→10/28｜今日另有 KO/SOFI/SPGI（盤前）＋HOOD/V（盤後）等・非新材料催化劑"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "**673→56→28→28** LOCK｜techPass **56** 錨（asOf 10-26）｜Frok live scr **677** 唔重鎖｜methodMix Pullback 23／META 4｜領導／進場 28／28｜可考慮 27／觀望 1＝WM｜08:48–08:50 Jrok/Arok regen 集合／價位相同"
+        "value": "**673→56→28→28** LOCK｜techPass **56** 錨（asOf 10-26）｜Frok live scr **677** 唔重鎖｜methodMix Pullback 23／META 4｜領導／進場 28／28｜可考慮 27／觀望 1＝WM｜集合／價位不變（vs cmd2007／Drok2045 identical）"
       },
       {
         "id": "top",
@@ -63,76 +63,8 @@
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "vs 08:58 **有材料**（亞洲 session milestone：日／韓 CLOSED→OPEN；日經 +2.10%／韓綜 +4.06% 皆 ≥~1%；恒指仍 PRE_OPEN）｜閘門仍 N/A 未觸｜FedWatch Δ0≪3｜管道 LOCK 不變｜日曆無新｜**已推 Pages**｜Stock 發群｜https://wolfoofwolf.github.io/stockdesk/?v=cmd0908-1027"
+        "value": "vs 20:07／Drok2045 **無新材料**（閘門 PRE 適用仍未觸｜FedWatch Δ0≪3｜管道 LOCK 不變｜日曆無新材料催化劑｜PRE_MKT＋亞 JP+KR+HK CLOSED＋FedWatch 92.0 已由 Drok2045 推 tip）｜**唔推 Pages**（維持 macro2045-1027）｜Stock 靜音｜https://wolfoofwolf.github.io/stockdesk/?v=macro2045-1027"
       }
     ]
-  },
-  "links": {
-    "site": "https://wolfoofwolf.github.io/stockdesk/?v=cmd0908-1027"
-  },
-  "thinkingLog": [
-    {
-      "t": "2026-10-27 02:02 HKT",
-      "bot": "Trok",
-      "msg": "hourly local rewrite RTH QQQ +1.36/SPY +0.77; FW 88.5/11.5 Δ+1.1; pipe HOLD 676→52→26→26; scr wobble 673; Drok tip macro0140 already; no material → no push; Stock SILENT"
-    },
-    {
-      "t": "2026-10-27 02:58 HKT",
-      "bot": "Trok",
-      "msg": "hourly local rewrite RTH QQQ +1.18/SPY +0.66; FW 88.5/11.5 Δ+0.0; pipe HOLD 676→52→26→26; scr wobble 673; Drok tip macro0249 already; no material → no push; Stock SILENT"
-    },
-    {
-      "t": "2026-10-27 03:57 HKT",
-      "bot": "Trok",
-      "msg": "hourly local rewrite RTH QQQ +1.09/SPY +0.67; FW 87.4/12.6 Δ-1.1; pipe HOLD 676→52→26→26; scr wobble 662; Drok tip macro0342-1027 already; no material → no push; Stock SILENT"
-    },
-    {
-      "t": "2026-10-27 04:58 HKT",
-      "bot": "Trok",
-      "msg": "hourly local rewrite POST_CLOSE QQQ +1.11/SPY +0.71; FW 88.5/11.5 Δ+1.1; pipe HOLD 676→52→26→26; scr wobble 673; Drok tip macro0444-1027 already; no material → no push; Stock SILENT"
-    },
-    {
-      "t": "2026-10-27 05:12 HKT",
-      "bot": "Trok",
-      "msg": "align Pages tech56 cbae5ac; wait Jrok/Arok"
-    },
-    {
-      "t": "2026-10-27 05:15 HKT",
-      "bot": "Trok",
-      "msg": "align Pages co28 fc49145; wait Arok⑤"
-    },
-    {
-      "t": "2026-10-27 05:16 HKT",
-      "bot": "Trok",
-      "msg": "push entry 28 en28-1026"
-    },
-    {
-      "t": "2026-10-27 06:07 HKT",
-      "bot": "Trok",
-      "msg": "hourly local rewrite POST_CLOSE QQQ +1.11/SPY +0.71; FW 88.5/11.5 Δ0 vs 05:16 (Inv stamp 05:45PM EDT); Asia CLOSED Δ0; pipe HOLD LOCK 673→56→28→28 (scr wobble 677 not re-locked); FOMC~1d; no material → no push; Pages tip keep ?v=macro0542-1027 (Drok); Stock SILENT"
-    },
-    {
-      "t": "2026-10-27 07:07 HKT",
-      "bot": "Trok",
-      "msg": "hourly local rewrite POST_CLOSE QQQ +1.11/SPY +0.71 AH −0.07/−0.13; FW 90.8/9.2 Δ+2.3≪3 vs 06:07 88.5 (Inv stamp 06:35PM EDT; Drok 0640); Asia CLOSED Δ0; pipe HOLD LOCK 673→56→28→28 (scr wobble 677 not re-locked); FOMC~1d unchanged; no material → no push; Pages tip keep ?v=macro0640-1027 (Drok); Stock SILENT"
-    },
-    {
-      "t": "2026-10-27 08:02 HKT",
-      "bot": "Trok",
-      "msg": "hourly local rewrite POST_CLOSE QQQ +1.11/SPY +0.71; FW 89.7/10.3 Δ-1.1≪3 vs 07:07 90.8 (Inv stamp 07:35PM EDT; Drok 0740); Asia CLOSED Δ0; pipe HOLD LOCK 673→56→28→28 (scr wobble 677 not re-locked); FOMC~0–1d unchanged; no material → no push; Pages tip keep ?v=macro0740-1027 (Drok); Stock SILENT"
-    },
-    {
-      "t": "2026-10-27 08:58 HKT",
-      "bot": "Trok",
-      "msg": "commander schedule 08:49 fire; POST_CLOSE QQQ +1.11/SPY +0.71; FW 89.7/10.3 Δ0≪3 vs 08:02 (Inv stamp 08:15PM EDT; Drok 0840); Asia CLOSED/pre-open Δ0; pipe HOLD LOCK 673→56→28→28 (entry/leaders regen 08:48–08:50 identical set/levels; scr wobble 677 not re-locked); FOMC meeting day unchanged; catalysts no new; local rewrite tip macro0840-1027; no material → no push; Stock SILENT"
-    },
-    {
-      "t": "2026-10-27 09:08 HKT",
-      "bot": "Trok",
-      "msg": "hourly MATERIAL Asia JP+KR OPEN N225 +2.10/KS11 +4.06 (was CLOSED -0.80/-1.46); HSI PRE_OPEN +0.51; gate N/A QQQ +1.11/SPY +0.71; FW 89.7/10.3 Δ0; pipe LOCK 673→56→28→28; push tip cmd0908-1027; Stock notify"
-    }
-  ],
-  "materialChange": true,
-  "speakToStockGroup": true,
-  "session": "POST_CLOSE / Asia JP+KR OPEN / HK PRE_OPEN"
+  }
 }
