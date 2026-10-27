@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-10-28T04:10:35+08:00",
+  "generatedAt": "2026-10-28T04:15:49+08:00",
   "bot": "Trok",
   "role": "commander",
-  "asOfHKT": "2026-10-28 04:10 HKT",
+  "asOfHKT": "2026-10-28 04:15 HKT",
   "pipeline": {
-    "candidates": 673,
-    "techPassed": 56,
+    "candidates": 692,
+    "techPassed": 64,
     "company": 28,
     "leaders": 28,
     "entry": 28,
     "entryConsider": 27,
     "entryWatch": 1,
-    "downstreamStale": false,
-    "anchor": "LOCK 673→56→28→28 asOf 10-26; Frok live scr 692 NOT re-locked. tip ?v=scr692-1027",
+    "downstreamStale": true,
+    "anchor": "ALIGN 692→64→28→28 pending Jrok/Arok; asOfMarket 10-27. tip ?v=tech64-1027",
     "methodMix": {
       "Pullback": 23,
       "META": 4
     },
     "patternMix": {
-      "VCP": 23,
-      "bull_flag": 4,
+      "VCP": 47,
+      "bull_flag": 16,
       "cup_with_handle": 1
     },
-    "note": "Frok screener material 692 (asOf cash 10-27) pushed Pages ?v=scr692-1027; pipeline HOLD prior LOCK until Grok→Jrok→Arok chain. Entry tip keep en28-0151.",
+    "note": "Grok techPass 64 (Δ+18/−10/kept46) asOf 10-27; company/entry still 28 from prior LOCK — downstream STALE until Jrok③ + Arok⑤. Screener tip scr692-1027; tech tip tech64-1027.",
     "screener": 692,
-    "techPass": 56
+    "techPass": 64
   },
-  "summaryTw": "【總司令｜HOLD】LOCK 673→56→28→28｜Frok live scr 692 未重鎖｜推 ?v=scr692-1027",
+  "summaryTw": "【總司令｜ALIGN】692→64→28→28（下游 STALE）asOf 10-27｜待 Jrok③／Arok⑤｜tip ?v=tech64-1027",
   "brief": {
     "title": "總司令簡報｜2026-10-28 04:06 HKT",
     "sections": [
