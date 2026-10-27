@@ -474,10 +474,12 @@
     "speakToStockGroup": true,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro0940-1027",
     "session": "POST_CLOSE / Asia JP+KR+HK OPEN",
-    "pagesTipSha": null,
-    "pushed": false,
-    "pushedAtHKT": null,
-    "pushPending": true
+    "pagesTipSha": "4adfbfccbed695846820e294443b8d53f0ea4a66",
+    "pushed": true,
+    "pushedAtHKT": "2026-10-27 09:40 HKT",
+    "pushPending": false,
+    "contentCommitSha": "4adfbfccbed695846820e294443b8d53f0ea4a66",
+    "blobSha": "87e18dcefd153edfca9fe144ad433f7b2d2edb51"
   },
   "brief": {
     "skeleton": [
@@ -651,7 +653,7 @@
       "Investing stamp rolled 08:15PM→09:15PM EDT; hold 89.7→87.4 (Δ-2.3pp ≪5)",
       "HSI Yahoo 1m empty after 09:30; ignored 09:26 pre-open indication 23260.14; retained Mon close 23211.81",
       "NQ/ES overnight futures from Yahoo 1m regularMarketPrice vs Fri settlement",
-      "GitHub Pages push pending at write time"
+      "GitHub Pages push OK tip 4adfbfccbed695846820e294443b8d53f0ea4a66 (blob 87e18dcefd153edfca9fe144ad433f7b2d2edb51)"
     ]
   }
 }
