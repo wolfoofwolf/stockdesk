@@ -656,12 +656,13 @@
     "pushedAtHKT": "2026-10-28 14:51 HKT",
     "pushPending": false,
     "contentCommitSha": "e468d4345515b6a84519fcef54105e6b8de2c2e1",
-    "blobSha": "448c03d82b0db1bd7a1fd4b3d06b155c73c56bc5",
+    "blobSha": "f2d44457cd8513aa2d5af852d520cec2c468cba1",
     "tipSync": true,
-    "tipLock": false,
-    "note": "content pushed; tipSync/tipLock pending",
-    "tipSyncCommitSha": null,
-    "finalBlobSha": "448c03d82b0db1bd7a1fd4b3d06b155c73c56bc5"
+    "tipLock": true,
+    "note": "tipSync a3fe383e; tipLock pending",
+    "tipSyncCommitSha": "a3fe383e295604bc6723ede31b59546d7b44208f",
+    "finalBlobSha": "f2d44457cd8513aa2d5af852d520cec2c468cba1",
+    "tipLockCommitSha": null
   },
   "brief": {
     "skeleton": [
