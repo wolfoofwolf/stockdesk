@@ -640,12 +640,12 @@
     "blobSha": "012321e346296e81b67df1353dc049b524994708",
     "tipSync": true,
     "tipLock": true,
-    "tipSyncCommitSha": null,
-    "tipLockCommitSha": null,
-    "tipLockSealCommitSha": null,
+    "tipSyncCommitSha": "9d9ad8b02b35a6acb86c918a888bcd6fc5901133",
+    "tipLockCommitSha": "9d9ad8b02b35a6acb86c918a888bcd6fc5901133",
+    "tipLockSealCommitSha": "9d9ad8b02b35a6acb86c918a888bcd6fc5901133",
     "finalBlobSha": "012321e346296e81b67df1353dc049b524994708",
     "sealBlobSha": "012321e346296e81b67df1353dc049b524994708",
-    "note": "tipSync/tipLock pending — contentCommit done"
+    "note": "github file tipLockSeal field points to prior tipLock 9d9ad8b0; local tipLockSeal filled after seal"
   },
   "brief": {
     "skeleton": [
