@@ -644,18 +644,18 @@
     "session": "POST_CLOSE / Asia JP+KR+HK OPEN mid",
     "pagesTipSha": "2e0a9798",
     "pushed": true,
-    "pushedAtHKT": "2026-10-28 13:46 HKT",
+    "pushedAtHKT": "2026-10-28 13:47 HKT",
     "pushPending": false,
     "contentCommitSha": "2e0a97986e7c3bf29c4a6f130d0394d78c77ac40",
-    "blobSha": "66e9c0bf2dfa86ccb27e9da638dc1fed1eb9a5df",
+    "blobSha": "002cf3d7b2cb0d4d4e6541142e3a0848d1af351d",
     "tipSync": true,
     "tipLock": true,
     "tipSyncCommitSha": "118c781943add86c6acdfbc809866acb50de3c6e",
-    "tipLockCommitSha": "118c781943add86c6acdfbc809866acb50de3c6e",
-    "tipLockSealCommitSha": null,
-    "finalBlobSha": "66e9c0bf2dfa86ccb27e9da638dc1fed1eb9a5df",
-    "sealBlobSha": "66e9c0bf2dfa86ccb27e9da638dc1fed1eb9a5df",
-    "note": "tipSync+tipLock stamped; seal pending"
+    "tipLockCommitSha": "b69abb998dd55111a587398b5add1c9acf535cd9",
+    "tipLockSealCommitSha": "b69abb998dd55111a587398b5add1c9acf535cd9",
+    "finalBlobSha": "002cf3d7b2cb0d4d4e6541142e3a0848d1af351d",
+    "sealBlobSha": "002cf3d7b2cb0d4d4e6541142e3a0848d1af351d",
+    "note": "tipLock sealed pending final seal commit"
   },
   "brief": {
     "skeleton": [
