@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-28T06:53:57.398772Z",
+  "generatedAt": "2026-10-28T07:55:37.329438Z",
   "bot": "Jrok",
   "template": "AXTI",
   "count": 31,
-  "techPassed": 64,
+  "techPassed": 61,
   "leaders": [
     {
       "ticker": "TEL",
@@ -16,7 +16,7 @@
       "score": 7,
       "price": 225.35,
       "pivot": 225.76,
-      "close": 225.54
+      "close": 225.35
     },
     {
       "ticker": "ADI",
@@ -55,7 +55,7 @@
       "score": 8,
       "price": 125.78,
       "pivot": 124.6,
-      "close": 125.73
+      "close": 125.78
     },
     {
       "ticker": "NUE",
@@ -81,7 +81,7 @@
       "score": 7,
       "price": 93.85,
       "pivot": 94.89,
-      "close": 93.82
+      "close": 93.85
     },
     {
       "ticker": "BZ",
@@ -107,7 +107,7 @@
       "score": 6,
       "price": 324.68,
       "pivot": 316.86,
-      "close": 324.98
+      "close": 324.68
     },
     {
       "ticker": "HONA",
@@ -133,7 +133,7 @@
       "score": 7,
       "price": 291.27,
       "pivot": 295.95,
-      "close": 291.28
+      "close": 291.27
     },
     {
       "ticker": "BB",
@@ -146,7 +146,20 @@
       "score": 6,
       "price": 9.55,
       "pivot": 9.72,
-      "close": 9.54
+      "close": 9.55
+    },
+    {
+      "ticker": "RMD",
+      "name": "ResMed Inc.",
+      "theme": "醫療",
+      "etf": "XLV",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 6,
+      "price": 250.8,
+      "pivot": 255.57,
+      "close": 250.8
     },
     {
       "ticker": "APG",
@@ -160,19 +173,6 @@
       "price": 40.81,
       "pivot": 41.59,
       "close": 40.81
-    },
-    {
-      "ticker": "RMD",
-      "name": "ResMed Inc.",
-      "theme": "醫療",
-      "etf": "XLV",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 250.8,
-      "pivot": 255.57,
-      "close": 250.72
     },
     {
       "ticker": "SONY",
@@ -198,7 +198,7 @@
       "score": 6,
       "price": 295.92,
       "pivot": 308.45,
-      "close": 295.95
+      "close": 295.92
     },
     {
       "ticker": "DIS",
@@ -211,7 +211,7 @@
       "score": 6,
       "price": 110.23,
       "pivot": 113.38,
-      "close": 110.24
+      "close": 110.23
     },
     {
       "ticker": "NOW",
@@ -224,7 +224,7 @@
       "score": 7,
       "price": 154.78,
       "pivot": 159.5,
-      "close": 154.83
+      "close": 154.78
     },
     {
       "ticker": "IQV",
@@ -237,7 +237,7 @@
       "score": 5,
       "price": 271.55,
       "pivot": 284.5,
-      "close": 271.69
+      "close": 271.55
     },
     {
       "ticker": "SHEL",
@@ -263,7 +263,7 @@
       "score": 5,
       "price": 41.64,
       "pivot": 43.22,
-      "close": 41.63
+      "close": 41.64
     },
     {
       "ticker": "AMX",
@@ -276,7 +276,7 @@
       "score": 5,
       "price": 24.06,
       "pivot": 25.05,
-      "close": 24.07
+      "close": 24.06
     },
     {
       "ticker": "CNI",
@@ -289,20 +289,7 @@
       "score": 6,
       "price": 125.53,
       "pivot": 130.84,
-      "close": 125.55
-    },
-    {
-      "ticker": "MAR",
-      "name": "Marriott International, Inc.",
-      "theme": "雜項",
-      "etf": "XLY",
-      "pattern": "bull_flag",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 6,
-      "price": 390.23,
-      "pivot": 407.34,
-      "close": 390.23
+      "close": 125.53
     },
     {
       "ticker": "HAFN",
@@ -315,7 +302,20 @@
       "score": 5,
       "price": 10.61,
       "pivot": 11.1,
-      "close": 10.62
+      "close": 10.61
+    },
+    {
+      "ticker": "TKOMY",
+      "name": "Tokio Marine Holdings, Inc.",
+      "theme": "金融",
+      "etf": "XLF",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "下游",
+      "score": 5,
+      "price": 3.69,
+      "pivot": 3.87,
+      "close": 3.69
     },
     {
       "ticker": "TJX",
@@ -328,7 +328,7 @@
       "score": 6,
       "price": 140.2,
       "pivot": 147.69,
-      "close": 140.21
+      "close": 140.2
     },
     {
       "ticker": "PCG",
@@ -342,19 +342,6 @@
       "price": 12.96,
       "pivot": 13.69,
       "close": 12.96
-    },
-    {
-      "ticker": "TKOMY",
-      "name": "Tokio Marine Holdings, Inc.",
-      "theme": "金融",
-      "etf": "XLF",
-      "pattern": "VCP",
-      "moat": "中",
-      "valueChain": "下游",
-      "score": 5,
-      "price": 3.69,
-      "pivot": 3.87,
-      "close": 3.66
     },
     {
       "ticker": "ADSK",
@@ -406,7 +393,20 @@
       "score": 6,
       "price": 91.13,
       "pivot": 96.69,
-      "close": 91.14
+      "close": 91.13
+    },
+    {
+      "ticker": "SM",
+      "name": "SM Energy Company",
+      "theme": "能源",
+      "etf": "XLE",
+      "pattern": "VCP",
+      "moat": "中",
+      "valueChain": "上游",
+      "score": 5,
+      "price": 39.07,
+      "pivot": 41.56,
+      "close": 39.07
     }
   ]
 }
