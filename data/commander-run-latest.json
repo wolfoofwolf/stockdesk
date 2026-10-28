@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T10:01:00+08:00",
+  "generatedAt": "2026-10-28T11:55:07+08:00",
   "asOf": "2026-10-27",
   "bot": "Trok",
   "pipeline": {
@@ -10,8 +10,8 @@
     "entry": 31,
     "entryConsider": 30,
     "entryWatch": 1,
-    "downstreamStale": false,
-    "anchor": "LOCK 692→64→31→31 asOf 10-27 (consider 30 / watch BROS). tip ?v=cmd1001-1028",
+    "downstreamStale": true,
+    "anchor": "ALIGN 692→64→31→31 Δ＋TKOMY／−IBN pending Arok⑤; tip ?v=co31-1154",
     "methodMix": {
       "Pullback": 27,
       "META": 4
@@ -21,34 +21,39 @@
       "bull_flag": 6,
       "cup_with_handle": 1
     },
-    "note": "Trok hourly 1001 HKT: POST_CLOSE／overnight・Asia JP+KR+HK OPEN。材料：港 CLOSED→OPEN（恒指 OPEN ~+0.11%；vs 09:05 CLOSED −0.73%）。LOCK 692→64→31→31 已封（scr10:00／entry+company09:54 重數不變）。FedWatch Inv 90.8/9.2 stamp 09:35PM EDT Δ-2.3pp≪3 vs cmd0905／Δ+0.0pp vs MACRO0840；JP+KR 已講唔重火；N225 ~+1.45%／KS11 ~+6.34% OPEN 噪音延伸。推 Pages tip ?v=cmd1001-1028・Stock 發群。",
+    "note": "Jrok company tip 483c12d leaders Δ＋TKOMY／−IBN (ADD0/DROP0 tech); entry prior en31-1027 STALE until Arok⑤ rebuild.",
     "screener": 692,
     "techPass": 64
   },
-  "status": "LOCK",
-  "summaryTw": "【總司令｜LOCK】692→64→31→31 asOf 10-27｜港 CLOSED→OPEN｜可考慮30／觀望BROS｜tip ?v=cmd1001-1028",
+  "status": "ALIGN",
+  "summaryTw": "【總司令｜ALIGN】692→64→31→31 Δ＋TKOMY／−IBN（entry STALE）｜待 Arok⑤｜tip ?v=co31-1154",
   "materialChange": true,
-  "pagesTip": "cmd1001-1028",
-  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd1001-1028",
-  "session": "POST_CLOSE / Asia JP+KR+HK OPEN",
+  "pagesTip": "macro1040-1028",
+  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1040-1028",
+  "session": "POST_CLOSE / Asia JP+KR+HK OPEN mid",
   "gateApplicable": false,
   "gateFired": false,
-  "speakToStockGroup": true,
+  "speakToStockGroup": false,
   "fedwatch": {
-    "hold": 90.8,
-    "hike25": 9.2,
+    "hold": 92.0,
+    "hike25": 8.0,
     "source": "Investing Fed Rate Monitor (CME IP-blocked this run)",
-    "stamp": "Oct 27, 2026 09:35PM EDT",
-    "deltaVsPriorCmd": -2.3,
-    "deltaVsMacro0840": 0.0,
+    "stamp": "Oct 27, 2026 10:35PM EDT",
+    "deltaVsPriorCmd": 1.2,
+    "deltaVsMacro1040": 0.0,
     "investing": {
-      "hold": 90.8,
-      "hike25": 9.2,
-      "stamp": "Oct 27, 2026 09:35PM EDT"
+      "hold": 92.0,
+      "hike25": 8.0,
+      "stamp": "Oct 27, 2026 10:35PM EDT"
     },
     "sessionOpen": {
       "hold": 92,
       "hike25": 8
+    },
+    "december": {
+      "hold": 17.8,
+      "hike25": 75.8,
+      "hike50": 6.5
     }
   },
   "quotes": {
@@ -66,22 +71,22 @@
     },
     "vix": 17.52,
     "nq": {
-      "px": 29900.75
+      "px": 29900.0
     },
     "es": {
-      "px": 7758.75
+      "px": 7761.75
     },
     "asia": {
       "n225": {
-        "chgPct": 1.45,
+        "chgPct": 1.26,
         "status": "OPEN"
       },
       "kospi": {
-        "chgPct": 6.34,
+        "chgPct": 5.7,
         "status": "OPEN"
       },
       "hsi": {
-        "chgPct": 0.11,
+        "chgPct": 0.12,
         "status": "OPEN"
       }
     }
