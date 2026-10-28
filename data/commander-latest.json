@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-28T15:13:33+08:00",
+  "generatedAt": "2026-10-28T16:04:57+08:00",
   "bot": "Trok",
   "role": "commander",
-  "asOfHKT": "2026-10-28 15:13 HKT",
+  "asOfHKT": "2026-10-28 16:04 HKT",
   "pipeline": {
     "candidates": 692,
     "techPassed": 64,
@@ -12,7 +12,7 @@
     "entryConsider": 30,
     "entryWatch": 1,
     "downstreamStale": false,
-    "anchor": "HOLD LOCK 692→64→31→31 asOf 10-27; live scr 664 / tech 61 NOT re-locked (same-asOf churn). tip ?v=en31-1154",
+    "anchor": "HOLD LOCK 692→64→31→31 asOf 10-27; Frok live scr 685 NOT re-locked. tip ?v=scr685-1028",
     "methodMix": {
       "Pullback": 27,
       "META": 4
@@ -22,11 +22,11 @@
       "bull_flag": 6,
       "cup_with_handle": 1
     },
-    "note": "Arok HOLD 15:13 HKT: same-day asOf 10-27 churn tech 64→61 — no ⑤ rebuild. Entry tip keep 2d15c91 en31-1154. Frok live 664 / Grok live 61 noted only.",
-    "screener": 664,
+    "note": "Frok screener 685 pushed ?v=scr685-1028; Arok HOLD entry tip keep 2d15c91 en31-1154 (same-asOf churn).",
+    "screener": 685,
     "techPass": 64
   },
-  "summaryTw": "【總司令｜HOLD】LOCK 692→64→31→31 asOf 10-27｜live scr664／tech61 未重鎖｜tip ?v=en31-1154",
+  "summaryTw": "【總司令｜HOLD】LOCK 692→64→31→31｜Frok live scr 685 未重鎖｜推 ?v=scr685-1028",
   "brief": {
     "title": "總司令簡報｜2026-10-28 14:59 HKT",
     "sections": [

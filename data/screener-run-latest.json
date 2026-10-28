@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-28T07:06:58.380Z",
+  "asOf": "2026-10-28T08:02:50.779Z",
   "bot": "Frok",
   "filters": {
     "marketCapMin": 3000000000,
@@ -9,10 +9,10 @@
     "priceAboveSma30": true
   },
   "stats": {
-    "universe": 1151,
-    "passed": 664,
+    "universe": 1172,
+    "passed": 685,
     "rejected": 487,
-    "candidates": 664,
+    "candidates": 685,
     "label": "篩選候選"
   },
   "byTheme": {
@@ -27,17 +27,6 @@
         "price": 425.3500061035156,
         "sma30": 398.01866658528644,
         "reason": "類比混合信號"
-      },
-      {
-        "ticker": "CDNS",
-        "name": "Cadence Design Systems, Inc.",
-        "etf": "IGV",
-        "theme": "半導體",
-        "marketCap": 94481825792,
-        "avgVol1m": 2408004.5454545454,
-        "price": 343.0799865722656,
-        "sma30": 325.7253346761068,
-        "reason": "EDA"
       },
       {
         "ticker": "NXPI",
@@ -185,17 +174,6 @@
         "reason": "Sector Utilities → XLU"
       },
       {
-        "ticker": "AWK",
-        "name": "American Water Works Company, I",
-        "etf": "XLU",
-        "theme": "能源",
-        "marketCap": 28040660992,
-        "avgVol1m": 1888527.2727272727,
-        "price": 141.10000610351562,
-        "sma30": 133.13366622924804,
-        "reason": "Sector Utilities → XLU"
-      },
-      {
         "ticker": "BEP",
         "name": "Brookfield Renewable Partners L",
         "etf": "XLU",
@@ -270,6 +248,17 @@
         "avgVol1m": 4442222.7272727275,
         "price": 69,
         "sma30": 65.79633280436198,
+        "reason": "Sector Utilities → XLU"
+      },
+      {
+        "ticker": "CNP",
+        "name": "CenterPoint Energy, Inc (Holdin",
+        "etf": "XLU",
+        "theme": "能源",
+        "marketCap": 27646490624,
+        "avgVol1m": 6760586.363636363,
+        "price": 41.970001220703125,
+        "sma30": 38.76566670735677,
         "reason": "Sector Utilities → XLU"
       },
       {
@@ -603,6 +592,17 @@
         "reason": "Sector Energy → XLE"
       },
       {
+        "ticker": "HAL",
+        "name": "Halliburton Company",
+        "etf": "XLE",
+        "theme": "能源",
+        "marketCap": 29462239232,
+        "avgVol1m": 10203177.272727273,
+        "price": 35.619998931884766,
+        "sma30": 33.10533281962077,
+        "reason": "Sector Energy → XLE"
+      },
+      {
         "ticker": "HP",
         "name": "Helmerich & Payne, Inc.",
         "etf": "XLE",
@@ -699,6 +699,17 @@
         "avgVol1m": 1388750,
         "price": 59.27000045776367,
         "sma30": 54.9553332010905,
+        "reason": "Sector Energy → XLE"
+      },
+      {
+        "ticker": "MUR",
+        "name": "Murphy Oil Corporation",
+        "etf": "XLE",
+        "theme": "能源",
+        "marketCap": 6185533952,
+        "avgVol1m": 1607550,
+        "price": 43.150001525878906,
+        "sma30": 39.0733336130778,
         "reason": "Sector Energy → XLE"
       },
       {
@@ -865,6 +876,17 @@
         "price": 35.18000030517578,
         "sma30": 33.73066654205322,
         "reason": "Sector Utilities → XLU"
+      },
+      {
+        "ticker": "PR",
+        "name": "Permian Resources Corporation",
+        "etf": "XLE",
+        "theme": "能源",
+        "marketCap": 21324201984,
+        "avgVol1m": 8587450,
+        "price": 25.459999084472656,
+        "sma30": 23.09566682179769,
+        "reason": "Sector Energy → XLE"
       },
       {
         "ticker": "PTEN",
@@ -1143,6 +1165,17 @@
         "price": 78.66999816894531,
         "sma30": 75.84800033569336,
         "reason": "車用功率半導體"
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla, Inc.",
+        "etf": "BOTZ",
+        "theme": "智能駕駛",
+        "marketCap": 1610579312640,
+        "avgVol1m": 37427581.81818182,
+        "price": 407.4599914550781,
+        "sma30": 372.3113311767578,
+        "reason": "EV＋FSD"
       }
     ],
     "金屬稀土": [],
@@ -1591,6 +1624,17 @@
         "reason": "網路安全"
       },
       {
+        "ticker": "OKTA",
+        "name": "Okta, Inc.",
+        "etf": "HACK",
+        "theme": "Cyber security",
+        "marketCap": 39521767424,
+        "avgVol1m": 3158859.090909091,
+        "price": 226.07000732421875,
+        "sma30": 207.25316670735677,
+        "reason": "身分"
+      },
+      {
         "ticker": "PANW",
         "name": "Palo Alto Networks, Inc.",
         "etf": "HACK",
@@ -1906,6 +1950,17 @@
         "avgVol1m": 8066004.545454546,
         "price": 235.16000366210938,
         "sma30": 206.42194468180338,
+        "reason": "Sector Technology → Hardware／XLK"
+      },
+      {
+        "ticker": "ADP",
+        "name": "Automatic Data Processing, Inc.",
+        "etf": "XLK",
+        "theme": "Hardware",
+        "marketCap": 116145283072,
+        "avgVol1m": 1929877.2727272727,
+        "price": 293.1099853515625,
+        "sma30": 275.4469980875651,
         "reason": "Sector Technology → Hardware／XLK"
       },
       {
@@ -2338,6 +2393,17 @@
         "reason": "Sector Technology → Hardware／XLK"
       },
       {
+        "ticker": "MCHP",
+        "name": "Microchip Technology Incorporat",
+        "etf": "XLK",
+        "theme": "Hardware",
+        "marketCap": 43533004800,
+        "avgVol1m": 9595159.090909092,
+        "price": 80.16999816894531,
+        "sma30": 75.9596664428711,
+        "reason": "Sector Technology → Hardware／XLK"
+      },
+      {
         "ticker": "MNDY",
         "name": "monday.com Ltd.",
         "etf": "XLK",
@@ -2448,6 +2514,17 @@
         "reason": "Sector Technology → Hardware／XLK"
       },
       {
+        "ticker": "PCOR",
+        "name": "Procore Technologies, Inc.",
+        "etf": "XLK",
+        "theme": "Hardware",
+        "marketCap": 9380203520,
+        "avgVol1m": 3050140.909090909,
+        "price": 61.72999954223633,
+        "sma30": 54.935999933878584,
+        "reason": "Sector Technology → Hardware／XLK"
+      },
+      {
         "ticker": "PEGA",
         "name": "Pegasystems Inc.",
         "etf": "XLK",
@@ -2500,6 +2577,17 @@
         "avgVol1m": 2742009.090909091,
         "price": 24.209999084472656,
         "sma30": 22.961333338419596,
+        "reason": "Sector Technology → Hardware／XLK"
+      },
+      {
+        "ticker": "RNG",
+        "name": "Ringcentral, Inc.",
+        "etf": "XLK",
+        "theme": "Hardware",
+        "marketCap": 7148127232,
+        "avgVol1m": 1695200,
+        "price": 85.5999984741211,
+        "sma30": 78.33799997965495,
         "reason": "Sector Technology → Hardware／XLK"
       },
       {
@@ -2690,6 +2778,17 @@
         "reason": "Sector Technology → Hardware／XLK"
       },
       {
+        "ticker": "YMM",
+        "name": "Full Truck Alliance Co. Ltd.",
+        "etf": "XLK",
+        "theme": "Hardware",
+        "marketCap": 8806429696,
+        "avgVol1m": 7337377.2727272725,
+        "price": 8.420000076293945,
+        "sma30": 8.341229422887166,
+        "reason": "Sector Technology → Hardware／XLK"
+      },
+      {
         "ticker": "YOU",
         "name": "Clear Secure, Inc.",
         "etf": "XLK",
@@ -2824,6 +2923,17 @@
         "reason": "Sector Financials → XLF"
       },
       {
+        "ticker": "ASB",
+        "name": "Associated Banc-Corp",
+        "etf": "XLF",
+        "theme": "金融",
+        "marketCap": 5705148416,
+        "avgVol1m": 2076213.6363636365,
+        "price": 30.209999084472656,
+        "sma30": 29.114666493733726,
+        "reason": "Sector Financials → XLF"
+      },
+      {
         "ticker": "AUB",
         "name": "Atlantic Union Bankshares Corpo",
         "etf": "XLF",
@@ -2887,6 +2997,17 @@
         "avgVol1m": 3814427.272727273,
         "price": 147.5800018310547,
         "sma30": 145.57140248616537,
+        "reason": "Sector Financials → XLF"
+      },
+      {
+        "ticker": "BRK-B",
+        "name": "Berkshire Hathaway Inc. New",
+        "etf": "XLF",
+        "theme": "金融",
+        "marketCap": 1162383982592,
+        "avgVol1m": 4396095.454545454,
+        "price": 542.989990234375,
+        "sma30": 517.511664835612,
         "reason": "Sector Financials → XLF"
       },
       {
@@ -3077,6 +3198,17 @@
         "reason": "Sector Financials → XLF"
       },
       {
+        "ticker": "FNB",
+        "name": "F.N.B. Corporation",
+        "etf": "XLF",
+        "theme": "金融",
+        "marketCap": 6438737408,
+        "avgVol1m": 6065509.090909091,
+        "price": 18.239999771118164,
+        "sma30": 17.513666598002114,
+        "reason": "Sector Financials → XLF"
+      },
+      {
         "ticker": "FNMA",
         "name": "Fannie Mae",
         "etf": "XLF",
@@ -3209,17 +3341,6 @@
         "reason": "Sector Financials → XLF"
       },
       {
-        "ticker": "LMND",
-        "name": "Lemonade, Inc.",
-        "etf": "XLF",
-        "theme": "金融",
-        "marketCap": 3553278720,
-        "avgVol1m": 1077536.3636363635,
-        "price": 45.90999984741211,
-        "sma30": 45.77866668701172,
-        "reason": "Sector Financials → XLF"
-      },
-      {
         "ticker": "MA",
         "name": "Mastercard Incorporated",
         "etf": "XLF",
@@ -3250,17 +3371,6 @@
         "avgVol1m": 1348604.5454545454,
         "price": 44.97999954223633,
         "sma30": 43.65533307393392,
-        "reason": "Sector Financials → XLF"
-      },
-      {
-        "ticker": "MRSH",
-        "name": "Marsh",
-        "etf": "XLF",
-        "theme": "金融",
-        "marketCap": 90666319872,
-        "avgVol1m": 2592009.090909091,
-        "price": 190.6699981689453,
-        "sma30": 178.30655008951823,
         "reason": "Sector Financials → XLF"
       },
       {
@@ -3338,17 +3448,6 @@
         "avgVol1m": 1268418.1818181819,
         "price": 111.9800033569336,
         "sma30": 111.29766616821288,
-        "reason": "Sector Financials → XLF"
-      },
-      {
-        "ticker": "PGR",
-        "name": "Progressive Corporation (The)",
-        "etf": "XLF",
-        "theme": "金融",
-        "marketCap": 130735210496,
-        "avgVol1m": 2754631.8181818184,
-        "price": 225.60000610351562,
-        "sma30": 215.43128560384113,
         "reason": "Sector Financials → XLF"
       },
       {
@@ -3660,17 +3759,6 @@
         "price": 177.49000549316406,
         "sma30": 169.83746643066405,
         "reason": "Sector Healthcare → XLV"
-      },
-      {
-        "ticker": "ABBV",
-        "name": "AbbVie Inc.",
-        "etf": "XLV",
-        "theme": "醫療",
-        "marketCap": 506084753408,
-        "avgVol1m": 5173740.909090909,
-        "price": 286.3900146484375,
-        "sma30": 271.8443644205729,
-        "reason": "製藥"
       },
       {
         "ticker": "ABCL",
@@ -4000,6 +4088,17 @@
         "avgVol1m": 3136745.4545454546,
         "price": 33.2400016784668,
         "sma30": 29.255000241597493,
+        "reason": "Sector Healthcare → XLV"
+      },
+      {
+        "ticker": "DYN",
+        "name": "Dyne Therapeutics, Inc.",
+        "etf": "XLV",
+        "theme": "醫療",
+        "marketCap": 3163484672,
+        "avgVol1m": 3088809.090909091,
+        "price": 16.940000534057617,
+        "sma30": 16.082166703542075,
         "reason": "Sector Healthcare → XLV"
       },
       {
@@ -4429,6 +4528,17 @@
         "avgVol1m": 5297072.7272727275,
         "price": 50.16999816894531,
         "sma30": 45.76133346557617,
+        "reason": "Sector Healthcare → XLV"
+      },
+      {
+        "ticker": "RDY",
+        "name": "Dr. Reddy's Laboratories Ltd",
+        "etf": "XLV",
+        "theme": "醫療",
+        "marketCap": 11454751744,
+        "avgVol1m": 3364413.6363636362,
+        "price": 13.75,
+        "sma30": 12.66633326212565,
         "reason": "Sector Healthcare → XLV"
       },
       {
@@ -4963,6 +5073,17 @@
         "reason": "Sector Consumer Cyclical → XLY"
       },
       {
+        "ticker": "BBY",
+        "name": "Best Buy Co., Inc.",
+        "etf": "XLY",
+        "theme": "雜項",
+        "marketCap": 20658178048,
+        "avgVol1m": 2832736.3636363638,
+        "price": 98.5,
+        "sma30": 91.33999964396159,
+        "reason": "Sector Consumer Cyclical → XLY"
+      },
+      {
         "ticker": "BEKE",
         "name": "KE Holdings Inc",
         "etf": "XLRE",
@@ -5269,6 +5390,17 @@
         "price": 42.349998474121094,
         "sma30": 41.81833318074544,
         "reason": "Sector Industrials → XLI"
+      },
+      {
+        "ticker": "COLD",
+        "name": "Americold Realty Trust, Inc.",
+        "etf": "XLRE",
+        "theme": "雜項",
+        "marketCap": 4121989632,
+        "avgVol1m": 3067368.1818181816,
+        "price": 14.369999885559082,
+        "sma30": 14.113873513539632,
+        "reason": "Sector Real Estate → XLRE"
       },
       {
         "ticker": "COMP",
@@ -5678,17 +5810,6 @@
         "reason": "Sector Industrials → XLI"
       },
       {
-        "ticker": "FDX",
-        "name": "FedEx Corporation",
-        "etf": "XLI",
-        "theme": "雜項",
-        "marketCap": 72681488384,
-        "avgVol1m": 1236695.4545454546,
-        "price": 307.1000061035156,
-        "sma30": 293.8143351236979,
-        "reason": "Sector Industrials → XLI"
-      },
-      {
         "ticker": "FER",
         "name": "Ferrovial N.V.",
         "etf": "XLI",
@@ -5786,6 +5907,17 @@
         "price": 41.54999923706055,
         "sma30": 39.91933326721191,
         "reason": "Sector Consumer Cyclical → XLY"
+      },
+      {
+        "ticker": "GLPI",
+        "name": "Gaming and Leisure Properties, ",
+        "etf": "XLRE",
+        "theme": "雜項",
+        "marketCap": 11623642112,
+        "avgVol1m": 2524068.1818181816,
+        "price": 38.810001373291016,
+        "sma30": 38.803999710083005,
+        "reason": "Sector Real Estate → XLRE"
       },
       {
         "ticker": "GRAL",
@@ -6250,6 +6382,17 @@
         "reason": "Sector Consumer Cyclical → XLY"
       },
       {
+        "ticker": "MAA",
+        "name": "Mid-America Apartment Communiti",
+        "etf": "XLRE",
+        "theme": "雜項",
+        "marketCap": 14126950400,
+        "avgVol1m": 1031190.9090909091,
+        "price": 118.75,
+        "sma30": 116.64097595214844,
+        "reason": "Sector Real Estate → XLRE"
+      },
+      {
         "ticker": "MAC",
         "name": "Macerich Company (The)",
         "etf": "XLRE",
@@ -6404,6 +6547,39 @@
         "reason": "Sector Consumer Cyclical → XLY"
       },
       {
+        "ticker": "NKE",
+        "name": "Nike, Inc.",
+        "etf": "XLY",
+        "theme": "雜項",
+        "marketCap": 55788199936,
+        "avgVol1m": 40466631.81818182,
+        "price": 37.560001373291016,
+        "sma30": 36.020999908447266,
+        "reason": "Sector Consumer Cyclical → XLY"
+      },
+      {
+        "ticker": "NNN",
+        "name": "NNN REIT, Inc.",
+        "etf": "XLRE",
+        "theme": "雜項",
+        "marketCap": 7940959232,
+        "avgVol1m": 2672268.1818181816,
+        "price": 41.7400016784668,
+        "sma30": 41.1156670888265,
+        "reason": "Sector Real Estate → XLRE"
+      },
+      {
+        "ticker": "O",
+        "name": "Realty Income Corporation",
+        "etf": "XLRE",
+        "theme": "雜項",
+        "marketCap": 53764108288,
+        "avgVol1m": 8423159.090909092,
+        "price": 56.81999969482422,
+        "sma30": 55.39636255900065,
+        "reason": "Sector Real Estate → XLRE"
+      },
+      {
         "ticker": "ODFL",
         "name": "Old Dominion Freight Line, Inc.",
         "etf": "XLI",
@@ -6481,6 +6657,17 @@
         "reason": "Sector Real Estate → XLRE"
       },
       {
+        "ticker": "PECO",
+        "name": "Phillips Edison & Company, Inc.",
+        "etf": "SPY",
+        "theme": "雜項",
+        "marketCap": 5401843200,
+        "avgVol1m": 1359009.0909090908,
+        "price": 38.189998626708984,
+        "sma30": 37.52954343159993,
+        "reason": "未入主題對照表 → 雜項；可參考 SPY／QQQ 作寬基"
+      },
+      {
         "ticker": "PEP",
         "name": "Pepsico, Inc.",
         "etf": "XLP",
@@ -6512,6 +6699,17 @@
         "price": 159.22999572753906,
         "sma30": 150.73641255696614,
         "reason": "Sector Consumer Defensive → XLP"
+      },
+      {
+        "ticker": "PHM",
+        "name": "PulteGroup, Inc.",
+        "etf": "XLY",
+        "theme": "雜項",
+        "marketCap": 23168854016,
+        "avgVol1m": 2119331.8181818184,
+        "price": 121.62999725341797,
+        "sma30": 116.20066680908204,
+        "reason": "Sector Consumer Cyclical → XLY"
       },
       {
         "ticker": "PK",
@@ -6591,6 +6789,17 @@
         "reason": "Sector Consumer Cyclical → XLY"
       },
       {
+        "ticker": "REG",
+        "name": "Regency Centers Corporation",
+        "etf": "XLRE",
+        "theme": "雜項",
+        "marketCap": 13887294464,
+        "avgVol1m": 1242750,
+        "price": 74.27999877929688,
+        "sma30": 72.61866709391276,
+        "reason": "Sector Real Estate → XLRE"
+      },
+      {
         "ticker": "RELX",
         "name": "RELX PLC PLC",
         "etf": "XLI",
@@ -6655,6 +6864,17 @@
         "price": 34.0099983215332,
         "sma30": 32.217000071207686,
         "reason": "Sector Consumer Cyclical → XLY"
+      },
+      {
+        "ticker": "RRX",
+        "name": "Regal Rexnord Corporation",
+        "etf": "XLI",
+        "theme": "雜項",
+        "marketCap": 10531972096,
+        "avgVol1m": 1055486.3636363635,
+        "price": 158.2100067138672,
+        "sma30": 155.89686075846353,
+        "reason": "Sector Industrials → XLI"
       },
       {
         "ticker": "RSG",
@@ -7174,6 +7394,17 @@
         "reason": "Sector Industrials → XLI"
       },
       {
+        "ticker": "VSXY",
+        "name": "Victorias Secret & Co.",
+        "etf": "XLY",
+        "theme": "雜項",
+        "marketCap": 7359827456,
+        "avgVol1m": 1561018.1818181819,
+        "price": 92.2699966430664,
+        "sma30": 86.60500005086263,
+        "reason": "Sector Consumer Cyclical → XLY"
+      },
+      {
         "ticker": "VVV",
         "name": "Valvoline Inc.",
         "etf": "XLY",
@@ -7368,21 +7599,6 @@
       "reason": "Sector Healthcare → XLV"
     },
     {
-      "ticker": "ABBV",
-      "name": "AbbVie Inc.",
-      "marketCap": 506084753408,
-      "avgVol1m": 5173740.909090909,
-      "price": 286.3900146484375,
-      "sma30": 271.8443644205729,
-      "sector": null,
-      "industry": null,
-      "priceSource": "yahoo-yfinance-2026-10-27",
-      "priceAsOf": "2026-10-27",
-      "theme": "醫療",
-      "etf": "XLV",
-      "reason": "製藥"
-    },
-    {
       "ticker": "ABCL",
       "name": "AbCellera Biologics Inc.",
       "marketCap": 4157527552,
@@ -7531,6 +7747,21 @@
       "theme": "半導體",
       "etf": "SOX",
       "reason": "類比混合信號"
+    },
+    {
+      "ticker": "ADP",
+      "name": "Automatic Data Processing, Inc.",
+      "marketCap": 116145283072,
+      "avgVol1m": 1929877.2727272727,
+      "price": 293.1099853515625,
+      "sma30": 275.4469980875651,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "Sector Technology → Hardware／XLK"
     },
     {
       "ticker": "ADPT",
@@ -8163,6 +8394,21 @@
       "reason": "Sector Consumer Cyclical → XLY"
     },
     {
+      "ticker": "ASB",
+      "name": "Associated Banc-Corp",
+      "marketCap": 5705148416,
+      "avgVol1m": 2076213.6363636365,
+      "price": 30.209999084472656,
+      "sma30": 29.114666493733726,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "Sector Financials → XLF"
+    },
+    {
       "ticker": "ASO",
       "name": "Academy Sports and Outdoors, In",
       "marketCap": 3653475840,
@@ -8236,21 +8482,6 @@
       "theme": "醫療",
       "etf": "XLV",
       "reason": "Sector Healthcare → XLV"
-    },
-    {
-      "ticker": "AWK",
-      "name": "American Water Works Company, I",
-      "marketCap": 28040660992,
-      "avgVol1m": 1888527.2727272727,
-      "price": 141.10000610351562,
-      "sma30": 133.13366622924804,
-      "sector": null,
-      "industry": null,
-      "priceSource": "yahoo-yfinance-2026-10-27",
-      "priceAsOf": "2026-10-27",
-      "theme": "能源",
-      "etf": "XLU",
-      "reason": "Sector Utilities → XLU"
     },
     {
       "ticker": "AXP",
@@ -8394,6 +8625,21 @@
       "avgVol1m": 7060668.181818182,
       "price": 21.950000762939453,
       "sma30": 18.203999964396157,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "雜項",
+      "etf": "XLY",
+      "reason": "Sector Consumer Cyclical → XLY"
+    },
+    {
+      "ticker": "BBY",
+      "name": "Best Buy Co., Inc.",
+      "marketCap": 20658178048,
+      "avgVol1m": 2832736.3636363638,
+      "price": 98.5,
+      "sma30": 91.33999964396159,
       "sector": null,
       "industry": null,
       "priceSource": "yahoo-yfinance-2026-10-27",
@@ -8686,6 +8932,21 @@
       "theme": "能源",
       "etf": "XLE",
       "reason": "Sector Energy → XLE"
+    },
+    {
+      "ticker": "BRK-B",
+      "name": "Berkshire Hathaway Inc. New",
+      "marketCap": 1162383982592,
+      "avgVol1m": 4396095.454545454,
+      "price": 542.989990234375,
+      "sma30": 517.511664835612,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "Sector Financials → XLF"
     },
     {
       "ticker": "BRKR",
@@ -9138,21 +9399,6 @@
       "reason": "Sector Healthcare → XLV"
     },
     {
-      "ticker": "CDNS",
-      "name": "Cadence Design Systems, Inc.",
-      "marketCap": 94481825792,
-      "avgVol1m": 2408004.5454545454,
-      "price": 343.0799865722656,
-      "sma30": 325.7253346761068,
-      "sector": null,
-      "industry": null,
-      "priceSource": "yahoo-yfinance-2026-10-27",
-      "priceAsOf": "2026-10-27",
-      "theme": "半導體",
-      "etf": "IGV",
-      "reason": "EDA"
-    },
-    {
       "ticker": "CDW",
       "name": "CDW Corporation",
       "marketCap": 20179062784,
@@ -9453,6 +9699,21 @@
       "reason": "Sector Industrials → XLI"
     },
     {
+      "ticker": "CNP",
+      "name": "CenterPoint Energy, Inc (Holdin",
+      "marketCap": 27646490624,
+      "avgVol1m": 6760586.363636363,
+      "price": 41.970001220703125,
+      "sma30": 38.76566670735677,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "能源",
+      "etf": "XLU",
+      "reason": "Sector Utilities → XLU"
+    },
+    {
       "ticker": "CNQ",
       "name": "Canadian Natural Resources Limi",
       "marketCap": 111465308160,
@@ -9526,6 +9787,21 @@
       "theme": "金融",
       "etf": "XLF",
       "reason": "Sector Financials → XLF"
+    },
+    {
+      "ticker": "COLD",
+      "name": "Americold Realty Trust, Inc.",
+      "marketCap": 4121989632,
+      "avgVol1m": 3067368.1818181816,
+      "price": 14.369999885559082,
+      "sma30": 14.113873513539632,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "雜項",
+      "etf": "XLRE",
+      "reason": "Sector Real Estate → XLRE"
     },
     {
       "ticker": "COMP",
@@ -10338,6 +10614,21 @@
       "reason": "Sector Energy → XLE"
     },
     {
+      "ticker": "DYN",
+      "name": "Dyne Therapeutics, Inc.",
+      "marketCap": 3163484672,
+      "avgVol1m": 3088809.090909091,
+      "price": 16.940000534057617,
+      "sma30": 16.082166703542075,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "Sector Healthcare → XLV"
+    },
+    {
       "ticker": "EBAY",
       "name": "eBay Inc.",
       "marketCap": 52434350080,
@@ -10968,21 +11259,6 @@
       "reason": "Sector Industrials → XLI"
     },
     {
-      "ticker": "FDX",
-      "name": "FedEx Corporation",
-      "marketCap": 72681488384,
-      "avgVol1m": 1236695.4545454546,
-      "price": 307.1000061035156,
-      "sma30": 293.8143351236979,
-      "sector": null,
-      "industry": null,
-      "priceSource": "yahoo-yfinance-2026-10-27",
-      "priceAsOf": "2026-10-27",
-      "theme": "雜項",
-      "etf": "XLI",
-      "reason": "Sector Industrials → XLI"
-    },
-    {
       "ticker": "FE",
       "name": "FirstEnergy Corp.",
       "marketCap": 26773669888,
@@ -11139,6 +11415,21 @@
       "avgVol1m": 7724509.090909091,
       "price": 53.59000015258789,
       "sma30": 51.4431640625,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "金融",
+      "etf": "XLF",
+      "reason": "Sector Financials → XLF"
+    },
+    {
+      "ticker": "FNB",
+      "name": "F.N.B. Corporation",
+      "marketCap": 6438737408,
+      "avgVol1m": 6065509.090909091,
+      "price": 18.239999771118164,
+      "sma30": 17.513666598002114,
       "sector": null,
       "industry": null,
       "priceSource": "yahoo-yfinance-2026-10-27",
@@ -11493,6 +11784,21 @@
       "reason": "Sector Consumer Cyclical → XLY"
     },
     {
+      "ticker": "GLPI",
+      "name": "Gaming and Leisure Properties, ",
+      "marketCap": 11623642112,
+      "avgVol1m": 2524068.1818181816,
+      "price": 38.810001373291016,
+      "sma30": 38.803999710083005,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "雜項",
+      "etf": "XLRE",
+      "reason": "Sector Real Estate → XLRE"
+    },
+    {
       "ticker": "GMAB",
       "name": "Genmab A/S",
       "marketCap": 27467694080,
@@ -11626,6 +11932,21 @@
       "theme": "雜項",
       "etf": "XLI",
       "reason": "Sector Industrials → XLI"
+    },
+    {
+      "ticker": "HAL",
+      "name": "Halliburton Company",
+      "marketCap": 29462239232,
+      "avgVol1m": 10203177.272727273,
+      "price": 35.619998931884766,
+      "sma30": 33.10533281962077,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "能源",
+      "etf": "XLE",
+      "reason": "Sector Energy → XLE"
     },
     {
       "ticker": "HALO",
@@ -12678,21 +12999,6 @@
       "reason": "製藥"
     },
     {
-      "ticker": "LMND",
-      "name": "Lemonade, Inc.",
-      "marketCap": 3553278720,
-      "avgVol1m": 1077536.3636363635,
-      "price": 45.90999984741211,
-      "sma30": 45.77866668701172,
-      "sector": null,
-      "industry": null,
-      "priceSource": "yahoo-yfinance-2026-10-27",
-      "priceAsOf": "2026-10-27",
-      "theme": "金融",
-      "etf": "XLF",
-      "reason": "Sector Financials → XLF"
-    },
-    {
       "ticker": "LMT",
       "name": "Lockheed Martin Corporation",
       "marketCap": 143913582592,
@@ -12933,6 +13239,21 @@
       "reason": "支付"
     },
     {
+      "ticker": "MAA",
+      "name": "Mid-America Apartment Communiti",
+      "marketCap": 14126950400,
+      "avgVol1m": 1031190.9090909091,
+      "price": 118.75,
+      "sma30": 116.64097595214844,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "雜項",
+      "etf": "XLRE",
+      "reason": "Sector Real Estate → XLRE"
+    },
+    {
       "ticker": "MAC",
       "name": "Macerich Company (The)",
       "marketCap": 7124983296,
@@ -13006,6 +13327,21 @@
       "theme": "雜項",
       "etf": "XLY",
       "reason": "Sector Consumer Cyclical → XLY"
+    },
+    {
+      "ticker": "MCHP",
+      "name": "Microchip Technology Incorporat",
+      "marketCap": 43533004800,
+      "avgVol1m": 9595159.090909092,
+      "price": 80.16999816894531,
+      "sma30": 75.9596664428711,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "Sector Technology → Hardware／XLK"
     },
     {
       "ticker": "MDA",
@@ -13248,21 +13584,6 @@
       "reason": "Sector Healthcare → XLV"
     },
     {
-      "ticker": "MRSH",
-      "name": "Marsh",
-      "marketCap": 90666319872,
-      "avgVol1m": 2592009.090909091,
-      "price": 190.6699981689453,
-      "sma30": 178.30655008951823,
-      "sector": null,
-      "industry": null,
-      "priceSource": "yahoo-yfinance-2026-10-27",
-      "priceAsOf": "2026-10-27",
-      "theme": "金融",
-      "etf": "XLF",
-      "reason": "Sector Financials → XLF"
-    },
-    {
       "ticker": "MTB",
       "name": "M&T Bank Corporation",
       "marketCap": 31804016640,
@@ -13321,6 +13642,21 @@
       "theme": "金融",
       "etf": "XLF",
       "reason": "Sector Financials → XLF"
+    },
+    {
+      "ticker": "MUR",
+      "name": "Murphy Oil Corporation",
+      "marketCap": 6185533952,
+      "avgVol1m": 1607550,
+      "price": 43.150001525878906,
+      "sma30": 39.0733336130778,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "能源",
+      "etf": "XLE",
+      "reason": "Sector Energy → XLE"
     },
     {
       "ticker": "MWA",
@@ -13471,6 +13807,36 @@
       "theme": "Hardware",
       "etf": "XLK",
       "reason": "Sector Technology → Hardware／XLK"
+    },
+    {
+      "ticker": "NKE",
+      "name": "Nike, Inc.",
+      "marketCap": 55788199936,
+      "avgVol1m": 40466631.81818182,
+      "price": 37.560001373291016,
+      "sma30": 36.020999908447266,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "雜項",
+      "etf": "XLY",
+      "reason": "Sector Consumer Cyclical → XLY"
+    },
+    {
+      "ticker": "NNN",
+      "name": "NNN REIT, Inc.",
+      "marketCap": 7940959232,
+      "avgVol1m": 2672268.1818181816,
+      "price": 41.7400016784668,
+      "sma30": 41.1156670888265,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "雜項",
+      "etf": "XLRE",
+      "reason": "Sector Real Estate → XLRE"
     },
     {
       "ticker": "NOV",
@@ -13668,6 +14034,21 @@
       "reason": "Sector Comm Services → XLC"
     },
     {
+      "ticker": "O",
+      "name": "Realty Income Corporation",
+      "marketCap": 53764108288,
+      "avgVol1m": 8423159.090909092,
+      "price": 56.81999969482422,
+      "sma30": 55.39636255900065,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "雜項",
+      "etf": "XLRE",
+      "reason": "Sector Real Estate → XLRE"
+    },
+    {
       "ticker": "OCTV",
       "name": "Octave Intelligence plc",
       "marketCap": 5833153024,
@@ -13756,6 +14137,21 @@
       "theme": "能源",
       "etf": "XLE",
       "reason": "Sector Energy → XLE"
+    },
+    {
+      "ticker": "OKTA",
+      "name": "Okta, Inc.",
+      "marketCap": 39521767424,
+      "avgVol1m": 3158859.090909091,
+      "price": 226.07000732421875,
+      "sma30": 207.25316670735677,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "Cyber security",
+      "etf": "HACK",
+      "reason": "身分"
     },
     {
       "ticker": "OMC",
@@ -14058,6 +14454,21 @@
       "reason": "Sector Utilities → XLU"
     },
     {
+      "ticker": "PCOR",
+      "name": "Procore Technologies, Inc.",
+      "marketCap": 9380203520,
+      "avgVol1m": 3050140.909090909,
+      "price": 61.72999954223633,
+      "sma30": 54.935999933878584,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "Sector Technology → Hardware／XLK"
+    },
+    {
       "ticker": "PDI",
       "name": "PIMCO Dynamic Income Fund",
       "marketCap": 6705993728,
@@ -14071,6 +14482,21 @@
       "theme": "金融",
       "etf": "XLF",
       "reason": "Sector Financials → XLF"
+    },
+    {
+      "ticker": "PECO",
+      "name": "Phillips Edison & Company, Inc.",
+      "marketCap": 5401843200,
+      "avgVol1m": 1359009.0909090908,
+      "price": 38.189998626708984,
+      "sma30": 37.52954343159993,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "雜項",
+      "etf": "SPY",
+      "reason": "未入主題對照表 → 雜項；可參考 SPY／QQQ 作寬基"
     },
     {
       "ticker": "PEG",
@@ -14178,21 +14604,6 @@
       "reason": "Sector Consumer Defensive → XLP"
     },
     {
-      "ticker": "PGR",
-      "name": "Progressive Corporation (The)",
-      "marketCap": 130735210496,
-      "avgVol1m": 2754631.8181818184,
-      "price": 225.60000610351562,
-      "sma30": 215.43128560384113,
-      "sector": null,
-      "industry": null,
-      "priceSource": "yahoo-yfinance-2026-10-27",
-      "priceAsOf": "2026-10-27",
-      "theme": "金融",
-      "etf": "XLF",
-      "reason": "Sector Financials → XLF"
-    },
-    {
       "ticker": "PHG",
       "name": "Koninklijke Philips N.V. NY Reg",
       "marketCap": 25813858304,
@@ -14206,6 +14617,21 @@
       "theme": "醫療",
       "etf": "XLV",
       "reason": "Sector Healthcare → XLV"
+    },
+    {
+      "ticker": "PHM",
+      "name": "PulteGroup, Inc.",
+      "marketCap": 23168854016,
+      "avgVol1m": 2119331.8181818184,
+      "price": 121.62999725341797,
+      "sma30": 116.20066680908204,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "雜項",
+      "etf": "XLY",
+      "reason": "Sector Consumer Cyclical → XLY"
     },
     {
       "ticker": "PINS",
@@ -14386,6 +14812,21 @@
       "theme": "能源",
       "etf": "XLU",
       "reason": "Sector Utilities → XLU"
+    },
+    {
+      "ticker": "PR",
+      "name": "Permian Resources Corporation",
+      "marketCap": 21324201984,
+      "avgVol1m": 8587450,
+      "price": 25.459999084472656,
+      "sma30": 23.09566682179769,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "能源",
+      "etf": "XLE",
+      "reason": "Sector Energy → XLE"
     },
     {
       "ticker": "PRM",
@@ -14583,6 +15024,36 @@
       "reason": "Sector Financials → XLF"
     },
     {
+      "ticker": "RDY",
+      "name": "Dr. Reddy's Laboratories Ltd",
+      "marketCap": 11454751744,
+      "avgVol1m": 3364413.6363636362,
+      "price": 13.75,
+      "sma30": 12.66633326212565,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "醫療",
+      "etf": "XLV",
+      "reason": "Sector Healthcare → XLV"
+    },
+    {
+      "ticker": "REG",
+      "name": "Regency Centers Corporation",
+      "marketCap": 13887294464,
+      "avgVol1m": 1242750,
+      "price": 74.27999877929688,
+      "sma30": 72.61866709391276,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "雜項",
+      "etf": "XLRE",
+      "reason": "Sector Real Estate → XLRE"
+    },
+    {
       "ticker": "RELX",
       "name": "RELX PLC PLC",
       "marketCap": 67672363008,
@@ -14763,6 +15234,21 @@
       "reason": "Sector Healthcare → XLV"
     },
     {
+      "ticker": "RNG",
+      "name": "Ringcentral, Inc.",
+      "marketCap": 7148127232,
+      "avgVol1m": 1695200,
+      "price": 85.5999984741211,
+      "sma30": 78.33799997965495,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "Sector Technology → Hardware／XLK"
+    },
+    {
       "ticker": "ROIV",
       "name": "Roivant Sciences Ltd.",
       "marketCap": 26393683968,
@@ -14836,6 +15322,21 @@
       "theme": "能源",
       "etf": "XLE",
       "reason": "Sector Energy → XLE"
+    },
+    {
+      "ticker": "RRX",
+      "name": "Regal Rexnord Corporation",
+      "marketCap": 10531972096,
+      "avgVol1m": 1055486.3636363635,
+      "price": 158.2100067138672,
+      "sma30": 155.89686075846353,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "雜項",
+      "etf": "XLI",
+      "reason": "Sector Industrials → XLI"
     },
     {
       "ticker": "RSG",
@@ -16128,6 +16629,21 @@
       "reason": "Sector Energy → XLE"
     },
     {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "marketCap": 1610579312640,
+      "avgVol1m": 37427581.81818182,
+      "price": 407.4599914550781,
+      "sma30": 372.3113311767578,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "智能駕駛",
+      "etf": "BOTZ",
+      "reason": "EV＋FSD"
+    },
+    {
       "ticker": "TSN",
       "name": "Tyson Foods, Inc.",
       "marketCap": 19612934144,
@@ -16728,6 +17244,21 @@
       "reason": "Sector Technology → Hardware／XLK"
     },
     {
+      "ticker": "VSXY",
+      "name": "Victorias Secret & Co.",
+      "marketCap": 7359827456,
+      "avgVol1m": 1561018.1818181819,
+      "price": 92.2699966430664,
+      "sma30": 86.60500005086263,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "雜項",
+      "etf": "XLY",
+      "reason": "Sector Consumer Cyclical → XLY"
+    },
+    {
       "ticker": "VTRS",
       "name": "Viatris Inc.",
       "marketCap": 21501620224,
@@ -17103,6 +17634,21 @@
       "reason": "未入主題對照表 → 雜項；可參考 SPY／QQQ 作寬基"
     },
     {
+      "ticker": "YMM",
+      "name": "Full Truck Alliance Co. Ltd.",
+      "marketCap": 8806429696,
+      "avgVol1m": 7337377.2727272725,
+      "price": 8.420000076293945,
+      "sma30": 8.341229422887166,
+      "sector": null,
+      "industry": null,
+      "priceSource": "yahoo-yfinance-2026-10-27",
+      "priceAsOf": "2026-10-27",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "reason": "Sector Technology → Hardware／XLK"
+    },
+    {
       "ticker": "YOU",
       "name": "Clear Secure, Inc.",
       "marketCap": 4685539840,
@@ -17408,19 +17954,7 @@
   ],
   "log": [
     {
-      "t": "2026-10-28T07:06:58.380Z",
-      "bot": "Frok",
-      "role": "篩選器＋主題／ETF",
-      "step": "classify:hit",
-      "detail": {
-        "ticker": "VVV",
-        "theme": "雜項",
-        "etf": "XLY",
-        "reason": "Sector Consumer Cyclical → XLY"
-      }
-    },
-    {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17432,7 +17966,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17444,7 +17978,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17456,7 +17990,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17468,7 +18002,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17480,7 +18014,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17492,7 +18026,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17504,7 +18038,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17516,7 +18050,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17528,7 +18062,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17540,7 +18074,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17552,7 +18086,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17564,7 +18098,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17576,7 +18110,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17588,7 +18122,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17600,7 +18134,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17612,7 +18146,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17624,7 +18158,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17636,7 +18170,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17648,7 +18182,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17660,7 +18194,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17672,7 +18206,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17684,7 +18218,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:misc",
@@ -17696,7 +18230,19 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
+      "bot": "Frok",
+      "role": "篩選器＋主題／ETF",
+      "step": "classify:hit",
+      "detail": {
+        "ticker": "YMM",
+        "theme": "Hardware",
+        "etf": "XLK",
+        "reason": "Sector Technology → Hardware／XLK"
+      }
+    },
+    {
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17708,7 +18254,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17720,7 +18266,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17732,7 +18278,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17744,7 +18290,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17756,7 +18302,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17768,7 +18314,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17780,7 +18326,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17792,7 +18338,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17804,7 +18350,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17816,7 +18362,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17828,7 +18374,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17840,7 +18386,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17852,7 +18398,7 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "classify:hit",
@@ -17864,42 +18410,42 @@
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "runAndClassify:done",
       "detail": {
-        "passed": 664,
+        "passed": 685,
         "sample": [
           "A→醫療/XLV",
-          "ABBV→醫療/XLV",
           "ABCL→醫療/XLV",
           "ABNB→雜項/XLY",
           "ABT→醫療/XLV",
           "ACGL→金融/XLF",
           "ACI→雜項/XLP",
-          "ACM→雜項/XLI"
+          "ACM→雜項/XLI",
+          "ACN→Hardware/XLK"
         ]
       }
     },
     {
-      "t": "2026-10-28T07:06:58.380Z",
+      "t": "2026-10-28T08:02:50.779Z",
       "bot": "Frok",
       "role": "篩選器＋主題／ETF",
       "step": "groupByTheme",
       "detail": {
         "themes": [
-          "半導體:6",
-          "能源:95",
-          "智能駕駛:1",
+          "半導體:5",
+          "能源:98",
+          "智能駕駛:2",
           "Software service:38",
-          "Cyber security:5",
+          "Cyber security:6",
           "化學工業:21",
           "太空通訊:3",
-          "Hardware:74",
+          "Hardware:79",
           "金融:85",
-          "醫療:95",
-          "雜項:241"
+          "醫療:96",
+          "雜項:252"
         ]
       }
     }
@@ -17907,33 +18453,33 @@
   "priceSource": "yahoo-yfinance-2026-10-27",
   "yahoo": {
     "screenHits": 1189,
-    "historyOk": 1151,
+    "historyOk": 1172,
     "enrichAttempted": 1189,
-    "failed": 38
+    "failed": 17
   },
   "universeMeta": {
     "bot": "Frok",
     "role": "篩選器＋主題／ETF",
     "note": "Expanded US liquid universe; quotes via Yahoo EquityQuery screen + yfinance history SMA30",
-    "count": 1151,
+    "count": 1172,
     "yahooScreenHits": 1189,
-    "historyOk": 1151,
+    "historyOk": 1172,
     "enrichAttempted": 1189,
-    "failed": 38,
-    "asOf": "2026-10-28T07:06:45.892258+00:00",
+    "failed": 17,
+    "asOf": "2026-10-28T08:02:16.133562+00:00",
     "priceSource": "yahoo-yfinance-2026-10-27",
     "sources": {
-      "existing_sample": 1176,
+      "existing_sample": 1151,
       "sp500": 0,
       "nasdaq100": 0,
       "russell1000": 0,
       "nasdaqtrader_nasdaqlisted": 0,
       "nasdaqtrader_otherlisted": 0
     },
-    "tickerUnionRaw": 1176,
-    "started": "2026-10-28T07:02:52.436890+00:00",
+    "tickerUnionRaw": 1151,
+    "started": "2026-10-28T07:59:05.053177+00:00",
     "priceAsOfCounts": {
-      "2026-10-27": 1151
+      "2026-10-27": 1172
     },
     "barsLanded_2026_10_27": true
   },
@@ -17948,7 +18494,7 @@
     },
     "themeMapKeys": 1208,
     "priceAsOfCounts": {
-      "2026-10-27": 664
+      "2026-10-27": 685
     },
     "barsLanded_2026_10_27": true,
     "priceAsOfMajority": "2026-10-27"
