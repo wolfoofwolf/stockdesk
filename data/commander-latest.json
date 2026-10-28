@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-28T11:55:42+08:00",
+  "generatedAt": "2026-10-28T15:09:30+08:00",
   "bot": "Trok",
   "role": "commander",
-  "asOfHKT": "2026-10-28 11:55 HKT",
+  "asOfHKT": "2026-10-28 15:09 HKT",
   "pipeline": {
     "candidates": 692,
     "techPassed": 64,
@@ -12,7 +12,7 @@
     "entryConsider": 30,
     "entryWatch": 1,
     "downstreamStale": false,
-    "anchor": "LOCK 692→64→31→31 asOf 10-27 (+TKOMY/−IBN; consider 30 / watch BROS). tip ?v=en31-1154",
+    "anchor": "LOCK 692→64→31→31 asOf 10-27; Frok live scr 664 NOT re-locked. tip ?v=scr664-1028",
     "methodMix": {
       "Pullback": 27,
       "META": 4
@@ -22,13 +22,13 @@
       "bull_flag": 6,
       "cup_with_handle": 1
     },
-    "note": "Arok ⑤ 11:55 HKT: leaders Δ＋TKOMY／−IBN; entry 31. Push tip en31-1154.",
-    "screener": 692,
+    "note": "Frok screener 664 (Δ−21 vs 685) pushed ?v=scr664-1028; pipeline HOLD prior LOCK until Grok→Jrok→Arok chain. Entry tip keep en31-1154.",
+    "screener": 664,
     "techPass": 64
   },
-  "summaryTw": "【總司令｜LOCK】692→64→31→31 asOf 10-27｜Δ＋TKOMY／−IBN｜可考慮30／觀望BROS｜tip ?v=en31-1154",
+  "summaryTw": "【總司令｜HOLD】LOCK 692→64→31→31｜Frok live scr 664 未重鎖｜推 ?v=scr664-1028",
   "brief": {
-    "title": "總司令簡報｜2026-10-28 11:01 HKT",
+    "title": "總司令簡報｜2026-10-28 14:59 HKT",
     "sections": [
       {
         "id": "gate",
@@ -38,22 +38,22 @@
       {
         "id": "fedwatch",
         "label": "FedWatch",
-        "value": "hold **92.0%**／hike25 **8.0%**（Investing Fed Rate Monitor・Updated: Oct 27, 2026 10:35PM EDT；CME 本輪 IP block）｜vs 司令 cmd1001 Inv **90.8 Δ+1.2pp≪3**｜vs MACRO 1040 Inv **92.0 Δ+0.0pp≪3**｜SessionOpen 參考 Hold **92**／hike **8**｜Dec Current hold **17.8%**／+25 **75.8%**／+50 **6.5%**｜blackout→10/28｜FOMC 決定日（聲明 Wed 10/28 ~14:00 EDT + Warsh presser ~14:30・約 15 小時內）"
+        "value": "hold **89.7%**／hike25 **10.3%**（Investing Fed Rate Monitor・Updated: Oct 28, 2026 02:35AM EDT；CME IP block）｜vs MACRO 1440 tip 承 **92.0→89.7 Δ−2.3pp≪3**（stamp 02:25→02:35 churn≠材料）｜vs 司令 1357 Inv **89.7 Δ+0.0pp**｜SessionOpen Hold **92.0**／hike **8.0**｜Dec Current hold **19.1%**／+25 **72.8%**／+50 **8.1%**｜blackout→10/28｜FOMC 決定日（聲明 Wed 10/28 ~14:00 EDT + Warsh presser ~14:30・約 11 小時內・尚未刊）"
       },
       {
         "id": "markets",
         "label": "美股／亞洲",
-        "value": "**POST_CLOSE／Asia JP+KR+HK OPEN mid**（~11:01 PM EDT Tue／HKT Wed 11:01）｜QQQ RTH +1.27%／SPY RTH +0.56%（vs cmd1001／MACRO1040 同印；門檻無關）｜SMH RTH +3.02%（$557.98）｜VIX 17.52｜NQ≈29900／ES≈7762（vs MACRO1040 ~29875／7757・Δ≪0.4pp）｜**亞洲 OPEN mid** 日經 **~+1.26%**／韓綜 **~+5.70%**／恒指 **~+0.12%**（OPEN 已由 MACRO0840／0940／cmd1001 發群・mid／% 延伸當噪音・唔重火）"
+        "value": "**POST_CLOSE／Asia JP+KR CLOSED・HK OPEN late**（~03:00 AM EDT Wed／HKT Wed ~14:59）｜QQQ RTH +1.27%／SPY RTH +0.56%（門檻無關）｜SMH RTH +3.02%（$557.98）｜VIX 17.52｜NQ≈29951（vsFri +2.86%）／ES≈7760（vsFri +1.31%；vs MACRO1440 Δ≪0.1pp）｜**亞洲** 日經 **+1.08% At close**／韓綜 **+6.63% At close**／恒指 **~+0.22% OPEN late**（OPEN→CLOSED 已由 MACRO1440 SPEAK・late 漂移當噪音・唔重火）"
       },
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "META/TSLA 10/21 **已刊**＋META **$95B** 融資 10/26｜**FOMC 10/27–28（決定日・聲明 Wed 10/28 ~14:00 EDT + presser ~14:30）**｜MSFT/GOOGL 10/28 AH｜Warsh blackout→10/28｜無新材料催化劑（vs cmd1001／MACRO1040）"
+        "value": "META/TSLA 10/21 **已刊**＋META **$95B** 融資 10/26｜**FOMC 10/27–28（決定日・聲明 Wed 10/28 ~14:00 EDT + presser ~14:30・尚未刊・約 11h）**｜MSFT/GOOGL 10/28 AH｜Warsh blackout→10/28｜無新材料催化劑（vs 1357／MACRO1440）"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "**692→64→31→31** LOCK｜techPass **64** 錨（asOf 10-27；Grok tech；Frok scr **692**・10:00 重數仍 692）｜methodMix Pullback 27／META 4｜patternMix VCP 24／bull_flag 6／cup_with_handle 1｜領導／進場 31／31（company 10:56／entry 10:49 mtime 刷新・counts 不變）｜可考慮 30／觀望 1＝**BROS**｜集合已鎖（Pages tip keep **?v=macro1040-1028**；cmd1001／pipeline tip 已推過）"
+        "value": "**692→64→31→31** LOCK｜techPass **64** 錨（asOf 10-27；Grok tech；Frok lock **692**・live pool **685** Δ−7 churn・唔翻鎖）｜methodMix Pullback 27／META 4｜patternMix VCP 24／bull_flag 6／cup_with_handle 1｜領導／進場 31／31（company 13:59／entry 14:55 mtime bump・Arok1453 material=false；counts 不變）｜可考慮 30／觀望 1＝**BROS**｜集合已鎖（Pages tip keep **?v=macro1440-1028**；MACRO1440 已推／對齊）"
       },
       {
         "id": "top",
@@ -63,7 +63,7 @@
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "vs 司令 cmd1001／MACRO 1040 **無司令材料**｜閘門 POST_CLOSE 不適用・未觸・未穿 −0.65%｜FedWatch Inv Δ+1.2pp≪3 vs cmd1001／Δ+0.0pp vs MACRO1040（stamp 10:35PM EDT；SO 92/8）｜亞 OPEN mid 噪音・唔重火｜管道 LOCK 維持 692→64→31→31（唔 stale）｜日曆無新催化｜**唔推 Pages**・tip keep ?v=macro1040-1028｜Stock **SILENT**｜https://wolfoofwolf.github.io/stockdesk/?v=macro1040-1028"
+        "value": "vs 司令 1357／en31-1154／MACRO 1440 **無司令材料**｜閘門 POST_CLOSE 不適用・未觸・未穿 −0.65%｜FedWatch Inv 89.7 Δ−2.3pp≪3 vs MACRO1440 92.0／Δ0 vs 1357（stamp 02:35AM EDT）｜亞 CLOSED 里程碑已講・HK late 噪音｜管道 LOCK 維持 692→64→31→31（entry mtime／Frok 685 churn≠flip）｜日曆無新催化｜**唔推 Pages**・tip keep ?v=macro1440-1028｜Stock **SILENT**｜https://wolfoofwolf.github.io/stockdesk/?v=macro1440-1028"
       }
     ]
   }

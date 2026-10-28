@@ -1,6 +1,8 @@
 {
-  "generatedAt": "2026-10-28T11:55:42+08:00",
+  "generatedAt": "2026-10-28T15:09:30+08:00",
   "asOf": "2026-10-27",
+  "asOfHKT": "2026-10-28 15:09 HKT",
+  "runTag": "1459",
   "bot": "Trok",
   "pipeline": {
     "candidates": 692,
@@ -11,7 +13,7 @@
     "entryConsider": 30,
     "entryWatch": 1,
     "downstreamStale": false,
-    "anchor": "LOCK 692→64→31→31 asOf 10-27 (+TKOMY/−IBN; consider 30 / watch BROS). tip ?v=en31-1154",
+    "anchor": "LOCK 692→64→31→31 asOf 10-27; Frok live scr 664 NOT re-locked. tip ?v=scr664-1028",
     "methodMix": {
       "Pullback": 27,
       "META": 4
@@ -21,49 +23,61 @@
       "bull_flag": 6,
       "cup_with_handle": 1
     },
-    "note": "Arok ⑤ 11:55 HKT: leaders Δ＋TKOMY／−IBN; entry 31. Push tip en31-1154.",
-    "screener": 692,
-    "techPass": 64
+    "note": "Frok screener 664 (Δ−21 vs 685) pushed ?v=scr664-1028; pipeline HOLD prior LOCK until Grok→Jrok→Arok chain. Entry tip keep en31-1154.",
+    "screener": 664,
+    "techPass": 64,
+    "liveFrokPool": 685,
+    "mtimes": {
+      "screener": "2026-10-28 14:01 HKT",
+      "tech": "2026-10-28 04:14 HKT",
+      "company": "2026-10-28 13:59 HKT",
+      "entry": "2026-10-28 14:55 HKT"
+    }
   },
   "status": "LOCK",
-  "summaryTw": "【總司令｜LOCK】692→64→31→31 asOf 10-27｜Δ＋TKOMY／−IBN｜可考慮30／觀望BROS｜tip ?v=en31-1154",
-  "materialChange": true,
-  "pagesTip": "macro1040-1028",
-  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1040-1028",
-  "session": "POST_CLOSE / Asia JP+KR+HK OPEN mid",
+  "summaryTw": "【總司令｜HOLD】LOCK 692→64→31→31｜Frok live scr 664 未重鎖｜推 ?v=scr664-1028",
+  "materialChange": false,
+  "pagesTip": "macro1440-1028",
+  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1440-1028",
+  "session": "POST_CLOSE / Asia JP+KR CLOSED・HK OPEN late",
   "gateApplicable": false,
   "gateFired": false,
   "speakToStockGroup": false,
+  "pushed": false,
   "fedwatch": {
-    "hold": 92.0,
-    "hike25": 8.0,
-    "source": "Investing Fed Rate Monitor (CME IP-blocked this run)",
-    "stamp": "Oct 27, 2026 10:35PM EDT",
-    "deltaVsPriorCmd": 1.2,
-    "deltaVsMacro1040": 0.0,
+    "hold": 89.7,
+    "hike25": 10.3,
+    "source": "Investing Fed Rate Monitor (live); CME IP-blocked; SO fallback 92/8",
+    "stamp": "Oct 28, 2026 02:35AM EDT",
+    "deltaVsPriorCmd1357": 0.0,
+    "deltaVsMacro1440": -2.3,
     "investing": {
-      "hold": 92.0,
-      "hike25": 8.0,
-      "stamp": "Oct 27, 2026 10:35PM EDT"
+      "hold": 89.7,
+      "hike25": 10.3,
+      "stamp": "Oct 28, 2026 02:35AM EDT",
+      "note": "live OK; vs MACRO1440 Inv 92.0 stamp 02:25AM → 89.7 stamp 02:35AM Δ−2.3≪3 churn"
     },
     "sessionOpen": {
-      "hold": 92,
-      "hike25": 8
+      "hold": 92.0,
+      "hike25": 8.0
     },
     "december": {
-      "hold": 17.8,
-      "hike25": 75.8,
-      "hike50": 6.5
+      "hold": 19.1,
+      "hike25": 72.8,
+      "hike50": 8.1,
+      "note": "Investing Dec Current"
     }
   },
   "quotes": {
     "qqq": {
       "px": 721.25,
-      "chgPct": 1.27
+      "chgPct": 1.27,
+      "priorClose": 712.2
     },
     "spy": {
       "px": 769.66,
-      "chgPct": 0.56
+      "chgPct": 0.56,
+      "priorClose": 765.37
     },
     "smh": {
       "px": 557.98,
@@ -71,24 +85,47 @@
     },
     "vix": 17.52,
     "nq": {
-      "px": 29900.0
+      "px": 29950.75,
+      "vsFriPct": 2.86
     },
     "es": {
-      "px": 7761.75
+      "px": 7760.0,
+      "vsFriPct": 1.31
     },
     "asia": {
       "n225": {
-        "chgPct": 1.26,
-        "status": "OPEN"
+        "chgPct": 1.08,
+        "status": "CLOSED",
+        "px": 63954.19
       },
       "kospi": {
-        "chgPct": 5.7,
-        "status": "OPEN"
+        "chgPct": 6.63,
+        "status": "CLOSED",
+        "px": 6012.44
       },
       "hsi": {
-        "chgPct": 0.12,
-        "status": "OPEN"
+        "chgPct": 0.22,
+        "status": "OPEN late",
+        "px": 23091.75
       }
-    }
-  }
+    },
+    "source": "Yahoo chart v8 ~2026-10-28 14:59 HKT"
+  },
+  "materialReasons": [],
+  "nonMaterialNotes": [
+    "gate N/A POST_CLOSE; QQQ +1.27%/SPY +0.56% far above −0.65%",
+    "FedWatch Inv 89.7/10.3 stamp 02:35AM EDT Δ−2.3≪3 vs MACRO1440 92.0／Δ0 vs cmd1357 89.7; SO 92/8",
+    "Asia JP+KR CLOSED At close N225 +1.08%/KS11 +6.63%; HSI OPEN late ~+0.22% — OPEN→CLOSED already SPEAK by MACRO1440; late alone ≠ material",
+    "pipeline LOCK 692→64→31→31 unchanged; entry14:55/Arok1453 material=false counts same; live Frok 685 vs lock 692 churn ≠ flip",
+    "calendar FOMC decision day unchanged; ~11h to decision; no new catalyst within ~3 trading days",
+    "MACRO tip already advanced to macro1440-1028 (SHA e468d434); hourly no additional push"
+  ],
+  "compareVs": "cmd1357 / en31-1154 / MACRO1440",
+  "calendar": {
+    "fomc": "decision Wed 10/28 ~14:00 EDT + Warsh presser ~14:30 (~11h out); blackout→10/28; not yet out",
+    "note": "FOMC not yet published — unchanged calendar alone ≠ material"
+  },
+  "fetchFailures": [
+    "CME FedWatch tool IP blocked (403)"
+  ]
 }
