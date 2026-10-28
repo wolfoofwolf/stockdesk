@@ -1,0 +1,24 @@
+# 總司令簡報｜2026-10-28 10:01 HKT
+
+【總司令｜LOCK】692→64→31→31 asOf 10-27｜港 CLOSED→OPEN｜可考慮30／觀望BROS｜tip ?v=cmd1001-1028
+
+## 閘門
+**POST_CLOSE／overnight・經典 PRE 閘門本輪不適用・開盤急挫檢查未觸**｜QQQ RTH close **$721.25（+1.27%** vs Mon RTH **$712.20**）｜SPY RTH close **$769.66（+0.56%** vs Mon RTH **$765.37**）｜門檻 −0.65%・兩者皆綠・遠未跌穿｜VIX 17.52｜AH／overnight 輕量噪音唔當日變
+
+## FedWatch
+hold **90.8%**／hike25 **9.2%**（Investing Fed Rate Monitor・as of Oct 27, 2026 09:35PM EDT；CME 本輪 IP block）｜vs 司令 09:05 Inv **93.1 Δ-2.3pp≪3**｜vs MACRO 0840 Inv **90.8 Δ+0.0pp≪3**｜SessionOpen 參考 Hold **92**／hike **8**（沿 MACRO0840）｜blackout→10/28｜FOMC 決定日（10/27–28・聲明 Wed 10/28 ~14:00 EDT + Warsh presser ~14:30・約 16 小時內）
+
+## 美股／亞洲
+**POST_CLOSE／Asia JP+KR+HK OPEN**（~10:01 PM EDT Tue／HKT Wed 10:01）｜QQQ RTH +1.27%／SPY RTH +0.56%（vs cmd0905／MACRO0840 同印；門檻無關）｜SMH RTH +3.02%（$557.98）｜VIX 17.52｜NQ≈29901／ES≈7759（vs MACRO0840 ~29820／7757・Δ≪0.4pp）｜**亞洲** 日經 **OPEN ~+1.45%**／韓綜 **OPEN ~+6.34%**／恒指 **OPEN ~+0.11%**（**港 CLOSED→OPEN 里程碑**・vs 09:05 CLOSED −0.73%；JP+KR CLOSED→OPEN 已由 MACRO0840 發群・唔重火；OPEN % 延伸當噪音）
+
+## 日曆
+META/TSLA 10/21 **已刊**＋META **$95B** 融資 10/26｜**FOMC 10/27–28（決定日・聲明 Wed 10/28 ~14:00 EDT + presser ~14:30）**｜MSFT/GOOGL 10/28 AH｜Warsh blackout→10/28｜無新材料催化劑（vs cmd0905／MACRO0840）
+
+## 管道
+**692→64→31→31** LOCK｜techPass **64** 錨（asOf 10-27；Grok tech；Frok scr **692**・10:00 重數仍 692）｜methodMix Pullback 27／META 4｜patternMix VCP 24／bull_flag 6／cup_with_handle 1｜領導／進場 31／31（company/entry mtime 09:54・counts 不變）｜可考慮 30／觀望 1＝**BROS**｜集合已鎖（Pages tip **?v=cmd1001-1028**；pipeline tip en31-1027 已推過）
+
+## Top
+進場前排 ADI·NUE·FANG·SHEL·SONY·TD·ADSK·BNS｜領導 TEL·ADI·VTRS·TD·NUE·BNS·BZ·CBOE·HONA·ECL｜techPass top TEL·ADI·VTRS·TD·CCL·NUE·BWIN·BNS
+
+## 結論
+vs 司令 09:05／MACRO 0840 **有司令材料：港 CLOSED→OPEN**｜閘門 POST_CLOSE 不適用・未觸・未穿 −0.65%｜FedWatch Inv Δ-2.3pp≪3 vs cmd0905／Δ+0.0pp vs MACRO0840（stamp 09:35PM EDT；SO 92/8）｜港 OPEN 里程碑發群；JP+KR 唔重火｜管道 LOCK 維持 692→64→31→31（唔 stale）｜日曆無新催化｜**推 Pages**・tip ?v=cmd1001-1028｜Stock 發群｜https://wolfoofwolf.github.io/stockdesk/?v=cmd1001-1028
