@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T11:55:07+08:00",
+  "generatedAt": "2026-10-28T11:55:42+08:00",
   "asOf": "2026-10-27",
   "bot": "Trok",
   "pipeline": {
@@ -10,8 +10,8 @@
     "entry": 31,
     "entryConsider": 30,
     "entryWatch": 1,
-    "downstreamStale": true,
-    "anchor": "ALIGN 692→64→31→31 Δ＋TKOMY／−IBN pending Arok⑤; tip ?v=co31-1154",
+    "downstreamStale": false,
+    "anchor": "LOCK 692→64→31→31 asOf 10-27 (+TKOMY/−IBN; consider 30 / watch BROS). tip ?v=en31-1154",
     "methodMix": {
       "Pullback": 27,
       "META": 4
@@ -21,12 +21,12 @@
       "bull_flag": 6,
       "cup_with_handle": 1
     },
-    "note": "Jrok company tip 483c12d leaders Δ＋TKOMY／−IBN (ADD0/DROP0 tech); entry prior en31-1027 STALE until Arok⑤ rebuild.",
+    "note": "Arok ⑤ 11:55 HKT: leaders Δ＋TKOMY／−IBN; entry 31. Push tip en31-1154.",
     "screener": 692,
     "techPass": 64
   },
-  "status": "ALIGN",
-  "summaryTw": "【總司令｜ALIGN】692→64→31→31 Δ＋TKOMY／−IBN（entry STALE）｜待 Arok⑤｜tip ?v=co31-1154",
+  "status": "LOCK",
+  "summaryTw": "【總司令｜LOCK】692→64→31→31 asOf 10-27｜Δ＋TKOMY／−IBN｜可考慮30／觀望BROS｜tip ?v=en31-1154",
   "materialChange": true,
   "pagesTip": "macro1040-1028",
   "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1040-1028",
