@@ -651,15 +651,17 @@
     "speakToStockGroup": true,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1440-1028",
     "session": "POST_CLOSE / Asia JP+KR CLOSED・HK OPEN late",
-    "pagesTipSha": "PENDING",
-    "pushed": false,
-    "pushedAtHKT": null,
-    "pushPending": true,
-    "contentCommitSha": null,
-    "blobSha": null,
-    "tipSync": false,
+    "pagesTipSha": "e468d434",
+    "pushed": true,
+    "pushedAtHKT": "2026-10-28 14:51 HKT",
+    "pushPending": false,
+    "contentCommitSha": "e468d4345515b6a84519fcef54105e6b8de2c2e1",
+    "blobSha": "448c03d82b0db1bd7a1fd4b3d06b155c73c56bc5",
+    "tipSync": true,
     "tipLock": false,
-    "note": "push pending 1440"
+    "note": "content pushed; tipSync/tipLock pending",
+    "tipSyncCommitSha": null,
+    "finalBlobSha": "448c03d82b0db1bd7a1fd4b3d06b155c73c56bc5"
   },
   "brief": {
     "skeleton": [
