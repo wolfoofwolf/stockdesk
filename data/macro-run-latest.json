@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股POST_CLOSE・QQQ +1.27%／SPY +0.56%・閘門N/A｜亞JP+KR+HK OPEN｜FedWatch hold 90.8%（Δ+0.0 vs0840）｜KS11 Δ+1.74pp｜發群（Drok）",
   "asOf": "2026-10-28T01:40:00.000Z",
-  "updatedAt": "2026-10-28T01:43:37.000Z",
+  "updatedAt": "2026-10-28T01:44:00.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -611,20 +611,20 @@
     "speakToStockGroup": true,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro0940-1028",
     "session": "POST_CLOSE / Asia JP+KR+HK OPEN",
-    "pagesTipSha": null,
-    "pushed": false,
-    "pushedAtHKT": null,
-    "pushPending": true,
-    "contentCommitSha": null,
-    "blobSha": null,
-    "tipSync": false,
-    "tipLock": false,
+    "pagesTipSha": "b41d5d4d",
+    "pushed": true,
+    "pushedAtHKT": "2026-10-28 09:44 HKT",
+    "pushPending": false,
+    "contentCommitSha": "b41d5d4d7df548163a0f60dbdd0dc505f139ca64",
+    "blobSha": "f0b94a8afa221788af701c4f4ad48d68e648efbd",
+    "tipSync": true,
+    "tipLock": true,
     "tipSyncCommitSha": null,
     "tipLockCommitSha": null,
     "tipLockSealCommitSha": null,
     "finalBlobSha": null,
     "sealBlobSha": null,
-    "note": "0940 pending push"
+    "note": "0940 tipSync+tipLock pending seal"
   },
   "brief": {
     "skeleton": [
