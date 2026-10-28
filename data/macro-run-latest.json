@@ -626,20 +626,20 @@
     "speakToStockGroup": false,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1140-1028",
     "session": "POST_CLOSE / Asia JP+KR+HK OPEN mid",
-    "pagesTipSha": null,
-    "pushed": false,
-    "pushedAtHKT": null,
-    "pushPending": true,
-    "contentCommitSha": null,
+    "pagesTipSha": "4ae0da82",
+    "pushed": true,
+    "pushedAtHKT": "2026-10-28 11:42 HKT",
+    "pushPending": false,
+    "contentCommitSha": "4ae0da8277aa22147ee3323883e522d19dd733b4",
     "blobSha": null,
-    "tipSync": false,
-    "tipLock": false,
+    "tipSync": true,
+    "tipLock": true,
     "tipSyncCommitSha": null,
     "tipLockCommitSha": null,
     "tipLockSealCommitSha": null,
     "finalBlobSha": null,
     "sealBlobSha": null,
-    "note": "1140 content pending tipSync→tipLock→tipLockSeal"
+    "note": "tipSync+tipLock pending seal after this push"
   },
   "brief": {
     "skeleton": [
