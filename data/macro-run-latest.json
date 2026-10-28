@@ -626,12 +626,12 @@
     "blobSha": "a945b10af059c7c25242d18977c256ee4928c4b2",
     "tipSync": true,
     "tipLock": true,
-    "tipSyncCommitSha": null,
-    "tipLockCommitSha": null,
-    "tipLockSealCommitSha": null,
-    "finalBlobSha": null,
-    "sealBlobSha": null,
-    "note": "tipLock: pagesTipSha=f625d21a contentCommit locked; tipSync/tipLock shas filled after tipLock commit"
+    "tipSyncCommitSha": "efc0fa11dd596771e4db9b4d599ebf5b392ebf6c",
+    "tipLockCommitSha": "efc0fa11dd596771e4db9b4d599ebf5b392ebf6c",
+    "tipLockSealCommitSha": "efc0fa11dd596771e4db9b4d599ebf5b392ebf6c",
+    "finalBlobSha": "3c5977584beed4dac553c03c3ccef5720c055de5",
+    "sealBlobSha": "3c5977584beed4dac553c03c3ccef5720c055de5",
+    "note": "github file tipLockSeal field points to prior tipLock efc0fa11 while local tipLockSeal will be seal commit"
   },
   "brief": {
     "skeleton": [
