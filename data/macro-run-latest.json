@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股POST_CLOSE・QQQ +1.27%／SPY +0.56%・閘門N/A｜亞JP+KR+HK OPEN｜FedWatch hold 90.8%（Δ+0.0 vs0840）｜KS11 Δ+1.74pp｜發群（Drok）",
   "asOf": "2026-10-28T01:40:00.000Z",
-  "updatedAt": "2026-10-28T01:44:00.000Z",
+  "updatedAt": "2026-10-28T01:44:30.000Z",
   "bot": "Drok",
   "role": "④ 大市分析",
   "calendar": [
@@ -616,15 +616,15 @@
     "pushedAtHKT": "2026-10-28 09:44 HKT",
     "pushPending": false,
     "contentCommitSha": "b41d5d4d7df548163a0f60dbdd0dc505f139ca64",
-    "blobSha": "f0b94a8afa221788af701c4f4ad48d68e648efbd",
+    "blobSha": "bda63f3b1fa46d4bf0d8f8f778193afca94081a8",
     "tipSync": true,
     "tipLock": true,
-    "tipSyncCommitSha": null,
-    "tipLockCommitSha": null,
-    "tipLockSealCommitSha": null,
+    "tipSyncCommitSha": "9290bfcb5a1e14be98f82b56b0dddf9387379231",
+    "tipLockCommitSha": "9290bfcb5a1e14be98f82b56b0dddf9387379231",
+    "tipLockSealCommitSha": "9290bfcb5a1e14be98f82b56b0dddf9387379231",
     "finalBlobSha": null,
     "sealBlobSha": null,
-    "note": "0940 tipSync+tipLock pending seal"
+    "note": "github file tipLockSeal field will point to tipLock 9290bfcb after seal commit"
   },
   "brief": {
     "skeleton": [
