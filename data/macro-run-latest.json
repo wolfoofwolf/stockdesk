@@ -634,12 +634,12 @@
     "blobSha": null,
     "tipSync": true,
     "tipLock": true,
-    "tipSyncCommitSha": null,
-    "tipLockCommitSha": null,
-    "tipLockSealCommitSha": null,
+    "tipSyncCommitSha": "fd0f019345529396831d4e17a621503724a171fa",
+    "tipLockCommitSha": "fd0f019345529396831d4e17a621503724a171fa",
+    "tipLockSealCommitSha": "fd0f019345529396831d4e17a621503724a171fa",
     "finalBlobSha": null,
     "sealBlobSha": null,
-    "note": "tipSync+tipLock pending seal after this push"
+    "note": "github file tipLockSeal field points to prior tipLock fd0f0193; local tipLockSeal updated after seal"
   },
   "brief": {
     "skeleton": [
