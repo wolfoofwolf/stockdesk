@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-10-28T15:13:15+08:00",
+  "generatedAt": "2026-10-28T15:13:33+08:00",
   "asOf": "2026-10-27",
   "asOfHKT": "2026-10-28 15:13 HKT",
   "runTag": "1459",
   "bot": "Trok",
   "pipeline": {
-    "candidates": 664,
-    "techPassed": 61,
+    "candidates": 692,
+    "techPassed": 64,
     "company": 31,
     "leaders": 31,
     "entry": 31,
     "entryConsider": 30,
     "entryWatch": 1,
-    "downstreamStale": true,
-    "anchor": "ALIGN 664→61→31→31 pending Jrok/Arok; asOfMarket 10-27. tip ?v=tech61-1028",
+    "downstreamStale": false,
+    "anchor": "HOLD LOCK 692→64→31→31 asOf 10-27; live scr 664 / tech 61 NOT re-locked (same-asOf churn). tip ?v=en31-1154",
     "methodMix": {
       "Pullback": 27,
       "META": 4
     },
     "patternMix": {
-      "VCP": 45,
-      "bull_flag": 15,
+      "VCP": 24,
+      "bull_flag": 6,
       "cup_with_handle": 1
     },
-    "note": "Grok techPass 61 (Δ+1/−4/kept60) tip 2ac279d; company/entry still 31 from prior LOCK — STALE until Jrok③ + Arok⑤. Screener tip scr664-1028.",
+    "note": "Arok HOLD 15:13 HKT: same-day asOf 10-27 churn tech 64→61 — no ⑤ rebuild. Entry tip keep 2d15c91 en31-1154. Frok live 664 / Grok live 61 noted only.",
     "screener": 664,
-    "techPass": 61,
+    "techPass": 64,
     "liveFrokPool": 685,
     "mtimes": {
       "screener": "2026-10-28 14:01 HKT",
@@ -34,9 +34,9 @@
       "entry": "2026-10-28 14:55 HKT"
     }
   },
-  "status": "ALIGN",
-  "summaryTw": "【總司令｜ALIGN】664→61→31→31（下游 STALE）asOf 10-27｜待 Jrok③／Arok⑤｜tip ?v=tech61-1028",
-  "materialChange": true,
+  "status": "HOLD",
+  "summaryTw": "【總司令｜HOLD】LOCK 692→64→31→31 asOf 10-27｜live scr664／tech61 未重鎖｜tip ?v=en31-1154",
+  "materialChange": false,
   "pagesTip": "macro1440-1028",
   "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1440-1028",
   "session": "POST_CLOSE / Asia JP+KR CLOSED・HK OPEN late",

@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-10-28T15:13:15+08:00",
+  "generatedAt": "2026-10-28T15:13:33+08:00",
   "bot": "Trok",
   "role": "commander",
   "asOfHKT": "2026-10-28 15:13 HKT",
   "pipeline": {
-    "candidates": 664,
-    "techPassed": 61,
+    "candidates": 692,
+    "techPassed": 64,
     "company": 31,
     "leaders": 31,
     "entry": 31,
     "entryConsider": 30,
     "entryWatch": 1,
-    "downstreamStale": true,
-    "anchor": "ALIGN 664→61→31→31 pending Jrok/Arok; asOfMarket 10-27. tip ?v=tech61-1028",
+    "downstreamStale": false,
+    "anchor": "HOLD LOCK 692→64→31→31 asOf 10-27; live scr 664 / tech 61 NOT re-locked (same-asOf churn). tip ?v=en31-1154",
     "methodMix": {
       "Pullback": 27,
       "META": 4
     },
     "patternMix": {
-      "VCP": 45,
-      "bull_flag": 15,
+      "VCP": 24,
+      "bull_flag": 6,
       "cup_with_handle": 1
     },
-    "note": "Grok techPass 61 (Δ+1/−4/kept60) tip 2ac279d; company/entry still 31 from prior LOCK — STALE until Jrok③ + Arok⑤. Screener tip scr664-1028.",
+    "note": "Arok HOLD 15:13 HKT: same-day asOf 10-27 churn tech 64→61 — no ⑤ rebuild. Entry tip keep 2d15c91 en31-1154. Frok live 664 / Grok live 61 noted only.",
     "screener": 664,
-    "techPass": 61
+    "techPass": 64
   },
-  "summaryTw": "【總司令｜ALIGN】664→61→31→31（下游 STALE）asOf 10-27｜待 Jrok③／Arok⑤｜tip ?v=tech61-1028",
+  "summaryTw": "【總司令｜HOLD】LOCK 692→64→31→31 asOf 10-27｜live scr664／tech61 未重鎖｜tip ?v=en31-1154",
   "brief": {
     "title": "總司令簡報｜2026-10-28 14:59 HKT",
     "sections": [
