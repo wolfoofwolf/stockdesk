@@ -647,15 +647,15 @@
     "pushedAtHKT": "2026-10-28 13:46 HKT",
     "pushPending": false,
     "contentCommitSha": "2e0a97986e7c3bf29c4a6f130d0394d78c77ac40",
-    "blobSha": "b4003a1715fed6f54e97b1fff593fbb492076f19",
+    "blobSha": "66e9c0bf2dfa86ccb27e9da638dc1fed1eb9a5df",
     "tipSync": true,
-    "tipLock": false,
-    "tipSyncCommitSha": null,
-    "tipLockCommitSha": null,
+    "tipLock": true,
+    "tipSyncCommitSha": "118c781943add86c6acdfbc809866acb50de3c6e",
+    "tipLockCommitSha": "118c781943add86c6acdfbc809866acb50de3c6e",
     "tipLockSealCommitSha": null,
-    "finalBlobSha": "b4003a1715fed6f54e97b1fff593fbb492076f19",
-    "sealBlobSha": null,
-    "note": "content pushed; tipSync pending stamp"
+    "finalBlobSha": "66e9c0bf2dfa86ccb27e9da638dc1fed1eb9a5df",
+    "sealBlobSha": "66e9c0bf2dfa86ccb27e9da638dc1fed1eb9a5df",
+    "note": "tipSync+tipLock stamped; seal pending"
   },
   "brief": {
     "skeleton": [
