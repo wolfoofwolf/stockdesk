@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股mid-RTH・QQQ -0.88%／SPY -0.18%・閘門未觸｜亞JP+KR+HK CLOSED｜FedWatch Dec hold 26.6%｜NQΔ-0.74／ESΔ-0.47 SPEAK（Drok）",
   "asOf": "2026-11-02T19:45:00.000Z",
-  "updatedAt": "2026-11-02T19:50:20.000Z",
+  "updatedAt": "2026-11-02T19:51:10.000Z",
   "bot": "Drok",
   "role": "大市分析",
   "calendar": [
@@ -904,16 +904,18 @@
     "speakToStockGroup": true,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro0345-1103",
     "session": "mid-RTH / Asia JP+KR+HK CLOSED",
-    "pagesTipSha": null,
+    "pagesTipSha": "4d799679",
     "pushed": true,
     "pushPending": false,
     "tipSync": true,
     "tipLock": true,
-    "tipLockSeal": false,
-    "note": "content→tipSync a237922a→a40d6d73 tipLock pending seal",
+    "tipLockSeal": true,
+    "note": "content→tipSync→tipLock a237922a→a40d6d73→4d799679 sealed pending",
     "contentCommitSha": "a237922a4cc6acb92c7510e9788c8763003f8f7c",
-    "blobSha": "3060ff2f0c252f37807c57187291ab23dcf23e50",
-    "tipSyncCommitSha": "a40d6d73a43ba68743cd39eba2e1a393241a731a"
+    "blobSha": "5a4d922e9ac10ce186e24cabb17ce39ebed00d97",
+    "tipSyncCommitSha": "a40d6d73a43ba68743cd39eba2e1a393241a731a",
+    "tipLockCommitSha": "4d799679ec3e79d82f6f60e1486a37d8f8d9e327",
+    "chain": "a237922a→a40d6d73→4d799679"
   },
   "brief": {
     "skeleton": [
