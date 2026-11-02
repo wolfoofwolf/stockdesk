@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股RTH_OPEN・QQQ +0.70%／SPY +0.60%・閘門未觸｜亞JP+KR+HK CLOSED｜FedWatch Dec hold 25.4%｜FOMC HOLD首捕｜缺口重設基線 SPEAK（Drok）",
   "asOf": "2026-11-02T14:47:00.000Z",
-  "updatedAt": "2026-11-02T14:51:00.000Z",
+  "updatedAt": "2026-11-02T14:51:15.000Z",
   "bot": "Drok／大市分析",
   "role": "④ 大市分析",
   "calendar": [
@@ -739,14 +739,15 @@
     "pushedAtHKT": "2026-11-02 22:50 HKT",
     "pushPending": false,
     "contentCommitSha": "9b63c528faf63c6e302b2ca45d321e7025963d7c",
-    "blobSha": "f496bd20d1f4c0189003930f59d49150d4996de3",
+    "blobSha": "931e20bbf7b5918fb773dbc070d6a2736e4027fe",
     "tipSync": true,
     "tipLock": true,
-    "tipLockSeal": false,
-    "note": "content 9b63c528 → tipSync 4cb030b4 → tipLock PENDING",
+    "tipLockSeal": true,
+    "note": "content 9b63c528 → tipSync 4cb030b4 → tipLock 13c2fdd6",
     "tipSyncCommitSha": "4cb030b45109c6553d6d35cc9a5a4fda9c3b89da",
-    "finalBlobSha": "f496bd20d1f4c0189003930f59d49150d4996de3",
-    "tipLockCommitSha": null
+    "finalBlobSha": "931e20bbf7b5918fb773dbc070d6a2736e4027fe",
+    "tipLockCommitSha": "13c2fdd6bfda254317fe031cab6a63ee5b5fe385",
+    "tipLockSealCommitSha": null
   },
   "brief": {
     "skeleton": [
