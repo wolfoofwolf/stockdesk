@@ -1,211 +1,121 @@
 {
-  "generatedAt": "2026-11-03T00:02:42+08:00",
+  "generatedAt": "2026-11-03T05:07:30+08:00",
   "bot": "Trok",
   "role": "commander",
-  "asOfHKT": "2026-11-03 00:02 HKT",
-  "runTag": "2358",
+  "asOfHKT": "2026-11-03 05:07 HKT",
+  "runTag": "0507",
   "pipeline": {
-    "candidates": 701,
-    "techPassed": 78,
+    "candidates": 724,
+    "techPassed": 83,
     "company": 34,
     "leaders": 34,
     "entry": 34,
     "entryConsider": 33,
     "entryWatch": 1,
-    "downstreamStale": false,
-    "anchor": "LOCK 701→78→34→34 asOf 10-30 (consider 33 / watch TJX). tip ?v=en34-1030",
+    "downstreamStale": true,
+    "anchor": "live Grok tech 724→83 asOfMarket 11-02 (vs LOCK 701→78: +27/−22/kept56; tip 044150a); company/leaders/entry STALE prior LOCK 34→34→34 asOf 10-30 (watch TJX) pending Jrok/Arok⑤",
     "patternMix": {
-      "VCP": 23,
-      "bull_flag": 10,
-      "cup_with_handle": 1
+      "VCP": 58,
+      "bull_flag": 17,
+      "cup_with_handle": 8
     },
-    "note": "Arok ⑤ LOCK entry 34／Jrok leaders 34／Grok tech 78／Frok scr LOCK 701 asOf 10-30. Watch TJX; BROS out. Frok hourly-techpass ~23:50 QUIET（forming 703 vs lock 701・無重掃）. tip ?v=en34-1030.",
-    "screener": 701,
-    "techPass": 78,
-    "liveFrokPool": 703,
-    "methodMix": {
-      "Pullback": 25,
-      "META": 9
-    }
-  },
-  "summaryTw": "【總司令｜LOCK】701→78→34→34 asOf 10-30｜可考慮33／觀望TJX｜tip ?v=en34-1030｜Pages ?v=cmd2358-1102",
-  "materialChange": true,
-  "pagesTip": "cmd2358-1102",
-  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd2358-1102",
-  "session": "RTH_OPEN / Asia JP+KR+HK CLOSED",
-  "gateApplicable": true,
-  "gateFired": false,
-  "speakToStockGroup": false,
-  "brief": {
-    "title": "總司令簡報｜2026-11-03 00:02 HKT",
-    "sections": [
-      {
-        "id": "gate",
-        "label": "閘門",
-        "value": "**RTH_OPEN・經典閘門適用（~09:45+ EST；DST→EST 開盤 22:30 HKT）・開盤急挫檢查未觸**｜QQQ **$695.37（+0.71%** vs prior RTH **$690.49）｜SPY **$760.97（+0.69%** vs prior RTH **$755.72）｜門檻 −0.65%・兩者皆綠・遠未跌穿｜VIX 18.13｜gateApplicable=true／gateFired=false"
-      },
-      {
-        "id": "fedwatch",
-        "label": "FedWatch",
-        "value": "Dec Current hold **23.0%**／hike25 **77.0%**（Investing・Updated: Nov 02, 2026 10:35AM EST；本輪 WebFetch fresh；CME skip）｜SessionOpen Hold **22**／hike **78**（reuse MACRO2345 SO）｜vs prior cmd board hold 25.0：**Δ-2.0pp ≪3**；vs MACRO2345 25.6：**Δ-2.6pp ≪3**・非 Fed 材料｜FOMC 10/28 **HOLD** 3.75–4.00%（已畢・MACRO SPEAK）｜blackout 結束｜下：NFP 11/6・CPI 11/10・PPI 11/13・Warsh 11/16 SF・FOMC 12/8–9"
-      },
-      {
-        "id": "markets",
-        "label": "美股／亞洲",
-        "value": "**RTH_OPEN／Asia JP+KR+HK CLOSED**（~11:00 EST Mon／HKT ~2026-11-03 00:02 HKT）｜QQQ RTH +0.71%／SPY RTH +0.69%（閘門未觸）｜SMH RTH +0.70%（$526.13）｜VIX 18.13｜NQ≈28778（vsFri +0.86%）／ES≈7678.50（vsFri +0.85%）｜**亞洲** 日經 **-0.33% At close**（63081.86）／韓綜 **+2.24% At close**（5859.08）／恒指 **+0.42% At close**（23393.32）（CLOSED 里程碑已由 MACRO2245／2345 SPEAK・本輪唔重火）｜Yahoo live US；Asia reuse At-close"
-      },
-      {
-        "id": "calendar",
-        "label": "日曆",
-        "value": "FOMC 10/28 **HOLD 已刊**（MACRO 已 SPEAK・唔當新 Stock 宏觀重講）｜MSFT beat／GOOGL miss（10/29）已消化｜CRWV 翻紅（MACRO 已記）｜前瞻：NFP 11/6・CPI 11/10・PPI 11/13・Warsh 11/16 SF AI/productivity・FOMC 12/8–9｜司令本輪主軸＝**Pages 板面衛生：STALE 簡報 → LOCK 701→78→34→34**・唔重炒 FOMC／大市"
-      },
-      {
-        "id": "pipeline",
-        "label": "管道",
-        "value": "**LOCK 701→78→34→34**（asOfMarket **10-30**；downstreamStale=**false**）｜Grok techPass **78**／Jrok leaders **34**／Arok entry **34**（可考慮 **33**／觀望 **TJX**）｜entry patternMix **VCP 23／bull_flag 10／cup_with_handle 1**｜methodMix **Pullback 25／META 9**｜techPass patternCounts（參考）VCP 54／bull_flag 23／cup 1｜Frok screener LOCK 池 **701**；hourly-techpass ~23:50 QUIET（forming **703** vs lock 701・無重掃）｜pipeline tip **?v=en34-1030**｜Pages tip bump **?v=cmd2358-1102**"
-      },
-      {
-        "id": "top",
-        "label": "Top",
-        "value": "tech proximity CUBE·CHDN·HOG·DE·BLDR·TD·HIW·CUZ｜techPass top CUBE·CHDN·TD·KBR·OTIS·ECL·FAST·ETSY｜進場前排（LOCK）NUE·ADI·ET·MDLZ·PSX·SONY·TD·WELL｜領導（LOCK）CHDN·TD·ECL·FAST·CE·NUE·DG·DHT·PLNT·DEO｜觀望 TJX"
-      },
-      {
-        "id": "conclusion",
-        "label": "結論",
-        "value": "vs cmd2300／MACRO2345／Arok LOCK：**Pages 材料**＝簡報六大項仍寫 STALE 61→31→31／BROS・頂層已 LOCK 34／TJX — **已重寫對齊**｜閘門 RTH 適用・未觸・未穿 −0.65%（QQQ +0.71%／SPY +0.69%）｜FedWatch Dec 23.0/77.0（Δ-2.0pp≪3）・唔重炒宏觀｜管道：**LOCK** 701→78→34→34 asOf 10-30；可考慮33／觀望TJX；Frok forming 703 QUIET｜**已推 Pages** ?v=cmd2358-1102｜Stock **靜默**（Arok LOCK＋MACRO2345 已講過；本輪僅板面衛生）｜https://wolfoofwolf.github.io/stockdesk/?v=cmd2358-1102"
-      }
-    ]
-  },
-  "pushed": true,
-  "pushPending": false,
-  "asOf": "2026-10-30",
-  "status": "LOCK",
-  "materialReasons": [
-    "Pages-material: brief.sections still STALE 61→31→31／BROS while top-level LOCK 701→78→34→34／TJX — rewrite all six boards (+Top) + tip bump cmd2358-1102",
-    "pipeline LOCK confirmed downstreamStale=false (company/entry aligned tech 78 / asOf 10-30); live Frok forming 703 QUIET vs lock 701"
-  ],
-  "nonMaterialNotes": [
-    "gateApplicable=true gateFired=false; QQQ +0.71%／SPY +0.69% — no FIRED/CLEARED flip; no −0.65% band cross",
-    "FedWatch Dec Current 23.0/77.0 stamp 10:35AM EST; Δhold −2.0pp vs prior cmd board 25.0／−2.6pp vs MACRO2345 25.6 — both ≪3pp threshold",
-    "markets same-session drift vs MACRO2345 QQQ +1.12%→+0.71% — quote noise, not narrative shift; Asia CLOSED reuse At-close already SPEAK’d",
-    "calendar NFP 11/6 already on board; no new catalyst within ~3 trading days",
-    "Arok LOCK + MACRO2345 already SPEAK’d within last hour — Stock SPEAK redundant; silent Pages hygiene only"
-  ],
-  "quotes": {
-    "qqq": {
-      "price": 695.37,
-      "priorClose": 690.49,
-      "chgPct": 0.71
-    },
-    "spy": {
-      "price": 760.97,
-      "priorClose": 755.72,
-      "chgPct": 0.69
-    },
-    "smh": {
-      "price": 526.13,
-      "priorClose": 522.49,
-      "chgPct": 0.7
-    },
-    "vix": {
-      "price": 18.13,
-      "priorClose": 19.42,
-      "chgPct": -6.64
-    },
-    "nq": {
-      "price": 28778.5,
-      "priorClose": 28534.0,
-      "chgPct": 0.86
-    },
-    "es": {
-      "price": 7678.5,
-      "priorClose": 7614.0,
-      "chgPct": 0.85
-    },
-    "asia": {
-      "n225": {
-        "px": 63081.86,
-        "chgPct": -0.33,
-        "status": "CLOSED"
-      },
-      "kospi": {
-        "px": 5859.08,
-        "chgPct": 2.24,
-        "status": "CLOSED"
-      },
-      "hsi": {
-        "px": 23393.32,
-        "chgPct": 0.42,
-        "status": "CLOSED"
-      }
-    },
-    "source": "Yahoo chart v8 range=10d/1d + intraday 1d/5m; day% vs prior RTH close 2026-10-30; Asia CLOSED reuse At-close",
-    "fetchedAtHKT": "2026-11-03 00:02 HKT"
-  },
-  "fedwatch": {
-    "hold": 23.0,
-    "hike25": 77.0,
-    "stamp": "Nov 02, 2026 10:35AM EST",
-    "source": "Investing Fed Rate Monitor Dec Current (WebFetch live); CME skipped",
-    "deltaVsCommanderBoard": -2.0,
-    "deltaVsMacro2345": -2.6,
-    "sessionOpen": {
-      "hold": 22.0,
-      "hike25": 78.0,
-      "note": "reuse MACRO2345 SO"
-    }
-  },
-  "pipelineDetail": {
-    "candidates": 701,
-    "techPassed": 78,
-    "company": 34,
-    "leaders": 34,
-    "entry": 34,
-    "entryConsider": 33,
-    "entryWatch": 1,
-    "downstreamStale": false,
-    "anchor": "LOCK 701→78→34→34 asOf 10-30 (consider 33 / watch TJX). tip ?v=en34-1030",
-    "patternMix": {
-      "VCP": 23,
-      "bull_flag": 10,
-      "cup_with_handle": 1
-    },
-    "techPassPatternMix": {
-      "VCP": 54,
-      "bull_flag": 23,
-      "cup_with_handle": 1
-    },
+    "note": "Frok=候選池 only. Final pass=Grok techPassed 83 on Frok724. Do NOT claim LOCK 701→78→34→34. Downstream still STALE on LOCK34／asOf 10-30; entry tip HOLD en34-1030.",
+    "screener": 724,
+    "techPass": 83,
+    "liveFrokPool": 724,
     "methodMix": {
       "Pullback": 25,
       "META": 9
     },
-    "note": "Arok ⑤ LOCK entry 34／Jrok leaders 34／Grok tech 78／Frok scr LOCK 701 asOf 10-30. Watch TJX; BROS out. Frok hourly-techpass ~23:50 QUIET（forming 703 vs lock 701・無重掃）. tip ?v=en34-1030.",
-    "screener": 701,
-    "techPass": 78,
-    "liveFrokPool": 703,
     "entryWatchTickers": [
       "TJX"
     ],
-    "patternMixSource": "entry-run patternMix (LOCK boards)",
+    "downstreamNote": "company/leaders/entry still LOCK 34 asOf 10-30; Live Grok tech=83 on Frok724 — NOT re-locked downstream.",
+    "patternMixSource": "Grok techPassed primaryPattern (not entry)",
+    "entryMethodMix": {
+      "Pullback": 25,
+      "META": 9
+    },
+    "entryPatternMix": {
+      "VCP": 23,
+      "bull_flag": 10,
+      "cup_with_handle": 1
+    },
+    "techPoolAtScan": 724,
+    "vsLock78": {
+      "added": 27,
+      "dropped": 22,
+      "kept": 56,
+      "ins": [
+        "AMCR",
+        "BIIB",
+        "CDW",
+        "CNP",
+        "CP",
+        "CVX",
+        "GD",
+        "HAYW",
+        "HD",
+        "LNT",
+        "LOW",
+        "MAS",
+        "MUR",
+        "NEE",
+        "NWSA",
+        "PNFP",
+        "PNW",
+        "RHI",
+        "RYAAY",
+        "SAP",
+        "SHEL",
+        "SHW",
+        "SLDE",
+        "TAP",
+        "TEL",
+        "TOL",
+        "VNT"
+      ],
+      "outs": [
+        "AMTM",
+        "BZ",
+        "CHDN",
+        "DEO",
+        "EFX",
+        "ET",
+        "ETSY",
+        "FANG",
+        "HAFN",
+        "KHC",
+        "MAR",
+        "NTRA",
+        "OLLI",
+        "PATH",
+        "PSX",
+        "RDN",
+        "RELX",
+        "SBAC",
+        "TRI",
+        "TRV",
+        "VCYT",
+        "VVV"
+      ],
+      "priorCand": 701,
+      "priorPass": 78
+    },
     "topSetupsProximity": [
-      "CUBE",
-      "CHDN",
-      "HOG",
-      "DE",
-      "BLDR",
+      "KBR",
+      "STZ",
+      "DG",
+      "DLTR",
+      "MDLZ",
       "TD",
-      "HIW",
-      "CUZ"
+      "AMCR",
+      "FAST"
     ],
     "techPassTop": [
-      "CUBE",
-      "CHDN",
-      "TD",
-      "KBR",
-      "OTIS",
-      "ECL",
+      "AMCR",
       "FAST",
-      "ETSY"
+      "OTIS"
     ],
     "entryTop": [
       "NUE",
@@ -230,21 +140,154 @@
       "DEO"
     ],
     "mtimes": {
-      "screener": "2026-11-02 23:03 HKT (stats.passed forming 703; LOCK pool 701)",
-      "tech": "2026-11-02 22:58 HKT (generatedAt 2026-11-02T14:58:15Z asOfMarket 10-30; techPassedCount 78)",
-      "company": "2026-11-02 23:56 HKT leaders 34 / company-run 78 asOf 10-30 techAlign 78",
-      "entry": "2026-11-02 23:48 HKT entry 34 consider33/watch TJX asOf 10-30"
+      "screener": "2026-11-03 ~05:00 HKT (stats.passed 724; tip fcb68f3)",
+      "tech": "2026-11-03 05:04 HKT (generatedAt 2026-11-02T21:03:56Z asOfMarket 11-02; tip 044150a)",
+      "company": "STALE LOCK asOf 10-30 leaders/company 34",
+      "entry": "STALE LOCK asOf 10-30 entry 34 consider33/watch TJX tip en34-1030"
     }
   },
-  "speakToStockGroupText": null,
-  "usTradingDay": true,
-  "usHoliday": false,
-  "sessionNy": "RTH_OPEN",
-  "nyClock": "2026-11-02 ~11:00 EST",
+  "summaryTw": "【總司令｜ALIGN】live tech 724→83 asOf 11-02｜下游 STALE 舊34（TJX）｜推 ?v=cmd0507-1103",
+  "materialChange": true,
+  "pagesTip": "cmd0507-1103",
+  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd0507-1103",
+  "session": "mid/late-RTH / Asia JP+KR+HK CLOSED",
+  "gateApplicable": false,
+  "gateFired": false,
+  "speakToStockGroup": true,
+  "brief": {
+    "title": "總司令簡報｜2026-11-03 05:01 HKT",
+    "sections": [
+      {
+        "id": "gate",
+        "label": "閘門",
+        "value": "**mid/late-RTH・經典閘門適用=false（2026-11-02 ~16:02 EST；early-RTH −0.65% 閘門已過適用窗；跟 MACRO0445 late-RTH 慣例）・未觸**｜QQQ **$681.09（-1.36%** vs prior RTH **$690.49）｜SPY **$752.15（-0.47%** vs prior RTH **$755.72）｜門檻 −0.65%・閘門N/A（QQQ -1.36% 數值已≤−0.65 但 mid/late-RTH 唔計觸發；MACRO0445 已 SPEAK -1.31%）｜VIX 21.25｜gateApplicable=false／gateFired=false"
+      },
+      {
+        "id": "fedwatch",
+        "label": "FedWatch",
+        "value": "Dec Current hold **26.6%**／hike25 **73.4%**（Investing・Updated: Nov 02, 2026 03:35PM EST；本輪 WebFetch fresh；CME skip）｜SessionOpen Hold **24**／hike **76**（reuse MACRO0445 SO）｜vs prior cmd board hold 27.6：**Δ-1.0pp ≪3**；vs MACRO0445 30.0：**Δ-3.4pp**（MACRO0445 已 SPEAK FW 至 30.0；司令閾值睇 cmd board ≪3）・非 Fed 材料｜FOMC 10/28 **HOLD** 3.75–4.00%（已畢・MACRO SPEAK）｜blackout 結束｜下：NFP 11/6・CPI 11/10・PPI 11/13・Warsh 11/16 SF・FOMC 12/8–9"
+      },
+      {
+        "id": "markets",
+        "label": "美股／亞洲",
+        "value": "**mid/late-RTH／Asia JP+KR+HK CLOSED**（2026-11-02 ~16:02 EST／HKT ~2026-11-03 05:01 HKT）｜QQQ RTH -1.36%／SPY RTH -0.47%（閘門 N/A・未觸）｜SMH RTH -2.71%（$508.31）｜VIX 21.25｜NQ≈28163.00（vsFri -1.30%）／ES≈7582.75（vsFri -0.41%）｜**亞洲** 日經 **-0.33% At close**（63081.86）／韓綜 **+2.24% At close**（5859.08）／恒指 **+0.42% At close**（23393.32）（CLOSED 里程碑已由 MACRO／司令 SPEAK・本輪唔重火）｜Yahoo live US；Asia At-close confirmed+reuse"
+      },
+      {
+        "id": "calendar",
+        "label": "日曆",
+        "value": "FOMC 10/28 **HOLD 已刊**（MACRO 已 SPEAK・唔當新 Stock 宏觀重講）｜MSFT beat／GOOGL miss（10/29）已消化｜CRWV 仍紅（-8.60%；MACRO0445 已記 -9.40%）｜前瞻：NFP 11/6・CPI 11/10・PPI 11/13・Warsh 11/16 SF AI/productivity・FOMC 12/8–9｜司令本輪＝**非材料小時刷新**（MACRO0445 fade 延續＋FedWatch Δ≪3 vs cmd＋管道 LOCK 不變；MACRO0445 已 SPEAK 同場）・唔推 Pages・唔發群"
+      },
+      {
+        "id": "pipeline",
+        "label": "管道",
+        "value": "**LOCK 701→78→34→34**（asOfMarket **10-30**；downstreamStale=**false**）｜Grok techPass **LOCK 78**／Jrok leaders **34**／Arok entry **34**（可考慮 **33**／觀望 **TJX**）｜entry patternMix **VCP 23／bull_flag 10／cup_with_handle 1**｜methodMix **Pullback 25／META 9**｜techPass patternCounts（LOCK 參考）VCP 54／bull_flag 23／cup 1｜Frok screener LOCK 池 **701**；forming **724** vs lock 701 QUIET｜Grok forming techPass **83** on Frok724 vs lock 78 QUIET（pending Jrok/Arok⑤；唔當 LOCK flip）｜pipeline tip **?v=en34-1030**｜Pages tip **keep ?v=cmd2358-1102**（live tip 由 MACRO ?v=macro0445-1103 持有）"
+      },
+      {
+        "id": "top",
+        "label": "Top",
+        "value": "tech proximity CUBE·CHDN·HOG·DE·BLDR·TD·HIW·CUZ｜techPass top CUBE·CHDN·TD·KBR·OTIS·ECL·FAST·ETSY｜進場前排（LOCK）NUE·ADI·ET·MDLZ·PSX·SONY·TD·WELL｜領導（LOCK）CHDN·TD·ECL·FAST·CE·NUE·DG·DHT·PLNT·DEO｜觀望 TJX"
+      },
+      {
+        "id": "conclusion",
+        "label": "結論",
+        "value": "vs cmd0400／MACRO0445：**非材料**｜閘門 mid/late-RTH **N/A・未觸**（QQQ -1.36%／SPY -0.47%）｜FedWatch Dec 26.6/73.4（Δ-1.0pp≪3 vs cmd0400；Δ-3.4pp vs MACRO0445 已 SPEAK）・唔重炒宏觀｜管道：**LOCK** 701→78→34→34 asOf 10-30；可考慮33／觀望TJX；Frok forming 724 QUIET；Grok forming 83 QUIET｜午後回吐延續（NQ vsFri -1.30%／SMH -2.71%）同 MACRO0445 fade 敘事｜**唔推 Pages**・Stock **靜默**｜commander tip keep ?v=cmd2358-1102｜live Pages ?v=macro0445-1103"
+      }
+    ]
+  },
+  "pushed": false,
+  "pushPending": true,
   "pagesTipSha": "0747d58f",
   "contentCommitSha": "0747d58f81a1543640227482a144fa2213482974",
-  "liveSyncNote": "content 0747d58f → tipSync dc7b7d21 → tipLock 167653ee → seal c844134a",
+  "liveSyncNote": "no push 0501; prior commander chain content 0747d58f → tipSync dc7b7d21 → tipLock 167653ee → seal c844134a; live Pages now owned by MACRO0445 tipLock 8bad3aaa / seal f1ec15eb (content d7651724 → tipSync 4dc62a8c)",
   "tipSyncCommitSha": "dc7b7d2175db5d229ab5cf86701f6ae8c12e265a",
   "tipLockCommitSha": "167653ee7443eff68ae8a415637ca0fdff527586",
-  "tipLockSealCommitSha": "c844134a27493660dff9e7712468f214fc08e36d"
+  "tipLockSealCommitSha": "c844134a27493660dff9e7712468f214fc08e36d",
+  "livePagesTip": "cmd0507-1103",
+  "livePagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd0507-1103",
+  "livePagesNote": "commander ALIGN takes tip ?v=cmd0507-1103 (was MACRO macro0445-1103); entry tip HOLD en34-1030",
+  "asOf": "2026-11-02",
+  "status": "ALIGN-techPass83 / HOLD-with-stale-downstream",
+  "materialReasons": [
+    "techPass LOCK 78 (pool 701 asOf 10-30) → live 83 (pool 724 asOf 11-02 / tip 044150a); Δ+27/−22/kept56",
+    "patternMix among PASSED VCP58 / bull_flag17 / cup8",
+    "downstream company/entry still STALE on prior LOCK 34→34→34 asOf 10-30 (watch TJX)"
+  ],
+  "nonMaterialNotes": [
+    "gateApplicable=false mid/late-RTH; gate not in window",
+    "FedWatch Δ≪3 vs cmd board — not Fed material",
+    "Asia CLOSED already SPEAK’d — no re-speak"
+  ],
+  "quotes": {
+    "QQQ": {
+      "price": 681.09,
+      "priorClose": 690.49,
+      "chgPct": -1.36
+    },
+    "SPY": {
+      "price": 752.15,
+      "priorClose": 755.72,
+      "chgPct": -0.47
+    },
+    "SMH": {
+      "price": 508.31,
+      "priorClose": 522.49,
+      "chgPct": -2.71
+    },
+    "CRWV": {
+      "price": 50.15,
+      "priorClose": 54.87,
+      "chgPct": -8.6
+    },
+    "VIX": {
+      "price": 21.25,
+      "priorClose": 19.42,
+      "chgPct": 9.42
+    },
+    "NQ": {
+      "price": 28163.0,
+      "priorClose": 28534.0,
+      "chgPct": -1.3
+    },
+    "ES": {
+      "price": 7582.75,
+      "priorClose": 7614.0,
+      "chgPct": -0.41
+    }
+  },
+  "fedwatch": {
+    "hold": 26.6,
+    "hike25": 73.4,
+    "stamp": "Nov 02, 2026 03:35PM EST",
+    "source": "Investing Fed Rate Monitor Dec Current (WebFetch live); CME skipped",
+    "deltaVsCommanderBoard": -1.0,
+    "deltaVsMacro0445": -3.4,
+    "sessionOpen": {
+      "hold": 24.0,
+      "hike25": 76.0,
+      "note": "reuse MACRO0445 SO"
+    }
+  },
+  "asia": {
+    "n225": {
+      "px": 63081.86,
+      "chgPct": -0.33,
+      "status": "CLOSED"
+    },
+    "kospi": {
+      "px": 5859.08,
+      "chgPct": 2.24,
+      "status": "CLOSED"
+    },
+    "hsi": {
+      "px": 23393.32,
+      "chgPct": 0.42,
+      "status": "CLOSED"
+    }
+  },
+  "usTradingDay": true,
+  "usHoliday": false,
+  "sessionNy": "mid/late-RTH",
+  "nyClock": "2026-11-02 ~16:02 EST",
+  "chatTw": "【Trok／總司令｜0507】\n管道｜Grok techPass **78→83**（Frok候選池 **724**；asOfMarket 11-02；Δ+27/−22/kept56）｜形態 VCP58／bull_flag17／cup8｜tech tip `044150a`\n下游｜company／leaders／entry **仍 STALE** 舊 LOCK **34→34→34** asOf **10-30**（可考慮33／觀望**TJX**）— 未對齊 83；待 Jrok／Arok⑤\n閘門｜mid/late-RTH 適用=false・未觸｜FedWatch 非材料｜entry **HOLD** ?v=en34-1030\nPages｜已推 ?v=cmd0507-1103",
+  "compareVs": "cmd2358-1102 / MACRO0445 / tech-scan 044150a Frok724 / LOCK en34-1030"
 }
