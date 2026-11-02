@@ -76,8 +76,8 @@
       }
     ]
   },
-  "pushed": false,
-  "pushPending": true,
+  "pushed": true,
+  "pushPending": false,
   "livePagesTip": "cmd0511-1103",
   "livePagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd0511-1103",
   "livePagesNote": "LOCK tip ?v=cmd0511-1103; entry tip ?v=en33-1102; was ALIGN cmd0507-1103",
@@ -92,5 +92,9 @@
     "gateApplicable=false mid/late-RTH",
     "FedWatch Δ≪3 — not Fed material",
     "Asia CLOSED already SPEAK’d"
-  ]
+  ],
+  "contentCommitSha": "67e6aa6fd5b8595beff918f1f6012a8743d3041e",
+  "pagesTipSha": "67e6aa6f",
+  "liveSyncNote": "content 67e6aa6f tipSync pending",
+  "entryCommitSha": "68a6a93b51c1e03ec54e17070bf79ff1af2d9163"
 }

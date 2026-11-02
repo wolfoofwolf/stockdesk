@@ -140,11 +140,11 @@
       }
     ]
   },
-  "pushed": false,
-  "pushPending": true,
-  "pagesTipSha": "0146b0a8",
-  "contentCommitSha": "0146b0a8cee53b969be0a7a544f6a412ed92f848",
-  "liveSyncNote": "content 0146b0a8 → tipSync 4811a3a9 → tipLock 14006f52 → seal 115ffa5c",
+  "pushed": true,
+  "pushPending": false,
+  "pagesTipSha": "67e6aa6f",
+  "contentCommitSha": "67e6aa6fd5b8595beff918f1f6012a8743d3041e",
+  "liveSyncNote": "content 67e6aa6f tipSync pending",
   "tipSyncCommitSha": "4811a3a9d6dbf45cd8b97c3a613bff000b2be101",
   "tipLockCommitSha": "14006f528d9c841c2193c53bf45d96cff4269d15",
   "tipLockSealCommitSha": "115ffa5c8d9089a2d2cea04effdce58f22e0ddb9",
@@ -235,5 +235,6 @@
   "sessionNy": "mid/late-RTH",
   "nyClock": "2026-11-02 ~16:02 EST",
   "chatTw": "【Trok／總司令｜0511】\n管道｜**LOCK 724→83→33→33** asOf **11-02**（vs 舊 701→78→34→34）｜Jrok tip `705b3fa`／tech `044150a`\n進場｜可考慮 **30**／觀望 **SNY·TJX·GD**｜Pullback23／META8｜VCP22／bf8／cup3｜entry tip `en33-1102`\n閘門｜mid/late-RTH 適用=false・未觸｜FedWatch 非材料\nPages｜已推 entry＋司令 [?v=cmd0511-1103](https://wolfoofwolf.github.io/stockdesk/?v=cmd0511-1103)",
-  "compareVs": "cmd0507-1103 / Jrok 705b3fa / Grok 044150a / Arok entry en33-1102 / prior LOCK en34-1030"
+  "compareVs": "cmd0507-1103 / Jrok 705b3fa / Grok 044150a / Arok entry en33-1102 / prior LOCK en34-1030",
+  "entryCommitSha": "68a6a93b51c1e03ec54e17070bf79ff1af2d9163"
 }
