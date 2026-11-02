@@ -1,43 +1,43 @@
 {
-  "generatedAt": "2026-11-03T05:07:30+08:00",
+  "generatedAt": "2026-11-03T05:11:54+08:00",
   "bot": "Trok",
   "role": "commander",
-  "asOfHKT": "2026-11-03 05:07 HKT",
-  "runTag": "0507",
+  "asOfHKT": "2026-11-03 05:11 HKT",
+  "runTag": "0511",
   "pipeline": {
     "candidates": 724,
     "techPassed": 83,
-    "company": 34,
-    "leaders": 34,
-    "entry": 34,
-    "entryConsider": 33,
-    "entryWatch": 1,
-    "downstreamStale": true,
-    "anchor": "live Grok tech 724→83 asOfMarket 11-02 (vs LOCK 701→78: +27/−22/kept56; tip 044150a); company/leaders/entry STALE prior LOCK 34→34→34 asOf 10-30 (watch TJX) pending Jrok/Arok⑤",
+    "company": 33,
+    "leaders": 33,
+    "entry": 33,
+    "entryConsider": 30,
+    "entryWatch": 3,
+    "downstreamStale": false,
+    "anchor": "LOCK 724→83→33→33 asOf 11-02 (consider 30 / watch SNY·TJX·GD). tip ?v=en33-1102",
     "patternMix": {
-      "VCP": 58,
-      "bull_flag": 17,
-      "cup_with_handle": 8
+      "VCP": 22,
+      "bull_flag": 8,
+      "cup_with_handle": 3
     },
-    "note": "Frok=候選池 only. Final pass=Grok techPassed 83 on Frok724. Do NOT claim LOCK 701→78→34→34. Downstream still STALE on LOCK34／asOf 10-30; entry tip HOLD en34-1030.",
+    "methodMix": {
+      "Pullback": 23,
+      "META": 8
+    },
+    "note": "Arok ⑤ LOCK entry 33／Jrok leaders 33／Grok tech 83／Frok scr 724 asOf 11-02. Watch SNY·TJX·GD. tip ?v=en33-1102.",
     "screener": 724,
     "techPass": 83,
-    "liveFrokPool": 724,
-    "methodMix": {
-      "Pullback": 25,
-      "META": 9
-    }
+    "liveFrokPool": 724
   },
-  "summaryTw": "【總司令｜ALIGN】live tech 724→83 asOf 11-02｜下游 STALE 舊34（TJX）｜推 ?v=cmd0507-1103",
+  "summaryTw": "【總司令｜LOCK】724→83→33→33 asOf 11-02｜可考慮30／觀望SNY·TJX·GD｜tip ?v=en33-1102｜Pages ?v=cmd0511-1103",
   "materialChange": true,
-  "pagesTip": "cmd0507-1103",
-  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd0507-1103",
+  "pagesTip": "cmd0511-1103",
+  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd0511-1103",
   "session": "mid/late-RTH / Asia JP+KR+HK CLOSED",
   "gateApplicable": false,
   "gateFired": false,
   "speakToStockGroup": true,
   "brief": {
-    "title": "總司令簡報｜2026-11-03 05:07 HKT",
+    "title": "總司令簡報｜2026-11-03 05:11 HKT",
     "sections": [
       {
         "id": "gate",
@@ -57,45 +57,40 @@
       {
         "id": "calendar",
         "label": "日曆",
-        "value": "FOMC 10/28 **HOLD 已刊**（MACRO 已 SPEAK・唔當新 Stock 宏觀重講）｜MSFT beat／GOOGL miss（10/29）已消化｜CRWV 仍紅（MACRO0445 已記）｜前瞻：NFP 11/6・CPI 11/10・PPI 11/13・Warsh 11/16 SF AI/productivity・FOMC 12/8–9｜司令材料主軸＝**techPass 78→83 ALIGN／下游未對齊**・唔係再炒 FOMC"
+        "value": "FOMC 10/28 **HOLD 已刊**（MACRO 已 SPEAK・唔當新 Stock 宏觀重講）｜MSFT beat／GOOGL miss（10/29）已消化｜CRWV 仍紅（MACRO0445 已記）｜前瞻：NFP 11/6・CPI 11/10・PPI 11/13・Warsh 11/16 SF・FOMC 12/8–9｜司令本輪主軸＝**LOCK 翻鎖 724→83→33→33 asOf 11-02**（Jrok③＋Arok⑤）・唔重炒 FOMC"
       },
       {
         "id": "pipeline",
         "label": "管道",
-        "value": "**live Grok tech 724→83**（asOfMarket **11-02**；Pages tech tip **044150a**）｜vs LOCK **701→78**：**+27/−22/kept 56**（in AMCR·BIIB·CDW·HD·LOW·NEE·SAP·SHEL·TEL…；out CHDN·ET·MAR·NTRA·OLLI·PSX·RELX·TRI…）｜patternMix（PASSED）**VCP 58／bull_flag 17／cup_with_handle 8**｜下游 company／leaders／entry **STALE**：仍 **LOCK 34→34→34** asOf **10-30**（可考慮 **33**／觀望 **TJX**）— 未對齊 live 83｜Frok screener **724**＝tech 掃池 **724**｜Pages **推** **?v=cmd0507-1103**｜entry tip **HOLD** **?v=en34-1030**"
+        "value": "**LOCK 724→83→33→33**（asOfMarket **11-02**；downstreamStale=**false**）｜Grok techPass **83** tip `044150a`／Jrok leaders **33** tip `705b3fa`／Arok entry **33**（可考慮 **30**／觀望 **SNY·TJX·GD**）｜entry patternMix **VCP 22／bull_flag 8／cup_with_handle 3**｜methodMix **Pullback 23／META 8**｜techPass pattern（參考）VCP58／bf17／cup8｜Frok screener **724**｜pipeline tip **?v=en33-1102**｜Pages tip **?v=cmd0511-1103**"
       },
       {
         "id": "top",
         "label": "Top",
-        "value": "tech proximity KBR·STZ·DG·DLTR·MDLZ·TD·AMCR·FAST｜techPass top AMCR·FAST·OTIS｜進場前排（STALE 舊34／10-30）NUE·ADI·ET·MDLZ·PSX·SONY·TD·WELL｜領導（STALE）CHDN·TD·ECL·FAST·CE·NUE·DG·DHT·PLNT·DEO｜觀望 TJX"
+        "value": "tech proximity KBR·STZ·DG·DLTR·MDLZ·TD·AMCR·FAST｜techPass top AMCR·FAST·OTIS｜進場前排（LOCK）WELL·ADI·CVX·MDLZ·NUE·SHEL·SONY·TD｜領導（LOCK）WELL·TD·MDLZ·WM·NUE·SONY·ADI·CVX·SHEL·ECL｜觀望 SNY·TJX·GD"
       },
       {
         "id": "conclusion",
         "label": "結論",
-        "value": "vs cmd2358／MACRO0445／Grok 044150a：**有司令材料**＝techPass **78→83**（Frok724；Δ+27/−22/kept56）＋下游 STALE 明示｜閘門 mid/late-RTH 適用=false・未觸｜FedWatch Δ≪3・唔重炒宏觀｜管道：**ALIGN** live tech 724→83；entry/company **HOLD-with-stale-downstream** 舊 34（TJX）待 Jrok／Arok⑤｜**已推 Pages** ?v=cmd0507-1103｜Stock **短訊**｜https://wolfoofwolf.github.io/stockdesk/?v=cmd0507-1103"
+        "value": "vs cmd0507／Jrok 705b3fa／Arok entry：**LOCK 材料**＝管道翻鎖 **701→78→34→34 → 724→83→33→33** asOf **11-02**｜閘門 mid/late-RTH 適用=false・未觸｜FedWatch 非材料｜管道：**LOCK** 可考慮30／觀望 SNY·TJX·GD｜**已推** entry ?v=en33-1102＋Pages ?v=cmd0511-1103｜Stock **短訊**｜https://wolfoofwolf.github.io/stockdesk/?v=cmd0511-1103"
       }
     ]
   },
-  "pushed": true,
-  "pushPending": false,
-  "livePagesTip": "cmd0507-1103",
-  "livePagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd0507-1103",
-  "livePagesNote": "commander ALIGN takes tip ?v=cmd0507-1103 (was MACRO macro0445-1103); entry tip HOLD en34-1030",
+  "pushed": false,
+  "pushPending": true,
+  "livePagesTip": "cmd0511-1103",
+  "livePagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd0511-1103",
+  "livePagesNote": "LOCK tip ?v=cmd0511-1103; entry tip ?v=en33-1102; was ALIGN cmd0507-1103",
   "asOf": "2026-11-02",
-  "status": "ALIGN-techPass83 / HOLD-with-stale-downstream",
+  "status": "LOCK",
   "materialReasons": [
-    "techPass LOCK 78 (pool 701 asOf 10-30) → live 83 (pool 724 asOf 11-02 / tip 044150a); Δ+27/−22/kept56",
-    "patternMix among PASSED VCP58 / bull_flag17 / cup8",
-    "downstream company/entry still STALE on prior LOCK 34→34→34 asOf 10-30 (watch TJX)"
+    "LOCK flip 701→78→34→34 (asOf 10-30) → 724→83→33→33 (asOf 11-02)",
+    "Jrok company/leaders 83→33 tip 705b3fa; Arok entry 33 consider30/watch SNY·TJX·GD askPush",
+    "downstreamStale cleared; entry tip en33-1102"
   ],
   "nonMaterialNotes": [
-    "gateApplicable=false mid/late-RTH; gate not in window",
-    "FedWatch Δ≪3 vs cmd board — not Fed material",
-    "Asia CLOSED already SPEAK’d — no re-speak"
-  ],
-  "contentCommitSha": "0146b0a8cee53b969be0a7a544f6a412ed92f848",
-  "pagesTipSha": "0146b0a8",
-  "liveSyncNote": "content 0146b0a8 → tipSync 4811a3a9 → tipLock 14006f52 seal pending",
-  "tipSyncCommitSha": "4811a3a9d6dbf45cd8b97c3a613bff000b2be101",
-  "tipLockCommitSha": "14006f528d9c841c2193c53bf45d96cff4269d15"
+    "gateApplicable=false mid/late-RTH",
+    "FedWatch Δ≪3 — not Fed material",
+    "Asia CLOSED already SPEAK’d"
+  ]
 }

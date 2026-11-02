@@ -1,106 +1,52 @@
 {
-  "generatedAt": "2026-11-03T05:07:30+08:00",
+  "generatedAt": "2026-11-03T05:11:54+08:00",
   "bot": "Trok",
   "role": "commander",
-  "asOfHKT": "2026-11-03 05:07 HKT",
-  "runTag": "0507",
+  "asOfHKT": "2026-11-03 05:11 HKT",
+  "runTag": "0511",
   "pipeline": {
     "candidates": 724,
     "techPassed": 83,
-    "company": 34,
-    "leaders": 34,
-    "entry": 34,
-    "entryConsider": 33,
-    "entryWatch": 1,
-    "downstreamStale": true,
-    "anchor": "live Grok tech 724→83 asOfMarket 11-02 (vs LOCK 701→78: +27/−22/kept56; tip 044150a); company/leaders/entry STALE prior LOCK 34→34→34 asOf 10-30 (watch TJX) pending Jrok/Arok⑤",
+    "company": 33,
+    "leaders": 33,
+    "entry": 33,
+    "entryConsider": 30,
+    "entryWatch": 3,
+    "downstreamStale": false,
+    "anchor": "LOCK 724→83→33→33 asOf 11-02 (consider 30 / watch SNY·TJX·GD). tip ?v=en33-1102",
     "patternMix": {
-      "VCP": 58,
-      "bull_flag": 17,
-      "cup_with_handle": 8
+      "VCP": 22,
+      "bull_flag": 8,
+      "cup_with_handle": 3
     },
-    "note": "Frok=候選池 only. Final pass=Grok techPassed 83 on Frok724. Do NOT claim LOCK 701→78→34→34. Downstream still STALE on LOCK34／asOf 10-30; entry tip HOLD en34-1030.",
+    "methodMix": {
+      "Pullback": 23,
+      "META": 8
+    },
+    "note": "Arok ⑤ LOCK entry 33／Jrok leaders 33／Grok tech 83／Frok scr 724 asOf 11-02. Watch SNY·TJX·GD. tip ?v=en33-1102.",
     "screener": 724,
     "techPass": 83,
     "liveFrokPool": 724,
-    "methodMix": {
-      "Pullback": 25,
-      "META": 9
-    },
     "entryWatchTickers": [
-      "TJX"
+      "SNY",
+      "TJX",
+      "GD"
     ],
-    "downstreamNote": "company/leaders/entry still LOCK 34 asOf 10-30; Live Grok tech=83 on Frok724 — NOT re-locked downstream.",
-    "patternMixSource": "Grok techPassed primaryPattern (not entry)",
+    "downstreamNote": "aligned company/leaders/entry to live tech 83 / asOf 11-02",
+    "patternMixSource": "entry-run patternMix (LOCK boards)",
     "entryMethodMix": {
-      "Pullback": 25,
-      "META": 9
+      "Pullback": 23,
+      "META": 8
     },
     "entryPatternMix": {
-      "VCP": 23,
-      "bull_flag": 10,
-      "cup_with_handle": 1
+      "VCP": 22,
+      "bull_flag": 8,
+      "cup_with_handle": 3
     },
     "techPoolAtScan": 724,
-    "vsLock78": {
-      "added": 27,
-      "dropped": 22,
-      "kept": 56,
-      "ins": [
-        "AMCR",
-        "BIIB",
-        "CDW",
-        "CNP",
-        "CP",
-        "CVX",
-        "GD",
-        "HAYW",
-        "HD",
-        "LNT",
-        "LOW",
-        "MAS",
-        "MUR",
-        "NEE",
-        "NWSA",
-        "PNFP",
-        "PNW",
-        "RHI",
-        "RYAAY",
-        "SAP",
-        "SHEL",
-        "SHW",
-        "SLDE",
-        "TAP",
-        "TEL",
-        "TOL",
-        "VNT"
-      ],
-      "outs": [
-        "AMTM",
-        "BZ",
-        "CHDN",
-        "DEO",
-        "EFX",
-        "ET",
-        "ETSY",
-        "FANG",
-        "HAFN",
-        "KHC",
-        "MAR",
-        "NTRA",
-        "OLLI",
-        "PATH",
-        "PSX",
-        "RDN",
-        "RELX",
-        "SBAC",
-        "TRI",
-        "TRV",
-        "VCYT",
-        "VVV"
-      ],
-      "priorCand": 701,
-      "priorPass": 78
+    "vsPriorLock": {
+      "prior": "701→78→34→34 asOf 10-30 tip en34-1030",
+      "now": "724→83→33→33 asOf 11-02 tip en33-1102"
     },
     "topSetupsProximity": [
       "KBR",
@@ -118,38 +64,38 @@
       "OTIS"
     ],
     "entryTop": [
-      "NUE",
+      "WELL",
       "ADI",
-      "ET",
+      "CVX",
       "MDLZ",
-      "PSX",
+      "NUE",
+      "SHEL",
       "SONY",
-      "TD",
-      "WELL"
+      "TD"
     ],
     "leadersTop": [
-      "CHDN",
+      "WELL",
       "TD",
-      "ECL",
-      "FAST",
-      "CE",
+      "MDLZ",
+      "WM",
       "NUE",
-      "DG",
-      "DHT",
-      "PLNT",
-      "DEO"
+      "SONY",
+      "ADI",
+      "CVX",
+      "SHEL",
+      "ECL"
     ],
     "mtimes": {
-      "screener": "2026-11-03 ~05:00 HKT (stats.passed 724; tip fcb68f3)",
-      "tech": "2026-11-03 05:04 HKT (generatedAt 2026-11-02T21:03:56Z asOfMarket 11-02; tip 044150a)",
-      "company": "STALE LOCK asOf 10-30 leaders/company 34",
-      "entry": "STALE LOCK asOf 10-30 entry 34 consider33/watch TJX tip en34-1030"
+      "screener": "2026-11-03 ~05:00 HKT tip fcb68f3 pool 724",
+      "tech": "2026-11-03 05:04 HKT tip 044150a techPass 83 asOf 11-02",
+      "company": "2026-11-03 05:10 HKT tip 705b3fa leaders 33 asOf 11-02",
+      "entry": "2026-11-03 05:11 HKT entry 33 consider30/watch SNY·TJX·GD asOf 11-02"
     }
   },
-  "summaryTw": "【總司令｜ALIGN】live tech 724→83 asOf 11-02｜下游 STALE 舊34（TJX）｜推 ?v=cmd0507-1103",
+  "summaryTw": "【總司令｜LOCK】724→83→33→33 asOf 11-02｜可考慮30／觀望SNY·TJX·GD｜tip ?v=en33-1102｜Pages ?v=cmd0511-1103",
   "materialChange": true,
-  "pagesTip": "cmd0507-1103",
-  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd0507-1103",
+  "pagesTip": "cmd0511-1103",
+  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd0511-1103",
   "session": "mid/late-RTH / Asia JP+KR+HK CLOSED",
   "gateApplicable": false,
   "gateFired": false,
@@ -194,28 +140,28 @@
       }
     ]
   },
-  "pushed": true,
-  "pushPending": false,
+  "pushed": false,
+  "pushPending": true,
   "pagesTipSha": "0146b0a8",
   "contentCommitSha": "0146b0a8cee53b969be0a7a544f6a412ed92f848",
-  "liveSyncNote": "content 0146b0a8 → tipSync 4811a3a9 → tipLock 14006f52 seal pending",
+  "liveSyncNote": "content 0146b0a8 → tipSync 4811a3a9 → tipLock 14006f52 → seal 115ffa5c",
   "tipSyncCommitSha": "4811a3a9d6dbf45cd8b97c3a613bff000b2be101",
   "tipLockCommitSha": "14006f528d9c841c2193c53bf45d96cff4269d15",
-  "tipLockSealCommitSha": "c844134a27493660dff9e7712468f214fc08e36d",
-  "livePagesTip": "cmd0507-1103",
-  "livePagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd0507-1103",
-  "livePagesNote": "commander ALIGN takes tip ?v=cmd0507-1103 (was MACRO macro0445-1103); entry tip HOLD en34-1030",
+  "tipLockSealCommitSha": "115ffa5c8d9089a2d2cea04effdce58f22e0ddb9",
+  "livePagesTip": "cmd0511-1103",
+  "livePagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd0511-1103",
+  "livePagesNote": "LOCK tip ?v=cmd0511-1103; entry tip ?v=en33-1102; was ALIGN cmd0507-1103",
   "asOf": "2026-11-02",
-  "status": "ALIGN-techPass83 / HOLD-with-stale-downstream",
+  "status": "LOCK",
   "materialReasons": [
-    "techPass LOCK 78 (pool 701 asOf 10-30) → live 83 (pool 724 asOf 11-02 / tip 044150a); Δ+27/−22/kept56",
-    "patternMix among PASSED VCP58 / bull_flag17 / cup8",
-    "downstream company/entry still STALE on prior LOCK 34→34→34 asOf 10-30 (watch TJX)"
+    "LOCK flip 701→78→34→34 (asOf 10-30) → 724→83→33→33 (asOf 11-02)",
+    "Jrok company/leaders 83→33 tip 705b3fa; Arok entry 33 consider30/watch SNY·TJX·GD askPush",
+    "downstreamStale cleared; entry tip en33-1102"
   ],
   "nonMaterialNotes": [
-    "gateApplicable=false mid/late-RTH; gate not in window",
-    "FedWatch Δ≪3 vs cmd board — not Fed material",
-    "Asia CLOSED already SPEAK’d — no re-speak"
+    "gateApplicable=false mid/late-RTH",
+    "FedWatch Δ≪3 — not Fed material",
+    "Asia CLOSED already SPEAK’d"
   ],
   "quotes": {
     "QQQ": {
@@ -288,6 +234,6 @@
   "usHoliday": false,
   "sessionNy": "mid/late-RTH",
   "nyClock": "2026-11-02 ~16:02 EST",
-  "chatTw": "【Trok／總司令｜0507】\n管道｜Grok techPass **78→83**（Frok候選池 **724**；asOfMarket 11-02；Δ+27/−22/kept56）｜形態 VCP58／bull_flag17／cup8｜tech tip `044150a`\n下游｜company／leaders／entry **仍 STALE** 舊 LOCK **34→34→34** asOf **10-30**（可考慮33／觀望**TJX**）— 未對齊 83；待 Jrok／Arok⑤\n閘門｜mid/late-RTH 適用=false・未觸｜FedWatch 非材料｜entry **HOLD** ?v=en34-1030\nPages｜已推 ?v=cmd0507-1103",
-  "compareVs": "cmd2358-1102 / MACRO0445 / tech-scan 044150a Frok724 / LOCK en34-1030"
+  "chatTw": "【Trok／總司令｜0511】\n管道｜**LOCK 724→83→33→33** asOf **11-02**（vs 舊 701→78→34→34）｜Jrok tip `705b3fa`／tech `044150a`\n進場｜可考慮 **30**／觀望 **SNY·TJX·GD**｜Pullback23／META8｜VCP22／bf8／cup3｜entry tip `en33-1102`\n閘門｜mid/late-RTH 適用=false・未觸｜FedWatch 非材料\nPages｜已推 entry＋司令 [?v=cmd0511-1103](https://wolfoofwolf.github.io/stockdesk/?v=cmd0511-1103)",
+  "compareVs": "cmd0507-1103 / Jrok 705b3fa / Grok 044150a / Arok entry en33-1102 / prior LOCK en34-1030"
 }
