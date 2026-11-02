@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股mid-RTH・QQQ +1.12%／SPY +0.97%・閘門未觸｜亞JP+KR+HK CLOSED｜FedWatch Dec hold 25.6%｜NQ/ES Δ≥0.4 SPEAK（Drok）",
   "asOf": "2026-11-02T15:45:30.000Z",
-  "updatedAt": "2026-11-02T15:45:30.000Z",
+  "updatedAt": "2026-11-02T15:45:50.000Z",
   "bot": "Drok／大市分析",
   "role": "④ 大市分析",
   "calendar": [
@@ -740,16 +740,18 @@
     "speakToStockGroup": true,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro2345-1102",
     "session": "mid-RTH / Asia JP+KR+HK CLOSED",
-    "pagesTipSha": null,
-    "pushed": false,
-    "pushedAtHKT": null,
-    "pushPending": true,
-    "contentCommitSha": null,
-    "blobSha": null,
-    "tipSync": false,
+    "pagesTipSha": "6552e313",
+    "pushed": true,
+    "pushedAtHKT": "2026-11-02 23:45 HKT",
+    "pushPending": false,
+    "contentCommitSha": "6552e3132a9ac3841daa3a03eab753ae8f6d5f20",
+    "blobSha": "7f0bc90827e76b28882fd89efc6e99cb903db4f2",
+    "tipSync": true,
     "tipLock": false,
     "tipLockSeal": false,
-    "note": "pending Pages push"
+    "note": "content 6552e313 → tipSync pending",
+    "tipSyncCommitSha": null,
+    "finalBlobSha": "7f0bc90827e76b28882fd89efc6e99cb903db4f2"
   },
   "brief": {
     "skeleton": [
