@@ -1,131 +1,204 @@
 {
-  "generatedAt": "2026-11-02T22:55:32+08:00",
+  "generatedAt": "2026-11-02T22:55:50+08:00",
   "asOf": "2026-10-30",
   "asOfHKT": "2026-11-02 22:55 HKT",
-  "runTag": "1459",
+  "runTag": "2252",
   "bot": "Trok",
   "pipeline": {
-    "candidates": 701,
+    "candidates": 685,
     "techPassed": 69,
     "company": 31,
     "leaders": 31,
     "entry": 31,
     "entryConsider": 30,
     "entryWatch": 1,
+    "entryWatchTickers": [
+      "BROS"
+    ],
     "downstreamStale": true,
-    "anchor": "ALIGN 701→69→31→31 pending Jrok/Arok (+ Grok rescan 701); asOfMarket 10-30. tip ?v=scr701-1030",
-    "methodMix": {
-      "Pullback": 28,
-      "META": 3
-    },
+    "downstreamNote": "company techAlign techPassed=61 asOf 10-27; entry upstream techPassed=61 → 31 (consider30/watch BROS). Live Grok tech=69 — NOT re-locked downstream.",
+    "anchor": "live Grok tech 685→69 asOfMarket 10-30; company/leaders/entry STALE prior 61→31→31 (watch BROS) pending Arok/Jrok; live Frok screener 701 churn NOT re-locked into tech",
     "patternMix": {
       "VCP": 45,
       "bull_flag": 23,
       "cup_with_handle": 1
     },
-    "note": "Frok scr 701 asOf 10-30 pushed; Grok transitional tech 685→69 tip 36622d3 — Frok asked rescan on 701. Downstream entry still prior 664→61→31 LOCK STALE until Jrok③/Arok⑤.",
-    "screener": 701,
+    "patternMixSource": "Grok techPassed primaryPattern (not entry)",
+    "entryMethodMix": {
+      "Pullback": 28,
+      "META": 3
+    },
+    "entryPatternMix": {
+      "VCP": 25,
+      "bull_flag": 5,
+      "cup_with_handle": 1
+    },
+    "note": "Frok=候選池 only. Final pass=Grok techPassed 69. Do NOT claim LOCK 692→64→31→31. Live screener stats.passed=701 (mtime ~22:54) vs tech candidateCount 685 — pool churn; tech not re-scanned on 701.",
+    "screener": 685,
     "techPass": 69,
-    "liveFrokPool": 685,
+    "liveFrokPool": 701,
+    "techPoolAtScan": 685,
+    "vsLock64": {
+      "added": 31,
+      "dropped": 26,
+      "kept": 38,
+      "lockAsOf": "2026-10-27",
+      "lockCand": 692,
+      "lockPass": 64
+    },
+    "topSetupsProximity": [
+      "CUBE",
+      "CHDN",
+      "HOG",
+      "BLDR",
+      "TD",
+      "HIW",
+      "CUZ",
+      "LNG"
+    ],
+    "techPassTop": [
+      "CUBE",
+      "CHDN",
+      "TD",
+      "KBR",
+      "OTIS",
+      "ECL",
+      "FAST",
+      "ETSY"
+    ],
+    "entryTop": [
+      "ADI",
+      "NUE",
+      "FANG",
+      "SHEL",
+      "SONY",
+      "TD",
+      "ADSK",
+      "BNS"
+    ],
+    "leadersTop": [
+      "TEL",
+      "ADI",
+      "VTRS",
+      "TD",
+      "NUE",
+      "BNS",
+      "BZ",
+      "CBOE",
+      "HONA",
+      "ECL"
+    ],
     "mtimes": {
-      "screener": "2026-10-28 14:01 HKT",
-      "tech": "2026-10-28 04:14 HKT",
-      "company": "2026-10-28 13:59 HKT",
-      "entry": "2026-10-28 14:55 HKT"
+      "screener": "2026-11-02 22:54 HKT",
+      "tech": "2026-11-02 22:52 HKT (generatedAt 2026-11-02T14:52:58Z asOfMarket 10-30)",
+      "company": "2026-11-02 22:53 HKT (asOf 10-27 techAlign 61 STALE)",
+      "entry": "2026-11-02 22:50 HKT (asOf 10-27 upstream 61 STALE)"
     }
   },
-  "status": "ALIGN",
-  "summaryTw": "【總司令｜ALIGN】701→69→31→31（下游 STALE）asOf 10-30｜待 Grok重掃701／Jrok③／Arok⑤｜tip ?v=scr701-1030",
+  "status": "REBASE-techPass / HOLD-with-stale-downstream",
+  "summaryTw": "【總司令｜REBASE】live tech 685→69 asOf 10-30｜下游 STALE 舊61→31→31（BROS）｜推 ?v=cmd2252-1102",
   "materialChange": true,
-  "pagesTip": "macro1440-1028",
-  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1440-1028",
-  "session": "POST_CLOSE / Asia JP+KR CLOSED・HK OPEN late",
-  "gateApplicable": false,
+  "materialReasons": [
+    "techPass LOCK64 (asOf 10-27) → live 69 (asOfMarket 10-30); turnover +31/−26/kept 38 vs tech-scan-lock-692",
+    "patternMix among PASSED flipped VCP47/bull_flag16 → VCP45/bull_flag23/cup1",
+    "downstream company/entry still STALE on prior techAlign 61→31→31 (watch BROS) — not a silent HOLD of 692→64→31→31",
+    "first commander absorption of MACRO2245 FOMC HOLD / FedWatch Dec roll / Mon RTH catch-up into commander files (macro already SPEAK’d — do not double-count as new Stock macro brief)"
+  ],
+  "pagesTip": "cmd2252-1102",
+  "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=cmd2252-1102",
+  "session": "RTH_OPEN / Asia JP+KR+HK CLOSED",
+  "gateApplicable": true,
   "gateFired": false,
-  "speakToStockGroup": false,
+  "speakToStockGroup": true,
+  "chatTw": "【Trok／總司令｜2252】\n管道｜Grok techPass **64→69**（asOfMarket 10-30；候選池 tech 掃 **685**；vs LOCK64 +31/−26/kept38）｜形態 VCP45／bull_flag23／cup1\n下游｜company／leaders／entry **仍 STALE** 舊 techAlign **61→31→31**（可考慮30／觀望**BROS**）— 未對齊 69；待 Arok／Jrok 重對\n閘門｜early RTH 適用・未觸（QQQ +0.62%／SPY +0.56%）｜Fed／FOMC 已由 Drok 2245 SPEAK・唔重炒\nPages｜已推 ?v=cmd2252-1102",
   "pushed": false,
+  "pushPending": true,
   "fedwatch": {
-    "hold": 89.7,
-    "hike25": 10.3,
-    "source": "Investing Fed Rate Monitor (live); CME IP-blocked; SO fallback 92/8",
-    "stamp": "Oct 28, 2026 02:35AM EDT",
-    "deltaVsPriorCmd1357": 0.0,
-    "deltaVsMacro1440": -2.3,
+    "hold": 25.4,
+    "hike25": 74.6,
+    "source": "Investing Fed Rate Monitor Dec Current (reuse MACRO2245); CME skipped 403 pattern",
+    "stamp": "Nov 02, 2026 09:25AM EST",
+    "deltaVsPriorCmd1459": null,
+    "deltaVsMacro2245": 0.0,
     "investing": {
-      "hold": 89.7,
-      "hike25": 10.3,
-      "stamp": "Oct 28, 2026 02:35AM EDT",
-      "note": "live OK; vs MACRO1440 Inv 92.0 stamp 02:25AM → 89.7 stamp 02:35AM Δ−2.3≪3 churn"
+      "hold": 25.4,
+      "hike25": 74.6,
+      "stamp": "Nov 02, 2026 09:25AM EST",
+      "note": "Dec Current hold/hike; Oct FOMC already HOLD — meeting rolled"
     },
     "sessionOpen": {
-      "hold": 92.0,
-      "hike25": 8.0
+      "hold": 18.0,
+      "hike25": 82.0
     },
     "december": {
-      "hold": 19.1,
-      "hike25": 72.8,
-      "hike50": 8.1,
-      "note": "Investing Dec Current"
+      "hold": 25.4,
+      "hike25": 74.6,
+      "note": "Investing Dec Current (= Current post-Oct FOMC)"
     }
   },
   "quotes": {
     "qqq": {
-      "px": 721.25,
-      "chgPct": 1.27,
-      "priorClose": 712.2
+      "px": 694.75,
+      "chgPct": 0.62,
+      "priorClose": 690.49
     },
     "spy": {
-      "px": 769.66,
+      "px": 759.95,
       "chgPct": 0.56,
-      "priorClose": 765.37
+      "priorClose": 755.72
     },
     "smh": {
-      "px": 557.98,
-      "chgPct": 3.02
+      "px": 525.83,
+      "chgPct": 0.64
     },
-    "vix": 17.52,
+    "vix": 19.02,
     "nq": {
-      "px": 29950.75,
-      "vsFriPct": 2.86
+      "px": 28695.75,
+      "vsFriPct": 0.57
     },
     "es": {
-      "px": 7760.0,
-      "vsFriPct": 1.31
+      "px": 7648.25,
+      "vsFriPct": 0.45
     },
     "asia": {
       "n225": {
-        "chgPct": 1.08,
+        "chgPct": -0.33,
         "status": "CLOSED",
-        "px": 63954.19
+        "px": 63081.86
       },
       "kospi": {
-        "chgPct": 6.63,
+        "chgPct": 2.24,
         "status": "CLOSED",
-        "px": 6012.44
+        "px": 5859.08
       },
       "hsi": {
-        "chgPct": 0.22,
-        "status": "OPEN late",
-        "px": 23091.75
+        "chgPct": 0.42,
+        "status": "CLOSED",
+        "px": 23393.32
       }
     },
-    "source": "Yahoo chart v8 ~2026-10-28 14:59 HKT"
+    "source": "Yahoo chart v8 ~2026-11-02 22:55 HKT (same RTH session as MACRO2245; slight drift vs 22:47)"
   },
-  "materialReasons": [],
-  "nonMaterialNotes": [
-    "gate N/A POST_CLOSE; QQQ +1.27%/SPY +0.56% far above −0.65%",
-    "FedWatch Inv 89.7/10.3 stamp 02:35AM EDT Δ−2.3≪3 vs MACRO1440 92.0／Δ0 vs cmd1357 89.7; SO 92/8",
-    "Asia JP+KR CLOSED At close N225 +1.08%/KS11 +6.63%; HSI OPEN late ~+0.22% — OPEN→CLOSED already SPEAK by MACRO1440; late alone ≠ material",
-    "pipeline LOCK 692→64→31→31 unchanged; entry14:55/Arok1453 material=false counts same; live Frok 685 vs lock 692 churn ≠ flip",
-    "calendar FOMC decision day unchanged; ~11h to decision; no new catalyst within ~3 trading days",
-    "MACRO tip already advanced to macro1440-1028 (SHA e468d434); hourly no additional push"
-  ],
-  "compareVs": "cmd1357 / en31-1154 / MACRO1440",
+  "compareVs": "cmd1459-LOCK64 / MACRO2245 / tech-scan-lock-692",
   "calendar": {
-    "fomc": "decision Wed 10/28 ~14:00 EDT + Warsh presser ~14:30 (~11h out); blackout→10/28; not yet out",
-    "note": "FOMC not yet published — unchanged calendar alone ≠ material"
+    "fomc": "10/28 HOLD 3.75–4.00% (10–2 Cook+Hammack dissent) + Warsh presser DONE — MACRO2245 first-capture/SPEAK; first-seen-in-commander-files tonight",
+    "ahead": "NFP 11/6; CPI 11/10; PPI 11/13; Warsh 11/16 SF; FOMC 12/8–9",
+    "note": "Macro calendar already SPEAK’d by Drok 2245 — commander material is techPass rebase + downstream stale, not rehash"
   },
   "fetchFailures": [
-    "CME FedWatch tool IP blocked (403)"
-  ]
+    "CME FedWatch skipped (403 pattern); reused MACRO2245 Investing Dec 25.4/74.6",
+    "Finance MCP not used this run"
+  ],
+  "nonMaterialNotes": [
+    "gate early RTH applicable but NOT fired (QQQ +0.62%/SPY +0.56% >> −0.65%)",
+    "Asia CLOSED At-close already SPEAK by MACRO2245 — no re-speak",
+    "quote drift vs MACRO2245 same-session noise (QQQ 695.3→694.75 etc.)",
+    "live Frok 701 vs tech pool 685 = candidate churn; do not invent techPass on 701"
+  ],
+  "macroSibling": {
+    "runTag": "2245",
+    "pagesTip": "macro2245-1102",
+    "speakAlready": true,
+    "note": "Do not rehash full macro brief in Stock; commander chat focuses pipeline"
+  }
 }

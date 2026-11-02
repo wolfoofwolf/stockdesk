@@ -1,24 +1,24 @@
-# 總司令簡報｜2026-10-28 10:01 HKT
+# 總司令簡報｜2026-11-02 22:55 HKT
 
-【總司令｜LOCK】692→64→31→31 asOf 10-27｜港 CLOSED→OPEN｜可考慮30／觀望BROS｜tip ?v=cmd1001-1028
+【總司令｜REBASE techPass／下游 STALE】live **685→69** asOfMarket **10-30**｜下游 company／entry **仍 31**（舊 techAlign **61**・可考慮30／觀望**BROS**）未對齊｜vs LOCK64 +31/−26/kept38｜early RTH 閘門未觸｜Fed／FOMC 已由 MACRO2245 SPEAK｜**推** ?v=cmd2252-1102
 
 ## 閘門
-**POST_CLOSE／overnight・經典 PRE 閘門本輪不適用・開盤急挫檢查未觸**｜QQQ RTH close **$721.25（+1.27%** vs Mon RTH **$712.20**）｜SPY RTH close **$769.66（+0.56%** vs Mon RTH **$765.37**）｜門檻 −0.65%・兩者皆綠・遠未跌穿｜VIX 17.52｜AH／overnight 輕量噪音唔當日變
+**RTH_OPEN early・經典閘門適用（~09:45+ EST；DST→EST 開盤 22:30 HKT）・開盤急挫檢查未觸**｜QQQ **$694.75（+0.62%** vs prior RTH **$690.49）｜SPY **$759.95（+0.56%** vs prior RTH **$755.72）｜門檻 −0.65%・兩者皆綠・遠未跌穿｜VIX 19.02｜gateApplicable=true／gateFired=false
 
 ## FedWatch
-hold **90.8%**／hike25 **9.2%**（Investing Fed Rate Monitor・as of Oct 27, 2026 09:35PM EDT；CME 本輪 IP block）｜vs 司令 09:05 Inv **93.1 Δ-2.3pp≪3**｜vs MACRO 0840 Inv **90.8 Δ+0.0pp≪3**｜SessionOpen 參考 Hold **92**／hike **8**（沿 MACRO0840）｜blackout→10/28｜FOMC 決定日（10/27–28・聲明 Wed 10/28 ~14:00 EDT + Warsh presser ~14:30・約 16 小時內）
+Dec Current hold **25.4%**／hike25 **74.6%**（Investing・Updated: Nov 02, 2026 09:25AM EST；reuse MACRO2245；CME 403 skip）｜SessionOpen Hold **18**／hike **82**｜vs 舊司令 Oct hold 89.7：**會議已滾 Oct→Dec**・唔用 Δpp 對比｜FOMC 10/28 **HOLD** 3.75–4.00%（10–2；Cook+Hammack 反對加息）＋Warsh presser **已畢**（MACRO2245 首捕／SPEAK）｜blackout 結束｜下：NFP 11/6・CPI 11/10・PPI 11/13・Warsh 11/16 SF・FOMC 12/8–9
 
 ## 美股／亞洲
-**POST_CLOSE／Asia JP+KR+HK OPEN**（~10:01 PM EDT Tue／HKT Wed 10:01）｜QQQ RTH +1.27%／SPY RTH +0.56%（vs cmd0905／MACRO0840 同印；門檻無關）｜SMH RTH +3.02%（$557.98）｜VIX 17.52｜NQ≈29901／ES≈7759（vs MACRO0840 ~29820／7757・Δ≪0.4pp）｜**亞洲** 日經 **OPEN ~+1.45%**／韓綜 **OPEN ~+6.34%**／恒指 **OPEN ~+0.11%**（**港 CLOSED→OPEN 里程碑**・vs 09:05 CLOSED −0.73%；JP+KR CLOSED→OPEN 已由 MACRO0840 發群・唔重火；OPEN % 延伸當噪音）
+**RTH_OPEN／Asia JP+KR+HK CLOSED**（~09:55 EST Mon／HKT Mon ~22:55）｜QQQ RTH +0.62%／SPY RTH +0.56%（閘門未觸）｜SMH RTH +0.64%（$525.83）｜VIX 19.02｜NQ≈28696（vsFri +0.57%）／ES≈7648.25（vsFri +0.45%）｜**亞洲** 日經 **-0.33% At close**／韓綜 **+2.24% At close**／恒指 **+0.42% At close**（CLOSED 里程碑已由 MACRO2245 SPEAK・本輪唔重火）｜數字 vs MACRO2245 同場輕漂移（QQQ 695.3→694.75 等）・同源 Yahoo
 
 ## 日曆
-META/TSLA 10/21 **已刊**＋META **$95B** 融資 10/26｜**FOMC 10/27–28（決定日・聲明 Wed 10/28 ~14:00 EDT + presser ~14:30）**｜MSFT/GOOGL 10/28 AH｜Warsh blackout→10/28｜無新材料催化劑（vs cmd0905／MACRO0840）
+FOMC 10/28 **HOLD 已刊**（MACRO2245 已 SPEAK・司令檔首次寫入・唔當新 Stock 宏觀重講）｜MSFT beat／GOOGL miss（10/29 ~−13%）已消化｜CRWV −4.22 翻紅（MACRO 已記）｜前瞻：NFP 11/6・CPI 11/10・PPI 11/13・Warsh 11/16 SF AI/productivity・FOMC 12/8–9｜司令材料主軸＝**techPass 翻鎖／下游未對齊**・唔係再炒 FOMC
 
 ## 管道
-**692→64→31→31** LOCK｜techPass **64** 錨（asOf 10-27；Grok tech；Frok scr **692**・10:00 重數仍 692）｜methodMix Pullback 27／META 4｜patternMix VCP 24／bull_flag 6／cup_with_handle 1｜領導／進場 31／31（company/entry mtime 09:54・counts 不變）｜可考慮 30／觀望 1＝**BROS**｜集合已鎖（Pages tip **?v=cmd1001-1028**；pipeline tip en31-1027 已推過）
+**live Grok tech 685→69**（asOfMarket **10-30**；generated ~22:52 HKT）｜**唔再**聲稱 LOCK 692→64→31→31 為現況｜vs LOCK64（asOf 10-27／cand 692）：**+31/−26/kept 38**｜patternMix（PASSED）**VCP 45／bull_flag 23／cup_with_handle 1**｜下游 company／leaders／entry **STALE**：techAlign／upstream 仍 **61→31→31**（可考慮 **30**／觀望 **BROS**）— mtime 今晚有刷但未對齊 live 69｜live Frok screener stats **701**（~22:54）≠ tech 掃池 **685**・池 churn・**未**翻鎖進 Grok｜Pages **推** **?v=cmd2252-1102**
 
 ## Top
-進場前排 ADI·NUE·FANG·SHEL·SONY·TD·ADSK·BNS｜領導 TEL·ADI·VTRS·TD·NUE·BNS·BZ·CBOE·HONA·ECL｜techPass top TEL·ADI·VTRS·TD·CCL·NUE·BWIN·BNS
+tech proximity CUBE·CHDN·HOG·BLDR·TD·HIW·CUZ·LNG｜techPass top CUBE·CHDN·TD·KBR·OTIS·ECL·FAST·ETSY｜進場前排（STALE 舊61）ADI·NUE·FANG·SHEL·SONY·TD·ADSK·BNS｜領導（STALE）TEL·ADI·VTRS·TD·NUE·BNS·BZ·CBOE·HONA·ECL
 
 ## 結論
-vs 司令 09:05／MACRO 0840 **有司令材料：港 CLOSED→OPEN**｜閘門 POST_CLOSE 不適用・未觸・未穿 −0.65%｜FedWatch Inv Δ-2.3pp≪3 vs cmd0905／Δ+0.0pp vs MACRO0840（stamp 09:35PM EDT；SO 92/8）｜港 OPEN 里程碑發群；JP+KR 唔重火｜管道 LOCK 維持 692→64→31→31（唔 stale）｜日曆無新催化｜**推 Pages**・tip ?v=cmd1001-1028｜Stock 發群｜https://wolfoofwolf.github.io/stockdesk/?v=cmd1001-1028
+vs 舊司令 1459／LOCK64／MACRO2245：**有司令材料**＝techPass **64→69** 大換血＋下游 STALE 明示｜閘門 early RTH 適用・未觸・未穿 −0.65%｜FedWatch Dec 25.4/74.6（MACRO 同源）・FOMC HOLD 已由 Drok SPEAK・唔重炒宏觀長文｜管道：**REBASE** live tech 685→69；entry/company **HOLD-with-stale-downstream** 舊 61→31→31（BROS）待 Arok／Jrok｜**已推 Pages** ?v=cmd2252-1102｜Stock **短訊**（管道／下游；唔重炒 Drok 宏觀）｜https://wolfoofwolf.github.io/stockdesk/?v=cmd2252-1102
