@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股late-RTH・QQQ -1.31%／SPY -0.39%・閘門未觸｜亞JP+KR+HK CLOSED｜FedWatch Dec hold 30.0%｜NQΔ-0.61／ESΔ-0.27 SPEAK（Drok）",
   "asOf": "2026-11-02T20:45:00.000Z",
-  "updatedAt": "2026-11-02T20:48:10.000Z",
+  "updatedAt": "2026-11-02T20:48:30.000Z",
   "bot": "Drok",
   "role": "大市分析",
   "calendar": [
@@ -922,11 +922,12 @@
     "pushed": true,
     "pushPending": false,
     "tipSync": true,
-    "tipLock": false,
+    "tipLock": true,
     "tipLockSeal": false,
-    "note": "content d7651724 tipSync pending tipLock",
+    "note": "content→tipSync d7651724→4dc62a8c tipLock pending seal",
     "contentCommitSha": "d765172432133a86a05bba28f676269fe9155b9b",
-    "blobSha": "7a06a52221af6e05518648a179e780c870c8dfc1"
+    "blobSha": "6c22f4924ad88eabdc7d93b10f661186a7c26552",
+    "tipSyncCommitSha": "4dc62a8c9d86bb1751d986ce47b8fd66235be330"
   },
   "brief": {
     "skeleton": [
