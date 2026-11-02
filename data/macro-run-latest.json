@@ -1,7 +1,7 @@
 {
-  "title": "大市更新｜美股late-RTH・QQQ -1.31%／SPY -0.39%・閘門未觸｜亞JP+KR+HK CLOSED｜FedWatch Dec hold 30.0%｜NQΔ-0.61／ESΔ-0.27 SPEAK（Drok）",
-  "asOf": "2026-11-02T20:45:00.000Z",
-  "updatedAt": "2026-11-02T20:49:10.000Z",
+  "title": "大市更新｜美股POST_CLOSE・QQQ -1.36%／SPY -0.48%・閘門未觸｜亞JP+KR+HK CLOSED｜FedWatch Dec hold 27.6%｜NQΔ+0.30／ESΔ+0.09 SILENT（Drok）",
+  "asOf": "2026-11-02T21:45:00.000Z",
+  "updatedAt": "2026-11-02T21:50:16.000Z",
   "bot": "Drok",
   "role": "大市分析",
   "calendar": [
@@ -321,7 +321,8 @@
         "Drok macro hourly 1540 2026-10-28 2026-10-28 15:43 HKT — Investing 89.7/10.3 stamp Oct 28, 2026 03:15AM EDT; SO 92/8; SILENT vs1440",
         "Federal Reserve FOMC statement / Warsh presser 2026-10-28; Yahoo/Reuters/CNBC; Drok macro 2245 2026-11-02",
         "Drok US RTH hourly 2026-11-03 00:40 HKT — Investing 22.6/77.4; SO 20/80; NQ Δ-0.630 speak",
-        "Drok late-RTH hourly 2026-11-03 04:45 HKT — Investing stamp Nov 02, 2026 03:15PM EST hold 30.0/70.0; SessionOpen 24/76; NQ Δ-0.61pp SPEAK."
+        "Drok late-RTH hourly 2026-11-03 04:45 HKT — Investing stamp Nov 02, 2026 03:15PM EST hold 30.0/70.0; SessionOpen 24/76; NQ Δ-0.61pp SPEAK.",
+        "Drok POST_CLOSE hourly 2026-11-03 05:45 HKT — Investing stamp Nov 02, 2026 04:25PM EST hold 27.6/72.4; SessionOpen 22/78; NQ Δ+0.30pp SILENT."
       ],
       "decision": "HOLD → 3.75%–4.00%（10–2）",
       "hawkish": false
@@ -417,7 +418,8 @@
         "Drok Asia mid hourly 2026-10-28 13:40 HKT — WebSearch/Fed calendar no new Warsh; blackout→10/28; decision/presser not yet (~12h)",
         "Drok Asia late hourly 2026-10-28 14:44 HKT — WebSearch/Fed calendar no new Warsh; blackout→10/28; decision/presser not yet (~11h)",
         "Drok macro hourly 1540 2026-10-28 2026-10-28 15:43 HKT — no new Warsh speak; blackout→10/28 FOMC; presser not yet",
-        "Drok macro 2245 2026-11-02 — blackout ended; Warsh 11/16 hearing"
+        "Drok macro 2245 2026-11-02 — blackout ended; Warsh 11/16 hearing",
+        "Drok POST_CLOSE hourly 2026-11-03 05:45 HKT — no new Warsh/FOMC public; next 11/16 SF AI hearing"
       ],
       "fedWatchPost": {
         "octHoldPct": 85.1,
@@ -580,16 +582,16 @@
     "summaryTw": "非農就業（2026年9月） @ 2026-10-02\n數據：弱過預期（actual < consensus）\n當日大盤：+0.74%\n留意：數據偏弱但大市上升（利好降息／軟著陸交易）\n收市K線：膠住／十字味：實體細，方向未決；收市創近期新高／破阻力；企穩 SMA20 上方；企穩 SMA50 上方\n其後4日：D+1 0.67%(修復／延續上升)，D+2 0.55%(修復／延續上升)，D+3 -0.24%(失地／回吐)，D+4 -0.42%(失地／回吐)；其後 10/9 +0.60%、10/12 -0.06%"
   },
   "watch": [
-    "【FedWatch】Dec09 Current hold 30.0%／hike 70.0%（Investing fresh stamp Nov 02, 2026 03:15PM EST；Oct 會已滾）",
-    "【SessionOpen】Hold 24%／+25 76%（sessionopen.com；vs0345 22/78 Δ+2.0pp≪5）",
-    "【閘門】late-RTH 適用=false・未觸｜QQQ -1.31%／SPY -0.39%",
-    "【期指】NQ vsFri -1.36%（Δvs0345 -0.61pp≥0.4）／ES -0.42%（Δ-0.27）",
-    "【主題】SMH -2.76%／CRWV -9.40%仍紅｜AMZN +2.61%／MSFT -2.55%",
+    "【FedWatch】Dec09 Current hold 27.6%／hike 72.4%（Investing fresh stamp Nov 02, 2026 04:25PM EST；Oct 會已滾）",
+    "【SessionOpen】Hold 22%／+25 78%（sessionopen.com；vs0445 24/76 Δ-2.0pp≪5）",
+    "【閘門】POST_CLOSE 適用=false・未觸｜QQQ -1.36%／SPY -0.48%",
+    "【期指】NQ vsFri -1.06%（Δvs0445 +0.30pp≪0.4）／ES -0.33%（Δ+0.09）",
+    "【主題】SMH -2.71%／CRWV -8.60%仍紅｜AMZN +2.20%／MSFT -2.83%",
     "【亞洲】N225 -0.33／KS11 +2.24／HSI +0.42 CLOSED 已說過",
-    "【決策】SPEAK｜speakToStockGroup=true｜後續Δ對0445"
+    "【決策】SILENT｜speakToStockGroup=false｜後續Δ對0445"
   ],
-  "mag7Note": "Mag7 RTH 2026-11-03 04:45 HKT：AAPL -1.83%／MSFT -2.55%／NVDA -1.23%／AMZN +2.61%／META -1.00%／GOOGL +0.32%／TSLA +0.57%｜SMH -2.76%／CRWV -9.40%仍紅｜MSFT/AAPL/NVDA 續弱、AMZN 仍強；SMH/CRWV 續紅加深。",
-  "summaryTw": "【Drok｜大市分析｜美股late-RTH・QQQ -1.31%／SPY -0.39%・閘門未觸・亞CLOSED・FedWatch Dec hold 30.0%・NQ Δ-0.61pp SPEAK｜2026-11-03 04:45 HKT】\n**閘門 late-RTH・適用=false・未觸**｜HKT Tue ~04:45／US ~15:45 EST Mon｜session=**US late-RTH／亞 JP+KR+HK CLOSED**｜QQQ RTH **$681.44（-1.31%** vs Fri RTH **$690.49**；Yahoo chart v8 ~2026-11-03 04:45 HKT）／SPY RTH **$752.76（-0.39%** vs Fri **$755.72**）｜Premarket/early-RTH 門檻 −0.65%・**閘門N/A**｜NQ 28,145.00 vsFri **-1.36%**（Δvs0345 **-0.61pp≥0.4**）／ES 7,582.25 **-0.42%**（Δ-0.27）｜FedWatch Dec hold **30.0/70.0** stamp Nov 02, 2026 03:15PM EST（Δhold **+3.4≪5**）｜SO 24/76（Δ+2.0）｜SMH -2.76/CRWV -9.40仍紅｜**SPEAK 發群**｜後續Δ對0445",
+  "mag7Note": "Mag7 POST_CLOSE 2026-11-03 05:45 HKT（美股收盤價）：AAPL -1.83%／MSFT -2.83%／NVDA -1.26%／AMZN +2.20%／META -1.34%／GOOGL -0.30%／TSLA +1.00%｜SMH -2.71%／CRWV -8.60%仍紅｜MSFT/AAPL/NVDA 收盤續弱、AMZN 仍強；CRWV 收窄紅幅仍紅。",
+  "summaryTw": "【Drok｜大市分析｜美股POST_CLOSE・QQQ -1.36%／SPY -0.48%・閘門未觸・亞CLOSED・FedWatch Dec hold 27.6%・NQ Δ+0.30pp SILENT｜2026-11-03 05:45 HKT】\n**閘門 POST_CLOSE・適用=false・未觸**｜HKT Tue ~05:45／US ~16:45 EST Mon｜session=**US POST_CLOSE／亞 JP+KR+HK CLOSED**｜QQQ close **$681.09（-1.36%** vs Fri **$690.49**；Yahoo chart v8 ~2026-11-03 05:45 HKT）／SPY close **$752.10（-0.48%** vs Fri **$755.72**）｜Premarket/early-RTH 門檻 −0.65%・**閘門N/A**｜NQ 28,230.25 vsFri **-1.06%**（Δvs0445 **+0.30pp≪0.4**）／ES 7,589.25 **-0.33%**（Δ+0.09）｜FedWatch Dec hold **27.6/72.4** stamp Nov 02, 2026 04:25PM EST（Δhold **-2.4≪5**）｜SO 22/78（Δ-2.0）｜SMH -2.71/CRWV -8.60仍紅｜**SILENT 不發群**｜後續Δ對0445",
   "thinkingLog": [
     "2",
     "0",
@@ -910,26 +912,35 @@
         "SMH -2.76/CRWV -9.40 still red",
         "SPEAK; subsequent Δ vs 0445"
       ]
+    },
+    {
+      "at": "2026-11-03 05:45 HKT",
+      "runTag": "0545",
+      "decision": "SILENT",
+      "notes": [
+        "vs0445 NQ Δ+0.30pp≪0.4／ES Δ+0.09pp≪0.4",
+        "FW hold 27.6 Δ-2.4≪5 stamp Nov 02, 2026 04:25PM EST",
+        "SO 22/78 Δ-2.0",
+        "QQQ -1.36%/SPY -0.48%; gate POST_CLOSE N/A",
+        "SMH -2.71/CRWV -8.60 still red",
+        "SILENT; subsequent Δ vs 0445"
+      ]
     }
   ],
   "liveSync": {
-    "runTag": "0445",
-    "asOfHKT": "2026-11-03 04:45 HKT",
-    "speakToStockGroup": true,
-    "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro0445-1103",
-    "session": "late-RTH / Asia JP+KR+HK CLOSED",
-    "pagesTipSha": "8bad3aaa",
-    "pushed": true,
-    "pushPending": false,
-    "tipSync": true,
-    "tipLock": true,
-    "tipLockSeal": true,
-    "note": "content→tipSync→tipLock d7651724→4dc62a8c→8bad3aaa sealed pending",
-    "contentCommitSha": "d765172432133a86a05bba28f676269fe9155b9b",
-    "blobSha": "ee5e346a2f2e8a2d899450a20f80f9cb56462ef1",
-    "tipSyncCommitSha": "4dc62a8c9d86bb1751d986ce47b8fd66235be330",
-    "tipLockCommitSha": "8bad3aaa3dcc793d58b255ac91c21187699a9038",
-    "chain": "d7651724→4dc62a8c→8bad3aaa"
+    "runTag": "0545",
+    "asOfHKT": "2026-11-03 05:45 HKT",
+    "speakToStockGroup": false,
+    "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro0545-1103",
+    "session": "POST_CLOSE / Asia JP+KR+HK CLOSED",
+    "pagesTipSha": null,
+    "pushed": false,
+    "pushPending": true,
+    "tipSync": false,
+    "tipLock": false,
+    "tipLockSeal": false,
+    "note": "content commit pending tipSync/tipLock; pages ?v=macro0545-1103",
+    "blobShaPrior": "b7ea3158f90d60a6370909266bbe4e7f36a93d5a"
   },
   "brief": {
     "skeleton": [
@@ -940,142 +951,134 @@
       "結論"
     ],
     "sections": {
-      "閘門": "late-RTH・適用=false・未觸｜HKT Tue ~04:45／US ~15:45 EST Mon｜QQQ **-1.31%**（$681.44 vs Fri $690.49）／SPY **-0.39%**（$752.76 vs Fri $755.72）｜Premarket/early-RTH −0.65% 窗已過・閘門N/A（QQQ -1.31% 僅記）｜NQ 28,145.00 vsFri **-1.36%**（Δvs0345 **-0.61pp≥0.4**）／ES 7,582.25 **-0.42%**（Δ**-0.27pp≪0.4**）｜VIX 21.32",
-      "FedWatch": "Dec09/Current hold **30.0%**／hike **70.0%**｜Investing stamp **Nov 02, 2026 03:15PM EST**（Δhold vs0345 **+3.4pp≪5**）｜SessionOpen Hold **24%**／+25 **76%**（Δ+2.0pp≪5；prices as of 2026-11-02 close）｜Oct28 HOLD done → Current=Dec09",
-      "美股／亞洲": "美 **late-RTH**／亞 **JP+KR+HK CLOSED**｜SMH -2.76%／CRWV -9.40%**仍紅**｜AAPL -1.83%／MSFT -2.55%／NVDA -1.23%／AMZN +2.61%／META -1.00%／GOOGL +0.32%／TSLA +0.57%｜N225 -0.33／KS11 +2.24／HSI +0.42 CLOSED（已說過）｜TNX 4.894／DXY 101.746",
+      "閘門": "POST_CLOSE・適用=false・未觸｜HKT Tue ~05:45／US ~16:45 EST Mon｜QQQ **-1.36%**（$681.09 vs Fri $690.49）／SPY **-0.48%**（$752.10 vs Fri $755.72）｜Premarket/early-RTH −0.65% 窗已過・閘門N/A｜NQ 28,230.25 vsFri **-1.06%**（Δvs0445 **+0.30pp≪0.4**）／ES 7,589.25 **-0.33%**（Δ**+0.09pp≪0.4**）｜VIX 21.15",
+      "FedWatch": "Dec09/Current hold **27.6%**／hike **72.4%**｜Investing stamp **Nov 02, 2026 04:25PM EST**（Δhold vs0445 **-2.4pp≪5**）｜SessionOpen Hold **22%**／+25 **78%**（Δ-2.0pp≪5；prices as of 2026-11-02 close）｜Oct28 HOLD done → Current=Dec09",
+      "美股／亞洲": "美 **POST_CLOSE**／亞 **JP+KR+HK CLOSED**｜SMH -2.71%／CRWV -8.60%**仍紅**｜AAPL -1.83%／MSFT -2.83%／NVDA -1.26%／AMZN +2.20%／META -1.34%／GOOGL -0.30%／TSLA +1.00%｜N225 -0.33／KS11 +2.24／HSI +0.42 CLOSED（已說過）｜TNX 4.894／DXY 101.774",
       "日曆": "FOMC 10/27–28 **HOLD 3.75–4.00%**（10–2；Cook+Hammack dissent hike）+ Warsh presser **DONE**；**blackout ended**｜Next Warsh：**11/16 SF Bay Area** AI/productivity task force hearing（公開；非 FOMC blackout）｜NFP **11/6**・CPI **11/10**・PPI **11/13**・Next FOMC **12/8–9**｜Mag7：MSFT beat／GOOGL miss（prior）｜今日無新 Warsh/FOMC 公開行程",
-      "結論": "**SPEAK**｜NQ Δvs0345 -0.61pp≥0.4（fade）＋ES Δ-0.27pp≪0.4｜FW/SO Δ≪5｜閘門未觸｜CRWV未翻綠｜亞CLOSED alone 不發｜**發群**｜後續 hourly Δ 對 **0445** SPEAK baseline"
+      "結論": "**SILENT**｜NQ Δvs0445 +0.30pp≪0.4＋ES Δ+0.09pp≪0.4｜FW/SO Δ≪5｜閘門未觸｜CRWV未翻綠｜亞CLOSED alone 不發｜**不發群**｜後續 hourly Δ 對 **0445** SPEAK baseline"
     },
-    "chatTw": "【Drok／大市分析｜0445】\n閘門｜late-RTH 適用=false・未觸｜QQQ -1.31%（$681.44）／SPY -0.39%（$752.76）vs Fri｜NQ 28,145.00 vsFri -1.36%（Δvs0345 -0.61pp）／ES 7,582.25 -0.42%（Δ-0.27pp）｜VIX 21.32\nFedWatch｜Dec09 hold 30.0/70.0 stamp Nov 02, 2026 03:15PM EST（Δhold vs0345 +3.4pp≪5）｜SO Hold 24/+25 76（Δ+2.0pp≪5）｜Dec=Current\n美股／亞洲｜美 late-RTH／亞 JP+KR+HK CLOSED｜SMH -2.76/CRWV -9.40仍紅｜N225 -0.33/KS11 +2.24/HSI +0.42 CLOSED｜TNX 4.894/DXY 101.746\n日曆｜FOMC 10/28 HOLD 3.75–4.00%（10–2）+Warsh presser DONE・blackout ended｜Warsh 11/16 SF AI hearing｜NFP 11/6・CPI 11/10・PPI 11/13・FOMC 12/8–9｜MSFT beat／GOOGL miss｜今日無新 Warsh/FOMC 公開行程\n結論｜SPEAK｜NQ Δ-0.61pp≥0.4 vs0345｜ES Δ-0.27pp≪0.4｜FW/SO≪5｜閘門未觸｜CRWV未翻綠｜亞CLOSED已說過｜發群｜後續Δ對0445"
+    "chatTw": "【Drok／大市分析｜0545】\n閘門｜POST_CLOSE 適用=false・未觸｜QQQ -1.36%（$681.09）／SPY -0.48%（$752.10）vs Fri｜NQ 28,230.25 vsFri -1.06%（Δvs0445 +0.30pp）／ES 7,589.25 -0.33%（Δ+0.09pp）｜VIX 21.15\nFedWatch｜Dec09 hold 27.6/72.4 stamp Nov 02, 2026 04:25PM EST（Δhold vs0445 -2.4pp≪5）｜SO Hold 22/+25 78（Δ-2.0pp≪5）｜Dec=Current\n美股／亞洲｜美 POST_CLOSE／亞 JP+KR+HK CLOSED｜SMH -2.71/CRWV -8.60仍紅｜N225 -0.33/KS11 +2.24/HSI +0.42 CLOSED｜TNX 4.894/DXY 101.774\n日曆｜FOMC 10/28 HOLD 3.75–4.00%（10–2）+Warsh presser DONE・blackout ended｜Warsh 11/16 SF AI hearing｜NFP 11/6・CPI 11/10・PPI 11/13・FOMC 12/8–9｜MSFT beat／GOOGL miss｜今日無新 Warsh/FOMC 公開行程\n結論｜SILENT｜NQ Δ+0.30pp≪0.4 vs0445｜ES Δ+0.09pp≪0.4｜FW/SO≪5｜閘門未觸｜CRWV未翻綠｜亞CLOSED已說過｜不發群｜後續Δ對0445"
   },
   "refreshSnapshot": {
-    "runTag": "0445",
-    "asOf": "2026-11-02T20:45:00.000Z",
-    "asOfHKT": "2026-11-03 04:45 HKT",
-    "session": "late-RTH / Asia JP+KR+HK CLOSED",
-    "usSession": "late-RTH",
+    "runTag": "0545",
+    "asOf": "2026-11-02T21:45:00.000Z",
+    "asOfHKT": "2026-11-03 05:45 HKT",
+    "session": "POST_CLOSE / Asia JP+KR+HK CLOSED",
+    "usSession": "POST_CLOSE",
     "asiaSession": "JP+KR+HK CLOSED",
-    "priorBrief": "0345",
-    "lastSpeakBaseline": "0345",
+    "priorBrief": "0445",
+    "lastSpeakBaseline": "0445",
     "gateApplicable": false,
     "gateFired": false,
-    "gateMode": "late-RTH (early-RTH dump window past; day% still reported)",
+    "gateMode": "POST_CLOSE (early-RTH dump window past; day% still reported)",
     "premarketStartsHKT": "16:00",
     "cashOpenHKT": "22:30",
     "cashCloseHKT": "05:00+1",
     "usageCatchUp": false,
     "dstNote": "US EST (UTC-5); HKT=UTC+8",
     "fedWatch": {
-      "investingCurrent": "30.0/70.0",
-      "stamp": "Nov 02, 2026 03:15PM EST",
-      "sessionOpen": "24/76",
-      "december": "30.0/70.0",
+      "investingCurrent": "27.6/72.4",
+      "stamp": "Nov 02, 2026 04:25PM EST",
+      "sessionOpen": "22/78",
+      "december": "27.6/72.4",
       "meetingRolled": "Oct28 done → Current=Dec09"
     },
     "quotes": {
       "QQQ": {
         "symbol": "QQQ",
-        "last": 681.44,
+        "last": 681.09,
         "prev": 690.49,
-        "dayPct": -1.31,
-        "asOf": "2026-11-02T20:45:32+00:00",
+        "dayPct": -1.36,
+        "asOf": "2026-11-02T21:00:00+00:00",
         "friRef": 690.49,
-        "vsFriPct": -1.31
+        "vsFriPct": -1.36
       },
       "SPY": {
         "symbol": "SPY",
-        "last": 752.76,
+        "last": 752.1,
         "prev": 755.72,
-        "dayPct": -0.39,
-        "asOf": "2026-11-02T20:45:33+00:00",
+        "dayPct": -0.48,
+        "asOf": "2026-11-02T21:00:00+00:00",
         "friRef": 755.72,
-        "vsFriPct": -0.39
+        "vsFriPct": -0.48
       },
       "NQ": {
         "symbol": "NQ=F",
-        "last": 28145.0,
+        "last": 28230.25,
         "prev": 28534.0,
-        "dayPct": -1.36,
-        "asOf": "2026-11-02T20:35:43+00:00",
+        "dayPct": -1.06,
+        "asOf": "2026-11-02T21:37:38+00:00",
         "friRef": 28534.0,
-        "vsFriPct": -1.36
+        "vsFriPct": -1.06
       },
       "ES": {
         "symbol": "ES=F",
-        "last": 7582.25,
+        "last": 7589.25,
         "prev": 7614.0,
-        "dayPct": -0.42,
-        "asOf": "2026-11-02T20:35:43+00:00",
+        "dayPct": -0.33,
+        "asOf": "2026-11-02T21:37:38+00:00",
         "friRef": 7614.0,
-        "vsFriPct": -0.42
+        "vsFriPct": -0.33
       },
       "VIX": {
         "symbol": "^VIX",
-        "last": 21.32,
+        "last": 21.15,
         "prev": 19.42,
-        "dayPct": 9.78,
-        "asOf": "2026-11-02T20:30:31+00:00"
+        "dayPct": 8.91,
+        "asOf": "2026-11-02T21:15:01+00:00"
       },
       "SMH": {
         "symbol": "SMH",
-        "last": 508.08,
+        "last": 508.31,
         "prev": 522.49,
-        "dayPct": -2.76,
-        "asOf": "2026-11-02T20:45:32+00:00",
+        "dayPct": -2.71,
+        "asOf": "2026-11-02T21:00:01+00:00",
         "friRef": 522.49,
-        "vsFriPct": -2.76
+        "vsFriPct": -2.71
       },
       "CRWV": {
         "symbol": "CRWV",
-        "last": 49.71,
+        "last": 50.15,
         "prev": 54.87,
-        "dayPct": -9.4,
-        "asOf": "2026-11-02T20:45:39+00:00",
+        "dayPct": -8.6,
+        "asOf": "2026-11-02T21:00:01+00:00",
         "friRef": 54.87,
-        "vsFriPct": -9.4
+        "vsFriPct": -8.6
       },
       "TNX": {
         "symbol": "^TNX",
         "last": 4.894,
         "prev": 4.929,
         "dayPct": -0.71,
-        "asOf": "2026-11-02T19:59:00+00:00"
+        "asOf": "2026-11-02T19:59:51+00:00"
       },
       "DXY": {
         "symbol": "DX-Y.NYB",
-        "last": 101.746,
+        "last": 101.774,
         "prev": 101.879,
-        "dayPct": -0.13,
-        "asOf": "2026-11-02T20:35:45+00:00"
+        "dayPct": -0.1,
+        "asOf": "2026-11-02T21:37:34+00:00"
       }
     },
-    "decision": "SPEAK",
-    "speakToStockGroup": true,
-    "materialChange": true,
+    "decision": "SILENT",
+    "speakToStockGroup": false,
+    "materialChange": false,
     "reasons": [
-      "NQ vsFriPct Δvs0345 -0.61pp ≥ 0.4 (now -1.36% vs base -0.75%)",
-      "ES vsFriPct Δvs0345 -0.27pp ≪ 0.4",
-      "FedWatch hold Δvs0345 +3.4pp ≪ 5 (now 30.0/70.0 stamp Nov 02, 2026 03:15PM EST)",
-      "SessionOpen hold Δvs0345 +2.0pp ≪ 5 (now 24/76)",
-      "gate late-RTH N/A fire false",
-      "CRWV still-red no flip",
+      "NQ vsFriPct Δvs0445 +0.30pp ≪ 0.4 (now -1.06% vs base -1.36%)",
+      "ES vsFriPct Δvs0445 +0.09pp ≪ 0.4 (now -0.33% vs base -0.42%)",
+      "FedWatch hold Δvs0445 -2.4pp ≪ 5 (now 27.6/72.4 stamp Nov 02, 2026 04:25PM EST)",
+      "SessionOpen hold Δvs0445 -2.0pp ≪ 5 (now 22/78)",
+      "gate POST_CLOSE N/A fire false",
+      "CRWV still-red no flip (−8.60%)",
       "Asia JP+KR+HK CLOSED already spoken Δ0",
-      "SPEAK triggers: NQ"
+      "no new Warsh/FOMC public appearance",
+      "SILENT: no threshold fired"
     ],
-    "deltasVs0345": {
-      "nqVsFriPct": -0.61,
-      "esVsFriPct": -0.27,
-      "fedWatchHold": 3.4,
-      "sessionOpenHold": 2.0,
-      "nqPp": -0.61,
-      "esPp": -0.27,
-      "fwHoldPp": 3.4,
-      "soHoldPp": 2.0,
-      "nqAbs": -173.75,
-      "esAbs": -20.25,
-      "asiaN225Pct": 0.0,
-      "asiaKS11Pct": 0.0,
-      "asiaHSIPct": 0.0
+    "deltasVs0445": {
+      "nqVsFriPct": 0.3,
+      "esVsFriPct": 0.09,
+      "fedWatchHoldPp": -2.4,
+      "sessionOpenHoldPp": -2
     }
   }
 }
