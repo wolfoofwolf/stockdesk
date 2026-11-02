@@ -933,14 +933,16 @@
     "speakToStockGroup": false,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro0545-1103",
     "session": "POST_CLOSE / Asia JP+KR+HK CLOSED",
-    "pagesTipSha": null,
+    "pagesTipSha": "10befa65",
     "pushed": false,
     "pushPending": true,
-    "tipSync": false,
+    "tipSync": true,
     "tipLock": false,
     "tipLockSeal": false,
-    "note": "content commit pending tipSync/tipLock; pages ?v=macro0545-1103",
-    "blobShaPrior": "b7ea3158f90d60a6370909266bbe4e7f36a93d5a"
+    "note": "tipSync pagesTipSha→content 10befa65; tipLock pending",
+    "contentCommitSha": "10befa656cae845041971fc166bae8a57e824c4f",
+    "blobSha": "116cfe8ddee7af2397f6cba232d1a9b41f6e3a9a",
+    "tipSyncCommitSha": null
   },
   "brief": {
     "skeleton": [
