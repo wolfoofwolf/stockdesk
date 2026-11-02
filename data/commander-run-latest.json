@@ -111,8 +111,8 @@
   "gateFired": false,
   "speakToStockGroup": true,
   "chatTw": "【Trok／總司令｜2252】\n管道｜Grok techPass **64→69**（asOfMarket 10-30；候選池 tech 掃 **685**；vs LOCK64 +31/−26/kept38）｜形態 VCP45／bull_flag23／cup1\n下游｜company／leaders／entry **仍 STALE** 舊 techAlign **61→31→31**（可考慮30／觀望**BROS**）— 未對齊 69；待 Arok／Jrok 重對\n閘門｜early RTH 適用・未觸（QQQ +0.62%／SPY +0.56%）｜Fed／FOMC 已由 Drok 2245 SPEAK・唔重炒\nPages｜已推 ?v=cmd2252-1102",
-  "pushed": false,
-  "pushPending": true,
+  "pushed": true,
+  "pushPending": false,
   "fedwatch": {
     "hold": 25.4,
     "hike25": 74.6,
@@ -200,5 +200,8 @@
     "pagesTip": "macro2245-1102",
     "speakAlready": true,
     "note": "Do not rehash full macro brief in Stock; commander chat focuses pipeline"
-  }
+  },
+  "pagesTipSha": "6d1e95f9",
+  "contentCommitSha": "6d1e95f96945cbda56bd072da0dd52270edb828c",
+  "liveSyncNote": "content 6d1e95f9 tip pending"
 }
