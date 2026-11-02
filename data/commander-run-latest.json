@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-02T22:55:50+08:00",
+  "generatedAt": "2026-11-02T23:00:48+08:00",
   "asOf": "2026-10-30",
-  "asOfHKT": "2026-11-02 22:55 HKT",
+  "asOfHKT": "2026-11-02 23:00 HKT",
   "runTag": "2252",
   "bot": "Trok",
   "pipeline": {
-    "candidates": 685,
-    "techPassed": 69,
+    "candidates": 701,
+    "techPassed": 78,
     "company": 31,
     "leaders": 31,
     "entry": 31,
@@ -17,9 +17,9 @@
     ],
     "downstreamStale": true,
     "downstreamNote": "company techAlign techPassed=61 asOf 10-27; entry upstream techPassed=61 → 31 (consider30/watch BROS). Live Grok tech=69 — NOT re-locked downstream.",
-    "anchor": "live Grok tech 685→69 asOfMarket 10-30; company/leaders/entry STALE prior 61→31→31 (watch BROS) pending Arok/Jrok; live Frok screener 701 churn NOT re-locked into tech",
+    "anchor": "ALIGN 701→78→31→31 pending Jrok/Arok; asOfMarket 10-30. tip ?v=tech78-1030",
     "patternMix": {
-      "VCP": 45,
+      "VCP": 54,
       "bull_flag": 23,
       "cup_with_handle": 1
     },
@@ -33,9 +33,9 @@
       "bull_flag": 5,
       "cup_with_handle": 1
     },
-    "note": "Frok=候選池 only. Final pass=Grok techPassed 69. Do NOT claim LOCK 692→64→31→31. Live screener stats.passed=701 (mtime ~22:54) vs tech candidateCount 685 — pool churn; tech not re-scanned on 701.",
-    "screener": 685,
-    "techPass": 69,
+    "note": "Grok techPass 78 on Frok701 (Δ+9/−0/kept69) tip 862e76f; company/entry still prior 31 LOCK — STALE until Jrok③ + Arok⑤.",
+    "screener": 701,
+    "techPass": 78,
     "liveFrokPool": 701,
     "techPoolAtScan": 685,
     "vsLock64": {
@@ -95,8 +95,8 @@
       "entry": "2026-11-02 22:50 HKT (asOf 10-27 upstream 61 STALE)"
     }
   },
-  "status": "REBASE-techPass / HOLD-with-stale-downstream",
-  "summaryTw": "【總司令｜REBASE】live tech 685→69 asOf 10-30｜下游 STALE 舊61→31→31（BROS）｜推 ?v=cmd2252-1102",
+  "status": "ALIGN",
+  "summaryTw": "【總司令｜ALIGN】701→78→31→31（下游 STALE）asOf 10-30｜待 Jrok③／Arok⑤｜tip ?v=tech78-1030",
   "materialChange": true,
   "materialReasons": [
     "techPass LOCK64 (asOf 10-27) → live 69 (asOfMarket 10-30); turnover +31/−26/kept 38 vs tech-scan-lock-692",
@@ -203,7 +203,8 @@
   },
   "pagesTipSha": "6d1e95f9",
   "contentCommitSha": "6d1e95f96945cbda56bd072da0dd52270edb828c",
-  "liveSyncNote": "content 6d1e95f9 → tipSync b18e058a → tipLock 489d0a2c",
+  "liveSyncNote": "content 6d1e95f9 → tipSync b18e058a → tipLock 489d0a2c → seal a29149e1",
   "tipSyncCommitSha": "b18e058a6b1d61ea5f577fc5e61ff8b65fba8d25",
-  "tipLockCommitSha": "489d0a2c99ad979e4c85331c9d26a32fcf83c5de"
+  "tipLockCommitSha": "489d0a2c99ad979e4c85331c9d26a32fcf83c5de",
+  "tipLockSealCommitSha": "a29149e18f3a392f19b57655dd108fd8f4c3ee13"
 }
