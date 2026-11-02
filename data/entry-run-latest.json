@@ -1,36 +1,36 @@
 {
-  "generatedAt": "2026-11-02T15:48:52.244Z",
-  "asOf": "2026-10-30",
+  "generatedAt": "2026-11-02T21:11:00.744Z",
+  "asOf": "2026-11-02",
   "bot": "Arok",
   "role": "進場策略",
   "note": "只跟 Grok techPass＋Jrok 領導股閘；止損≤6%；表格欄 entry/stop/riskPct/bestMethod/leadership",
   "upstream": {
-    "techPassed": 78,
-    "company": 78,
-    "leaders": 34,
-    "techGeneratedAt": "2026-11-02T14:58:15.826475Z",
-    "companyGeneratedAt": "2026-11-02T23:06:48.521639+08:00"
+    "techPassed": 83,
+    "company": 83,
+    "leaders": 33,
+    "techGeneratedAt": "2026-11-02T21:03:56.330678Z",
+    "companyGeneratedAt": "2026-11-03T05:09:54.621739+08:00"
   },
-  "count": 34,
-  "actionableCount": 33,
-  "watchCount": 1,
+  "count": 33,
+  "actionableCount": 30,
+  "watchCount": 3,
   "patternMix": {
-    "VCP": 23,
-    "bull_flag": 10,
-    "cup_with_handle": 1
+    "VCP": 22,
+    "bull_flag": 8,
+    "cup_with_handle": 3
   },
   "methodMix": {
-    "Pullback": 25,
-    "META": 9
+    "Pullback": 23,
+    "META": 8
   },
-  "summaryTw": "【進場｜Arok】techPass 78 → 公司 78 → 領導股閘 34 → 計劃 34｜可考慮 33｜觀望 1\n方法：Pullback 25、META 9｜形態：VCP 23、bull_flag 10、cup_with_handle 1\n止損上限 6%；只跟 techPass＋領導股；表格欄 entry／stop／risk／策略／領導股。\n前排：NUE Pullback $273.87→$257.44 · ADI Pullback $417.11→$392.08 · ET Pullback $20.91→$19.66 · MDLZ Pullback $64.94→$61.04 · PSX Pullback $282.83→$265.86 · SONY Pullback $25.3→$23.78 · TD Pullback $124.5→$117.03 · WELL Pullback $234.6→$220.52",
+  "summaryTw": "【進場｜Arok】techPass 83 → 公司 83 → 領導股閘 33 → 計劃 33｜可考慮 30｜觀望 3\n方法：Pullback 23、META 8｜形態：VCP 22、bull_flag 8、cup_with_handle 3\n止損上限 6%；只跟 techPass＋領導股；表格欄 entry／stop／risk／策略／領導股。\n前排：WELL Pullback $239→$224.66 · ADI Pullback $412.85→$388.08 · CVX META $227.78→$214.11 · MDLZ Pullback $66.38→$62.4 · NUE Pullback $277.64→$260.98 · SHEL META $104.95→$98.65 · SONY Pullback $25.52→$23.99 · TD Pullback $125.05→$117.55",
   "reports": [
     {
-      "ticker": "NUE",
-      "name": "Nucor Corporation",
-      "theme": "化學工業",
-      "etf": "XLB",
-      "asOf": "2026-10-30",
+      "ticker": "WELL",
+      "name": "Welltower Inc.",
+      "theme": "雜項",
+      "etf": "XLRE",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 9
@@ -40,31 +40,31 @@
       "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 273.87,
-      "stop": 257.44,
+      "entry": 239,
+      "stop": 224.66,
       "riskPct": 6,
       "levels": {
-        "entry": 273.87,
-        "stop": 257.44,
+        "entry": 239,
+        "stop": 224.66,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
-        "targetHint": 275.9
+        "targetHint": 243.04
       },
       "why": [
         "領導股 + Pullback 達標",
         "VCP：樞紐附近 META／Pullback"
       ],
       "pattern": "VCP",
-      "pivot": 275.9,
-      "price": 273.87,
+      "pivot": 243.04,
+      "price": 239,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $273.87→$257.44 (6%) · VCP · Nucor Corporation",
-      "detailTw": "NUE 進場策略（Arok）\n領導股：是（score 9）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $273.87／止損 $257.44（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $239→$224.66 (6%) · VCP · Welltower Inc.",
+      "detailTw": "WELL 進場策略（Arok）\n領導股：是（score 9）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $239／止損 $224.66（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.261Z",
+          "t": "2026-11-02T21:11:00.790Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -72,16 +72,16 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "先前大升約 25%",
-              "回踩落入 zone $229.2–$275.9",
+              "先前大升約 23%",
+              "回踩落入 zone $217.72–$243.04",
               "回踩處 META 同時成立"
             ],
-            "metaScore": 4,
+            "metaScore": 3,
             "note": "缩量回踩＋支持區，Pullback 成立"
           }
         },
         {
-          "t": "2026-11-02T15:48:52.261Z",
+          "t": "2026-11-02T21:11:00.790Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -92,12 +92,12 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.261Z",
+          "t": "2026-11-02T21:11:00.790Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
           "detail": {
-            "ticker": "NUE",
+            "ticker": "WELL",
             "action": "可考慮進場",
             "best": "Pullback",
             "leader": true
@@ -110,7 +110,7 @@
       "name": "Analog Devices, Inc.",
       "theme": "半導體",
       "etf": "SOX",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 8
@@ -120,31 +120,31 @@
       "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 417.11,
-      "stop": 392.08,
+      "entry": 412.85,
+      "stop": 388.08,
       "riskPct": 6,
       "levels": {
-        "entry": 417.11,
-        "stop": 392.08,
+        "entry": 412.85,
+        "stop": 388.08,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
-        "targetHint": 433.39
+        "targetHint": 433.72
       },
       "why": [
         "領導股 + Pullback 達標",
         "VCP：樞紐附近 META／Pullback"
       ],
       "pattern": "VCP",
-      "pivot": 433.39,
-      "price": 417.11,
+      "pivot": 433.72,
+      "price": 412.85,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $417.11→$392.08 (6%) · VCP · Analog Devices, Inc.",
-      "detailTw": "ADI 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $417.11／止損 $392.08（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $412.85→$388.08 (6%) · VCP · Analog Devices, Inc.",
+      "detailTw": "ADI 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $412.85／止損 $388.08（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.285Z",
+          "t": "2026-11-02T21:11:00.794Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -152,15 +152,15 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "回踩落入 zone $382–$433.39",
+              "回踩落入 zone $382–$433.72",
               "回踩處 META 同時成立"
             ],
-            "metaScore": 2,
+            "metaScore": 3,
             "note": "缩量回踩＋支持區，Pullback 成立"
           }
         },
         {
-          "t": "2026-11-02T15:48:52.285Z",
+          "t": "2026-11-02T21:11:00.794Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -171,7 +171,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.285Z",
+          "t": "2026-11-02T21:11:00.794Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -185,11 +185,11 @@
       ]
     },
     {
-      "ticker": "ET",
-      "name": "Energy Transfer LP",
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
       "theme": "能源",
       "etf": "XLE",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 8
@@ -197,33 +197,33 @@
       "leader": true,
       "techPass": true,
       "action": "可考慮進場",
-      "bestMethod": "Pullback",
-      "tradeStyle": "Position trade",
-      "entry": 20.91,
-      "stop": 19.66,
+      "bestMethod": "META",
+      "tradeStyle": "Swing trade",
+      "entry": 227.78,
+      "stop": 214.11,
       "riskPct": 6,
       "levels": {
-        "entry": 20.91,
-        "stop": 19.66,
+        "entry": 227.78,
+        "stop": 214.11,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
-        "targetHint": 21.84
+        "targetHint": 236.48
       },
       "why": [
-        "領導股 + Pullback 達標",
-        "VCP：樞紐附近 META／Pullback"
+        "領導股 + META 達標",
+        "bull flag：破旗面偏 BO，否則 META／Pullback"
       ],
-      "pattern": "VCP",
-      "pivot": 21.84,
-      "price": 20.91,
+      "pattern": "bull_flag",
+      "pivot": 236.48,
+      "price": 227.78,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $20.91→$19.66 (6%) · VCP · Energy Transfer LP",
-      "detailTw": "ET 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $20.91／止損 $19.66（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · META · Swing trade · $227.78→$214.11 (6%) · bull_flag · Chevron Corporation",
+      "detailTw": "CVX 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $227.78／止損 $214.11（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.289Z",
+          "t": "2026-11-02T21:11:00.795Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -231,8 +231,8 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "先前大升約 36%",
-              "回踩落入 zone $19.55–$21.84",
+              "先前大升約 39%",
+              "回踩落入 zone $142.51–$236.48",
               "回踩處 META 同時成立"
             ],
             "metaScore": 3,
@@ -240,25 +240,25 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.289Z",
+          "t": "2026-11-02T21:11:00.795Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
           "detail": {
-            "prefer": "Pullback",
+            "prefer": "BO",
             "blockLong": false,
-            "note": "VCP：樞紐附近 META／Pullback"
+            "note": "bull flag：破旗面偏 BO，否則 META／Pullback"
           }
         },
         {
-          "t": "2026-11-02T15:48:52.289Z",
+          "t": "2026-11-02T21:11:00.795Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
           "detail": {
-            "ticker": "ET",
+            "ticker": "CVX",
             "action": "可考慮進場",
-            "best": "Pullback",
+            "best": "META",
             "leader": true
           }
         }
@@ -269,7 +269,7 @@
       "name": "Mondelez International, Inc.",
       "theme": "雜項",
       "etf": "XLP",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 8
@@ -279,12 +279,12 @@
       "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 64.94,
-      "stop": 61.04,
+      "entry": 66.38,
+      "stop": 62.4,
       "riskPct": 6,
       "levels": {
-        "entry": 64.94,
-        "stop": 61.04,
+        "entry": 66.38,
+        "stop": 62.4,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
@@ -296,14 +296,14 @@
       ],
       "pattern": "VCP",
       "pivot": 66.07,
-      "price": 64.94,
+      "price": 66.38,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $64.94→$61.04 (6%) · VCP · Mondelez International, Inc.",
-      "detailTw": "MDLZ 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $64.94／止損 $61.04（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $66.38→$62.4 (6%) · VCP · Mondelez International, Inc.",
+      "detailTw": "MDLZ 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $66.38／止損 $62.4（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.267Z",
+          "t": "2026-11-02T21:11:00.774Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -311,8 +311,7 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "先前大升約 29%",
-              "回踩落入 zone $60.12–$66.07",
+              "回踩落入 zone $60.12–$66.38",
               "回踩處 META 同時成立"
             ],
             "metaScore": 3,
@@ -320,7 +319,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.267Z",
+          "t": "2026-11-02T21:11:00.774Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -331,7 +330,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.267Z",
+          "t": "2026-11-02T21:11:00.774Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -345,11 +344,11 @@
       ]
     },
     {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "theme": "能源",
-      "etf": "XLE",
-      "asOf": "2026-10-30",
+      "ticker": "NUE",
+      "name": "Nucor Corporation",
+      "theme": "化學工業",
+      "etf": "XLB",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 8
@@ -359,31 +358,31 @@
       "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 282.83,
-      "stop": 265.86,
+      "entry": 277.64,
+      "stop": 260.98,
       "riskPct": 6,
       "levels": {
-        "entry": 282.83,
-        "stop": 265.86,
+        "entry": 277.64,
+        "stop": 260.98,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
-        "targetHint": 299.39
+        "targetHint": 287.7
       },
       "why": [
         "領導股 + Pullback 達標",
         "VCP：樞紐附近 META／Pullback"
       ],
       "pattern": "VCP",
-      "pivot": 299.39,
-      "price": 282.83,
+      "pivot": 287.7,
+      "price": 277.64,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $282.83→$265.86 (6%) · VCP · Phillips 66",
-      "detailTw": "PSX 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $282.83／止損 $265.86（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $277.64→$260.98 (6%) · VCP · Nucor Corporation",
+      "detailTw": "NUE 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $277.64／止損 $260.98（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.291Z",
+          "t": "2026-11-02T21:11:00.793Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -391,16 +390,16 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "先前大升約 71%",
-              "回踩落入 zone $248.51–$299.39",
+              "先前大升約 27%",
+              "回踩落入 zone $229.2–$287.7",
               "回踩處 META 同時成立"
             ],
-            "metaScore": 3,
+            "metaScore": 4,
             "note": "缩量回踩＋支持區，Pullback 成立"
           }
         },
         {
-          "t": "2026-11-02T15:48:52.291Z",
+          "t": "2026-11-02T21:11:00.793Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -411,14 +410,94 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.291Z",
+          "t": "2026-11-02T21:11:00.793Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
           "detail": {
-            "ticker": "PSX",
+            "ticker": "NUE",
             "action": "可考慮進場",
             "best": "Pullback",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "SHEL",
+      "name": "Shell plc",
+      "theme": "能源",
+      "etf": "XLE",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 8
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "可考慮進場",
+      "bestMethod": "META",
+      "tradeStyle": "Swing trade",
+      "entry": 104.95,
+      "stop": 98.65,
+      "riskPct": 6,
+      "levels": {
+        "entry": 104.95,
+        "stop": 98.65,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 109.37
+      },
+      "why": [
+        "領導股 + META 達標",
+        "bull flag：破旗面偏 BO，否則 META／Pullback"
+      ],
+      "pattern": "bull_flag",
+      "pivot": 109.37,
+      "price": 104.95,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "可考慮進場 · META · Swing trade · $104.95→$98.65 (6%) · bull_flag · Shell plc",
+      "detailTw": "SHEL 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $104.95／止損 $98.65（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.801Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 38%",
+              "回踩落入 zone $96.55–$109.37",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.801Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "BO",
+            "blockLong": false,
+            "note": "bull flag：破旗面偏 BO，否則 META／Pullback"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.801Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "SHEL",
+            "action": "可考慮進場",
+            "best": "META",
             "leader": true
           }
         }
@@ -429,7 +508,7 @@
       "name": "Sony Group Corporation",
       "theme": "Hardware",
       "etf": "XLK",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 8
@@ -439,12 +518,12 @@
       "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 25.3,
-      "stop": 23.78,
+      "entry": 25.52,
+      "stop": 23.99,
       "riskPct": 6,
       "levels": {
-        "entry": 25.3,
-        "stop": 23.78,
+        "entry": 25.52,
+        "stop": 23.99,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
@@ -456,14 +535,14 @@
       ],
       "pattern": "VCP",
       "pivot": 26.31,
-      "price": 25.3,
+      "price": 25.52,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $25.3→$23.78 (6%) · VCP · Sony Group Corporation",
-      "detailTw": "SONY 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $25.3／止損 $23.78（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $25.52→$23.99 (6%) · VCP · Sony Group Corporation",
+      "detailTw": "SONY 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $25.52／止損 $23.99（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.288Z",
+          "t": "2026-11-02T21:11:00.794Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -471,7 +550,7 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "先前大升約 31%",
+              "先前大升約 32%",
               "回踩落入 zone $22.86–$26.31",
               "回踩處 META 同時成立"
             ],
@@ -480,7 +559,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.288Z",
+          "t": "2026-11-02T21:11:00.794Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -491,7 +570,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.288Z",
+          "t": "2026-11-02T21:11:00.794Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -509,7 +588,7 @@
       "name": "The Toronto-Dominion Bank",
       "theme": "金融",
       "etf": "XLF",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 8
@@ -519,12 +598,12 @@
       "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 124.5,
-      "stop": 117.03,
+      "entry": 125.05,
+      "stop": 117.55,
       "riskPct": 6,
       "levels": {
-        "entry": 124.5,
-        "stop": 117.03,
+        "entry": 125.05,
+        "stop": 117.55,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
@@ -536,14 +615,14 @@
       ],
       "pattern": "VCP",
       "pivot": 124.6,
-      "price": 124.5,
+      "price": 125.05,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $124.5→$117.03 (6%) · VCP · The Toronto-Dominion Bank",
-      "detailTw": "TD 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $124.5／止損 $117.03（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $125.05→$117.55 (6%) · VCP · The Toronto-Dominion Bank",
+      "detailTw": "TD 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $125.05／止損 $117.55（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.253Z",
+          "t": "2026-11-02T21:11:00.767Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -552,7 +631,7 @@
             "ok": true,
             "reasons": [
               "回踩縮量",
-              "回踩落入 zone $114.33–$124.6",
+              "回踩落入 zone $114.33–$125.05",
               "回踩處 META 同時成立"
             ],
             "metaScore": 3,
@@ -560,7 +639,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.253Z",
+          "t": "2026-11-02T21:11:00.767Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -571,7 +650,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.253Z",
+          "t": "2026-11-02T21:11:00.767Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -585,11 +664,11 @@
       ]
     },
     {
-      "ticker": "WELL",
-      "name": "Welltower Inc.",
+      "ticker": "WM",
+      "name": "Waste Management, Inc.",
       "theme": "雜項",
-      "etf": "XLRE",
-      "asOf": "2026-10-30",
+      "etf": "XLI",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 8
@@ -597,653 +676,14 @@
       "leader": true,
       "techPass": true,
       "action": "可考慮進場",
-      "bestMethod": "Pullback",
-      "tradeStyle": "Position trade",
-      "entry": 234.6,
-      "stop": 220.52,
-      "riskPct": 6,
-      "levels": {
-        "entry": 234.6,
-        "stop": 220.52,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 243.04
-      },
-      "why": [
-        "領導股 + Pullback 達標",
-        "VCP：樞紐附近 META／Pullback"
-      ],
-      "pattern": "VCP",
-      "pivot": 243.04,
-      "price": 234.6,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $234.6→$220.52 (6%) · VCP · Welltower Inc.",
-      "detailTw": "WELL 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $234.6／止損 $220.52（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.283Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 21%",
-              "回踩落入 zone $217.72–$243.04",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 3,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.283Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "Pullback",
-            "blockLong": false,
-            "note": "VCP：樞紐附近 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.283Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "WELL",
-            "action": "可考慮進場",
-            "best": "Pullback",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "ADSK",
-      "name": "Autodesk, Inc.",
-      "theme": "Hardware",
-      "etf": "XLK",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 7
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "Pullback",
-      "tradeStyle": "Position trade",
-      "entry": 249.61,
-      "stop": 234.63,
-      "riskPct": 6,
-      "levels": {
-        "entry": 249.61,
-        "stop": 234.63,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 256.17
-      },
-      "why": [
-        "領導股 + Pullback 達標",
-        "VCP：樞紐附近 META／Pullback"
-      ],
-      "pattern": "VCP",
-      "pivot": 256.17,
-      "price": 249.61,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $249.61→$234.63 (6%) · VCP · Autodesk, Inc.",
-      "detailTw": "ADSK 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $249.61／止損 $234.63（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.280Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 33%",
-              "回踩落入 zone $234.34–$256.17",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 4,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.280Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "Pullback",
-            "blockLong": false,
-            "note": "VCP：樞紐附近 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.280Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "ADSK",
-            "action": "可考慮進場",
-            "best": "Pullback",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "AMX",
-      "name": "América Móvil, S.A.B. de C.V.",
-      "theme": "Software service",
-      "etf": "XLC",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 7
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
       "bestMethod": "META",
       "tradeStyle": "Swing trade",
-      "entry": 24.48,
-      "stop": 24.46,
-      "riskPct": 0.09,
-      "levels": {
-        "entry": 24.48,
-        "stop": 24.46,
-        "riskPct": 0.09,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": false,
-        "targetHint": 24.95
-      },
-      "why": [
-        "領導股 + META 達標",
-        "bull flag：破旗面偏 BO，否則 META／Pullback"
-      ],
-      "pattern": "bull_flag",
-      "pivot": 24.95,
-      "price": 24.48,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · META · Swing trade · $24.48→$24.46 (0.09%) · bull_flag · América Móvil, S.A.B. de C.V.",
-      "detailTw": "AMX 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $24.48／止損 $24.46（風險 0.09%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.269Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "回踩落入 zone $24.46–$24.95",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 4,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.269Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "BO",
-            "blockLong": false,
-            "note": "bull flag：破旗面偏 BO，否則 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.269Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "AMX",
-            "action": "可考慮進場",
-            "best": "META",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "ECL",
-      "name": "Ecolab Inc.",
-      "theme": "化學工業",
-      "etf": "XLB",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 7
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "Pullback",
-      "tradeStyle": "Position trade",
-      "entry": 302.98,
-      "stop": 284.8,
+      "entry": 237.74,
+      "stop": 223.48,
       "riskPct": 6,
       "levels": {
-        "entry": 302.98,
-        "stop": 284.8,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 305.71
-      },
-      "why": [
-        "領導股 + Pullback 達標",
-        "VCP：樞紐附近 META／Pullback"
-      ],
-      "pattern": "VCP",
-      "pivot": 305.71,
-      "price": 302.98,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $302.98→$284.8 (6%) · VCP · Ecolab Inc.",
-      "detailTw": "ECL 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $302.98／止損 $284.8（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.256Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 24%",
-              "回踩落入 zone $267.46–$305.71",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 3,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.256Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "Pullback",
-            "blockLong": false,
-            "note": "VCP：樞紐附近 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.256Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "ECL",
-            "action": "可考慮進場",
-            "best": "Pullback",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "FAST",
-      "name": "Fastenal Company",
-      "theme": "雜項",
-      "etf": "XLI",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 7
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "Pullback",
-      "tradeStyle": "Position trade",
-      "entry": 51.91,
-      "stop": 48.8,
-      "riskPct": 6,
-      "levels": {
-        "entry": 51.91,
-        "stop": 48.8,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 52.65
-      },
-      "why": [
-        "領導股 + Pullback 達標",
-        "VCP：樞紐附近 META／Pullback"
-      ],
-      "pattern": "VCP",
-      "pivot": 52.65,
-      "price": 51.91,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $51.91→$48.8 (6%) · VCP · Fastenal Company",
-      "detailTw": "FAST 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $51.91／止損 $48.8（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.259Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 21%",
-              "回踩落入 zone $47.41–$52.65",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 3,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.259Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "Pullback",
-            "blockLong": false,
-            "note": "VCP：樞紐附近 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.259Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "FAST",
-            "action": "可考慮進場",
-            "best": "Pullback",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "KMI",
-      "name": "Kinder Morgan, Inc.",
-      "theme": "能源",
-      "etf": "XLE",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 7
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "META",
-      "tradeStyle": "Swing trade",
-      "entry": 33.87,
-      "stop": 31.84,
-      "riskPct": 6,
-      "levels": {
-        "entry": 33.87,
-        "stop": 31.84,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 34.54
-      },
-      "why": [
-        "領導股 + META 達標",
-        "bull flag：破旗面偏 BO，否則 META／Pullback"
-      ],
-      "pattern": "bull_flag",
-      "pivot": 34.54,
-      "price": 33.87,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · META · Swing trade · $33.87→$31.84 (6%) · bull_flag · Kinder Morgan, Inc.",
-      "detailTw": "KMI 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $33.87／止損 $31.84（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.271Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 35%",
-              "回踩落入 zone $29.43–$34.54",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 3,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.271Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "BO",
-            "blockLong": false,
-            "note": "bull flag：破旗面偏 BO，否則 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.271Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "KMI",
-            "action": "可考慮進場",
-            "best": "META",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "MAR",
-      "name": "Marriott International, Inc.",
-      "theme": "雜項",
-      "etf": "XLY",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 7
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "META",
-      "tradeStyle": "Swing trade",
-      "entry": 399.3,
-      "stop": 375.34,
-      "riskPct": 6,
-      "levels": {
-        "entry": 399.3,
-        "stop": 375.34,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 407.34
-      },
-      "why": [
-        "領導股 + META 達標",
-        "bull flag：破旗面偏 BO，否則 META／Pullback"
-      ],
-      "pattern": "bull_flag",
-      "pivot": 407.34,
-      "price": 399.3,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · META · Swing trade · $399.3→$375.34 (6%) · bull_flag · Marriott International, Inc.",
-      "detailTw": "MAR 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $399.3／止損 $375.34（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.275Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 21%",
-              "回踩落入 zone $344–$407.34",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 5,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.275Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "BO",
-            "blockLong": false,
-            "note": "bull flag：破旗面偏 BO，否則 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.275Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "MAR",
-            "action": "可考慮進場",
-            "best": "META",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "RELX",
-      "name": "RELX PLC",
-      "theme": "雜項",
-      "etf": "XLI",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 7
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "Pullback",
-      "tradeStyle": "Position trade",
-      "entry": 40.09,
-      "stop": 37.68,
-      "riskPct": 6,
-      "levels": {
-        "entry": 40.09,
-        "stop": 37.68,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 40.9
-      },
-      "why": [
-        "領導股 + Pullback 達標",
-        "VCP：樞紐附近 META／Pullback"
-      ],
-      "pattern": "VCP",
-      "pivot": 40.9,
-      "price": 40.09,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $40.09→$37.68 (6%) · VCP · RELX PLC",
-      "detailTw": "RELX 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $40.09／止損 $37.68（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.276Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 31%",
-              "回踩落入 zone $32.69–$40.9",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 4,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.276Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "Pullback",
-            "blockLong": false,
-            "note": "VCP：樞紐附近 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.276Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "RELX",
-            "action": "可考慮進場",
-            "best": "Pullback",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "WM",
-      "name": "Waste Management, Inc.",
-      "theme": "雜項",
-      "etf": "XLI",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 7
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "META",
-      "tradeStyle": "Swing trade",
-      "entry": 233.45,
-      "stop": 219.44,
-      "riskPct": 6,
-      "levels": {
-        "entry": 233.45,
-        "stop": 219.44,
+        "entry": 237.74,
+        "stop": 223.48,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
@@ -1255,14 +695,14 @@
       ],
       "pattern": "bull_flag",
       "pivot": 241.47,
-      "price": 233.45,
+      "price": 237.74,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · META · Swing trade · $233.45→$219.44 (6%) · bull_flag · Waste Management, Inc.",
-      "detailTw": "WM 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $233.45／止損 $219.44（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
+      "summaryTw": "可考慮進場 · META · Swing trade · $237.74→$223.48 (6%) · bull_flag · Waste Management, Inc.",
+      "detailTw": "WM 進場策略（Arok）\n領導股：是（score 8）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $237.74／止損 $223.48（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.281Z",
+          "t": "2026-11-02T21:11:00.789Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1270,6 +710,7 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
+              "回踩縮量",
               "回踩落入 zone $200.58–$241.47",
               "回踩處 META 同時成立"
             ],
@@ -1278,7 +719,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.281Z",
+          "t": "2026-11-02T21:11:00.789Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1289,7 +730,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.281Z",
+          "t": "2026-11-02T21:11:00.789Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1303,205 +744,45 @@
       ]
     },
     {
-      "ticker": "BNS",
-      "name": "The Bank of Nova Scotia",
-      "theme": "金融",
-      "etf": "XLF",
-      "asOf": "2026-10-30",
+      "ticker": "AMX",
+      "name": "América Móvil, S.A.B. de C.V.",
+      "theme": "Software service",
+      "etf": "XLC",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
-        "score": 6
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "Pullback",
-      "tradeStyle": "Position trade",
-      "entry": 93.76,
-      "stop": 88.13,
-      "riskPct": 6,
-      "levels": {
-        "entry": 93.76,
-        "stop": 88.13,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 96.17
-      },
-      "why": [
-        "領導股 + Pullback 達標",
-        "VCP：樞紐附近 META／Pullback"
-      ],
-      "pattern": "VCP",
-      "pivot": 96.17,
-      "price": 93.76,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $93.76→$88.13 (6%) · VCP · The Bank of Nova Scotia",
-      "detailTw": "BNS 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $93.76／止損 $88.13（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.278Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 25%",
-              "回踩落入 zone $86.42–$96.17",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 4,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.278Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "Pullback",
-            "blockLong": false,
-            "note": "VCP：樞紐附近 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.278Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "BNS",
-            "action": "可考慮進場",
-            "best": "Pullback",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "CNI",
-      "name": "Canadian National Railway Company",
-      "theme": "雜項",
-      "etf": "XLI",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 6
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "Pullback",
-      "tradeStyle": "Position trade",
-      "entry": 123.69,
-      "stop": 116.27,
-      "riskPct": 6,
-      "levels": {
-        "entry": 123.69,
-        "stop": 116.27,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 130.84
-      },
-      "why": [
-        "領導股 + Pullback 達標",
-        "VCP：樞紐附近 META／Pullback"
-      ],
-      "pattern": "VCP",
-      "pivot": 130.84,
-      "price": 123.69,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $123.69→$116.27 (6%) · VCP · Canadian National Railway Company",
-      "detailTw": "CNI 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $123.69／止損 $116.27（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.290Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 38%",
-              "回踩落入 zone $115–$130.84",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 4,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.290Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "Pullback",
-            "blockLong": false,
-            "note": "VCP：樞紐附近 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.290Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "CNI",
-            "action": "可考慮進場",
-            "best": "Pullback",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "DHT",
-      "name": "DHT Holdings, Inc.",
-      "theme": "能源",
-      "etf": "XLE",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 6
+        "score": 7
       },
       "leader": true,
       "techPass": true,
       "action": "可考慮進場",
       "bestMethod": "META",
       "tradeStyle": "Swing trade",
-      "entry": 25.02,
-      "stop": 23.52,
-      "riskPct": 6,
+      "entry": 24.73,
+      "stop": 24.46,
+      "riskPct": 1.1,
       "levels": {
-        "entry": 25.02,
-        "stop": 23.52,
-        "riskPct": 6,
+        "entry": 24.73,
+        "stop": 24.46,
+        "riskPct": 1.1,
         "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 25.38
+        "stopClampedTo6pct": false,
+        "targetHint": 25.05
       },
       "why": [
         "領導股 + META 達標",
         "bull flag：破旗面偏 BO，否則 META／Pullback"
       ],
       "pattern": "bull_flag",
-      "pivot": 25.38,
-      "price": 25.02,
+      "pivot": 25.05,
+      "price": 24.73,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · META · Swing trade · $25.02→$23.52 (6%) · bull_flag · DHT Holdings, Inc.",
-      "detailTw": "DHT 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $25.02／止損 $23.52（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
+      "summaryTw": "可考慮進場 · META · Swing trade · $24.73→$24.46 (1.1%) · bull_flag · América Móvil, S.A.B. de C.V.",
+      "detailTw": "AMX 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $24.73／止損 $24.46（風險 1.1%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.262Z",
+          "t": "2026-11-02T21:11:00.788Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1509,17 +790,16 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "先前大升約 64%",
               "回踩縮量",
-              "回踩落入 zone $15.48–$25.38",
+              "回踩落入 zone $24.46–$25.05",
               "回踩處 META 同時成立"
             ],
-            "metaScore": 3,
+            "metaScore": 4,
             "note": "缩量回踩＋支持區，Pullback 成立"
           }
         },
         {
-          "t": "2026-11-02T15:48:52.262Z",
+          "t": "2026-11-02T21:11:00.788Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1530,12 +810,12 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.262Z",
+          "t": "2026-11-02T21:11:00.788Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
           "detail": {
-            "ticker": "DHT",
+            "ticker": "AMX",
             "action": "可考慮進場",
             "best": "META",
             "leader": true
@@ -1548,41 +828,41 @@
       "name": "The Walt Disney Company",
       "theme": "Software service",
       "etf": "XLC",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
-        "score": 6
+        "score": 7
       },
       "leader": true,
       "techPass": true,
       "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 110.94,
-      "stop": 104.28,
+      "entry": 113.14,
+      "stop": 106.35,
       "riskPct": 6,
       "levels": {
-        "entry": 110.94,
-        "stop": 104.28,
+        "entry": 113.14,
+        "stop": 106.35,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
-        "targetHint": 113.38
+        "targetHint": 113.79
       },
       "why": [
         "領導股 + Pullback 達標",
         "VCP：樞紐附近 META／Pullback"
       ],
       "pattern": "VCP",
-      "pivot": 113.38,
-      "price": 110.94,
+      "pivot": 113.79,
+      "price": 113.14,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $110.94→$104.28 (6%) · VCP · The Walt Disney Company",
-      "detailTw": "DIS 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $110.94／止損 $104.28（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $113.14→$106.35 (6%) · VCP · The Walt Disney Company",
+      "detailTw": "DIS 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $113.14／止損 $106.35（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.277Z",
+          "t": "2026-11-02T21:11:00.765Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1590,15 +870,17 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "回踩落入 zone $101.15–$113.38",
+              "先前大升約 22%",
+              "回踩縮量",
+              "回踩落入 zone $101.15–$113.79",
               "回踩處 META 同時成立"
             ],
-            "metaScore": 3,
+            "metaScore": 4,
             "note": "缩量回踩＋支持區，Pullback 成立"
           }
         },
         {
-          "t": "2026-11-02T15:48:52.277Z",
+          "t": "2026-11-02T21:11:00.765Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1609,7 +891,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.277Z",
+          "t": "2026-11-02T21:11:00.765Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1623,45 +905,45 @@
       ]
     },
     {
-      "ticker": "FANG",
-      "name": "Diamondback Energy, Inc.",
-      "theme": "能源",
-      "etf": "XLE",
-      "asOf": "2026-10-30",
+      "ticker": "ECL",
+      "name": "Ecolab Inc.",
+      "theme": "化學工業",
+      "etf": "XLB",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
-        "score": 6
+        "score": 7
       },
       "leader": true,
       "techPass": true,
       "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 212.08,
-      "stop": 199.36,
+      "entry": 308.47,
+      "stop": 289.96,
       "riskPct": 6,
       "levels": {
-        "entry": 212.08,
-        "stop": 199.36,
+        "entry": 308.47,
+        "stop": 289.96,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
-        "targetHint": 216.9
+        "targetHint": 310
       },
       "why": [
         "領導股 + Pullback 達標",
         "VCP：樞紐附近 META／Pullback"
       ],
       "pattern": "VCP",
-      "pivot": 216.9,
-      "price": 212.08,
+      "pivot": 310,
+      "price": 308.47,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $212.08→$199.36 (6%) · VCP · Diamondback Energy, Inc.",
-      "detailTw": "FANG 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $212.08／止損 $199.36（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $308.47→$289.96 (6%) · VCP · Ecolab Inc.",
+      "detailTw": "ECL 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $308.47／止損 $289.96（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.277Z",
+          "t": "2026-11-02T21:11:00.764Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1669,8 +951,9 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "先前大升約 24%",
-              "回踩落入 zone $196.65–$216.9",
+              "先前大升約 26%",
+              "回踩縮量",
+              "回踩落入 zone $267.46–$310",
               "回踩處 META 同時成立"
             ],
             "metaScore": 3,
@@ -1678,7 +961,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.277Z",
+          "t": "2026-11-02T21:11:00.764Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1689,12 +972,12 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.277Z",
+          "t": "2026-11-02T21:11:00.764Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
           "detail": {
-            "ticker": "FANG",
+            "ticker": "ECL",
             "action": "可考慮進場",
             "best": "Pullback",
             "leader": true
@@ -1707,22 +990,22 @@
       "name": "ICICI Bank Limited",
       "theme": "金融",
       "etf": "XLF",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
-        "score": 6
+        "score": 7
       },
       "leader": true,
       "techPass": true,
       "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 29.45,
-      "stop": 27.68,
+      "entry": 30.07,
+      "stop": 28.27,
       "riskPct": 6,
       "levels": {
-        "entry": 29.45,
-        "stop": 27.68,
+        "entry": 30.07,
+        "stop": 28.27,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
@@ -1734,14 +1017,14 @@
       ],
       "pattern": "VCP",
       "pivot": 30.67,
-      "price": 29.45,
+      "price": 30.07,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $29.45→$27.68 (6%) · VCP · ICICI Bank Limited",
-      "detailTw": "IBN 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $29.45／止損 $27.68（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $30.07→$28.27 (6%) · VCP · ICICI Bank Limited",
+      "detailTw": "IBN 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $30.07／止損 $28.27（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.288Z",
+          "t": "2026-11-02T21:11:00.792Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1749,15 +1032,16 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
+              "先前大升約 20%",
               "回踩落入 zone $27.07–$30.67",
               "回踩處 META 同時成立"
             ],
-            "metaScore": 4,
+            "metaScore": 3,
             "note": "缩量回踩＋支持區，Pullback 成立"
           }
         },
         {
-          "t": "2026-11-02T15:48:52.288Z",
+          "t": "2026-11-02T21:11:00.792Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1768,7 +1052,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.288Z",
+          "t": "2026-11-02T21:11:00.792Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -1782,11 +1066,91 @@
       ]
     },
     {
-      "ticker": "INFY",
-      "name": "Infosys Limited",
+      "ticker": "TEL",
+      "name": "TE Connectivity plc",
       "theme": "Hardware",
       "etf": "XLK",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 7
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "可考慮進場",
+      "bestMethod": "Pullback",
+      "tradeStyle": "Position trade",
+      "entry": 217.56,
+      "stop": 204.63,
+      "riskPct": 5.94,
+      "levels": {
+        "entry": 217.56,
+        "stop": 204.63,
+        "riskPct": 5.94,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": false,
+        "targetHint": 230
+      },
+      "why": [
+        "領導股 + Pullback 達標",
+        "VCP：樞紐附近 META／Pullback"
+      ],
+      "pattern": "VCP",
+      "pivot": 230,
+      "price": 217.56,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $217.56→$204.63 (5.94%) · VCP · TE Connectivity plc",
+      "detailTw": "TEL 進場策略（Arok）\n領導股：是（score 7）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $217.56／止損 $204.63（風險 5.94%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.804Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 20%",
+              "回踩落入 zone $204.63–$230",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.804Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "Pullback",
+            "blockLong": false,
+            "note": "VCP：樞紐附近 META／Pullback"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.804Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "TEL",
+            "action": "可考慮進場",
+            "best": "Pullback",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "ADSK",
+      "name": "Autodesk, Inc.",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 6
@@ -1796,31 +1160,31 @@
       "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 12.55,
-      "stop": 11.83,
-      "riskPct": 5.74,
+      "entry": 257.91,
+      "stop": 242.44,
+      "riskPct": 6,
       "levels": {
-        "entry": 12.55,
-        "stop": 11.83,
-        "riskPct": 5.74,
+        "entry": 257.91,
+        "stop": 242.44,
+        "riskPct": 6,
         "maxStopPct": 6,
-        "stopClampedTo6pct": false,
-        "targetHint": 13.3
+        "stopClampedTo6pct": true,
+        "targetHint": 263.13
       },
       "why": [
         "領導股 + Pullback 達標",
         "VCP：樞紐附近 META／Pullback"
       ],
       "pattern": "VCP",
-      "pivot": 13.3,
-      "price": 12.55,
+      "pivot": 263.13,
+      "price": 257.91,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $12.55→$11.83 (5.74%) · VCP · Infosys Limited",
-      "detailTw": "INFY 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $12.55／止損 $11.83（風險 5.74%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $257.91→$242.44 (6%) · VCP · Autodesk, Inc.",
+      "detailTw": "ADSK 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $257.91／止損 $242.44（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.291Z",
+          "t": "2026-11-02T21:11:00.776Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -1828,7 +1192,89 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "回踩落入 zone $11.83–$13.3",
+              "先前大升約 37%",
+              "回踩落入 zone $234.34–$263.13",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.776Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "Pullback",
+            "blockLong": false,
+            "note": "VCP：樞紐附近 META／Pullback"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.776Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "ADSK",
+            "action": "可考慮進場",
+            "best": "Pullback",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "BNS",
+      "name": "The Bank of Nova Scotia",
+      "theme": "金融",
+      "etf": "XLF",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 6
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "可考慮進場",
+      "bestMethod": "Pullback",
+      "tradeStyle": "Position trade",
+      "entry": 94.04,
+      "stop": 88.4,
+      "riskPct": 6,
+      "levels": {
+        "entry": 94.04,
+        "stop": 88.4,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 96.17
+      },
+      "why": [
+        "領導股 + Pullback 達標",
+        "VCP：樞紐附近 META／Pullback"
+      ],
+      "pattern": "VCP",
+      "pivot": 96.17,
+      "price": 94.04,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $94.04→$88.4 (6%) · VCP · The Bank of Nova Scotia",
+      "detailTw": "BNS 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $94.04／止損 $88.4（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.793Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 25%",
+              "回踩縮量",
+              "回踩落入 zone $86.42–$96.17",
               "回踩處 META 同時成立"
             ],
             "metaScore": 4,
@@ -1836,7 +1282,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.291Z",
+          "t": "2026-11-02T21:11:00.793Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -1847,12 +1293,12 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.291Z",
+          "t": "2026-11-02T21:11:00.793Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
           "detail": {
-            "ticker": "INFY",
+            "ticker": "BNS",
             "action": "可考慮進場",
             "best": "Pullback",
             "leader": true
@@ -1861,11 +1307,11 @@
       ]
     },
     {
-      "ticker": "NTRA",
-      "name": "Natera, Inc.",
-      "theme": "醫療",
-      "etf": "XLV",
-      "asOf": "2026-10-30",
+      "ticker": "HD",
+      "name": "The Home Depot, Inc.",
+      "theme": "雜項",
+      "etf": "XLY",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 6
@@ -1873,273 +1319,33 @@
       "leader": true,
       "techPass": true,
       "action": "可考慮進場",
-      "bestMethod": "META",
-      "tradeStyle": "Swing trade",
-      "entry": 414.3,
-      "stop": 389.44,
-      "riskPct": 6,
-      "levels": {
-        "entry": 414.3,
-        "stop": 389.44,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 436.19
-      },
-      "why": [
-        "領導股 + META 達標",
-        "bull flag：破旗面偏 BO，否則 META／Pullback"
-      ],
-      "pattern": "bull_flag",
-      "pivot": 436.19,
-      "price": 414.3,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · META · Swing trade · $414.3→$389.44 (6%) · bull_flag · Natera, Inc.",
-      "detailTw": "NTRA 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $414.3／止損 $389.44（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.290Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 122%",
-              "回踩落入 zone $192.6–$436.19",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 3,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.290Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "BO",
-            "blockLong": false,
-            "note": "bull flag：破旗面偏 BO，否則 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.290Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "NTRA",
-            "action": "可考慮進場",
-            "best": "META",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "CE",
-      "name": "Celanese Corporation",
-      "theme": "化學工業",
-      "etf": "XLB",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 5
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 49.3,
-      "stop": 46.34,
-      "riskPct": 6,
+      "entry": 341.12,
+      "stop": 320.69,
+      "riskPct": 5.99,
       "levels": {
-        "entry": 49.3,
-        "stop": 46.34,
-        "riskPct": 6,
+        "entry": 341.12,
+        "stop": 320.69,
+        "riskPct": 5.99,
         "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 49.64
+        "stopClampedTo6pct": false,
+        "targetHint": 356.22
       },
       "why": [
         "領導股 + Pullback 達標",
         "VCP：樞紐附近 META／Pullback"
       ],
       "pattern": "VCP",
-      "pivot": 49.64,
-      "price": 49.3,
+      "pivot": 356.22,
+      "price": 341.12,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $49.3→$46.34 (6%) · VCP · Celanese Corporation",
-      "detailTw": "CE 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $49.3／止損 $46.34（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $341.12→$320.69 (5.99%) · VCP · The Home Depot, Inc.",
+      "detailTw": "HD 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $341.12／止損 $320.69（風險 5.99%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.260Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 39%",
-              "回踩落入 zone $42.14–$49.64",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 2,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.260Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "Pullback",
-            "blockLong": false,
-            "note": "VCP：樞紐附近 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.260Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "CE",
-            "action": "可考慮進場",
-            "best": "Pullback",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "CHDN",
-      "name": "Churchill Downs Incorporated",
-      "theme": "雜項",
-      "etf": "XLY",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 5
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "Pullback",
-      "tradeStyle": "Position trade",
-      "entry": 94.83,
-      "stop": 89.14,
-      "riskPct": 6,
-      "levels": {
-        "entry": 94.83,
-        "stop": 89.14,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 94.86
-      },
-      "why": [
-        "領導股 + Pullback 達標",
-        "VCP：樞紐附近 META／Pullback"
-      ],
-      "pattern": "VCP",
-      "pivot": 94.86,
-      "price": 94.83,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $94.83→$89.14 (6%) · VCP · Churchill Downs Incorporated",
-      "detailTw": "CHDN 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $94.83／止損 $89.14（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.249Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 27%",
-              "回踩落入 zone $79.4–$94.86",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 3,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.249Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "Pullback",
-            "blockLong": false,
-            "note": "VCP：樞紐附近 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.249Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "CHDN",
-            "action": "可考慮進場",
-            "best": "Pullback",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "DEO",
-      "name": "Diageo plc",
-      "theme": "雜項",
-      "etf": "XLP",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 5
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "META",
-      "tradeStyle": "Swing trade",
-      "entry": 93.44,
-      "stop": 87.83,
-      "riskPct": 6,
-      "levels": {
-        "entry": 93.44,
-        "stop": 87.83,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 95.05
-      },
-      "why": [
-        "領導股 + META 達標",
-        "bull flag：破旗面偏 BO，否則 META／Pullback"
-      ],
-      "pattern": "bull_flag",
-      "pivot": 95.05,
-      "price": 93.44,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · META · Swing trade · $93.44→$87.83 (6%) · bull_flag · Diageo plc",
-      "detailTw": "DEO 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $93.44／止損 $87.83（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.265Z",
+          "t": "2026-11-02T21:11:00.802Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -2148,7 +1354,406 @@
             "ok": true,
             "reasons": [
               "先前大升約 21%",
-              "回踩落入 zone $76.8–$95.05",
+              "回踩落入 zone $320.69–$356.22"
+            ],
+            "metaScore": 1,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.802Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "Pullback",
+            "blockLong": false,
+            "note": "VCP：樞紐附近 META／Pullback"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.802Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "HD",
+            "action": "可考慮進場",
+            "best": "Pullback",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "LOW",
+      "name": "Lowe's Companies, Inc.",
+      "theme": "雜項",
+      "etf": "XLY",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 6
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "可考慮進場",
+      "bestMethod": "Pullback",
+      "tradeStyle": "Position trade",
+      "entry": 218.12,
+      "stop": 205.03,
+      "riskPct": 6,
+      "levels": {
+        "entry": 218.12,
+        "stop": 205.03,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 225.97
+      },
+      "why": [
+        "領導股 + Pullback 達標",
+        "VCP：樞紐附近 META／Pullback"
+      ],
+      "pattern": "VCP",
+      "pivot": 225.97,
+      "price": 218.12,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $218.12→$205.03 (6%) · VCP · Lowe's Companies, Inc.",
+      "detailTw": "LOW 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $218.12／止損 $205.03（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.795Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 21%",
+              "回踩落入 zone $186.32–$225.97"
+            ],
+            "metaScore": 1,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.795Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "Pullback",
+            "blockLong": false,
+            "note": "VCP：樞紐附近 META／Pullback"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.795Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "LOW",
+            "action": "可考慮進場",
+            "best": "Pullback",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "NEE",
+      "name": "NextEra Energy, Inc.",
+      "theme": "能源",
+      "etf": "XLU",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 6
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "可考慮進場",
+      "bestMethod": "META",
+      "tradeStyle": "Swing trade",
+      "entry": 85.05,
+      "stop": 79.95,
+      "riskPct": 6,
+      "levels": {
+        "entry": 85.05,
+        "stop": 79.95,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 88.55
+      },
+      "why": [
+        "領導股 + META 達標",
+        "杯柄：破柄頂偏 BO"
+      ],
+      "pattern": "cup_with_handle",
+      "pivot": 88.55,
+      "price": 85.05,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "可考慮進場 · META · Swing trade · $85.05→$79.95 (6%) · cup_with_handle · NextEra Energy, Inc.",
+      "detailTw": "NEE 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $85.05／止損 $79.95（風險 6%，上限 6%）\n原因：領導股 + META 達標；杯柄：破柄頂偏 BO",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.800Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 20%",
+              "回踩落入 zone $67.31–$88.55",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.800Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "BO",
+            "blockLong": false,
+            "note": "杯柄：破柄頂偏 BO"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.800Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "NEE",
+            "action": "可考慮進場",
+            "best": "META",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "SAP",
+      "name": "SAP SE",
+      "theme": "Hardware",
+      "etf": "XLK",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 6
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "可考慮進場",
+      "bestMethod": "Pullback",
+      "tradeStyle": "Position trade",
+      "entry": 233.68,
+      "stop": 219.66,
+      "riskPct": 6,
+      "levels": {
+        "entry": 233.68,
+        "stop": 219.66,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 243.05
+      },
+      "why": [
+        "領導股 + Pullback 達標",
+        "VCP：樞紐附近 META／Pullback"
+      ],
+      "pattern": "VCP",
+      "pivot": 243.05,
+      "price": 233.68,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $233.68→$219.66 (6%) · VCP · SAP SE",
+      "detailTw": "SAP 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $233.68／止損 $219.66（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.798Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 60%",
+              "回踩縮量",
+              "回踩落入 zone $203.17–$243.05",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.798Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "Pullback",
+            "blockLong": false,
+            "note": "VCP：樞紐附近 META／Pullback"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.798Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "SAP",
+            "action": "可考慮進場",
+            "best": "Pullback",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "SHW",
+      "name": "The Sherwin-Williams Company",
+      "theme": "化學工業",
+      "etf": "XLB",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 6
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "可考慮進場",
+      "bestMethod": "Pullback",
+      "tradeStyle": "Position trade",
+      "entry": 352.51,
+      "stop": 331.36,
+      "riskPct": 6,
+      "levels": {
+        "entry": 352.51,
+        "stop": 331.36,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 371.3
+      },
+      "why": [
+        "領導股 + Pullback 達標",
+        "VCP：樞紐附近 META／Pullback"
+      ],
+      "pattern": "VCP",
+      "pivot": 371.3,
+      "price": 352.51,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $352.51→$331.36 (6%) · VCP · The Sherwin-Williams Company",
+      "detailTw": "SHW 進場策略（Arok）\n領導股：是（score 6）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $352.51／止損 $331.36（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.803Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 21%",
+              "回踩落入 zone $300.41–$371.3",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.803Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "Pullback",
+            "blockLong": false,
+            "note": "VCP：樞紐附近 META／Pullback"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.803Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "SHW",
+            "action": "可考慮進場",
+            "best": "Pullback",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "BIIB",
+      "name": "Biogen Inc.",
+      "theme": "醫療",
+      "etf": "XLV",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 5
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "可考慮進場",
+      "bestMethod": "META",
+      "tradeStyle": "Swing trade",
+      "entry": 249.01,
+      "stop": 234.07,
+      "riskPct": 6,
+      "levels": {
+        "entry": 249.01,
+        "stop": 234.07,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 258.78
+      },
+      "why": [
+        "領導股 + META 達標",
+        "bull flag：破旗面偏 BO，否則 META／Pullback"
+      ],
+      "pattern": "bull_flag",
+      "pivot": 258.78,
+      "price": 249.01,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "可考慮進場 · META · Swing trade · $249.01→$234.07 (6%) · bull_flag · Biogen Inc.",
+      "detailTw": "BIIB 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $249.01／止損 $234.07（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.796Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 33%",
+              "回踩落入 zone $196.92–$258.78",
               "回踩處 META 同時成立"
             ],
             "metaScore": 4,
@@ -2156,7 +1761,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.265Z",
+          "t": "2026-11-02T21:11:00.796Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -2167,12 +1772,12 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.265Z",
+          "t": "2026-11-02T21:11:00.796Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
           "detail": {
-            "ticker": "DEO",
+            "ticker": "BIIB",
             "action": "可考慮進場",
             "best": "META",
             "leader": true
@@ -2185,7 +1790,7 @@
       "name": "Dollar General Corporation",
       "theme": "雜項",
       "etf": "XLP",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 5
@@ -2195,12 +1800,12 @@
       "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 132.3,
-      "stop": 124.36,
+      "entry": 135.81,
+      "stop": 127.66,
       "riskPct": 6,
       "levels": {
-        "entry": 132.3,
-        "stop": 124.36,
+        "entry": 135.81,
+        "stop": 127.66,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
@@ -2212,14 +1817,14 @@
       ],
       "pattern": "VCP",
       "pivot": 133.47,
-      "price": 132.3,
+      "price": 135.81,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $132.3→$124.36 (6%) · VCP · Dollar General Corporation",
-      "detailTw": "DG 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $132.3／止損 $124.36（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $135.81→$127.66 (6%) · VCP · Dollar General Corporation",
+      "detailTw": "DG 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $135.81／止損 $127.66（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.262Z",
+          "t": "2026-11-02T21:11:00.777Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -2227,16 +1832,16 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "先前大升約 31%",
-              "回踩落入 zone $116.93–$133.47",
+              "先前大升約 35%",
+              "回踩落入 zone $116.93–$135.81",
               "回踩處 META 同時成立"
             ],
-            "metaScore": 3,
+            "metaScore": 4,
             "note": "缩量回踩＋支持區，Pullback 成立"
           }
         },
         {
-          "t": "2026-11-02T15:48:52.262Z",
+          "t": "2026-11-02T21:11:00.777Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -2247,7 +1852,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.262Z",
+          "t": "2026-11-02T21:11:00.777Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -2261,11 +1866,11 @@
       ]
     },
     {
-      "ticker": "EFX",
-      "name": "Equifax Inc.",
-      "theme": "雜項",
-      "etf": "XLI",
-      "asOf": "2026-10-30",
+      "ticker": "DHT",
+      "name": "DHT Holdings, Inc.",
+      "theme": "能源",
+      "etf": "XLE",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 5
@@ -2275,31 +1880,31 @@
       "action": "可考慮進場",
       "bestMethod": "META",
       "tradeStyle": "Swing trade",
-      "entry": 184.6,
-      "stop": 173.52,
+      "entry": 23.87,
+      "stop": 22.44,
       "riskPct": 6,
       "levels": {
-        "entry": 184.6,
-        "stop": 173.52,
+        "entry": 23.87,
+        "stop": 22.44,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
-        "targetHint": 188.29
+        "targetHint": 25.38
       },
       "why": [
         "領導股 + META 達標",
         "bull flag：破旗面偏 BO，否則 META／Pullback"
       ],
       "pattern": "bull_flag",
-      "pivot": 188.29,
-      "price": 184.6,
+      "pivot": 25.38,
+      "price": 23.87,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · META · Swing trade · $184.6→$173.52 (6%) · bull_flag · Equifax Inc.",
-      "detailTw": "EFX 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $184.6／止損 $173.52（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
+      "summaryTw": "可考慮進場 · META · Swing trade · $23.87→$22.44 (6%) · bull_flag · DHT Holdings, Inc.",
+      "detailTw": "DHT 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $23.87／止損 $22.44（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.274Z",
+          "t": "2026-11-02T21:11:00.805Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -2307,8 +1912,8 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "先前大升約 35%",
-              "回踩落入 zone $153.47–$188.29",
+              "先前大升約 57%",
+              "回踩落入 zone $15.48–$25.38",
               "回踩處 META 同時成立"
             ],
             "metaScore": 3,
@@ -2316,7 +1921,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.274Z",
+          "t": "2026-11-02T21:11:00.805Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -2327,12 +1932,12 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.274Z",
+          "t": "2026-11-02T21:11:00.805Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
           "detail": {
-            "ticker": "EFX",
+            "ticker": "DHT",
             "action": "可考慮進場",
             "best": "META",
             "leader": true
@@ -2341,11 +1946,11 @@
       ]
     },
     {
-      "ticker": "HAFN",
-      "name": "Hafnia Limited",
+      "ticker": "DLTR",
+      "name": "Dollar Tree, Inc.",
       "theme": "雜項",
-      "etf": "XLI",
-      "asOf": "2026-10-30",
+      "etf": "XLP",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 5
@@ -2355,31 +1960,31 @@
       "action": "可考慮進場",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 10.87,
-      "stop": 10.22,
+      "entry": 138.6,
+      "stop": 130.28,
       "riskPct": 6,
       "levels": {
-        "entry": 10.87,
-        "stop": 10.22,
+        "entry": 138.6,
+        "stop": 130.28,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
-        "targetHint": 11.12
+        "targetHint": 137.07
       },
       "why": [
         "領導股 + Pullback 達標",
         "VCP：樞紐附近 META／Pullback"
       ],
       "pattern": "VCP",
-      "pivot": 11.12,
-      "price": 10.87,
+      "pivot": 137.07,
+      "price": 138.6,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $10.87→$10.22 (6%) · VCP · Hafnia Limited",
-      "detailTw": "HAFN 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $10.87／止損 $10.22（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $138.6→$130.28 (6%) · VCP · Dollar Tree, Inc.",
+      "detailTw": "DLTR 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $138.6／止損 $130.28（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.277Z",
+          "t": "2026-11-02T21:11:00.776Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -2387,9 +1992,8 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "先前大升約 75%",
-              "回踩縮量",
-              "回踩落入 zone $9.81–$11.12",
+              "先前大升約 60%",
+              "回踩落入 zone $116.81–$138.6",
               "回踩處 META 同時成立"
             ],
             "metaScore": 3,
@@ -2397,7 +2001,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.277Z",
+          "t": "2026-11-02T21:11:00.776Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -2408,12 +2012,12 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.277Z",
+          "t": "2026-11-02T21:11:00.776Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
           "detail": {
-            "ticker": "HAFN",
+            "ticker": "DLTR",
             "action": "可考慮進場",
             "best": "Pullback",
             "leader": true
@@ -2422,11 +2026,252 @@
       ]
     },
     {
-      "ticker": "PLNT",
-      "name": "Planet Fitness, Inc.",
+      "ticker": "EXPE",
+      "name": "Expedia Group, Inc.",
       "theme": "雜項",
       "etf": "XLY",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 5
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "可考慮進場",
+      "bestMethod": "Pullback",
+      "tradeStyle": "Position trade",
+      "entry": 298.99,
+      "stop": 281.05,
+      "riskPct": 6,
+      "levels": {
+        "entry": 298.99,
+        "stop": 281.05,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 301.81
+      },
+      "why": [
+        "領導股 + Pullback 達標",
+        "VCP：樞紐附近 META／Pullback"
+      ],
+      "pattern": "VCP",
+      "pivot": 301.81,
+      "price": 298.99,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $298.99→$281.05 (6%) · VCP · Expedia Group, Inc.",
+      "detailTw": "EXPE 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $298.99／止損 $281.05（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.779Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 40%",
+              "回踩落入 zone $273.95–$301.81",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.779Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "Pullback",
+            "blockLong": false,
+            "note": "VCP：樞紐附近 META／Pullback"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.779Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "EXPE",
+            "action": "可考慮進場",
+            "best": "Pullback",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "FAST",
+      "name": "Fastenal Company",
+      "theme": "雜項",
+      "etf": "XLI",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 5
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "可考慮進場",
+      "bestMethod": "Pullback",
+      "tradeStyle": "Position trade",
+      "entry": 52.55,
+      "stop": 49.4,
+      "riskPct": 6,
+      "levels": {
+        "entry": 52.55,
+        "stop": 49.4,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 52.65
+      },
+      "why": [
+        "領導股 + Pullback 達標",
+        "VCP：樞紐附近 META／Pullback"
+      ],
+      "pattern": "VCP",
+      "pivot": 52.65,
+      "price": 52.55,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $52.55→$49.4 (6%) · VCP · Fastenal Company",
+      "detailTw": "FAST 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $52.55／止損 $49.4（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.753Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 23%",
+              "回踩縮量",
+              "回踩落入 zone $47.41–$52.65",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.753Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "Pullback",
+            "blockLong": false,
+            "note": "VCP：樞紐附近 META／Pullback"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.753Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "FAST",
+            "action": "可考慮進場",
+            "best": "Pullback",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "MUR",
+      "name": "Murphy Oil Corporation",
+      "theme": "能源",
+      "etf": "XLE",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 5
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "可考慮進場",
+      "bestMethod": "Pullback",
+      "tradeStyle": "Position trade",
+      "entry": 40.13,
+      "stop": 37.72,
+      "riskPct": 6,
+      "levels": {
+        "entry": 40.13,
+        "stop": 37.72,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 40.69
+      },
+      "why": [
+        "領導股 + Pullback 達標",
+        "VCP：樞紐附近 META／Pullback"
+      ],
+      "pattern": "VCP",
+      "pivot": 40.69,
+      "price": 40.13,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $40.13→$37.72 (6%) · VCP · Murphy Oil Corporation",
+      "detailTw": "MUR 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $40.13／止損 $37.72（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.775Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 29%",
+              "回踩落入 zone $33.79–$40.69",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 3,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.775Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "Pullback",
+            "blockLong": false,
+            "note": "VCP：樞紐附近 META／Pullback"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.775Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "MUR",
+            "action": "可考慮進場",
+            "best": "Pullback",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "SLDE",
+      "name": "Slide Insurance Holdings, Inc.",
+      "theme": "雜項",
+      "etf": "SPY",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 5
@@ -2436,31 +2281,31 @@
       "action": "可考慮進場",
       "bestMethod": "META",
       "tradeStyle": "Swing trade",
-      "entry": 53.58,
-      "stop": 50.37,
+      "entry": 27.53,
+      "stop": 25.88,
       "riskPct": 6,
       "levels": {
-        "entry": 53.58,
-        "stop": 50.37,
+        "entry": 27.53,
+        "stop": 25.88,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
-        "targetHint": 54.38
+        "targetHint": 29.04
       },
       "why": [
         "領導股 + META 達標",
         "bull flag：破旗面偏 BO，否則 META／Pullback"
       ],
       "pattern": "bull_flag",
-      "pivot": 54.38,
-      "price": 53.58,
+      "pivot": 29.04,
+      "price": 27.53,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · META · Swing trade · $53.58→$50.37 (6%) · bull_flag · Planet Fitness, Inc.",
-      "detailTw": "PLNT 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $53.58／止損 $50.37（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
+      "summaryTw": "可考慮進場 · META · Swing trade · $27.53→$25.88 (6%) · bull_flag · Slide Insurance Holdings, Inc.",
+      "detailTw": "SLDE 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 META｜Swing trade\n入場約 $27.53／止損 $25.88（風險 6%，上限 6%）\n原因：領導股 + META 達標；bull flag：破旗面偏 BO，否則 META／Pullback",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.263Z",
+          "t": "2026-11-02T21:11:00.804Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -2468,16 +2313,16 @@
             "method": "Pullback",
             "ok": true,
             "reasons": [
-              "先前大升約 32%",
-              "回踩落入 zone $49.94–$54.38",
+              "先前大升約 72%",
+              "回踩落入 zone $12.49–$29.04",
               "回踩處 META 同時成立"
             ],
-            "metaScore": 4,
+            "metaScore": 3,
             "note": "缩量回踩＋支持區，Pullback 成立"
           }
         },
         {
-          "t": "2026-11-02T15:48:52.263Z",
+          "t": "2026-11-02T21:11:00.804Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -2488,14 +2333,94 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.263Z",
+          "t": "2026-11-02T21:11:00.804Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
           "detail": {
-            "ticker": "PLNT",
+            "ticker": "SLDE",
             "action": "可考慮進場",
             "best": "META",
+            "leader": true
+          }
+        }
+      ]
+    },
+    {
+      "ticker": "STZ",
+      "name": "Constellation Brands, Inc.",
+      "theme": "雜項",
+      "etf": "XLP",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 5
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "可考慮進場",
+      "bestMethod": "Pullback",
+      "tradeStyle": "Position trade",
+      "entry": 140.71,
+      "stop": 132.27,
+      "riskPct": 6,
+      "levels": {
+        "entry": 140.71,
+        "stop": 132.27,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 138.16
+      },
+      "why": [
+        "領導股 + Pullback 達標",
+        "VCP：樞紐附近 META／Pullback"
+      ],
+      "pattern": "VCP",
+      "pivot": 138.16,
+      "price": 140.71,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "可考慮進場 · Pullback · Position trade · $140.71→$132.27 (6%) · VCP · Constellation Brands, Inc.",
+      "detailTw": "STZ 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $140.71／止損 $132.27（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.778Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": true,
+            "reasons": [
+              "先前大升約 26%",
+              "回踩落入 zone $126.27–$140.71",
+              "回踩處 META 同時成立"
+            ],
+            "metaScore": 4,
+            "note": "缩量回踩＋支持區，Pullback 成立"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.778Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "Pullback",
+            "blockLong": false,
+            "note": "VCP：樞紐附近 META／Pullback"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.778Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "STZ",
+            "action": "可考慮進場",
+            "best": "Pullback",
             "leader": true
           }
         }
@@ -2506,58 +2431,55 @@
       "name": "Sanofi",
       "theme": "醫療",
       "etf": "XLV",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
-        "score": 5
+        "score": 6
       },
       "leader": true,
       "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "Pullback",
-      "tradeStyle": "Position trade",
-      "entry": 44.34,
-      "stop": 41.68,
+      "action": "觀望",
+      "bestMethod": null,
+      "tradeStyle": null,
+      "entry": 45.55,
+      "stop": 42.82,
       "riskPct": 6,
       "levels": {
-        "entry": 44.34,
-        "stop": 41.68,
+        "entry": 45.55,
+        "stop": 42.82,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": true,
         "targetHint": 46.11
       },
       "why": [
-        "領導股 + Pullback 達標",
-        "杯柄：破柄頂偏 BO"
+        "META／BO／Pullback 皆未達標"
       ],
       "pattern": "cup_with_handle",
       "pivot": 46.11,
-      "price": 44.34,
+      "price": 45.55,
       "setupStale": false,
       "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $44.34→$41.68 (6%) · cup_with_handle · Sanofi",
-      "detailTw": "SNY 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $44.34／止損 $41.68（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；杯柄：破柄頂偏 BO",
+      "summaryTw": "觀望 · — · — · $45.55→$42.82 (6%) · cup_with_handle · Sanofi",
+      "detailTw": "SNY 進場策略（Arok）\n領導股：是（score 6）\n建議：觀望\n入場約 $45.55／止損 $42.82（風險 6%，上限 6%）\n原因：META／BO／Pullback 皆未達標",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.287Z",
+          "t": "2026-11-02T21:11:00.786Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
           "detail": {
             "method": "Pullback",
-            "ok": true,
+            "ok": false,
             "reasons": [
-              "先前大升約 20%",
-              "回踩落入 zone $39.07–$46.11",
-              "回踩處 META 同時成立"
+              "回踩落入 zone $39.07–$46.11"
             ],
-            "metaScore": 2,
-            "note": "缩量回踩＋支持區，Pullback 成立"
+            "metaScore": 0,
+            "note": "Pullback 條件不足"
           }
         },
         {
-          "t": "2026-11-02T15:48:52.287Z",
+          "t": "2026-11-02T21:11:00.786Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -2568,94 +2490,14 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.287Z",
+          "t": "2026-11-02T21:11:00.786Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
           "detail": {
             "ticker": "SNY",
-            "action": "可考慮進場",
-            "best": "Pullback",
-            "leader": true
-          }
-        }
-      ]
-    },
-    {
-      "ticker": "TRI",
-      "name": "Thomson Reuters Corporation",
-      "theme": "雜項",
-      "etf": "XLI",
-      "asOf": "2026-10-30",
-      "leadership": {
-        "isLeader": true,
-        "score": 5
-      },
-      "leader": true,
-      "techPass": true,
-      "action": "可考慮進場",
-      "bestMethod": "Pullback",
-      "tradeStyle": "Position trade",
-      "entry": 118.25,
-      "stop": 111.15,
-      "riskPct": 6,
-      "levels": {
-        "entry": 118.25,
-        "stop": 111.15,
-        "riskPct": 6,
-        "maxStopPct": 6,
-        "stopClampedTo6pct": true,
-        "targetHint": 124.69
-      },
-      "why": [
-        "領導股 + Pullback 達標",
-        "VCP：樞紐附近 META／Pullback"
-      ],
-      "pattern": "VCP",
-      "pivot": 124.69,
-      "price": 118.25,
-      "setupStale": false,
-      "chartPath": null,
-      "summaryTw": "可考慮進場 · Pullback · Position trade · $118.25→$111.15 (6%) · VCP · Thomson Reuters Corporation",
-      "detailTw": "TRI 進場策略（Arok）\n領導股：是（score 5）\n建議：可考慮進場｜方法 Pullback｜Position trade\n入場約 $118.25／止損 $111.15（風險 6%，上限 6%）\n原因：領導股 + Pullback 達標；VCP：樞紐附近 META／Pullback",
-      "thinkingLog": [
-        {
-          "t": "2026-11-02T15:48:52.290Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "Pullback:done",
-          "detail": {
-            "method": "Pullback",
-            "ok": true,
-            "reasons": [
-              "先前大升約 55%",
-              "回踩落入 zone $95.66–$124.69",
-              "回踩處 META 同時成立"
-            ],
-            "metaScore": 4,
-            "note": "缩量回踩＋支持區，Pullback 成立"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.290Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "pattern:prefer",
-          "detail": {
-            "prefer": "Pullback",
-            "blockLong": false,
-            "note": "VCP：樞紐附近 META／Pullback"
-          }
-        },
-        {
-          "t": "2026-11-02T15:48:52.290Z",
-          "bot": "Arok",
-          "role": "進場策略",
-          "step": "propose:done",
-          "detail": {
-            "ticker": "TRI",
-            "action": "可考慮進場",
-            "best": "Pullback",
+            "action": "觀望",
+            "best": null,
             "leader": true
           }
         }
@@ -2666,7 +2508,7 @@
       "name": "The TJX Companies, Inc.",
       "theme": "雜項",
       "etf": "XLY",
-      "asOf": "2026-10-30",
+      "asOf": "2026-11-02",
       "leadership": {
         "isLeader": true,
         "score": 6
@@ -2676,12 +2518,12 @@
       "action": "觀望",
       "bestMethod": "Pullback",
       "tradeStyle": "Position trade",
-      "entry": 140.31,
-      "stop": 131.89,
+      "entry": 141.02,
+      "stop": 132.56,
       "riskPct": 6,
       "levels": {
-        "entry": 140.31,
-        "stop": 131.89,
+        "entry": 141.02,
+        "stop": 132.56,
         "riskPct": 6,
         "maxStopPct": 6,
         "stopClampedTo6pct": false,
@@ -2693,14 +2535,14 @@
       ],
       "pattern": "bull_flag",
       "pivot": 147.69,
-      "price": 140.31,
+      "price": 141.02,
       "setupStale": true,
       "chartPath": null,
-      "summaryTw": "觀望 · Pullback · Position trade · $140.31→$131.89 (6%) · bull_flag · The TJX Companies, Inc.",
-      "detailTw": "TJX 進場策略（Arok）\n領導股：是（score 6）\n建議：觀望｜方法 Pullback｜Position trade\n入場約 $140.31／止損 $131.89（風險 6%，上限 6%）\n原因：形態水位已失效（現價低於收縮低／結構止損），先等重新築底；方法本可為 Pullback，但水位失效暫不進場",
+      "summaryTw": "觀望 · Pullback · Position trade · $141.02→$132.56 (6%) · bull_flag · The TJX Companies, Inc.",
+      "detailTw": "TJX 進場策略（Arok）\n領導股：是（score 6）\n建議：觀望｜方法 Pullback｜Position trade\n入場約 $141.02／止損 $132.56（風險 6%，上限 6%）\n原因：形態水位已失效（現價低於收縮低／結構止損），先等重新築底；方法本可為 Pullback，但水位失效暫不進場",
       "thinkingLog": [
         {
-          "t": "2026-11-02T15:48:52.289Z",
+          "t": "2026-11-02T21:11:00.803Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "Pullback:done",
@@ -2709,6 +2551,7 @@
             "ok": true,
             "reasons": [
               "先前大升約 20%",
+              "回踩縮量",
               "回踩處 META 同時成立"
             ],
             "metaScore": 2,
@@ -2716,7 +2559,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.289Z",
+          "t": "2026-11-02T21:11:00.803Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "pattern:prefer",
@@ -2727,7 +2570,7 @@
           }
         },
         {
-          "t": "2026-11-02T15:48:52.289Z",
+          "t": "2026-11-02T21:11:00.803Z",
           "bot": "Arok",
           "role": "進場策略",
           "step": "propose:done",
@@ -2739,21 +2582,99 @@
           }
         }
       ]
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics Corporation",
+      "theme": "雜項",
+      "etf": "XLI",
+      "asOf": "2026-11-02",
+      "leadership": {
+        "isLeader": true,
+        "score": 5
+      },
+      "leader": true,
+      "techPass": true,
+      "action": "觀望",
+      "bestMethod": null,
+      "tradeStyle": null,
+      "entry": 373.53,
+      "stop": 351.12,
+      "riskPct": 6,
+      "levels": {
+        "entry": 373.53,
+        "stop": 351.12,
+        "riskPct": 6,
+        "maxStopPct": 6,
+        "stopClampedTo6pct": true,
+        "targetHint": 395.01
+      },
+      "why": [
+        "META／BO／Pullback 皆未達標"
+      ],
+      "pattern": "cup_with_handle",
+      "pivot": 395.01,
+      "price": 373.53,
+      "setupStale": false,
+      "chartPath": null,
+      "summaryTw": "觀望 · — · — · $373.53→$351.12 (6%) · cup_with_handle · General Dynamics Corporation",
+      "detailTw": "GD 進場策略（Arok）\n領導股：是（score 5）\n建議：觀望\n入場約 $373.53／止損 $351.12（風險 6%，上限 6%）\n原因：META／BO／Pullback 皆未達標",
+      "thinkingLog": [
+        {
+          "t": "2026-11-02T21:11:00.805Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "Pullback:done",
+          "detail": {
+            "method": "Pullback",
+            "ok": false,
+            "reasons": [
+              "先前大升約 21%",
+              "回踩落入 zone $320.45–$395.01"
+            ],
+            "metaScore": 0,
+            "note": "Pullback 條件不足"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.805Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "pattern:prefer",
+          "detail": {
+            "prefer": "BO",
+            "blockLong": false,
+            "note": "杯柄：破柄頂偏 BO"
+          }
+        },
+        {
+          "t": "2026-11-02T21:11:00.805Z",
+          "bot": "Arok",
+          "role": "進場策略",
+          "step": "propose:done",
+          "detail": {
+            "ticker": "GD",
+            "action": "觀望",
+            "best": null,
+            "leader": true
+          }
+        }
+      ]
     }
   ],
   "thinkingLog": [
     {
-      "t": "2026-11-02T15:48:52.244Z",
+      "t": "2026-11-02T21:11:00.744Z",
       "bot": "Arok",
       "role": "進場策略",
       "step": "batch:done",
       "detail": {
-        "techPassed": 78,
-        "leadersIntersect": 34,
-        "plans": 34,
-        "actionable": 33,
-        "watch": 1,
-        "asOf": "2026-10-30"
+        "techPassed": 83,
+        "leadersIntersect": 33,
+        "plans": 33,
+        "actionable": 30,
+        "watch": 3,
+        "asOf": "2026-11-02"
       }
     }
   ]
