@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-02T23:48:17+08:00",
+  "generatedAt": "2026-11-02T23:49:08+08:00",
   "asOf": "2026-10-30",
-  "asOfHKT": "2026-11-02 23:48 HKT",
+  "asOfHKT": "2026-11-02 23:49 HKT",
   "runTag": "2300",
   "bot": "Trok",
   "pipeline": {
@@ -9,17 +9,17 @@
     "techPassed": 78,
     "company": 34,
     "leaders": 34,
-    "entry": 31,
-    "entryConsider": 30,
+    "entry": 34,
+    "entryConsider": 33,
     "entryWatch": 1,
-    "downstreamStale": true,
-    "anchor": "ALIGN 701→78→34→31 pending Arok⑤; asOfMarket 10-30. tip ?v=co34-1030",
+    "downstreamStale": false,
+    "anchor": "LOCK 701→78→34→34 asOf 10-30 (consider 33 / watch TJX). tip ?v=en34-1030",
     "patternMix": {
-      "VCP": 54,
-      "bull_flag": 23,
+      "VCP": 23,
+      "bull_flag": 10,
       "cup_with_handle": 1
     },
-    "note": "Jrok company/leaders 34 tip 48707ff (ADD42/DROP25; depthKept34); entry still prior 31 — STALE until Arok⑤. BROS out of leaders; WM in.",
+    "note": "Arok ⑤ 23:49 HKT: entry 34 on Jrok leaders 34 / Grok tech 78 / Frok scr 701. Watch TJX; BROS out. Push tip en34-1030.",
     "screener": 701,
     "techPass": 78,
     "liveFrokPool": 701,
@@ -107,10 +107,14 @@
       "tech": "2026-11-02 22:58 HKT (generatedAt 2026-11-02T14:58:15Z asOfMarket 10-30)",
       "company": "2026-11-02 22:53 HKT (asOf 10-27 techAlign 61 STALE)",
       "entry": "2026-11-02 22:50 HKT (asOf 10-27 upstream 61 STALE)"
+    },
+    "methodMix": {
+      "Pullback": 25,
+      "META": 9
     }
   },
-  "status": "ALIGN",
-  "summaryTw": "【總司令｜ALIGN】701→78→34→31（entry STALE）asOf 10-30｜待 Arok⑤｜tip ?v=co34-1030",
+  "status": "LOCK",
+  "summaryTw": "【總司令｜LOCK】701→78→34→34 asOf 10-30｜可考慮33／觀望TJX｜tip ?v=en34-1030",
   "materialChange": true,
   "materialReasons": [
     "techPass cmd2252 69 (pool 685) → live 78 (pool 701 / Frok701 tip 862e76f); Δ+9/−0/kept69",
