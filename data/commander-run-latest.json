@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-11-02T22:55:10+08:00",
-  "asOf": "2026-10-27",
+  "generatedAt": "2026-11-02T22:55:32+08:00",
+  "asOf": "2026-10-30",
   "asOfHKT": "2026-11-02 22:55 HKT",
   "runTag": "1459",
   "bot": "Trok",
   "pipeline": {
-    "candidates": 664,
-    "techPassed": 61,
+    "candidates": 701,
+    "techPassed": 69,
     "company": 31,
     "leaders": 31,
     "entry": 31,
     "entryConsider": 30,
     "entryWatch": 1,
-    "downstreamStale": false,
-    "anchor": "LOCK 664→61→31→31 asOf 10-27 (+SM/−MAR; consider 30 / watch BROS). tip ?v=en31-2250",
+    "downstreamStale": true,
+    "anchor": "ALIGN 701→69→31→31 pending Jrok/Arok (+ Grok rescan 701); asOfMarket 10-30. tip ?v=scr701-1030",
     "methodMix": {
       "Pullback": 28,
       "META": 3
     },
     "patternMix": {
-      "VCP": 25,
-      "bull_flag": 5,
+      "VCP": 45,
+      "bull_flag": 23,
       "cup_with_handle": 1
     },
-    "note": "Arok ⑤ 22:50 HKT Nov2: released deferred LOCK 64; follow live tech 61 + Jrok leaders 31. Entry tip 4222c5e en31-2250. Frok live scr may wobble — not re-locked.",
-    "screener": 664,
-    "techPass": 61,
+    "note": "Frok scr 701 asOf 10-30 pushed; Grok transitional tech 685→69 tip 36622d3 — Frok asked rescan on 701. Downstream entry still prior 664→61→31 LOCK STALE until Jrok③/Arok⑤.",
+    "screener": 701,
+    "techPass": 69,
     "liveFrokPool": 685,
     "mtimes": {
       "screener": "2026-10-28 14:01 HKT",
@@ -34,8 +34,8 @@
       "entry": "2026-10-28 14:55 HKT"
     }
   },
-  "status": "LOCK",
-  "summaryTw": "【總司令｜LOCK】664→61→31→31 asOf 10-27｜Δ＋SM／−MAR｜可考慮30／觀望BROS｜tip ?v=en31-2250",
+  "status": "ALIGN",
+  "summaryTw": "【總司令｜ALIGN】701→69→31→31（下游 STALE）asOf 10-30｜待 Grok重掃701／Jrok③／Arok⑤｜tip ?v=scr701-1030",
   "materialChange": true,
   "pagesTip": "macro1440-1028",
   "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1440-1028",
