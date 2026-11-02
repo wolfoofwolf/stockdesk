@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股mid-RTH・QQQ -0.88%／SPY -0.18%・閘門未觸｜亞JP+KR+HK CLOSED｜FedWatch Dec hold 26.6%｜NQΔ-0.74／ESΔ-0.47 SPEAK（Drok）",
   "asOf": "2026-11-02T19:45:00.000Z",
-  "updatedAt": "2026-11-02T19:48:00.000Z",
+  "updatedAt": "2026-11-02T19:50:00.000Z",
   "bot": "Drok",
   "role": "大市分析",
   "calendar": [
@@ -905,12 +905,14 @@
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro0345-1103",
     "session": "mid-RTH / Asia JP+KR+HK CLOSED",
     "pagesTipSha": null,
-    "pushed": false,
-    "pushPending": true,
-    "tipSync": false,
+    "pushed": true,
+    "pushPending": false,
+    "tipSync": true,
     "tipLock": false,
     "tipLockSeal": false,
-    "note": "0345 refresh pending Pages push"
+    "note": "content a237922a tipSync pending tipLock",
+    "contentCommitSha": "a237922a4cc6acb92c7510e9788c8763003f8f7c",
+    "blobSha": "acb38b650ccd5b901b32b117d252f3344bbe3915"
   },
   "brief": {
     "skeleton": [
