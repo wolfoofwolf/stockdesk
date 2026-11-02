@@ -76,8 +76,8 @@
       }
     ]
   },
-  "pushed": false,
-  "pushPending": true,
+  "pushed": true,
+  "pushPending": false,
   "asOf": "2026-10-30",
   "status": "LOCK",
   "materialReasons": [
@@ -240,5 +240,8 @@
   "usTradingDay": true,
   "usHoliday": false,
   "sessionNy": "RTH_OPEN",
-  "nyClock": "2026-11-02 ~11:00 EST"
+  "nyClock": "2026-11-02 ~11:00 EST",
+  "pagesTipSha": "0747d58f",
+  "contentCommitSha": "0747d58f81a1543640227482a144fa2213482974",
+  "liveSyncNote": "content 0747d58f → tipSync pending"
 }
