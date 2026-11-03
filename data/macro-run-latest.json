@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股POST_CLOSE・QQQ -1.36%／SPY -0.48%・閘門未觸｜亞KR OPEN・JP Culture Day CLOSED｜FedWatch Dec hold 27.2%｜KR OPEN SPEAK（Drok）",
   "asOf": "2026-11-03T00:45:00.000Z",
-  "updatedAt": "2026-11-03T00:47:10.000Z",
+  "updatedAt": "2026-11-03T00:47:40.000Z",
   "bot": "Drok",
   "role": "大市分析",
   "calendar": [
@@ -604,10 +604,11 @@
     "pushed": false,
     "pushPending": true,
     "tipSync": true,
-    "tipLock": false,
+    "tipLock": true,
     "tipLockSeal": false,
-    "note": "tipSync pending tipLock; pages ?v=macro0845-1103",
-    "contentCommitSha": "f25702ad5b6d7854057ded66d5c187da5a93560d"
+    "note": "tipLock commit is pages tip; seal follows; pages ?v=macro0845-1103",
+    "contentCommitSha": "f25702ad5b6d7854057ded66d5c187da5a93560d",
+    "tipSyncCommitSha": "0971772d0bd5dd7894c8de5daa1d45a717235d89"
   },
   "brief": {
     "skeleton": [
