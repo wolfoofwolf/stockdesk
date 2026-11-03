@@ -659,12 +659,13 @@
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1145-1103",
     "session": "POST_CLOSE / Asia KR OPEN / JP Culture Day CLOSED / HK OPEN",
     "pagesTipSha": "PENDING",
-    "pushed": false,
+    "pushed": true,
     "pushPending": true,
-    "tipSync": false,
+    "tipSync": true,
     "tipLock": false,
     "tipLockSeal": false,
-    "note": "content commit pending tipSync/tipLock/seal for ?v=macro1145-1103"
+    "note": "tipSync after content db7871c6; tip still PENDING pending tipLock/seal",
+    "contentCommitSha": "db7871c6bcc5236cf1726adc320793c09c1d2b7c"
   },
   "brief": {
     "skeleton": [
