@@ -662,10 +662,11 @@
     "pushed": true,
     "pushPending": true,
     "tipSync": true,
-    "tipLock": false,
+    "tipLock": true,
     "tipLockSeal": false,
-    "note": "tipSync after content db7871c6; tip still PENDING pending tipLock/seal",
-    "contentCommitSha": "db7871c6bcc5236cf1726adc320793c09c1d2b7c"
+    "note": "tipLock true; seal pending after this commit sha",
+    "contentCommitSha": "db7871c6bcc5236cf1726adc320793c09c1d2b7c",
+    "tipSyncCommitSha": "65cdc115d1525328bbba426534978fb9751d332d"
   },
   "brief": {
     "skeleton": [
