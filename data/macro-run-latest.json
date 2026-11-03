@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股POST_CLOSE・QQQ -1.36%／SPY -0.48%・閘門未觸｜亞KR OPEN・JP Culture Day CLOSED・HK OPEN｜FedWatch Dec hold 26.6%｜SILENT（Drok）",
   "asOf": "2026-11-03T04:45:00.000Z",
-  "updatedAt": "2026-11-03T04:46:57.000Z",
+  "updatedAt": "2026-11-03T04:47:21.000Z",
   "bot": "Drok",
   "role": "大市分析",
   "calendar": [
@@ -665,12 +665,17 @@
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1245-1103",
     "session": "POST_CLOSE / Asia KR OPEN / JP Culture Day CLOSED / HK OPEN",
     "pagesTipSha": null,
-    "pushed": false,
-    "pushPending": true,
-    "tipSync": false,
+    "pushed": true,
+    "pushPending": false,
+    "tipSync": true,
     "tipLock": false,
     "tipLockSeal": false,
-    "note": "pre-push content pending tipSync/tipLock/seal"
+    "note": "content 9c841c8c tipSync pending tipLock/seal",
+    "contentCommitSha": "9c841c8caef72ba0f4e3a0a92cdd52c1ed70c26c",
+    "blobSha": "10ff45f8af3d21b2d137b5039633cf20264599eb",
+    "tipSyncCommitSha": null,
+    "tipLockCommitSha": null,
+    "sealCommitSha": null
   },
   "brief": {
     "skeleton": [
