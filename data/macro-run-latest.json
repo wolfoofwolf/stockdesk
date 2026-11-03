@@ -1,7 +1,7 @@
 {
   "title": "大市更新｜美股POST_CLOSE・QQQ -1.36%／SPY -0.48%・閘門未觸｜亞KR OPEN・JP Culture Day CLOSED・HK OPEN｜FedWatch Dec hold 26.6%｜SILENT（Drok）",
   "asOf": "2026-11-03T04:45:00.000Z",
-  "updatedAt": "2026-11-03T04:47:47.000Z",
+  "updatedAt": "2026-11-03T04:47:58.000Z",
   "bot": "Drok",
   "role": "大市分析",
   "calendar": [
@@ -664,17 +664,17 @@
     "speakToStockGroup": false,
     "pagesUrl": "https://wolfoofwolf.github.io/stockdesk/?v=macro1245-1103",
     "session": "POST_CLOSE / Asia KR OPEN / JP Culture Day CLOSED / HK OPEN",
-    "pagesTipSha": "9c841c8c",
+    "pagesTipSha": "ec9ebabc",
     "pushed": true,
     "pushPending": false,
     "tipSync": true,
     "tipLock": true,
-    "tipLockSeal": false,
-    "note": "content 9c841c8c → tipSync dbc42b89 → tipLock pending seal",
+    "tipLockSeal": true,
+    "note": "sealed tipLock ec9ebabc; pages ?v=macro1245-1103; content 9c841c8c → tipSync dbc42b89 → tipLock ec9ebabc",
     "contentCommitSha": "9c841c8caef72ba0f4e3a0a92cdd52c1ed70c26c",
-    "blobSha": "6b699e7f9547d071c096340c5cf003035f195d91",
+    "blobSha": "f6615c2f15c9fdf23fc71fac4d75d7f2550f68c5",
     "tipSyncCommitSha": "dbc42b89fb76ea57777e5cc44ead6a4aefa09e1b",
-    "tipLockCommitSha": null,
+    "tipLockCommitSha": "ec9ebabcf21f57429414ff3a82e1197eb9839b24",
     "sealCommitSha": null
   },
   "brief": {
